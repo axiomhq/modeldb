@@ -1,5 +1,83 @@
-export default {
-  async fetch(request, env, ctx): Promise<Response> {
-    return new Response('Hello World!');
+import { OpenAPIHono } from '@hono/zod-openapi';
+import { cache } from 'hono/cache';
+import { cors } from 'hono/cors';
+import { etag } from 'hono/etag';
+import { json2csv } from 'json-2-csv';
+
+import { registerOpenAPIRoutes } from './openapi';
+import { registerProvidersRoutes } from './providers';
+
+const app = new OpenAPIHono({
+  defaultHook: (result, c) => {
+    if (!result.success) {
+      const firstError = result.error.issues[0];
+      const field = firstError.path.join('.');
+      const message = firstError.message;
+
+      return c.json(
+        {
+          error: `Validation failed for field '${field}': ${message}`,
+          code: 'VALIDATION_ERROR',
+          details: {
+            field,
+            message,
+          },
+        },
+        400
+      );
+    }
   },
-} satisfies ExportedHandler<Env>;
+});
+
+app.use(
+  '*',
+  cors({
+    origin: '*',
+    allowMethods: ['GET', 'OPTIONS'],
+    allowHeaders: ['Content-Type'],
+    maxAge: 86400,
+  })
+);
+
+app.use('/api/*', async (c, next) => {
+  await next();
+
+  // Check if CSV format requested
+  const format = c.req.query('format');
+  if (format === 'csv' && c.res.headers.get('content-type')?.includes('json')) {
+    const json = await c.res.json();
+    if (!Array.isArray(json)) {
+      return c.json(
+        {
+          error: 'Original response must be an array',
+          code: 'INVALID_JSON',
+        },
+        400
+      );
+    }
+    const csv = json2csv(json, {
+      prependHeader: c.req.query('headers') !== 'false',
+    });
+
+    return new Response(csv, {
+      headers: {
+        'Content-Type': 'text/csv',
+        'Content-Disposition': 'inline; filename="modeldb-export.csv"',
+      },
+    });
+  }
+});
+
+app.use('*', etag());
+app.use(
+  '/api/*',
+  cache({
+    cacheName: 'modeldb-api',
+    cacheControl: 'max-age=3600, s-maxage=86400',
+  })
+);
+
+registerProvidersRoutes(app);
+registerOpenAPIRoutes(app);
+
+export default app;

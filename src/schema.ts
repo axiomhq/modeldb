@@ -70,9 +70,23 @@ export const ModelSchema = z.object({
     .describe('Date when the model becomes deprecated (YYYY-MM-DD format)'),
 });
 
+export const ModelPartialSchema = ModelSchema.partial();
 export const ModelsSchema = z.array(ModelSchema);
-export const ProvidersSchema = z.map(z.string(), z.array(ModelSchema));
+export const ProvidersSchema = z.record(z.string(), ModelsSchema);
+export const PartialProvidersSchema = z.record(
+  z.string(),
+  z.array(ModelSchema.partial())
+);
+
+export const ProjectSchema = z
+  .string()
+  .optional()
+  .describe('Comma-separated list of fields to return');
+export const LimitSchema = z.number().min(1).max(2000).default(2000).optional();
+export const OffsetSchema = z.number().min(0).default(0).optional();
 
 export type Model = z.infer<typeof ModelSchema>;
 export type Models = z.infer<typeof ModelsSchema>;
-export type Provider = z.infer<typeof ProvidersSchema>;
+export type ModelsPartial = z.infer<typeof ModelPartialSchema>;
+export type Providers = z.infer<typeof ProvidersSchema>;
+export type ProvidersPartial = z.infer<typeof PartialProvidersSchema>;

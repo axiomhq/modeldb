@@ -190,20 +190,24 @@ export function generateDisplayName(modelId: string): string {
   }
 
   if (modelId.indexOf('/') > -1) {
-		const parts = modelId.split('/');
-		let name = DISPLAY_NAMES[parts[parts.length-1]] || parts[parts.length-1];
-		name = name.split('-').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    const parts = modelId.split('/');
+    const last = parts.at(-1) || modelId;
+    let name = DISPLAY_NAMES[last] || last;
+    name = name
+      .split('-')
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
 
-		parts[parts.length - 1] = name;
+    parts[parts.length - 1] = name;
 
-		return parts.reverse().join(' | ');
+    return parts.reverse().join(' | ');
   }
 
-  console.log('Unknown name:', modelId)
+  console.log('Unknown name:', modelId);
 
-	return modelId
-		.split('-')
-		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-		.join(' ')
-		.replace(/\Gpt/ig, 'GPT');
+  return modelId
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+    .replace(/Gpt/gi, 'GPT');
 }

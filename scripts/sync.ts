@@ -5,9 +5,9 @@ import chalk from 'chalk';
 import { Command } from 'commander';
 import ora from 'ora';
 import { z } from 'zod';
+import type { Model } from '../src/schema';
 import { generateDisplayName } from './names';
 import { getProviderDisplayName } from './providers';
-import type { Model } from '../src/schema';
 
 const LITELLM_MODEL_URL =
   'https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json';
@@ -82,33 +82,33 @@ function transformModelId(litellmName: string, provider?: string): string {
 }
 
 function transformProviderId(provider: string): string {
-	const lowerProvider = provider.split('_ai')[0].split('_')[0].toLowerCase();
+  const lowerProvider = provider.split('_ai')[0].split('_')[0].toLowerCase();
 
-	if (lowerProvider === "gemini") {
-		return "google";
-	}
-	if (lowerProvider === "meta_llama") {
-		return "meta";
-	}
-	if (lowerProvider === "mistralai") {
-		return "mistral";
-	}
-	if (lowerProvider === "codestral") {
-		return "mistral";
-	}
-	if (lowerProvider === 'deepseek-ai') {
-		return "deepseek";
-	}
-	if (lowerProvider === 'bedrock_converse') {
-		return "bedrock";
-	}
-
-  if (lowerProvider.startsWith("vertex_ai")) {
-    return "vertex";
+  if (lowerProvider === 'gemini') {
+    return 'google';
+  }
+  if (lowerProvider === 'meta_llama') {
+    return 'meta';
+  }
+  if (lowerProvider === 'mistralai') {
+    return 'mistral';
+  }
+  if (lowerProvider === 'codestral') {
+    return 'mistral';
+  }
+  if (lowerProvider === 'deepseek-ai') {
+    return 'deepseek';
+  }
+  if (lowerProvider === 'bedrock_converse') {
+    return 'bedrock';
   }
 
-  if (lowerProvider.includes("codestral")) {
-    return "mistral";
+  if (lowerProvider.startsWith('vertex_ai')) {
+    return 'vertex';
+  }
+
+  if (lowerProvider.includes('codestral')) {
+    return 'mistral';
   }
 
   return lowerProvider;
@@ -315,25 +315,39 @@ async function syncCommand(options: {
         fs.mkdirSync(outputDir, { recursive: true });
       }
 
-      // Write models-map.json (object format)
-      const mapPath = path.join(outputDir, 'map.json');
-      fs.writeFileSync(mapPath, JSON.stringify(sortedModels, null, 2));
+      // Write models-map.ts (object format)
+      const mapPath = path.join(outputDir, 'map.ts');
+      const mapContent = `import type { Model } from '../schema';
+
+export const modelsMap: Record<string, Model> = ${JSON.stringify(sortedModels, null, 2)} as const;
+`;
+      fs.writeFileSync(mapPath, mapContent);
       console.log(chalk.green(`✓ Written to ${mapPath}`));
 
-      // Write models-list.json (array format)
+      // Write models-list.ts (array format)
       const modelsList = Object.values(sortedModels);
-      const listPath = path.join(outputDir, 'list.json');
-      fs.writeFileSync(listPath, JSON.stringify(modelsList, null, 2));
+      const listPath = path.join(outputDir, 'list.ts');
+      const listContent = `import type { Models } from '../schema';
+
+export const modelsList: Models = ${JSON.stringify(modelsList, null, 2)} as const;
+`;
+      fs.writeFileSync(listPath, listContent);
       console.log(chalk.green(`✓ Written to ${listPath}`));
 
-      // Write models-metadata.json
-      const metadataPath = path.join(outputDir, 'metadata.json');
-      fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2));
+      // Write models-metadata.ts
+      const metadataPath = path.join(outputDir, 'metadata.ts');
+      const metadataContent = `export const modelsMetadata = ${JSON.stringify(metadata, null, 2)} as const;
+`;
+      fs.writeFileSync(metadataPath, metadataContent);
       console.log(chalk.green(`✓ Written to ${metadataPath}`));
 
-      // Write models-providers.json
-      const providersPath = path.join(outputDir, 'providers.json');
-      fs.writeFileSync(providersPath, JSON.stringify(sortedProviderModels, null, 2));
+      // Write models-providers.ts
+      const providersPath = path.join(outputDir, 'providers.ts');
+      const providersContent = `import type { Providers } from '../schema';
+
+export const modelsByProvider: Providers = ${JSON.stringify(sortedProviderModels, null, 2)} as const;
+`;
+      fs.writeFileSync(providersPath, providersContent);
       console.log(chalk.green(`✓ Written to ${providersPath}`));
     }
 

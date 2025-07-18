@@ -1,4 +1,6 @@
-{
+import type { Providers } from '../schema';
+
+export const modelsByProvider: Providers = {
   "ai21": [
     {
       "model_id": "j2-light",
@@ -1424,6 +1426,102 @@
       "supports_parallel_functions": false,
       "supports_streaming": true,
       "model_type": "embedding",
+      "deprecation_date": null
+    },
+    {
+      "model_id": "azure_ai/global/grok-3",
+      "model_slug": "azure_ai/global/grok-3",
+      "model_name": "Grok 3 | global | azure_ai",
+      "provider_id": "azure",
+      "provider_name": "Microsoft Azure",
+      "max_input_tokens": 131072,
+      "max_output_tokens": 131072,
+      "input_cost_per_token": 0.000003,
+      "input_cost_per_million": 3,
+      "output_cost_per_token": 0.000015,
+      "output_cost_per_million": 15,
+      "cache_read_cost_per_token": null,
+      "cache_read_cost_per_million": null,
+      "cache_write_cost_per_token": null,
+      "cache_write_cost_per_million": null,
+      "supports_function_calling": true,
+      "supports_vision": false,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false,
+      "supports_streaming": true,
+      "model_type": "chat",
+      "deprecation_date": null
+    },
+    {
+      "model_id": "azure_ai/global/grok-3-mini",
+      "model_slug": "azure_ai/global/grok-3-mini",
+      "model_name": "Grok 3 Mini | global | azure_ai",
+      "provider_id": "azure",
+      "provider_name": "Microsoft Azure",
+      "max_input_tokens": 131072,
+      "max_output_tokens": 131072,
+      "input_cost_per_token": 2.5e-7,
+      "input_cost_per_million": 0.25,
+      "output_cost_per_token": 0.00000127,
+      "output_cost_per_million": 1.27,
+      "cache_read_cost_per_token": null,
+      "cache_read_cost_per_million": null,
+      "cache_write_cost_per_token": null,
+      "cache_write_cost_per_million": null,
+      "supports_function_calling": true,
+      "supports_vision": false,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false,
+      "supports_streaming": true,
+      "model_type": "chat",
+      "deprecation_date": null
+    },
+    {
+      "model_id": "azure_ai/grok-3",
+      "model_slug": "azure_ai/grok-3",
+      "model_name": "Grok 3 | azure_ai",
+      "provider_id": "azure",
+      "provider_name": "Microsoft Azure",
+      "max_input_tokens": 131072,
+      "max_output_tokens": 131072,
+      "input_cost_per_token": 0.0000033,
+      "input_cost_per_million": 3.3000000000000003,
+      "output_cost_per_token": 0.0000165,
+      "output_cost_per_million": 16.5,
+      "cache_read_cost_per_token": null,
+      "cache_read_cost_per_million": null,
+      "cache_write_cost_per_token": null,
+      "cache_write_cost_per_million": null,
+      "supports_function_calling": true,
+      "supports_vision": false,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false,
+      "supports_streaming": true,
+      "model_type": "chat",
+      "deprecation_date": null
+    },
+    {
+      "model_id": "azure_ai/grok-3-mini",
+      "model_slug": "azure_ai/grok-3-mini",
+      "model_name": "Grok 3 Mini | azure_ai",
+      "provider_id": "azure",
+      "provider_name": "Microsoft Azure",
+      "max_input_tokens": 131072,
+      "max_output_tokens": 131072,
+      "input_cost_per_token": 2.75e-7,
+      "input_cost_per_million": 0.275,
+      "output_cost_per_token": 0.00000138,
+      "output_cost_per_million": 1.38,
+      "cache_read_cost_per_token": null,
+      "cache_read_cost_per_million": null,
+      "cache_write_cost_per_token": null,
+      "cache_write_cost_per_million": null,
+      "supports_function_calling": true,
+      "supports_vision": false,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false,
+      "supports_streaming": true,
+      "model_type": "chat",
       "deprecation_date": null
     },
     {
@@ -25883,4 +25981,4 @@
       "deprecation_date": null
     }
   ]
-}
+} as const;

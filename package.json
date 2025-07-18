@@ -25,6 +25,9 @@
     "wrangler": "^4.25.0"
   },
   "dependencies": {
+    "@hono/zod-openapi": "^1.0.0",
+    "@scalar/hono-api-reference": "^0.9.11",
+    "json-2-csv": "^5.5.9",
     "zod": "^4.0.5"
   }
 }
