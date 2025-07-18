@@ -2,11 +2,13 @@ import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
 import { modelsByProvider } from './data/providers';
 import {
+  ModelPartialSchema,
   type ModelsPartial,
   PartialProvidersSchema,
   ProjectSchema,
   type ProvidersPartial,
 } from './schema';
+import { safeParseQueryCSV } from './util';
 
 export function registerProvidersRoutes(app: OpenAPIHono) {
   const getProviders = createRoute({
@@ -38,17 +40,8 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
   app.openapi(getProviders, async (c) => {
     const query = c.req.valid('query');
 
-    // Parse filter and project into arrays
-    const providerFilter =
-      query.filter
-        ?.split(',')
-        .map((f) => f.trim())
-        .filter(Boolean) || [];
-    const projectFields =
-      query.project
-        ?.split(',')
-        .map((f) => f.trim())
-        .filter(Boolean) || [];
+    const providerFilter = safeParseQueryCSV(query.filter);
+    const projectFields = safeParseQueryCSV(query.project);
 
     let result: ProvidersPartial = {};
 
@@ -79,5 +72,55 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
     }
 
     return c.json(result);
+  });
+
+  const getProvider = createRoute({
+    method: 'get',
+    path: '/api/providers/:id',
+    tags: ['Providers'],
+    summary: 'Get a single provider',
+    request: {
+      params: z.object({
+        id: z.string().describe('Provider ID'),
+      }),
+      query: z.object({
+        project: ProjectSchema.optional(),
+      }),
+    },
+    responses: {
+      200: {
+        description: 'Provider models',
+        content: {
+          'application/json': {
+            schema: z.array(ModelPartialSchema),
+          },
+        },
+      },
+    },
+  });
+
+  app.openapi(getProvider, async (c) => {
+    const { id } = c.req.valid('param');
+    const query = c.req.valid('query');
+
+    const models = modelsByProvider[id] || [];
+    const projectFields = safeParseQueryCSV(query.project);
+
+    // Apply field projection if requested
+    if (projectFields.length > 0) {
+      const projectedModels = models.map((model) => {
+        const projectedModel: ModelsPartial = {};
+        for (const field of projectFields) {
+          if (field in model) {
+            // @ts-expect-error
+            projectedModel[field] = model[field as keyof typeof model];
+          }
+        }
+        return projectedModel;
+      });
+      return c.json(projectedModels);
+    }
+
+    return c.json(models);
   });
 }
