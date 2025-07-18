@@ -199,6 +199,8 @@ export function generateDisplayName(modelId: string): string {
 		return parts.reverse().join(' | ');
   }
 
+  console.log('Unknown name:', modelId)
+
 	return modelId
 		.split('-')
 		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))

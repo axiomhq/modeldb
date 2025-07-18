@@ -63,7 +63,7 @@ export function getProviderDisplayName(provider: string): string {
     }
   }
 
-  console.log('Unknown provider:', lowerProvider)
+  //console.log('Unknown provider:', lowerProvider)
 
   // Default transformation
   return provider

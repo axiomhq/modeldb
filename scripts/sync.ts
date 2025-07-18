@@ -65,7 +65,7 @@ export type LiteLLMModel = z.infer<typeof LiteLLMModelSchema>;
 const prefixPattern =
   /^(openai|anthropic|bedrock|vertex_ai|cohere|replicate|huggingface|together_ai|deepinfra|groq|mistral|perplexity|anyscale|cloudflare|voyage|databricks|ai21|azure)\//;
 function transformModelId(litellmName: string, provider?: string): string {
-  if (provider === 'gemini') {
+  if (provider === 'google') {
     if (litellmName.startsWith('gemini/gemini-')) {
       return litellmName.substring(14); // Remove 'gemini/gemini-'
     }

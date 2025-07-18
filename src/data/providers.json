@@ -12567,9 +12567,9 @@
   ],
   "google": [
     {
-      "model_id": "gemini/gemini-1.5-flash",
+      "model_id": "1.5-flash",
       "model_slug": "gemini/gemini-1.5-flash",
-      "model_name": "Gemini 1.5 Flash | gemini",
+      "model_name": "1.5 Flash",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12591,9 +12591,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-flash-001",
+      "model_id": "1.5-flash-001",
       "model_slug": "gemini/gemini-1.5-flash-001",
-      "model_name": "Gemini 1.5 Flash 001 | gemini",
+      "model_name": "1.5 Flash 001",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12615,9 +12615,9 @@
       "deprecation_date": "2025-05-24"
     },
     {
-      "model_id": "gemini/gemini-1.5-flash-002",
+      "model_id": "1.5-flash-002",
       "model_slug": "gemini/gemini-1.5-flash-002",
-      "model_name": "Gemini 1.5 Flash 002 | gemini",
+      "model_name": "1.5 Flash 002",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12639,9 +12639,9 @@
       "deprecation_date": "2025-09-24"
     },
     {
-      "model_id": "gemini/gemini-1.5-flash-8b",
+      "model_id": "1.5-flash-8b",
       "model_slug": "gemini/gemini-1.5-flash-8b",
-      "model_name": "Gemini 1.5 Flash 8B | gemini",
+      "model_name": "1.5 Flash 8b",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12663,9 +12663,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-flash-8b-exp-0827",
+      "model_id": "1.5-flash-8b-exp-0827",
       "model_slug": "gemini/gemini-1.5-flash-8b-exp-0827",
-      "model_name": "Gemini 1.5 Flash 8b Exp 0827 | gemini",
+      "model_name": "1.5 Flash 8b Exp 0827",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1000000,
@@ -12687,9 +12687,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-flash-8b-exp-0924",
+      "model_id": "1.5-flash-8b-exp-0924",
       "model_slug": "gemini/gemini-1.5-flash-8b-exp-0924",
-      "model_name": "Gemini 1.5 Flash 8b Exp 0924 | gemini",
+      "model_name": "1.5 Flash 8b Exp 0924",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12711,9 +12711,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-flash-exp-0827",
+      "model_id": "1.5-flash-exp-0827",
       "model_slug": "gemini/gemini-1.5-flash-exp-0827",
-      "model_name": "Gemini 1.5 Flash Exp 0827 | gemini",
+      "model_name": "1.5 Flash Exp 0827",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12735,9 +12735,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-flash-latest",
+      "model_id": "1.5-flash-latest",
       "model_slug": "gemini/gemini-1.5-flash-latest",
-      "model_name": "Gemini 1.5 Flash Latest | gemini",
+      "model_name": "1.5 Flash Latest",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12759,9 +12759,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-pro",
+      "model_id": "1.5-pro",
       "model_slug": "gemini/gemini-1.5-pro",
-      "model_name": "Gemini 1.5 Pro | gemini",
+      "model_name": "1.5 Pro",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 2097152,
@@ -12783,9 +12783,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-pro-001",
+      "model_id": "1.5-pro-001",
       "model_slug": "gemini/gemini-1.5-pro-001",
-      "model_name": "Gemini 1.5 Pro 001 | gemini",
+      "model_name": "1.5 Pro 001",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 2097152,
@@ -12807,9 +12807,9 @@
       "deprecation_date": "2025-05-24"
     },
     {
-      "model_id": "gemini/gemini-1.5-pro-002",
+      "model_id": "1.5-pro-002",
       "model_slug": "gemini/gemini-1.5-pro-002",
-      "model_name": "Gemini 1.5 Pro 002 | gemini",
+      "model_name": "1.5 Pro 002",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 2097152,
@@ -12831,9 +12831,9 @@
       "deprecation_date": "2025-09-24"
     },
     {
-      "model_id": "gemini/gemini-1.5-pro-exp-0801",
+      "model_id": "1.5-pro-exp-0801",
       "model_slug": "gemini/gemini-1.5-pro-exp-0801",
-      "model_name": "Gemini 1.5 Pro Exp 0801 | gemini",
+      "model_name": "1.5 Pro Exp 0801",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 2097152,
@@ -12855,9 +12855,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-pro-exp-0827",
+      "model_id": "1.5-pro-exp-0827",
       "model_slug": "gemini/gemini-1.5-pro-exp-0827",
-      "model_name": "Gemini 1.5 Pro Exp 0827 | gemini",
+      "model_name": "1.5 Pro Exp 0827",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 2097152,
@@ -12879,9 +12879,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-1.5-pro-latest",
+      "model_id": "1.5-pro-latest",
       "model_slug": "gemini/gemini-1.5-pro-latest",
-      "model_name": "Gemini 1.5 Pro Latest | gemini",
+      "model_name": "1.5 Pro Latest",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12903,9 +12903,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash",
+      "model_id": "2.0-flash",
       "model_slug": "gemini/gemini-2.0-flash",
-      "model_name": "Gemini 2.0 Flash Latest | gemini",
+      "model_name": "2.0 Flash",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12927,9 +12927,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash-001",
+      "model_id": "2.0-flash-001",
       "model_slug": "gemini/gemini-2.0-flash-001",
-      "model_name": "Gemini 2.0 Flash 001 | gemini",
+      "model_name": "2.0 Flash 001",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12951,9 +12951,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash-exp",
+      "model_id": "2.0-flash-exp",
       "model_slug": "gemini/gemini-2.0-flash-exp",
-      "model_name": "Gemini 2.0 Flash Exp | gemini",
+      "model_name": "2.0 Flash Exp",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12975,9 +12975,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash-lite",
+      "model_id": "2.0-flash-lite",
       "model_slug": "gemini/gemini-2.0-flash-lite",
-      "model_name": "Gemini 2.0 Flash Lite | gemini",
+      "model_name": "2.0 Flash Lite",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -12999,9 +12999,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash-lite-preview-02-05",
+      "model_id": "2.0-flash-lite-preview-02-05",
       "model_slug": "gemini/gemini-2.0-flash-lite-preview-02-05",
-      "model_name": "Gemini 2.0 Flash Lite Preview 02 05 | gemini",
+      "model_name": "2.0 Flash Lite Preview 02 05",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13023,9 +13023,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash-preview-image-generation",
+      "model_id": "2.0-flash-preview-image-generation",
       "model_slug": "gemini/gemini-2.0-flash-preview-image-generation",
-      "model_name": "Gemini 2.0 Flash Preview Image Generation | gemini",
+      "model_name": "2.0 Flash Preview Image Generation",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13047,9 +13047,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash-thinking-exp",
+      "model_id": "2.0-flash-thinking-exp",
       "model_slug": "gemini/gemini-2.0-flash-thinking-exp",
-      "model_name": "Gemini 2.0 Flash Thinking Exp | gemini",
+      "model_name": "2.0 Flash Thinking Exp",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13071,9 +13071,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-flash-thinking-exp-01-21",
+      "model_id": "2.0-flash-thinking-exp-01-21",
       "model_slug": "gemini/gemini-2.0-flash-thinking-exp-01-21",
-      "model_name": "Gemini 2.0 Flash Thinking Exp 01 21 | gemini",
+      "model_name": "2.0 Flash Thinking Exp 01 21",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13095,9 +13095,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.0-pro-exp-02-05",
+      "model_id": "2.0-pro-exp-02-05",
       "model_slug": "gemini/gemini-2.0-pro-exp-02-05",
-      "model_name": "Gemini 2.0 Pro Exp 02 05 | gemini",
+      "model_name": "2.0 Pro Exp 02 05",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 2097152,
@@ -13119,9 +13119,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-flash",
+      "model_id": "2.5-flash",
       "model_slug": "gemini/gemini-2.5-flash",
-      "model_name": "Gemini 2.5 Flash | gemini",
+      "model_name": "2.5 Flash",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13143,9 +13143,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-flash-lite-preview-06-17",
+      "model_id": "2.5-flash-lite-preview-06-17",
       "model_slug": "gemini/gemini-2.5-flash-lite-preview-06-17",
-      "model_name": "Gemini 2.5 Flash Lite Preview | gemini",
+      "model_name": "2.5 Flash Lite Preview 06 17",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13167,9 +13167,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-flash-preview-04-17",
+      "model_id": "2.5-flash-preview-04-17",
       "model_slug": "gemini/gemini-2.5-flash-preview-04-17",
-      "model_name": "Gemini 2.5 Flash Preview 04 17 | gemini",
+      "model_name": "2.5 Flash Preview 04 17",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13191,9 +13191,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-flash-preview-05-20",
+      "model_id": "2.5-flash-preview-05-20",
       "model_slug": "gemini/gemini-2.5-flash-preview-05-20",
-      "model_name": "Gemini 2.5 Flash Preview 05 20 | gemini",
+      "model_name": "2.5 Flash Preview 05 20",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13215,9 +13215,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-flash-preview-tts",
+      "model_id": "2.5-flash-preview-tts",
       "model_slug": "gemini/gemini-2.5-flash-preview-tts",
-      "model_name": "Gemini 2.5 Flash Preview Tts | gemini",
+      "model_name": "2.5 Flash Preview Tts",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13239,9 +13239,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-pro",
+      "model_id": "2.5-pro",
       "model_slug": "gemini/gemini-2.5-pro",
-      "model_name": "Gemini 2.5 Pro | gemini",
+      "model_name": "2.5 Pro",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13263,9 +13263,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-pro-exp-03-25",
+      "model_id": "2.5-pro-exp-03-25",
       "model_slug": "gemini/gemini-2.5-pro-exp-03-25",
-      "model_name": "Gemini 2.5 Pro Exp 03 25 | gemini",
+      "model_name": "2.5 Pro Exp 03 25",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13287,9 +13287,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-pro-preview-03-25",
+      "model_id": "2.5-pro-preview-03-25",
       "model_slug": "gemini/gemini-2.5-pro-preview-03-25",
-      "model_name": "Gemini 2.5 Pro Preview 03 25 | gemini",
+      "model_name": "2.5 Pro Preview 03 25",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13311,9 +13311,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-pro-preview-05-06",
+      "model_id": "2.5-pro-preview-05-06",
       "model_slug": "gemini/gemini-2.5-pro-preview-05-06",
-      "model_name": "Gemini 2.5 Pro Preview 05 06 | gemini",
+      "model_name": "2.5 Pro Preview 05 06",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13335,9 +13335,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-pro-preview-06-05",
+      "model_id": "2.5-pro-preview-06-05",
       "model_slug": "gemini/gemini-2.5-pro-preview-06-05",
-      "model_name": "Gemini 2.5 Pro Preview 06 05 | gemini",
+      "model_name": "2.5 Pro Preview 06 05",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13359,9 +13359,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-2.5-pro-preview-tts",
+      "model_id": "2.5-pro-preview-tts",
       "model_slug": "gemini/gemini-2.5-pro-preview-tts",
-      "model_name": "Gemini 2.5 Pro Preview Tts | gemini",
+      "model_name": "2.5 Pro Preview Tts",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13383,9 +13383,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-exp-1114",
+      "model_id": "exp-1114",
       "model_slug": "gemini/gemini-exp-1114",
-      "model_name": "Gemini Exp 1114 | gemini",
+      "model_name": "Exp 1114",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 1048576,
@@ -13407,9 +13407,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-exp-1206",
+      "model_id": "exp-1206",
       "model_slug": "gemini/gemini-exp-1206",
-      "model_name": "Gemini Exp 1206 | gemini",
+      "model_name": "Exp 1206",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 2097152,
@@ -13431,9 +13431,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-gemma-2-27b-it",
+      "model_id": "gemma-2-27b-it",
       "model_slug": "gemini/gemini-gemma-2-27b-it",
-      "model_name": "Gemini Gemma 2 27b It | gemini",
+      "model_name": "Gemma-2 Instruct (27B)",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": null,
@@ -13455,9 +13455,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-gemma-2-9b-it",
+      "model_id": "gemma-2-9b-it",
       "model_slug": "gemini/gemini-gemma-2-9b-it",
-      "model_name": "Gemini Gemma 2 9b It | gemini",
+      "model_name": "Gemma-2 Instruct (9B)",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": null,
@@ -13479,57 +13479,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/gemini-pro",
-      "model_slug": "gemini/gemini-pro",
-      "model_name": "Gemini Pro | gemini",
-      "provider_id": "google",
-      "provider_name": "Google",
-      "max_input_tokens": 32760,
-      "max_output_tokens": 8192,
-      "input_cost_per_token": 3.5e-7,
-      "input_cost_per_million": 0.35,
-      "output_cost_per_token": 0.00000105,
-      "output_cost_per_million": 1.0499999999999998,
-      "cache_read_cost_per_token": null,
-      "cache_read_cost_per_million": null,
-      "cache_write_cost_per_token": null,
-      "cache_write_cost_per_million": null,
-      "supports_function_calling": true,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "supports_streaming": true,
-      "model_type": "chat",
-      "deprecation_date": null
-    },
-    {
-      "model_id": "gemini/gemini-pro-vision",
-      "model_slug": "gemini/gemini-pro-vision",
-      "model_name": "Gemini Pro Vision | gemini",
-      "provider_id": "google",
-      "provider_name": "Google",
-      "max_input_tokens": 30720,
-      "max_output_tokens": 2048,
-      "input_cost_per_token": 3.5e-7,
-      "input_cost_per_million": 0.35,
-      "output_cost_per_token": 0.00000105,
-      "output_cost_per_million": 1.0499999999999998,
-      "cache_read_cost_per_token": null,
-      "cache_read_cost_per_million": null,
-      "cache_write_cost_per_token": null,
-      "cache_write_cost_per_million": null,
-      "supports_function_calling": true,
-      "supports_vision": true,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "supports_streaming": true,
-      "model_type": "chat",
-      "deprecation_date": null
-    },
-    {
-      "model_id": "gemini/gemma-3-27b-it",
+      "model_id": "gemma-3-27b-it",
       "model_slug": "gemini/gemma-3-27b-it",
-      "model_name": "Gemma 3 27b It | gemini",
+      "model_name": "Gemma 3 27b It",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 131072,
@@ -13551,9 +13503,9 @@
       "deprecation_date": null
     },
     {
-      "model_id": "gemini/learnlm-1.5-pro-experimental",
+      "model_id": "learnlm-1.5-pro-experimental",
       "model_slug": "gemini/learnlm-1.5-pro-experimental",
-      "model_name": "Learnlm 1.5 Pro Experimental | gemini",
+      "model_name": "Learnlm 1.5 Pro Experimental",
       "provider_id": "google",
       "provider_name": "Google",
       "max_input_tokens": 32767,
@@ -13569,6 +13521,54 @@
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_json_mode": true,
+      "supports_parallel_functions": false,
+      "supports_streaming": true,
+      "model_type": "chat",
+      "deprecation_date": null
+    },
+    {
+      "model_id": "pro",
+      "model_slug": "gemini/gemini-pro",
+      "model_name": "Pro",
+      "provider_id": "google",
+      "provider_name": "Google",
+      "max_input_tokens": 32760,
+      "max_output_tokens": 8192,
+      "input_cost_per_token": 3.5e-7,
+      "input_cost_per_million": 0.35,
+      "output_cost_per_token": 0.00000105,
+      "output_cost_per_million": 1.0499999999999998,
+      "cache_read_cost_per_token": null,
+      "cache_read_cost_per_million": null,
+      "cache_write_cost_per_token": null,
+      "cache_write_cost_per_million": null,
+      "supports_function_calling": true,
+      "supports_vision": false,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false,
+      "supports_streaming": true,
+      "model_type": "chat",
+      "deprecation_date": null
+    },
+    {
+      "model_id": "pro-vision",
+      "model_slug": "gemini/gemini-pro-vision",
+      "model_name": "Pro Vision",
+      "provider_id": "google",
+      "provider_name": "Google",
+      "max_input_tokens": 30720,
+      "max_output_tokens": 2048,
+      "input_cost_per_token": 3.5e-7,
+      "input_cost_per_million": 0.35,
+      "output_cost_per_token": 0.00000105,
+      "output_cost_per_million": 1.0499999999999998,
+      "cache_read_cost_per_token": null,
+      "cache_read_cost_per_million": null,
+      "cache_write_cost_per_token": null,
+      "cache_write_cost_per_million": null,
+      "supports_function_calling": true,
+      "supports_vision": true,
+      "supports_json_mode": false,
       "supports_parallel_functions": false,
       "supports_streaming": true,
       "model_type": "chat",
