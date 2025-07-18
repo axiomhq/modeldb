@@ -6,27 +6,25 @@ import { Command } from 'commander';
 import ora from 'ora';
 import { z } from 'zod';
 import { generateDisplayName } from './names';
-import type { Model } from './schema';
+import { getProviderDisplayName } from './providers';
+import type { Model } from '../src/schema';
 
 const LITELLM_MODEL_URL =
   'https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json';
 
 const LiteLLMModelSchema = z
   .object({
-    model_name: z.string().optional(),
-    litellm_provider: z.string().optional(),
-    mode: z
-      .enum([
-        'chat',
-        'embedding',
-        'completion',
-        'image_generation',
-        'audio_transcription',
-        'audio_speech',
-        'moderation',
-        'rerank',
-      ])
-      .optional(),
+    litellm_provider: z.string(),
+    mode: z.enum([
+      'chat',
+      'embedding',
+      'completion',
+      'image_generation',
+      'audio_transcription',
+      'audio_speech',
+      'moderation',
+      'rerank',
+    ]),
     supports_function_calling: z.boolean().optional(),
     supports_parallel_function_calling: z.boolean().optional(),
     supports_vision: z.boolean().optional(),
@@ -35,43 +33,37 @@ const LiteLLMModelSchema = z
     supports_prompt_caching: z.boolean().optional(),
     supports_response_schema: z.boolean().optional(),
     supports_system_messages: z.boolean().optional(),
-    input_cost_per_token: z.number().optional(),
-    output_cost_per_token: z.number().optional(),
+    supports_reasoning: z.boolean().optional(),
+    supports_web_search: z.boolean().optional(),
+    input_cost_per_token: z.number(),
+    output_cost_per_token: z.number(),
+    output_cost_per_reasoning_token: z.number().optional(),
     cache_creation_input_token_cost: z.number().optional(),
     cache_read_input_token_cost: z.number().optional(),
-    max_tokens: z.union([z.number(), z.string()]).optional(),
-    max_input_tokens: z.number().optional(),
-    max_output_tokens: z.number().optional(),
-    context_window: z.number().optional(),
+    search_context_cost_per_query: z
+      .object({
+        search_context_size_low: z.number(),
+        search_context_size_medium: z.number(),
+        search_context_size_high: z.number(),
+      })
+      .optional(),
+    file_search_cost_per_1k_calls: z.number().optional(),
+    file_search_cost_per_gb_per_day: z.number().optional(),
+    vector_store_cost_per_gb_per_day: z.number().optional(),
+    computer_use_input_cost_per_1k_tokens: z.number().optional(),
+    computer_use_output_cost_per_1k_tokens: z.number().optional(),
+    code_interpreter_cost_per_session: z.number().optional(),
+    max_input_tokens: z.number(),
+    max_output_tokens: z.number(),
+    supported_regions: z.array(z.string()).optional(),
+    deprecation_date: z.string().optional(),
   })
   .passthrough();
 
 export type LiteLLMModel = z.infer<typeof LiteLLMModelSchema>;
 
-const PROVIDER_MAP: Record<string, { id: string; name: string }> = {
-  openai: { id: 'openai', name: 'OpenAI' },
-  anthropic: { id: 'anthropic', name: 'Anthropic' },
-  bedrock: { id: 'bedrock', name: 'AWS Bedrock' },
-  vertex_ai: { id: 'vertex_ai', name: 'Google Vertex AI' },
-  gemini: { id: 'google', name: 'Google' },
-  cohere: { id: 'cohere', name: 'Cohere' },
-  replicate: { id: 'replicate', name: 'Replicate' },
-  huggingface: { id: 'huggingface', name: 'Hugging Face' },
-  together_ai: { id: 'together', name: 'Together AI' },
-  deepinfra: { id: 'deepinfra', name: 'DeepInfra' },
-  groq: { id: 'groq', name: 'Groq' },
-  mistral: { id: 'mistral', name: 'Mistral AI' },
-  perplexity: { id: 'perplexity', name: 'Perplexity' },
-  anyscale: { id: 'anyscale', name: 'Anyscale' },
-  cloudflare: { id: 'cloudflare', name: 'Cloudflare' },
-  voyage: { id: 'voyage', name: 'Voyage AI' },
-  databricks: { id: 'databricks', name: 'Databricks' },
-  xai: { id: 'xai', name: 'xAI' },
-  ai21: { id: 'ai21', name: 'AI21 Labs' },
-};
-
 const prefixPattern =
-  /^(openai|anthropic|bedrock|vertex_ai|cohere|replicate|huggingface|together_ai|deepinfra|groq|mistral|perplexity|anyscale|cloudflare|voyage|databricks|ai21)\//;
+  /^(openai|anthropic|bedrock|vertex_ai|cohere|replicate|huggingface|together_ai|deepinfra|groq|mistral|perplexity|anyscale|cloudflare|voyage|databricks|ai21|azure)\//;
 function transformModelId(litellmName: string, provider?: string): string {
   if (provider === 'gemini') {
     if (litellmName.startsWith('gemini/gemini-')) {
@@ -87,6 +79,39 @@ function transformModelId(litellmName: string, provider?: string): string {
   }
 
   return litellmName.replace(prefixPattern, '');
+}
+
+function transformProviderId(provider: string): string {
+	const lowerProvider = provider.split('_ai')[0].split('_')[0].toLowerCase();
+
+	if (lowerProvider === "gemini") {
+		return "google";
+	}
+	if (lowerProvider === "meta_llama") {
+		return "meta";
+	}
+	if (lowerProvider === "mistralai") {
+		return "mistral";
+	}
+	if (lowerProvider === "codestral") {
+		return "mistral";
+	}
+	if (lowerProvider === 'deepseek-ai') {
+		return "deepseek";
+	}
+	if (lowerProvider === 'bedrock_converse') {
+		return "bedrock";
+	}
+
+  if (lowerProvider.startsWith("vertex_ai")) {
+    return "vertex";
+  }
+
+  if (lowerProvider.includes("codestral")) {
+    return "mistral";
+  }
+
+  return lowerProvider;
 }
 
 function getModelType(mode?: string): Model['model_type'] {
@@ -115,31 +140,29 @@ export function transformModel(
   litellmName: string,
   litellmModel: LiteLLMModel
 ): Model | null {
-  const provider = litellmModel.litellm_provider;
-  if (!(provider && PROVIDER_MAP[provider])) {
-    return null;
-  }
+  const providerId = transformProviderId(litellmModel.litellm_provider);
+  const modelId = transformModelId(litellmName, providerId);
 
-  const providerInfo = PROVIDER_MAP[provider];
-  const modelId = transformModelId(litellmName, provider);
-  const friendlyName = generateDisplayName(modelId, provider);
+  const inputCost = litellmModel.input_cost_per_token || 0;
+  const outputCost = litellmModel.output_cost_per_token || 0;
 
   const model: Model = {
-    model: modelId,
-    provider: providerInfo.id,
-    model_name: litellmName,
-    display_name: friendlyName,
-    description: null,
+    model_id: modelId,
+    model_slug: litellmName,
+    model_name: generateDisplayName(modelId),
+
+    provider_id: providerId,
+    provider_name: getProviderDisplayName(providerId),
+
+    // Context and limits
+    max_input_tokens: litellmModel.max_input_tokens || null,
+    max_output_tokens: litellmModel.max_output_tokens || null,
 
     // Pricing - both per token and per million
-    input_cost_per_token: litellmModel.input_cost_per_token || null,
-    input_cost_per_million: litellmModel.input_cost_per_token
-      ? litellmModel.input_cost_per_token * 1_000_000
-      : null,
-    output_cost_per_token: litellmModel.output_cost_per_token || null,
-    output_cost_per_million: litellmModel.output_cost_per_token
-      ? litellmModel.output_cost_per_token * 1_000_000
-      : null,
+    input_cost_per_token: inputCost,
+    input_cost_per_million: inputCost * 1_000_000,
+    output_cost_per_token: outputCost,
+    output_cost_per_million: outputCost * 1_000_000,
 
     // Cache pricing (optional)
     cache_read_cost_per_token: litellmModel.cache_read_input_token_cost || null,
@@ -152,11 +175,6 @@ export function transformModel(
       ? litellmModel.cache_creation_input_token_cost * 1_000_000
       : null,
 
-    // Context and limits
-    max_input_tokens:
-      litellmModel.max_input_tokens || litellmModel.context_window || null,
-    max_output_tokens: litellmModel.max_output_tokens || null,
-
     // Capabilities
     supports_function_calling: litellmModel.supports_function_calling ?? false,
     supports_vision: litellmModel.supports_vision ?? false,
@@ -167,6 +185,9 @@ export function transformModel(
 
     // Model type
     model_type: getModelType(litellmModel.mode),
+
+    // Deprecation
+    deprecation_date: litellmModel.deprecation_date || null,
   };
 
   return model;
@@ -207,11 +228,8 @@ async function syncCommand(options: {
   dryRun?: boolean;
   summary?: boolean;
 }) {
-  const sourceUrl =
-    options.source ||
-    'https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json';
-  const outputPath =
-    options.output || path.join(__dirname, '../data/models.json');
+  const sourceUrl = options.source || LITELLM_MODEL_URL;
+  const outputDir = options.output || path.join(__dirname, '../src');
 
   const spinner = ora('Fetching models from LiteLLM...').start();
 
@@ -234,7 +252,7 @@ async function syncCommand(options: {
       try {
         const transformed = transformModel(litellmName, litellmModel);
         if (transformed) {
-          transformedModels[transformed.model] = transformed;
+          transformedModels[transformed.model_id] = transformed;
           successCount++;
         } else {
           failCount++;
@@ -251,42 +269,78 @@ async function syncCommand(options: {
 
     const sortedModels = Object.fromEntries(
       Object.entries(transformedModels).sort(([, a], [, b]) => {
-        const providerCompare = a.provider.localeCompare(b.provider);
+        const providerCompare = a.provider_id.localeCompare(b.provider_id);
         if (providerCompare !== 0) {
           return providerCompare;
         }
-        return a.model.localeCompare(b.model);
+        return a.model_id.localeCompare(b.model_id);
       })
     );
 
-    const output = {
-      _metadata: {
-        source: sourceUrl,
-        generated_at: timestamp,
-        model_count: Object.keys(sortedModels).length,
-        schema_version: '1.0.0',
-      },
-      models: sortedModels,
+    const metadata = {
+      source: sourceUrl,
+      generated_at: timestamp,
+      model_count: Object.keys(sortedModels).length,
+      schema_version: '1.0.0',
     };
+
+    // Create provider-based grouping
+    const modelsByProvider: Record<string, Model[]> = {};
+    for (const model of Object.values(sortedModels)) {
+      if (!modelsByProvider[model.provider_id]) {
+        modelsByProvider[model.provider_id] = [];
+      }
+      modelsByProvider[model.provider_id].push(model);
+    }
+
+    // Sort providers and their models
+    const sortedProviderModels = Object.fromEntries(
+      Object.entries(modelsByProvider)
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([provider, models]) => [
+          provider,
+          models.sort((a, b) => a.model_id.localeCompare(b.model_id)),
+        ])
+    );
 
     if (options.dryRun) {
       console.log(chalk.blue('Dry run mode - no files written'));
-      console.log(chalk.gray(`Would write to: ${outputPath}`));
+      console.log(chalk.gray(`Would write to: ${outputDir}/`));
+      console.log(chalk.gray('  - map.json'));
+      console.log(chalk.gray('  - list.json'));
+      console.log(chalk.gray('  - metadata.json'));
+      console.log(chalk.gray('  - providers.ts'));
     } else {
-      const outputDir = path.dirname(outputPath);
       if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
       }
 
-      fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
-      console.log(chalk.green(`✓ Written to ${outputPath}`));
+      // Write models-map.json (object format)
+      const mapPath = path.join(outputDir, 'map.json');
+      fs.writeFileSync(mapPath, JSON.stringify(sortedModels, null, 2));
+      console.log(chalk.green(`✓ Written to ${mapPath}`));
+
+      // Write models-list.json (array format)
+      const modelsList = Object.values(sortedModels);
+      const listPath = path.join(outputDir, 'list.json');
+      fs.writeFileSync(listPath, JSON.stringify(modelsList, null, 2));
+      console.log(chalk.green(`✓ Written to ${listPath}`));
+
+      // Write models-metadata.json
+      const metadataPath = path.join(outputDir, 'metadata.json');
+      fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2));
+      console.log(chalk.green(`✓ Written to ${metadataPath}`));
+
+      // Write models-providers.json
+      const providersPath = path.join(outputDir, 'providers.json');
+      fs.writeFileSync(providersPath, JSON.stringify(sortedProviderModels, null, 2));
+      console.log(chalk.green(`✓ Written to ${providersPath}`));
     }
 
     if (options.summary) {
       const providerCounts: Record<string, number> = {};
       for (const model of Object.values(sortedModels)) {
-        const providerName =
-          PROVIDER_MAP[model.provider]?.name || model.provider;
+        const providerName = getProviderDisplayName(model.provider_id);
         providerCounts[providerName] = (providerCounts[providerName] || 0) + 1;
       }
 
@@ -327,8 +381,8 @@ program
   )
   .option(
     '-o, --output <path>',
-    'output path for transformed data',
-    './src/models.json'
+    'output directory for transformed data files',
+    './src/data'
   )
   .option('-d, --dry-run', 'show what would be written without writing')
   .option('--summary', 'show provider summary after sync')

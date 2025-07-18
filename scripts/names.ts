@@ -184,16 +184,24 @@ const DISPLAY_NAMES: Record<string, string> = {
   'command-light-text-v14': 'Command Light',
 };
 
-export function generateDisplayName(
-  modelId: string,
-  _provider: string
-): string {
+export function generateDisplayName(modelId: string): string {
   if (DISPLAY_NAMES[modelId]) {
     return DISPLAY_NAMES[modelId];
   }
 
-  return modelId
-    .split('-')
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+  if (modelId.indexOf('/') > -1) {
+		const parts = modelId.split('/');
+		let name = DISPLAY_NAMES[parts[parts.length-1]] || parts[parts.length-1];
+		name = name.split('-').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+		parts[parts.length - 1] = name;
+
+		return parts.reverse().join(' | ');
+  }
+
+	return modelId
+		.split('-')
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.join(' ')
+		.replace(/\Gpt/ig, 'GPT');
 }

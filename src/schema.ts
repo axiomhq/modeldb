@@ -1,42 +1,14 @@
 import { z } from 'zod';
 
-// Flat model schema - all fields at root level for simplicity
 export const ModelSchema = z.object({
-  model: z.string().describe('Clean model identifier (e.g., "gpt-4-turbo")'),
-  provider: z.string().describe('Provider identifier (e.g., "openai")'),
-  model_name: z
+  provider_id: z.string().describe('Provider identifier (e.g., "openai")'),
+  provider_name: z.string().describe('Human-friendly display name'),
+
+  model_id: z.string().describe('Clean model identifier (e.g., "gpt-4-turbo")'),
+  model_slug: z
     .string()
     .describe('Full model name for API calls (e.g., "openai/gpt-4-turbo")'),
-  display_name: z.string().describe('Human-friendly display name'),
-  description: z
-    .string()
-    .nullable()
-    .optional()
-    .describe('Short description of the model'),
-
-  // Pricing - both per token and per million for convenience
-  input_cost_per_token: z
-    .number()
-    .nullable()
-    .describe('Input cost per token in USD'),
-  input_cost_per_million: z
-    .number()
-    .nullable()
-    .describe('Input cost per million tokens in USD'),
-  output_cost_per_token: z
-    .number()
-    .nullable()
-    .describe('Output cost per token in USD'),
-  output_cost_per_million: z
-    .number()
-    .nullable()
-    .describe('Output cost per million tokens in USD'),
-
-  // Cache pricing (optional)
-  cache_read_cost_per_token: z.number().nullable().optional(),
-  cache_read_cost_per_million: z.number().nullable().optional(),
-  cache_write_cost_per_token: z.number().nullable().optional(),
-  cache_write_cost_per_million: z.number().nullable().optional(),
+  model_name: z.string().describe('Human-friendly display name'),
 
   // Context and limits
   max_input_tokens: z
@@ -50,14 +22,35 @@ export const ModelSchema = z.object({
     .optional()
     .describe('Maximum output tokens per request'),
 
-  // Capabilities - simple boolean flags
+  // Pricing - both per token and per million for convenience
+  input_cost_per_token: z
+    .number()
+    .nullable()
+    .optional()
+    .describe('Input cost per token in USD'),
+  input_cost_per_million: z
+    .number()
+    .nullable()
+    .optional()
+    .describe('Input cost per million tokens in USD'),
+  output_cost_per_token: z.number().describe('Output cost per token in USD'),
+  output_cost_per_million: z
+    .number()
+    .describe('Output cost per million tokens in USD'),
+
+  // Cache pricing (optional)
+  cache_read_cost_per_token: z.number().nullable().optional(),
+  cache_read_cost_per_million: z.number().nullable().optional(),
+  cache_write_cost_per_token: z.number().nullable().optional(),
+  cache_write_cost_per_million: z.number().nullable().optional(),
+
+  // Capabilities
   supports_function_calling: z.boolean().default(false),
   supports_vision: z.boolean().default(false),
   supports_json_mode: z.boolean().default(false),
   supports_parallel_functions: z.boolean().default(false),
   supports_streaming: z.boolean().default(true),
 
-  // Model type
   model_type: z
     .enum([
       'chat',
@@ -69,7 +62,17 @@ export const ModelSchema = z.object({
       'moderation',
     ])
     .default('chat'),
+
+  deprecation_date: z
+    .string()
+    .nullable()
+    .optional()
+    .describe('Date when the model becomes deprecated (YYYY-MM-DD format)'),
 });
 
-// Type export
+export const ModelsSchema = z.array(ModelSchema);
+export const ProvidersSchema = z.map(z.string(), z.array(ModelSchema));
+
 export type Model = z.infer<typeof ModelSchema>;
+export type Models = z.infer<typeof ModelsSchema>;
+export type Provider = z.infer<typeof ProvidersSchema>;

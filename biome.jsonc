@@ -5,7 +5,8 @@
 	],
 	"files": {
 		"includes": [
-			"**"
+			"**",
+			"!src/data/*"
 		]
 	},
 	"json": {
@@ -24,7 +25,8 @@
 			"nursery": {
 				"noAwaitInLoop": "off",
 				"useIterableCallbackReturn": "off",
-				"noBitwiseOperators": "off"
+				"noBitwiseOperators": "off",
+				"useNumericSeparators": "off"
 			},
 			"style": {
 				"noParameterProperties": "off"
@@ -42,7 +44,7 @@
 					"suspicious": {
 						"noExplicitAny": "off",
 						"noEvolvingTypes": "off",
-						"noConsole": "off",
+						"noConsole": "off"
 					},
 					"performance": {
 						"useTopLevelRegex": "off"
