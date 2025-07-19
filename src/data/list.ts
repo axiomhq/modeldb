@@ -20,7 +20,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -43,7 +42,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -66,7 +64,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -89,7 +86,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -112,7 +108,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -135,7 +130,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -158,7 +152,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -181,7 +174,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -204,7 +196,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -227,7 +218,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -250,7 +240,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -273,7 +262,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -296,7 +284,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -319,7 +306,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -342,7 +328,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -365,7 +350,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -388,7 +372,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -411,7 +394,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -434,7 +416,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -457,7 +438,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -480,7 +460,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-10-01"
   },
@@ -503,7 +482,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-10-01"
   },
@@ -526,7 +504,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-06-01"
   },
@@ -549,7 +526,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-10-01"
   },
@@ -572,7 +548,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-06-01"
   },
@@ -595,7 +570,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2026-02-01"
   },
@@ -618,7 +592,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-06-01"
   },
@@ -641,7 +614,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-03-01"
   },
@@ -664,7 +636,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-03-01"
   },
@@ -687,7 +658,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-03-01"
   },
@@ -710,7 +680,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-07-21"
   },
@@ -733,7 +702,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -756,7 +724,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -779,7 +746,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -802,7 +768,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -825,7 +790,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -848,7 +812,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -871,7 +834,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -894,7 +856,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -917,7 +878,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -940,7 +900,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -963,7 +922,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -986,7 +944,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1009,7 +966,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1032,7 +988,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1055,7 +1010,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1078,7 +1032,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1101,7 +1054,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -1124,7 +1076,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -1147,7 +1098,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -1170,7 +1120,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -1193,7 +1142,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -1216,7 +1164,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -1239,7 +1186,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -1262,7 +1208,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1285,7 +1230,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1308,7 +1252,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1331,7 +1274,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -1354,7 +1296,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1377,7 +1318,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1400,7 +1340,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1423,7 +1362,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1446,7 +1384,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1469,7 +1406,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1492,7 +1428,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1515,7 +1450,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1538,7 +1472,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1561,7 +1494,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1584,7 +1516,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1607,7 +1538,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1630,7 +1560,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1653,7 +1582,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1676,7 +1604,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1699,7 +1626,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1722,7 +1648,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1745,7 +1670,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1768,7 +1692,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1791,7 +1714,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1814,7 +1736,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1837,7 +1758,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1860,7 +1780,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1883,7 +1802,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1906,7 +1824,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1929,7 +1846,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1952,7 +1868,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1975,7 +1890,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -1998,7 +1912,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2021,7 +1934,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2044,7 +1956,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2067,7 +1978,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2090,7 +2000,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2113,7 +2022,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2136,7 +2044,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2159,7 +2066,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -2182,7 +2088,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2205,7 +2110,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2228,7 +2132,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2251,7 +2154,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2274,7 +2176,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2297,13 +2198,12 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/eu/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17",
+    "model_name": "GPT 4o Mini Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2320,13 +2220,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/eu/gpt-4o-realtime-preview-2024-10-01",
-    "model_name": "Gpt 4o Realtime Preview 2024 10 01",
+    "model_name": "GPT 4o Realtime Preview 2024 10 01",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2343,13 +2242,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/eu/gpt-4o-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Realtime Preview 2024 12 17",
+    "model_name": "GPT 4o Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2366,7 +2264,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2389,7 +2286,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2412,7 +2308,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2435,7 +2330,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2458,7 +2352,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2481,7 +2374,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-08-20"
   },
@@ -2504,7 +2396,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-12-20"
   },
@@ -2527,7 +2418,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2550,7 +2440,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2573,7 +2462,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2596,7 +2484,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2619,13 +2506,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-03-31"
   },
   {
     "model_id": "azure/gpt-3.5-turbo-instruct-0914",
-    "model_name": "Gpt 3.5 Turbo Instruct 0914",
+    "model_name": "GPT 3.5 Turbo Instruct 0914",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2642,13 +2528,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-35-turbo",
-    "model_name": "Gpt 35 Turbo",
+    "model_name": "GPT 35 Turbo",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2665,13 +2550,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-35-turbo-0125",
-    "model_name": "Gpt 35 Turbo 0125",
+    "model_name": "GPT 35 Turbo 0125",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16384,
@@ -2688,13 +2572,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-05-31"
   },
   {
     "model_id": "azure/gpt-35-turbo-0301",
-    "model_name": "Gpt 35 Turbo 0301",
+    "model_name": "GPT 35 Turbo 0301",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2711,13 +2594,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-02-13"
   },
   {
     "model_id": "azure/gpt-35-turbo-0613",
-    "model_name": "Gpt 35 Turbo 0613",
+    "model_name": "GPT 35 Turbo 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2734,13 +2616,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-02-13"
   },
   {
     "model_id": "azure/gpt-35-turbo-1106",
-    "model_name": "Gpt 35 Turbo 1106",
+    "model_name": "GPT 35 Turbo 1106",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16384,
@@ -2757,13 +2638,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-03-31"
   },
   {
     "model_id": "azure/gpt-35-turbo-16k",
-    "model_name": "Gpt 35 Turbo 16k",
+    "model_name": "GPT 35 Turbo 16k",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16385,
@@ -2780,13 +2660,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-35-turbo-16k-0613",
-    "model_name": "Gpt 35 Turbo 16k 0613",
+    "model_name": "GPT 35 Turbo 16k 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16385,
@@ -2803,13 +2682,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-35-turbo-instruct",
-    "model_name": "Gpt 35 Turbo Instruct",
+    "model_name": "GPT 35 Turbo Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2826,13 +2704,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-35-turbo-instruct-0914",
-    "model_name": "Gpt 35 Turbo Instruct 0914",
+    "model_name": "GPT 35 Turbo Instruct 0914",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2849,7 +2726,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -2872,13 +2748,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4-0125-preview",
-    "model_name": "Gpt 4 0125 Preview",
+    "model_name": "GPT 4 0125 Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2895,13 +2770,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4-0613",
-    "model_name": "Gpt 4 0613",
+    "model_name": "GPT 4 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 8192,
@@ -2918,13 +2792,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4-1106-preview",
-    "model_name": "Gpt 4 1106 Preview",
+    "model_name": "GPT 4 1106 Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2941,7 +2814,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -2964,13 +2836,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4-32k-0613",
-    "model_name": "Gpt 4 32k 0613",
+    "model_name": "GPT 4 32k 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 32768,
@@ -2987,7 +2858,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3010,13 +2880,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4-turbo-2024-04-09",
-    "model_name": "Gpt 4 Turbo 2024 04 09",
+    "model_name": "GPT 4 Turbo 2024 04 09",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3033,13 +2902,12 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4-turbo-vision-preview",
-    "model_name": "Gpt 4 Turbo Vision Preview",
+    "model_name": "GPT 4 Turbo Vision Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3056,7 +2924,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3079,7 +2946,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3102,7 +2968,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3125,13 +2990,12 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4.1-mini-2025-04-14",
-    "model_name": "Gpt 4.1 Mini 2025 04 14",
+    "model_name": "GPT 4.1 Mini 2025 04 14",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3148,7 +3012,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3171,13 +3034,12 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4.1-nano-2025-04-14",
-    "model_name": "Gpt 4.1 Nano 2025 04 14",
+    "model_name": "GPT 4.1 Nano 2025 04 14",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3194,7 +3056,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3217,7 +3078,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3240,7 +3100,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3263,7 +3122,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3286,7 +3144,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3309,13 +3166,12 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-audio-preview-2024-12-17",
-    "model_name": "Gpt 4o Audio Preview 2024 12 17",
+    "model_name": "GPT 4o Audio Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3332,7 +3188,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3355,7 +3210,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3378,13 +3232,12 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-mini-audio-preview-2024-12-17",
-    "model_name": "Gpt 4o Mini Audio Preview 2024 12 17",
+    "model_name": "GPT 4o Mini Audio Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3401,13 +3254,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17",
+    "model_name": "GPT 4o Mini Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3424,13 +3276,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-mini-transcribe",
-    "model_name": "Gpt 4o Mini Transcribe",
+    "model_name": "GPT 4o Mini Transcribe",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16000,
@@ -3447,13 +3298,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-mini-tts",
-    "model_name": "Gpt 4o Mini Tts",
+    "model_name": "GPT 4o Mini Tts",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3470,13 +3320,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-realtime-preview-2024-10-01",
-    "model_name": "Gpt 4o Realtime Preview 2024 10 01",
+    "model_name": "GPT 4o Realtime Preview 2024 10 01",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3493,13 +3342,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Realtime Preview 2024 12 17",
+    "model_name": "GPT 4o Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3516,13 +3364,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-4o-transcribe",
-    "model_name": "Gpt 4o Transcribe",
+    "model_name": "GPT 4o Transcribe",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16000,
@@ -3539,13 +3386,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
   {
     "model_id": "azure/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3562,7 +3408,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -3585,7 +3430,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -3608,7 +3452,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -3631,13 +3474,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/high/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3654,13 +3496,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/high/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3677,13 +3518,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/high/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3700,13 +3540,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/low/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3723,13 +3562,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/low/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3746,13 +3584,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/low/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3769,13 +3606,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/medium/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3792,13 +3628,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/medium/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3815,13 +3650,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "azure/medium/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3838,7 +3672,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -3861,7 +3694,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3884,7 +3716,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3907,7 +3738,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3930,7 +3760,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3953,7 +3782,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3976,7 +3804,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -3999,7 +3826,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4022,7 +3848,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4045,7 +3870,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4068,7 +3892,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4091,7 +3914,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4114,7 +3936,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4137,7 +3958,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4160,7 +3980,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4183,7 +4002,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4206,7 +4024,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4229,7 +4046,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4252,7 +4068,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4275,7 +4090,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4298,7 +4112,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4321,7 +4134,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4344,7 +4156,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -4367,7 +4178,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -4390,7 +4200,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -4413,7 +4222,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -4436,7 +4244,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -4459,7 +4266,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4482,7 +4288,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4505,13 +4310,12 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/us/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17",
+    "model_name": "GPT 4o Mini Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4528,13 +4332,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/us/gpt-4o-realtime-preview-2024-10-01",
-    "model_name": "Gpt 4o Realtime Preview 2024 10 01",
+    "model_name": "GPT 4o Realtime Preview 2024 10 01",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4551,13 +4354,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "azure/us/gpt-4o-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Realtime Preview 2024 12 17",
+    "model_name": "GPT 4o Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4574,7 +4376,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4597,7 +4398,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4620,7 +4420,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4643,7 +4442,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4666,7 +4464,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4689,7 +4486,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -4712,7 +4508,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4735,7 +4530,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4758,7 +4552,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4781,7 +4574,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4804,7 +4596,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4827,7 +4618,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4850,7 +4640,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4873,7 +4662,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4896,7 +4684,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4919,7 +4706,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -4942,7 +4728,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4965,7 +4750,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -4988,7 +4772,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5011,7 +4794,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5034,7 +4816,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5057,7 +4838,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5080,7 +4860,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5103,7 +4882,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5126,7 +4904,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -5149,7 +4926,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -5172,7 +4948,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -5195,7 +4970,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -5218,7 +4992,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5241,7 +5014,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5264,7 +5036,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5287,7 +5058,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5310,7 +5080,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5333,7 +5102,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5356,7 +5124,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5379,7 +5146,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5402,7 +5168,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5425,7 +5190,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5448,7 +5212,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5471,7 +5234,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5494,7 +5256,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5517,7 +5278,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5540,7 +5300,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5563,7 +5322,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5586,7 +5344,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5609,7 +5366,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5632,7 +5388,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5655,7 +5410,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5678,7 +5432,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5701,7 +5454,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5724,7 +5476,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5747,7 +5498,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5770,7 +5520,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5793,7 +5542,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5816,7 +5564,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5839,7 +5586,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5862,7 +5608,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5885,7 +5630,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5908,7 +5652,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5931,7 +5674,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5954,7 +5696,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -5977,7 +5718,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6000,7 +5740,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6023,7 +5762,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6046,7 +5784,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6069,7 +5806,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6092,7 +5828,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6115,7 +5850,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6138,7 +5872,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6161,7 +5894,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6184,7 +5916,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6207,7 +5938,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6230,7 +5960,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -6253,7 +5982,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -6276,7 +6004,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -6299,7 +6026,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6322,7 +6048,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6345,7 +6070,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6368,7 +6092,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6391,7 +6114,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6414,7 +6136,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6437,7 +6158,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6460,7 +6180,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6483,7 +6202,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6506,7 +6224,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6529,7 +6246,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6552,7 +6268,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6575,7 +6290,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6598,7 +6312,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6621,7 +6334,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6644,7 +6356,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6667,7 +6378,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6690,7 +6400,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6713,7 +6422,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6736,7 +6444,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6759,7 +6466,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6782,7 +6488,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6805,7 +6510,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6828,7 +6532,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6851,7 +6554,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6874,7 +6576,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6897,7 +6598,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6920,7 +6620,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6943,7 +6642,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6966,7 +6664,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -6989,7 +6686,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7012,7 +6708,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7035,7 +6730,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7058,7 +6752,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7081,7 +6774,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7104,7 +6796,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7127,7 +6818,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7150,7 +6840,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7173,7 +6862,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7196,7 +6884,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7219,7 +6906,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7242,7 +6928,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7265,7 +6950,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7288,7 +6972,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7311,7 +6994,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7334,7 +7016,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7357,7 +7038,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7380,7 +7060,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7403,7 +7082,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7426,7 +7104,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7449,7 +7126,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7472,7 +7148,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7495,7 +7170,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7518,7 +7192,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7541,7 +7214,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7564,7 +7236,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7587,7 +7258,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7610,7 +7280,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7633,7 +7302,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7656,7 +7324,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7679,7 +7346,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7702,7 +7368,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7725,7 +7390,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7748,7 +7412,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -7771,7 +7434,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7794,7 +7456,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7817,7 +7478,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7840,7 +7500,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7863,7 +7522,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7886,7 +7544,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7909,7 +7566,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7932,7 +7588,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7955,7 +7610,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -7978,7 +7632,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8001,7 +7654,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8024,7 +7676,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8047,7 +7698,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8070,7 +7720,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8093,7 +7742,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8116,7 +7764,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8139,7 +7786,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8162,7 +7808,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8185,7 +7830,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8208,7 +7852,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8231,7 +7874,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8254,7 +7896,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8277,7 +7918,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8300,7 +7940,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8323,7 +7962,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8346,7 +7984,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8369,7 +8006,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8392,7 +8028,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8415,7 +8050,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8438,7 +8072,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8461,7 +8094,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8484,7 +8116,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8507,7 +8138,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8530,7 +8160,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8553,7 +8182,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8576,7 +8204,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8599,7 +8226,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8622,7 +8248,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8645,7 +8270,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8668,7 +8292,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8691,7 +8314,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8714,7 +8336,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8737,7 +8358,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8760,7 +8380,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8783,7 +8402,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8806,7 +8424,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8829,7 +8446,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8852,7 +8468,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8875,7 +8490,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8898,7 +8512,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8921,7 +8534,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8944,7 +8556,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8967,7 +8578,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -8990,7 +8600,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9013,7 +8622,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9036,7 +8644,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9059,7 +8666,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9082,7 +8688,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9105,7 +8710,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9128,7 +8732,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9151,7 +8754,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9174,7 +8776,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9197,7 +8798,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9220,7 +8820,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9243,7 +8842,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9266,7 +8864,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9289,7 +8886,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9312,7 +8908,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -9335,7 +8930,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9358,7 +8952,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9381,7 +8974,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -9404,7 +8996,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9427,7 +9018,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9450,7 +9040,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9473,7 +9062,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9496,7 +9084,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9519,7 +9106,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9542,7 +9128,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9565,7 +9150,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9588,7 +9172,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9611,7 +9194,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9634,7 +9216,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9657,7 +9238,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -9680,7 +9260,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -9703,7 +9282,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -9726,7 +9304,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -9749,7 +9326,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -9772,7 +9348,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9795,7 +9370,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9818,7 +9392,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9841,7 +9414,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9864,7 +9436,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9887,7 +9458,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9910,7 +9480,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9933,7 +9502,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -9956,7 +9524,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -9979,7 +9546,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10002,7 +9568,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10025,7 +9590,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10048,7 +9612,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10071,7 +9634,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10094,7 +9656,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10117,7 +9678,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10140,7 +9700,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -10163,7 +9722,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10186,7 +9744,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10209,7 +9766,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10232,7 +9788,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10255,7 +9810,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10278,7 +9832,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10301,7 +9854,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10324,7 +9876,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10347,7 +9898,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10370,7 +9920,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10393,7 +9942,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10416,7 +9964,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10439,7 +9986,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10462,7 +10008,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10485,7 +10030,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10508,7 +10052,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10531,7 +10074,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10554,7 +10096,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10577,7 +10118,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10600,7 +10140,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10623,7 +10162,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10646,7 +10184,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10669,7 +10206,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10692,7 +10228,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10715,7 +10250,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10738,7 +10272,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10761,7 +10294,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10784,7 +10316,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10807,7 +10338,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10830,7 +10360,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10853,7 +10382,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10876,7 +10404,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10899,7 +10426,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10922,7 +10448,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10945,7 +10470,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10968,7 +10492,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -10991,7 +10514,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -11014,7 +10536,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11037,7 +10558,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -11060,7 +10580,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11083,7 +10602,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11106,7 +10624,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11129,7 +10646,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -11152,13 +10668,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
   {
     "model_id": "jondurbin/airoboros-l2-70b-gpt4-1.4.1",
-    "model_name": "Airoboros L2 70b Gpt4 1.4.1",
+    "model_name": "Airoboros L2 70b GPT4 1.4.1",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 4096,
@@ -11175,7 +10690,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11198,7 +10712,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11221,7 +10734,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11244,7 +10756,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11267,7 +10778,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11290,7 +10800,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11313,7 +10822,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11336,7 +10844,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11359,7 +10866,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11382,7 +10888,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11405,7 +10910,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -11428,7 +10932,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -11451,7 +10954,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11474,7 +10976,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11497,7 +10998,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11520,7 +11020,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11543,7 +11042,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11566,7 +11064,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11589,7 +11086,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11612,7 +11108,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11635,7 +11130,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11658,7 +11152,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11681,7 +11174,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11704,7 +11196,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11727,7 +11218,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11750,7 +11240,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11773,7 +11262,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11796,7 +11284,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11819,7 +11306,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11842,7 +11328,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11865,7 +11350,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11888,7 +11372,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -11911,7 +11394,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -11934,7 +11416,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -11957,7 +11438,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -11980,7 +11460,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -12003,7 +11482,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -12026,7 +11504,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12049,7 +11526,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12072,7 +11548,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12095,7 +11570,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12118,7 +11592,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12141,7 +11614,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12164,7 +11636,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12187,7 +11658,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12210,7 +11680,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12233,7 +11702,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12256,7 +11724,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12279,7 +11746,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-05-24"
   },
@@ -12302,7 +11768,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-09-24"
   },
@@ -12325,7 +11790,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12348,7 +11812,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12371,7 +11834,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12394,7 +11856,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12417,7 +11878,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12440,7 +11900,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12463,7 +11922,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-05-24"
   },
@@ -12486,7 +11944,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-09-24"
   },
@@ -12509,7 +11966,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12532,7 +11988,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12555,7 +12010,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12578,7 +12032,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12601,7 +12054,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12624,7 +12076,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12647,7 +12098,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12670,7 +12120,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12693,7 +12142,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12716,7 +12164,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12739,7 +12186,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12762,7 +12208,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12785,7 +12230,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12808,7 +12252,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12831,7 +12274,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12854,7 +12296,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12877,7 +12318,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12900,7 +12340,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12923,7 +12362,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12946,7 +12384,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12969,7 +12406,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -12992,7 +12428,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13015,7 +12450,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13038,7 +12472,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13061,7 +12494,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13084,7 +12516,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13107,7 +12538,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13130,7 +12560,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13153,7 +12582,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13176,7 +12604,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13199,7 +12626,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13222,7 +12648,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13245,7 +12670,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -13268,7 +12692,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2024-12-18"
   },
@@ -13291,7 +12714,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13314,7 +12736,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13337,7 +12758,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-01-24"
   },
@@ -13360,7 +12780,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13383,7 +12802,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2024-10-28"
   },
@@ -13406,7 +12824,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-14"
   },
@@ -13429,7 +12846,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-14"
   },
@@ -13452,7 +12868,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-14"
   },
@@ -13475,7 +12890,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2024-11-25"
   },
@@ -13498,7 +12912,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-14"
   },
@@ -13521,7 +12934,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-14"
   },
@@ -13544,7 +12956,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13567,7 +12978,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13590,7 +13000,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13613,7 +13022,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13636,7 +13044,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13659,7 +13066,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-01-06"
   },
@@ -13682,7 +13088,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-01-06"
   },
@@ -13705,7 +13110,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13728,7 +13132,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13751,7 +13154,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13774,7 +13176,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-03-20"
   },
@@ -13797,7 +13198,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13820,7 +13220,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -13843,7 +13242,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13866,7 +13264,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -13889,7 +13286,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -13912,7 +13308,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -13935,7 +13330,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13958,7 +13352,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -13981,7 +13374,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14004,7 +13396,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14027,7 +13418,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14050,7 +13440,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14073,7 +13462,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14096,7 +13484,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14119,7 +13506,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14142,7 +13528,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14165,7 +13550,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14188,7 +13572,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14211,7 +13594,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14234,7 +13616,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14257,7 +13638,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14280,7 +13660,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14303,7 +13682,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -14326,7 +13704,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14349,7 +13726,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14372,7 +13748,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14395,7 +13770,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14418,7 +13792,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14441,7 +13814,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14464,7 +13836,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14487,7 +13858,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14510,7 +13880,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14533,7 +13902,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14556,7 +13924,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14579,7 +13946,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14602,7 +13968,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14625,7 +13990,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14648,7 +14012,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14671,7 +14034,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14694,7 +14056,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14717,7 +14078,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14740,7 +14100,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14763,7 +14122,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -14786,7 +14144,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -14809,7 +14166,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14832,7 +14188,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14855,7 +14210,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14878,7 +14232,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14901,7 +14254,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14924,7 +14276,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14947,7 +14298,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14970,7 +14320,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -14993,7 +14342,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15016,7 +14364,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15039,7 +14386,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -15062,7 +14408,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15085,7 +14430,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15108,7 +14452,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15131,7 +14474,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15154,7 +14496,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15177,7 +14518,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15200,7 +14540,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15223,7 +14562,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15246,7 +14584,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15269,7 +14606,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15292,7 +14628,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15315,7 +14650,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15338,7 +14672,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15361,7 +14694,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15384,7 +14716,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -15407,7 +14738,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15430,7 +14760,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15453,7 +14782,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15476,7 +14804,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15499,7 +14826,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15522,7 +14848,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15545,7 +14870,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15568,7 +14892,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15591,7 +14914,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15614,7 +14936,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15637,7 +14958,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15660,7 +14980,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15683,7 +15002,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15706,7 +15024,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15729,7 +15046,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15752,7 +15068,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15775,7 +15090,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15798,7 +15112,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15821,7 +15134,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15844,7 +15156,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15867,7 +15178,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15890,7 +15200,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15913,7 +15222,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -15936,7 +15244,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15959,7 +15266,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -15982,7 +15288,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -16005,7 +15310,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -16028,7 +15332,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -16051,7 +15354,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16074,7 +15376,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16097,7 +15398,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16120,7 +15420,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16143,7 +15442,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16166,7 +15464,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16189,7 +15486,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16212,7 +15508,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16235,7 +15530,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16258,7 +15552,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16281,7 +15574,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16304,7 +15596,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16327,7 +15618,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16350,7 +15640,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16373,7 +15662,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16396,7 +15684,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16419,7 +15706,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16442,7 +15728,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16465,7 +15750,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16488,7 +15772,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16511,7 +15794,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-06-06"
   },
@@ -16534,7 +15816,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16557,7 +15838,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2024-12-06"
   },
@@ -16580,7 +15860,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16603,7 +15882,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16626,7 +15904,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16649,7 +15926,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16672,7 +15948,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16695,7 +15970,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16718,7 +15992,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2024-12-06"
   },
@@ -16741,7 +16014,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16764,7 +16036,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16787,7 +16058,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16810,7 +16080,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16833,7 +16102,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16856,7 +16124,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16879,7 +16146,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16902,7 +16168,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-07-14"
   },
@@ -16925,7 +16190,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16948,7 +16212,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16971,7 +16234,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -16994,7 +16256,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17017,7 +16278,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17040,7 +16300,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17063,7 +16322,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17086,7 +16344,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17109,7 +16366,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17132,7 +16388,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17155,7 +16410,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17178,7 +16432,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17201,7 +16454,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17224,7 +16476,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17247,7 +16498,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17270,7 +16520,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17293,7 +16542,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -17316,7 +16564,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -17339,7 +16586,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17362,7 +16608,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17385,7 +16630,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17408,7 +16652,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17431,7 +16674,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17454,7 +16696,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -17477,7 +16718,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -17500,7 +16740,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -17523,7 +16762,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -17546,13 +16784,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "high/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17569,13 +16806,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "high/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17592,13 +16828,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "high/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17615,13 +16850,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "low/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17638,13 +16872,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "low/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17661,13 +16894,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "low/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17684,13 +16916,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "medium/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17707,13 +16938,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "medium/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17730,13 +16960,12 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
   {
     "model_id": "medium/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1",
+    "model_name": "GPT Image 1",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -17753,7 +16982,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -17776,7 +17004,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17799,7 +17026,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17822,7 +17048,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17845,7 +17070,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17868,7 +17092,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17891,7 +17114,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17914,7 +17136,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17937,7 +17158,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17960,7 +17180,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -17983,7 +17202,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18006,7 +17224,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18029,7 +17246,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18052,7 +17268,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18075,7 +17290,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18098,7 +17312,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18121,7 +17334,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18144,7 +17356,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18167,7 +17378,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18190,7 +17400,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18213,7 +17422,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18236,7 +17444,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "moderation",
     "deprecation_date": null
   },
@@ -18259,7 +17466,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "moderation",
     "deprecation_date": null
   },
@@ -18282,7 +17488,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "moderation",
     "deprecation_date": null
   },
@@ -18305,7 +17510,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -18328,7 +17532,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -18351,7 +17554,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -18374,7 +17576,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -18397,7 +17598,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -18420,7 +17620,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -18443,7 +17642,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -18466,7 +17664,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "moderation",
     "deprecation_date": null
   },
@@ -18489,7 +17686,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "moderation",
     "deprecation_date": null
   },
@@ -18512,7 +17708,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "moderation",
     "deprecation_date": null
   },
@@ -18535,7 +17730,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -18558,7 +17752,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -18581,7 +17774,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "audio",
     "deprecation_date": null
   },
@@ -18604,7 +17796,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18627,7 +17818,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18650,7 +17840,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18673,7 +17862,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18696,7 +17884,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18719,7 +17906,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18742,7 +17928,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18765,7 +17950,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18788,7 +17972,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18811,7 +17994,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18834,7 +18016,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18857,7 +18038,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18880,7 +18060,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18903,7 +18082,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18926,7 +18104,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18949,7 +18126,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18972,7 +18148,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -18995,7 +18170,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19018,7 +18192,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19041,7 +18214,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19064,7 +18236,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19087,7 +18258,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19110,7 +18280,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19133,7 +18302,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19156,7 +18324,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19179,7 +18346,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19202,7 +18368,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19225,7 +18390,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19248,7 +18412,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19271,7 +18434,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19294,7 +18456,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19317,7 +18478,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19340,7 +18500,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19363,7 +18522,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19386,7 +18544,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19409,7 +18566,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19432,7 +18588,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19455,7 +18610,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19478,7 +18632,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19501,7 +18654,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19524,7 +18676,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19547,7 +18698,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19570,7 +18720,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19593,7 +18742,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19616,7 +18764,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19639,7 +18786,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19662,7 +18808,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19685,7 +18830,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19708,7 +18852,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19731,7 +18874,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19754,7 +18896,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19777,7 +18918,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19800,7 +18940,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19823,7 +18962,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19846,7 +18984,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19869,7 +19006,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19892,7 +19028,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19915,7 +19050,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19938,7 +19072,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19961,7 +19094,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -19984,7 +19116,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20007,7 +19138,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20030,7 +19160,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20053,7 +19182,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20076,7 +19204,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -20099,7 +19226,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -20122,7 +19248,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -20145,7 +19270,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -20168,7 +19292,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20191,7 +19314,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20214,7 +19336,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20237,7 +19358,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20260,7 +19380,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20283,7 +19402,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-02-22"
   },
@@ -20306,7 +19424,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-02-22"
   },
@@ -20329,7 +19446,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-02-22"
   },
@@ -20352,7 +19468,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-02-22"
   },
@@ -20375,7 +19490,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-02-22"
   },
@@ -20398,7 +19512,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20421,7 +19534,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20444,7 +19556,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20467,7 +19578,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20490,7 +19600,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20513,7 +19622,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20536,7 +19644,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20559,7 +19666,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20582,7 +19688,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20605,7 +19710,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20628,7 +19732,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20651,7 +19754,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20674,7 +19776,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20697,7 +19798,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20720,7 +19820,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20743,7 +19842,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20766,7 +19864,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20789,7 +19886,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20812,7 +19908,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20835,7 +19930,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20858,7 +19952,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20881,7 +19974,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20904,7 +19996,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20927,7 +20018,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20950,7 +20040,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20973,7 +20062,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -20996,7 +20084,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21019,7 +20106,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21042,7 +20128,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -21065,7 +20150,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21088,7 +20172,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -21111,7 +20194,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21134,7 +20216,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -21157,7 +20238,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21180,7 +20260,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21203,7 +20282,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21226,7 +20304,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21249,7 +20326,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21272,7 +20348,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21295,7 +20370,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21318,7 +20392,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21341,7 +20414,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21364,7 +20436,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21387,7 +20458,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21410,7 +20480,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21433,7 +20502,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21456,7 +20524,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21479,7 +20546,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21502,7 +20568,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21525,7 +20590,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21548,7 +20612,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21571,7 +20634,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21594,7 +20656,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21617,7 +20678,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21640,7 +20700,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21663,7 +20722,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21686,7 +20744,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21709,7 +20766,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21732,7 +20788,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21755,7 +20810,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21778,7 +20832,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21801,7 +20854,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21824,7 +20876,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21847,7 +20898,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21870,7 +20920,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21893,7 +20942,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21916,7 +20964,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21939,7 +20986,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21962,7 +21008,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -21985,7 +21030,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22008,7 +21052,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22031,7 +21074,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22054,7 +21096,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -22077,7 +21118,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -22100,7 +21140,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -22123,7 +21162,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -22146,7 +21184,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -22169,7 +21206,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -22192,7 +21228,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22215,7 +21250,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22238,7 +21272,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22261,7 +21294,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22284,7 +21316,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22307,7 +21338,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22330,7 +21360,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22353,7 +21382,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22376,7 +21404,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22399,7 +21426,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22422,7 +21448,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22445,7 +21470,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22468,7 +21492,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22491,7 +21514,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22514,7 +21536,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22537,7 +21558,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22560,7 +21580,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22583,7 +21602,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22606,7 +21624,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22629,7 +21646,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -22652,7 +21668,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -22675,7 +21690,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22698,7 +21712,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22721,7 +21734,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22744,7 +21756,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22767,7 +21778,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22790,7 +21800,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22813,7 +21822,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22836,7 +21844,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22859,7 +21866,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22882,7 +21888,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-09"
   },
@@ -22905,7 +21910,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22928,7 +21932,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22951,7 +21954,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22974,7 +21976,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -22997,7 +21998,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23020,7 +22020,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23043,7 +22042,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-06-01"
   },
@@ -23066,7 +22064,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23089,7 +22086,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23112,7 +22108,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23135,7 +22130,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23158,7 +22152,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23181,7 +22174,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23204,7 +22196,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23227,7 +22218,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23250,7 +22240,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23273,7 +22262,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23296,7 +22284,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23319,7 +22306,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23342,7 +22328,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23365,7 +22350,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23388,7 +22372,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23411,7 +22394,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23434,7 +22416,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23457,7 +22438,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23480,7 +22460,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -23503,7 +22482,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23526,7 +22504,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23549,7 +22526,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23572,7 +22548,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23595,7 +22570,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23618,7 +22592,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23641,7 +22614,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23664,7 +22636,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23687,7 +22658,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23710,7 +22680,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23733,7 +22702,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-09"
   },
@@ -23756,7 +22724,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-09"
   },
@@ -23779,7 +22746,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23802,7 +22768,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-04-09"
   },
@@ -23825,7 +22790,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23848,7 +22812,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23871,7 +22834,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23894,7 +22856,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-05-24"
   },
@@ -23917,7 +22878,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-09-24"
   },
@@ -23940,7 +22900,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23963,7 +22922,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -23986,7 +22944,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24009,7 +22966,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-05-24"
   },
@@ -24032,7 +22988,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2025-09-24"
   },
@@ -24055,7 +23010,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24078,7 +23032,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24101,7 +23054,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24124,7 +23076,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24147,7 +23098,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2026-02-05"
   },
@@ -24170,7 +23120,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24193,7 +23142,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24216,7 +23164,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": "2026-02-25"
   },
@@ -24239,7 +23186,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24262,7 +23208,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24285,7 +23230,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24308,7 +23252,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24331,7 +23274,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24354,7 +23296,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24377,7 +23318,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24400,7 +23340,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24423,7 +23362,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24446,7 +23384,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24469,7 +23406,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24492,7 +23428,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24515,7 +23450,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24538,7 +23472,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24561,7 +23494,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -24584,7 +23516,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24607,7 +23538,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24630,7 +23560,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24653,7 +23582,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": true,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24676,7 +23604,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -24699,7 +23626,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -24722,7 +23648,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -24745,7 +23670,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -24768,7 +23692,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -24791,7 +23714,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -24814,7 +23736,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "image",
     "deprecation_date": null
   },
@@ -24837,7 +23758,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24860,7 +23780,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24883,7 +23802,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24906,7 +23824,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24929,7 +23846,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24952,7 +23868,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24975,7 +23890,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -24998,7 +23912,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25021,7 +23934,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25044,7 +23956,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25067,7 +23978,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25090,7 +24000,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25113,7 +24022,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25136,7 +24044,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25159,7 +24066,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25182,7 +24088,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25205,7 +24110,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25228,7 +24132,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -25251,7 +24154,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25274,7 +24176,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25297,7 +24198,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -25320,7 +24220,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -25343,7 +24242,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -25366,7 +24264,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -25389,7 +24286,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -25412,7 +24308,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25435,7 +24330,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25458,7 +24352,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25481,7 +24374,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25504,7 +24396,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25527,7 +24418,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25550,7 +24440,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -25573,7 +24462,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "completion",
     "deprecation_date": null
   },
@@ -25596,7 +24484,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25619,7 +24506,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25642,7 +24528,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25665,7 +24550,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25688,7 +24572,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25711,7 +24594,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -25734,7 +24616,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "rerank",
     "deprecation_date": null
   },
@@ -25757,7 +24638,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25780,7 +24660,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25803,7 +24682,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25826,7 +24704,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25849,7 +24726,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25872,7 +24748,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25895,7 +24770,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25918,7 +24792,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25941,7 +24814,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25964,7 +24836,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -25987,7 +24858,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -26010,7 +24880,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -26033,7 +24902,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "embedding",
     "deprecation_date": null
   },
@@ -26056,7 +24924,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26079,7 +24946,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": true,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26102,7 +24968,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26125,7 +24990,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26148,7 +25012,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26171,7 +25034,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26194,7 +25056,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26217,7 +25078,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26240,7 +25100,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26263,7 +25122,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26286,7 +25144,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26309,7 +25166,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26332,7 +25188,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26355,7 +25210,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26378,7 +25232,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26401,7 +25254,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26424,7 +25276,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26447,7 +25298,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26470,7 +25320,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26493,7 +25342,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26516,7 +25364,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26539,7 +25386,6 @@ export const modelsList: Models = [
     "supports_vision": false,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26562,7 +25408,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   },
@@ -26585,7 +25430,6 @@ export const modelsList: Models = [
     "supports_vision": true,
     "supports_json_mode": false,
     "supports_parallel_functions": false,
-    "supports_streaming": true,
     "model_type": "chat",
     "deprecation_date": null
   }

@@ -46,7 +46,6 @@ export const ModelSchema = z.object({
   supports_vision: z.boolean().default(false),
   supports_json_mode: z.boolean().default(false),
   supports_parallel_functions: z.boolean().default(false),
-  supports_streaming: z.boolean().default(true),
 
   model_type: z
     .enum([

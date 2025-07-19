@@ -183,7 +183,6 @@ export function transformModel(
     supports_json_mode: litellmModel.supports_response_schema ?? false,
     supports_parallel_functions:
       litellmModel.supports_parallel_function_calling ?? false,
-    supports_streaming: true,
 
     // Model type
     model_type: getModelType(litellmModel.mode),

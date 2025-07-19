@@ -189,19 +189,14 @@ export function generateDisplayName(modelId: string): string {
     return DISPLAY_NAMES[modelId];
   }
 
+  let name = modelId;
   if (modelId.indexOf('/') > -1) {
     const parts = modelId.split('/');
     const last = parts.at(-1) || modelId;
-    const name = DISPLAY_NAMES[last] || last;
-    return name
-      .split('-')
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ');
+    name = DISPLAY_NAMES[last] || last;
   }
 
-  console.log('Unknown name:', modelId);
-
-  return modelId
+  return name
     .split('-')
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ')

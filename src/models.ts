@@ -1,5 +1,6 @@
 import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
+import { modelsList } from './data/list';
 import { modelsMap } from './data/map';
 import {
   ModelPartialSchema,
@@ -9,6 +10,109 @@ import {
 import { safeParseQueryCSV } from './util';
 
 export function registerModelsRoutes(app: OpenAPIHono) {
+  const getModels = createRoute({
+    method: 'get',
+    path: '/api/models',
+    tags: ['Models'],
+    summary: 'List models',
+    request: {
+      query: z.object({
+        prefixes: z
+          .string()
+          .optional()
+          .describe('Comma-separated list of prefixes to filter models'),
+        providers: z
+          .string()
+          .optional()
+          .describe('Comma-separated list of providers to filter models'),
+        type: z
+          .string()
+          .optional()
+          .describe('Comma-separated list of model types to filter'),
+        deprecated: z
+          .string()
+          .optional()
+          .transform((val) => {
+            if (val === 'true') {
+              return true;
+            }
+            if (val === 'false') {
+              return false;
+            }
+            return;
+          })
+          .describe('Filter models by deprecation status (true/false)'),
+        project: ProjectSchema,
+      }),
+    },
+    responses: {
+      200: {
+        description: 'List of optionally filtered models',
+        content: {
+          'application/json': {
+            schema: z.array(ModelPartialSchema),
+          },
+        },
+      },
+    },
+  });
+
+  app.openapi(getModels, async (c) => {
+    const query = c.req.valid('query');
+
+    const prefixFilter = safeParseQueryCSV(query.prefixes);
+    const providerFilter = safeParseQueryCSV(query.providers);
+    const typeFilter = safeParseQueryCSV(query.type);
+    const projectFields = safeParseQueryCSV(query.project);
+
+    let result = modelsList;
+
+    // Apply prefix filter
+    if (prefixFilter.length > 0) {
+      result = result.filter((model) =>
+        prefixFilter.some((prefix) => model.model_id.startsWith(prefix))
+      );
+    }
+
+    // Apply provider filter
+    if (providerFilter.length > 0) {
+      result = result.filter((model) =>
+        providerFilter.includes(model.provider_id)
+      );
+    }
+
+    // Apply type filter
+    if (typeFilter.length > 0) {
+      result = result.filter((model) => typeFilter.includes(model.model_type));
+    }
+
+    // Apply deprecated filter
+    if (query.deprecated !== undefined) {
+      result = result.filter((model) =>
+        query.deprecated
+          ? model.deprecation_date !== undefined
+          : model.deprecation_date === undefined
+      );
+    }
+
+    // Apply field projection if requested
+    if (projectFields.length > 0) {
+      const projectedModels = result.map((model) => {
+        const projectedModel: ModelsPartial = {};
+        for (const field of projectFields) {
+          if (field in model) {
+            // @ts-expect-error
+            projectedModel[field] = model[field as keyof typeof model];
+          }
+        }
+        return projectedModel;
+      });
+      return c.json(projectedModels, 200);
+    }
+
+    return c.json(result, 200);
+  });
+
   const getModel = createRoute({
     method: 'get',
     path: '/api/models/:id',
