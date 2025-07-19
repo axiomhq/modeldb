@@ -124,6 +124,7 @@ export function buildHome(): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ModelDB - Free API for AI model information including provider details, costs, context windows, and capabilities">
   <title>ModelDB - AI Model Information API</title>
   <style>
     /* Light mode (default) */
@@ -133,10 +134,11 @@ export function buildHome(): string {
       background-color: #fff;
       color: #000;
       font-family: 'Courier New', monospace;
+      margin: 20px;
     }
     pre {
       margin: 0;
-      padding: 20px;
+      padding: 0;
       overflow-x: auto;
       line-height: 1.4;
     }
@@ -147,6 +149,10 @@ export function buildHome(): string {
     a:hover {
       text-decoration: underline;
       color: #000;
+    }
+    .skip-link:focus {
+      position: static !important;
+      left: auto !important;
     }
 
     /* Dark mode */
@@ -167,8 +173,14 @@ export function buildHome(): string {
   </style>
 </head>
 <body>
+<a href="#main-content" class="skip-link" style="position: absolute; left: -9999px; z-index: 999; background: inherit; color: inherit; padding: 8px; text-decoration: underline;">Skip to main content</a>
+<header role="banner">
 <pre>
-<a href="https://modeldb.info"><b>Axiom, Inc.</b></a>                                                       <a href="https://github.com/axiomhq/modeldb"><b>GitHub</b></a>
+<a href="https://modeldb.info" aria-label="Axiom, Inc. homepage">Axiom, Inc.</a>                                                       <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>
+</pre>
+</header>
+<main id="main-content" role="main">
+<pre aria-label="ModelDB ASCII logo">
 ════════════════════════════════════════════════════════════════════════
 
 
@@ -193,64 +205,85 @@ API for AI model information { provider, cost, context, features, ... }
 ▸ Filtering and field projection
 ▸ OpenAPI 3.1 specification
 
+</pre>
+<section aria-label="Database Statistics">
+<h2 style="position: absolute; left: -9999px;">Database Statistics</h2>
+<pre>
 ════════════════════════════════════════════════════════════════════════
                            DATABASE STATISTICS
 ════════════════════════════════════════════════════════════════════════
 
 All Providers (${Object.keys(stats.providers).length} total)
+<div role="region" aria-label="Provider statistics table">
 ${buildProviderStats(stats.providers)}
-
+</div>
 Model Type Distribution
+<div role="region" aria-label="Model type distribution table">
 ${buildTypeStats(stats.types)}
-
+</div>
 Capability Support Matrix
+<div role="region" aria-label="Capability support matrix table">
 ${buildCapabilitiesMatrix(stats.capabilities, totalModels)}
-
+</div>
+</pre>
+</section>
+<section aria-label="Quick Examples">
+<h2 style="position: absolute; left: -9999px;">Quick Examples</h2>
+<pre>
 ════════════════════════════════════════════════════════════════════════
                             QUICK EXAMPLES
 ════════════════════════════════════════════════════════════════════════
 
 List all models:
 ┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models">/api/models</a>                                                      │
+│ GET <a href="/api/models" aria-label="API endpoint to list all models">/api/models</a>                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 
 Filter by provider:
 ┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models?providers=openai,anthropic">/api/models?providers=openai,anthropic</a>                           │
+│ GET <a href="/api/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/models?providers=openai,anthropic</a>                           │
 └──────────────────────────────────────────────────────────────────────┘
 
   Get specific fields:
 ┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models?project=model_id,model_name,input_cost_per_million">/api/models?project=model_id,model_name,input_cost_per_million</a>   │
+│ GET <a href="/api/models?project=model_id,model_name,input_cost_per_million" aria-label="API endpoint to get specific model fields">/api/models?project=model_id,model_name,input_cost_per_million</a>   │
 └──────────────────────────────────────────────────────────────────────┘
 
 Get a specific model:
 ┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models/gpt-4">/api/models/gpt-4</a>                                                │
+│ GET <a href="/api/models/gpt-4" aria-label="API endpoint to get GPT-4 model details">/api/models/gpt-4</a>                                                │
 └──────────────────────────────────────────────────────────────────────┘
-
+</pre>
+</section>
+<section aria-label="API Routes">
+<h2 style="position: absolute; left: -9999px;">API Routes</h2>
+<pre>
 ════════════════════════════════════════════════════════════════════════
                               API ROUTES
 ════════════════════════════════════════════════════════════════════════
 
-  <a href="/api/models">/api/models</a>         List all models with filtering
-  <a href="/api/models/gpt-4">/api/models/:id</a>     Get a specific model by ID
-  <a href="/api/providers">/api/providers</a>      List all providers
-  <a href="/api/providers/openai">/api/providers/:id</a>  Get models for a provider
-  <a href="/api/metadata">/api/metadata</a>       Get database metadata & stats
-
+  <a href="/api/models" aria-label="API models endpoint">/api/models</a>         List all models with filtering
+  <a href="/api/models/gpt-4" aria-label="API model by ID endpoint example">/api/models/:id</a>     Get a specific model by ID
+  <a href="/api/providers" aria-label="API providers endpoint">/api/providers</a>      List all providers
+  <a href="/api/providers/openai" aria-label="API provider models endpoint example">/api/providers/:id</a>  Get models for a provider
+  <a href="/api/metadata" aria-label="API metadata endpoint">/api/metadata</a>       Get database metadata & stats
+</pre>
+</section>
+<section aria-label="OpenAPI Documentation">
+<h2 style="position: absolute; left: -9999px;">OpenAPI Documentation</h2>
+<pre>
 ════════════════════════════════════════════════════════════════════════
                               OPENAPI
 ════════════════════════════════════════════════════════════════════════
 
-  <a href="/openapi.json">/openapi.json</a>  Download OpenAPI v3.1 specification
-  <a href="/ui">/ui</a>            API documentation and interactive testing
+  <a href="/openapi.json" aria-label="Download OpenAPI specification">/openapi.json</a>  Download OpenAPI v3.1 specification
+  <a href="/ui" aria-label="Interactive API documentation">/ui</a>            API documentation and interactive testing
 
 ════════════════════════════════════════════════════════════════════════
-═════════════════════════════════════════════════════════ modeldb v${pkg.version}
-════════════════════════════════════════════════════════════════════════
+                                                         modeldb v1.0.0
 </pre>
+</section>
+</main>
 </body>
 </html>`;
 }
