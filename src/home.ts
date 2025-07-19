@@ -1,5 +1,6 @@
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
+import pkg from '../package.json';
 
 function pad(str: string, len: number, align: 'left' | 'right' = 'left'): string {
   if (str.length >= len) return str.substring(0, len);
@@ -78,15 +79,14 @@ function buildProviderStats(stats: Record<string, number>): string {
 
 function buildTypeStats(stats: Record<string, number>): string {
   const sorted = Object.entries(stats).sort((a, b) => b[1] - a[1]);
-  const total = Object.values(stats).reduce((a, b) => a + b, 0);
+  const maxCount = Math.max(...Object.values(stats));
 
   let output = '┌────────────────────────────────┬───────┬──────────────────────────────┐\n';
-  output += '│ Model Type                     │ Count │ Percent                      │\n';
+  output += '│ Model Type                     │ Count │ Distribution                 │\n';
   output += '├────────────────────────────────┼───────┼──────────────────────────────┤\n';
 
   for (const [type, count] of sorted) {
-    const percent = ((count / total) * 100).toFixed(1);
-    output += `│ ${pad(type, 30)} │ ${pad(count.toString(), 5, 'right')} │ ${pad(percent + '%', 28, 'right')} │\n`;
+    output += `│ ${pad(type, 30)} │ ${pad(count.toString(), 5, 'right')} │ ${progressBar(count, maxCount, 28)} │\n`;
   }
 
   output += '└────────────────────────────────┴───────┴──────────────────────────────┘\n';
@@ -141,12 +141,12 @@ export function buildHome(): string {
       line-height: 1.4;
     }
     a {
-      color: #0066cc;
-      text-decoration: none;
+      color: #000;
+      text-decoration: underline;
     }
     a:hover {
       text-decoration: underline;
-      color: #0052a3;
+      color: #000;
     }
 
     /* Dark mode */
@@ -156,18 +156,20 @@ export function buildHome(): string {
         color: #fafafa;
       }
       a {
-        color: #4db8ff;
+        color: #fafafa;
+        text-decoration: underline;
       }
       a:hover {
-        color: #80ccff;
+        color: #fafafa;
+        text-decoration: underline;
       }
     }
   </style>
 </head>
 <body>
 <pre>
-<a href="https://modeldb.info">Axiom, Inc.</a>                                                       <a href="https://github.com/axiomhq/modeldb">GitHub</a>
-────────────────────────────────────────────────────────────────────────
+<a href="https://modeldb.info"><b>Axiom, Inc.</b></a>                                                       <a href="https://github.com/axiomhq/modeldb"><b>GitHub</b></a>
+════════════════════════════════════════════════════════════════════════
 
 
       ███╗   ███╗ ██████╗ ██████╗ ███████╗██╗     ██████╗ ██████╗
@@ -178,16 +180,18 @@ export function buildHome(): string {
       ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═════╝ ╚═════╝
 
 
-────────────────────────────────────────────────────────────────────────
+════════════════════════════════════════════════════════════════════════
+Models: <b>${formatNumber(totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Deprecated: <b>${formatNumber(stats.deprecatedCount)}</b> | Last Updated: <b>${lastUpdated}</b>
+════════════════════════════════════════════════════════════════════════
 
 API for AI model information { provider, cost, context, features, ... }
 
-▸ Completely free to use                              Models: ${formatNumber(totalModels)}
-▸ Built from LiteLLM models & pricing                 Active: ${formatNumber(stats.activeCount)}
-▸ JSON and CSV support                            Deprecated: ${formatNumber(stats.deprecatedCount)}
-▸ Optimized for apps & data workloads           Last Updated: ${lastUpdated}
+▸ Completely <b>free to use</b>
+▸ Built from <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json"><b>LiteLLM</b> models, cost & pricing (synced hourly)</a>
+▸ <b>JSON</b> and <b>CSV</b> support
+▸ Optimized for apps & data workloads
 ▸ Filtering and field projection
-▸ OpenAPI specification
+▸ OpenAPI 3.1 specification
 
 ════════════════════════════════════════════════════════════════════════
                            DATABASE STATISTICS
@@ -201,7 +205,6 @@ ${buildTypeStats(stats.types)}
 
 Capability Support Matrix
 ${buildCapabilitiesMatrix(stats.capabilities, totalModels)}
-
 
 ════════════════════════════════════════════════════════════════════════
                             QUICK EXAMPLES
@@ -241,11 +244,12 @@ Get a specific model:
                               OPENAPI
 ════════════════════════════════════════════════════════════════════════
 
-  <a href="/openapi.json">Download openapi.json</a>
-  <a href="/ui">Explore with UI</a>
+  <a href="/openapi.json">/openapi.json</a>  Download OpenAPI v3.1 specification
+  <a href="/ui">/ui</a>            API documentation and interactive testing
 
-────────────────────────────────────────────────────────────────────────
-                                                         modeldb v1.0.0
+════════════════════════════════════════════════════════════════════════
+═════════════════════════════════════════════════════════ modeldb v${pkg.version}
+════════════════════════════════════════════════════════════════════════
 </pre>
 </body>
 </html>`;
