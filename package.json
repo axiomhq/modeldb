@@ -1,33 +1,32 @@
 {
-  "name": "modeldb",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "gen:types": "wrangler types",
-    "lint": "ultracite --fix",
-    "start": "wrangler dev",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "sync": "tsx ./scripts/sync.ts sync"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.1.2",
-    "@cloudflare/vitest-pool-workers": "^0.8.19",
-    "chalk": "^5.4.1",
-    "commander": "^14.0.0",
-    "ora": "^8.2.0",
-    "tsx": "^4.20.3",
-    "typescript": "^5.5.2",
-    "ultracite": "5.0.39",
-    "vitest": "~3.2.0",
-    "wrangler": "^4.25.0"
-  },
-  "dependencies": {
-    "@hono/zod-openapi": "^1.0.0",
-    "@scalar/hono-api-reference": "^0.9.11",
-    "json-2-csv": "^5.5.9",
-    "zod": "^4.0.5"
-  }
+	"name": "modeldb",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"gen:types": "wrangler types",
+		"lint": "ultracite --fix",
+		"start": "wrangler dev",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"sync": "tsx ./scripts/sync.ts sync"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.1.2",
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"chalk": "^5.4.1",
+		"commander": "^14.0.0",
+		"ora": "^8.2.0",
+		"tsx": "^4.20.3",
+		"typescript": "^5.5.2",
+		"ultracite": "5.0.39",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.25.0"
+	},
+	"dependencies": {
+		"@hono/zod-openapi": "^1.0.0",
+		"@scalar/hono-api-reference": "^0.9.11",
+		"zod": "^4.0.5"
+	}
 }

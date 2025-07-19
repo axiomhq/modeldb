@@ -1,27 +1,23 @@
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
 
-// Helper function to pad strings
 function pad(str: string, len: number, align: 'left' | 'right' = 'left'): string {
   if (str.length >= len) return str.substring(0, len);
   if (align === 'left') return str + ' '.repeat(len - str.length);
   return ' '.repeat(len - str.length) + str;
 }
 
-// Helper function to format numbers with commas
 function formatNumber(num: number): string {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-// Helper function to create a progress bar
 function progressBar(value: number, max: number, width: number = 20): string {
   const percentage = Math.min(value / max, 1);
-  const filled = Math.max(1, Math.floor(percentage * width)); // Always show at least 1 bar
+  const filled = Math.max(1, Math.floor(percentage * width));
   const empty = width - filled;
   return '█'.repeat(filled) + '░'.repeat(empty);
 }
 
-// Calculate stats (similar to metadata.ts but inline for simplicity)
 function calculateStats() {
   const providerStats: Record<string, number> = {};
   const typeStats: Record<string, number> = {};
@@ -64,7 +60,6 @@ function calculateStats() {
   };
 }
 
-// Create provider stats table
 function buildProviderStats(stats: Record<string, number>): string {
   const sorted = Object.entries(stats).sort((a, b) => b[1] - a[1]);
   const maxCount = Math.max(...Object.values(stats));
@@ -81,7 +76,6 @@ function buildProviderStats(stats: Record<string, number>): string {
   return output;
 }
 
-// Create type distribution
 function buildTypeStats(stats: Record<string, number>): string {
   const sorted = Object.entries(stats).sort((a, b) => b[1] - a[1]);
   const total = Object.values(stats).reduce((a, b) => a + b, 0);
@@ -99,7 +93,6 @@ function buildTypeStats(stats: Record<string, number>): string {
   return output;
 }
 
-// Create capabilities matrix
 function buildCapabilitiesMatrix(capabilities: any, total: number): string {
   let output = '┌────────────────────────────────┬───────┬──────────────────────────────┐\n';
   output += '│ Capability                     │ Count │ Distribution                 │\n';

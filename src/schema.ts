@@ -7,7 +7,6 @@ export const ModelSchema = z.object({
   model_id: z.string().describe('Clean model identifier (e.g., "gpt-4-turbo")'),
   model_name: z.string().describe('Human-friendly display name'),
 
-  // Context and limits
   max_input_tokens: z
     .number()
     .nullable()
@@ -19,7 +18,6 @@ export const ModelSchema = z.object({
     .optional()
     .describe('Maximum output tokens per request'),
 
-  // Pricing - both per token and per million for convenience
   input_cost_per_token: z
     .number()
     .nullable()
@@ -35,13 +33,11 @@ export const ModelSchema = z.object({
     .number()
     .describe('Output cost per million tokens in USD'),
 
-  // Cache pricing (optional)
   cache_read_cost_per_token: z.number().nullable().optional(),
   cache_read_cost_per_million: z.number().nullable().optional(),
   cache_write_cost_per_token: z.number().nullable().optional(),
   cache_write_cost_per_million: z.number().nullable().optional(),
 
-  // Capabilities
   supports_function_calling: z.boolean().default(false),
   supports_vision: z.boolean().default(false),
   supports_json_mode: z.boolean().default(false),
@@ -80,6 +76,22 @@ export const ProjectSchema = z
   .describe('Comma-separated list of fields to return');
 export const LimitSchema = z.number().min(1).max(2000).default(2000).optional();
 export const OffsetSchema = z.number().min(0).default(0).optional();
+
+export const FormatSchema = z
+  .enum(['json', 'csv'])
+  .default('json')
+  .describe('Response format (json or csv)');
+
+export const HeadersSchema = z
+  .string()
+  .optional()
+  .transform((val) => {
+    if (val === 'true') {
+      return true;
+    }
+    return false;
+  })
+  .describe('Include headers in CSV output (true/false, defaults to true)');
 
 export type Model = z.infer<typeof ModelSchema>;
 export type Models = z.infer<typeof ModelsSchema>;

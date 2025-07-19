@@ -6,8 +6,10 @@ import {
   ModelPartialSchema,
   type ModelsPartial,
   ProjectSchema,
+  FormatSchema,
+  HeadersSchema,
 } from './schema';
-import { safeParseQueryCSV } from './util';
+import { safeParseQueryCSV, objectsToCSV } from './csv';
 
 export function registerModelsRoutes(app: OpenAPIHono) {
   const getModels = createRoute({
@@ -43,6 +45,8 @@ export function registerModelsRoutes(app: OpenAPIHono) {
           })
           .describe('Filter models by deprecation status (true/false)'),
         project: ProjectSchema,
+        format: FormatSchema,
+        headers: HeadersSchema,
       }),
     },
     responses: {
@@ -51,6 +55,9 @@ export function registerModelsRoutes(app: OpenAPIHono) {
         content: {
           'application/json': {
             schema: z.array(ModelPartialSchema),
+          },
+          'text/csv': {
+            schema: z.string(),
           },
         },
       },
@@ -67,26 +74,26 @@ export function registerModelsRoutes(app: OpenAPIHono) {
 
     let result = modelsList;
 
-    // Apply prefix filter
+
     if (prefixFilter.length > 0) {
       result = result.filter((model) =>
         prefixFilter.some((prefix) => model.model_id.startsWith(prefix))
       );
     }
 
-    // Apply provider filter
+
     if (providerFilter.length > 0) {
       result = result.filter((model) =>
         providerFilter.includes(model.provider_id)
       );
     }
 
-    // Apply type filter
+
     if (typeFilter.length > 0) {
       result = result.filter((model) => typeFilter.includes(model.model_type));
     }
 
-    // Apply deprecated filter
+
     if (query.deprecated !== undefined) {
       result = result.filter((model) =>
         query.deprecated
@@ -95,7 +102,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       );
     }
 
-    // Apply field projection if requested
+
     if (projectFields.length > 0) {
       const projectedModels = result.map((model) => {
         const projectedModel: ModelsPartial = {};
@@ -107,7 +114,22 @@ export function registerModelsRoutes(app: OpenAPIHono) {
         }
         return projectedModel;
       });
+
+      if (query.format === 'csv') {
+        const csv = objectsToCSV(projectedModels, projectFields, query.headers);
+        return c.text(csv, 200, {
+          'Content-Type': 'text/csv',
+        });
+      }
+
       return c.json(projectedModels, 200);
+    }
+
+    if (query.format === 'csv') {
+      const csv = objectsToCSV(result, undefined, query.headers);
+      return c.text(csv, 200, {
+        'Content-Type': 'text/csv',
+      });
     }
 
     return c.json(result, 200);
@@ -124,6 +146,8 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       }),
       query: z.object({
         project: ProjectSchema.optional(),
+        format: FormatSchema,
+        headers: HeadersSchema,
       }),
     },
     responses: {
@@ -132,6 +156,9 @@ export function registerModelsRoutes(app: OpenAPIHono) {
         content: {
           'application/json': {
             schema: ModelPartialSchema,
+          },
+          'text/csv': {
+            schema: z.string(),
           },
         },
       },
@@ -142,6 +169,9 @@ export function registerModelsRoutes(app: OpenAPIHono) {
             schema: z.object({
               error: z.string(),
             }),
+          },
+          'text/csv': {
+            schema: z.string(),
           },
         },
       },
@@ -155,6 +185,11 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     const model = modelsMap[id];
 
     if (!model) {
+      if (query.format === 'csv') {
+        return c.text('error\n"Model not found"', 404, {
+          'Content-Type': 'text/csv',
+        });
+      }
       return c.json({ error: 'Model not found' }, 404);
     }
 
@@ -168,7 +203,22 @@ export function registerModelsRoutes(app: OpenAPIHono) {
           projectedModel[field] = model[field as keyof typeof model];
         }
       }
+
+      if (query.format === 'csv') {
+        const csv = objectsToCSV([projectedModel], projectFields, query.headers);
+        return c.text(csv, 200, {
+          'Content-Type': 'text/csv',
+        });
+      }
+
       return c.json(projectedModel, 200);
+    }
+
+    if (query.format === 'csv') {
+      const csv = objectsToCSV([model], undefined, query.headers);
+      return c.text(csv, 200, {
+        'Content-Type': 'text/csv',
+      });
     }
 
     return c.json(model, 200);

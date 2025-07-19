@@ -2,6 +2,8 @@ import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
+import { FormatSchema, HeadersSchema } from './schema';
+import { objectsToCSV } from './csv';
 
 const MetadataSchema = z.object({
   source: z.string().describe('Source URL of the model data'),
@@ -34,7 +36,6 @@ const MetadataSchema = z.object({
 });
 
 function calculateStatistics() {
-  // Calculate provider stats
   const providerStats: Record<string, number> = {};
   const typeStats: Record<string, number> = {};
   const capabilityStats = {
@@ -46,16 +47,12 @@ function calculateStatistics() {
   };
   let deprecatedCount = 0;
 
-  // Process all models to gather statistics
   for (const model of modelsList) {
-    // Provider stats
     providerStats[model.provider_id] =
       (providerStats[model.provider_id] || 0) + 1;
 
-    // Type stats
     typeStats[model.model_type] = (typeStats[model.model_type] || 0) + 1;
 
-    // Capability stats
     if (model.supports_function_calling) {
       capabilityStats.supports_function_calling++;
     }
@@ -69,7 +66,6 @@ function calculateStatistics() {
       capabilityStats.supports_parallel_functions++;
     }
 
-    // Deprecation stats
     if (model.deprecation_date) {
       deprecatedCount++;
     }
@@ -92,6 +88,12 @@ export function registerMetadataRoutes(app: OpenAPIHono) {
     path: '/api/metadata',
     tags: ['Metadata'],
     summary: 'Get models metadata',
+    request: {
+      query: z.object({
+        format: FormatSchema,
+        headers: HeadersSchema,
+      }),
+    },
     responses: {
       200: {
         description: 'Models metadata information',
@@ -99,18 +101,52 @@ export function registerMetadataRoutes(app: OpenAPIHono) {
           'application/json': {
             schema: MetadataSchema,
           },
+          'text/csv': {
+            schema: z.string(),
+          },
         },
       },
     },
   });
 
   app.openapi(getMetadata, async (c) => {
+    const query = c.req.valid('query');
     const stats = calculateStatistics();
 
     const response = {
       ...modelsMetadata,
       stats,
     };
+
+    if (query.format === 'csv') {
+      const flatData = [
+        {
+          source: response.source,
+          generated_at: response.generated_at,
+          model_count: response.model_count,
+          schema_version: response.schema_version,
+          total_providers: Object.keys(response.stats.providers).length,
+          total_active: response.stats.deprecation.active,
+          total_deprecated: response.stats.deprecation.deprecated,
+          ...Object.entries(response.stats.providers).reduce((acc, [key, value]) => ({
+            ...acc,
+            [`provider_${key}`]: value
+          }), {}),
+          ...Object.entries(response.stats.types).reduce((acc, [key, value]) => ({
+            ...acc,
+            [`type_${key}`]: value
+          }), {}),
+          ...Object.entries(response.stats.capabilities).reduce((acc, [key, value]) => ({
+            ...acc,
+            [`capability_${key}`]: value
+          }), {})
+        }
+      ];
+      const csv = objectsToCSV(flatData, undefined, query.headers);
+      return c.text(csv, 200, {
+        'Content-Type': 'text/csv',
+      });
+    }
 
     return c.json(response, 200);
   });

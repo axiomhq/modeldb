@@ -41,35 +41,6 @@ app.use(
   })
 );
 
-app.use('/api/*', async (c, next) => {
-  await next();
-
-  // Check if CSV format requested
-  const format = c.req.query('format');
-  if (format === 'csv' && c.res.headers.get('content-type')?.includes('json')) {
-    const json = await c.res.json();
-    if (!Array.isArray(json)) {
-      return c.json(
-        {
-          error: 'Original response must be an array',
-          code: 'INVALID_JSON',
-        },
-        400
-      );
-    }
-    const csv = json2csv(json, {
-      prependHeader: c.req.query('headers') !== 'false',
-    });
-
-    return new Response(csv, {
-      headers: {
-        'Content-Type': 'text/csv',
-        'Content-Disposition': 'inline; filename="modeldb-export.csv"',
-      },
-    });
-  }
-});
-
 app.use('*', etag());
 app.use(
   '/api/*',

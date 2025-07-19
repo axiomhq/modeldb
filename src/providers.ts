@@ -7,8 +7,10 @@ import {
   PartialProvidersSchema,
   ProjectSchema,
   type ProvidersPartial,
+  FormatSchema,
+  HeadersSchema,
 } from './schema';
-import { safeParseQueryCSV } from './util';
+import { safeParseQueryCSV, objectsToCSV } from './csv';
 
 export function registerProvidersRoutes(app: OpenAPIHono) {
   const getProviders = createRoute({
@@ -23,6 +25,8 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
           .optional()
           .describe('Comma-separated list of providers to return'),
         project: ProjectSchema,
+        format: FormatSchema,
+        headers: HeadersSchema,
       }),
     },
     responses: {
@@ -31,6 +35,9 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         content: {
           'application/json': {
             schema: PartialProvidersSchema,
+          },
+          'text/csv': {
+            schema: z.string(),
           },
         },
       },
@@ -55,7 +62,6 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
       result = modelsByProvider;
     }
 
-    // Apply field projection if requested
     if (projectFields.length > 0) {
       for (const [provider, models] of Object.entries(result)) {
         result[provider] = models.map((model) => {
@@ -71,7 +77,22 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
       }
     }
 
-    return c.json(result);
+    if (query.format === 'csv') {
+      const flattened: any[] = [];
+      for (const [provider, models] of Object.entries(result)) {
+        if (Array.isArray(models)) {
+          models.forEach(model => {
+            flattened.push({ provider, ...model });
+          });
+        }
+      }
+      const csv = objectsToCSV(flattened, projectFields.length > 0 ? ['provider', ...projectFields] : undefined, query.headers);
+      return c.text(csv, 200, {
+        'Content-Type': 'text/csv',
+      });
+    }
+
+    return c.json(result, 200);
   });
 
   const getProvider = createRoute({
@@ -85,6 +106,8 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
       }),
       query: z.object({
         project: ProjectSchema.optional(),
+        format: FormatSchema,
+        headers: HeadersSchema,
       }),
     },
     responses: {
@@ -93,6 +116,9 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         content: {
           'application/json': {
             schema: z.array(ModelPartialSchema),
+          },
+          'text/csv': {
+            schema: z.string(),
           },
         },
       },
@@ -103,6 +129,9 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
             schema: z.object({
               error: z.string(),
             }),
+          },
+          'text/csv': {
+            schema: z.string(),
           },
         },
       },
@@ -116,12 +145,16 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
     const models = modelsByProvider[id];
 
     if (!models) {
+      if (query.format === 'csv') {
+        return c.text('error\n"Provider not found"', 404, {
+          'Content-Type': 'text/csv',
+        });
+      }
       return c.json({ error: 'Provider not found' }, 404);
     }
 
     const projectFields = safeParseQueryCSV(query.project);
 
-    // Apply field projection if requested
     if (projectFields.length > 0) {
       const projectedModels = models.map((model) => {
         const projectedModel: ModelsPartial = {};
@@ -133,7 +166,20 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         }
         return projectedModel;
       });
+      if (query.format === 'csv') {
+        const csv = objectsToCSV(projectedModels, projectFields, query.headers);
+        return c.text(csv, 200, {
+          'Content-Type': 'text/csv',
+        });
+      }
       return c.json(projectedModels, 200);
+    }
+
+    if (query.format === 'csv') {
+      const csv = objectsToCSV(models, undefined, query.headers);
+      return c.text(csv, 200, {
+        'Content-Type': 'text/csv',
+      });
     }
 
     return c.json(models, 200);

@@ -6,7 +6,8 @@
 	"files": {
 		"includes": [
 			"**",
-			"!src/data/*"
+			"!src/data/*",
+			"!worker-configuration.d.ts"
 		]
 	},
 	"json": {
