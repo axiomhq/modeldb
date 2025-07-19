@@ -1,11 +1,120 @@
+// i started this then i went to far to come back so we will live with this forever - njpatel
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
-import pkg from '../package.json';
 
 function pad(str: string, len: number, align: 'left' | 'right' = 'left'): string {
   if (str.length >= len) return str.substring(0, len);
   if (align === 'left') return str + ' '.repeat(len - str.length);
   return ' '.repeat(len - str.length) + str;
+}
+
+// Strip HTML tags to get visible text length
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, '');
+}
+
+// Pad string considering HTML content
+function padHtml(str: string, len: number, align: 'left' | 'right' = 'left'): string {
+  const visibleLength = stripHtml(str).length;
+  if (visibleLength >= len) {
+    // If visible content is too long, we need to truncate the actual content
+    return str;
+  }
+  const paddingNeeded = len - visibleLength;
+  if (align === 'left') return str + ' '.repeat(paddingNeeded);
+  return ' '.repeat(paddingNeeded) + str;
+}
+
+// ASCII Box Drawing Characters
+const BOX = {
+  TOP_LEFT: '┌',
+  TOP_RIGHT: '┐',
+  BOTTOM_LEFT: '└',
+  BOTTOM_RIGHT: '┘',
+  HORIZONTAL: '─',
+  VERTICAL: '│',
+  T_DOWN: '┬',
+  T_UP: '┴',
+  T_RIGHT: '├',
+  T_LEFT: '┤',
+  CROSS: '┼',
+};
+
+function sectionHeader(title: string, width: number = 72): string {
+  const padding = Math.max(0, width - title.length - 2);
+  const leftPad = Math.floor(padding / 2);
+  const rightPad = padding - leftPad;
+  const line = '═'.repeat(width);
+  return `${line}\n${' '.repeat(leftPad)}${title}${' '.repeat(rightPad)}\n${line}`;
+}
+
+function box(content: string, width: number = 72): string {
+  // Handle content that might contain HTML tags
+  const lines = content.split('\n');
+  const paddedLines = lines.map(line => {
+    // For single-line content, we need to ensure proper spacing
+    // The box should have 2 chars for borders and 2 for padding on each side
+    const innerWidth = width - 4;
+    return `${BOX.VERTICAL} ${line}${' '.repeat(Math.max(0, innerWidth - line.length))} ${BOX.VERTICAL}`;
+  });
+
+  const top = BOX.TOP_LEFT + BOX.HORIZONTAL.repeat(width - 2) + BOX.TOP_RIGHT;
+  const bottom = BOX.BOTTOM_LEFT + BOX.HORIZONTAL.repeat(width - 2) + BOX.BOTTOM_RIGHT;
+
+  return [top, ...paddedLines, bottom].join('\n');
+}
+
+interface TableColumn {
+  header: string;
+  width: number;
+  align?: 'left' | 'right';
+}
+
+function table(columns: TableColumn[], rows: any[][]): string {
+  const totalWidth = columns.reduce((sum, col) => sum + col.width + 3, 1);
+
+  // Build header
+  let output = BOX.TOP_LEFT;
+  columns.forEach((col, i) => {
+    output += BOX.HORIZONTAL.repeat(col.width + 2);
+    output += i < columns.length - 1 ? BOX.T_DOWN : '';
+  });
+  output += BOX.TOP_RIGHT + '\n';
+
+  // Header row
+  output += BOX.VERTICAL;
+  columns.forEach(col => {
+    output += ` ${pad(col.header, col.width)} ${BOX.VERTICAL}`;
+  });
+  output += '\n';
+
+  // Separator
+  output += BOX.T_RIGHT;
+  columns.forEach((col, i) => {
+    output += BOX.HORIZONTAL.repeat(col.width + 2);
+    output += i < columns.length - 1 ? BOX.CROSS : '';
+  });
+  output += BOX.T_LEFT + '\n';
+
+  // Data rows
+  rows.forEach(row => {
+    output += BOX.VERTICAL;
+    row.forEach((cell, i) => {
+      const col = columns[i];
+      output += ` ${padHtml(String(cell), col.width, col.align)} ${BOX.VERTICAL}`;
+    });
+    output += '\n';
+  });
+
+  // Bottom border
+  output += BOX.BOTTOM_LEFT;
+  columns.forEach((col, i) => {
+    output += BOX.HORIZONTAL.repeat(col.width + 2);
+    output += i < columns.length - 1 ? BOX.T_UP : '';
+  });
+  output += BOX.BOTTOM_RIGHT + '\n';
+
+  return output;
 }
 
 function formatNumber(num: number): string {
@@ -65,53 +174,61 @@ function buildProviderStats(stats: Record<string, number>): string {
   const sorted = Object.entries(stats).sort((a, b) => b[1] - a[1]);
   const maxCount = Math.max(...Object.values(stats));
 
-  let output = '┌────────────────────────────────┬───────┬──────────────────────────────┐\n';
-  output += '│ Provider                       │ Count │ Distribution                 │\n';
-  output += '├────────────────────────────────┼───────┼──────────────────────────────┤\n';
+  const columns: TableColumn[] = [
+    { header: 'Provider', width: 30 },
+    { header: 'Count', width: 5, align: 'right' },
+    { header: 'Distribution', width: 28 }
+  ];
 
-  for (const [provider, count] of sorted) {
-    output += `│ ${pad(provider, 30)} │ ${pad(count.toString(), 5, 'right')} │ ${progressBar(count, maxCount, 28)} │\n`;
-  }
+  const rows = sorted.map(([provider, count]) => [
+    `<a href="/api/providers/${provider}" aria-label="View ${provider} models">${provider}</a>`,
+    count.toString(),
+    progressBar(count, maxCount, 28)
+  ]);
 
-  output += '└────────────────────────────────┴───────┴──────────────────────────────┘\n';
-  return output;
+  return table(columns, rows);
 }
 
 function buildTypeStats(stats: Record<string, number>): string {
   const sorted = Object.entries(stats).sort((a, b) => b[1] - a[1]);
   const maxCount = Math.max(...Object.values(stats));
 
-  let output = '┌────────────────────────────────┬───────┬──────────────────────────────┐\n';
-  output += '│ Model Type                     │ Count │ Distribution                 │\n';
-  output += '├────────────────────────────────┼───────┼──────────────────────────────┤\n';
+  const columns: TableColumn[] = [
+    { header: 'Model Type', width: 30 },
+    { header: 'Count', width: 5, align: 'right' },
+    { header: 'Distribution', width: 28 }
+  ];
 
-  for (const [type, count] of sorted) {
-    output += `│ ${pad(type, 30)} │ ${pad(count.toString(), 5, 'right')} │ ${progressBar(count, maxCount, 28)} │\n`;
-  }
+  const rows = sorted.map(([type, count]) => [
+    `<a href="/api/models?model_types=${type}" aria-label="View ${type} models">${type}</a>`,
+    count.toString(),
+    progressBar(count, maxCount, 28)
+  ]);
 
-  output += '└────────────────────────────────┴───────┴──────────────────────────────┘\n';
-  return output;
+  return table(columns, rows);
 }
 
 function buildCapabilitiesMatrix(capabilities: any, total: number): string {
-  let output = '┌────────────────────────────────┬───────┬──────────────────────────────┐\n';
-  output += '│ Capability                     │ Count │ Distribution                 │\n';
-  output += '├────────────────────────────────┼───────┼──────────────────────────────┤\n';
-
   const caps = [
-    { name: 'Function Calling', key: 'function_calling' },
-    { name: 'Vision', key: 'vision' },
-    { name: 'JSON Mode', key: 'json_mode' },
-    { name: 'Parallel Functions', key: 'parallel_functions' },
+    { name: 'function_calling', key: 'function_calling' },
+    { name: 'vision', key: 'vision' },
+    { name: 'json_mode', key: 'json_mode' },
+    { name: 'parallel_functions', key: 'parallel_functions' },
   ];
 
-  for (const cap of caps) {
-    const count = capabilities[cap.key];
-    output += `│ ${pad(cap.name, 30)} │ ${pad(count.toString(), 5, 'right')} │ ${progressBar(count, total, 28)} │\n`;
-  }
+  const columns: TableColumn[] = [
+    { header: 'Capability', width: 30 },
+    { header: 'Count', width: 5, align: 'right' },
+    { header: 'Distribution', width: 28 }
+  ];
 
-  output += '└────────────────────────────────┴───────┴──────────────────────────────┘\n';
-  return output;
+  const rows = caps.map(cap => [
+    `<a href="/api/models?supports_${cap.key}=true" aria-label="View models with ${cap.name.replace(/_/g, ' ')} support">${cap.name}</a>`,
+    capabilities[cap.key].toString(),
+    progressBar(capabilities[cap.key], total, 28)
+  ]);
+
+  return table(columns, rows);
 }
 
 export function buildHome(): string {
@@ -196,22 +313,23 @@ export function buildHome(): string {
 Models: <b>${formatNumber(totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Deprecated: <b>${formatNumber(stats.deprecatedCount)}</b> | Last Updated: <b>${lastUpdated}</b>
 ════════════════════════════════════════════════════════════════════════
 
-API for AI model information { provider, cost, context, features, ... }
+<b>API for AI model information { provider, cost, context, features, ... }</b>
 
-▸ Completely <b>free to use</b>
-▸ Built from <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json"><b>LiteLLM</b> models, cost & pricing (synced hourly)</a>
-▸ <b>JSON</b> and <b>CSV</b> support
-▸ Optimized for apps & data workloads
+▸ Built from <b>LiteLLM's</b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a> (synced hourly)
+▸ Optimized for apps & data workloads like for loading for lookups
 ▸ Filtering and field projection
+▸ <b>JSON</b> and <b>CSV</b> support
 ▸ OpenAPI 3.1 specification
+▸ CORS-enabled for browser usage
+▸ Stable API (breaking changes versioned)
+▸ <b>Completely free to use</b>
+▸ <b>No authentication required</b>
 
 </pre>
 <section aria-label="Database Statistics">
 <h2 style="position: absolute; left: -9999px;">Database Statistics</h2>
 <pre>
-════════════════════════════════════════════════════════════════════════
-                           DATABASE STATISTICS
-════════════════════════════════════════════════════════════════════════
+${sectionHeader('DATABASE STATISTICS')}
 
 All Providers (${Object.keys(stats.providers).length} total)
 <div role="region" aria-label="Provider statistics table">
@@ -230,9 +348,7 @@ ${buildCapabilitiesMatrix(stats.capabilities, totalModels)}
 <section aria-label="Quick Examples">
 <h2 style="position: absolute; left: -9999px;">Quick Examples</h2>
 <pre>
-════════════════════════════════════════════════════════════════════════
-                            QUICK EXAMPLES
-════════════════════════════════════════════════════════════════════════
+${sectionHeader('QUICK EXAMPLES')}
 
 List all models:
 ┌──────────────────────────────────────────────────────────────────────┐
@@ -244,7 +360,7 @@ Filter by provider:
 │ GET <a href="/api/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/models?providers=openai,anthropic</a>                           │
 └──────────────────────────────────────────────────────────────────────┘
 
-  Get specific fields:
+Get specific fields:
 ┌──────────────────────────────────────────────────────────────────────┐
 │ GET <a href="/api/models?project=model_id,model_name,input_cost_per_million" aria-label="API endpoint to get specific model fields">/api/models?project=model_id,model_name,input_cost_per_million</a>   │
 └──────────────────────────────────────────────────────────────────────┘
@@ -253,34 +369,52 @@ Get a specific model:
 ┌──────────────────────────────────────────────────────────────────────┐
 │ GET <a href="/api/models/gpt-4" aria-label="API endpoint to get GPT-4 model details">/api/models/gpt-4</a>                                                │
 └──────────────────────────────────────────────────────────────────────┘
+
 </pre>
 </section>
 <section aria-label="API Routes">
 <h2 style="position: absolute; left: -9999px;">API Routes</h2>
 <pre>
-════════════════════════════════════════════════════════════════════════
-                              API ROUTES
-════════════════════════════════════════════════════════════════════════
+${sectionHeader('API ROUTES')}
 
   <a href="/api/models" aria-label="API models endpoint">/api/models</a>         List all models with filtering
   <a href="/api/models/gpt-4" aria-label="API model by ID endpoint example">/api/models/:id</a>     Get a specific model by ID
   <a href="/api/providers" aria-label="API providers endpoint">/api/providers</a>      List all providers
   <a href="/api/providers/openai" aria-label="API provider models endpoint example">/api/providers/:id</a>  Get models for a provider
   <a href="/api/metadata" aria-label="API metadata endpoint">/api/metadata</a>       Get database metadata & stats
+
 </pre>
 </section>
 <section aria-label="OpenAPI Documentation">
 <h2 style="position: absolute; left: -9999px;">OpenAPI Documentation</h2>
 <pre>
-════════════════════════════════════════════════════════════════════════
-                              OPENAPI
-════════════════════════════════════════════════════════════════════════
+${sectionHeader('OPENAPI')}
 
   <a href="/openapi.json" aria-label="Download OpenAPI specification">/openapi.json</a>  Download OpenAPI v3.1 specification
   <a href="/ui" aria-label="Interactive API documentation">/ui</a>            API documentation and interactive testing
 
-════════════════════════════════════════════════════════════════════════
-                                                         modeldb v1.0.0
+</pre>
+</section>
+<section aria-label="OpenAPI Documentation">
+<h2 style="position: absolute; left: -9999px;">OpenAPI Documentation</h2>
+<pre>
+${sectionHeader('SUPPORT')}
+
+- If you have issues or feature requests for the API service, please
+  create an issue on the <a href="https://github.com/axiomhq/modeldb/issues"><b>ModelDB project</b></a>.
+
+- If you have issues with model details, please support the LiteLLM
+  community by contributing a pull request to the
+  <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json"  >model_prices_and_context_window.json</a> on the <a href="https://github.com/BerriAI/litellm"><b>LiteLLM project</b></a>.
+
+</pre>
+</section>
+<section aria-label="OpenAPI Documentation">
+<h2 style="position: absolute; left: -9999px;">OpenAPI Documentation</h2>
+<pre>
+${'═'.repeat(72)}
+
+(C) Axiom, Inc 2025                               axiomhq/modeldb@v1.0.0
 </pre>
 </section>
 </main>
