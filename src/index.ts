@@ -3,7 +3,8 @@ import { cache } from 'hono/cache';
 import { cors } from 'hono/cors';
 import { etag } from 'hono/etag';
 import { json2csv } from 'json-2-csv';
-
+import { buildHome } from './home';
+import { registerModelsRoutes } from './models';
 import { registerOpenAPIRoutes } from './openapi';
 import { registerProvidersRoutes } from './providers';
 
@@ -77,7 +78,12 @@ app.use(
   })
 );
 
+registerModelsRoutes(app);
 registerProvidersRoutes(app);
 registerOpenAPIRoutes(app);
+
+app.get('/', async (c) => {
+  return c.text(buildHome());
+});
 
 export default app;

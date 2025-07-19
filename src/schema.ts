@@ -5,9 +5,6 @@ export const ModelSchema = z.object({
   provider_name: z.string().describe('Human-friendly display name'),
 
   model_id: z.string().describe('Clean model identifier (e.g., "gpt-4-turbo")'),
-  model_slug: z
-    .string()
-    .describe('Full model name for API calls (e.g., "openai/gpt-4-turbo")'),
   model_name: z.string().describe('Human-friendly display name'),
 
   // Context and limits

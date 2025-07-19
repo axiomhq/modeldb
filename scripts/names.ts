@@ -192,15 +192,11 @@ export function generateDisplayName(modelId: string): string {
   if (modelId.indexOf('/') > -1) {
     const parts = modelId.split('/');
     const last = parts.at(-1) || modelId;
-    let name = DISPLAY_NAMES[last] || last;
-    name = name
+    const name = DISPLAY_NAMES[last] || last;
+    return name
       .split('-')
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
-
-    parts[parts.length - 1] = name;
-
-    return parts.reverse().join(' | ');
   }
 
   console.log('Unknown name:', modelId);

@@ -3,7 +3,6 @@ import type { Model } from '../schema';
 export const modelsMap: Record<string, Model> = {
   "j2-light": {
     "model_id": "j2-light",
-    "model_slug": "j2-light",
     "model_name": "J2 Light",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -27,7 +26,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "j2-mid": {
     "model_id": "j2-mid",
-    "model_slug": "j2-mid",
     "model_name": "J2 Mid",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -51,7 +49,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "j2-ultra": {
     "model_id": "j2-ultra",
-    "model_slug": "j2-ultra",
     "model_name": "J2 Ultra",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -75,7 +72,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-1.5": {
     "model_id": "jamba-1.5",
-    "model_slug": "jamba-1.5",
     "model_name": "Jamba 1.5",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -99,7 +95,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-1.5-large": {
     "model_id": "jamba-1.5-large",
-    "model_slug": "jamba-1.5-large",
     "model_name": "Jamba 1.5 Large",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -123,7 +118,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-1.5-large@001": {
     "model_id": "jamba-1.5-large@001",
-    "model_slug": "jamba-1.5-large@001",
     "model_name": "Jamba 1.5 Large@001",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -147,7 +141,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-1.5-mini": {
     "model_id": "jamba-1.5-mini",
-    "model_slug": "jamba-1.5-mini",
     "model_name": "Jamba 1.5 Mini",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -171,7 +164,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-1.5-mini@001": {
     "model_id": "jamba-1.5-mini@001",
-    "model_slug": "jamba-1.5-mini@001",
     "model_name": "Jamba 1.5 Mini@001",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -195,7 +187,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-large-1.6": {
     "model_id": "jamba-large-1.6",
-    "model_slug": "jamba-large-1.6",
     "model_name": "Jamba Large 1.6",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -219,7 +210,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-large-1.7": {
     "model_id": "jamba-large-1.7",
-    "model_slug": "jamba-large-1.7",
     "model_name": "Jamba Large 1.7",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -243,7 +233,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-mini-1.6": {
     "model_id": "jamba-mini-1.6",
-    "model_slug": "jamba-mini-1.6",
     "model_name": "Jamba Mini 1.6",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -267,7 +256,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jamba-mini-1.7": {
     "model_id": "jamba-mini-1.7",
-    "model_slug": "jamba-mini-1.7",
     "model_name": "Jamba Mini 1.7",
     "provider_id": "ai21",
     "provider_name": "AI21 Labs",
@@ -291,7 +279,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "luminous-base": {
     "model_id": "luminous-base",
-    "model_slug": "luminous-base",
     "model_name": "Luminous Base",
     "provider_id": "aleph",
     "provider_name": "Aleph",
@@ -315,7 +302,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "luminous-base-control": {
     "model_id": "luminous-base-control",
-    "model_slug": "luminous-base-control",
     "model_name": "Luminous Base Control",
     "provider_id": "aleph",
     "provider_name": "Aleph",
@@ -339,7 +325,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "luminous-extended": {
     "model_id": "luminous-extended",
-    "model_slug": "luminous-extended",
     "model_name": "Luminous Extended",
     "provider_id": "aleph",
     "provider_name": "Aleph",
@@ -363,7 +348,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "luminous-extended-control": {
     "model_id": "luminous-extended-control",
-    "model_slug": "luminous-extended-control",
     "model_name": "Luminous Extended Control",
     "provider_id": "aleph",
     "provider_name": "Aleph",
@@ -387,7 +371,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "luminous-supreme": {
     "model_id": "luminous-supreme",
-    "model_slug": "luminous-supreme",
     "model_name": "Luminous Supreme",
     "provider_id": "aleph",
     "provider_name": "Aleph",
@@ -411,7 +394,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "luminous-supreme-control": {
     "model_id": "luminous-supreme-control",
-    "model_slug": "luminous-supreme-control",
     "model_name": "Luminous Supreme Control",
     "provider_id": "aleph",
     "provider_name": "Aleph",
@@ -435,7 +417,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-2": {
     "model_id": "claude-2",
-    "model_slug": "claude-2",
     "model_name": "Claude 2",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -459,7 +440,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-2.1": {
     "model_id": "claude-2.1",
-    "model_slug": "claude-2.1",
     "model_name": "Claude 2.1",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -483,7 +463,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-haiku-20241022": {
     "model_id": "claude-3-5-haiku-20241022",
-    "model_slug": "claude-3-5-haiku-20241022",
     "model_name": "Claude 3.5 Haiku (Oct 2024)",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -507,7 +486,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-haiku-latest": {
     "model_id": "claude-3-5-haiku-latest",
-    "model_slug": "claude-3-5-haiku-latest",
     "model_name": "Claude 3.5 Haiku",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -531,7 +509,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-sonnet-20240620": {
     "model_id": "claude-3-5-sonnet-20240620",
-    "model_slug": "claude-3-5-sonnet-20240620",
     "model_name": "Claude 3.5 Sonnet (Jun 2024)",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -555,7 +532,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-sonnet-20241022": {
     "model_id": "claude-3-5-sonnet-20241022",
-    "model_slug": "claude-3-5-sonnet-20241022",
     "model_name": "Claude 3.5 Sonnet (Oct 2024)",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -579,7 +555,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-sonnet-latest": {
     "model_id": "claude-3-5-sonnet-latest",
-    "model_slug": "claude-3-5-sonnet-latest",
     "model_name": "Claude 3.5 Sonnet",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -603,7 +578,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-7-sonnet-20250219": {
     "model_id": "claude-3-7-sonnet-20250219",
-    "model_slug": "claude-3-7-sonnet-20250219",
     "model_name": "Claude 3.7 Sonnet (Feb 2025)",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -627,7 +601,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-7-sonnet-latest": {
     "model_id": "claude-3-7-sonnet-latest",
-    "model_slug": "claude-3-7-sonnet-latest",
     "model_name": "Claude 3.7 Sonnet",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -651,7 +624,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-haiku-20240307": {
     "model_id": "claude-3-haiku-20240307",
-    "model_slug": "claude-3-haiku-20240307",
     "model_name": "Claude 3 Haiku",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -675,7 +647,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-opus-20240229": {
     "model_id": "claude-3-opus-20240229",
-    "model_slug": "claude-3-opus-20240229",
     "model_name": "Claude 3 Opus (Feb 2024)",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -699,7 +670,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-opus-latest": {
     "model_id": "claude-3-opus-latest",
-    "model_slug": "claude-3-opus-latest",
     "model_name": "Claude 3 Opus",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -723,7 +693,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-sonnet-20240229": {
     "model_id": "claude-3-sonnet-20240229",
-    "model_slug": "claude-3-sonnet-20240229",
     "model_name": "Claude 3 Sonnet",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -747,7 +716,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-4-opus-20250514": {
     "model_id": "claude-4-opus-20250514",
-    "model_slug": "claude-4-opus-20250514",
     "model_name": "Claude 4 Opus 20250514",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -771,7 +739,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-4-sonnet-20250514": {
     "model_id": "claude-4-sonnet-20250514",
-    "model_slug": "claude-4-sonnet-20250514",
     "model_name": "Claude 4 Sonnet 20250514",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -795,7 +762,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-opus-4-20250514": {
     "model_id": "claude-opus-4-20250514",
-    "model_slug": "claude-opus-4-20250514",
     "model_name": "Claude 4 Opus",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -819,7 +785,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-sonnet-4-20250514": {
     "model_id": "claude-sonnet-4-20250514",
-    "model_slug": "claude-sonnet-4-20250514",
     "model_name": "Claude 4 Sonnet",
     "provider_id": "anthropic",
     "provider_name": "Anthropic",
@@ -843,8 +808,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "codellama/CodeLlama-34b-Instruct-hf": {
     "model_id": "codellama/CodeLlama-34b-Instruct-hf",
-    "model_slug": "anyscale/codellama/CodeLlama-34b-Instruct-hf",
-    "model_name": "CodeLlama 34b Instruct Hf | codellama",
+    "model_name": "CodeLlama 34b Instruct Hf",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 4096,
@@ -867,8 +831,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "codellama/CodeLlama-70b-Instruct-hf": {
     "model_id": "codellama/CodeLlama-70b-Instruct-hf",
-    "model_slug": "anyscale/codellama/CodeLlama-70b-Instruct-hf",
-    "model_name": "CodeLlama 70b Instruct Hf | codellama",
+    "model_name": "CodeLlama 70b Instruct Hf",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 4096,
@@ -891,8 +854,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "google/gemma-7b-it": {
     "model_id": "google/gemma-7b-it",
-    "model_slug": "anyscale/google/gemma-7b-it",
-    "model_name": "Gemma 7b IT | google",
+    "model_name": "Gemma 7b IT",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 8192,
@@ -915,8 +877,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "HuggingFaceH4/zephyr-7b-beta": {
     "model_id": "HuggingFaceH4/zephyr-7b-beta",
-    "model_slug": "anyscale/HuggingFaceH4/zephyr-7b-beta",
-    "model_name": "Zephyr 7b Beta | HuggingFaceH4",
+    "model_name": "Zephyr 7b Beta",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 16384,
@@ -939,8 +900,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-2-13b-chat-hf": {
     "model_id": "meta-llama/Llama-2-13b-chat-hf",
-    "model_slug": "anyscale/meta-llama/Llama-2-13b-chat-hf",
-    "model_name": "Llama 2 13b Chat Hf | meta-llama",
+    "model_name": "Llama 2 13b Chat Hf",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 4096,
@@ -963,8 +923,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-2-70b-chat-hf": {
     "model_id": "meta-llama/Llama-2-70b-chat-hf",
-    "model_slug": "anyscale/meta-llama/Llama-2-70b-chat-hf",
-    "model_name": "Llama 2 70b Chat Hf | meta-llama",
+    "model_name": "Llama 2 70b Chat Hf",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 4096,
@@ -987,8 +946,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-2-7b-chat-hf": {
     "model_id": "meta-llama/Llama-2-7b-chat-hf",
-    "model_slug": "anyscale/meta-llama/Llama-2-7b-chat-hf",
-    "model_name": "Llama 2 7b Chat Hf | meta-llama",
+    "model_name": "Llama 2 7b Chat Hf",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 4096,
@@ -1011,8 +969,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Meta-Llama-3-70B-Instruct": {
     "model_id": "meta-llama/Meta-Llama-3-70B-Instruct",
-    "model_slug": "anyscale/meta-llama/Meta-Llama-3-70B-Instruct",
-    "model_name": "Meta Llama 3 70B Instruct | meta-llama",
+    "model_name": "Meta Llama 3 70B Instruct",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 8192,
@@ -1035,8 +992,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Meta-Llama-3-8B-Instruct": {
     "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
-    "model_slug": "anyscale/meta-llama/Meta-Llama-3-8B-Instruct",
-    "model_name": "Meta Llama 3 8B Instruct | meta-llama",
+    "model_name": "Meta Llama 3 8B Instruct",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 8192,
@@ -1059,8 +1015,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistralai/Mistral-7B-Instruct-v0.1": {
     "model_id": "mistralai/Mistral-7B-Instruct-v0.1",
-    "model_slug": "anyscale/mistralai/Mistral-7B-Instruct-v0.1",
-    "model_name": "Mistral 7B Instruct V0.1 | mistralai",
+    "model_name": "Mistral 7B Instruct V0.1",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 16384,
@@ -1083,8 +1038,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistralai/Mixtral-8x22B-Instruct-v0.1": {
     "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
-    "model_slug": "anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1",
-    "model_name": "Mixtral 8x22B Instruct V0.1 | mistralai",
+    "model_name": "Mixtral 8x22B Instruct V0.1",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 65536,
@@ -1107,8 +1061,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistralai/Mixtral-8x7B-Instruct-v0.1": {
     "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-    "model_slug": "anyscale/mistralai/Mixtral-8x7B-Instruct-v0.1",
-    "model_name": "Mixtral 8x7B Instruct V0.1 | mistralai",
+    "model_name": "Mixtral 8x7B Instruct V0.1",
     "provider_id": "anyscale",
     "provider_name": "Anyscale",
     "max_input_tokens": 16384,
@@ -1131,8 +1084,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "assemblyai/best": {
     "model_id": "assemblyai/best",
-    "model_slug": "assemblyai/best",
-    "model_name": "Best | assemblyai",
+    "model_name": "Best",
     "provider_id": "assemblyai",
     "provider_name": "AssemblyAI",
     "max_input_tokens": null,
@@ -1155,8 +1107,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "assemblyai/nano": {
     "model_id": "assemblyai/nano",
-    "model_slug": "assemblyai/nano",
-    "model_name": "Nano | assemblyai",
+    "model_name": "Nano",
     "provider_id": "assemblyai",
     "provider_name": "AssemblyAI",
     "max_input_tokens": null,
@@ -1177,34 +1128,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "audio",
     "deprecation_date": null
   },
-  "ada": {
-    "model_id": "ada",
-    "model_slug": "azure/ada",
-    "model_name": "Ada",
-    "provider_id": "azure",
-    "provider_name": "Microsoft Azure",
-    "max_input_tokens": 8191,
-    "max_output_tokens": null,
-    "input_cost_per_token": 1e-7,
-    "input_cost_per_million": 0.09999999999999999,
-    "output_cost_per_token": 0,
-    "output_cost_per_million": 0,
-    "cache_read_cost_per_token": null,
-    "cache_read_cost_per_million": null,
-    "cache_write_cost_per_token": null,
-    "cache_write_cost_per_million": null,
-    "supports_function_calling": false,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "supports_streaming": true,
-    "model_type": "embedding",
-    "deprecation_date": null
-  },
   "azure_ai/Cohere-embed-v3-english": {
     "model_id": "azure_ai/Cohere-embed-v3-english",
-    "model_slug": "azure_ai/Cohere-embed-v3-english",
-    "model_name": "Cohere Embed V3 English | azure_ai",
+    "model_name": "Cohere Embed V3 English",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 512,
@@ -1227,8 +1153,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Cohere-embed-v3-multilingual": {
     "model_id": "azure_ai/Cohere-embed-v3-multilingual",
-    "model_slug": "azure_ai/Cohere-embed-v3-multilingual",
-    "model_name": "Cohere Embed V3 Multilingual | azure_ai",
+    "model_name": "Cohere Embed V3 Multilingual",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 512,
@@ -1251,8 +1176,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/cohere-rerank-v3-english": {
     "model_id": "azure_ai/cohere-rerank-v3-english",
-    "model_slug": "azure_ai/cohere-rerank-v3-english",
-    "model_name": "Cohere Rerank V3 English | azure_ai",
+    "model_name": "Cohere Rerank V3 English",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4096,
@@ -1275,8 +1199,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/cohere-rerank-v3-multilingual": {
     "model_id": "azure_ai/cohere-rerank-v3-multilingual",
-    "model_slug": "azure_ai/cohere-rerank-v3-multilingual",
-    "model_name": "Cohere Rerank V3 Multilingual | azure_ai",
+    "model_name": "Cohere Rerank V3 Multilingual",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4096,
@@ -1299,8 +1222,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/cohere-rerank-v3.5": {
     "model_id": "azure_ai/cohere-rerank-v3.5",
-    "model_slug": "azure_ai/cohere-rerank-v3.5",
-    "model_name": "Cohere Rerank V3.5 | azure_ai",
+    "model_name": "Cohere Rerank V3.5",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4096,
@@ -1323,8 +1245,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/deepseek-r1": {
     "model_id": "azure_ai/deepseek-r1",
-    "model_slug": "azure_ai/deepseek-r1",
-    "model_name": "DeepSeek R1 | azure_ai",
+    "model_name": "DeepSeek R1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1347,8 +1268,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/deepseek-v3": {
     "model_id": "azure_ai/deepseek-v3",
-    "model_slug": "azure_ai/deepseek-v3",
-    "model_name": "DeepSeek V3 | azure_ai",
+    "model_name": "DeepSeek V3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1371,8 +1291,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/deepseek-v3-0324": {
     "model_id": "azure_ai/deepseek-v3-0324",
-    "model_slug": "azure_ai/deepseek-v3-0324",
-    "model_name": "Deepseek V3 0324 | azure_ai",
+    "model_name": "Deepseek V3 0324",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1395,8 +1314,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/embed-v-4-0": {
     "model_id": "azure_ai/embed-v-4-0",
-    "model_slug": "azure_ai/embed-v-4-0",
-    "model_name": "Embed V 4 0 | azure_ai",
+    "model_name": "Embed V 4 0",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1419,8 +1337,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/global/grok-3": {
     "model_id": "azure_ai/global/grok-3",
-    "model_slug": "azure_ai/global/grok-3",
-    "model_name": "Grok 3 | global | azure_ai",
+    "model_name": "Grok 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -1443,8 +1360,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/global/grok-3-mini": {
     "model_id": "azure_ai/global/grok-3-mini",
-    "model_slug": "azure_ai/global/grok-3-mini",
-    "model_name": "Grok 3 Mini | global | azure_ai",
+    "model_name": "Grok 3 Mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -1467,8 +1383,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/grok-3": {
     "model_id": "azure_ai/grok-3",
-    "model_slug": "azure_ai/grok-3",
-    "model_name": "Grok 3 | azure_ai",
+    "model_name": "Grok 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -1491,8 +1406,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/grok-3-mini": {
     "model_id": "azure_ai/grok-3-mini",
-    "model_slug": "azure_ai/grok-3-mini",
-    "model_name": "Grok 3 Mini | azure_ai",
+    "model_name": "Grok 3 Mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -1513,10 +1427,32 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "azure_ai/jais-30b-chat": {
+    "model_id": "azure_ai/jais-30b-chat",
+    "model_name": "Jais 30b Chat",
+    "provider_id": "azure",
+    "provider_name": "Microsoft Azure",
+    "max_input_tokens": 8192,
+    "max_output_tokens": 8192,
+    "input_cost_per_token": 0.0032,
+    "input_cost_per_million": 3200,
+    "output_cost_per_token": 0.00971,
+    "output_cost_per_million": 9710,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "azure_ai/jamba-instruct": {
     "model_id": "azure_ai/jamba-instruct",
-    "model_slug": "azure_ai/jamba-instruct",
-    "model_name": "Jamba Instruct | azure_ai",
+    "model_name": "Jamba Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 70000,
@@ -1539,8 +1475,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Llama-3.2-11B-Vision-Instruct": {
     "model_id": "azure_ai/Llama-3.2-11B-Vision-Instruct",
-    "model_slug": "azure_ai/Llama-3.2-11B-Vision-Instruct",
-    "model_name": "Llama 3.2 11B Vision Instruct | azure_ai",
+    "model_name": "Llama 3.2 11B Vision Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1563,8 +1498,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Llama-3.2-90B-Vision-Instruct": {
     "model_id": "azure_ai/Llama-3.2-90B-Vision-Instruct",
-    "model_slug": "azure_ai/Llama-3.2-90B-Vision-Instruct",
-    "model_name": "Llama 3.2 90B Vision Instruct | azure_ai",
+    "model_name": "Llama 3.2 90B Vision Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1587,8 +1521,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Llama-3.3-70B-Instruct": {
     "model_id": "azure_ai/Llama-3.3-70B-Instruct",
-    "model_slug": "azure_ai/Llama-3.3-70B-Instruct",
-    "model_name": "Llama 3.3 70B Instruct | azure_ai",
+    "model_name": "Llama 3.3 70B Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1611,8 +1544,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Llama-4-Maverick-17B-128E-Instruct-FP8": {
     "model_id": "azure_ai/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    "model_slug": "azure_ai/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    "model_name": "Llama 4 Maverick 17B 128E Instruct FP8 | azure_ai",
+    "model_name": "Llama 4 Maverick 17B 128E Instruct FP8",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1000000,
@@ -1635,8 +1567,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Llama-4-Scout-17B-16E-Instruct": {
     "model_id": "azure_ai/Llama-4-Scout-17B-16E-Instruct",
-    "model_slug": "azure_ai/Llama-4-Scout-17B-16E-Instruct",
-    "model_name": "Llama 4 Scout 17B 16E Instruct | azure_ai",
+    "model_name": "Llama 4 Scout 17B 16E Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 10000000,
@@ -1659,8 +1590,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Meta-Llama-3-70B-Instruct": {
     "model_id": "azure_ai/Meta-Llama-3-70B-Instruct",
-    "model_slug": "azure_ai/Meta-Llama-3-70B-Instruct",
-    "model_name": "Meta Llama 3 70B Instruct | azure_ai",
+    "model_name": "Meta Llama 3 70B Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 8192,
@@ -1683,8 +1613,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Meta-Llama-3.1-405B-Instruct": {
     "model_id": "azure_ai/Meta-Llama-3.1-405B-Instruct",
-    "model_slug": "azure_ai/Meta-Llama-3.1-405B-Instruct",
-    "model_name": "Meta Llama 3.1 405B Instruct | azure_ai",
+    "model_name": "Meta Llama 3.1 405B Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1707,8 +1636,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Meta-Llama-3.1-70B-Instruct": {
     "model_id": "azure_ai/Meta-Llama-3.1-70B-Instruct",
-    "model_slug": "azure_ai/Meta-Llama-3.1-70B-Instruct",
-    "model_name": "Meta Llama 3.1 70B Instruct | azure_ai",
+    "model_name": "Meta Llama 3.1 70B Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1731,8 +1659,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Meta-Llama-3.1-8B-Instruct": {
     "model_id": "azure_ai/Meta-Llama-3.1-8B-Instruct",
-    "model_slug": "azure_ai/Meta-Llama-3.1-8B-Instruct",
-    "model_name": "Meta Llama 3.1 8B Instruct | azure_ai",
+    "model_name": "Meta Llama 3.1 8B Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1755,8 +1682,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/ministral-3b": {
     "model_id": "azure_ai/ministral-3b",
-    "model_slug": "azure_ai/ministral-3b",
-    "model_name": "Ministral 3b | azure_ai",
+    "model_name": "Ministral 3b",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1779,8 +1705,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/mistral-large": {
     "model_id": "azure_ai/mistral-large",
-    "model_slug": "azure_ai/mistral-large",
-    "model_name": "Mistral Large | azure_ai",
+    "model_name": "Mistral Large",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 32000,
@@ -1803,8 +1728,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/mistral-large-2407": {
     "model_id": "azure_ai/mistral-large-2407",
-    "model_slug": "azure_ai/mistral-large-2407",
-    "model_name": "Mistral Large 2407 | azure_ai",
+    "model_name": "Mistral Large 2407",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1827,8 +1751,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/mistral-large-latest": {
     "model_id": "azure_ai/mistral-large-latest",
-    "model_slug": "azure_ai/mistral-large-latest",
-    "model_name": "Mistral Large | azure_ai",
+    "model_name": "Mistral Large",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1851,8 +1774,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/mistral-medium-2505": {
     "model_id": "azure_ai/mistral-medium-2505",
-    "model_slug": "azure_ai/mistral-medium-2505",
-    "model_name": "Mistral Medium 2505 | azure_ai",
+    "model_name": "Mistral Medium 2505",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -1875,8 +1797,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/mistral-nemo": {
     "model_id": "azure_ai/mistral-nemo",
-    "model_slug": "azure_ai/mistral-nemo",
-    "model_name": "Mistral Nemo | azure_ai",
+    "model_name": "Mistral Nemo",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -1899,8 +1820,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/mistral-small": {
     "model_id": "azure_ai/mistral-small",
-    "model_slug": "azure_ai/mistral-small",
-    "model_name": "Mistral Small | azure_ai",
+    "model_name": "Mistral Small",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 32000,
@@ -1923,8 +1843,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/mistral-small-2503": {
     "model_id": "azure_ai/mistral-small-2503",
-    "model_slug": "azure_ai/mistral-small-2503",
-    "model_name": "Mistral Small 2503 | azure_ai",
+    "model_name": "Mistral Small 2503",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1947,8 +1866,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3-medium-128k-instruct": {
     "model_id": "azure_ai/Phi-3-medium-128k-instruct",
-    "model_slug": "azure_ai/Phi-3-medium-128k-instruct",
-    "model_name": "Phi 3 Medium 128k Instruct | azure_ai",
+    "model_name": "Phi 3 Medium 128k Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -1971,8 +1889,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3-medium-4k-instruct": {
     "model_id": "azure_ai/Phi-3-medium-4k-instruct",
-    "model_slug": "azure_ai/Phi-3-medium-4k-instruct",
-    "model_name": "Phi 3 Medium 4k Instruct | azure_ai",
+    "model_name": "Phi 3 Medium 4k Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4096,
@@ -1995,8 +1912,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3-mini-128k-instruct": {
     "model_id": "azure_ai/Phi-3-mini-128k-instruct",
-    "model_slug": "azure_ai/Phi-3-mini-128k-instruct",
-    "model_name": "Phi 3 Mini 128k Instruct | azure_ai",
+    "model_name": "Phi 3 Mini 128k Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2019,8 +1935,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3-mini-4k-instruct": {
     "model_id": "azure_ai/Phi-3-mini-4k-instruct",
-    "model_slug": "azure_ai/Phi-3-mini-4k-instruct",
-    "model_name": "Phi 3 Mini 4k Instruct | azure_ai",
+    "model_name": "Phi 3 Mini 4k Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4096,
@@ -2043,8 +1958,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3-small-128k-instruct": {
     "model_id": "azure_ai/Phi-3-small-128k-instruct",
-    "model_slug": "azure_ai/Phi-3-small-128k-instruct",
-    "model_name": "Phi 3 Small 128k Instruct | azure_ai",
+    "model_name": "Phi 3 Small 128k Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2067,8 +1981,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3-small-8k-instruct": {
     "model_id": "azure_ai/Phi-3-small-8k-instruct",
-    "model_slug": "azure_ai/Phi-3-small-8k-instruct",
-    "model_name": "Phi 3 Small 8k Instruct | azure_ai",
+    "model_name": "Phi 3 Small 8k Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 8192,
@@ -2091,8 +2004,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3.5-mini-instruct": {
     "model_id": "azure_ai/Phi-3.5-mini-instruct",
-    "model_slug": "azure_ai/Phi-3.5-mini-instruct",
-    "model_name": "Phi 3.5 Mini Instruct | azure_ai",
+    "model_name": "Phi 3.5 Mini Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2115,8 +2027,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3.5-MoE-instruct": {
     "model_id": "azure_ai/Phi-3.5-MoE-instruct",
-    "model_slug": "azure_ai/Phi-3.5-MoE-instruct",
-    "model_name": "Phi 3.5 MoE Instruct | azure_ai",
+    "model_name": "Phi 3.5 MoE Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2139,8 +2050,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-3.5-vision-instruct": {
     "model_id": "azure_ai/Phi-3.5-vision-instruct",
-    "model_slug": "azure_ai/Phi-3.5-vision-instruct",
-    "model_name": "Phi 3.5 Vision Instruct | azure_ai",
+    "model_name": "Phi 3.5 Vision Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2163,8 +2073,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-4": {
     "model_id": "azure_ai/Phi-4",
-    "model_slug": "azure_ai/Phi-4",
-    "model_name": "Phi 4 | azure_ai",
+    "model_name": "Phi 4",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16384,
@@ -2187,8 +2096,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-4-mini-instruct": {
     "model_id": "azure_ai/Phi-4-mini-instruct",
-    "model_slug": "azure_ai/Phi-4-mini-instruct",
-    "model_name": "Phi 4 Mini Instruct | azure_ai",
+    "model_name": "Phi 4 Mini Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -2211,8 +2119,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "azure_ai/Phi-4-multimodal-instruct": {
     "model_id": "azure_ai/Phi-4-multimodal-instruct",
-    "model_slug": "azure_ai/Phi-4-multimodal-instruct",
-    "model_name": "Phi 4 Multimodal Instruct | azure_ai",
+    "model_name": "Phi 4 Multimodal Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 131072,
@@ -2233,9 +2140,31 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "codex-mini": {
-    "model_id": "codex-mini",
-    "model_slug": "azure/codex-mini",
+  "azure/ada": {
+    "model_id": "azure/ada",
+    "model_name": "Ada",
+    "provider_id": "azure",
+    "provider_name": "Microsoft Azure",
+    "max_input_tokens": 8191,
+    "max_output_tokens": null,
+    "input_cost_per_token": 1e-7,
+    "input_cost_per_million": 0.09999999999999999,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "embedding",
+    "deprecation_date": null
+  },
+  "azure/codex-mini": {
+    "model_id": "azure/codex-mini",
     "model_name": "Codex Mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -2257,9 +2186,31 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "computer-use-preview": {
-    "model_id": "computer-use-preview",
-    "model_slug": "azure/computer-use-preview",
+  "azure/command-r-plus": {
+    "model_id": "azure/command-r-plus",
+    "model_name": "Command R Plus",
+    "provider_id": "azure",
+    "provider_name": "Microsoft Azure",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.000003,
+    "input_cost_per_million": 3,
+    "output_cost_per_token": 0.000015,
+    "output_cost_per_million": 15,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "azure/computer-use-preview": {
+    "model_id": "azure/computer-use-preview",
     "model_name": "Computer Use Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -2281,10 +2232,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/gpt-4o-2024-08-06": {
-    "model_id": "eu/gpt-4o-2024-08-06",
-    "model_slug": "azure/eu/gpt-4o-2024-08-06",
-    "model_name": "GPT 4o (Aug 2024) | eu",
+  "azure/eu/gpt-4o-2024-08-06": {
+    "model_id": "azure/eu/gpt-4o-2024-08-06",
+    "model_name": "GPT 4o (Aug 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2305,10 +2255,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/gpt-4o-2024-11-20": {
-    "model_id": "eu/gpt-4o-2024-11-20",
-    "model_slug": "azure/eu/gpt-4o-2024-11-20",
-    "model_name": "GPT 4o (Nov 2024) | eu",
+  "azure/eu/gpt-4o-2024-11-20": {
+    "model_id": "azure/eu/gpt-4o-2024-11-20",
+    "model_name": "GPT 4o (Nov 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2329,10 +2278,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/gpt-4o-mini-2024-07-18": {
-    "model_id": "eu/gpt-4o-mini-2024-07-18",
-    "model_slug": "azure/eu/gpt-4o-mini-2024-07-18",
-    "model_name": "GPT 4o mini (Jul 2024) | eu",
+  "azure/eu/gpt-4o-mini-2024-07-18": {
+    "model_id": "azure/eu/gpt-4o-mini-2024-07-18",
+    "model_name": "GPT 4o mini (Jul 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2353,10 +2301,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/gpt-4o-mini-realtime-preview-2024-12-17": {
-    "model_id": "eu/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_slug": "azure/eu/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17 | eu",
+  "azure/eu/gpt-4o-mini-realtime-preview-2024-12-17": {
+    "model_id": "azure/eu/gpt-4o-mini-realtime-preview-2024-12-17",
+    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2377,10 +2324,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/gpt-4o-realtime-preview-2024-10-01": {
-    "model_id": "eu/gpt-4o-realtime-preview-2024-10-01",
-    "model_slug": "azure/eu/gpt-4o-realtime-preview-2024-10-01",
-    "model_name": "Gpt 4o Realtime Preview 2024 10 01 | eu",
+  "azure/eu/gpt-4o-realtime-preview-2024-10-01": {
+    "model_id": "azure/eu/gpt-4o-realtime-preview-2024-10-01",
+    "model_name": "Gpt 4o Realtime Preview 2024 10 01",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2401,10 +2347,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/gpt-4o-realtime-preview-2024-12-17": {
-    "model_id": "eu/gpt-4o-realtime-preview-2024-12-17",
-    "model_slug": "azure/eu/gpt-4o-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Realtime Preview 2024 12 17 | eu",
+  "azure/eu/gpt-4o-realtime-preview-2024-12-17": {
+    "model_id": "azure/eu/gpt-4o-realtime-preview-2024-12-17",
+    "model_name": "Gpt 4o Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2425,10 +2370,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/o1-2024-12-17": {
-    "model_id": "eu/o1-2024-12-17",
-    "model_slug": "azure/eu/o1-2024-12-17",
-    "model_name": "O1 2024 12 17 | eu",
+  "azure/eu/o1-2024-12-17": {
+    "model_id": "azure/eu/o1-2024-12-17",
+    "model_name": "O1 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -2449,10 +2393,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/o1-mini-2024-09-12": {
-    "model_id": "eu/o1-mini-2024-09-12",
-    "model_slug": "azure/eu/o1-mini-2024-09-12",
-    "model_name": "O1 Mini 2024 09 12 | eu",
+  "azure/eu/o1-mini-2024-09-12": {
+    "model_id": "azure/eu/o1-mini-2024-09-12",
+    "model_name": "O1 Mini 2024 09 12",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2473,10 +2416,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/o1-preview-2024-09-12": {
-    "model_id": "eu/o1-preview-2024-09-12",
-    "model_slug": "azure/eu/o1-preview-2024-09-12",
-    "model_name": "O1 Preview 2024 09 12 | eu",
+  "azure/eu/o1-preview-2024-09-12": {
+    "model_id": "azure/eu/o1-preview-2024-09-12",
+    "model_name": "O1 Preview 2024 09 12",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2497,10 +2439,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "eu/o3-mini-2025-01-31": {
-    "model_id": "eu/o3-mini-2025-01-31",
-    "model_slug": "azure/eu/o3-mini-2025-01-31",
-    "model_name": "O3 Mini 2025 01 31 | eu",
+  "azure/eu/o3-mini-2025-01-31": {
+    "model_id": "azure/eu/o3-mini-2025-01-31",
+    "model_name": "O3 Mini 2025 01 31",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -2521,10 +2462,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "global-standard/gpt-4o-2024-08-06": {
-    "model_id": "global-standard/gpt-4o-2024-08-06",
-    "model_slug": "azure/global-standard/gpt-4o-2024-08-06",
-    "model_name": "GPT 4o (Aug 2024) | global-standard",
+  "azure/global-standard/gpt-4o-2024-08-06": {
+    "model_id": "azure/global-standard/gpt-4o-2024-08-06",
+    "model_name": "GPT 4o (Aug 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2545,10 +2485,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-08-20"
   },
-  "global-standard/gpt-4o-2024-11-20": {
-    "model_id": "global-standard/gpt-4o-2024-11-20",
-    "model_slug": "azure/global-standard/gpt-4o-2024-11-20",
-    "model_name": "GPT 4o (Nov 2024) | global-standard",
+  "azure/global-standard/gpt-4o-2024-11-20": {
+    "model_id": "azure/global-standard/gpt-4o-2024-11-20",
+    "model_name": "GPT 4o (Nov 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2569,10 +2508,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-12-20"
   },
-  "global-standard/gpt-4o-mini": {
-    "model_id": "global-standard/gpt-4o-mini",
-    "model_slug": "azure/global-standard/gpt-4o-mini",
-    "model_name": "GPT 4o mini | global-standard",
+  "azure/global-standard/gpt-4o-mini": {
+    "model_id": "azure/global-standard/gpt-4o-mini",
+    "model_name": "GPT 4o mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2593,10 +2531,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "global/gpt-4o-2024-08-06": {
-    "model_id": "global/gpt-4o-2024-08-06",
-    "model_slug": "azure/global/gpt-4o-2024-08-06",
-    "model_name": "GPT 4o (Aug 2024) | global",
+  "azure/global/gpt-4o-2024-08-06": {
+    "model_id": "azure/global/gpt-4o-2024-08-06",
+    "model_name": "GPT 4o (Aug 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2617,10 +2554,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "global/gpt-4o-2024-11-20": {
-    "model_id": "global/gpt-4o-2024-11-20",
-    "model_slug": "azure/global/gpt-4o-2024-11-20",
-    "model_name": "GPT 4o (Nov 2024) | global",
+  "azure/global/gpt-4o-2024-11-20": {
+    "model_id": "azure/global/gpt-4o-2024-11-20",
+    "model_name": "GPT 4o (Nov 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2641,9 +2577,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-3.5-turbo": {
-    "model_id": "gpt-3.5-turbo",
-    "model_slug": "azure/gpt-3.5-turbo",
+  "azure/gpt-3.5-turbo": {
+    "model_id": "azure/gpt-3.5-turbo",
     "model_name": "GPT 3.5T",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -2665,9 +2600,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-3.5-turbo-0125": {
-    "model_id": "gpt-3.5-turbo-0125",
-    "model_slug": "azure/gpt-3.5-turbo-0125",
+  "azure/gpt-3.5-turbo-0125": {
+    "model_id": "azure/gpt-3.5-turbo-0125",
     "model_name": "GPT 3.5T 0125",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -2689,10 +2623,32 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-03-31"
   },
-  "gpt-35-turbo": {
-    "model_id": "gpt-35-turbo",
-    "model_slug": "azure/gpt-35-turbo",
-    "model_name": "GPT 35 Turbo",
+  "azure/gpt-3.5-turbo-instruct-0914": {
+    "model_id": "azure/gpt-3.5-turbo-instruct-0914",
+    "model_name": "Gpt 3.5 Turbo Instruct 0914",
+    "provider_id": "azure",
+    "provider_name": "Microsoft Azure",
+    "max_input_tokens": 4097,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0.0000015,
+    "input_cost_per_million": 1.5,
+    "output_cost_per_token": 0.000002,
+    "output_cost_per_million": 2,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "completion",
+    "deprecation_date": null
+  },
+  "azure/gpt-35-turbo": {
+    "model_id": "azure/gpt-35-turbo",
+    "model_name": "Gpt 35 Turbo",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2713,10 +2669,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-35-turbo-0125": {
-    "model_id": "gpt-35-turbo-0125",
-    "model_slug": "azure/gpt-35-turbo-0125",
-    "model_name": "GPT 35 Turbo 0125",
+  "azure/gpt-35-turbo-0125": {
+    "model_id": "azure/gpt-35-turbo-0125",
+    "model_name": "Gpt 35 Turbo 0125",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16384,
@@ -2737,10 +2692,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-05-31"
   },
-  "gpt-35-turbo-0301": {
-    "model_id": "gpt-35-turbo-0301",
-    "model_slug": "azure/gpt-35-turbo-0301",
-    "model_name": "GPT 35 Turbo 0301",
+  "azure/gpt-35-turbo-0301": {
+    "model_id": "azure/gpt-35-turbo-0301",
+    "model_name": "Gpt 35 Turbo 0301",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2761,10 +2715,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-02-13"
   },
-  "gpt-35-turbo-0613": {
-    "model_id": "gpt-35-turbo-0613",
-    "model_slug": "azure/gpt-35-turbo-0613",
-    "model_name": "GPT 35 Turbo 0613",
+  "azure/gpt-35-turbo-0613": {
+    "model_id": "azure/gpt-35-turbo-0613",
+    "model_name": "Gpt 35 Turbo 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2785,10 +2738,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-02-13"
   },
-  "gpt-35-turbo-1106": {
-    "model_id": "gpt-35-turbo-1106",
-    "model_slug": "azure/gpt-35-turbo-1106",
-    "model_name": "GPT 35 Turbo 1106",
+  "azure/gpt-35-turbo-1106": {
+    "model_id": "azure/gpt-35-turbo-1106",
+    "model_name": "Gpt 35 Turbo 1106",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16384,
@@ -2809,10 +2761,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-03-31"
   },
-  "gpt-35-turbo-16k": {
-    "model_id": "gpt-35-turbo-16k",
-    "model_slug": "azure/gpt-35-turbo-16k",
-    "model_name": "GPT 35 Turbo 16k",
+  "azure/gpt-35-turbo-16k": {
+    "model_id": "azure/gpt-35-turbo-16k",
+    "model_name": "Gpt 35 Turbo 16k",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16385,
@@ -2833,10 +2784,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-35-turbo-16k-0613": {
-    "model_id": "gpt-35-turbo-16k-0613",
-    "model_slug": "azure/gpt-35-turbo-16k-0613",
-    "model_name": "GPT 35 Turbo 16k 0613",
+  "azure/gpt-35-turbo-16k-0613": {
+    "model_id": "azure/gpt-35-turbo-16k-0613",
+    "model_name": "Gpt 35 Turbo 16k 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16385,
@@ -2857,10 +2807,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-35-turbo-instruct": {
-    "model_id": "gpt-35-turbo-instruct",
-    "model_slug": "azure/gpt-35-turbo-instruct",
-    "model_name": "GPT 35 Turbo Instruct",
+  "azure/gpt-35-turbo-instruct": {
+    "model_id": "azure/gpt-35-turbo-instruct",
+    "model_name": "Gpt 35 Turbo Instruct",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2881,10 +2830,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "completion",
     "deprecation_date": null
   },
-  "gpt-35-turbo-instruct-0914": {
-    "model_id": "gpt-35-turbo-instruct-0914",
-    "model_slug": "azure/gpt-35-turbo-instruct-0914",
-    "model_name": "GPT 35 Turbo Instruct 0914",
+  "azure/gpt-35-turbo-instruct-0914": {
+    "model_id": "azure/gpt-35-turbo-instruct-0914",
+    "model_name": "Gpt 35 Turbo Instruct 0914",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 4097,
@@ -2905,10 +2853,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "completion",
     "deprecation_date": null
   },
-  "gpt-4": {
-    "model_id": "gpt-4",
-    "model_slug": "azure/gpt-4",
-    "model_name": "GPT-4",
+  "azure/gpt-4": {
+    "model_id": "azure/gpt-4",
+    "model_name": "GPT 4",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 8192,
@@ -2929,10 +2876,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-0125-preview": {
-    "model_id": "gpt-4-0125-preview",
-    "model_slug": "azure/gpt-4-0125-preview",
-    "model_name": "GPT 4 0125 Preview",
+  "azure/gpt-4-0125-preview": {
+    "model_id": "azure/gpt-4-0125-preview",
+    "model_name": "Gpt 4 0125 Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -2953,10 +2899,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-0613": {
-    "model_id": "gpt-4-0613",
-    "model_slug": "azure/gpt-4-0613",
-    "model_name": "GPT 4 0613",
+  "azure/gpt-4-0613": {
+    "model_id": "azure/gpt-4-0613",
+    "model_name": "Gpt 4 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 8192,
@@ -2977,10 +2922,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-1106-preview": {
-    "model_id": "gpt-4-1106-preview",
-    "model_slug": "azure/gpt-4-1106-preview",
-    "model_name": "GPT 4 1106 Preview",
+  "azure/gpt-4-1106-preview": {
+    "model_id": "azure/gpt-4-1106-preview",
+    "model_name": "Gpt 4 1106 Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3001,9 +2945,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-32k": {
-    "model_id": "gpt-4-32k",
-    "model_slug": "azure/gpt-4-32k",
+  "azure/gpt-4-32k": {
+    "model_id": "azure/gpt-4-32k",
     "model_name": "GPT 4 32k",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -3025,10 +2968,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-32k-0613": {
-    "model_id": "gpt-4-32k-0613",
-    "model_slug": "azure/gpt-4-32k-0613",
-    "model_name": "GPT 4 32k 0613",
+  "azure/gpt-4-32k-0613": {
+    "model_id": "azure/gpt-4-32k-0613",
+    "model_name": "Gpt 4 32k 0613",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 32768,
@@ -3049,10 +2991,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-turbo": {
-    "model_id": "gpt-4-turbo",
-    "model_slug": "azure/gpt-4-turbo",
-    "model_name": "GPT-4 Turbo",
+  "azure/gpt-4-turbo": {
+    "model_id": "azure/gpt-4-turbo",
+    "model_name": "GPT 4 Turbo",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3073,10 +3014,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-turbo-2024-04-09": {
-    "model_id": "gpt-4-turbo-2024-04-09",
-    "model_slug": "azure/gpt-4-turbo-2024-04-09",
-    "model_name": "GPT 4 Turbo 2024 04 09",
+  "azure/gpt-4-turbo-2024-04-09": {
+    "model_id": "azure/gpt-4-turbo-2024-04-09",
+    "model_name": "Gpt 4 Turbo 2024 04 09",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3097,10 +3037,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4-turbo-vision-preview": {
-    "model_id": "gpt-4-turbo-vision-preview",
-    "model_slug": "azure/gpt-4-turbo-vision-preview",
-    "model_name": "GPT 4 Turbo Vision Preview",
+  "azure/gpt-4-turbo-vision-preview": {
+    "model_id": "azure/gpt-4-turbo-vision-preview",
+    "model_name": "Gpt 4 Turbo Vision Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3121,10 +3060,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4.1": {
-    "model_id": "gpt-4.1",
-    "model_slug": "azure/gpt-4.1",
-    "model_name": "GPT-4.1",
+  "azure/gpt-4.1": {
+    "model_id": "azure/gpt-4.1",
+    "model_name": "GPT 4.1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3145,10 +3083,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4.1-2025-04-14": {
-    "model_id": "gpt-4.1-2025-04-14",
-    "model_slug": "azure/gpt-4.1-2025-04-14",
-    "model_name": "GPT-4.1 (Apr 2025)",
+  "azure/gpt-4.1-2025-04-14": {
+    "model_id": "azure/gpt-4.1-2025-04-14",
+    "model_name": "GPT 4.1 (Apr 2025)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3169,10 +3106,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4.1-mini": {
-    "model_id": "gpt-4.1-mini",
-    "model_slug": "azure/gpt-4.1-mini",
-    "model_name": "GPT-4.1 mini",
+  "azure/gpt-4.1-mini": {
+    "model_id": "azure/gpt-4.1-mini",
+    "model_name": "GPT 4.1 mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3193,10 +3129,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4.1-mini-2025-04-14": {
-    "model_id": "gpt-4.1-mini-2025-04-14",
-    "model_slug": "azure/gpt-4.1-mini-2025-04-14",
-    "model_name": "GPT 4.1 Mini 2025 04 14",
+  "azure/gpt-4.1-mini-2025-04-14": {
+    "model_id": "azure/gpt-4.1-mini-2025-04-14",
+    "model_name": "Gpt 4.1 Mini 2025 04 14",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3217,10 +3152,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4.1-nano": {
-    "model_id": "gpt-4.1-nano",
-    "model_slug": "azure/gpt-4.1-nano",
-    "model_name": "GPT-4.1 nano",
+  "azure/gpt-4.1-nano": {
+    "model_id": "azure/gpt-4.1-nano",
+    "model_name": "GPT 4.1 nano",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3241,10 +3175,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4.1-nano-2025-04-14": {
-    "model_id": "gpt-4.1-nano-2025-04-14",
-    "model_slug": "azure/gpt-4.1-nano-2025-04-14",
-    "model_name": "GPT 4.1 Nano 2025 04 14",
+  "azure/gpt-4.1-nano-2025-04-14": {
+    "model_id": "azure/gpt-4.1-nano-2025-04-14",
+    "model_name": "Gpt 4.1 Nano 2025 04 14",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 1047576,
@@ -3265,10 +3198,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4.5-preview": {
-    "model_id": "gpt-4.5-preview",
-    "model_slug": "azure/gpt-4.5-preview",
-    "model_name": "GPT-4.5",
+  "azure/gpt-4.5-preview": {
+    "model_id": "azure/gpt-4.5-preview",
+    "model_name": "GPT 4.5",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3289,10 +3221,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o": {
-    "model_id": "gpt-4o",
-    "model_slug": "azure/gpt-4o",
-    "model_name": "GPT-4o",
+  "azure/gpt-4o": {
+    "model_id": "azure/gpt-4o",
+    "model_name": "GPT 4o",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3313,10 +3244,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-2024-05-13": {
-    "model_id": "gpt-4o-2024-05-13",
-    "model_slug": "azure/gpt-4o-2024-05-13",
-    "model_name": "GPT-4o (May 2024)",
+  "azure/gpt-4o-2024-05-13": {
+    "model_id": "azure/gpt-4o-2024-05-13",
+    "model_name": "GPT 4o (May 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3337,10 +3267,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-2024-08-06": {
-    "model_id": "gpt-4o-2024-08-06",
-    "model_slug": "azure/gpt-4o-2024-08-06",
-    "model_name": "GPT-4o (Aug 2024)",
+  "azure/gpt-4o-2024-08-06": {
+    "model_id": "azure/gpt-4o-2024-08-06",
+    "model_name": "GPT 4o (Aug 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3361,10 +3290,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-2024-11-20": {
-    "model_id": "gpt-4o-2024-11-20",
-    "model_slug": "azure/gpt-4o-2024-11-20",
-    "model_name": "GPT-4o (Nov 2024)",
+  "azure/gpt-4o-2024-11-20": {
+    "model_id": "azure/gpt-4o-2024-11-20",
+    "model_name": "GPT 4o (Nov 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3385,10 +3313,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-audio-preview-2024-12-17": {
-    "model_id": "gpt-4o-audio-preview-2024-12-17",
-    "model_slug": "azure/gpt-4o-audio-preview-2024-12-17",
-    "model_name": "GPT 4o Audio Preview 2024 12 17",
+  "azure/gpt-4o-audio-preview-2024-12-17": {
+    "model_id": "azure/gpt-4o-audio-preview-2024-12-17",
+    "model_name": "Gpt 4o Audio Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3409,10 +3336,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-mini": {
-    "model_id": "gpt-4o-mini",
-    "model_slug": "azure/gpt-4o-mini",
-    "model_name": "GPT-4o mini",
+  "azure/gpt-4o-mini": {
+    "model_id": "azure/gpt-4o-mini",
+    "model_name": "GPT 4o mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3433,10 +3359,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-mini-2024-07-18": {
-    "model_id": "gpt-4o-mini-2024-07-18",
-    "model_slug": "azure/gpt-4o-mini-2024-07-18",
-    "model_name": "GPT-4o mini (Jul 2024)",
+  "azure/gpt-4o-mini-2024-07-18": {
+    "model_id": "azure/gpt-4o-mini-2024-07-18",
+    "model_name": "GPT 4o mini (Jul 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3457,10 +3382,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-mini-audio-preview-2024-12-17": {
-    "model_id": "gpt-4o-mini-audio-preview-2024-12-17",
-    "model_slug": "azure/gpt-4o-mini-audio-preview-2024-12-17",
-    "model_name": "GPT 4o Mini Audio Preview 2024 12 17",
+  "azure/gpt-4o-mini-audio-preview-2024-12-17": {
+    "model_id": "azure/gpt-4o-mini-audio-preview-2024-12-17",
+    "model_name": "Gpt 4o Mini Audio Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3481,10 +3405,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-mini-realtime-preview-2024-12-17": {
-    "model_id": "gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_slug": "azure/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_name": "GPT 4o Mini Realtime Preview 2024 12 17",
+  "azure/gpt-4o-mini-realtime-preview-2024-12-17": {
+    "model_id": "azure/gpt-4o-mini-realtime-preview-2024-12-17",
+    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3505,10 +3428,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-mini-transcribe": {
-    "model_id": "gpt-4o-mini-transcribe",
-    "model_slug": "azure/gpt-4o-mini-transcribe",
-    "model_name": "GPT 4o Mini Transcribe",
+  "azure/gpt-4o-mini-transcribe": {
+    "model_id": "azure/gpt-4o-mini-transcribe",
+    "model_name": "Gpt 4o Mini Transcribe",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16000,
@@ -3529,10 +3451,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "audio",
     "deprecation_date": null
   },
-  "gpt-4o-mini-tts": {
-    "model_id": "gpt-4o-mini-tts",
-    "model_slug": "azure/gpt-4o-mini-tts",
-    "model_name": "GPT 4o Mini Tts",
+  "azure/gpt-4o-mini-tts": {
+    "model_id": "azure/gpt-4o-mini-tts",
+    "model_name": "Gpt 4o Mini Tts",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3553,10 +3474,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "audio",
     "deprecation_date": null
   },
-  "gpt-4o-realtime-preview-2024-10-01": {
-    "model_id": "gpt-4o-realtime-preview-2024-10-01",
-    "model_slug": "azure/gpt-4o-realtime-preview-2024-10-01",
-    "model_name": "GPT 4o Realtime Preview 2024 10 01",
+  "azure/gpt-4o-realtime-preview-2024-10-01": {
+    "model_id": "azure/gpt-4o-realtime-preview-2024-10-01",
+    "model_name": "Gpt 4o Realtime Preview 2024 10 01",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3577,10 +3497,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-realtime-preview-2024-12-17": {
-    "model_id": "gpt-4o-realtime-preview-2024-12-17",
-    "model_slug": "azure/gpt-4o-realtime-preview-2024-12-17",
-    "model_name": "GPT 4o Realtime Preview 2024 12 17",
+  "azure/gpt-4o-realtime-preview-2024-12-17": {
+    "model_id": "azure/gpt-4o-realtime-preview-2024-12-17",
+    "model_name": "Gpt 4o Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -3601,10 +3520,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "gpt-4o-transcribe": {
-    "model_id": "gpt-4o-transcribe",
-    "model_slug": "azure/gpt-4o-transcribe",
-    "model_name": "GPT 4o Transcribe",
+  "azure/gpt-4o-transcribe": {
+    "model_id": "azure/gpt-4o-transcribe",
+    "model_name": "Gpt 4o Transcribe",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 16000,
@@ -3625,10 +3543,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "audio",
     "deprecation_date": null
   },
-  "gpt-image-1": {
-    "model_id": "gpt-image-1",
-    "model_slug": "azure/gpt-image-1",
-    "model_name": "GPT Image 1",
+  "azure/gpt-image-1": {
+    "model_id": "azure/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3649,10 +3566,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "hd/1024-x-1024/dall-e-3": {
-    "model_id": "hd/1024-x-1024/dall-e-3",
-    "model_slug": "azure/hd/1024-x-1024/dall-e-3",
-    "model_name": "Dall E 3 | 1024-x-1024 | hd",
+  "azure/hd/1024-x-1024/dall-e-3": {
+    "model_id": "azure/hd/1024-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3673,10 +3589,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "hd/1024-x-1792/dall-e-3": {
-    "model_id": "hd/1024-x-1792/dall-e-3",
-    "model_slug": "azure/hd/1024-x-1792/dall-e-3",
-    "model_name": "Dall E 3 | 1024-x-1792 | hd",
+  "azure/hd/1024-x-1792/dall-e-3": {
+    "model_id": "azure/hd/1024-x-1792/dall-e-3",
+    "model_name": "Dall E 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3697,10 +3612,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "hd/1792-x-1024/dall-e-3": {
-    "model_id": "hd/1792-x-1024/dall-e-3",
-    "model_slug": "azure/hd/1792-x-1024/dall-e-3",
-    "model_name": "Dall E 3 | 1792-x-1024 | hd",
+  "azure/hd/1792-x-1024/dall-e-3": {
+    "model_id": "azure/hd/1792-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3721,10 +3635,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "high/1024-x-1024/gpt-image-1": {
-    "model_id": "high/1024-x-1024/gpt-image-1",
-    "model_slug": "azure/high/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1024-x-1024 | high",
+  "azure/high/1024-x-1024/gpt-image-1": {
+    "model_id": "azure/high/1024-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3745,10 +3658,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "high/1024-x-1536/gpt-image-1": {
-    "model_id": "high/1024-x-1536/gpt-image-1",
-    "model_slug": "azure/high/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1024-x-1536 | high",
+  "azure/high/1024-x-1536/gpt-image-1": {
+    "model_id": "azure/high/1024-x-1536/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3769,10 +3681,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "high/1536-x-1024/gpt-image-1": {
-    "model_id": "high/1536-x-1024/gpt-image-1",
-    "model_slug": "azure/high/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1536-x-1024 | high",
+  "azure/high/1536-x-1024/gpt-image-1": {
+    "model_id": "azure/high/1536-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3793,10 +3704,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "low/1024-x-1024/gpt-image-1": {
-    "model_id": "low/1024-x-1024/gpt-image-1",
-    "model_slug": "azure/low/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1024-x-1024 | low",
+  "azure/low/1024-x-1024/gpt-image-1": {
+    "model_id": "azure/low/1024-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3817,10 +3727,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "low/1024-x-1536/gpt-image-1": {
-    "model_id": "low/1024-x-1536/gpt-image-1",
-    "model_slug": "azure/low/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1024-x-1536 | low",
+  "azure/low/1024-x-1536/gpt-image-1": {
+    "model_id": "azure/low/1024-x-1536/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3841,10 +3750,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "low/1536-x-1024/gpt-image-1": {
-    "model_id": "low/1536-x-1024/gpt-image-1",
-    "model_slug": "azure/low/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1536-x-1024 | low",
+  "azure/low/1536-x-1024/gpt-image-1": {
+    "model_id": "azure/low/1536-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3865,10 +3773,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "medium/1024-x-1024/gpt-image-1": {
-    "model_id": "medium/1024-x-1024/gpt-image-1",
-    "model_slug": "azure/medium/1024-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1024-x-1024 | medium",
+  "azure/medium/1024-x-1024/gpt-image-1": {
+    "model_id": "azure/medium/1024-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3889,10 +3796,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "medium/1024-x-1536/gpt-image-1": {
-    "model_id": "medium/1024-x-1536/gpt-image-1",
-    "model_slug": "azure/medium/1024-x-1536/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1024-x-1536 | medium",
+  "azure/medium/1024-x-1536/gpt-image-1": {
+    "model_id": "azure/medium/1024-x-1536/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3913,10 +3819,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "medium/1536-x-1024/gpt-image-1": {
-    "model_id": "medium/1536-x-1024/gpt-image-1",
-    "model_slug": "azure/medium/1536-x-1024/gpt-image-1",
-    "model_name": "Gpt Image 1 | 1536-x-1024 | medium",
+  "azure/medium/1536-x-1024/gpt-image-1": {
+    "model_id": "azure/medium/1536-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -3937,10 +3842,55 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "o1": {
-    "model_id": "o1",
-    "model_slug": "azure/o1",
-    "model_name": "o1",
+  "azure/mistral-large-2402": {
+    "model_id": "azure/mistral-large-2402",
+    "model_name": "Mistral Large 2402",
+    "provider_id": "azure",
+    "provider_name": "Microsoft Azure",
+    "max_input_tokens": 32000,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0.000008,
+    "input_cost_per_million": 8,
+    "output_cost_per_token": 0.000024,
+    "output_cost_per_million": 24,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "azure/mistral-large-latest": {
+    "model_id": "azure/mistral-large-latest",
+    "model_name": "Mistral Large",
+    "provider_id": "azure",
+    "provider_name": "Microsoft Azure",
+    "max_input_tokens": 32000,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0.000008,
+    "input_cost_per_million": 8,
+    "output_cost_per_token": 0.000024,
+    "output_cost_per_million": 24,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "azure/o1": {
+    "model_id": "azure/o1",
+    "model_name": "O1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -3961,9 +3911,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o1-2024-12-17": {
-    "model_id": "o1-2024-12-17",
-    "model_slug": "azure/o1-2024-12-17",
+  "azure/o1-2024-12-17": {
+    "model_id": "azure/o1-2024-12-17",
     "model_name": "O1 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -3985,10 +3934,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o1-mini": {
-    "model_id": "o1-mini",
-    "model_slug": "azure/o1-mini",
-    "model_name": "o1 mini",
+  "azure/o1-mini": {
+    "model_id": "azure/o1-mini",
+    "model_name": "O1 mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4009,9 +3957,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o1-mini-2024-09-12": {
-    "model_id": "o1-mini-2024-09-12",
-    "model_slug": "azure/o1-mini-2024-09-12",
+  "azure/o1-mini-2024-09-12": {
+    "model_id": "azure/o1-mini-2024-09-12",
     "model_name": "O1 Mini 2024 09 12",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4033,10 +3980,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o1-preview": {
-    "model_id": "o1-preview",
-    "model_slug": "azure/o1-preview",
-    "model_name": "o1 Preview",
+  "azure/o1-preview": {
+    "model_id": "azure/o1-preview",
+    "model_name": "O1 Preview",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4057,9 +4003,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o1-preview-2024-09-12": {
-    "model_id": "o1-preview-2024-09-12",
-    "model_slug": "azure/o1-preview-2024-09-12",
+  "azure/o1-preview-2024-09-12": {
+    "model_id": "azure/o1-preview-2024-09-12",
     "model_name": "O1 Preview 2024 09 12",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4081,10 +4026,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o3": {
-    "model_id": "o3",
-    "model_slug": "azure/o3",
-    "model_name": "o3",
+  "azure/o3": {
+    "model_id": "azure/o3",
+    "model_name": "O3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -4105,9 +4049,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o3-2025-04-16": {
-    "model_id": "o3-2025-04-16",
-    "model_slug": "azure/o3-2025-04-16",
+  "azure/o3-2025-04-16": {
+    "model_id": "azure/o3-2025-04-16",
     "model_name": "O3 2025 04 16",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4129,9 +4072,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o3-deep-research": {
-    "model_id": "o3-deep-research",
-    "model_slug": "azure/o3-deep-research",
+  "azure/o3-deep-research": {
+    "model_id": "azure/o3-deep-research",
     "model_name": "O3 Deep Research",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4153,10 +4095,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o3-mini": {
-    "model_id": "o3-mini",
-    "model_slug": "azure/o3-mini",
-    "model_name": "o3 mini",
+  "azure/o3-mini": {
+    "model_id": "azure/o3-mini",
+    "model_name": "O3 mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -4177,9 +4118,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o3-mini-2025-01-31": {
-    "model_id": "o3-mini-2025-01-31",
-    "model_slug": "azure/o3-mini-2025-01-31",
+  "azure/o3-mini-2025-01-31": {
+    "model_id": "azure/o3-mini-2025-01-31",
     "model_name": "O3 Mini 2025 01 31",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4201,10 +4141,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o3-pro": {
-    "model_id": "o3-pro",
-    "model_slug": "azure/o3-pro",
-    "model_name": "o3 Pro",
+  "azure/o3-pro": {
+    "model_id": "azure/o3-pro",
+    "model_name": "O3 Pro",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -4225,9 +4164,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o3-pro-2025-06-10": {
-    "model_id": "o3-pro-2025-06-10",
-    "model_slug": "azure/o3-pro-2025-06-10",
+  "azure/o3-pro-2025-06-10": {
+    "model_id": "azure/o3-pro-2025-06-10",
     "model_name": "O3 Pro 2025 06 10",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4249,10 +4187,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o4-mini": {
-    "model_id": "o4-mini",
-    "model_slug": "azure/o4-mini",
-    "model_name": "o4 mini",
+  "azure/o4-mini": {
+    "model_id": "azure/o4-mini",
+    "model_name": "O4 mini",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -4273,9 +4210,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "o4-mini-2025-04-16": {
-    "model_id": "o4-mini-2025-04-16",
-    "model_slug": "azure/o4-mini-2025-04-16",
+  "azure/o4-mini-2025-04-16": {
+    "model_id": "azure/o4-mini-2025-04-16",
     "model_name": "O4 Mini 2025 04 16",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4297,10 +4233,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "standard/1024-x-1024/dall-e-2": {
-    "model_id": "standard/1024-x-1024/dall-e-2",
-    "model_slug": "azure/standard/1024-x-1024/dall-e-2",
-    "model_name": "Dall E 2 | 1024-x-1024 | standard",
+  "azure/standard/1024-x-1024/dall-e-2": {
+    "model_id": "azure/standard/1024-x-1024/dall-e-2",
+    "model_name": "Dall E 2",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -4321,10 +4256,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "standard/1024-x-1024/dall-e-3": {
-    "model_id": "standard/1024-x-1024/dall-e-3",
-    "model_slug": "azure/standard/1024-x-1024/dall-e-3",
-    "model_name": "Dall E 3 | 1024-x-1024 | standard",
+  "azure/standard/1024-x-1024/dall-e-3": {
+    "model_id": "azure/standard/1024-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -4345,10 +4279,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "standard/1024-x-1792/dall-e-3": {
-    "model_id": "standard/1024-x-1792/dall-e-3",
-    "model_slug": "azure/standard/1024-x-1792/dall-e-3",
-    "model_name": "Dall E 3 | 1024-x-1792 | standard",
+  "azure/standard/1024-x-1792/dall-e-3": {
+    "model_id": "azure/standard/1024-x-1792/dall-e-3",
+    "model_name": "Dall E 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -4369,10 +4302,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "standard/1792-x-1024/dall-e-3": {
-    "model_id": "standard/1792-x-1024/dall-e-3",
-    "model_slug": "azure/standard/1792-x-1024/dall-e-3",
-    "model_name": "Dall E 3 | 1792-x-1024 | standard",
+  "azure/standard/1792-x-1024/dall-e-3": {
+    "model_id": "azure/standard/1792-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": null,
@@ -4393,9 +4325,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "image",
     "deprecation_date": null
   },
-  "text-embedding-3-large": {
-    "model_id": "text-embedding-3-large",
-    "model_slug": "azure/text-embedding-3-large",
+  "azure/text-embedding-3-large": {
+    "model_id": "azure/text-embedding-3-large",
     "model_name": "Text Embedding 3 Large",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4417,9 +4348,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "embedding",
     "deprecation_date": null
   },
-  "text-embedding-3-small": {
-    "model_id": "text-embedding-3-small",
-    "model_slug": "azure/text-embedding-3-small",
+  "azure/text-embedding-3-small": {
+    "model_id": "azure/text-embedding-3-small",
     "model_name": "Text Embedding 3 Small",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4441,9 +4371,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "embedding",
     "deprecation_date": null
   },
-  "text-embedding-ada-002": {
-    "model_id": "text-embedding-ada-002",
-    "model_slug": "azure/text-embedding-ada-002",
+  "azure/text-embedding-ada-002": {
+    "model_id": "azure/text-embedding-ada-002",
     "model_name": "Text Embedding Ada 002",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4465,9 +4394,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "embedding",
     "deprecation_date": null
   },
-  "tts-1": {
-    "model_id": "tts-1",
-    "model_slug": "azure/tts-1",
+  "azure/tts-1": {
+    "model_id": "azure/tts-1",
     "model_name": "Tts 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4489,9 +4417,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "audio",
     "deprecation_date": null
   },
-  "tts-1-hd": {
-    "model_id": "tts-1-hd",
-    "model_slug": "azure/tts-1-hd",
+  "azure/tts-1-hd": {
+    "model_id": "azure/tts-1-hd",
     "model_name": "Tts 1 Hd",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4513,10 +4440,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "audio",
     "deprecation_date": null
   },
-  "us/gpt-4o-2024-08-06": {
-    "model_id": "us/gpt-4o-2024-08-06",
-    "model_slug": "azure/us/gpt-4o-2024-08-06",
-    "model_name": "GPT 4o (Aug 2024) | us",
+  "azure/us/gpt-4o-2024-08-06": {
+    "model_id": "azure/us/gpt-4o-2024-08-06",
+    "model_name": "GPT 4o (Aug 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4537,10 +4463,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/gpt-4o-2024-11-20": {
-    "model_id": "us/gpt-4o-2024-11-20",
-    "model_slug": "azure/us/gpt-4o-2024-11-20",
-    "model_name": "GPT 4o (Nov 2024) | us",
+  "azure/us/gpt-4o-2024-11-20": {
+    "model_id": "azure/us/gpt-4o-2024-11-20",
+    "model_name": "GPT 4o (Nov 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4561,10 +4486,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/gpt-4o-mini-2024-07-18": {
-    "model_id": "us/gpt-4o-mini-2024-07-18",
-    "model_slug": "azure/us/gpt-4o-mini-2024-07-18",
-    "model_name": "GPT 4o mini (Jul 2024) | us",
+  "azure/us/gpt-4o-mini-2024-07-18": {
+    "model_id": "azure/us/gpt-4o-mini-2024-07-18",
+    "model_name": "GPT 4o mini (Jul 2024)",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4585,10 +4509,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/gpt-4o-mini-realtime-preview-2024-12-17": {
-    "model_id": "us/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_slug": "azure/us/gpt-4o-mini-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17 | us",
+  "azure/us/gpt-4o-mini-realtime-preview-2024-12-17": {
+    "model_id": "azure/us/gpt-4o-mini-realtime-preview-2024-12-17",
+    "model_name": "Gpt 4o Mini Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4609,10 +4532,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/gpt-4o-realtime-preview-2024-10-01": {
-    "model_id": "us/gpt-4o-realtime-preview-2024-10-01",
-    "model_slug": "azure/us/gpt-4o-realtime-preview-2024-10-01",
-    "model_name": "Gpt 4o Realtime Preview 2024 10 01 | us",
+  "azure/us/gpt-4o-realtime-preview-2024-10-01": {
+    "model_id": "azure/us/gpt-4o-realtime-preview-2024-10-01",
+    "model_name": "Gpt 4o Realtime Preview 2024 10 01",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4633,10 +4555,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/gpt-4o-realtime-preview-2024-12-17": {
-    "model_id": "us/gpt-4o-realtime-preview-2024-12-17",
-    "model_slug": "azure/us/gpt-4o-realtime-preview-2024-12-17",
-    "model_name": "Gpt 4o Realtime Preview 2024 12 17 | us",
+  "azure/us/gpt-4o-realtime-preview-2024-12-17": {
+    "model_id": "azure/us/gpt-4o-realtime-preview-2024-12-17",
+    "model_name": "Gpt 4o Realtime Preview 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4657,10 +4578,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/o1-2024-12-17": {
-    "model_id": "us/o1-2024-12-17",
-    "model_slug": "azure/us/o1-2024-12-17",
-    "model_name": "O1 2024 12 17 | us",
+  "azure/us/o1-2024-12-17": {
+    "model_id": "azure/us/o1-2024-12-17",
+    "model_name": "O1 2024 12 17",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -4681,10 +4601,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/o1-mini-2024-09-12": {
-    "model_id": "us/o1-mini-2024-09-12",
-    "model_slug": "azure/us/o1-mini-2024-09-12",
-    "model_name": "O1 Mini 2024 09 12 | us",
+  "azure/us/o1-mini-2024-09-12": {
+    "model_id": "azure/us/o1-mini-2024-09-12",
+    "model_name": "O1 Mini 2024 09 12",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4705,10 +4624,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/o1-preview-2024-09-12": {
-    "model_id": "us/o1-preview-2024-09-12",
-    "model_slug": "azure/us/o1-preview-2024-09-12",
-    "model_name": "O1 Preview 2024 09 12 | us",
+  "azure/us/o1-preview-2024-09-12": {
+    "model_id": "azure/us/o1-preview-2024-09-12",
+    "model_name": "O1 Preview 2024 09 12",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 128000,
@@ -4729,10 +4647,9 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "us/o3-mini-2025-01-31": {
-    "model_id": "us/o3-mini-2025-01-31",
-    "model_slug": "azure/us/o3-mini-2025-01-31",
-    "model_name": "O3 Mini 2025 01 31 | us",
+  "azure/us/o3-mini-2025-01-31": {
+    "model_id": "azure/us/o3-mini-2025-01-31",
+    "model_name": "O3 Mini 2025 01 31",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
     "max_input_tokens": 200000,
@@ -4753,9 +4670,8 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
-  "whisper-1": {
-    "model_id": "whisper-1",
-    "model_slug": "azure/whisper-1",
+  "azure/whisper-1": {
+    "model_id": "azure/whisper-1",
     "model_name": "Whisper 1",
     "provider_id": "azure",
     "provider_name": "Microsoft Azure",
@@ -4777,10 +4693,32 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "audio",
     "deprecation_date": null
   },
+  "computer-use-preview": {
+    "model_id": "computer-use-preview",
+    "model_name": "Computer Use Preview",
+    "provider_id": "azure",
+    "provider_name": "Microsoft Azure",
+    "max_input_tokens": 8192,
+    "max_output_tokens": 1024,
+    "input_cost_per_token": 0.000003,
+    "input_cost_per_million": 3,
+    "output_cost_per_token": 0.000012,
+    "output_cost_per_million": 12,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "*/1-month-commitment/cohere.command-light-text-v14": {
     "model_id": "*/1-month-commitment/cohere.command-light-text-v14",
-    "model_slug": "bedrock/*/1-month-commitment/cohere.command-light-text-v14",
-    "model_name": "Cohere.command Light Text V14 | 1-month-commitment | *",
+    "model_name": "Cohere.command Light Text V14",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 4096,
@@ -4803,8 +4741,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "*/1-month-commitment/cohere.command-text-v14": {
     "model_id": "*/1-month-commitment/cohere.command-text-v14",
-    "model_slug": "bedrock/*/1-month-commitment/cohere.command-text-v14",
-    "model_name": "Cohere.command Text V14 | 1-month-commitment | *",
+    "model_name": "Cohere.command Text V14",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 4096,
@@ -4827,8 +4764,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "*/6-month-commitment/cohere.command-light-text-v14": {
     "model_id": "*/6-month-commitment/cohere.command-light-text-v14",
-    "model_slug": "bedrock/*/6-month-commitment/cohere.command-light-text-v14",
-    "model_name": "Cohere.command Light Text V14 | 6-month-commitment | *",
+    "model_name": "Cohere.command Light Text V14",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 4096,
@@ -4851,8 +4787,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "*/6-month-commitment/cohere.command-text-v14": {
     "model_id": "*/6-month-commitment/cohere.command-text-v14",
-    "model_slug": "bedrock/*/6-month-commitment/cohere.command-text-v14",
-    "model_name": "Cohere.command Text V14 | 6-month-commitment | *",
+    "model_name": "Cohere.command Text V14",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 4096,
@@ -4875,8 +4810,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0": {
     "model_id": "1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0",
-    "model_slug": "1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0",
-    "model_name": "Amazon.nova Canvas V1:0 | bedrock | 50-steps | 1024-x-1024",
+    "model_name": "Amazon.nova Canvas V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 2600,
@@ -4899,8 +4833,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "1024-x-1024/50-steps/stability.stable-diffusion-xl-v1": {
     "model_id": "1024-x-1024/50-steps/stability.stable-diffusion-xl-v1",
-    "model_slug": "1024-x-1024/50-steps/stability.stable-diffusion-xl-v1",
-    "model_name": "Stability.stable Diffusion Xl V1 | 50-steps | 1024-x-1024",
+    "model_name": "Stability.stable Diffusion Xl V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 77,
@@ -4923,8 +4856,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "1024-x-1024/max-steps/stability.stable-diffusion-xl-v1": {
     "model_id": "1024-x-1024/max-steps/stability.stable-diffusion-xl-v1",
-    "model_slug": "1024-x-1024/max-steps/stability.stable-diffusion-xl-v1",
-    "model_name": "Stability.stable Diffusion Xl V1 | max-steps | 1024-x-1024",
+    "model_name": "Stability.stable Diffusion Xl V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 77,
@@ -4947,8 +4879,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "512-x-512/50-steps/stability.stable-diffusion-xl-v0": {
     "model_id": "512-x-512/50-steps/stability.stable-diffusion-xl-v0",
-    "model_slug": "512-x-512/50-steps/stability.stable-diffusion-xl-v0",
-    "model_name": "Stability.stable Diffusion Xl V0 | 50-steps | 512-x-512",
+    "model_name": "Stability.stable Diffusion Xl V0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 77,
@@ -4971,8 +4902,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "512-x-512/max-steps/stability.stable-diffusion-xl-v0": {
     "model_id": "512-x-512/max-steps/stability.stable-diffusion-xl-v0",
-    "model_slug": "512-x-512/max-steps/stability.stable-diffusion-xl-v0",
-    "model_name": "Stability.stable Diffusion Xl V0 | max-steps | 512-x-512",
+    "model_name": "Stability.stable Diffusion Xl V0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 77,
@@ -4995,7 +4925,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ai21.j2-mid-v1": {
     "model_id": "ai21.j2-mid-v1",
-    "model_slug": "ai21.j2-mid-v1",
     "model_name": "Ai21.j2 Mid V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5019,7 +4948,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ai21.j2-ultra-v1": {
     "model_id": "ai21.j2-ultra-v1",
-    "model_slug": "ai21.j2-ultra-v1",
     "model_name": "Ai21.j2 Ultra V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5043,7 +4971,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ai21.jamba-1-5-large-v1:0": {
     "model_id": "ai21.jamba-1-5-large-v1:0",
-    "model_slug": "ai21.jamba-1-5-large-v1:0",
     "model_name": "Ai21.jamba 1 5 Large V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5067,7 +4994,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ai21.jamba-1-5-mini-v1:0": {
     "model_id": "ai21.jamba-1-5-mini-v1:0",
-    "model_slug": "ai21.jamba-1-5-mini-v1:0",
     "model_name": "Ai21.jamba 1 5 Mini V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5091,7 +5017,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ai21.jamba-instruct-v1:0": {
     "model_id": "ai21.jamba-instruct-v1:0",
-    "model_slug": "ai21.jamba-instruct-v1:0",
     "model_name": "Ai21.jamba Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5115,7 +5040,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.nova-lite-v1:0": {
     "model_id": "amazon.nova-lite-v1:0",
-    "model_slug": "amazon.nova-lite-v1:0",
     "model_name": "Amazon.nova Lite V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5139,7 +5063,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.nova-micro-v1:0": {
     "model_id": "amazon.nova-micro-v1:0",
-    "model_slug": "amazon.nova-micro-v1:0",
     "model_name": "Amazon.nova Micro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5163,7 +5086,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.nova-pro-v1:0": {
     "model_id": "amazon.nova-pro-v1:0",
-    "model_slug": "amazon.nova-pro-v1:0",
     "model_name": "Amazon.nova Pro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5187,7 +5109,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.rerank-v1:0": {
     "model_id": "amazon.rerank-v1:0",
-    "model_slug": "amazon.rerank-v1:0",
     "model_name": "Amazon.rerank V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5211,7 +5132,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.titan-embed-image-v1": {
     "model_id": "amazon.titan-embed-image-v1",
-    "model_slug": "amazon.titan-embed-image-v1",
     "model_name": "Amazon.titan Embed Image V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5235,7 +5155,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.titan-embed-text-v1": {
     "model_id": "amazon.titan-embed-text-v1",
-    "model_slug": "amazon.titan-embed-text-v1",
     "model_name": "Amazon.titan Embed Text V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5259,7 +5178,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.titan-embed-text-v2:0": {
     "model_id": "amazon.titan-embed-text-v2:0",
-    "model_slug": "amazon.titan-embed-text-v2:0",
     "model_name": "Amazon.titan Embed Text V2:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5283,7 +5201,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.titan-text-express-v1": {
     "model_id": "amazon.titan-text-express-v1",
-    "model_slug": "amazon.titan-text-express-v1",
     "model_name": "Amazon.titan Text Express V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5307,7 +5224,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.titan-text-lite-v1": {
     "model_id": "amazon.titan-text-lite-v1",
-    "model_slug": "amazon.titan-text-lite-v1",
     "model_name": "Amazon.titan Text Lite V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5331,7 +5247,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon.titan-text-premier-v1:0": {
     "model_id": "amazon.titan-text-premier-v1:0",
-    "model_slug": "amazon.titan-text-premier-v1:0",
     "model_name": "Amazon.titan Text Premier V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5355,7 +5270,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-3-5-haiku-20241022-v1:0": {
     "model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
-    "model_slug": "anthropic.claude-3-5-haiku-20241022-v1:0",
     "model_name": "Anthropic.claude 3 5 Haiku 20241022 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5379,7 +5293,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "model_slug": "anthropic.claude-3-5-sonnet-20240620-v1:0",
     "model_name": "Anthropic.claude 3 5 Sonnet 20240620 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5403,7 +5316,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-    "model_slug": "anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Anthropic.claude 3 5 Sonnet 20241022 V2:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5427,7 +5339,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-3-7-sonnet-20250219-v1:0": {
     "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-    "model_slug": "anthropic.claude-3-7-sonnet-20250219-v1:0",
     "model_name": "Anthropic.claude 3 7 Sonnet 20250219 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5451,7 +5362,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-3-haiku-20240307-v1:0": {
     "model_id": "anthropic.claude-3-haiku-20240307-v1:0",
-    "model_slug": "anthropic.claude-3-haiku-20240307-v1:0",
     "model_name": "Anthropic.claude 3 Haiku 20240307 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5475,7 +5385,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-3-opus-20240229-v1:0": {
     "model_id": "anthropic.claude-3-opus-20240229-v1:0",
-    "model_slug": "anthropic.claude-3-opus-20240229-v1:0",
     "model_name": "Anthropic.claude 3 Opus 20240229 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5499,7 +5408,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-3-sonnet-20240229-v1:0": {
     "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
-    "model_slug": "anthropic.claude-3-sonnet-20240229-v1:0",
     "model_name": "Anthropic.claude 3 Sonnet 20240229 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5523,7 +5431,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-instant-v1": {
     "model_id": "anthropic.claude-instant-v1",
-    "model_slug": "anthropic.claude-instant-v1",
     "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5547,7 +5454,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-opus-4-20250514-v1:0": {
     "model_id": "anthropic.claude-opus-4-20250514-v1:0",
-    "model_slug": "anthropic.claude-opus-4-20250514-v1:0",
     "model_name": "Anthropic.claude Opus 4 20250514 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5571,7 +5477,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-sonnet-4-20250514-v1:0": {
     "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
-    "model_slug": "anthropic.claude-sonnet-4-20250514-v1:0",
     "model_name": "Anthropic.claude Sonnet 4 20250514 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5595,7 +5500,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-v1": {
     "model_id": "anthropic.claude-v1",
-    "model_slug": "anthropic.claude-v1",
     "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5619,7 +5523,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-v2": {
     "model_id": "anthropic.claude-v2",
-    "model_slug": "anthropic.claude-v2",
     "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5643,7 +5546,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "anthropic.claude-v2:1": {
     "model_id": "anthropic.claude-v2:1",
-    "model_slug": "anthropic.claude-v2:1",
     "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -5667,8 +5569,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "ap-northeast-1/1-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/ap-northeast-1/1-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 1-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5691,8 +5592,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-v1": {
     "model_id": "ap-northeast-1/1-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/ap-northeast-1/1-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 1-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5715,8 +5615,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-v2": {
     "model_id": "ap-northeast-1/1-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/ap-northeast-1/1-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 1-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5739,8 +5638,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-v2:1": {
     "model_id": "ap-northeast-1/1-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/ap-northeast-1/1-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 1-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5763,8 +5661,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "ap-northeast-1/6-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/ap-northeast-1/6-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 6-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5787,8 +5684,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-v1": {
     "model_id": "ap-northeast-1/6-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/ap-northeast-1/6-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 6-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5811,8 +5707,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-v2": {
     "model_id": "ap-northeast-1/6-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/ap-northeast-1/6-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 6-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5835,8 +5730,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-v2:1": {
     "model_id": "ap-northeast-1/6-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/ap-northeast-1/6-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 6-month-commitment | ap-northeast-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5859,8 +5753,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/anthropic.claude-instant-v1": {
     "model_id": "ap-northeast-1/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/ap-northeast-1/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | ap-northeast-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5883,8 +5776,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/anthropic.claude-v1": {
     "model_id": "ap-northeast-1/anthropic.claude-v1",
-    "model_slug": "bedrock/ap-northeast-1/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | ap-northeast-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5907,8 +5799,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/anthropic.claude-v2": {
     "model_id": "ap-northeast-1/anthropic.claude-v2",
-    "model_slug": "bedrock/ap-northeast-1/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | ap-northeast-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5931,8 +5822,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-northeast-1/anthropic.claude-v2:1": {
     "model_id": "ap-northeast-1/anthropic.claude-v2:1",
-    "model_slug": "bedrock/ap-northeast-1/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | ap-northeast-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -5955,8 +5845,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-south-1/meta.llama3-70b-instruct-v1:0": {
     "model_id": "ap-south-1/meta.llama3-70b-instruct-v1:0",
-    "model_slug": "bedrock/ap-south-1/meta.llama3-70b-instruct-v1:0",
-    "model_name": "Meta.llama3 70b Instruct V1:0 | ap-south-1",
+    "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -5979,8 +5868,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ap-south-1/meta.llama3-8b-instruct-v1:0": {
     "model_id": "ap-south-1/meta.llama3-8b-instruct-v1:0",
-    "model_slug": "bedrock/ap-south-1/meta.llama3-8b-instruct-v1:0",
-    "model_name": "Meta.llama3 8b Instruct V1:0 | ap-south-1",
+    "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -6003,7 +5891,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.amazon.nova-lite-v1:0": {
     "model_id": "apac.amazon.nova-lite-v1:0",
-    "model_slug": "apac.amazon.nova-lite-v1:0",
     "model_name": "Apac.amazon.nova Lite V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6027,7 +5914,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.amazon.nova-micro-v1:0": {
     "model_id": "apac.amazon.nova-micro-v1:0",
-    "model_slug": "apac.amazon.nova-micro-v1:0",
     "model_name": "Apac.amazon.nova Micro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6051,7 +5937,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.amazon.nova-pro-v1:0": {
     "model_id": "apac.amazon.nova-pro-v1:0",
-    "model_slug": "apac.amazon.nova-pro-v1:0",
     "model_name": "Apac.amazon.nova Pro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6075,7 +5960,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "model_id": "apac.anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "model_slug": "apac.anthropic.claude-3-5-sonnet-20240620-v1:0",
     "model_name": "Apac.anthropic.claude 3 5 Sonnet 20240620 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6099,7 +5983,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "model_id": "apac.anthropic.claude-3-5-sonnet-20241022-v2:0",
-    "model_slug": "apac.anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Apac.anthropic.claude 3 5 Sonnet 20241022 V2:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6123,7 +6006,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.anthropic.claude-3-haiku-20240307-v1:0": {
     "model_id": "apac.anthropic.claude-3-haiku-20240307-v1:0",
-    "model_slug": "apac.anthropic.claude-3-haiku-20240307-v1:0",
     "model_name": "Apac.anthropic.claude 3 Haiku 20240307 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6147,7 +6029,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.anthropic.claude-3-sonnet-20240229-v1:0": {
     "model_id": "apac.anthropic.claude-3-sonnet-20240229-v1:0",
-    "model_slug": "apac.anthropic.claude-3-sonnet-20240229-v1:0",
     "model_name": "Apac.anthropic.claude 3 Sonnet 20240229 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6171,7 +6052,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "apac.anthropic.claude-sonnet-4-20250514-v1:0": {
     "model_id": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "model_slug": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
     "model_name": "Apac.anthropic.claude Sonnet 4 20250514 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6195,8 +6075,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ca-central-1/meta.llama3-70b-instruct-v1:0": {
     "model_id": "ca-central-1/meta.llama3-70b-instruct-v1:0",
-    "model_slug": "bedrock/ca-central-1/meta.llama3-70b-instruct-v1:0",
-    "model_name": "Meta.llama3 70b Instruct V1:0 | ca-central-1",
+    "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -6219,8 +6098,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ca-central-1/meta.llama3-8b-instruct-v1:0": {
     "model_id": "ca-central-1/meta.llama3-8b-instruct-v1:0",
-    "model_slug": "bedrock/ca-central-1/meta.llama3-8b-instruct-v1:0",
-    "model_name": "Meta.llama3 8b Instruct V1:0 | ca-central-1",
+    "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -6243,7 +6121,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "cohere.command-light-text-v14": {
     "model_id": "cohere.command-light-text-v14",
-    "model_slug": "cohere.command-light-text-v14",
     "model_name": "Cohere.command Light Text V14",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6267,7 +6144,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "cohere.command-r-plus-v1:0": {
     "model_id": "cohere.command-r-plus-v1:0",
-    "model_slug": "cohere.command-r-plus-v1:0",
     "model_name": "Cohere.command R Plus V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6291,7 +6167,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "cohere.command-r-v1:0": {
     "model_id": "cohere.command-r-v1:0",
-    "model_slug": "cohere.command-r-v1:0",
     "model_name": "Cohere.command R V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6315,7 +6190,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "cohere.command-text-v14": {
     "model_id": "cohere.command-text-v14",
-    "model_slug": "cohere.command-text-v14",
     "model_name": "Cohere.command Text V14",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6339,7 +6213,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "cohere.embed-english-v3": {
     "model_id": "cohere.embed-english-v3",
-    "model_slug": "cohere.embed-english-v3",
     "model_name": "Cohere.embed English V3",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6363,7 +6236,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "cohere.embed-multilingual-v3": {
     "model_id": "cohere.embed-multilingual-v3",
-    "model_slug": "cohere.embed-multilingual-v3",
     "model_name": "Cohere.embed Multilingual V3",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6387,7 +6259,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "cohere.rerank-v3-5:0": {
     "model_id": "cohere.rerank-v3-5:0",
-    "model_slug": "cohere.rerank-v3-5:0",
     "model_name": "Cohere.rerank V3 5:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6411,8 +6282,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/1-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "eu-central-1/1-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/eu-central-1/1-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 1-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6435,8 +6305,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/1-month-commitment/anthropic.claude-v1": {
     "model_id": "eu-central-1/1-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/eu-central-1/1-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 1-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6459,8 +6328,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/1-month-commitment/anthropic.claude-v2": {
     "model_id": "eu-central-1/1-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/eu-central-1/1-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 1-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6483,8 +6351,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/1-month-commitment/anthropic.claude-v2:1": {
     "model_id": "eu-central-1/1-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/eu-central-1/1-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 1-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6507,8 +6374,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/6-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "eu-central-1/6-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/eu-central-1/6-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 6-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6531,8 +6397,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/6-month-commitment/anthropic.claude-v1": {
     "model_id": "eu-central-1/6-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/eu-central-1/6-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 6-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6555,8 +6420,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/6-month-commitment/anthropic.claude-v2": {
     "model_id": "eu-central-1/6-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/eu-central-1/6-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 6-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6579,8 +6443,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/6-month-commitment/anthropic.claude-v2:1": {
     "model_id": "eu-central-1/6-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/eu-central-1/6-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 6-month-commitment | eu-central-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6603,8 +6466,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/anthropic.claude-instant-v1": {
     "model_id": "eu-central-1/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/eu-central-1/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | eu-central-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6627,8 +6489,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/anthropic.claude-v1": {
     "model_id": "eu-central-1/anthropic.claude-v1",
-    "model_slug": "bedrock/eu-central-1/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | eu-central-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6651,8 +6512,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/anthropic.claude-v2": {
     "model_id": "eu-central-1/anthropic.claude-v2",
-    "model_slug": "bedrock/eu-central-1/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | eu-central-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6675,8 +6535,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-central-1/anthropic.claude-v2:1": {
     "model_id": "eu-central-1/anthropic.claude-v2:1",
-    "model_slug": "bedrock/eu-central-1/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | eu-central-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -6699,8 +6558,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-west-1/meta.llama3-70b-instruct-v1:0": {
     "model_id": "eu-west-1/meta.llama3-70b-instruct-v1:0",
-    "model_slug": "bedrock/eu-west-1/meta.llama3-70b-instruct-v1:0",
-    "model_name": "Meta.llama3 70b Instruct V1:0 | eu-west-1",
+    "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -6723,8 +6581,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-west-1/meta.llama3-8b-instruct-v1:0": {
     "model_id": "eu-west-1/meta.llama3-8b-instruct-v1:0",
-    "model_slug": "bedrock/eu-west-1/meta.llama3-8b-instruct-v1:0",
-    "model_name": "Meta.llama3 8b Instruct V1:0 | eu-west-1",
+    "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -6747,8 +6604,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-west-2/meta.llama3-70b-instruct-v1:0": {
     "model_id": "eu-west-2/meta.llama3-70b-instruct-v1:0",
-    "model_slug": "bedrock/eu-west-2/meta.llama3-70b-instruct-v1:0",
-    "model_name": "Meta.llama3 70b Instruct V1:0 | eu-west-2",
+    "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -6771,8 +6627,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-west-2/meta.llama3-8b-instruct-v1:0": {
     "model_id": "eu-west-2/meta.llama3-8b-instruct-v1:0",
-    "model_slug": "bedrock/eu-west-2/meta.llama3-8b-instruct-v1:0",
-    "model_name": "Meta.llama3 8b Instruct V1:0 | eu-west-2",
+    "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -6795,8 +6650,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-west-3/mistral.mistral-7b-instruct-v0:2": {
     "model_id": "eu-west-3/mistral.mistral-7b-instruct-v0:2",
-    "model_slug": "bedrock/eu-west-3/mistral.mistral-7b-instruct-v0:2",
-    "model_name": "Mistral.mistral 7b Instruct V0:2 | eu-west-3",
+    "model_name": "Mistral.mistral 7b Instruct V0:2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -6819,8 +6673,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-west-3/mistral.mistral-large-2402-v1:0": {
     "model_id": "eu-west-3/mistral.mistral-large-2402-v1:0",
-    "model_slug": "bedrock/eu-west-3/mistral.mistral-large-2402-v1:0",
-    "model_name": "Mistral.mistral Large 2402 V1:0 | eu-west-3",
+    "model_name": "Mistral.mistral Large 2402 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -6843,8 +6696,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu-west-3/mistral.mixtral-8x7b-instruct-v0:1": {
     "model_id": "eu-west-3/mistral.mixtral-8x7b-instruct-v0:1",
-    "model_slug": "bedrock/eu-west-3/mistral.mixtral-8x7b-instruct-v0:1",
-    "model_name": "Mistral.mixtral 8x7b Instruct V0:1 | eu-west-3",
+    "model_name": "Mistral.mixtral 8x7b Instruct V0:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -6867,7 +6719,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.amazon.nova-lite-v1:0": {
     "model_id": "eu.amazon.nova-lite-v1:0",
-    "model_slug": "eu.amazon.nova-lite-v1:0",
     "model_name": "Eu.amazon.nova Lite V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6891,7 +6742,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.amazon.nova-micro-v1:0": {
     "model_id": "eu.amazon.nova-micro-v1:0",
-    "model_slug": "eu.amazon.nova-micro-v1:0",
     "model_name": "Eu.amazon.nova Micro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6915,7 +6765,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.amazon.nova-pro-v1:0": {
     "model_id": "eu.amazon.nova-pro-v1:0",
-    "model_slug": "eu.amazon.nova-pro-v1:0",
     "model_name": "Eu.amazon.nova Pro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6939,7 +6788,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-3-5-haiku-20241022-v1:0": {
     "model_id": "eu.anthropic.claude-3-5-haiku-20241022-v1:0",
-    "model_slug": "eu.anthropic.claude-3-5-haiku-20241022-v1:0",
     "model_name": "Eu.anthropic.claude 3 5 Haiku 20241022 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6963,7 +6811,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "model_id": "eu.anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "model_slug": "eu.anthropic.claude-3-5-sonnet-20240620-v1:0",
     "model_name": "Eu.anthropic.claude 3 5 Sonnet 20240620 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -6987,7 +6834,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "model_id": "eu.anthropic.claude-3-5-sonnet-20241022-v2:0",
-    "model_slug": "eu.anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Eu.anthropic.claude 3 5 Sonnet 20241022 V2:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7011,7 +6857,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-3-7-sonnet-20250219-v1:0": {
     "model_id": "eu.anthropic.claude-3-7-sonnet-20250219-v1:0",
-    "model_slug": "eu.anthropic.claude-3-7-sonnet-20250219-v1:0",
     "model_name": "Eu.anthropic.claude 3 7 Sonnet 20250219 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7035,7 +6880,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-3-haiku-20240307-v1:0": {
     "model_id": "eu.anthropic.claude-3-haiku-20240307-v1:0",
-    "model_slug": "eu.anthropic.claude-3-haiku-20240307-v1:0",
     "model_name": "Eu.anthropic.claude 3 Haiku 20240307 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7059,7 +6903,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-3-opus-20240229-v1:0": {
     "model_id": "eu.anthropic.claude-3-opus-20240229-v1:0",
-    "model_slug": "eu.anthropic.claude-3-opus-20240229-v1:0",
     "model_name": "Eu.anthropic.claude 3 Opus 20240229 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7083,7 +6926,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-3-sonnet-20240229-v1:0": {
     "model_id": "eu.anthropic.claude-3-sonnet-20240229-v1:0",
-    "model_slug": "eu.anthropic.claude-3-sonnet-20240229-v1:0",
     "model_name": "Eu.anthropic.claude 3 Sonnet 20240229 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7107,7 +6949,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-opus-4-20250514-v1:0": {
     "model_id": "eu.anthropic.claude-opus-4-20250514-v1:0",
-    "model_slug": "eu.anthropic.claude-opus-4-20250514-v1:0",
     "model_name": "Eu.anthropic.claude Opus 4 20250514 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7131,7 +6972,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.anthropic.claude-sonnet-4-20250514-v1:0": {
     "model_id": "eu.anthropic.claude-sonnet-4-20250514-v1:0",
-    "model_slug": "eu.anthropic.claude-sonnet-4-20250514-v1:0",
     "model_name": "Eu.anthropic.claude Sonnet 4 20250514 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7155,7 +6995,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.meta.llama3-2-1b-instruct-v1:0": {
     "model_id": "eu.meta.llama3-2-1b-instruct-v1:0",
-    "model_slug": "eu.meta.llama3-2-1b-instruct-v1:0",
     "model_name": "Eu.meta.llama3 2 1b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7179,7 +7018,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.meta.llama3-2-3b-instruct-v1:0": {
     "model_id": "eu.meta.llama3-2-3b-instruct-v1:0",
-    "model_slug": "eu.meta.llama3-2-3b-instruct-v1:0",
     "model_name": "Eu.meta.llama3 2 3b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7203,7 +7041,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "eu.mistral.pixtral-large-2502-v1:0": {
     "model_id": "eu.mistral.pixtral-large-2502-v1:0",
-    "model_slug": "eu.mistral.pixtral-large-2502-v1:0",
     "model_name": "Eu.mistral.pixtral Large 2502 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7227,8 +7064,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "invoke/anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "model_id": "invoke/anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "model_slug": "bedrock/invoke/anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "model_name": "Anthropic.claude 3 5 Sonnet 20240620 V1:0 | invoke",
+    "model_name": "Anthropic.claude 3 5 Sonnet 20240620 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 200000,
@@ -7251,8 +7087,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "max-x-max/50-steps/stability.stable-diffusion-xl-v0": {
     "model_id": "max-x-max/50-steps/stability.stable-diffusion-xl-v0",
-    "model_slug": "max-x-max/50-steps/stability.stable-diffusion-xl-v0",
-    "model_name": "Stability.stable Diffusion Xl V0 | 50-steps | max-x-max",
+    "model_name": "Stability.stable Diffusion Xl V0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 77,
@@ -7275,8 +7110,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "max-x-max/max-steps/stability.stable-diffusion-xl-v0": {
     "model_id": "max-x-max/max-steps/stability.stable-diffusion-xl-v0",
-    "model_slug": "max-x-max/max-steps/stability.stable-diffusion-xl-v0",
-    "model_name": "Stability.stable Diffusion Xl V0 | max-steps | max-x-max",
+    "model_name": "Stability.stable Diffusion Xl V0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 77,
@@ -7299,7 +7133,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama2-13b-chat-v1": {
     "model_id": "meta.llama2-13b-chat-v1",
-    "model_slug": "meta.llama2-13b-chat-v1",
     "model_name": "Meta.llama2 13b Chat V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7323,7 +7156,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama2-70b-chat-v1": {
     "model_id": "meta.llama2-70b-chat-v1",
-    "model_slug": "meta.llama2-70b-chat-v1",
     "model_name": "Meta.llama2 70b Chat V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7347,7 +7179,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-1-405b-instruct-v1:0": {
     "model_id": "meta.llama3-1-405b-instruct-v1:0",
-    "model_slug": "meta.llama3-1-405b-instruct-v1:0",
     "model_name": "Meta.llama3 1 405b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7371,7 +7202,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-1-70b-instruct-v1:0": {
     "model_id": "meta.llama3-1-70b-instruct-v1:0",
-    "model_slug": "meta.llama3-1-70b-instruct-v1:0",
     "model_name": "Meta.llama3 1 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7395,7 +7225,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-1-8b-instruct-v1:0": {
     "model_id": "meta.llama3-1-8b-instruct-v1:0",
-    "model_slug": "meta.llama3-1-8b-instruct-v1:0",
     "model_name": "Meta.llama3 1 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7419,7 +7248,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-2-11b-instruct-v1:0": {
     "model_id": "meta.llama3-2-11b-instruct-v1:0",
-    "model_slug": "meta.llama3-2-11b-instruct-v1:0",
     "model_name": "Meta.llama3 2 11b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7443,7 +7271,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-2-1b-instruct-v1:0": {
     "model_id": "meta.llama3-2-1b-instruct-v1:0",
-    "model_slug": "meta.llama3-2-1b-instruct-v1:0",
     "model_name": "Meta.llama3 2 1b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7467,7 +7294,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-2-3b-instruct-v1:0": {
     "model_id": "meta.llama3-2-3b-instruct-v1:0",
-    "model_slug": "meta.llama3-2-3b-instruct-v1:0",
     "model_name": "Meta.llama3 2 3b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7491,7 +7317,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-2-90b-instruct-v1:0": {
     "model_id": "meta.llama3-2-90b-instruct-v1:0",
-    "model_slug": "meta.llama3-2-90b-instruct-v1:0",
     "model_name": "Meta.llama3 2 90b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7515,7 +7340,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-3-70b-instruct-v1:0": {
     "model_id": "meta.llama3-3-70b-instruct-v1:0",
-    "model_slug": "meta.llama3-3-70b-instruct-v1:0",
     "model_name": "Meta.llama3 3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7539,7 +7363,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-70b-instruct-v1:0": {
     "model_id": "meta.llama3-70b-instruct-v1:0",
-    "model_slug": "meta.llama3-70b-instruct-v1:0",
     "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7563,7 +7386,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama3-8b-instruct-v1:0": {
     "model_id": "meta.llama3-8b-instruct-v1:0",
-    "model_slug": "meta.llama3-8b-instruct-v1:0",
     "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7587,7 +7409,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama4-maverick-17b-instruct-v1:0": {
     "model_id": "meta.llama4-maverick-17b-instruct-v1:0",
-    "model_slug": "meta.llama4-maverick-17b-instruct-v1:0",
     "model_name": "Meta.llama4 Maverick 17b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7611,7 +7432,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta.llama4-scout-17b-instruct-v1:0": {
     "model_id": "meta.llama4-scout-17b-instruct-v1:0",
-    "model_slug": "meta.llama4-scout-17b-instruct-v1:0",
     "model_name": "Meta.llama4 Scout 17b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7635,7 +7455,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral.mistral-7b-instruct-v0:2": {
     "model_id": "mistral.mistral-7b-instruct-v0:2",
-    "model_slug": "mistral.mistral-7b-instruct-v0:2",
     "model_name": "Mistral.mistral 7b Instruct V0:2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7659,7 +7478,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral.mistral-large-2402-v1:0": {
     "model_id": "mistral.mistral-large-2402-v1:0",
-    "model_slug": "mistral.mistral-large-2402-v1:0",
     "model_name": "Mistral.mistral Large 2402 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7683,7 +7501,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral.mistral-large-2407-v1:0": {
     "model_id": "mistral.mistral-large-2407-v1:0",
-    "model_slug": "mistral.mistral-large-2407-v1:0",
     "model_name": "Mistral.mistral Large 2407 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7707,7 +7524,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral.mistral-small-2402-v1:0": {
     "model_id": "mistral.mistral-small-2402-v1:0",
-    "model_slug": "mistral.mistral-small-2402-v1:0",
     "model_name": "Mistral.mistral Small 2402 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7731,7 +7547,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral.mixtral-8x7b-instruct-v0:1": {
     "model_id": "mistral.mixtral-8x7b-instruct-v0:1",
-    "model_slug": "mistral.mixtral-8x7b-instruct-v0:1",
     "model_name": "Mistral.mixtral 8x7b Instruct V0:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7755,8 +7570,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sa-east-1/meta.llama3-70b-instruct-v1:0": {
     "model_id": "sa-east-1/meta.llama3-70b-instruct-v1:0",
-    "model_slug": "bedrock/sa-east-1/meta.llama3-70b-instruct-v1:0",
-    "model_name": "Meta.llama3 70b Instruct V1:0 | sa-east-1",
+    "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -7779,8 +7593,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sa-east-1/meta.llama3-8b-instruct-v1:0": {
     "model_id": "sa-east-1/meta.llama3-8b-instruct-v1:0",
-    "model_slug": "bedrock/sa-east-1/meta.llama3-8b-instruct-v1:0",
-    "model_name": "Meta.llama3 8b Instruct V1:0 | sa-east-1",
+    "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -7803,7 +7616,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "stability.sd3-5-large-v1:0": {
     "model_id": "stability.sd3-5-large-v1:0",
-    "model_slug": "stability.sd3-5-large-v1:0",
     "model_name": "Stability.sd3 5 Large V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7827,7 +7639,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "stability.sd3-large-v1:0": {
     "model_id": "stability.sd3-large-v1:0",
-    "model_slug": "stability.sd3-large-v1:0",
     "model_name": "Stability.sd3 Large V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7851,7 +7662,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "stability.stable-image-core-v1:0": {
     "model_id": "stability.stable-image-core-v1:0",
-    "model_slug": "stability.stable-image-core-v1:0",
     "model_name": "Stability.stable Image Core V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7875,7 +7685,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "stability.stable-image-core-v1:1": {
     "model_id": "stability.stable-image-core-v1:1",
-    "model_slug": "stability.stable-image-core-v1:1",
     "model_name": "Stability.stable Image Core V1:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7899,7 +7708,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "stability.stable-image-ultra-v1:0": {
     "model_id": "stability.stable-image-ultra-v1:0",
-    "model_slug": "stability.stable-image-ultra-v1:0",
     "model_name": "Stability.stable Image Ultra V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7923,7 +7731,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "stability.stable-image-ultra-v1:1": {
     "model_id": "stability.stable-image-ultra-v1:1",
-    "model_slug": "stability.stable-image-ultra-v1:1",
     "model_name": "Stability.stable Image Ultra V1:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -7947,8 +7754,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/1-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "us-east-1/1-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/us-east-1/1-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 1-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -7971,8 +7777,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/1-month-commitment/anthropic.claude-v1": {
     "model_id": "us-east-1/1-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/us-east-1/1-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 1-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -7995,8 +7800,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/1-month-commitment/anthropic.claude-v2": {
     "model_id": "us-east-1/1-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/us-east-1/1-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 1-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8019,8 +7823,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/1-month-commitment/anthropic.claude-v2:1": {
     "model_id": "us-east-1/1-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/us-east-1/1-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 1-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8043,8 +7846,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/6-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "us-east-1/6-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/us-east-1/6-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 6-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8067,8 +7869,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/6-month-commitment/anthropic.claude-v1": {
     "model_id": "us-east-1/6-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/us-east-1/6-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 6-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8091,8 +7892,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/6-month-commitment/anthropic.claude-v2": {
     "model_id": "us-east-1/6-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/us-east-1/6-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 6-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8115,8 +7915,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/6-month-commitment/anthropic.claude-v2:1": {
     "model_id": "us-east-1/6-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/us-east-1/6-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 6-month-commitment | us-east-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8139,8 +7938,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/anthropic.claude-instant-v1": {
     "model_id": "us-east-1/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/us-east-1/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | us-east-1",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8163,8 +7961,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/anthropic.claude-v1": {
     "model_id": "us-east-1/anthropic.claude-v1",
-    "model_slug": "bedrock/us-east-1/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | us-east-1",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8187,8 +7984,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/anthropic.claude-v2": {
     "model_id": "us-east-1/anthropic.claude-v2",
-    "model_slug": "bedrock/us-east-1/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | us-east-1",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8211,8 +8007,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/anthropic.claude-v2:1": {
     "model_id": "us-east-1/anthropic.claude-v2:1",
-    "model_slug": "bedrock/us-east-1/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | us-east-1",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8235,8 +8030,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/meta.llama3-70b-instruct-v1:0": {
     "model_id": "us-east-1/meta.llama3-70b-instruct-v1:0",
-    "model_slug": "bedrock/us-east-1/meta.llama3-70b-instruct-v1:0",
-    "model_name": "Meta.llama3 70b Instruct V1:0 | us-east-1",
+    "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -8259,8 +8053,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/meta.llama3-8b-instruct-v1:0": {
     "model_id": "us-east-1/meta.llama3-8b-instruct-v1:0",
-    "model_slug": "bedrock/us-east-1/meta.llama3-8b-instruct-v1:0",
-    "model_name": "Meta.llama3 8b Instruct V1:0 | us-east-1",
+    "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -8283,8 +8076,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/mistral.mistral-7b-instruct-v0:2": {
     "model_id": "us-east-1/mistral.mistral-7b-instruct-v0:2",
-    "model_slug": "bedrock/us-east-1/mistral.mistral-7b-instruct-v0:2",
-    "model_name": "Mistral.mistral 7b Instruct V0:2 | us-east-1",
+    "model_name": "Mistral.mistral 7b Instruct V0:2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -8307,8 +8099,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/mistral.mistral-large-2402-v1:0": {
     "model_id": "us-east-1/mistral.mistral-large-2402-v1:0",
-    "model_slug": "bedrock/us-east-1/mistral.mistral-large-2402-v1:0",
-    "model_name": "Mistral.mistral Large 2402 V1:0 | us-east-1",
+    "model_name": "Mistral.mistral Large 2402 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -8331,8 +8122,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-east-1/mistral.mixtral-8x7b-instruct-v0:1": {
     "model_id": "us-east-1/mistral.mixtral-8x7b-instruct-v0:1",
-    "model_slug": "bedrock/us-east-1/mistral.mixtral-8x7b-instruct-v0:1",
-    "model_name": "Mistral.mixtral 8x7b Instruct V0:1 | us-east-1",
+    "model_name": "Mistral.mixtral 8x7b Instruct V0:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -8355,8 +8145,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-1/meta.llama3-70b-instruct-v1:0": {
     "model_id": "us-west-1/meta.llama3-70b-instruct-v1:0",
-    "model_slug": "bedrock/us-west-1/meta.llama3-70b-instruct-v1:0",
-    "model_name": "Meta.llama3 70b Instruct V1:0 | us-west-1",
+    "model_name": "Meta.llama3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -8379,8 +8168,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-1/meta.llama3-8b-instruct-v1:0": {
     "model_id": "us-west-1/meta.llama3-8b-instruct-v1:0",
-    "model_slug": "bedrock/us-west-1/meta.llama3-8b-instruct-v1:0",
-    "model_name": "Meta.llama3 8b Instruct V1:0 | us-west-1",
+    "model_name": "Meta.llama3 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 8192,
@@ -8403,8 +8191,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/1-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "us-west-2/1-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/us-west-2/1-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 1-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8427,8 +8214,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/1-month-commitment/anthropic.claude-v1": {
     "model_id": "us-west-2/1-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/us-west-2/1-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 1-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8451,8 +8237,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/1-month-commitment/anthropic.claude-v2": {
     "model_id": "us-west-2/1-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/us-west-2/1-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 1-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8475,8 +8260,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/1-month-commitment/anthropic.claude-v2:1": {
     "model_id": "us-west-2/1-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/us-west-2/1-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 1-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8499,8 +8283,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/6-month-commitment/anthropic.claude-instant-v1": {
     "model_id": "us-west-2/6-month-commitment/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/us-west-2/6-month-commitment/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | 6-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8523,8 +8306,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/6-month-commitment/anthropic.claude-v1": {
     "model_id": "us-west-2/6-month-commitment/anthropic.claude-v1",
-    "model_slug": "bedrock/us-west-2/6-month-commitment/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | 6-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8547,8 +8329,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/6-month-commitment/anthropic.claude-v2": {
     "model_id": "us-west-2/6-month-commitment/anthropic.claude-v2",
-    "model_slug": "bedrock/us-west-2/6-month-commitment/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | 6-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8571,8 +8352,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/6-month-commitment/anthropic.claude-v2:1": {
     "model_id": "us-west-2/6-month-commitment/anthropic.claude-v2:1",
-    "model_slug": "bedrock/us-west-2/6-month-commitment/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | 6-month-commitment | us-west-2",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8595,8 +8375,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/anthropic.claude-instant-v1": {
     "model_id": "us-west-2/anthropic.claude-instant-v1",
-    "model_slug": "bedrock/us-west-2/anthropic.claude-instant-v1",
-    "model_name": "Anthropic.claude Instant V1 | us-west-2",
+    "model_name": "Anthropic.claude Instant V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8619,8 +8398,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/anthropic.claude-v1": {
     "model_id": "us-west-2/anthropic.claude-v1",
-    "model_slug": "bedrock/us-west-2/anthropic.claude-v1",
-    "model_name": "Anthropic.claude V1 | us-west-2",
+    "model_name": "Anthropic.claude V1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8643,8 +8421,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/anthropic.claude-v2": {
     "model_id": "us-west-2/anthropic.claude-v2",
-    "model_slug": "bedrock/us-west-2/anthropic.claude-v2",
-    "model_name": "Anthropic.claude V2 | us-west-2",
+    "model_name": "Anthropic.claude V2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8667,8 +8444,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/anthropic.claude-v2:1": {
     "model_id": "us-west-2/anthropic.claude-v2:1",
-    "model_slug": "bedrock/us-west-2/anthropic.claude-v2:1",
-    "model_name": "Anthropic.claude V2:1 | us-west-2",
+    "model_name": "Anthropic.claude V2:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 100000,
@@ -8691,8 +8467,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/mistral.mistral-7b-instruct-v0:2": {
     "model_id": "us-west-2/mistral.mistral-7b-instruct-v0:2",
-    "model_slug": "bedrock/us-west-2/mistral.mistral-7b-instruct-v0:2",
-    "model_name": "Mistral.mistral 7b Instruct V0:2 | us-west-2",
+    "model_name": "Mistral.mistral 7b Instruct V0:2",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -8715,8 +8490,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/mistral.mistral-large-2402-v1:0": {
     "model_id": "us-west-2/mistral.mistral-large-2402-v1:0",
-    "model_slug": "bedrock/us-west-2/mistral.mistral-large-2402-v1:0",
-    "model_name": "Mistral.mistral Large 2402 V1:0 | us-west-2",
+    "model_name": "Mistral.mistral Large 2402 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -8739,8 +8513,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "us-west-2/mistral.mixtral-8x7b-instruct-v0:1": {
     "model_id": "us-west-2/mistral.mixtral-8x7b-instruct-v0:1",
-    "model_slug": "bedrock/us-west-2/mistral.mixtral-8x7b-instruct-v0:1",
-    "model_name": "Mistral.mixtral 8x7b Instruct V0:1 | us-west-2",
+    "model_name": "Mistral.mixtral 8x7b Instruct V0:1",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
     "max_input_tokens": 32000,
@@ -8763,7 +8536,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.amazon.nova-lite-v1:0": {
     "model_id": "us.amazon.nova-lite-v1:0",
-    "model_slug": "us.amazon.nova-lite-v1:0",
     "model_name": "Us.amazon.nova Lite V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8787,7 +8559,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.amazon.nova-micro-v1:0": {
     "model_id": "us.amazon.nova-micro-v1:0",
-    "model_slug": "us.amazon.nova-micro-v1:0",
     "model_name": "Us.amazon.nova Micro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8811,7 +8582,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.amazon.nova-premier-v1:0": {
     "model_id": "us.amazon.nova-premier-v1:0",
-    "model_slug": "us.amazon.nova-premier-v1:0",
     "model_name": "Us.amazon.nova Premier V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8835,7 +8605,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.amazon.nova-pro-v1:0": {
     "model_id": "us.amazon.nova-pro-v1:0",
-    "model_slug": "us.amazon.nova-pro-v1:0",
     "model_name": "Us.amazon.nova Pro V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8859,7 +8628,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-3-5-haiku-20241022-v1:0": {
     "model_id": "us.anthropic.claude-3-5-haiku-20241022-v1:0",
-    "model_slug": "us.anthropic.claude-3-5-haiku-20241022-v1:0",
     "model_name": "Us.anthropic.claude 3 5 Haiku 20241022 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8883,7 +8651,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "model_id": "us.anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "model_slug": "us.anthropic.claude-3-5-sonnet-20240620-v1:0",
     "model_name": "Us.anthropic.claude 3 5 Sonnet 20240620 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8907,7 +8674,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "model_id": "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
-    "model_slug": "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Us.anthropic.claude 3 5 Sonnet 20241022 V2:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8931,7 +8697,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-3-7-sonnet-20250219-v1:0": {
     "model_id": "us.anthropic.claude-3-7-sonnet-20250219-v1:0",
-    "model_slug": "us.anthropic.claude-3-7-sonnet-20250219-v1:0",
     "model_name": "Us.anthropic.claude 3 7 Sonnet 20250219 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8955,7 +8720,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-3-haiku-20240307-v1:0": {
     "model_id": "us.anthropic.claude-3-haiku-20240307-v1:0",
-    "model_slug": "us.anthropic.claude-3-haiku-20240307-v1:0",
     "model_name": "Us.anthropic.claude 3 Haiku 20240307 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -8979,7 +8743,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-3-opus-20240229-v1:0": {
     "model_id": "us.anthropic.claude-3-opus-20240229-v1:0",
-    "model_slug": "us.anthropic.claude-3-opus-20240229-v1:0",
     "model_name": "Us.anthropic.claude 3 Opus 20240229 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9003,7 +8766,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-3-sonnet-20240229-v1:0": {
     "model_id": "us.anthropic.claude-3-sonnet-20240229-v1:0",
-    "model_slug": "us.anthropic.claude-3-sonnet-20240229-v1:0",
     "model_name": "Us.anthropic.claude 3 Sonnet 20240229 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9027,7 +8789,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-opus-4-20250514-v1:0": {
     "model_id": "us.anthropic.claude-opus-4-20250514-v1:0",
-    "model_slug": "us.anthropic.claude-opus-4-20250514-v1:0",
     "model_name": "Us.anthropic.claude Opus 4 20250514 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9051,7 +8812,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.anthropic.claude-sonnet-4-20250514-v1:0": {
     "model_id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "model_slug": "us.anthropic.claude-sonnet-4-20250514-v1:0",
     "model_name": "Us.anthropic.claude Sonnet 4 20250514 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9075,7 +8835,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.deepseek.r1-v1:0": {
     "model_id": "us.deepseek.r1-v1:0",
-    "model_slug": "us.deepseek.r1-v1:0",
     "model_name": "Us.deepseek.r1 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9099,7 +8858,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-1-405b-instruct-v1:0": {
     "model_id": "us.meta.llama3-1-405b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-1-405b-instruct-v1:0",
     "model_name": "Us.meta.llama3 1 405b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9123,7 +8881,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-1-70b-instruct-v1:0": {
     "model_id": "us.meta.llama3-1-70b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-1-70b-instruct-v1:0",
     "model_name": "Us.meta.llama3 1 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9147,7 +8904,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-1-8b-instruct-v1:0": {
     "model_id": "us.meta.llama3-1-8b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-1-8b-instruct-v1:0",
     "model_name": "Us.meta.llama3 1 8b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9171,7 +8927,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-2-11b-instruct-v1:0": {
     "model_id": "us.meta.llama3-2-11b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-2-11b-instruct-v1:0",
     "model_name": "Us.meta.llama3 2 11b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9195,7 +8950,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-2-1b-instruct-v1:0": {
     "model_id": "us.meta.llama3-2-1b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-2-1b-instruct-v1:0",
     "model_name": "Us.meta.llama3 2 1b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9219,7 +8973,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-2-3b-instruct-v1:0": {
     "model_id": "us.meta.llama3-2-3b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-2-3b-instruct-v1:0",
     "model_name": "Us.meta.llama3 2 3b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9243,7 +8996,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-2-90b-instruct-v1:0": {
     "model_id": "us.meta.llama3-2-90b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-2-90b-instruct-v1:0",
     "model_name": "Us.meta.llama3 2 90b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9267,7 +9019,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama3-3-70b-instruct-v1:0": {
     "model_id": "us.meta.llama3-3-70b-instruct-v1:0",
-    "model_slug": "us.meta.llama3-3-70b-instruct-v1:0",
     "model_name": "Us.meta.llama3 3 70b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9291,7 +9042,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama4-maverick-17b-instruct-v1:0": {
     "model_id": "us.meta.llama4-maverick-17b-instruct-v1:0",
-    "model_slug": "us.meta.llama4-maverick-17b-instruct-v1:0",
     "model_name": "Us.meta.llama4 Maverick 17b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9315,7 +9065,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.meta.llama4-scout-17b-instruct-v1:0": {
     "model_id": "us.meta.llama4-scout-17b-instruct-v1:0",
-    "model_slug": "us.meta.llama4-scout-17b-instruct-v1:0",
     "model_name": "Us.meta.llama4 Scout 17b Instruct V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9339,7 +9088,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "us.mistral.pixtral-large-2502-v1:0": {
     "model_id": "us.mistral.pixtral-large-2502-v1:0",
-    "model_slug": "us.mistral.pixtral-large-2502-v1:0",
     "model_name": "Us.mistral.pixtral Large 2502 V1:0",
     "provider_id": "bedrock",
     "provider_name": "AWS Bedrock",
@@ -9363,8 +9111,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "cerebras/llama-3.3-70b": {
     "model_id": "cerebras/llama-3.3-70b",
-    "model_slug": "cerebras/llama-3.3-70b",
-    "model_name": "Llama 3.3 70b | cerebras",
+    "model_name": "Llama 3.3 70b",
     "provider_id": "cerebras",
     "provider_name": "Cerebras",
     "max_input_tokens": 128000,
@@ -9387,8 +9134,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "cerebras/llama3.1-70b": {
     "model_id": "cerebras/llama3.1-70b",
-    "model_slug": "cerebras/llama3.1-70b",
-    "model_name": "Llama 3.1 70B | cerebras",
+    "model_name": "Llama 3.1 70B",
     "provider_id": "cerebras",
     "provider_name": "Cerebras",
     "max_input_tokens": 128000,
@@ -9411,8 +9157,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "cerebras/llama3.1-8b": {
     "model_id": "cerebras/llama3.1-8b",
-    "model_slug": "cerebras/llama3.1-8b",
-    "model_name": "Llama 3.1 8B | cerebras",
+    "model_name": "Llama 3.1 8B",
     "provider_id": "cerebras",
     "provider_name": "Cerebras",
     "max_input_tokens": 128000,
@@ -9435,8 +9180,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "cerebras/qwen-3-32b": {
     "model_id": "cerebras/qwen-3-32b",
-    "model_slug": "cerebras/qwen-3-32b",
-    "model_name": "Qwen 3 32b | cerebras",
+    "model_name": "Qwen 3 32b",
     "provider_id": "cerebras",
     "provider_name": "Cerebras",
     "max_input_tokens": 128000,
@@ -9459,8 +9203,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "@cf/meta/llama-2-7b-chat-fp16": {
     "model_id": "@cf/meta/llama-2-7b-chat-fp16",
-    "model_slug": "cloudflare/@cf/meta/llama-2-7b-chat-fp16",
-    "model_name": "Llama 2 7b Chat Fp16 | meta | @cf",
+    "model_name": "Llama 2 7b Chat Fp16",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
     "max_input_tokens": 3072,
@@ -9483,8 +9226,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "@cf/meta/llama-2-7b-chat-int8": {
     "model_id": "@cf/meta/llama-2-7b-chat-int8",
-    "model_slug": "cloudflare/@cf/meta/llama-2-7b-chat-int8",
-    "model_name": "Llama 2 7b Chat Int8 | meta | @cf",
+    "model_name": "Llama 2 7b Chat Int8",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
     "max_input_tokens": 2048,
@@ -9507,8 +9249,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "@cf/mistral/mistral-7b-instruct-v0.1": {
     "model_id": "@cf/mistral/mistral-7b-instruct-v0.1",
-    "model_slug": "cloudflare/@cf/mistral/mistral-7b-instruct-v0.1",
-    "model_name": "Mistral (7B) Instruct | mistral | @cf",
+    "model_name": "Mistral (7B) Instruct",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
     "max_input_tokens": 8192,
@@ -9531,8 +9272,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "@hf/thebloke/codellama-7b-instruct-awq": {
     "model_id": "@hf/thebloke/codellama-7b-instruct-awq",
-    "model_slug": "cloudflare/@hf/thebloke/codellama-7b-instruct-awq",
-    "model_name": "Codellama 7b Instruct Awq | thebloke | @hf",
+    "model_name": "Codellama 7b Instruct Awq",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
     "max_input_tokens": 4096,
@@ -9555,7 +9295,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command": {
     "model_id": "command",
-    "model_slug": "command",
     "model_name": "Command",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9579,7 +9318,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-a-03-2025": {
     "model_id": "command-a-03-2025",
-    "model_slug": "command-a-03-2025",
     "model_name": "Command A 03 2025",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9603,7 +9341,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-light": {
     "model_id": "command-light",
-    "model_slug": "command-light",
     "model_name": "Command Light",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9627,7 +9364,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-nightly": {
     "model_id": "command-nightly",
-    "model_slug": "command-nightly",
     "model_name": "Command Nightly",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9651,7 +9387,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-r": {
     "model_id": "command-r",
-    "model_slug": "command-r",
     "model_name": "Command R",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9675,7 +9410,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-r-08-2024": {
     "model_id": "command-r-08-2024",
-    "model_slug": "command-r-08-2024",
     "model_name": "Command R 08 2024",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9699,7 +9433,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-r-plus": {
     "model_id": "command-r-plus",
-    "model_slug": "command-r-plus",
     "model_name": "Command R Plus",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9723,7 +9456,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-r-plus-08-2024": {
     "model_id": "command-r-plus-08-2024",
-    "model_slug": "command-r-plus-08-2024",
     "model_name": "Command R Plus 08 2024",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9747,7 +9479,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "command-r7b-12-2024": {
     "model_id": "command-r7b-12-2024",
-    "model_slug": "command-r7b-12-2024",
     "model_name": "Command R7b 12 2024",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9771,7 +9502,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "embed-english-light-v2.0": {
     "model_id": "embed-english-light-v2.0",
-    "model_slug": "embed-english-light-v2.0",
     "model_name": "Embed English Light V2.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9795,7 +9525,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "embed-english-light-v3.0": {
     "model_id": "embed-english-light-v3.0",
-    "model_slug": "embed-english-light-v3.0",
     "model_name": "Embed English Light V3.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9819,7 +9548,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "embed-english-v2.0": {
     "model_id": "embed-english-v2.0",
-    "model_slug": "embed-english-v2.0",
     "model_name": "Embed English V2.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9843,7 +9571,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "embed-english-v3.0": {
     "model_id": "embed-english-v3.0",
-    "model_slug": "embed-english-v3.0",
     "model_name": "Embed English V3.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9867,7 +9594,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "embed-multilingual-v2.0": {
     "model_id": "embed-multilingual-v2.0",
-    "model_slug": "embed-multilingual-v2.0",
     "model_name": "Embed Multilingual V2.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9891,7 +9617,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "embed-multilingual-v3.0": {
     "model_id": "embed-multilingual-v3.0",
-    "model_slug": "embed-multilingual-v3.0",
     "model_name": "Embed Multilingual V3.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9915,7 +9640,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "rerank-english-v2.0": {
     "model_id": "rerank-english-v2.0",
-    "model_slug": "rerank-english-v2.0",
     "model_name": "Rerank English V2.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9939,7 +9663,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "rerank-english-v3.0": {
     "model_id": "rerank-english-v3.0",
-    "model_slug": "rerank-english-v3.0",
     "model_name": "Rerank English V3.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9963,7 +9686,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "rerank-multilingual-v2.0": {
     "model_id": "rerank-multilingual-v2.0",
-    "model_slug": "rerank-multilingual-v2.0",
     "model_name": "Rerank Multilingual V2.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -9987,7 +9709,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "rerank-multilingual-v3.0": {
     "model_id": "rerank-multilingual-v3.0",
-    "model_slug": "rerank-multilingual-v3.0",
     "model_name": "Rerank Multilingual V3.0",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -10011,7 +9732,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "rerank-v3.5": {
     "model_id": "rerank-v3.5",
-    "model_slug": "rerank-v3.5",
     "model_name": "Rerank V3.5",
     "provider_id": "cohere",
     "provider_name": "Cohere",
@@ -10035,8 +9755,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "dashscope/qwen-max": {
     "model_id": "dashscope/qwen-max",
-    "model_slug": "dashscope/qwen-max",
-    "model_name": "Qwen Max | dashscope",
+    "model_name": "Qwen Max",
     "provider_id": "dashscope",
     "provider_name": "Dashscope",
     "max_input_tokens": 30720,
@@ -10059,8 +9778,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "dashscope/qwen-plus-latest": {
     "model_id": "dashscope/qwen-plus-latest",
-    "model_slug": "dashscope/qwen-plus-latest",
-    "model_name": "Qwen Plus Latest | dashscope",
+    "model_name": "Qwen Plus Latest",
     "provider_id": "dashscope",
     "provider_name": "Dashscope",
     "max_input_tokens": 129024,
@@ -10083,8 +9801,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "dashscope/qwen-turbo-latest": {
     "model_id": "dashscope/qwen-turbo-latest",
-    "model_slug": "dashscope/qwen-turbo-latest",
-    "model_name": "Qwen Turbo Latest | dashscope",
+    "model_name": "Qwen Turbo Latest",
     "provider_id": "dashscope",
     "provider_name": "Dashscope",
     "max_input_tokens": 129024,
@@ -10107,8 +9824,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "dashscope/qwen3-30b-a3b": {
     "model_id": "dashscope/qwen3-30b-a3b",
-    "model_slug": "dashscope/qwen3-30b-a3b",
-    "model_name": "Qwen3 30b A3b | dashscope",
+    "model_name": "Qwen3 30b A3b",
     "provider_id": "dashscope",
     "provider_name": "Dashscope",
     "max_input_tokens": 129024,
@@ -10131,7 +9847,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-bge-large-en": {
     "model_id": "databricks-bge-large-en",
-    "model_slug": "databricks/databricks-bge-large-en",
     "model_name": "Databricks Bge Large En",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10155,7 +9870,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-claude-3-7-sonnet": {
     "model_id": "databricks-claude-3-7-sonnet",
-    "model_slug": "databricks/databricks-claude-3-7-sonnet",
     "model_name": "Databricks Claude 3 7 Sonnet",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10179,7 +9893,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-dbrx-instruct": {
     "model_id": "databricks-dbrx-instruct",
-    "model_slug": "databricks/databricks-dbrx-instruct",
     "model_name": "Databricks Dbrx Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10203,7 +9916,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-gte-large-en": {
     "model_id": "databricks-gte-large-en",
-    "model_slug": "databricks/databricks-gte-large-en",
     "model_name": "Databricks Gte Large En",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10227,7 +9939,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-llama-2-70b-chat": {
     "model_id": "databricks-llama-2-70b-chat",
-    "model_slug": "databricks/databricks-llama-2-70b-chat",
     "model_name": "Databricks Llama 2 70b Chat",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10251,7 +9962,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-llama-4-maverick": {
     "model_id": "databricks-llama-4-maverick",
-    "model_slug": "databricks/databricks-llama-4-maverick",
     "model_name": "Databricks Llama 4 Maverick",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10275,7 +9985,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-meta-llama-3-1-405b-instruct": {
     "model_id": "databricks-meta-llama-3-1-405b-instruct",
-    "model_slug": "databricks/databricks-meta-llama-3-1-405b-instruct",
     "model_name": "Databricks Meta Llama 3 1 405b Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10299,7 +10008,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-meta-llama-3-1-70b-instruct": {
     "model_id": "databricks-meta-llama-3-1-70b-instruct",
-    "model_slug": "databricks/databricks-meta-llama-3-1-70b-instruct",
     "model_name": "Databricks Meta Llama 3 1 70b Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10323,7 +10031,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-meta-llama-3-3-70b-instruct": {
     "model_id": "databricks-meta-llama-3-3-70b-instruct",
-    "model_slug": "databricks/databricks-meta-llama-3-3-70b-instruct",
     "model_name": "Databricks Meta Llama 3 3 70b Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10347,7 +10054,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-meta-llama-3-70b-instruct": {
     "model_id": "databricks-meta-llama-3-70b-instruct",
-    "model_slug": "databricks/databricks-meta-llama-3-70b-instruct",
     "model_name": "Databricks Meta Llama 3 70b Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10371,7 +10077,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-mixtral-8x7b-instruct": {
     "model_id": "databricks-mixtral-8x7b-instruct",
-    "model_slug": "databricks/databricks-mixtral-8x7b-instruct",
     "model_name": "Databricks Mixtral 8x7b Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10395,7 +10100,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-mpt-30b-instruct": {
     "model_id": "databricks-mpt-30b-instruct",
-    "model_slug": "databricks/databricks-mpt-30b-instruct",
     "model_name": "Databricks Mpt 30b Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10419,7 +10123,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "databricks-mpt-7b-instruct": {
     "model_id": "databricks-mpt-7b-instruct",
-    "model_slug": "databricks/databricks-mpt-7b-instruct",
     "model_name": "Databricks Mpt 7b Instruct",
     "provider_id": "databricks",
     "provider_name": "Databricks",
@@ -10443,8 +10146,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base": {
     "model_id": "deepgram/base",
-    "model_slug": "deepgram/base",
-    "model_name": "Base | deepgram",
+    "model_name": "Base",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10467,8 +10169,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base-conversationalai": {
     "model_id": "deepgram/base-conversationalai",
-    "model_slug": "deepgram/base-conversationalai",
-    "model_name": "Base Conversationalai | deepgram",
+    "model_name": "Base Conversationalai",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10491,8 +10192,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base-finance": {
     "model_id": "deepgram/base-finance",
-    "model_slug": "deepgram/base-finance",
-    "model_name": "Base Finance | deepgram",
+    "model_name": "Base Finance",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10515,8 +10215,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base-general": {
     "model_id": "deepgram/base-general",
-    "model_slug": "deepgram/base-general",
-    "model_name": "Base General | deepgram",
+    "model_name": "Base General",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10539,8 +10238,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base-meeting": {
     "model_id": "deepgram/base-meeting",
-    "model_slug": "deepgram/base-meeting",
-    "model_name": "Base Meeting | deepgram",
+    "model_name": "Base Meeting",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10563,8 +10261,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base-phonecall": {
     "model_id": "deepgram/base-phonecall",
-    "model_slug": "deepgram/base-phonecall",
-    "model_name": "Base Phonecall | deepgram",
+    "model_name": "Base Phonecall",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10587,8 +10284,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base-video": {
     "model_id": "deepgram/base-video",
-    "model_slug": "deepgram/base-video",
-    "model_name": "Base Video | deepgram",
+    "model_name": "Base Video",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10611,8 +10307,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/base-voicemail": {
     "model_id": "deepgram/base-voicemail",
-    "model_slug": "deepgram/base-voicemail",
-    "model_name": "Base Voicemail | deepgram",
+    "model_name": "Base Voicemail",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10635,8 +10330,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/enhanced": {
     "model_id": "deepgram/enhanced",
-    "model_slug": "deepgram/enhanced",
-    "model_name": "Enhanced | deepgram",
+    "model_name": "Enhanced",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10659,8 +10353,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/enhanced-finance": {
     "model_id": "deepgram/enhanced-finance",
-    "model_slug": "deepgram/enhanced-finance",
-    "model_name": "Enhanced Finance | deepgram",
+    "model_name": "Enhanced Finance",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10683,8 +10376,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/enhanced-general": {
     "model_id": "deepgram/enhanced-general",
-    "model_slug": "deepgram/enhanced-general",
-    "model_name": "Enhanced General | deepgram",
+    "model_name": "Enhanced General",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10707,8 +10399,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/enhanced-meeting": {
     "model_id": "deepgram/enhanced-meeting",
-    "model_slug": "deepgram/enhanced-meeting",
-    "model_name": "Enhanced Meeting | deepgram",
+    "model_name": "Enhanced Meeting",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10731,8 +10422,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/enhanced-phonecall": {
     "model_id": "deepgram/enhanced-phonecall",
-    "model_slug": "deepgram/enhanced-phonecall",
-    "model_name": "Enhanced Phonecall | deepgram",
+    "model_name": "Enhanced Phonecall",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10755,8 +10445,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova": {
     "model_id": "deepgram/nova",
-    "model_slug": "deepgram/nova",
-    "model_name": "Nova | deepgram",
+    "model_name": "Nova",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10779,8 +10468,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2": {
     "model_id": "deepgram/nova-2",
-    "model_slug": "deepgram/nova-2",
-    "model_name": "Nova 2 | deepgram",
+    "model_name": "Nova 2",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10803,8 +10491,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-atc": {
     "model_id": "deepgram/nova-2-atc",
-    "model_slug": "deepgram/nova-2-atc",
-    "model_name": "Nova 2 Atc | deepgram",
+    "model_name": "Nova 2 Atc",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10827,8 +10514,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-automotive": {
     "model_id": "deepgram/nova-2-automotive",
-    "model_slug": "deepgram/nova-2-automotive",
-    "model_name": "Nova 2 Automotive | deepgram",
+    "model_name": "Nova 2 Automotive",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10851,8 +10537,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-conversationalai": {
     "model_id": "deepgram/nova-2-conversationalai",
-    "model_slug": "deepgram/nova-2-conversationalai",
-    "model_name": "Nova 2 Conversationalai | deepgram",
+    "model_name": "Nova 2 Conversationalai",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10875,8 +10560,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-drivethru": {
     "model_id": "deepgram/nova-2-drivethru",
-    "model_slug": "deepgram/nova-2-drivethru",
-    "model_name": "Nova 2 Drivethru | deepgram",
+    "model_name": "Nova 2 Drivethru",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10899,8 +10583,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-finance": {
     "model_id": "deepgram/nova-2-finance",
-    "model_slug": "deepgram/nova-2-finance",
-    "model_name": "Nova 2 Finance | deepgram",
+    "model_name": "Nova 2 Finance",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10923,8 +10606,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-general": {
     "model_id": "deepgram/nova-2-general",
-    "model_slug": "deepgram/nova-2-general",
-    "model_name": "Nova 2 General | deepgram",
+    "model_name": "Nova 2 General",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10947,8 +10629,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-meeting": {
     "model_id": "deepgram/nova-2-meeting",
-    "model_slug": "deepgram/nova-2-meeting",
-    "model_name": "Nova 2 Meeting | deepgram",
+    "model_name": "Nova 2 Meeting",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10971,8 +10652,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-phonecall": {
     "model_id": "deepgram/nova-2-phonecall",
-    "model_slug": "deepgram/nova-2-phonecall",
-    "model_name": "Nova 2 Phonecall | deepgram",
+    "model_name": "Nova 2 Phonecall",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -10995,8 +10675,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-video": {
     "model_id": "deepgram/nova-2-video",
-    "model_slug": "deepgram/nova-2-video",
-    "model_name": "Nova 2 Video | deepgram",
+    "model_name": "Nova 2 Video",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11019,8 +10698,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-2-voicemail": {
     "model_id": "deepgram/nova-2-voicemail",
-    "model_slug": "deepgram/nova-2-voicemail",
-    "model_name": "Nova 2 Voicemail | deepgram",
+    "model_name": "Nova 2 Voicemail",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11043,8 +10721,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-3": {
     "model_id": "deepgram/nova-3",
-    "model_slug": "deepgram/nova-3",
-    "model_name": "Nova 3 | deepgram",
+    "model_name": "Nova 3",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11067,8 +10744,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-3-general": {
     "model_id": "deepgram/nova-3-general",
-    "model_slug": "deepgram/nova-3-general",
-    "model_name": "Nova 3 General | deepgram",
+    "model_name": "Nova 3 General",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11091,8 +10767,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-3-medical": {
     "model_id": "deepgram/nova-3-medical",
-    "model_slug": "deepgram/nova-3-medical",
-    "model_name": "Nova 3 Medical | deepgram",
+    "model_name": "Nova 3 Medical",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11115,8 +10790,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-general": {
     "model_id": "deepgram/nova-general",
-    "model_slug": "deepgram/nova-general",
-    "model_name": "Nova General | deepgram",
+    "model_name": "Nova General",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11139,8 +10813,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/nova-phonecall": {
     "model_id": "deepgram/nova-phonecall",
-    "model_slug": "deepgram/nova-phonecall",
-    "model_name": "Nova Phonecall | deepgram",
+    "model_name": "Nova Phonecall",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11163,8 +10836,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/whisper": {
     "model_id": "deepgram/whisper",
-    "model_slug": "deepgram/whisper",
-    "model_name": "Whisper | deepgram",
+    "model_name": "Whisper",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11187,8 +10859,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/whisper-base": {
     "model_id": "deepgram/whisper-base",
-    "model_slug": "deepgram/whisper-base",
-    "model_name": "Whisper Base | deepgram",
+    "model_name": "Whisper Base",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11211,8 +10882,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/whisper-large": {
     "model_id": "deepgram/whisper-large",
-    "model_slug": "deepgram/whisper-large",
-    "model_name": "Whisper Large | deepgram",
+    "model_name": "Whisper Large",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11235,8 +10905,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/whisper-medium": {
     "model_id": "deepgram/whisper-medium",
-    "model_slug": "deepgram/whisper-medium",
-    "model_name": "Whisper Medium | deepgram",
+    "model_name": "Whisper Medium",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11259,8 +10928,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/whisper-small": {
     "model_id": "deepgram/whisper-small",
-    "model_slug": "deepgram/whisper-small",
-    "model_name": "Whisper Small | deepgram",
+    "model_name": "Whisper Small",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11283,8 +10951,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepgram/whisper-tiny": {
     "model_id": "deepgram/whisper-tiny",
-    "model_slug": "deepgram/whisper-tiny",
-    "model_name": "Whisper Tiny | deepgram",
+    "model_name": "Whisper Tiny",
     "provider_id": "deepgram",
     "provider_name": "Deepgram",
     "max_input_tokens": null,
@@ -11307,8 +10974,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "01-ai/Yi-34B-200K": {
     "model_id": "01-ai/Yi-34B-200K",
-    "model_slug": "deepinfra/01-ai/Yi-34B-200K",
-    "model_name": "Yi 34B 200K | 01-ai",
+    "model_name": "Yi 34B 200K",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 200000,
@@ -11331,8 +10997,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "01-ai/Yi-34B-Chat": {
     "model_id": "01-ai/Yi-34B-Chat",
-    "model_slug": "deepinfra/01-ai/Yi-34B-Chat",
-    "model_name": "Yi 34B Chat | 01-ai",
+    "model_name": "Yi 34B Chat",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 4096,
@@ -11355,8 +11020,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "01-ai/Yi-6B-200K": {
     "model_id": "01-ai/Yi-6B-200K",
-    "model_slug": "deepinfra/01-ai/Yi-6B-200K",
-    "model_name": "Yi 6B 200K | 01-ai",
+    "model_name": "Yi 6B 200K",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 200000,
@@ -11379,8 +11043,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "amazon/MistralLite": {
     "model_id": "amazon/MistralLite",
-    "model_slug": "deepinfra/amazon/MistralLite",
-    "model_name": "MistralLite | amazon",
+    "model_name": "MistralLite",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 32768,
@@ -11403,8 +11066,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "cognitivecomputations/dolphin-2.6-mixtral-8x7b": {
     "model_id": "cognitivecomputations/dolphin-2.6-mixtral-8x7b",
-    "model_slug": "deepinfra/cognitivecomputations/dolphin-2.6-mixtral-8x7b",
-    "model_name": "Dolphin 2.6 Mixtral 8x7b | cognitivecomputations",
+    "model_name": "Dolphin 2.6 Mixtral 8x7b",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 32768,
@@ -11427,8 +11089,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepinfra/airoboros-70b": {
     "model_id": "deepinfra/airoboros-70b",
-    "model_slug": "deepinfra/deepinfra/airoboros-70b",
-    "model_name": "Airoboros 70b | deepinfra",
+    "model_name": "Airoboros 70b",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 4096,
@@ -11451,8 +11112,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepinfra/mixtral": {
     "model_id": "deepinfra/mixtral",
-    "model_slug": "deepinfra/deepinfra/mixtral",
-    "model_name": "Mixtral | deepinfra",
+    "model_name": "Mixtral",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 32000,
@@ -11475,8 +11135,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "Gryphe/MythoMax-L2-13b": {
     "model_id": "Gryphe/MythoMax-L2-13b",
-    "model_slug": "deepinfra/Gryphe/MythoMax-L2-13b",
-    "model_name": "MythoMax L2 13b | Gryphe",
+    "model_name": "MythoMax L2 13b",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 4096,
@@ -11499,8 +11158,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "jondurbin/airoboros-l2-70b-gpt4-1.4.1": {
     "model_id": "jondurbin/airoboros-l2-70b-gpt4-1.4.1",
-    "model_slug": "deepinfra/jondurbin/airoboros-l2-70b-gpt4-1.4.1",
-    "model_name": "Airoboros L2 70b Gpt4 1.4.1 | jondurbin",
+    "model_name": "Airoboros L2 70b Gpt4 1.4.1",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 4096,
@@ -11523,8 +11181,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "lizpreciatior/lzlv_70b_fp16_hf": {
     "model_id": "lizpreciatior/lzlv_70b_fp16_hf",
-    "model_slug": "deepinfra/lizpreciatior/lzlv_70b_fp16_hf",
-    "model_name": "Lzlv_70b_fp16_hf | lizpreciatior",
+    "model_name": "Lzlv_70b_fp16_hf",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 4096,
@@ -11547,8 +11204,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Meta-Llama-3.1-405B-Instruct": {
     "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
-    "model_slug": "deepinfra/meta-llama/Meta-Llama-3.1-405B-Instruct",
-    "model_name": "Meta Llama 3.1 405B Instruct | meta-llama",
+    "model_name": "Meta Llama 3.1 405B Instruct",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 32768,
@@ -11571,8 +11227,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openchat/openchat_3.5": {
     "model_id": "openchat/openchat_3.5",
-    "model_slug": "deepinfra/openchat/openchat_3.5",
-    "model_name": "Openchat_3.5 | openchat",
+    "model_name": "Openchat_3.5",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 4096,
@@ -11595,8 +11250,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "Phind/Phind-CodeLlama-34B-v2": {
     "model_id": "Phind/Phind-CodeLlama-34B-v2",
-    "model_slug": "deepinfra/Phind/Phind-CodeLlama-34B-v2",
-    "model_name": "Phind CodeLlama 34B V2 | Phind",
+    "model_name": "Phind CodeLlama 34B V2",
     "provider_id": "deepinfra",
     "provider_name": "DeepInfra",
     "max_input_tokens": 16384,
@@ -11619,8 +11273,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek/deepseek-chat": {
     "model_id": "deepseek/deepseek-chat",
-    "model_slug": "deepseek/deepseek-chat",
-    "model_name": "Deepseek Chat | deepseek",
+    "model_name": "Deepseek Chat",
     "provider_id": "deepseek",
     "provider_name": "DeepSeek",
     "max_input_tokens": 65536,
@@ -11643,8 +11296,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek/deepseek-coder": {
     "model_id": "deepseek/deepseek-coder",
-    "model_slug": "deepseek/deepseek-coder",
-    "model_name": "Deepseek Coder | deepseek",
+    "model_name": "Deepseek Coder",
     "provider_id": "deepseek",
     "provider_name": "DeepSeek",
     "max_input_tokens": 128000,
@@ -11667,8 +11319,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek/deepseek-r1": {
     "model_id": "deepseek/deepseek-r1",
-    "model_slug": "deepseek/deepseek-r1",
-    "model_name": "DeepSeek R1 | deepseek",
+    "model_name": "DeepSeek R1",
     "provider_id": "deepseek",
     "provider_name": "DeepSeek",
     "max_input_tokens": 65536,
@@ -11691,8 +11342,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek/deepseek-reasoner": {
     "model_id": "deepseek/deepseek-reasoner",
-    "model_slug": "deepseek/deepseek-reasoner",
-    "model_name": "Deepseek Reasoner | deepseek",
+    "model_name": "Deepseek Reasoner",
     "provider_id": "deepseek",
     "provider_name": "DeepSeek",
     "max_input_tokens": 65536,
@@ -11715,8 +11365,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek/deepseek-v3": {
     "model_id": "deepseek/deepseek-v3",
-    "model_slug": "deepseek/deepseek-v3",
-    "model_name": "DeepSeek V3 | deepseek",
+    "model_name": "DeepSeek V3",
     "provider_id": "deepseek",
     "provider_name": "DeepSeek",
     "max_input_tokens": 65536,
@@ -11739,8 +11388,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "elevenlabs/scribe_v1": {
     "model_id": "elevenlabs/scribe_v1",
-    "model_slug": "elevenlabs/scribe_v1",
-    "model_name": "Scribe_v1 | elevenlabs",
+    "model_name": "Scribe_v1",
     "provider_id": "elevenlabs",
     "provider_name": "ElevenLabs",
     "max_input_tokens": null,
@@ -11763,8 +11411,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "elevenlabs/scribe_v1_experimental": {
     "model_id": "elevenlabs/scribe_v1_experimental",
-    "model_slug": "elevenlabs/scribe_v1_experimental",
-    "model_name": "Scribe_v1_experimental | elevenlabs",
+    "model_name": "Scribe_v1_experimental",
     "provider_id": "elevenlabs",
     "provider_name": "ElevenLabs",
     "max_input_tokens": null,
@@ -11787,8 +11434,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "featherless_ai/featherless-ai/Qwerky-72B": {
     "model_id": "featherless_ai/featherless-ai/Qwerky-72B",
-    "model_slug": "featherless_ai/featherless-ai/Qwerky-72B",
-    "model_name": "Qwerky 72B | featherless-ai | featherless_ai",
+    "model_name": "Qwerky 72B",
     "provider_id": "featherless",
     "provider_name": "Featherless",
     "max_input_tokens": 32768,
@@ -11811,8 +11457,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "featherless_ai/featherless-ai/Qwerky-QwQ-32B": {
     "model_id": "featherless_ai/featherless-ai/Qwerky-QwQ-32B",
-    "model_slug": "featherless_ai/featherless-ai/Qwerky-QwQ-32B",
-    "model_name": "Qwerky QwQ 32B | featherless-ai | featherless_ai",
+    "model_name": "Qwerky QwQ 32B",
     "provider_id": "featherless",
     "provider_name": "Featherless",
     "max_input_tokens": 32768,
@@ -11835,8 +11480,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-instruct",
-    "model_name": "Deepseek Coder V2 Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Deepseek Coder V2 Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 65536,
@@ -11859,8 +11503,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-r1": {
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/deepseek-r1",
-    "model_name": "DeepSeek R1 | models | fireworks | accounts | fireworks_ai",
+    "model_name": "DeepSeek R1",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 128000,
@@ -11883,8 +11526,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528": {
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528",
-    "model_name": "Deepseek R1 0528 | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Deepseek R1 0528",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 160000,
@@ -11907,8 +11549,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-r1-basic": {
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1-basic",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/deepseek-r1-basic",
-    "model_name": "Deepseek R1 Basic | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Deepseek R1 Basic",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 128000,
@@ -11931,8 +11572,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-v3": {
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-v3",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/deepseek-v3",
-    "model_name": "DeepSeek V3 | models | fireworks | accounts | fireworks_ai",
+    "model_name": "DeepSeek V3",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 128000,
@@ -11955,8 +11595,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/firefunction-v2": {
     "model_id": "fireworks_ai/accounts/fireworks/models/firefunction-v2",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/firefunction-v2",
-    "model_name": "Firefunction V2 | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Firefunction V2",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 8192,
@@ -11979,8 +11618,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
-    "model_name": "Llama V3p1 405b Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama V3p1 405b Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 128000,
@@ -12003,8 +11641,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct",
-    "model_name": "Llama V3p1 8b Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama V3p1 8b Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 16384,
@@ -12027,8 +11664,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-11b-vision-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-11b-vision-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama-v3p2-11b-vision-instruct",
-    "model_name": "Llama V3p2 11b Vision Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama V3p2 11b Vision Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 16384,
@@ -12051,8 +11687,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-1b-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-1b-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama-v3p2-1b-instruct",
-    "model_name": "Llama V3p2 1b Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama V3p2 1b Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 16384,
@@ -12075,8 +11710,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-3b-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-3b-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama-v3p2-3b-instruct",
-    "model_name": "Llama V3p2 3b Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama V3p2 3b Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 16384,
@@ -12099,8 +11733,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct",
-    "model_name": "Llama V3p2 90b Vision Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama V3p2 90b Vision Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 16384,
@@ -12123,8 +11756,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic",
-    "model_name": "Llama4 Maverick Instruct Basic | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama4 Maverick Instruct Basic",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 131072,
@@ -12147,8 +11779,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/llama4-scout-instruct-basic": {
     "model_id": "fireworks_ai/accounts/fireworks/models/llama4-scout-instruct-basic",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/llama4-scout-instruct-basic",
-    "model_name": "Llama4 Scout Instruct Basic | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Llama4 Scout Instruct Basic",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 131072,
@@ -12171,8 +11802,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/mixtral-8x22b-instruct-hf": {
     "model_id": "fireworks_ai/accounts/fireworks/models/mixtral-8x22b-instruct-hf",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/mixtral-8x22b-instruct-hf",
-    "model_name": "Mixtral 8x22b Instruct Hf | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Mixtral 8x22b Instruct Hf",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 65536,
@@ -12195,8 +11825,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/qwen2-72b-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/qwen2-72b-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/qwen2-72b-instruct",
-    "model_name": "Qwen2 72b Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Qwen2 72b Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 32768,
@@ -12219,8 +11848,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct": {
     "model_id": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct",
-    "model_name": "Qwen2p5 Coder 32b Instruct | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Qwen2p5 Coder 32b Instruct",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 4096,
@@ -12243,8 +11871,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/accounts/fireworks/models/yi-large": {
     "model_id": "fireworks_ai/accounts/fireworks/models/yi-large",
-    "model_slug": "fireworks_ai/accounts/fireworks/models/yi-large",
-    "model_name": "Yi Large | models | fireworks | accounts | fireworks_ai",
+    "model_name": "Yi Large",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 32768,
@@ -12267,8 +11894,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/nomic-ai/nomic-embed-text-v1": {
     "model_id": "fireworks_ai/nomic-ai/nomic-embed-text-v1",
-    "model_slug": "fireworks_ai/nomic-ai/nomic-embed-text-v1",
-    "model_name": "Nomic Embed Text V1 | nomic-ai | fireworks_ai",
+    "model_name": "Nomic Embed Text V1",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 8192,
@@ -12291,8 +11917,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/nomic-ai/nomic-embed-text-v1.5": {
     "model_id": "fireworks_ai/nomic-ai/nomic-embed-text-v1.5",
-    "model_slug": "fireworks_ai/nomic-ai/nomic-embed-text-v1.5",
-    "model_name": "Nomic Embed Text V1.5 | nomic-ai | fireworks_ai",
+    "model_name": "Nomic Embed Text V1.5",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 8192,
@@ -12315,8 +11940,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/thenlper/gte-base": {
     "model_id": "fireworks_ai/thenlper/gte-base",
-    "model_slug": "fireworks_ai/thenlper/gte-base",
-    "model_name": "Gte Base | thenlper | fireworks_ai",
+    "model_name": "Gte Base",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 512,
@@ -12339,8 +11963,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/thenlper/gte-large": {
     "model_id": "fireworks_ai/thenlper/gte-large",
-    "model_slug": "fireworks_ai/thenlper/gte-large",
-    "model_name": "Gte Large | thenlper | fireworks_ai",
+    "model_name": "Gte Large",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 512,
@@ -12363,8 +11986,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks_ai/WhereIsAI/UAE-Large-V1": {
     "model_id": "fireworks_ai/WhereIsAI/UAE-Large-V1",
-    "model_slug": "fireworks_ai/WhereIsAI/UAE-Large-V1",
-    "model_name": "UAE Large V1 | WhereIsAI | fireworks_ai",
+    "model_name": "UAE Large V1",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
     "max_input_tokens": 512,
@@ -12387,7 +12009,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-4.1b-to-16b": {
     "model_id": "fireworks-ai-4.1b-to-16b",
-    "model_slug": "fireworks-ai-4.1b-to-16b",
     "model_name": "Fireworks Ai 4.1b To 16b",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12411,7 +12032,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-56b-to-176b": {
     "model_id": "fireworks-ai-56b-to-176b",
-    "model_slug": "fireworks-ai-56b-to-176b",
     "model_name": "Fireworks Ai 56b To 176b",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12435,7 +12055,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-above-16b": {
     "model_id": "fireworks-ai-above-16b",
-    "model_slug": "fireworks-ai-above-16b",
     "model_name": "Fireworks Ai Above 16b",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12459,7 +12078,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-default": {
     "model_id": "fireworks-ai-default",
-    "model_slug": "fireworks-ai-default",
     "model_name": "Fireworks Ai Default",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12483,7 +12101,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-embedding-150m-to-350m": {
     "model_id": "fireworks-ai-embedding-150m-to-350m",
-    "model_slug": "fireworks-ai-embedding-150m-to-350m",
     "model_name": "Fireworks Ai Embedding 150m To 350m",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12507,7 +12124,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-embedding-up-to-150m": {
     "model_id": "fireworks-ai-embedding-up-to-150m",
-    "model_slug": "fireworks-ai-embedding-up-to-150m",
     "model_name": "Fireworks Ai Embedding Up To 150m",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12531,7 +12147,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-moe-up-to-56b": {
     "model_id": "fireworks-ai-moe-up-to-56b",
-    "model_slug": "fireworks-ai-moe-up-to-56b",
     "model_name": "Fireworks Ai Moe Up To 56b",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12555,7 +12170,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "fireworks-ai-up-to-4b": {
     "model_id": "fireworks-ai-up-to-4b",
-    "model_slug": "fireworks-ai-up-to-4b",
     "model_name": "Fireworks Ai Up To 4b",
     "provider_id": "fireworks",
     "provider_name": "Fireworks AI",
@@ -12579,8 +12193,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "friendliai/meta-llama-3.1-70b-instruct": {
     "model_id": "friendliai/meta-llama-3.1-70b-instruct",
-    "model_slug": "friendliai/meta-llama-3.1-70b-instruct",
-    "model_name": "Meta Llama 3.1 70b Instruct | friendliai",
+    "model_name": "Meta Llama 3.1 70b Instruct",
     "provider_id": "friendliai",
     "provider_name": "Friendliai",
     "max_input_tokens": 8192,
@@ -12603,8 +12216,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "friendliai/meta-llama-3.1-8b-instruct": {
     "model_id": "friendliai/meta-llama-3.1-8b-instruct",
-    "model_slug": "friendliai/meta-llama-3.1-8b-instruct",
-    "model_name": "Meta Llama 3.1 8b Instruct | friendliai",
+    "model_name": "Meta Llama 3.1 8b Instruct",
     "provider_id": "friendliai",
     "provider_name": "Friendliai",
     "max_input_tokens": 8192,
@@ -12627,7 +12239,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash": {
     "model_id": "1.5-flash",
-    "model_slug": "gemini/gemini-1.5-flash",
     "model_name": "1.5 Flash",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12651,7 +12262,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash-001": {
     "model_id": "1.5-flash-001",
-    "model_slug": "gemini/gemini-1.5-flash-001",
     "model_name": "1.5 Flash 001",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12675,7 +12285,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash-002": {
     "model_id": "1.5-flash-002",
-    "model_slug": "gemini/gemini-1.5-flash-002",
     "model_name": "1.5 Flash 002",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12699,7 +12308,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash-8b": {
     "model_id": "1.5-flash-8b",
-    "model_slug": "gemini/gemini-1.5-flash-8b",
     "model_name": "1.5 Flash 8b",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12723,7 +12331,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash-8b-exp-0827": {
     "model_id": "1.5-flash-8b-exp-0827",
-    "model_slug": "gemini/gemini-1.5-flash-8b-exp-0827",
     "model_name": "1.5 Flash 8b Exp 0827",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12747,7 +12354,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash-8b-exp-0924": {
     "model_id": "1.5-flash-8b-exp-0924",
-    "model_slug": "gemini/gemini-1.5-flash-8b-exp-0924",
     "model_name": "1.5 Flash 8b Exp 0924",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12771,7 +12377,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash-exp-0827": {
     "model_id": "1.5-flash-exp-0827",
-    "model_slug": "gemini/gemini-1.5-flash-exp-0827",
     "model_name": "1.5 Flash Exp 0827",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12795,7 +12400,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-flash-latest": {
     "model_id": "1.5-flash-latest",
-    "model_slug": "gemini/gemini-1.5-flash-latest",
     "model_name": "1.5 Flash Latest",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12819,7 +12423,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-pro": {
     "model_id": "1.5-pro",
-    "model_slug": "gemini/gemini-1.5-pro",
     "model_name": "1.5 Pro",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12843,7 +12446,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-pro-001": {
     "model_id": "1.5-pro-001",
-    "model_slug": "gemini/gemini-1.5-pro-001",
     "model_name": "1.5 Pro 001",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12867,7 +12469,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-pro-002": {
     "model_id": "1.5-pro-002",
-    "model_slug": "gemini/gemini-1.5-pro-002",
     "model_name": "1.5 Pro 002",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12891,7 +12492,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-pro-exp-0801": {
     "model_id": "1.5-pro-exp-0801",
-    "model_slug": "gemini/gemini-1.5-pro-exp-0801",
     "model_name": "1.5 Pro Exp 0801",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12915,7 +12515,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-pro-exp-0827": {
     "model_id": "1.5-pro-exp-0827",
-    "model_slug": "gemini/gemini-1.5-pro-exp-0827",
     "model_name": "1.5 Pro Exp 0827",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12939,7 +12538,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "1.5-pro-latest": {
     "model_id": "1.5-pro-latest",
-    "model_slug": "gemini/gemini-1.5-pro-latest",
     "model_name": "1.5 Pro Latest",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12963,7 +12561,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash": {
     "model_id": "2.0-flash",
-    "model_slug": "gemini/gemini-2.0-flash",
     "model_name": "2.0 Flash",
     "provider_id": "google",
     "provider_name": "Google",
@@ -12987,7 +12584,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash-001": {
     "model_id": "2.0-flash-001",
-    "model_slug": "gemini/gemini-2.0-flash-001",
     "model_name": "2.0 Flash 001",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13011,7 +12607,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash-exp": {
     "model_id": "2.0-flash-exp",
-    "model_slug": "gemini/gemini-2.0-flash-exp",
     "model_name": "2.0 Flash Exp",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13035,7 +12630,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash-lite": {
     "model_id": "2.0-flash-lite",
-    "model_slug": "gemini/gemini-2.0-flash-lite",
     "model_name": "2.0 Flash Lite",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13059,7 +12653,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash-lite-preview-02-05": {
     "model_id": "2.0-flash-lite-preview-02-05",
-    "model_slug": "gemini/gemini-2.0-flash-lite-preview-02-05",
     "model_name": "2.0 Flash Lite Preview 02 05",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13083,7 +12676,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash-preview-image-generation": {
     "model_id": "2.0-flash-preview-image-generation",
-    "model_slug": "gemini/gemini-2.0-flash-preview-image-generation",
     "model_name": "2.0 Flash Preview Image Generation",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13107,7 +12699,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash-thinking-exp": {
     "model_id": "2.0-flash-thinking-exp",
-    "model_slug": "gemini/gemini-2.0-flash-thinking-exp",
     "model_name": "2.0 Flash Thinking Exp",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13131,7 +12722,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-flash-thinking-exp-01-21": {
     "model_id": "2.0-flash-thinking-exp-01-21",
-    "model_slug": "gemini/gemini-2.0-flash-thinking-exp-01-21",
     "model_name": "2.0 Flash Thinking Exp 01 21",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13155,7 +12745,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.0-pro-exp-02-05": {
     "model_id": "2.0-pro-exp-02-05",
-    "model_slug": "gemini/gemini-2.0-pro-exp-02-05",
     "model_name": "2.0 Pro Exp 02 05",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13179,7 +12768,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-flash": {
     "model_id": "2.5-flash",
-    "model_slug": "gemini/gemini-2.5-flash",
     "model_name": "2.5 Flash",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13203,7 +12791,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-flash-lite-preview-06-17": {
     "model_id": "2.5-flash-lite-preview-06-17",
-    "model_slug": "gemini/gemini-2.5-flash-lite-preview-06-17",
     "model_name": "2.5 Flash Lite Preview 06 17",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13227,7 +12814,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-flash-preview-04-17": {
     "model_id": "2.5-flash-preview-04-17",
-    "model_slug": "gemini/gemini-2.5-flash-preview-04-17",
     "model_name": "2.5 Flash Preview 04 17",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13251,7 +12837,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-flash-preview-05-20": {
     "model_id": "2.5-flash-preview-05-20",
-    "model_slug": "gemini/gemini-2.5-flash-preview-05-20",
     "model_name": "2.5 Flash Preview 05 20",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13275,7 +12860,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-flash-preview-tts": {
     "model_id": "2.5-flash-preview-tts",
-    "model_slug": "gemini/gemini-2.5-flash-preview-tts",
     "model_name": "2.5 Flash Preview Tts",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13299,7 +12883,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-pro": {
     "model_id": "2.5-pro",
-    "model_slug": "gemini/gemini-2.5-pro",
     "model_name": "2.5 Pro",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13323,7 +12906,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-pro-exp-03-25": {
     "model_id": "2.5-pro-exp-03-25",
-    "model_slug": "gemini/gemini-2.5-pro-exp-03-25",
     "model_name": "2.5 Pro Exp 03 25",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13347,7 +12929,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-pro-preview-03-25": {
     "model_id": "2.5-pro-preview-03-25",
-    "model_slug": "gemini/gemini-2.5-pro-preview-03-25",
     "model_name": "2.5 Pro Preview 03 25",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13371,7 +12952,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-pro-preview-05-06": {
     "model_id": "2.5-pro-preview-05-06",
-    "model_slug": "gemini/gemini-2.5-pro-preview-05-06",
     "model_name": "2.5 Pro Preview 05 06",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13395,7 +12975,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-pro-preview-06-05": {
     "model_id": "2.5-pro-preview-06-05",
-    "model_slug": "gemini/gemini-2.5-pro-preview-06-05",
     "model_name": "2.5 Pro Preview 06 05",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13419,7 +12998,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "2.5-pro-preview-tts": {
     "model_id": "2.5-pro-preview-tts",
-    "model_slug": "gemini/gemini-2.5-pro-preview-tts",
     "model_name": "2.5 Pro Preview Tts",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13443,7 +13021,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "exp-1114": {
     "model_id": "exp-1114",
-    "model_slug": "gemini/gemini-exp-1114",
     "model_name": "Exp 1114",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13467,7 +13044,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "exp-1206": {
     "model_id": "exp-1206",
-    "model_slug": "gemini/gemini-exp-1206",
     "model_name": "Exp 1206",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13491,7 +13067,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemma-2-27b-it": {
     "model_id": "gemma-2-27b-it",
-    "model_slug": "gemini/gemini-gemma-2-27b-it",
     "model_name": "Gemma-2 Instruct (27B)",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13515,7 +13090,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemma-2-9b-it": {
     "model_id": "gemma-2-9b-it",
-    "model_slug": "gemini/gemini-gemma-2-9b-it",
     "model_name": "Gemma-2 Instruct (9B)",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13539,7 +13113,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemma-3-27b-it": {
     "model_id": "gemma-3-27b-it",
-    "model_slug": "gemini/gemma-3-27b-it",
     "model_name": "Gemma 3 27b It",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13563,7 +13136,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "learnlm-1.5-pro-experimental": {
     "model_id": "learnlm-1.5-pro-experimental",
-    "model_slug": "gemini/learnlm-1.5-pro-experimental",
     "model_name": "Learnlm 1.5 Pro Experimental",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13587,7 +13159,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pro": {
     "model_id": "pro",
-    "model_slug": "gemini/gemini-pro",
     "model_name": "Pro",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13611,7 +13182,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pro-vision": {
     "model_id": "pro-vision",
-    "model_slug": "gemini/gemini-pro-vision",
     "model_name": "Pro Vision",
     "provider_id": "google",
     "provider_name": "Google",
@@ -13635,7 +13205,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek-r1-distill-llama-70b": {
     "model_id": "deepseek-r1-distill-llama-70b",
-    "model_slug": "groq/deepseek-r1-distill-llama-70b",
     "model_name": "DeepSeek R1 Distill Llama 70B",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13659,7 +13228,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "distil-whisper-large-v3-en": {
     "model_id": "distil-whisper-large-v3-en",
-    "model_slug": "groq/distil-whisper-large-v3-en",
     "model_name": "Distil Whisper Large V3 En",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13683,7 +13251,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemma-7b-it": {
     "model_id": "gemma-7b-it",
-    "model_slug": "groq/gemma-7b-it",
     "model_name": "Gemma 7b IT",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13707,7 +13274,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemma2-9b-it": {
     "model_id": "gemma2-9b-it",
-    "model_slug": "groq/gemma2-9b-it",
     "model_name": "Gemma 2 9B",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13731,7 +13297,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-405b-reasoning": {
     "model_id": "llama-3.1-405b-reasoning",
-    "model_slug": "groq/llama-3.1-405b-reasoning",
     "model_name": "Llama 3.1 405b Reasoning",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13755,7 +13320,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-70b-versatile": {
     "model_id": "llama-3.1-70b-versatile",
-    "model_slug": "groq/llama-3.1-70b-versatile",
     "model_name": "Llama 3.1 70b Versatile",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13779,7 +13343,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-8b-instant": {
     "model_id": "llama-3.1-8b-instant",
-    "model_slug": "groq/llama-3.1-8b-instant",
     "model_name": "Llama 3.1 8b Instant",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13803,7 +13366,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.2-11b-text-preview": {
     "model_id": "llama-3.2-11b-text-preview",
-    "model_slug": "groq/llama-3.2-11b-text-preview",
     "model_name": "Llama 3.2 11b Text Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13827,7 +13389,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.2-11b-vision-preview": {
     "model_id": "llama-3.2-11b-vision-preview",
-    "model_slug": "groq/llama-3.2-11b-vision-preview",
     "model_name": "Llama 3.2 11b Vision Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13851,7 +13412,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.2-1b-preview": {
     "model_id": "llama-3.2-1b-preview",
-    "model_slug": "groq/llama-3.2-1b-preview",
     "model_name": "Llama 3.2 1b Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13875,7 +13435,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.2-3b-preview": {
     "model_id": "llama-3.2-3b-preview",
-    "model_slug": "groq/llama-3.2-3b-preview",
     "model_name": "Llama 3.2 3b Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13899,7 +13458,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.2-90b-text-preview": {
     "model_id": "llama-3.2-90b-text-preview",
-    "model_slug": "groq/llama-3.2-90b-text-preview",
     "model_name": "Llama 3.2 90b Text Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13923,7 +13481,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.2-90b-vision-preview": {
     "model_id": "llama-3.2-90b-vision-preview",
-    "model_slug": "groq/llama-3.2-90b-vision-preview",
     "model_name": "Llama 3.2 90b Vision Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13947,7 +13504,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.3-70b-specdec": {
     "model_id": "llama-3.3-70b-specdec",
-    "model_slug": "groq/llama-3.3-70b-specdec",
     "model_name": "Llama 3.3 70b Specdec",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13971,7 +13527,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.3-70b-versatile": {
     "model_id": "llama-3.3-70b-versatile",
-    "model_slug": "groq/llama-3.3-70b-versatile",
     "model_name": "Llama 3.3 70b Versatile",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -13995,7 +13550,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-guard-3-8b": {
     "model_id": "llama-guard-3-8b",
-    "model_slug": "groq/llama-guard-3-8b",
     "model_name": "Llama Guard 3 8b",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14019,7 +13573,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama2-70b-4096": {
     "model_id": "llama2-70b-4096",
-    "model_slug": "groq/llama2-70b-4096",
     "model_name": "Llama2 70b 4096",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14043,7 +13596,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama3-70b-8192": {
     "model_id": "llama3-70b-8192",
-    "model_slug": "groq/llama3-70b-8192",
     "model_name": "Llama3 70b 8192",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14067,7 +13619,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama3-8b-8192": {
     "model_id": "llama3-8b-8192",
-    "model_slug": "groq/llama3-8b-8192",
     "model_name": "Llama3 8b 8192",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14091,7 +13642,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama3-groq-70b-8192-tool-use-preview": {
     "model_id": "llama3-groq-70b-8192-tool-use-preview",
-    "model_slug": "groq/llama3-groq-70b-8192-tool-use-preview",
     "model_name": "Llama3 Groq 70b 8192 Tool Use Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14115,7 +13665,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama3-groq-8b-8192-tool-use-preview": {
     "model_id": "llama3-groq-8b-8192-tool-use-preview",
-    "model_slug": "groq/llama3-groq-8b-8192-tool-use-preview",
     "model_name": "Llama3 Groq 8b 8192 Tool Use Preview",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14139,8 +13688,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/llama-4-maverick-17b-128e-instruct": {
     "model_id": "meta-llama/llama-4-maverick-17b-128e-instruct",
-    "model_slug": "groq/meta-llama/llama-4-maverick-17b-128e-instruct",
-    "model_name": "Llama 4 Maverick Instruct (17Bx128E) | meta-llama",
+    "model_name": "Llama 4 Maverick Instruct (17Bx128E)",
     "provider_id": "groq",
     "provider_name": "Groq",
     "max_input_tokens": 131072,
@@ -14163,8 +13711,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/llama-4-scout-17b-16e-instruct": {
     "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "model_slug": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
-    "model_name": "Llama 4 Scout Instruct (17Bx16E) | meta-llama",
+    "model_name": "Llama 4 Scout Instruct (17Bx16E)",
     "provider_id": "groq",
     "provider_name": "Groq",
     "max_input_tokens": 131072,
@@ -14187,7 +13734,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-saba-24b": {
     "model_id": "mistral-saba-24b",
-    "model_slug": "groq/mistral-saba-24b",
     "model_name": "Mistral Saba 24b",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14211,7 +13757,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mixtral-8x7b-32768": {
     "model_id": "mixtral-8x7b-32768",
-    "model_slug": "groq/mixtral-8x7b-32768",
     "model_name": "Mixtral 8x7b 32768",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14235,7 +13780,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshotai-kimi-k2-instruct": {
     "model_id": "moonshotai-kimi-k2-instruct",
-    "model_slug": "groq/moonshotai-kimi-k2-instruct",
     "model_name": "Moonshotai Kimi K2 Instruct",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14259,7 +13803,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "playai-tts": {
     "model_id": "playai-tts",
-    "model_slug": "groq/playai-tts",
     "model_name": "Playai Tts",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14283,7 +13826,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "qwen-qwq-32b": {
     "model_id": "qwen-qwq-32b",
-    "model_slug": "groq/qwen-qwq-32b",
     "model_name": "Qwen Qwq 32b",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14307,7 +13849,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "whisper-large-v3": {
     "model_id": "whisper-large-v3",
-    "model_slug": "groq/whisper-large-v3",
     "model_name": "Whisper Large V3",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14331,7 +13872,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "whisper-large-v3-turbo": {
     "model_id": "whisper-large-v3-turbo",
-    "model_slug": "groq/whisper-large-v3-turbo",
     "model_name": "Whisper Large V3 Turbo",
     "provider_id": "groq",
     "provider_name": "Groq",
@@ -14355,7 +13895,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "jina-reranker-v2-base-multilingual": {
     "model_id": "jina-reranker-v2-base-multilingual",
-    "model_slug": "jina-reranker-v2-base-multilingual",
     "model_name": "Jina Reranker V2 Base Multilingual",
     "provider_id": "jina",
     "provider_name": "Jina",
@@ -14379,8 +13918,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta_llama/Llama-3.3-70B-Instruct": {
     "model_id": "meta_llama/Llama-3.3-70B-Instruct",
-    "model_slug": "meta_llama/Llama-3.3-70B-Instruct",
-    "model_name": "Llama 3.3 70B Instruct | meta_llama",
+    "model_name": "Llama 3.3 70B Instruct",
     "provider_id": "meta",
     "provider_name": "Meta",
     "max_input_tokens": 128000,
@@ -14403,8 +13941,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta_llama/Llama-3.3-8B-Instruct": {
     "model_id": "meta_llama/Llama-3.3-8B-Instruct",
-    "model_slug": "meta_llama/Llama-3.3-8B-Instruct",
-    "model_name": "Llama 3.3 8B Instruct | meta_llama",
+    "model_name": "Llama 3.3 8B Instruct",
     "provider_id": "meta",
     "provider_name": "Meta",
     "max_input_tokens": 128000,
@@ -14427,8 +13964,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta_llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
     "model_id": "meta_llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    "model_slug": "meta_llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    "model_name": "Llama 4 Maverick 17B 128E Instruct FP8 | meta_llama",
+    "model_name": "Llama 4 Maverick 17B 128E Instruct FP8",
     "provider_id": "meta",
     "provider_name": "Meta",
     "max_input_tokens": 1000000,
@@ -14451,8 +13987,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta_llama/Llama-4-Scout-17B-16E-Instruct-FP8": {
     "model_id": "meta_llama/Llama-4-Scout-17B-16E-Instruct-FP8",
-    "model_slug": "meta_llama/Llama-4-Scout-17B-16E-Instruct-FP8",
-    "model_name": "Llama 4 Scout 17B 16E Instruct FP8 | meta_llama",
+    "model_name": "Llama 4 Scout 17B 16E Instruct FP8",
     "provider_id": "meta",
     "provider_name": "Meta",
     "max_input_tokens": 10000000,
@@ -14475,7 +14010,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral-2405": {
     "model_id": "codestral-2405",
-    "model_slug": "mistral/codestral-2405",
     "model_name": "Codestral 2405",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14499,7 +14033,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral-latest": {
     "model_id": "codestral-latest",
-    "model_slug": "mistral/codestral-latest",
     "model_name": "Codestral",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14523,7 +14056,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral-mamba-latest": {
     "model_id": "codestral-mamba-latest",
-    "model_slug": "mistral/codestral-mamba-latest",
     "model_name": "Codestral Mamba Latest",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14547,8 +14079,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral/codestral-2405": {
     "model_id": "codestral/codestral-2405",
-    "model_slug": "codestral/codestral-2405",
-    "model_name": "Codestral 2405 | codestral",
+    "model_name": "Codestral 2405",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
     "max_input_tokens": 32000,
@@ -14571,8 +14102,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral/codestral-latest": {
     "model_id": "codestral/codestral-latest",
-    "model_slug": "codestral/codestral-latest",
-    "model_name": "Codestral | codestral",
+    "model_name": "Codestral",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
     "max_input_tokens": 32000,
@@ -14595,7 +14125,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "devstral-medium-2507": {
     "model_id": "devstral-medium-2507",
-    "model_slug": "mistral/devstral-medium-2507",
     "model_name": "Devstral Medium 2507",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14619,7 +14148,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "devstral-small-2505": {
     "model_id": "devstral-small-2505",
-    "model_slug": "mistral/devstral-small-2505",
     "model_name": "Devstral Small 2505",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14643,7 +14171,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "devstral-small-2507": {
     "model_id": "devstral-small-2507",
-    "model_slug": "mistral/devstral-small-2507",
     "model_name": "Devstral Small 2507",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14667,7 +14194,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "magistral-medium-2506": {
     "model_id": "magistral-medium-2506",
-    "model_slug": "mistral/magistral-medium-2506",
     "model_name": "Magistral Medium 2506",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14691,7 +14217,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "magistral-medium-latest": {
     "model_id": "magistral-medium-latest",
-    "model_slug": "mistral/magistral-medium-latest",
     "model_name": "Magistral Medium Latest",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14715,7 +14240,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "magistral-small-2506": {
     "model_id": "magistral-small-2506",
-    "model_slug": "mistral/magistral-small-2506",
     "model_name": "Magistral Small 2506",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14739,7 +14263,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "magistral-small-latest": {
     "model_id": "magistral-small-latest",
-    "model_slug": "mistral/magistral-small-latest",
     "model_name": "Magistral Small Latest",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14763,7 +14286,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-embed": {
     "model_id": "mistral-embed",
-    "model_slug": "mistral/mistral-embed",
     "model_name": "Mistral Embed",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14787,7 +14309,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-large-2402": {
     "model_id": "mistral-large-2402",
-    "model_slug": "mistral/mistral-large-2402",
     "model_name": "Mistral Large 2402",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14811,7 +14332,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-large-2407": {
     "model_id": "mistral-large-2407",
-    "model_slug": "mistral/mistral-large-2407",
     "model_name": "Mistral Large 2407",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14835,7 +14355,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-large-latest": {
     "model_id": "mistral-large-latest",
-    "model_slug": "mistral/mistral-large-latest",
     "model_name": "Mistral Large",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14859,7 +14378,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-medium": {
     "model_id": "mistral-medium",
-    "model_slug": "mistral/mistral-medium",
     "model_name": "Mistral Medium",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14883,7 +14401,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-medium-2312": {
     "model_id": "mistral-medium-2312",
-    "model_slug": "mistral/mistral-medium-2312",
     "model_name": "Mistral Medium 2312",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14907,7 +14424,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-medium-2505": {
     "model_id": "mistral-medium-2505",
-    "model_slug": "mistral/mistral-medium-2505",
     "model_name": "Mistral Medium 2505",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14931,7 +14447,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-medium-latest": {
     "model_id": "mistral-medium-latest",
-    "model_slug": "mistral/mistral-medium-latest",
     "model_name": "Mistral Medium 3",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14955,7 +14470,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-small": {
     "model_id": "mistral-small",
-    "model_slug": "mistral/mistral-small",
     "model_name": "Mistral Small",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -14979,7 +14493,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-small-latest": {
     "model_id": "mistral-small-latest",
-    "model_slug": "mistral/mistral-small-latest",
     "model_name": "Mistral Small",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15003,7 +14516,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-tiny": {
     "model_id": "mistral-tiny",
-    "model_slug": "mistral/mistral-tiny",
     "model_name": "Mistral Tiny",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15027,7 +14539,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "open-codestral-mamba": {
     "model_id": "open-codestral-mamba",
-    "model_slug": "mistral/open-codestral-mamba",
     "model_name": "Codestral Mamba",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15051,7 +14562,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "open-mistral-7b": {
     "model_id": "open-mistral-7b",
-    "model_slug": "mistral/open-mistral-7b",
     "model_name": "Open Mistral 7b",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15075,7 +14585,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "open-mistral-nemo": {
     "model_id": "open-mistral-nemo",
-    "model_slug": "mistral/open-mistral-nemo",
     "model_name": "Mistral NeMo",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15099,7 +14608,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "open-mistral-nemo-2407": {
     "model_id": "open-mistral-nemo-2407",
-    "model_slug": "mistral/open-mistral-nemo-2407",
     "model_name": "Open Mistral Nemo 2407",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15123,7 +14631,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "open-mixtral-8x22b": {
     "model_id": "open-mixtral-8x22b",
-    "model_slug": "mistral/open-mixtral-8x22b",
     "model_name": "Mixtral 8x22B",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15147,7 +14654,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "open-mixtral-8x7b": {
     "model_id": "open-mixtral-8x7b",
-    "model_slug": "mistral/open-mixtral-8x7b",
     "model_name": "Open Mixtral 8x7b",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15171,7 +14677,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pixtral-12b-2409": {
     "model_id": "pixtral-12b-2409",
-    "model_slug": "mistral/pixtral-12b-2409",
     "model_name": "Pixtral 12B",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15195,7 +14700,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pixtral-large-2411": {
     "model_id": "pixtral-large-2411",
-    "model_slug": "mistral/pixtral-large-2411",
     "model_name": "Pixtral Large 2411",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15219,7 +14723,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pixtral-large-latest": {
     "model_id": "pixtral-large-latest",
-    "model_slug": "mistral/pixtral-large-latest",
     "model_name": "Pixtral Large",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
@@ -15243,8 +14746,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-completion-codestral/codestral-2405": {
     "model_id": "text-completion-codestral/codestral-2405",
-    "model_slug": "text-completion-codestral/codestral-2405",
-    "model_name": "Codestral 2405 | text-completion-codestral",
+    "model_name": "Codestral 2405",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
     "max_input_tokens": 32000,
@@ -15267,8 +14769,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-completion-codestral/codestral-latest": {
     "model_id": "text-completion-codestral/codestral-latest",
-    "model_slug": "text-completion-codestral/codestral-latest",
-    "model_name": "Codestral | text-completion-codestral",
+    "model_name": "Codestral",
     "provider_id": "mistral",
     "provider_name": "Mistral AI",
     "max_input_tokens": 32000,
@@ -15291,8 +14792,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/kimi-k2-0711-preview": {
     "model_id": "moonshot/kimi-k2-0711-preview",
-    "model_slug": "moonshot/kimi-k2-0711-preview",
-    "model_name": "Kimi K2 0711 Preview | moonshot",
+    "model_name": "Kimi K2 0711 Preview",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 131072,
@@ -15315,8 +14815,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/moonshot-v1-128k": {
     "model_id": "moonshot/moonshot-v1-128k",
-    "model_slug": "moonshot/moonshot-v1-128k",
-    "model_name": "Moonshot V1 128k | moonshot",
+    "model_name": "Moonshot V1 128k",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 131072,
@@ -15339,8 +14838,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/moonshot-v1-128k-0430": {
     "model_id": "moonshot/moonshot-v1-128k-0430",
-    "model_slug": "moonshot/moonshot-v1-128k-0430",
-    "model_name": "Moonshot V1 128k 0430 | moonshot",
+    "model_name": "Moonshot V1 128k 0430",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 131072,
@@ -15363,8 +14861,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/moonshot-v1-32k": {
     "model_id": "moonshot/moonshot-v1-32k",
-    "model_slug": "moonshot/moonshot-v1-32k",
-    "model_name": "Moonshot V1 32k | moonshot",
+    "model_name": "Moonshot V1 32k",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 32768,
@@ -15387,8 +14884,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/moonshot-v1-32k-0430": {
     "model_id": "moonshot/moonshot-v1-32k-0430",
-    "model_slug": "moonshot/moonshot-v1-32k-0430",
-    "model_name": "Moonshot V1 32k 0430 | moonshot",
+    "model_name": "Moonshot V1 32k 0430",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 32768,
@@ -15411,8 +14907,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/moonshot-v1-8k": {
     "model_id": "moonshot/moonshot-v1-8k",
-    "model_slug": "moonshot/moonshot-v1-8k",
-    "model_name": "Moonshot V1 8k | moonshot",
+    "model_name": "Moonshot V1 8k",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 8192,
@@ -15435,8 +14930,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/moonshot-v1-8k-0430": {
     "model_id": "moonshot/moonshot-v1-8k-0430",
-    "model_slug": "moonshot/moonshot-v1-8k-0430",
-    "model_name": "Moonshot V1 8k 0430 | moonshot",
+    "model_name": "Moonshot V1 8k 0430",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 8192,
@@ -15459,8 +14953,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshot/moonshot-v1-auto": {
     "model_id": "moonshot/moonshot-v1-auto",
-    "model_slug": "moonshot/moonshot-v1-auto",
-    "model_name": "Moonshot V1 Auto | moonshot",
+    "model_name": "Moonshot V1 Auto",
     "provider_id": "moonshot",
     "provider_name": "Moonshot AI",
     "max_input_tokens": 131072,
@@ -15483,7 +14976,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "chatdolphin": {
     "model_id": "chatdolphin",
-    "model_slug": "chatdolphin",
     "model_name": "Chatdolphin",
     "provider_id": "nlp",
     "provider_name": "Nlp",
@@ -15507,7 +14999,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "dolphin": {
     "model_id": "dolphin",
-    "model_slug": "dolphin",
     "model_name": "Dolphin",
     "provider_id": "nlp",
     "provider_name": "Nlp",
@@ -15531,8 +15022,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/black-forest-labs/FLUX.1-schnell": {
     "model_id": "nscale/black-forest-labs/FLUX.1-schnell",
-    "model_slug": "nscale/black-forest-labs/FLUX.1-schnell",
-    "model_name": "FLUX.1 Schnell | black-forest-labs | nscale",
+    "model_name": "FLUX.1 Schnell",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15555,8 +15045,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-70B": {
     "model_id": "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-    "model_slug": "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-    "model_name": "DeepSeek R1 Distill Llama 70B | deepseek-ai | nscale",
+    "model_name": "DeepSeek R1 Distill Llama 70B",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15579,8 +15068,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
     "model_id": "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-    "model_slug": "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-    "model_name": "DeepSeek R1 Distill Llama 8B | deepseek-ai | nscale",
+    "model_name": "DeepSeek R1 Distill Llama 8B",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15603,8 +15091,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
     "model_id": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-    "model_slug": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-    "model_name": "DeepSeek R1 Distill Qwen 1.5B | deepseek-ai | nscale",
+    "model_name": "DeepSeek R1 Distill Qwen 1.5B",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15627,8 +15114,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
     "model_id": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-    "model_slug": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-    "model_name": "DeepSeek R1 Distill Qwen 14B | deepseek-ai | nscale",
+    "model_name": "DeepSeek R1 Distill Qwen 14B",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15651,8 +15137,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
     "model_id": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-    "model_slug": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-    "model_name": "DeepSeek R1 Distill Qwen 32B | deepseek-ai | nscale",
+    "model_name": "DeepSeek R1 Distill Qwen 32B",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15675,8 +15160,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": {
     "model_id": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-    "model_slug": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-    "model_name": "DeepSeek R1 Distill Qwen 7B | deepseek-ai | nscale",
+    "model_name": "DeepSeek R1 Distill Qwen 7B",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15699,8 +15183,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/meta-llama/Llama-3.1-8B-Instruct": {
     "model_id": "nscale/meta-llama/Llama-3.1-8B-Instruct",
-    "model_slug": "nscale/meta-llama/Llama-3.1-8B-Instruct",
-    "model_name": "Llama 3.1 8B Instruct | meta-llama | nscale",
+    "model_name": "Llama 3.1 8B Instruct",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15723,8 +15206,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/meta-llama/Llama-3.3-70B-Instruct": {
     "model_id": "nscale/meta-llama/Llama-3.3-70B-Instruct",
-    "model_slug": "nscale/meta-llama/Llama-3.3-70B-Instruct",
-    "model_name": "Llama 3.3 70B Instruct | meta-llama | nscale",
+    "model_name": "Llama 3.3 70B Instruct",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15747,8 +15229,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/meta-llama/Llama-4-Scout-17B-16E-Instruct": {
     "model_id": "nscale/meta-llama/Llama-4-Scout-17B-16E-Instruct",
-    "model_slug": "nscale/meta-llama/Llama-4-Scout-17B-16E-Instruct",
-    "model_name": "Llama 4 Scout 17B 16E Instruct | meta-llama | nscale",
+    "model_name": "Llama 4 Scout 17B 16E Instruct",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15771,8 +15252,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/mistralai/mixtral-8x22b-instruct-v0.1": {
     "model_id": "nscale/mistralai/mixtral-8x22b-instruct-v0.1",
-    "model_slug": "nscale/mistralai/mixtral-8x22b-instruct-v0.1",
-    "model_name": "Mixtral 8x22B Instruct v0.1 | mistralai | nscale",
+    "model_name": "Mixtral 8x22B Instruct v0.1",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15795,8 +15275,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/Qwen/Qwen2.5-Coder-32B-Instruct": {
     "model_id": "nscale/Qwen/Qwen2.5-Coder-32B-Instruct",
-    "model_slug": "nscale/Qwen/Qwen2.5-Coder-32B-Instruct",
-    "model_name": "Qwen2.5 Coder 32B Instruct | Qwen | nscale",
+    "model_name": "Qwen2.5 Coder 32B Instruct",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15819,8 +15298,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/Qwen/Qwen2.5-Coder-3B-Instruct": {
     "model_id": "nscale/Qwen/Qwen2.5-Coder-3B-Instruct",
-    "model_slug": "nscale/Qwen/Qwen2.5-Coder-3B-Instruct",
-    "model_name": "Qwen2.5 Coder 3B Instruct | Qwen | nscale",
+    "model_name": "Qwen2.5 Coder 3B Instruct",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15843,8 +15321,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/Qwen/Qwen2.5-Coder-7B-Instruct": {
     "model_id": "nscale/Qwen/Qwen2.5-Coder-7B-Instruct",
-    "model_slug": "nscale/Qwen/Qwen2.5-Coder-7B-Instruct",
-    "model_name": "Qwen2.5 Coder 7B Instruct | Qwen | nscale",
+    "model_name": "Qwen2.5 Coder 7B Instruct",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15867,8 +15344,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/Qwen/QwQ-32B": {
     "model_id": "nscale/Qwen/QwQ-32B",
-    "model_slug": "nscale/Qwen/QwQ-32B",
-    "model_name": "QwQ 32B | Qwen | nscale",
+    "model_name": "QwQ 32B",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15891,8 +15367,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "nscale/stabilityai/stable-diffusion-xl-base-1.0": {
     "model_id": "nscale/stabilityai/stable-diffusion-xl-base-1.0",
-    "model_slug": "nscale/stabilityai/stable-diffusion-xl-base-1.0",
-    "model_name": "Stable Diffusion Xl Base 1.0 | stabilityai | nscale",
+    "model_name": "Stable Diffusion Xl Base 1.0",
     "provider_id": "nscale",
     "provider_name": "Nscale",
     "max_input_tokens": null,
@@ -15915,8 +15390,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/codegeex4": {
     "model_id": "ollama/codegeex4",
-    "model_slug": "ollama/codegeex4",
-    "model_name": "Codegeex4 | ollama",
+    "model_name": "Codegeex4",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 32768,
@@ -15939,8 +15413,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/codegemma": {
     "model_id": "ollama/codegemma",
-    "model_slug": "ollama/codegemma",
-    "model_name": "Codegemma | ollama",
+    "model_name": "Codegemma",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -15963,8 +15436,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/codellama": {
     "model_id": "ollama/codellama",
-    "model_slug": "ollama/codellama",
-    "model_name": "Codellama | ollama",
+    "model_name": "Codellama",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 4096,
@@ -15987,8 +15459,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/deepseek-coder-v2-base": {
     "model_id": "ollama/deepseek-coder-v2-base",
-    "model_slug": "ollama/deepseek-coder-v2-base",
-    "model_name": "Deepseek Coder V2 Base | ollama",
+    "model_name": "Deepseek Coder V2 Base",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16011,8 +15482,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/deepseek-coder-v2-instruct": {
     "model_id": "ollama/deepseek-coder-v2-instruct",
-    "model_slug": "ollama/deepseek-coder-v2-instruct",
-    "model_name": "Deepseek Coder V2 Instruct | ollama",
+    "model_name": "Deepseek Coder V2 Instruct",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 32768,
@@ -16035,8 +15505,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/deepseek-coder-v2-lite-base": {
     "model_id": "ollama/deepseek-coder-v2-lite-base",
-    "model_slug": "ollama/deepseek-coder-v2-lite-base",
-    "model_name": "Deepseek Coder V2 Lite Base | ollama",
+    "model_name": "Deepseek Coder V2 Lite Base",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16059,8 +15528,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/deepseek-coder-v2-lite-instruct": {
     "model_id": "ollama/deepseek-coder-v2-lite-instruct",
-    "model_slug": "ollama/deepseek-coder-v2-lite-instruct",
-    "model_name": "Deepseek Coder V2 Lite Instruct | ollama",
+    "model_name": "Deepseek Coder V2 Lite Instruct",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 32768,
@@ -16083,8 +15551,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/internlm2_5-20b-chat": {
     "model_id": "ollama/internlm2_5-20b-chat",
-    "model_slug": "ollama/internlm2_5-20b-chat",
-    "model_name": "Internlm2_5 20b Chat | ollama",
+    "model_name": "Internlm2_5 20b Chat",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 32768,
@@ -16107,8 +15574,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama2": {
     "model_id": "ollama/llama2",
-    "model_slug": "ollama/llama2",
-    "model_name": "Llama2 | ollama",
+    "model_name": "Llama2",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 4096,
@@ -16131,8 +15597,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama2-uncensored": {
     "model_id": "ollama/llama2-uncensored",
-    "model_slug": "ollama/llama2-uncensored",
-    "model_name": "Llama2 Uncensored | ollama",
+    "model_name": "Llama2 Uncensored",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 4096,
@@ -16155,8 +15620,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama2:13b": {
     "model_id": "ollama/llama2:13b",
-    "model_slug": "ollama/llama2:13b",
-    "model_name": "Llama2:13b | ollama",
+    "model_name": "Llama2:13b",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 4096,
@@ -16179,8 +15643,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama2:70b": {
     "model_id": "ollama/llama2:70b",
-    "model_slug": "ollama/llama2:70b",
-    "model_name": "Llama2:70b | ollama",
+    "model_name": "Llama2:70b",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 4096,
@@ -16203,8 +15666,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama2:7b": {
     "model_id": "ollama/llama2:7b",
-    "model_slug": "ollama/llama2:7b",
-    "model_name": "Llama2:7b | ollama",
+    "model_name": "Llama2:7b",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 4096,
@@ -16227,8 +15689,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama3": {
     "model_id": "ollama/llama3",
-    "model_slug": "ollama/llama3",
-    "model_name": "Llama3 | ollama",
+    "model_name": "Llama3",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16251,8 +15712,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama3:70b": {
     "model_id": "ollama/llama3:70b",
-    "model_slug": "ollama/llama3:70b",
-    "model_name": "Llama3:70b | ollama",
+    "model_name": "Llama3:70b",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16275,8 +15735,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama3:8b": {
     "model_id": "ollama/llama3:8b",
-    "model_slug": "ollama/llama3:8b",
-    "model_name": "Llama3:8b | ollama",
+    "model_name": "Llama3:8b",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16299,8 +15758,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/llama3.1": {
     "model_id": "ollama/llama3.1",
-    "model_slug": "ollama/llama3.1",
-    "model_name": "Llama3.1 | ollama",
+    "model_name": "Llama3.1",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16323,8 +15781,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/mistral": {
     "model_id": "ollama/mistral",
-    "model_slug": "ollama/mistral",
-    "model_name": "Mistral | ollama",
+    "model_name": "Mistral",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16347,8 +15804,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/mistral-7B-Instruct-v0.1": {
     "model_id": "ollama/mistral-7B-Instruct-v0.1",
-    "model_slug": "ollama/mistral-7B-Instruct-v0.1",
-    "model_name": "Mistral 7B Instruct V0.1 | ollama",
+    "model_name": "Mistral 7B Instruct V0.1",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 8192,
@@ -16371,8 +15827,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/mistral-7B-Instruct-v0.2": {
     "model_id": "ollama/mistral-7B-Instruct-v0.2",
-    "model_slug": "ollama/mistral-7B-Instruct-v0.2",
-    "model_name": "Mistral 7B Instruct V0.2 | ollama",
+    "model_name": "Mistral 7B Instruct V0.2",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 32768,
@@ -16395,8 +15850,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/mistral-large-instruct-2407": {
     "model_id": "ollama/mistral-large-instruct-2407",
-    "model_slug": "ollama/mistral-large-instruct-2407",
-    "model_name": "Mistral Large Instruct 2407 | ollama",
+    "model_name": "Mistral Large Instruct 2407",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 65536,
@@ -16419,8 +15873,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/mixtral-8x22B-Instruct-v0.1": {
     "model_id": "ollama/mixtral-8x22B-Instruct-v0.1",
-    "model_slug": "ollama/mixtral-8x22B-Instruct-v0.1",
-    "model_name": "Mixtral 8x22B Instruct V0.1 | ollama",
+    "model_name": "Mixtral 8x22B Instruct V0.1",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 65536,
@@ -16443,8 +15896,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/mixtral-8x7B-Instruct-v0.1": {
     "model_id": "ollama/mixtral-8x7B-Instruct-v0.1",
-    "model_slug": "ollama/mixtral-8x7B-Instruct-v0.1",
-    "model_name": "Mixtral 8x7B Instruct V0.1 | ollama",
+    "model_name": "Mixtral 8x7B Instruct V0.1",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 32768,
@@ -16467,8 +15919,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/orca-mini": {
     "model_id": "ollama/orca-mini",
-    "model_slug": "ollama/orca-mini",
-    "model_name": "Orca Mini | ollama",
+    "model_name": "Orca Mini",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 4096,
@@ -16491,8 +15942,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "ollama/vicuna": {
     "model_id": "ollama/vicuna",
-    "model_slug": "ollama/vicuna",
-    "model_name": "Vicuna | ollama",
+    "model_name": "Vicuna",
     "provider_id": "ollama",
     "provider_name": "Ollama",
     "max_input_tokens": 2048,
@@ -16515,8 +15965,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "1024-x-1024/dall-e-2": {
     "model_id": "1024-x-1024/dall-e-2",
-    "model_slug": "1024-x-1024/dall-e-2",
-    "model_name": "Dall E 2 | 1024-x-1024",
+    "model_name": "Dall E 2",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -16539,8 +15988,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "256-x-256/dall-e-2": {
     "model_id": "256-x-256/dall-e-2",
-    "model_slug": "256-x-256/dall-e-2",
-    "model_name": "Dall E 2 | 256-x-256",
+    "model_name": "Dall E 2",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -16563,8 +16011,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "512-x-512/dall-e-2": {
     "model_id": "512-x-512/dall-e-2",
-    "model_slug": "512-x-512/dall-e-2",
-    "model_name": "Dall E 2 | 512-x-512",
+    "model_name": "Dall E 2",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": null,
@@ -16587,7 +16034,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "chatgpt-4o-latest": {
     "model_id": "chatgpt-4o-latest",
-    "model_slug": "chatgpt-4o-latest",
     "model_name": "ChatGPT-4o",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16611,7 +16057,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codex-mini-latest": {
     "model_id": "codex-mini-latest",
-    "model_slug": "codex-mini-latest",
     "model_name": "Codex Mini Latest",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16635,7 +16080,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-3.5-turbo": {
     "model_id": "ft:gpt-3.5-turbo",
-    "model_slug": "ft:gpt-3.5-turbo",
     "model_name": "Ft:GPT 3.5 Turbo",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16659,7 +16103,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-3.5-turbo-0125": {
     "model_id": "ft:gpt-3.5-turbo-0125",
-    "model_slug": "ft:gpt-3.5-turbo-0125",
     "model_name": "Ft:GPT 3.5 Turbo 0125",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16683,7 +16126,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-3.5-turbo-0613": {
     "model_id": "ft:gpt-3.5-turbo-0613",
-    "model_slug": "ft:gpt-3.5-turbo-0613",
     "model_name": "Ft:GPT 3.5 Turbo 0613",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16707,7 +16149,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-3.5-turbo-1106": {
     "model_id": "ft:gpt-3.5-turbo-1106",
-    "model_slug": "ft:gpt-3.5-turbo-1106",
     "model_name": "Ft:GPT 3.5 Turbo 1106",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16731,7 +16172,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-4-0613": {
     "model_id": "ft:gpt-4-0613",
-    "model_slug": "ft:gpt-4-0613",
     "model_name": "Ft:GPT 4 0613",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16755,7 +16195,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-4o-2024-08-06": {
     "model_id": "ft:gpt-4o-2024-08-06",
-    "model_slug": "ft:gpt-4o-2024-08-06",
     "model_name": "Ft:GPT 4o 2024 08 06",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16779,7 +16218,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-4o-2024-11-20": {
     "model_id": "ft:gpt-4o-2024-11-20",
-    "model_slug": "ft:gpt-4o-2024-11-20",
     "model_name": "Ft:GPT 4o 2024 11 20",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16803,7 +16241,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:gpt-4o-mini-2024-07-18": {
     "model_id": "ft:gpt-4o-mini-2024-07-18",
-    "model_slug": "ft:gpt-4o-mini-2024-07-18",
     "model_name": "Ft:GPT 4o Mini 2024 07 18",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16825,9 +16262,54 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "gpt-3.5-turbo": {
+    "model_id": "gpt-3.5-turbo",
+    "model_name": "GPT 3.5T",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 16385,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.0000015,
+    "input_cost_per_million": 1.5,
+    "output_cost_per_token": 0.000002,
+    "output_cost_per_million": 2,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-3.5-turbo-0125": {
+    "model_id": "gpt-3.5-turbo-0125",
+    "model_name": "GPT 3.5T 0125",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 16385,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 5e-7,
+    "input_cost_per_million": 0.5,
+    "output_cost_per_token": 0.0000015,
+    "output_cost_per_million": 1.5,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-3.5-turbo-0301": {
     "model_id": "gpt-3.5-turbo-0301",
-    "model_slug": "gpt-3.5-turbo-0301",
     "model_name": "GPT 3.5 Turbo 0301",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16851,7 +16333,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-3.5-turbo-0613": {
     "model_id": "gpt-3.5-turbo-0613",
-    "model_slug": "gpt-3.5-turbo-0613",
     "model_name": "GPT 3.5 Turbo 0613",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16875,7 +16356,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-3.5-turbo-1106": {
     "model_id": "gpt-3.5-turbo-1106",
-    "model_slug": "gpt-3.5-turbo-1106",
     "model_name": "GPT 3.5T 1106",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16899,7 +16379,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-3.5-turbo-16k": {
     "model_id": "gpt-3.5-turbo-16k",
-    "model_slug": "gpt-3.5-turbo-16k",
     "model_name": "GPT 3.5T 16k",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16923,7 +16402,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-3.5-turbo-16k-0613": {
     "model_id": "gpt-3.5-turbo-16k-0613",
-    "model_slug": "gpt-3.5-turbo-16k-0613",
     "model_name": "GPT 3.5 Turbo 16k 0613",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16945,9 +16423,54 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "gpt-4": {
+    "model_id": "gpt-4",
+    "model_name": "GPT-4",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 8192,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00003,
+    "input_cost_per_million": 30,
+    "output_cost_per_token": 0.00006,
+    "output_cost_per_million": 60,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4-0125-preview": {
+    "model_id": "gpt-4-0125-preview",
+    "model_name": "GPT 4 0125 Preview",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00001,
+    "input_cost_per_million": 10,
+    "output_cost_per_token": 0.00003,
+    "output_cost_per_million": 30,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-4-0314": {
     "model_id": "gpt-4-0314",
-    "model_slug": "gpt-4-0314",
     "model_name": "GPT 4 0314",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16969,9 +16492,54 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "gpt-4-0613": {
+    "model_id": "gpt-4-0613",
+    "model_name": "GPT 4 0613",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 8192,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00003,
+    "input_cost_per_million": 30,
+    "output_cost_per_token": 0.00006,
+    "output_cost_per_million": 60,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": "2025-06-06"
+  },
+  "gpt-4-1106-preview": {
+    "model_id": "gpt-4-1106-preview",
+    "model_name": "GPT 4 1106 Preview",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00001,
+    "input_cost_per_million": 10,
+    "output_cost_per_token": 0.00003,
+    "output_cost_per_million": 30,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-4-1106-vision-preview": {
     "model_id": "gpt-4-1106-vision-preview",
-    "model_slug": "gpt-4-1106-vision-preview",
     "model_name": "GPT 4 1106 Vision Preview",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -16993,9 +16561,31 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2024-12-06"
   },
+  "gpt-4-32k": {
+    "model_id": "gpt-4-32k",
+    "model_name": "GPT 4 32k",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 32768,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00006,
+    "input_cost_per_million": 60,
+    "output_cost_per_token": 0.00012,
+    "output_cost_per_million": 120,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-4-32k-0314": {
     "model_id": "gpt-4-32k-0314",
-    "model_slug": "gpt-4-32k-0314",
     "model_name": "GPT 4 32k 0314",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17017,9 +16607,77 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "gpt-4-32k-0613": {
+    "model_id": "gpt-4-32k-0613",
+    "model_name": "GPT 4 32k 0613",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 32768,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00006,
+    "input_cost_per_million": 60,
+    "output_cost_per_token": 0.00012,
+    "output_cost_per_million": 120,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4-turbo": {
+    "model_id": "gpt-4-turbo",
+    "model_name": "GPT-4 Turbo",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00001,
+    "input_cost_per_million": 10,
+    "output_cost_per_token": 0.00003,
+    "output_cost_per_million": 30,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4-turbo-2024-04-09": {
+    "model_id": "gpt-4-turbo-2024-04-09",
+    "model_name": "GPT 4 Turbo 2024 04 09",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.00001,
+    "input_cost_per_million": 10,
+    "output_cost_per_token": 0.00003,
+    "output_cost_per_million": 30,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-4-turbo-preview": {
     "model_id": "gpt-4-turbo-preview",
-    "model_slug": "gpt-4-turbo-preview",
     "model_name": "GPT-4 Turbo Preview",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17043,7 +16701,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4-vision-preview": {
     "model_id": "gpt-4-vision-preview",
-    "model_slug": "gpt-4-vision-preview",
     "model_name": "GPT 4 Vision-Preview",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17065,9 +16722,169 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2024-12-06"
   },
+  "gpt-4.1": {
+    "model_id": "gpt-4.1",
+    "model_name": "GPT-4.1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 1047576,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 0.000002,
+    "input_cost_per_million": 2,
+    "output_cost_per_token": 0.000008,
+    "output_cost_per_million": 8,
+    "cache_read_cost_per_token": 5e-7,
+    "cache_read_cost_per_million": 0.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4.1-2025-04-14": {
+    "model_id": "gpt-4.1-2025-04-14",
+    "model_name": "GPT-4.1 (Apr 2025)",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 1047576,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 0.000002,
+    "input_cost_per_million": 2,
+    "output_cost_per_token": 0.000008,
+    "output_cost_per_million": 8,
+    "cache_read_cost_per_token": 5e-7,
+    "cache_read_cost_per_million": 0.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4.1-mini": {
+    "model_id": "gpt-4.1-mini",
+    "model_name": "GPT-4.1 mini",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 1047576,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 4e-7,
+    "input_cost_per_million": 0.39999999999999997,
+    "output_cost_per_token": 0.0000016,
+    "output_cost_per_million": 1.5999999999999999,
+    "cache_read_cost_per_token": 1e-7,
+    "cache_read_cost_per_million": 0.09999999999999999,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4.1-mini-2025-04-14": {
+    "model_id": "gpt-4.1-mini-2025-04-14",
+    "model_name": "GPT 4.1 Mini 2025 04 14",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 1047576,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 4e-7,
+    "input_cost_per_million": 0.39999999999999997,
+    "output_cost_per_token": 0.0000016,
+    "output_cost_per_million": 1.5999999999999999,
+    "cache_read_cost_per_token": 1e-7,
+    "cache_read_cost_per_million": 0.09999999999999999,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4.1-nano": {
+    "model_id": "gpt-4.1-nano",
+    "model_name": "GPT-4.1 nano",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 1047576,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 1e-7,
+    "input_cost_per_million": 0.09999999999999999,
+    "output_cost_per_token": 4e-7,
+    "output_cost_per_million": 0.39999999999999997,
+    "cache_read_cost_per_token": 2.5e-8,
+    "cache_read_cost_per_million": 0.024999999999999998,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4.1-nano-2025-04-14": {
+    "model_id": "gpt-4.1-nano-2025-04-14",
+    "model_name": "GPT 4.1 Nano 2025 04 14",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 1047576,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 1e-7,
+    "input_cost_per_million": 0.09999999999999999,
+    "output_cost_per_token": 4e-7,
+    "output_cost_per_million": 0.39999999999999997,
+    "cache_read_cost_per_token": 2.5e-8,
+    "cache_read_cost_per_million": 0.024999999999999998,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4.5-preview": {
+    "model_id": "gpt-4.5-preview",
+    "model_name": "GPT-4.5",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 0.000075,
+    "input_cost_per_million": 75,
+    "output_cost_per_token": 0.00015,
+    "output_cost_per_million": 150,
+    "cache_read_cost_per_token": 0.0000375,
+    "cache_read_cost_per_million": 37.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-4.5-preview-2025-02-27": {
     "model_id": "gpt-4.5-preview-2025-02-27",
-    "model_slug": "gpt-4.5-preview-2025-02-27",
     "model_name": "GPT 4.5 Preview 2025 02 27",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17089,9 +16906,100 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": "2025-07-14"
   },
+  "gpt-4o": {
+    "model_id": "gpt-4o",
+    "model_name": "GPT-4o",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 0.0000025,
+    "input_cost_per_million": 2.5,
+    "output_cost_per_token": 0.00001,
+    "output_cost_per_million": 10,
+    "cache_read_cost_per_token": 0.00000125,
+    "cache_read_cost_per_million": 1.25,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-2024-05-13": {
+    "model_id": "gpt-4o-2024-05-13",
+    "model_name": "GPT-4o (May 2024)",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.000005,
+    "input_cost_per_million": 5,
+    "output_cost_per_token": 0.000015,
+    "output_cost_per_million": 15,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-2024-08-06": {
+    "model_id": "gpt-4o-2024-08-06",
+    "model_name": "GPT-4o (Aug 2024)",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 0.0000025,
+    "input_cost_per_million": 2.5,
+    "output_cost_per_token": 0.00001,
+    "output_cost_per_million": 10,
+    "cache_read_cost_per_token": 0.00000125,
+    "cache_read_cost_per_million": 1.25,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-2024-11-20": {
+    "model_id": "gpt-4o-2024-11-20",
+    "model_name": "GPT-4o (Nov 2024)",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 0.0000025,
+    "input_cost_per_million": 2.5,
+    "output_cost_per_token": 0.00001,
+    "output_cost_per_million": 10,
+    "cache_read_cost_per_token": 0.00000125,
+    "cache_read_cost_per_million": 1.25,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-4o-audio-preview": {
     "model_id": "gpt-4o-audio-preview",
-    "model_slug": "gpt-4o-audio-preview",
     "model_name": "GPT 4o Audio Preview",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17115,8 +17023,30 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4o-audio-preview-2024-10-01": {
     "model_id": "gpt-4o-audio-preview-2024-10-01",
-    "model_slug": "gpt-4o-audio-preview-2024-10-01",
     "model_name": "GPT 4o Audio Preview 2024 10 01",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 0.0000025,
+    "input_cost_per_million": 2.5,
+    "output_cost_per_token": 0.00001,
+    "output_cost_per_million": 10,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-audio-preview-2024-12-17": {
+    "model_id": "gpt-4o-audio-preview-2024-12-17",
+    "model_name": "GPT 4o Audio Preview 2024 12 17",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": 128000,
@@ -17139,7 +17069,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4o-audio-preview-2025-06-03": {
     "model_id": "gpt-4o-audio-preview-2025-06-03",
-    "model_slug": "gpt-4o-audio-preview-2025-06-03",
     "model_name": "GPT 4o Audio Preview 2025 06 03",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17161,10 +17090,78 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "gpt-4o-mini": {
+    "model_id": "gpt-4o-mini",
+    "model_name": "GPT-4o mini",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 1.5e-7,
+    "input_cost_per_million": 0.15,
+    "output_cost_per_token": 6e-7,
+    "output_cost_per_million": 0.6,
+    "cache_read_cost_per_token": 7.5e-8,
+    "cache_read_cost_per_million": 0.075,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-mini-2024-07-18": {
+    "model_id": "gpt-4o-mini-2024-07-18",
+    "model_name": "GPT-4o mini (Jul 2024)",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 1.5e-7,
+    "input_cost_per_million": 0.15,
+    "output_cost_per_token": 6e-7,
+    "output_cost_per_million": 0.6,
+    "cache_read_cost_per_token": 7.5e-8,
+    "cache_read_cost_per_million": 0.075,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "gpt-4o-mini-audio-preview": {
     "model_id": "gpt-4o-mini-audio-preview",
-    "model_slug": "gpt-4o-mini-audio-preview",
     "model_name": "GPT 4o Mini Audio Preview",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 1.5e-7,
+    "input_cost_per_million": 0.15,
+    "output_cost_per_token": 6e-7,
+    "output_cost_per_million": 0.6,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-mini-audio-preview-2024-12-17": {
+    "model_id": "gpt-4o-mini-audio-preview-2024-12-17",
+    "model_name": "GPT 4o Mini Audio Preview 2024 12 17",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": 128000,
@@ -17187,8 +17184,30 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4o-mini-realtime-preview": {
     "model_id": "gpt-4o-mini-realtime-preview",
-    "model_slug": "gpt-4o-mini-realtime-preview",
     "model_name": "GPT 4o Mini Realtime Preview",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 6e-7,
+    "input_cost_per_million": 0.6,
+    "output_cost_per_token": 0.0000024,
+    "output_cost_per_million": 2.4,
+    "cache_read_cost_per_token": 3e-7,
+    "cache_read_cost_per_million": 0.3,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-mini-realtime-preview-2024-12-17": {
+    "model_id": "gpt-4o-mini-realtime-preview-2024-12-17",
+    "model_name": "GPT 4o Mini Realtime Preview 2024 12 17",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": 128000,
@@ -17211,7 +17230,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4o-mini-search-preview": {
     "model_id": "gpt-4o-mini-search-preview",
-    "model_slug": "gpt-4o-mini-search-preview",
     "model_name": "GPT-4o mini Search Preview",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17235,7 +17253,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4o-mini-search-preview-2025-03-11": {
     "model_id": "gpt-4o-mini-search-preview-2025-03-11",
-    "model_slug": "gpt-4o-mini-search-preview-2025-03-11",
     "model_name": "GPT 4o Mini Search Preview 2025 03 11",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17257,10 +17274,101 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "gpt-4o-mini-transcribe": {
+    "model_id": "gpt-4o-mini-transcribe",
+    "model_name": "GPT 4o Mini Transcribe",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 16000,
+    "max_output_tokens": 2000,
+    "input_cost_per_token": 0.00000125,
+    "input_cost_per_million": 1.25,
+    "output_cost_per_token": 0.000005,
+    "output_cost_per_million": 5,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "audio",
+    "deprecation_date": null
+  },
+  "gpt-4o-mini-tts": {
+    "model_id": "gpt-4o-mini-tts",
+    "model_name": "GPT 4o Mini Tts",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0.0000025,
+    "input_cost_per_million": 2.5,
+    "output_cost_per_token": 0.00001,
+    "output_cost_per_million": 10,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "audio",
+    "deprecation_date": null
+  },
   "gpt-4o-realtime-preview": {
     "model_id": "gpt-4o-realtime-preview",
-    "model_slug": "gpt-4o-realtime-preview",
     "model_name": "GPT 4o Realtime Preview",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.000005,
+    "input_cost_per_million": 5,
+    "output_cost_per_token": 0.00002,
+    "output_cost_per_million": 20,
+    "cache_read_cost_per_token": 0.0000025,
+    "cache_read_cost_per_million": 2.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-realtime-preview-2024-10-01": {
+    "model_id": "gpt-4o-realtime-preview-2024-10-01",
+    "model_name": "GPT 4o Realtime Preview 2024 10 01",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 4096,
+    "input_cost_per_token": 0.000005,
+    "input_cost_per_million": 5,
+    "output_cost_per_token": 0.00002,
+    "output_cost_per_million": 20,
+    "cache_read_cost_per_token": 0.0000025,
+    "cache_read_cost_per_million": 2.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "gpt-4o-realtime-preview-2024-12-17": {
+    "model_id": "gpt-4o-realtime-preview-2024-12-17",
+    "model_name": "GPT 4o Realtime Preview 2024 12 17",
     "provider_id": "openai",
     "provider_name": "OpenAI",
     "max_input_tokens": 128000,
@@ -17283,7 +17391,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4o-search-preview": {
     "model_id": "gpt-4o-search-preview",
-    "model_slug": "gpt-4o-search-preview",
     "model_name": "GPT-4o Search Preview",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17307,7 +17414,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-4o-search-preview-2025-03-11": {
     "model_id": "gpt-4o-search-preview-2025-03-11",
-    "model_slug": "gpt-4o-search-preview-2025-03-11",
     "model_name": "GPT 4o Search Preview 2025 03 11",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17329,9 +17435,468 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "gpt-4o-transcribe": {
+    "model_id": "gpt-4o-transcribe",
+    "model_name": "GPT 4o Transcribe",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 16000,
+    "max_output_tokens": 2000,
+    "input_cost_per_token": 0.0000025,
+    "input_cost_per_million": 2.5,
+    "output_cost_per_token": 0.00001,
+    "output_cost_per_million": 10,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "audio",
+    "deprecation_date": null
+  },
+  "gpt-image-1": {
+    "model_id": "gpt-image-1",
+    "model_name": "GPT Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "hd/1024-x-1024/dall-e-3": {
+    "model_id": "hd/1024-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "hd/1024-x-1792/dall-e-3": {
+    "model_id": "hd/1024-x-1792/dall-e-3",
+    "model_name": "Dall E 3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "hd/1792-x-1024/dall-e-3": {
+    "model_id": "hd/1792-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "high/1024-x-1024/gpt-image-1": {
+    "model_id": "high/1024-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "high/1024-x-1536/gpt-image-1": {
+    "model_id": "high/1024-x-1536/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "high/1536-x-1024/gpt-image-1": {
+    "model_id": "high/1536-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "low/1024-x-1024/gpt-image-1": {
+    "model_id": "low/1024-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "low/1024-x-1536/gpt-image-1": {
+    "model_id": "low/1024-x-1536/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "low/1536-x-1024/gpt-image-1": {
+    "model_id": "low/1536-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "medium/1024-x-1024/gpt-image-1": {
+    "model_id": "medium/1024-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "medium/1024-x-1536/gpt-image-1": {
+    "model_id": "medium/1024-x-1536/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "medium/1536-x-1024/gpt-image-1": {
+    "model_id": "medium/1536-x-1024/gpt-image-1",
+    "model_name": "Gpt Image 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "o1": {
+    "model_id": "o1",
+    "model_name": "o1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.000015,
+    "input_cost_per_million": 15,
+    "output_cost_per_token": 0.00006,
+    "output_cost_per_million": 60,
+    "cache_read_cost_per_token": 0.0000075,
+    "cache_read_cost_per_million": 7.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o1-2024-12-17": {
+    "model_id": "o1-2024-12-17",
+    "model_name": "O1 2024 12 17",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.000015,
+    "input_cost_per_million": 15,
+    "output_cost_per_token": 0.00006,
+    "output_cost_per_million": 60,
+    "cache_read_cost_per_token": 0.0000075,
+    "cache_read_cost_per_million": 7.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o1-mini": {
+    "model_id": "o1-mini",
+    "model_name": "o1 mini",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 65536,
+    "input_cost_per_token": 0.0000011,
+    "input_cost_per_million": 1.1,
+    "output_cost_per_token": 0.0000044,
+    "output_cost_per_million": 4.4,
+    "cache_read_cost_per_token": 5.5e-7,
+    "cache_read_cost_per_million": 0.55,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o1-mini-2024-09-12": {
+    "model_id": "o1-mini-2024-09-12",
+    "model_name": "O1 Mini 2024 09 12",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 65536,
+    "input_cost_per_token": 0.000003,
+    "input_cost_per_million": 3,
+    "output_cost_per_token": 0.000012,
+    "output_cost_per_million": 12,
+    "cache_read_cost_per_token": 0.0000015,
+    "cache_read_cost_per_million": 1.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o1-preview": {
+    "model_id": "o1-preview",
+    "model_name": "o1 Preview",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 0.000015,
+    "input_cost_per_million": 15,
+    "output_cost_per_token": 0.00006,
+    "output_cost_per_million": 60,
+    "cache_read_cost_per_token": 0.0000075,
+    "cache_read_cost_per_million": 7.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o1-preview-2024-09-12": {
+    "model_id": "o1-preview-2024-09-12",
+    "model_name": "O1 Preview 2024 09 12",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 32768,
+    "input_cost_per_token": 0.000015,
+    "input_cost_per_million": 15,
+    "output_cost_per_token": 0.00006,
+    "output_cost_per_million": 60,
+    "cache_read_cost_per_token": 0.0000075,
+    "cache_read_cost_per_million": 7.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "o1-pro": {
     "model_id": "o1-pro",
-    "model_slug": "o1-pro",
     "model_name": "o1 Pro",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17355,7 +17920,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "o1-pro-2025-03-19": {
     "model_id": "o1-pro-2025-03-19",
-    "model_slug": "o1-pro-2025-03-19",
     "model_name": "O1 Pro 2025 03 19",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17377,9 +17941,77 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "o3": {
+    "model_id": "o3",
+    "model_name": "o3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.000002,
+    "input_cost_per_million": 2,
+    "output_cost_per_token": 0.000008,
+    "output_cost_per_million": 8,
+    "cache_read_cost_per_token": 5e-7,
+    "cache_read_cost_per_million": 0.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o3-2025-04-16": {
+    "model_id": "o3-2025-04-16",
+    "model_name": "O3 2025 04 16",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.000002,
+    "input_cost_per_million": 2,
+    "output_cost_per_token": 0.000008,
+    "output_cost_per_million": 8,
+    "cache_read_cost_per_token": 5e-7,
+    "cache_read_cost_per_million": 0.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o3-deep-research": {
+    "model_id": "o3-deep-research",
+    "model_name": "O3 Deep Research",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.00001,
+    "input_cost_per_million": 10,
+    "output_cost_per_token": 0.00004,
+    "output_cost_per_million": 40,
+    "cache_read_cost_per_token": 0.0000025,
+    "cache_read_cost_per_million": 2.5,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "o3-deep-research-2025-06-26": {
     "model_id": "o3-deep-research-2025-06-26",
-    "model_slug": "o3-deep-research-2025-06-26",
     "model_name": "O3 Deep Research 2025 06 26",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17401,9 +18033,146 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "o3-mini": {
+    "model_id": "o3-mini",
+    "model_name": "o3 mini",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.0000011,
+    "input_cost_per_million": 1.1,
+    "output_cost_per_token": 0.0000044,
+    "output_cost_per_million": 4.4,
+    "cache_read_cost_per_token": 5.5e-7,
+    "cache_read_cost_per_million": 0.55,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o3-mini-2025-01-31": {
+    "model_id": "o3-mini-2025-01-31",
+    "model_name": "O3 Mini 2025 01 31",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.0000011,
+    "input_cost_per_million": 1.1,
+    "output_cost_per_token": 0.0000044,
+    "output_cost_per_million": 4.4,
+    "cache_read_cost_per_token": 5.5e-7,
+    "cache_read_cost_per_million": 0.55,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": false,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o3-pro": {
+    "model_id": "o3-pro",
+    "model_name": "o3 Pro",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.00002,
+    "input_cost_per_million": 20,
+    "output_cost_per_token": 0.00008,
+    "output_cost_per_million": 80,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o3-pro-2025-06-10": {
+    "model_id": "o3-pro-2025-06-10",
+    "model_name": "O3 Pro 2025 06 10",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.00002,
+    "input_cost_per_million": 20,
+    "output_cost_per_token": 0.00008,
+    "output_cost_per_million": 80,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o4-mini": {
+    "model_id": "o4-mini",
+    "model_name": "o4 mini",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.0000011,
+    "input_cost_per_million": 1.1,
+    "output_cost_per_token": 0.0000044,
+    "output_cost_per_million": 4.4,
+    "cache_read_cost_per_token": 2.75e-7,
+    "cache_read_cost_per_million": 0.275,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "o4-mini-2025-04-16": {
+    "model_id": "o4-mini-2025-04-16",
+    "model_name": "O4 Mini 2025 04 16",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 100000,
+    "input_cost_per_token": 0.0000011,
+    "input_cost_per_million": 1.1,
+    "output_cost_per_token": 0.0000044,
+    "output_cost_per_million": 4.4,
+    "cache_read_cost_per_token": 2.75e-7,
+    "cache_read_cost_per_million": 0.275,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "o4-mini-deep-research": {
     "model_id": "o4-mini-deep-research",
-    "model_slug": "o4-mini-deep-research",
     "model_name": "O4 Mini Deep Research",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17427,7 +18196,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "o4-mini-deep-research-2025-06-26": {
     "model_id": "o4-mini-deep-research-2025-06-26",
-    "model_slug": "o4-mini-deep-research-2025-06-26",
     "model_name": "O4 Mini Deep Research 2025 06 26",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17451,7 +18219,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "omni-moderation-2024-09-26": {
     "model_id": "omni-moderation-2024-09-26",
-    "model_slug": "omni-moderation-2024-09-26",
     "model_name": "Omni Moderation 2024 09 26",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17475,7 +18242,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "omni-moderation-latest": {
     "model_id": "omni-moderation-latest",
-    "model_slug": "omni-moderation-latest",
     "model_name": "Omni Moderation Latest",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17499,7 +18265,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "omni-moderation-latest-intents": {
     "model_id": "omni-moderation-latest-intents",
-    "model_slug": "omni-moderation-latest-intents",
     "model_name": "Omni Moderation Latest Intents",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17521,9 +18286,146 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "moderation",
     "deprecation_date": null
   },
+  "standard/1024-x-1024/dall-e-3": {
+    "model_id": "standard/1024-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "standard/1024-x-1792/dall-e-3": {
+    "model_id": "standard/1024-x-1792/dall-e-3",
+    "model_name": "Dall E 3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "standard/1792-x-1024/dall-e-3": {
+    "model_id": "standard/1792-x-1024/dall-e-3",
+    "model_name": "Dall E 3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "image",
+    "deprecation_date": null
+  },
+  "text-embedding-3-large": {
+    "model_id": "text-embedding-3-large",
+    "model_name": "Text Embedding 3 Large",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 8191,
+    "max_output_tokens": null,
+    "input_cost_per_token": 1.3e-7,
+    "input_cost_per_million": 0.13,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "embedding",
+    "deprecation_date": null
+  },
+  "text-embedding-3-small": {
+    "model_id": "text-embedding-3-small",
+    "model_name": "Text Embedding 3 Small",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 8191,
+    "max_output_tokens": null,
+    "input_cost_per_token": 2e-8,
+    "input_cost_per_million": 0.02,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "embedding",
+    "deprecation_date": null
+  },
+  "text-embedding-ada-002": {
+    "model_id": "text-embedding-ada-002",
+    "model_name": "Text Embedding Ada 002",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": 8191,
+    "max_output_tokens": null,
+    "input_cost_per_token": 1e-7,
+    "input_cost_per_million": 0.09999999999999999,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "embedding",
+    "deprecation_date": null
+  },
   "text-embedding-ada-002-v2": {
     "model_id": "text-embedding-ada-002-v2",
-    "model_slug": "text-embedding-ada-002-v2",
     "model_name": "Text Embedding Ada 002 V2",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17547,7 +18449,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-moderation-007": {
     "model_id": "text-moderation-007",
-    "model_slug": "text-moderation-007",
     "model_name": "Text Moderation 007",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17571,7 +18472,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-moderation-latest": {
     "model_id": "text-moderation-latest",
-    "model_slug": "text-moderation-latest",
     "model_name": "Text Moderation Latest",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17595,7 +18495,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-moderation-stable": {
     "model_id": "text-moderation-stable",
-    "model_slug": "text-moderation-stable",
     "model_name": "Text Moderation Stable",
     "provider_id": "openai",
     "provider_name": "OpenAI",
@@ -17617,10 +18516,78 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "moderation",
     "deprecation_date": null
   },
+  "tts-1": {
+    "model_id": "tts-1",
+    "model_name": "Tts 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "audio",
+    "deprecation_date": null
+  },
+  "tts-1-hd": {
+    "model_id": "tts-1-hd",
+    "model_name": "Tts 1 Hd",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "audio",
+    "deprecation_date": null
+  },
+  "whisper-1": {
+    "model_id": "whisper-1",
+    "model_name": "Whisper 1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "input_cost_per_token": 0,
+    "input_cost_per_million": 0,
+    "output_cost_per_token": 0,
+    "output_cost_per_million": 0,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": false,
+    "supports_vision": false,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false,
+    "supports_streaming": true,
+    "model_type": "audio",
+    "deprecation_date": null
+  },
   "openrouter/anthropic/claude-2": {
     "model_id": "openrouter/anthropic/claude-2",
-    "model_slug": "openrouter/anthropic/claude-2",
-    "model_name": "Claude 2 | anthropic | openrouter",
+    "model_name": "Claude 2",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -17643,8 +18610,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3-5-haiku": {
     "model_id": "openrouter/anthropic/claude-3-5-haiku",
-    "model_slug": "openrouter/anthropic/claude-3-5-haiku",
-    "model_name": "Claude 3 5 Haiku | anthropic | openrouter",
+    "model_name": "Claude 3 5 Haiku",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -17667,8 +18633,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3-5-haiku-20241022": {
     "model_id": "openrouter/anthropic/claude-3-5-haiku-20241022",
-    "model_slug": "openrouter/anthropic/claude-3-5-haiku-20241022",
-    "model_name": "Claude 3.5 Haiku (Oct 2024) | anthropic | openrouter",
+    "model_name": "Claude 3.5 Haiku (Oct 2024)",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17691,8 +18656,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3-haiku": {
     "model_id": "openrouter/anthropic/claude-3-haiku",
-    "model_slug": "openrouter/anthropic/claude-3-haiku",
-    "model_name": "Claude 3 Haiku | anthropic | openrouter",
+    "model_name": "Claude 3 Haiku",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -17715,8 +18679,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3-haiku-20240307": {
     "model_id": "openrouter/anthropic/claude-3-haiku-20240307",
-    "model_slug": "openrouter/anthropic/claude-3-haiku-20240307",
-    "model_name": "Claude 3 Haiku | anthropic | openrouter",
+    "model_name": "Claude 3 Haiku",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17739,8 +18702,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3-opus": {
     "model_id": "openrouter/anthropic/claude-3-opus",
-    "model_slug": "openrouter/anthropic/claude-3-opus",
-    "model_name": "Claude 3 Opus | anthropic | openrouter",
+    "model_name": "Claude 3 Opus",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17763,8 +18725,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3-sonnet": {
     "model_id": "openrouter/anthropic/claude-3-sonnet",
-    "model_slug": "openrouter/anthropic/claude-3-sonnet",
-    "model_name": "Claude 3 Sonnet | anthropic | openrouter",
+    "model_name": "Claude 3 Sonnet",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -17787,8 +18748,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3.5-sonnet": {
     "model_id": "openrouter/anthropic/claude-3.5-sonnet",
-    "model_slug": "openrouter/anthropic/claude-3.5-sonnet",
-    "model_name": "Claude 3.5 Sonnet | anthropic | openrouter",
+    "model_name": "Claude 3.5 Sonnet",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17811,8 +18771,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3.5-sonnet:beta": {
     "model_id": "openrouter/anthropic/claude-3.5-sonnet:beta",
-    "model_slug": "openrouter/anthropic/claude-3.5-sonnet:beta",
-    "model_name": "Claude 3.5 Sonnet:beta | anthropic | openrouter",
+    "model_name": "Claude 3.5 Sonnet:beta",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17835,8 +18794,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3.7-sonnet": {
     "model_id": "openrouter/anthropic/claude-3.7-sonnet",
-    "model_slug": "openrouter/anthropic/claude-3.7-sonnet",
-    "model_name": "Claude 3.7 Sonnet | anthropic | openrouter",
+    "model_name": "Claude 3.7 Sonnet",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17859,8 +18817,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-3.7-sonnet:beta": {
     "model_id": "openrouter/anthropic/claude-3.7-sonnet:beta",
-    "model_slug": "openrouter/anthropic/claude-3.7-sonnet:beta",
-    "model_name": "Claude 3.7 Sonnet:beta | anthropic | openrouter",
+    "model_name": "Claude 3.7 Sonnet:beta",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17883,8 +18840,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-instant-v1": {
     "model_id": "openrouter/anthropic/claude-instant-v1",
-    "model_slug": "openrouter/anthropic/claude-instant-v1",
-    "model_name": "Claude Instant V1 | anthropic | openrouter",
+    "model_name": "Claude Instant V1",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -17907,8 +18863,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/anthropic/claude-sonnet-4": {
     "model_id": "openrouter/anthropic/claude-sonnet-4",
-    "model_slug": "openrouter/anthropic/claude-sonnet-4",
-    "model_name": "Claude Sonnet 4 | anthropic | openrouter",
+    "model_name": "Claude Sonnet 4",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -17931,8 +18886,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/cognitivecomputations/dolphin-mixtral-8x7b": {
     "model_id": "openrouter/cognitivecomputations/dolphin-mixtral-8x7b",
-    "model_slug": "openrouter/cognitivecomputations/dolphin-mixtral-8x7b",
-    "model_name": "Dolphin Mixtral 8x7b | cognitivecomputations | openrouter",
+    "model_name": "Dolphin Mixtral 8x7b",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -17955,8 +18909,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/cohere/command-r-plus": {
     "model_id": "openrouter/cohere/command-r-plus",
-    "model_slug": "openrouter/cohere/command-r-plus",
-    "model_name": "Command R Plus | cohere | openrouter",
+    "model_name": "Command R Plus",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -17979,8 +18932,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/databricks/dbrx-instruct": {
     "model_id": "openrouter/databricks/dbrx-instruct",
-    "model_slug": "openrouter/databricks/dbrx-instruct",
-    "model_name": "DBRX Instruct | databricks | openrouter",
+    "model_name": "DBRX Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18003,8 +18955,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/deepseek/deepseek-chat": {
     "model_id": "openrouter/deepseek/deepseek-chat",
-    "model_slug": "openrouter/deepseek/deepseek-chat",
-    "model_name": "Deepseek Chat | deepseek | openrouter",
+    "model_name": "Deepseek Chat",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 65536,
@@ -18027,8 +18978,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/deepseek/deepseek-coder": {
     "model_id": "openrouter/deepseek/deepseek-coder",
-    "model_slug": "openrouter/deepseek/deepseek-coder",
-    "model_name": "Deepseek Coder | deepseek | openrouter",
+    "model_name": "Deepseek Coder",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 66000,
@@ -18051,8 +19001,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/deepseek/deepseek-r1": {
     "model_id": "openrouter/deepseek/deepseek-r1",
-    "model_slug": "openrouter/deepseek/deepseek-r1",
-    "model_name": "DeepSeek R1 | deepseek | openrouter",
+    "model_name": "DeepSeek R1",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 65336,
@@ -18075,8 +19024,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/deepseek/deepseek-r1-0528": {
     "model_id": "openrouter/deepseek/deepseek-r1-0528",
-    "model_slug": "openrouter/deepseek/deepseek-r1-0528",
-    "model_name": "Deepseek R1 0528 | deepseek | openrouter",
+    "model_name": "Deepseek R1 0528",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 65336,
@@ -18099,8 +19047,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/fireworks/firellava-13b": {
     "model_id": "openrouter/fireworks/firellava-13b",
-    "model_slug": "openrouter/fireworks/firellava-13b",
-    "model_name": "Firellava 13b | fireworks | openrouter",
+    "model_name": "Firellava 13b",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18123,8 +19070,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/google/gemini-2.0-flash-001": {
     "model_id": "openrouter/google/gemini-2.0-flash-001",
-    "model_slug": "openrouter/google/gemini-2.0-flash-001",
-    "model_name": "Gemini 2.0 Flash 001 | google | openrouter",
+    "model_name": "Gemini 2.0 Flash 001",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 1048576,
@@ -18147,8 +19093,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/google/gemini-2.5-flash": {
     "model_id": "openrouter/google/gemini-2.5-flash",
-    "model_slug": "openrouter/google/gemini-2.5-flash",
-    "model_name": "Gemini 2.5 Flash | google | openrouter",
+    "model_name": "Gemini 2.5 Flash",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 1048576,
@@ -18171,8 +19116,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/google/gemini-2.5-pro": {
     "model_id": "openrouter/google/gemini-2.5-pro",
-    "model_slug": "openrouter/google/gemini-2.5-pro",
-    "model_name": "Gemini 2.5 Pro | google | openrouter",
+    "model_name": "Gemini 2.5 Pro",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 1048576,
@@ -18195,8 +19139,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/google/gemini-pro-1.5": {
     "model_id": "openrouter/google/gemini-pro-1.5",
-    "model_slug": "openrouter/google/gemini-pro-1.5",
-    "model_name": "Gemini Pro 1.5 | google | openrouter",
+    "model_name": "Gemini Pro 1.5",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 1000000,
@@ -18219,8 +19162,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/google/gemini-pro-vision": {
     "model_id": "openrouter/google/gemini-pro-vision",
-    "model_slug": "openrouter/google/gemini-pro-vision",
-    "model_name": "Gemini Pro Vision | google | openrouter",
+    "model_name": "Gemini Pro Vision",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18243,8 +19185,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/google/palm-2-chat-bison": {
     "model_id": "openrouter/google/palm-2-chat-bison",
-    "model_slug": "openrouter/google/palm-2-chat-bison",
-    "model_name": "Palm 2 Chat Bison | google | openrouter",
+    "model_name": "Palm 2 Chat Bison",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18267,8 +19208,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/google/palm-2-codechat-bison": {
     "model_id": "openrouter/google/palm-2-codechat-bison",
-    "model_slug": "openrouter/google/palm-2-codechat-bison",
-    "model_name": "Palm 2 Codechat Bison | google | openrouter",
+    "model_name": "Palm 2 Codechat Bison",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18291,8 +19231,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/gryphe/mythomax-l2-13b": {
     "model_id": "openrouter/gryphe/mythomax-l2-13b",
-    "model_slug": "openrouter/gryphe/mythomax-l2-13b",
-    "model_name": "MythoMax L2 (13B) | gryphe | openrouter",
+    "model_name": "MythoMax L2 (13B)",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18315,8 +19254,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/jondurbin/airoboros-l2-70b-2.1": {
     "model_id": "openrouter/jondurbin/airoboros-l2-70b-2.1",
-    "model_slug": "openrouter/jondurbin/airoboros-l2-70b-2.1",
-    "model_name": "Airoboros L2 70b 2.1 | jondurbin | openrouter",
+    "model_name": "Airoboros L2 70b 2.1",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18339,8 +19277,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/mancer/weaver": {
     "model_id": "openrouter/mancer/weaver",
-    "model_slug": "openrouter/mancer/weaver",
-    "model_name": "Weaver | mancer | openrouter",
+    "model_name": "Weaver",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18363,8 +19300,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/meta-llama/codellama-34b-instruct": {
     "model_id": "openrouter/meta-llama/codellama-34b-instruct",
-    "model_slug": "openrouter/meta-llama/codellama-34b-instruct",
-    "model_name": "Codellama 34b Instruct | meta-llama | openrouter",
+    "model_name": "Codellama 34b Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18387,8 +19323,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/meta-llama/llama-2-13b-chat": {
     "model_id": "openrouter/meta-llama/llama-2-13b-chat",
-    "model_slug": "openrouter/meta-llama/llama-2-13b-chat",
-    "model_name": "Llama 2 13b Chat | meta-llama | openrouter",
+    "model_name": "Llama 2 13b Chat",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18411,8 +19346,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/meta-llama/llama-2-70b-chat": {
     "model_id": "openrouter/meta-llama/llama-2-70b-chat",
-    "model_slug": "openrouter/meta-llama/llama-2-70b-chat",
-    "model_name": "LLaMA 2 70b Chat | meta-llama | openrouter",
+    "model_name": "LLaMA 2 70b Chat",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18435,8 +19369,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/meta-llama/llama-3-70b-instruct": {
     "model_id": "openrouter/meta-llama/llama-3-70b-instruct",
-    "model_slug": "openrouter/meta-llama/llama-3-70b-instruct",
-    "model_name": "Llama 3 70b Instruct | meta-llama | openrouter",
+    "model_name": "Llama 3 70b Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18459,8 +19392,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/meta-llama/llama-3-70b-instruct:nitro": {
     "model_id": "openrouter/meta-llama/llama-3-70b-instruct:nitro",
-    "model_slug": "openrouter/meta-llama/llama-3-70b-instruct:nitro",
-    "model_name": "Llama 3 70b Instruct:nitro | meta-llama | openrouter",
+    "model_name": "Llama 3 70b Instruct:nitro",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18483,8 +19415,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/meta-llama/llama-3-8b-instruct:extended": {
     "model_id": "openrouter/meta-llama/llama-3-8b-instruct:extended",
-    "model_slug": "openrouter/meta-llama/llama-3-8b-instruct:extended",
-    "model_name": "Llama 3 8b Instruct:extended | meta-llama | openrouter",
+    "model_name": "Llama 3 8b Instruct:extended",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18507,8 +19438,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/meta-llama/llama-3-8b-instruct:free": {
     "model_id": "openrouter/meta-llama/llama-3-8b-instruct:free",
-    "model_slug": "openrouter/meta-llama/llama-3-8b-instruct:free",
-    "model_name": "Llama 3 8b Instruct:free | meta-llama | openrouter",
+    "model_name": "Llama 3 8b Instruct:free",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18531,8 +19461,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/microsoft/wizardlm-2-8x22b:nitro": {
     "model_id": "openrouter/microsoft/wizardlm-2-8x22b:nitro",
-    "model_slug": "openrouter/microsoft/wizardlm-2-8x22b:nitro",
-    "model_name": "Wizardlm 2 8x22b:nitro | microsoft | openrouter",
+    "model_name": "Wizardlm 2 8x22b:nitro",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18555,8 +19484,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/mistralai/mistral-7b-instruct": {
     "model_id": "openrouter/mistralai/mistral-7b-instruct",
-    "model_slug": "openrouter/mistralai/mistral-7b-instruct",
-    "model_name": "Mistral 7b Instruct | mistralai | openrouter",
+    "model_name": "Mistral 7b Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18579,8 +19507,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/mistralai/mistral-7b-instruct:free": {
     "model_id": "openrouter/mistralai/mistral-7b-instruct:free",
-    "model_slug": "openrouter/mistralai/mistral-7b-instruct:free",
-    "model_name": "Mistral 7b Instruct:free | mistralai | openrouter",
+    "model_name": "Mistral 7b Instruct:free",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18603,8 +19530,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/mistralai/mistral-large": {
     "model_id": "openrouter/mistralai/mistral-large",
-    "model_slug": "openrouter/mistralai/mistral-large",
-    "model_name": "Mistral Large | mistralai | openrouter",
+    "model_name": "Mistral Large",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18627,8 +19553,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/mistralai/mistral-small-3.1-24b-instruct": {
     "model_id": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
-    "model_slug": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
-    "model_name": "Mistral Small 3.1 24b Instruct | mistralai | openrouter",
+    "model_name": "Mistral Small 3.1 24b Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18651,8 +19576,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/mistralai/mistral-small-3.2-24b-instruct": {
     "model_id": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
-    "model_slug": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
-    "model_name": "Mistral Small 3.2 24b Instruct | mistralai | openrouter",
+    "model_name": "Mistral Small 3.2 24b Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18675,8 +19599,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/mistralai/mixtral-8x22b-instruct": {
     "model_id": "openrouter/mistralai/mixtral-8x22b-instruct",
-    "model_slug": "openrouter/mistralai/mixtral-8x22b-instruct",
-    "model_name": "Mixtral 8x22b Instruct | mistralai | openrouter",
+    "model_name": "Mixtral 8x22b Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18699,8 +19622,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/nousresearch/nous-hermes-llama2-13b": {
     "model_id": "openrouter/nousresearch/nous-hermes-llama2-13b",
-    "model_slug": "openrouter/nousresearch/nous-hermes-llama2-13b",
-    "model_name": "Nous: Hermes 13B | nousresearch | openrouter",
+    "model_name": "Nous: Hermes 13B",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18723,8 +19645,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/gpt-3.5-turbo": {
     "model_id": "openrouter/openai/gpt-3.5-turbo",
-    "model_slug": "openrouter/openai/gpt-3.5-turbo",
-    "model_name": "GPT 3.5T | openai | openrouter",
+    "model_name": "GPT 3.5T",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18747,8 +19668,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/gpt-3.5-turbo-16k": {
     "model_id": "openrouter/openai/gpt-3.5-turbo-16k",
-    "model_slug": "openrouter/openai/gpt-3.5-turbo-16k",
-    "model_name": "GPT 3.5T 16k | openai | openrouter",
+    "model_name": "GPT 3.5T 16k",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18771,8 +19691,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/gpt-4": {
     "model_id": "openrouter/openai/gpt-4",
-    "model_slug": "openrouter/openai/gpt-4",
-    "model_name": "GPT 4 | openai | openrouter",
+    "model_name": "GPT 4",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18795,8 +19714,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/gpt-4-vision-preview": {
     "model_id": "openrouter/openai/gpt-4-vision-preview",
-    "model_slug": "openrouter/openai/gpt-4-vision-preview",
-    "model_name": "GPT 4 Vision Preview | openai | openrouter",
+    "model_name": "GPT 4 Vision Preview",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -18819,8 +19737,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/gpt-4o": {
     "model_id": "openrouter/openai/gpt-4o",
-    "model_slug": "openrouter/openai/gpt-4o",
-    "model_name": "GPT 4o | openai | openrouter",
+    "model_name": "GPT 4o",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -18843,8 +19760,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/gpt-4o-2024-05-13": {
     "model_id": "openrouter/openai/gpt-4o-2024-05-13",
-    "model_slug": "openrouter/openai/gpt-4o-2024-05-13",
-    "model_name": "GPT 4o (May 2024) | openai | openrouter",
+    "model_name": "GPT 4o (May 2024)",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -18867,8 +19783,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/o1": {
     "model_id": "openrouter/openai/o1",
-    "model_slug": "openrouter/openai/o1",
-    "model_name": "O1 | openai | openrouter",
+    "model_name": "O1",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 200000,
@@ -18891,8 +19806,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/o1-mini": {
     "model_id": "openrouter/openai/o1-mini",
-    "model_slug": "openrouter/openai/o1-mini",
-    "model_name": "O1 mini | openai | openrouter",
+    "model_name": "O1 mini",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -18915,8 +19829,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/o1-mini-2024-09-12": {
     "model_id": "openrouter/openai/o1-mini-2024-09-12",
-    "model_slug": "openrouter/openai/o1-mini-2024-09-12",
-    "model_name": "O1 Mini 2024 09 12 | openai | openrouter",
+    "model_name": "O1 Mini 2024 09 12",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -18939,8 +19852,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/o1-preview": {
     "model_id": "openrouter/openai/o1-preview",
-    "model_slug": "openrouter/openai/o1-preview",
-    "model_name": "O1 Preview | openai | openrouter",
+    "model_name": "O1 Preview",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -18963,8 +19875,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/o1-preview-2024-09-12": {
     "model_id": "openrouter/openai/o1-preview-2024-09-12",
-    "model_slug": "openrouter/openai/o1-preview-2024-09-12",
-    "model_name": "O1 Preview 2024 09 12 | openai | openrouter",
+    "model_name": "O1 Preview 2024 09 12",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -18987,8 +19898,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/o3-mini": {
     "model_id": "openrouter/openai/o3-mini",
-    "model_slug": "openrouter/openai/o3-mini",
-    "model_name": "O3 mini | openai | openrouter",
+    "model_name": "O3 mini",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -19011,8 +19921,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/openai/o3-mini-high": {
     "model_id": "openrouter/openai/o3-mini-high",
-    "model_slug": "openrouter/openai/o3-mini-high",
-    "model_name": "O3 Mini High | openai | openrouter",
+    "model_name": "O3 Mini High",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 128000,
@@ -19035,8 +19944,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/pygmalionai/mythalion-13b": {
     "model_id": "openrouter/pygmalionai/mythalion-13b",
-    "model_slug": "openrouter/pygmalionai/mythalion-13b",
-    "model_name": "Mythalion 13b | pygmalionai | openrouter",
+    "model_name": "Mythalion 13b",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -19059,8 +19967,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/qwen/qwen-2.5-coder-32b-instruct": {
     "model_id": "openrouter/qwen/qwen-2.5-coder-32b-instruct",
-    "model_slug": "openrouter/qwen/qwen-2.5-coder-32b-instruct",
-    "model_name": "Qwen 2.5 Coder 32B Instruct | qwen | openrouter",
+    "model_name": "Qwen 2.5 Coder 32B Instruct",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": 33792,
@@ -19083,8 +19990,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "openrouter/undi95/remm-slerp-l2-13b": {
     "model_id": "openrouter/undi95/remm-slerp-l2-13b",
-    "model_slug": "openrouter/undi95/remm-slerp-l2-13b",
-    "model_name": "Remm Slerp L2 13b | undi95 | openrouter",
+    "model_name": "Remm Slerp L2 13b",
     "provider_id": "openrouter",
     "provider_name": "OpenRouter",
     "max_input_tokens": null,
@@ -19107,8 +20013,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "palm/chat-bison": {
     "model_id": "palm/chat-bison",
-    "model_slug": "palm/chat-bison",
-    "model_name": "Chat Bison | palm",
+    "model_name": "Chat Bison",
     "provider_id": "palm",
     "provider_name": "Palm AI",
     "max_input_tokens": 8192,
@@ -19131,8 +20036,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "palm/chat-bison-001": {
     "model_id": "palm/chat-bison-001",
-    "model_slug": "palm/chat-bison-001",
-    "model_name": "Chat Bison 001 | palm",
+    "model_name": "Chat Bison 001",
     "provider_id": "palm",
     "provider_name": "Palm AI",
     "max_input_tokens": 8192,
@@ -19155,8 +20059,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "palm/text-bison": {
     "model_id": "palm/text-bison",
-    "model_slug": "palm/text-bison",
-    "model_name": "Text Bison | palm",
+    "model_name": "Text Bison",
     "provider_id": "palm",
     "provider_name": "Palm AI",
     "max_input_tokens": 8192,
@@ -19179,8 +20082,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "palm/text-bison-001": {
     "model_id": "palm/text-bison-001",
-    "model_slug": "palm/text-bison-001",
-    "model_name": "Text Bison 001 | palm",
+    "model_name": "Text Bison 001",
     "provider_id": "palm",
     "provider_name": "Palm AI",
     "max_input_tokens": 8192,
@@ -19203,8 +20105,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "palm/text-bison-safety-off": {
     "model_id": "palm/text-bison-safety-off",
-    "model_slug": "palm/text-bison-safety-off",
-    "model_name": "Text Bison Safety Off | palm",
+    "model_name": "Text Bison Safety Off",
     "provider_id": "palm",
     "provider_name": "Palm AI",
     "max_input_tokens": 8192,
@@ -19227,8 +20128,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "palm/text-bison-safety-recitation-off": {
     "model_id": "palm/text-bison-safety-recitation-off",
-    "model_slug": "palm/text-bison-safety-recitation-off",
-    "model_name": "Text Bison Safety Recitation Off | palm",
+    "model_name": "Text Bison Safety Recitation Off",
     "provider_id": "palm",
     "provider_name": "Palm AI",
     "max_input_tokens": 8192,
@@ -19251,7 +20151,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codellama-34b-instruct": {
     "model_id": "codellama-34b-instruct",
-    "model_slug": "perplexity/codellama-34b-instruct",
     "model_name": "Codellama 34b Instruct",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19275,7 +20174,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codellama-70b-instruct": {
     "model_id": "codellama-70b-instruct",
-    "model_slug": "perplexity/codellama-70b-instruct",
     "model_name": "Codellama 70b Instruct",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19299,7 +20197,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-2-70b-chat": {
     "model_id": "llama-2-70b-chat",
-    "model_slug": "perplexity/llama-2-70b-chat",
     "model_name": "LLaMA 2 70b Chat",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19323,7 +20220,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-70b-instruct": {
     "model_id": "llama-3.1-70b-instruct",
-    "model_slug": "perplexity/llama-3.1-70b-instruct",
     "model_name": "Llama 3.1 70b Instruct",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19347,7 +20243,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-8b-instruct": {
     "model_id": "llama-3.1-8b-instruct",
-    "model_slug": "perplexity/llama-3.1-8b-instruct",
     "model_name": "Llama 3.1 8b Instruct",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19371,7 +20266,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-sonar-huge-128k-online": {
     "model_id": "llama-3.1-sonar-huge-128k-online",
-    "model_slug": "perplexity/llama-3.1-sonar-huge-128k-online",
     "model_name": "Llama 3.1 Sonar Huge 128k Online",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19395,7 +20289,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-sonar-large-128k-chat": {
     "model_id": "llama-3.1-sonar-large-128k-chat",
-    "model_slug": "perplexity/llama-3.1-sonar-large-128k-chat",
     "model_name": "Llama 3.1 Sonar Large 128k Chat",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19419,7 +20312,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-sonar-large-128k-online": {
     "model_id": "llama-3.1-sonar-large-128k-online",
-    "model_slug": "perplexity/llama-3.1-sonar-large-128k-online",
     "model_name": "Llama 3.1 Sonar Large 128k Online",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19443,7 +20335,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-sonar-small-128k-chat": {
     "model_id": "llama-3.1-sonar-small-128k-chat",
-    "model_slug": "perplexity/llama-3.1-sonar-small-128k-chat",
     "model_name": "Llama 3.1 Sonar Small 128k Chat",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19467,7 +20358,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "llama-3.1-sonar-small-128k-online": {
     "model_id": "llama-3.1-sonar-small-128k-online",
-    "model_slug": "perplexity/llama-3.1-sonar-small-128k-online",
     "model_name": "Llama 3.1 Sonar Small 128k Online",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19491,7 +20381,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-7b-instruct": {
     "model_id": "mistral-7b-instruct",
-    "model_slug": "perplexity/mistral-7b-instruct",
     "model_name": "Mistral 7b Instruct",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19515,7 +20404,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mixtral-8x7b-instruct": {
     "model_id": "mixtral-8x7b-instruct",
-    "model_slug": "perplexity/mixtral-8x7b-instruct",
     "model_name": "Mixtral 8x7b Instruct",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19539,7 +20427,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pplx-70b-chat": {
     "model_id": "pplx-70b-chat",
-    "model_slug": "perplexity/pplx-70b-chat",
     "model_name": "Pplx 70b Chat",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19563,7 +20450,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pplx-70b-online": {
     "model_id": "pplx-70b-online",
-    "model_slug": "perplexity/pplx-70b-online",
     "model_name": "Pplx 70b Online",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19587,7 +20473,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pplx-7b-chat": {
     "model_id": "pplx-7b-chat",
-    "model_slug": "perplexity/pplx-7b-chat",
     "model_name": "Pplx 7b Chat",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19611,7 +20496,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "pplx-7b-online": {
     "model_id": "pplx-7b-online",
-    "model_slug": "perplexity/pplx-7b-online",
     "model_name": "Pplx 7b Online",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19635,7 +20519,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar": {
     "model_id": "sonar",
-    "model_slug": "perplexity/sonar",
     "model_name": "Sonar",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19659,7 +20542,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-deep-research": {
     "model_id": "sonar-deep-research",
-    "model_slug": "perplexity/sonar-deep-research",
     "model_name": "Sonar Deep Research",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19683,7 +20565,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-medium-chat": {
     "model_id": "sonar-medium-chat",
-    "model_slug": "perplexity/sonar-medium-chat",
     "model_name": "Sonar Medium Chat",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19707,7 +20588,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-medium-online": {
     "model_id": "sonar-medium-online",
-    "model_slug": "perplexity/sonar-medium-online",
     "model_name": "Sonar Medium Online",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19731,7 +20611,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-pro": {
     "model_id": "sonar-pro",
-    "model_slug": "perplexity/sonar-pro",
     "model_name": "Sonar Pro",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19755,7 +20634,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-reasoning": {
     "model_id": "sonar-reasoning",
-    "model_slug": "perplexity/sonar-reasoning",
     "model_name": "Sonar Reasoning",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19779,7 +20657,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-reasoning-pro": {
     "model_id": "sonar-reasoning-pro",
-    "model_slug": "perplexity/sonar-reasoning-pro",
     "model_name": "Sonar Reasoning Pro",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19803,7 +20680,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-small-chat": {
     "model_id": "sonar-small-chat",
-    "model_slug": "perplexity/sonar-small-chat",
     "model_name": "Sonar Small Chat",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19827,7 +20703,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "sonar-small-online": {
     "model_id": "sonar-small-online",
-    "model_slug": "perplexity/sonar-small-online",
     "model_name": "Sonar Small Online",
     "provider_id": "perplexity",
     "provider_name": "Perplexity AI",
@@ -19851,8 +20726,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-2-13b": {
     "model_id": "meta/llama-2-13b",
-    "model_slug": "replicate/meta/llama-2-13b",
-    "model_name": "Llama 2 13b | meta",
+    "model_name": "Llama 2 13b",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -19875,8 +20749,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-2-13b-chat": {
     "model_id": "meta/llama-2-13b-chat",
-    "model_slug": "replicate/meta/llama-2-13b-chat",
-    "model_name": "Llama 2 13b Chat | meta",
+    "model_name": "Llama 2 13b Chat",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -19899,8 +20772,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-2-70b": {
     "model_id": "meta/llama-2-70b",
-    "model_slug": "replicate/meta/llama-2-70b",
-    "model_name": "Llama 2 70b | meta",
+    "model_name": "Llama 2 70b",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -19923,8 +20795,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-2-70b-chat": {
     "model_id": "meta/llama-2-70b-chat",
-    "model_slug": "replicate/meta/llama-2-70b-chat",
-    "model_name": "LLaMA 2 70b Chat | meta",
+    "model_name": "LLaMA 2 70b Chat",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -19947,8 +20818,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-2-7b": {
     "model_id": "meta/llama-2-7b",
-    "model_slug": "replicate/meta/llama-2-7b",
-    "model_name": "Llama 2 7b | meta",
+    "model_name": "Llama 2 7b",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -19971,8 +20841,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-2-7b-chat": {
     "model_id": "meta/llama-2-7b-chat",
-    "model_slug": "replicate/meta/llama-2-7b-chat",
-    "model_name": "Llama 2 7b Chat | meta",
+    "model_name": "Llama 2 7b Chat",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -19995,8 +20864,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-3-70b": {
     "model_id": "meta/llama-3-70b",
-    "model_slug": "replicate/meta/llama-3-70b",
-    "model_name": "Llama 3 70b | meta",
+    "model_name": "Llama 3 70b",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 8192,
@@ -20019,8 +20887,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-3-70b-instruct": {
     "model_id": "meta/llama-3-70b-instruct",
-    "model_slug": "replicate/meta/llama-3-70b-instruct",
-    "model_name": "Llama 3 70b Instruct | meta",
+    "model_name": "Llama 3 70b Instruct",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 8192,
@@ -20043,8 +20910,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-3-8b": {
     "model_id": "meta/llama-3-8b",
-    "model_slug": "replicate/meta/llama-3-8b",
-    "model_name": "Llama 3 8b | meta",
+    "model_name": "Llama 3 8b",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 8086,
@@ -20067,8 +20933,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-3-8b-instruct": {
     "model_id": "meta/llama-3-8b-instruct",
-    "model_slug": "replicate/meta/llama-3-8b-instruct",
-    "model_name": "Llama 3 8b Instruct | meta",
+    "model_name": "Llama 3 8b Instruct",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 8086,
@@ -20091,8 +20956,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistralai/mistral-7b-instruct-v0.2": {
     "model_id": "mistralai/mistral-7b-instruct-v0.2",
-    "model_slug": "replicate/mistralai/mistral-7b-instruct-v0.2",
-    "model_name": "Mistral (7B) Instruct v0.2 | mistralai",
+    "model_name": "Mistral (7B) Instruct v0.2",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -20115,8 +20979,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistralai/mistral-7b-v0.1": {
     "model_id": "mistralai/mistral-7b-v0.1",
-    "model_slug": "replicate/mistralai/mistral-7b-v0.1",
-    "model_name": "Mistral 7b V0.1 | mistralai",
+    "model_name": "Mistral 7b V0.1",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -20139,8 +21002,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistralai/mixtral-8x7b-instruct-v0.1": {
     "model_id": "mistralai/mixtral-8x7b-instruct-v0.1",
-    "model_slug": "replicate/mistralai/mixtral-8x7b-instruct-v0.1",
-    "model_name": "Mixtral 8x7B Instruct v0.1 | mistralai",
+    "model_name": "Mixtral 8x7B Instruct v0.1",
     "provider_id": "replicate",
     "provider_name": "Replicate",
     "max_input_tokens": 4096,
@@ -20163,8 +21025,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sagemaker/meta-textgeneration-llama-2-13b": {
     "model_id": "sagemaker/meta-textgeneration-llama-2-13b",
-    "model_slug": "sagemaker/meta-textgeneration-llama-2-13b",
-    "model_name": "Meta Textgeneration Llama 2 13b | sagemaker",
+    "model_name": "Meta Textgeneration Llama 2 13b",
     "provider_id": "sagemaker",
     "provider_name": "AWS Sage Maker",
     "max_input_tokens": 4096,
@@ -20187,8 +21048,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sagemaker/meta-textgeneration-llama-2-13b-f": {
     "model_id": "sagemaker/meta-textgeneration-llama-2-13b-f",
-    "model_slug": "sagemaker/meta-textgeneration-llama-2-13b-f",
-    "model_name": "Meta Textgeneration Llama 2 13b F | sagemaker",
+    "model_name": "Meta Textgeneration Llama 2 13b F",
     "provider_id": "sagemaker",
     "provider_name": "AWS Sage Maker",
     "max_input_tokens": 4096,
@@ -20211,8 +21071,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sagemaker/meta-textgeneration-llama-2-70b": {
     "model_id": "sagemaker/meta-textgeneration-llama-2-70b",
-    "model_slug": "sagemaker/meta-textgeneration-llama-2-70b",
-    "model_name": "Meta Textgeneration Llama 2 70b | sagemaker",
+    "model_name": "Meta Textgeneration Llama 2 70b",
     "provider_id": "sagemaker",
     "provider_name": "AWS Sage Maker",
     "max_input_tokens": 4096,
@@ -20235,8 +21094,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sagemaker/meta-textgeneration-llama-2-70b-b-f": {
     "model_id": "sagemaker/meta-textgeneration-llama-2-70b-b-f",
-    "model_slug": "sagemaker/meta-textgeneration-llama-2-70b-b-f",
-    "model_name": "Meta Textgeneration Llama 2 70b B F | sagemaker",
+    "model_name": "Meta Textgeneration Llama 2 70b B F",
     "provider_id": "sagemaker",
     "provider_name": "AWS Sage Maker",
     "max_input_tokens": 4096,
@@ -20259,8 +21117,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sagemaker/meta-textgeneration-llama-2-7b": {
     "model_id": "sagemaker/meta-textgeneration-llama-2-7b",
-    "model_slug": "sagemaker/meta-textgeneration-llama-2-7b",
-    "model_name": "Meta Textgeneration Llama 2 7b | sagemaker",
+    "model_name": "Meta Textgeneration Llama 2 7b",
     "provider_id": "sagemaker",
     "provider_name": "AWS Sage Maker",
     "max_input_tokens": 4096,
@@ -20283,8 +21140,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sagemaker/meta-textgeneration-llama-2-7b-f": {
     "model_id": "sagemaker/meta-textgeneration-llama-2-7b-f",
-    "model_slug": "sagemaker/meta-textgeneration-llama-2-7b-f",
-    "model_name": "Meta Textgeneration Llama 2 7b F | sagemaker",
+    "model_name": "Meta Textgeneration Llama 2 7b F",
     "provider_id": "sagemaker",
     "provider_name": "AWS Sage Maker",
     "max_input_tokens": 4096,
@@ -20307,8 +21163,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/DeepSeek-R1": {
     "model_id": "sambanova/DeepSeek-R1",
-    "model_slug": "sambanova/DeepSeek-R1",
-    "model_name": "DeepSeek R1 | sambanova",
+    "model_name": "DeepSeek R1",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 32768,
@@ -20331,8 +21186,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/DeepSeek-R1-Distill-Llama-70B": {
     "model_id": "sambanova/DeepSeek-R1-Distill-Llama-70B",
-    "model_slug": "sambanova/DeepSeek-R1-Distill-Llama-70B",
-    "model_name": "DeepSeek R1 Distill Llama 70B | sambanova",
+    "model_name": "DeepSeek R1 Distill Llama 70B",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 131072,
@@ -20355,8 +21209,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/DeepSeek-V3-0324": {
     "model_id": "sambanova/DeepSeek-V3-0324",
-    "model_slug": "sambanova/DeepSeek-V3-0324",
-    "model_name": "DeepSeek V3 0324 | sambanova",
+    "model_name": "DeepSeek V3 0324",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 32768,
@@ -20379,8 +21232,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Llama-4-Maverick-17B-128E-Instruct": {
     "model_id": "sambanova/Llama-4-Maverick-17B-128E-Instruct",
-    "model_slug": "sambanova/Llama-4-Maverick-17B-128E-Instruct",
-    "model_name": "Llama 4 Maverick 17B 128E Instruct | sambanova",
+    "model_name": "Llama 4 Maverick 17B 128E Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 131072,
@@ -20403,8 +21255,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Llama-4-Scout-17B-16E-Instruct": {
     "model_id": "sambanova/Llama-4-Scout-17B-16E-Instruct",
-    "model_slug": "sambanova/Llama-4-Scout-17B-16E-Instruct",
-    "model_name": "Llama 4 Scout 17B 16E Instruct | sambanova",
+    "model_name": "Llama 4 Scout 17B 16E Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 8192,
@@ -20427,8 +21278,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Meta-Llama-3.1-405B-Instruct": {
     "model_id": "sambanova/Meta-Llama-3.1-405B-Instruct",
-    "model_slug": "sambanova/Meta-Llama-3.1-405B-Instruct",
-    "model_name": "Meta Llama 3.1 405B Instruct | sambanova",
+    "model_name": "Meta Llama 3.1 405B Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 16384,
@@ -20451,8 +21301,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Meta-Llama-3.1-8B-Instruct": {
     "model_id": "sambanova/Meta-Llama-3.1-8B-Instruct",
-    "model_slug": "sambanova/Meta-Llama-3.1-8B-Instruct",
-    "model_name": "Meta Llama 3.1 8B Instruct | sambanova",
+    "model_name": "Meta Llama 3.1 8B Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 16384,
@@ -20475,8 +21324,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Meta-Llama-3.2-1B-Instruct": {
     "model_id": "sambanova/Meta-Llama-3.2-1B-Instruct",
-    "model_slug": "sambanova/Meta-Llama-3.2-1B-Instruct",
-    "model_name": "Meta Llama 3.2 1B Instruct | sambanova",
+    "model_name": "Meta Llama 3.2 1B Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 16384,
@@ -20499,8 +21347,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Meta-Llama-3.2-3B-Instruct": {
     "model_id": "sambanova/Meta-Llama-3.2-3B-Instruct",
-    "model_slug": "sambanova/Meta-Llama-3.2-3B-Instruct",
-    "model_name": "Meta Llama 3.2 3B Instruct | sambanova",
+    "model_name": "Meta Llama 3.2 3B Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 4096,
@@ -20523,8 +21370,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Meta-Llama-3.3-70B-Instruct": {
     "model_id": "sambanova/Meta-Llama-3.3-70B-Instruct",
-    "model_slug": "sambanova/Meta-Llama-3.3-70B-Instruct",
-    "model_name": "Meta Llama 3.3 70B Instruct | sambanova",
+    "model_name": "Meta Llama 3.3 70B Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 131072,
@@ -20547,8 +21393,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Meta-Llama-Guard-3-8B": {
     "model_id": "sambanova/Meta-Llama-Guard-3-8B",
-    "model_slug": "sambanova/Meta-Llama-Guard-3-8B",
-    "model_name": "Meta Llama Guard 3 8B | sambanova",
+    "model_name": "Meta Llama Guard 3 8B",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 16384,
@@ -20571,8 +21416,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Qwen2-Audio-7B-Instruct": {
     "model_id": "sambanova/Qwen2-Audio-7B-Instruct",
-    "model_slug": "sambanova/Qwen2-Audio-7B-Instruct",
-    "model_name": "Qwen2 Audio 7B Instruct | sambanova",
+    "model_name": "Qwen2 Audio 7B Instruct",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 4096,
@@ -20595,8 +21439,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/Qwen3-32B": {
     "model_id": "sambanova/Qwen3-32B",
-    "model_slug": "sambanova/Qwen3-32B",
-    "model_name": "Qwen3 32B | sambanova",
+    "model_name": "Qwen3 32B",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 8192,
@@ -20619,8 +21462,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "sambanova/QwQ-32B": {
     "model_id": "sambanova/QwQ-32B",
-    "model_slug": "sambanova/QwQ-32B",
-    "model_name": "QwQ 32B | sambanova",
+    "model_name": "QwQ 32B",
     "provider_id": "sambanova",
     "provider_name": "Sambanova",
     "max_input_tokens": 16384,
@@ -20643,8 +21485,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/claude-3-5-sonnet": {
     "model_id": "snowflake/claude-3-5-sonnet",
-    "model_slug": "snowflake/claude-3-5-sonnet",
-    "model_name": "Claude 3 5 Sonnet | snowflake",
+    "model_name": "Claude 3 5 Sonnet",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 18000,
@@ -20667,8 +21508,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/deepseek-r1": {
     "model_id": "snowflake/deepseek-r1",
-    "model_slug": "snowflake/deepseek-r1",
-    "model_name": "DeepSeek R1 | snowflake",
+    "model_name": "DeepSeek R1",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 32768,
@@ -20691,8 +21531,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/gemma-7b": {
     "model_id": "snowflake/gemma-7b",
-    "model_slug": "snowflake/gemma-7b",
-    "model_name": "Gemma 7b | snowflake",
+    "model_name": "Gemma 7b",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 8000,
@@ -20715,8 +21554,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/jamba-1.5-large": {
     "model_id": "snowflake/jamba-1.5-large",
-    "model_slug": "snowflake/jamba-1.5-large",
-    "model_name": "Jamba 1.5 Large | snowflake",
+    "model_name": "Jamba 1.5 Large",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 256000,
@@ -20739,8 +21577,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/jamba-1.5-mini": {
     "model_id": "snowflake/jamba-1.5-mini",
-    "model_slug": "snowflake/jamba-1.5-mini",
-    "model_name": "Jamba 1.5 Mini | snowflake",
+    "model_name": "Jamba 1.5 Mini",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 256000,
@@ -20763,8 +21600,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/jamba-instruct": {
     "model_id": "snowflake/jamba-instruct",
-    "model_slug": "snowflake/jamba-instruct",
-    "model_name": "Jamba Instruct | snowflake",
+    "model_name": "Jamba Instruct",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 256000,
@@ -20787,8 +21623,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama2-70b-chat": {
     "model_id": "snowflake/llama2-70b-chat",
-    "model_slug": "snowflake/llama2-70b-chat",
-    "model_name": "Llama2 70b Chat | snowflake",
+    "model_name": "Llama2 70b Chat",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 4096,
@@ -20811,8 +21646,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3-70b": {
     "model_id": "snowflake/llama3-70b",
-    "model_slug": "snowflake/llama3-70b",
-    "model_name": "Llama 3 70B | snowflake",
+    "model_name": "Llama 3 70B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 8000,
@@ -20835,8 +21669,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3-8b": {
     "model_id": "snowflake/llama3-8b",
-    "model_slug": "snowflake/llama3-8b",
-    "model_name": "Llama 3 8B | snowflake",
+    "model_name": "Llama 3 8B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 8000,
@@ -20859,8 +21692,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3.1-405b": {
     "model_id": "snowflake/llama3.1-405b",
-    "model_slug": "snowflake/llama3.1-405b",
-    "model_name": "Llama3.1 405b | snowflake",
+    "model_name": "Llama3.1 405b",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 128000,
@@ -20883,8 +21715,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3.1-70b": {
     "model_id": "snowflake/llama3.1-70b",
-    "model_slug": "snowflake/llama3.1-70b",
-    "model_name": "Llama 3.1 70B | snowflake",
+    "model_name": "Llama 3.1 70B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 128000,
@@ -20907,8 +21738,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3.1-8b": {
     "model_id": "snowflake/llama3.1-8b",
-    "model_slug": "snowflake/llama3.1-8b",
-    "model_name": "Llama 3.1 8B | snowflake",
+    "model_name": "Llama 3.1 8B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 128000,
@@ -20931,8 +21761,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3.2-1b": {
     "model_id": "snowflake/llama3.2-1b",
-    "model_slug": "snowflake/llama3.2-1b",
-    "model_name": "Llama 3.2 1B | snowflake",
+    "model_name": "Llama 3.2 1B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 128000,
@@ -20955,8 +21784,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3.2-3b": {
     "model_id": "snowflake/llama3.2-3b",
-    "model_slug": "snowflake/llama3.2-3b",
-    "model_name": "Llama 3.2 3B | snowflake",
+    "model_name": "Llama 3.2 3B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 128000,
@@ -20979,8 +21807,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/llama3.3-70b": {
     "model_id": "snowflake/llama3.3-70b",
-    "model_slug": "snowflake/llama3.3-70b",
-    "model_name": "Llama 3.3 70B | snowflake",
+    "model_name": "Llama 3.3 70B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 128000,
@@ -21003,8 +21830,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/mistral-7b": {
     "model_id": "snowflake/mistral-7b",
-    "model_slug": "snowflake/mistral-7b",
-    "model_name": "Mistral 7B | snowflake",
+    "model_name": "Mistral 7B",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 32000,
@@ -21027,8 +21853,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/mistral-large": {
     "model_id": "snowflake/mistral-large",
-    "model_slug": "snowflake/mistral-large",
-    "model_name": "Mistral Large | snowflake",
+    "model_name": "Mistral Large",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 32000,
@@ -21051,8 +21876,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/mistral-large2": {
     "model_id": "snowflake/mistral-large2",
-    "model_slug": "snowflake/mistral-large2",
-    "model_name": "Mistral Large2 | snowflake",
+    "model_name": "Mistral Large2",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 128000,
@@ -21075,8 +21899,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/mixtral-8x7b": {
     "model_id": "snowflake/mixtral-8x7b",
-    "model_slug": "snowflake/mixtral-8x7b",
-    "model_name": "Mixtral 8x7b | snowflake",
+    "model_name": "Mixtral 8x7b",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 32000,
@@ -21099,8 +21922,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/reka-core": {
     "model_id": "snowflake/reka-core",
-    "model_slug": "snowflake/reka-core",
-    "model_name": "Reka Core | snowflake",
+    "model_name": "Reka Core",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 32000,
@@ -21123,8 +21945,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/reka-flash": {
     "model_id": "snowflake/reka-flash",
-    "model_slug": "snowflake/reka-flash",
-    "model_name": "Reka Flash | snowflake",
+    "model_name": "Reka Flash",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 100000,
@@ -21147,8 +21968,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/snowflake-arctic": {
     "model_id": "snowflake/snowflake-arctic",
-    "model_slug": "snowflake/snowflake-arctic",
-    "model_name": "Snowflake Arctic | snowflake",
+    "model_name": "Snowflake Arctic",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 4096,
@@ -21171,8 +21991,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/snowflake-llama-3.1-405b": {
     "model_id": "snowflake/snowflake-llama-3.1-405b",
-    "model_slug": "snowflake/snowflake-llama-3.1-405b",
-    "model_name": "Snowflake Llama 3.1 405b | snowflake",
+    "model_name": "Snowflake Llama 3.1 405b",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 8000,
@@ -21195,8 +22014,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "snowflake/snowflake-llama-3.3-70b": {
     "model_id": "snowflake/snowflake-llama-3.3-70b",
-    "model_slug": "snowflake/snowflake-llama-3.3-70b",
-    "model_name": "Snowflake Llama 3.3 70b | snowflake",
+    "model_name": "Snowflake Llama 3.3 70b",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
     "max_input_tokens": 8000,
@@ -21219,7 +22037,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "babbage-002": {
     "model_id": "babbage-002",
-    "model_slug": "babbage-002",
     "model_name": "Babbage 002",
     "provider_id": "text-completion-openai",
     "provider_name": "OpenAI",
@@ -21243,7 +22060,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "davinci-002": {
     "model_id": "davinci-002",
-    "model_slug": "davinci-002",
     "model_name": "Davinci 002",
     "provider_id": "text-completion-openai",
     "provider_name": "OpenAI",
@@ -21267,7 +22083,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:babbage-002": {
     "model_id": "ft:babbage-002",
-    "model_slug": "ft:babbage-002",
     "model_name": "Ft:babbage 002",
     "provider_id": "text-completion-openai",
     "provider_name": "OpenAI",
@@ -21291,7 +22106,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "ft:davinci-002": {
     "model_id": "ft:davinci-002",
-    "model_slug": "ft:davinci-002",
     "model_name": "Ft:davinci 002",
     "provider_id": "text-completion-openai",
     "provider_name": "OpenAI",
@@ -21315,7 +22129,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-3.5-turbo-instruct": {
     "model_id": "gpt-3.5-turbo-instruct",
-    "model_slug": "gpt-3.5-turbo-instruct",
     "model_name": "GPT 3.5T Instruct",
     "provider_id": "text-completion-openai",
     "provider_name": "OpenAI",
@@ -21339,7 +22152,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gpt-3.5-turbo-instruct-0914": {
     "model_id": "gpt-3.5-turbo-instruct-0914",
-    "model_slug": "gpt-3.5-turbo-instruct-0914",
     "model_name": "GPT 3.5 Turbo Instruct 0914",
     "provider_id": "text-completion-openai",
     "provider_name": "OpenAI",
@@ -21363,8 +22175,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek-ai/DeepSeek-R1": {
     "model_id": "deepseek-ai/DeepSeek-R1",
-    "model_slug": "together_ai/deepseek-ai/DeepSeek-R1",
-    "model_name": "DeepSeek R1 | deepseek-ai",
+    "model_name": "DeepSeek R1",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21387,8 +22198,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "deepseek-ai/DeepSeek-V3": {
     "model_id": "deepseek-ai/DeepSeek-V3",
-    "model_slug": "together_ai/deepseek-ai/DeepSeek-V3",
-    "model_name": "DeepSeek V3 | deepseek-ai",
+    "model_name": "DeepSeek V3",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21411,8 +22221,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
     "model_id": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
-    "model_slug": "together_ai/meta-llama/Llama-3.2-3B-Instruct-Turbo",
-    "model_name": "Llama 3.2 3B Instruct Turbo | meta-llama",
+    "model_name": "Llama 3.2 3B Instruct Turbo",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21435,8 +22244,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-3.3-70B-Instruct-Turbo": {
     "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    "model_slug": "together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    "model_name": "Llama 3.3 70B Instruct Turbo | meta-llama",
+    "model_name": "Llama 3.3 70B Instruct Turbo",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21459,8 +22267,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free": {
     "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
-    "model_slug": "together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
-    "model_name": "Llama 3.3 70B Instruct Turbo Free | meta-llama",
+    "model_name": "Llama 3.3 70B Instruct Turbo Free",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21483,8 +22290,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
     "model_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    "model_slug": "together_ai/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    "model_name": "Llama 4 Maverick 17B 128E Instruct FP8 | meta-llama",
+    "model_name": "Llama 4 Maverick 17B 128E Instruct FP8",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21507,8 +22313,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Llama-4-Scout-17B-16E-Instruct": {
     "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-    "model_slug": "together_ai/meta-llama/Llama-4-Scout-17B-16E-Instruct",
-    "model_name": "Llama 4 Scout 17B 16E Instruct | meta-llama",
+    "model_name": "Llama 4 Scout 17B 16E Instruct",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21531,8 +22336,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo": {
     "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
-    "model_slug": "together_ai/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
-    "model_name": "Meta Llama 3.1 405B Instruct Turbo | meta-llama",
+    "model_name": "Meta Llama 3.1 405B Instruct Turbo",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21555,8 +22359,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo": {
     "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-    "model_slug": "together_ai/meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-    "model_name": "Meta Llama 3.1 70B Instruct Turbo | meta-llama",
+    "model_name": "Meta Llama 3.1 70B Instruct Turbo",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21579,8 +22382,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo": {
     "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-    "model_slug": "together_ai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-    "model_name": "Meta Llama 3.1 8B Instruct Turbo | meta-llama",
+    "model_name": "Meta Llama 3.1 8B Instruct Turbo",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21603,8 +22405,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistralai/Mistral-Small-24B-Instruct-2501": {
     "model_id": "mistralai/Mistral-Small-24B-Instruct-2501",
-    "model_slug": "together_ai/mistralai/Mistral-Small-24B-Instruct-2501",
-    "model_name": "Mistral Small 24B Instruct 2501 | mistralai",
+    "model_name": "Mistral Small 24B Instruct 2501",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21627,8 +22428,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "moonshotai/Kimi-K2-Instruct": {
     "model_id": "moonshotai/Kimi-K2-Instruct",
-    "model_slug": "together_ai/moonshotai/Kimi-K2-Instruct",
-    "model_name": "Kimi K2 Instruct | moonshotai",
+    "model_name": "Kimi K2 Instruct",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21651,8 +22451,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "Qwen/Qwen2.5-72B-Instruct-Turbo": {
     "model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
-    "model_slug": "together_ai/Qwen/Qwen2.5-72B-Instruct-Turbo",
-    "model_name": "Qwen2.5 72B Instruct Turbo | Qwen",
+    "model_name": "Qwen2.5 72B Instruct Turbo",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21675,8 +22474,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "Qwen/Qwen2.5-7B-Instruct-Turbo": {
     "model_id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
-    "model_slug": "together_ai/Qwen/Qwen2.5-7B-Instruct-Turbo",
-    "model_name": "Qwen2.5 7B Instruct Turbo | Qwen",
+    "model_name": "Qwen2.5 7B Instruct Turbo",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21699,7 +22497,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-21.1b-41b": {
     "model_id": "together-ai-21.1b-41b",
-    "model_slug": "together-ai-21.1b-41b",
     "model_name": "Together Ai 21.1b 41b",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21723,7 +22520,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-4.1b-8b": {
     "model_id": "together-ai-4.1b-8b",
-    "model_slug": "together-ai-4.1b-8b",
     "model_name": "Together Ai 4.1b 8b",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21747,7 +22543,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-41.1b-80b": {
     "model_id": "together-ai-41.1b-80b",
-    "model_slug": "together-ai-41.1b-80b",
     "model_name": "Together Ai 41.1b 80b",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21771,7 +22566,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-8.1b-21b": {
     "model_id": "together-ai-8.1b-21b",
-    "model_slug": "together-ai-8.1b-21b",
     "model_name": "Together Ai 8.1b 21b",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21795,7 +22589,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-81.1b-110b": {
     "model_id": "together-ai-81.1b-110b",
-    "model_slug": "together-ai-81.1b-110b",
     "model_name": "Together Ai 81.1b 110b",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21819,7 +22612,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-embedding-151m-to-350m": {
     "model_id": "together-ai-embedding-151m-to-350m",
-    "model_slug": "together-ai-embedding-151m-to-350m",
     "model_name": "Together Ai Embedding 151m To 350m",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21843,7 +22635,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-embedding-up-to-150m": {
     "model_id": "together-ai-embedding-up-to-150m",
-    "model_slug": "together-ai-embedding-up-to-150m",
     "model_name": "Together Ai Embedding Up To 150m",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21867,7 +22658,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "together-ai-up-to-4b": {
     "model_id": "together-ai-up-to-4b",
-    "model_slug": "together-ai-up-to-4b",
     "model_name": "Together Ai Up To 4b",
     "provider_id": "together",
     "provider_name": "Together AI",
@@ -21891,8 +22681,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "togethercomputer/CodeLlama-34b-Instruct": {
     "model_id": "togethercomputer/CodeLlama-34b-Instruct",
-    "model_slug": "together_ai/togethercomputer/CodeLlama-34b-Instruct",
-    "model_name": "CodeLlama 34b Instruct | togethercomputer",
+    "model_name": "CodeLlama 34b Instruct",
     "provider_id": "together",
     "provider_name": "Together AI",
     "max_input_tokens": null,
@@ -21913,9 +22702,77 @@ export const modelsMap: Record<string, Model> = {
     "model_type": "chat",
     "deprecation_date": null
   },
+  "v0/v0-1.0-md": {
+    "model_id": "v0/v0-1.0-md",
+    "model_name": "V0 1.0 Md",
+    "provider_id": "v0",
+    "provider_name": "V0",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 128000,
+    "input_cost_per_token": 0.000003,
+    "input_cost_per_million": 3,
+    "output_cost_per_token": 0.000015,
+    "output_cost_per_million": 15,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "v0/v0-1.5-lg": {
+    "model_id": "v0/v0-1.5-lg",
+    "model_name": "V0 1.5 Lg",
+    "provider_id": "v0",
+    "provider_name": "V0",
+    "max_input_tokens": 512000,
+    "max_output_tokens": 512000,
+    "input_cost_per_token": 0.000015,
+    "input_cost_per_million": 15,
+    "output_cost_per_token": 0.000075,
+    "output_cost_per_million": 75,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
+  "v0/v0-1.5-md": {
+    "model_id": "v0/v0-1.5-md",
+    "model_name": "V0 1.5 Md",
+    "provider_id": "v0",
+    "provider_name": "V0",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 128000,
+    "input_cost_per_token": 0.000003,
+    "input_cost_per_million": 3,
+    "output_cost_per_token": 0.000015,
+    "output_cost_per_million": 15,
+    "cache_read_cost_per_token": null,
+    "cache_read_cost_per_million": null,
+    "cache_write_cost_per_token": null,
+    "cache_write_cost_per_million": null,
+    "supports_function_calling": true,
+    "supports_vision": true,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true,
+    "supports_streaming": true,
+    "model_type": "chat",
+    "deprecation_date": null
+  },
   "chat-bison": {
     "model_id": "chat-bison",
-    "model_slug": "chat-bison",
     "model_name": "Chat Bison",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -21939,7 +22796,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "chat-bison-32k": {
     "model_id": "chat-bison-32k",
-    "model_slug": "chat-bison-32k",
     "model_name": "Chat Bison 32k",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -21963,7 +22819,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "chat-bison-32k@002": {
     "model_id": "chat-bison-32k@002",
-    "model_slug": "chat-bison-32k@002",
     "model_name": "Chat Bison 32k@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -21987,7 +22842,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "chat-bison@001": {
     "model_id": "chat-bison@001",
-    "model_slug": "chat-bison@001",
     "model_name": "Chat Bison@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22011,7 +22865,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "chat-bison@002": {
     "model_id": "chat-bison@002",
-    "model_slug": "chat-bison@002",
     "model_name": "Chat Bison@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22035,7 +22888,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-haiku": {
     "model_id": "claude-3-5-haiku",
-    "model_slug": "vertex_ai/claude-3-5-haiku",
     "model_name": "Claude 3 5 Haiku",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22059,7 +22911,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-haiku@20241022": {
     "model_id": "claude-3-5-haiku@20241022",
-    "model_slug": "vertex_ai/claude-3-5-haiku@20241022",
     "model_name": "Claude 3 5 Haiku@20241022",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22083,7 +22934,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-sonnet": {
     "model_id": "claude-3-5-sonnet",
-    "model_slug": "vertex_ai/claude-3-5-sonnet",
     "model_name": "Claude 3 5 Sonnet",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22107,7 +22957,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-sonnet-v2": {
     "model_id": "claude-3-5-sonnet-v2",
-    "model_slug": "vertex_ai/claude-3-5-sonnet-v2",
     "model_name": "Claude 3 5 Sonnet V2",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22131,7 +22980,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-sonnet-v2@20241022": {
     "model_id": "claude-3-5-sonnet-v2@20241022",
-    "model_slug": "vertex_ai/claude-3-5-sonnet-v2@20241022",
     "model_name": "Claude 3 5 Sonnet V2@20241022",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22155,7 +23003,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-5-sonnet@20240620": {
     "model_id": "claude-3-5-sonnet@20240620",
-    "model_slug": "vertex_ai/claude-3-5-sonnet@20240620",
     "model_name": "Claude 3 5 Sonnet@20240620",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22179,7 +23026,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-7-sonnet@20250219": {
     "model_id": "claude-3-7-sonnet@20250219",
-    "model_slug": "vertex_ai/claude-3-7-sonnet@20250219",
     "model_name": "Claude 3 7 Sonnet@20250219",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22203,7 +23049,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-haiku": {
     "model_id": "claude-3-haiku",
-    "model_slug": "vertex_ai/claude-3-haiku",
     "model_name": "Claude 3 Haiku",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22227,7 +23072,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-haiku@20240307": {
     "model_id": "claude-3-haiku@20240307",
-    "model_slug": "vertex_ai/claude-3-haiku@20240307",
     "model_name": "Claude 3 Haiku@20240307",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22251,7 +23095,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-opus": {
     "model_id": "claude-3-opus",
-    "model_slug": "vertex_ai/claude-3-opus",
     "model_name": "Claude 3 Opus",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22275,7 +23118,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-opus@20240229": {
     "model_id": "claude-3-opus@20240229",
-    "model_slug": "vertex_ai/claude-3-opus@20240229",
     "model_name": "Claude 3 Opus@20240229",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22299,7 +23141,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-sonnet": {
     "model_id": "claude-3-sonnet",
-    "model_slug": "vertex_ai/claude-3-sonnet",
     "model_name": "Claude 3 Sonnet",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22323,7 +23164,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-3-sonnet@20240229": {
     "model_id": "claude-3-sonnet@20240229",
-    "model_slug": "vertex_ai/claude-3-sonnet@20240229",
     "model_name": "Claude 3 Sonnet@20240229",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22347,7 +23187,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-opus-4": {
     "model_id": "claude-opus-4",
-    "model_slug": "vertex_ai/claude-opus-4",
     "model_name": "Claude Opus 4",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22371,7 +23210,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-opus-4@20250514": {
     "model_id": "claude-opus-4@20250514",
-    "model_slug": "vertex_ai/claude-opus-4@20250514",
     "model_name": "Claude Opus 4@20250514",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22395,7 +23233,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-sonnet-4": {
     "model_id": "claude-sonnet-4",
-    "model_slug": "vertex_ai/claude-sonnet-4",
     "model_name": "Claude Sonnet 4",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22419,7 +23256,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "claude-sonnet-4@20250514": {
     "model_id": "claude-sonnet-4@20250514",
-    "model_slug": "vertex_ai/claude-sonnet-4@20250514",
     "model_name": "Claude Sonnet 4@20250514",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22443,7 +23279,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-bison": {
     "model_id": "code-bison",
-    "model_slug": "code-bison",
     "model_name": "Code Bison",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22467,7 +23302,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-bison-32k@002": {
     "model_id": "code-bison-32k@002",
-    "model_slug": "code-bison-32k@002",
     "model_name": "Code Bison 32k@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22491,7 +23325,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-bison@001": {
     "model_id": "code-bison@001",
-    "model_slug": "code-bison@001",
     "model_name": "Code Bison@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22515,7 +23348,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-bison@002": {
     "model_id": "code-bison@002",
-    "model_slug": "code-bison@002",
     "model_name": "Code Bison@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22539,7 +23371,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-bison32k": {
     "model_id": "code-bison32k",
-    "model_slug": "code-bison32k",
     "model_name": "Code Bison32k",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22563,7 +23394,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-gecko": {
     "model_id": "code-gecko",
-    "model_slug": "code-gecko",
     "model_name": "Code Gecko",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22587,7 +23417,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-gecko-latest": {
     "model_id": "code-gecko-latest",
-    "model_slug": "code-gecko-latest",
     "model_name": "Code Gecko Latest",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22611,7 +23440,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-gecko@001": {
     "model_id": "code-gecko@001",
-    "model_slug": "code-gecko@001",
     "model_name": "Code Gecko@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22635,7 +23463,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "code-gecko@002": {
     "model_id": "code-gecko@002",
-    "model_slug": "code-gecko@002",
     "model_name": "Code Gecko@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22659,7 +23486,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codechat-bison": {
     "model_id": "codechat-bison",
-    "model_slug": "codechat-bison",
     "model_name": "Codechat Bison",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22683,7 +23509,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codechat-bison-32k": {
     "model_id": "codechat-bison-32k",
-    "model_slug": "codechat-bison-32k",
     "model_name": "Codechat Bison 32k",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22707,7 +23532,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codechat-bison-32k@002": {
     "model_id": "codechat-bison-32k@002",
-    "model_slug": "codechat-bison-32k@002",
     "model_name": "Codechat Bison 32k@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22731,7 +23555,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codechat-bison@001": {
     "model_id": "codechat-bison@001",
-    "model_slug": "codechat-bison@001",
     "model_name": "Codechat Bison@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22755,7 +23578,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codechat-bison@002": {
     "model_id": "codechat-bison@002",
-    "model_slug": "codechat-bison@002",
     "model_name": "Codechat Bison@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22779,7 +23601,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codechat-bison@latest": {
     "model_id": "codechat-bison@latest",
-    "model_slug": "codechat-bison@latest",
     "model_name": "Codechat Bison@latest",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22803,7 +23624,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral-2501": {
     "model_id": "codestral-2501",
-    "model_slug": "vertex_ai/codestral-2501",
     "model_name": "Codestral 2501",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22827,7 +23647,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral@2405": {
     "model_id": "codestral@2405",
-    "model_slug": "vertex_ai/codestral@2405",
     "model_name": "Codestral@2405",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22851,7 +23670,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "codestral@latest": {
     "model_id": "codestral@latest",
-    "model_slug": "vertex_ai/codestral@latest",
     "model_name": "Codestral@latest",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22875,7 +23693,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.0-pro": {
     "model_id": "gemini-1.0-pro",
-    "model_slug": "gemini-1.0-pro",
     "model_name": "Gemini 1.0 Pro",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22899,7 +23716,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.0-pro-001": {
     "model_id": "gemini-1.0-pro-001",
-    "model_slug": "gemini-1.0-pro-001",
     "model_name": "Gemini 1.0 Pro 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22923,7 +23739,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.0-pro-002": {
     "model_id": "gemini-1.0-pro-002",
-    "model_slug": "gemini-1.0-pro-002",
     "model_name": "Gemini 1.0 Pro 002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22947,7 +23762,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.0-pro-vision": {
     "model_id": "gemini-1.0-pro-vision",
-    "model_slug": "gemini-1.0-pro-vision",
     "model_name": "Gemini 1.0 Pro Vision",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22971,7 +23785,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.0-pro-vision-001": {
     "model_id": "gemini-1.0-pro-vision-001",
-    "model_slug": "gemini-1.0-pro-vision-001",
     "model_name": "Gemini 1.0 Pro Vision 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -22995,7 +23808,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.0-ultra": {
     "model_id": "gemini-1.0-ultra",
-    "model_slug": "gemini-1.0-ultra",
     "model_name": "Gemini 1.0 Ultra",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23019,7 +23831,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.0-ultra-001": {
     "model_id": "gemini-1.0-ultra-001",
-    "model_slug": "gemini-1.0-ultra-001",
     "model_name": "Gemini 1.0 Ultra 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23043,7 +23854,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-flash": {
     "model_id": "gemini-1.5-flash",
-    "model_slug": "gemini-1.5-flash",
     "model_name": "Gemini 1.5 Flash",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23067,7 +23877,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-flash-001": {
     "model_id": "gemini-1.5-flash-001",
-    "model_slug": "gemini-1.5-flash-001",
     "model_name": "Gemini 1.5 Flash 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23091,7 +23900,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-flash-002": {
     "model_id": "gemini-1.5-flash-002",
-    "model_slug": "gemini-1.5-flash-002",
     "model_name": "Gemini 1.5 Flash 002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23115,7 +23923,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-flash-exp-0827": {
     "model_id": "gemini-1.5-flash-exp-0827",
-    "model_slug": "gemini-1.5-flash-exp-0827",
     "model_name": "Gemini 1.5 Flash Exp 0827",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23139,7 +23946,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-flash-preview-0514": {
     "model_id": "gemini-1.5-flash-preview-0514",
-    "model_slug": "gemini-1.5-flash-preview-0514",
     "model_name": "Gemini 1.5 Flash Preview 0514",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23163,7 +23969,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-pro": {
     "model_id": "gemini-1.5-pro",
-    "model_slug": "gemini-1.5-pro",
     "model_name": "Gemini 1.5 Pro",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23187,7 +23992,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-pro-001": {
     "model_id": "gemini-1.5-pro-001",
-    "model_slug": "gemini-1.5-pro-001",
     "model_name": "Gemini 1.5 Pro 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23211,7 +24015,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-pro-002": {
     "model_id": "gemini-1.5-pro-002",
-    "model_slug": "gemini-1.5-pro-002",
     "model_name": "Gemini 1.5 Pro 002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23235,7 +24038,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-pro-preview-0215": {
     "model_id": "gemini-1.5-pro-preview-0215",
-    "model_slug": "gemini-1.5-pro-preview-0215",
     "model_name": "Gemini 1.5 Pro Preview 0215",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23259,7 +24061,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-pro-preview-0409": {
     "model_id": "gemini-1.5-pro-preview-0409",
-    "model_slug": "gemini-1.5-pro-preview-0409",
     "model_name": "Gemini 1.5 Pro Preview 0409",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23283,7 +24084,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-1.5-pro-preview-0514": {
     "model_id": "gemini-1.5-pro-preview-0514",
-    "model_slug": "gemini-1.5-pro-preview-0514",
     "model_name": "Gemini 1.5 Pro Preview 0514",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23307,7 +24107,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash": {
     "model_id": "gemini-2.0-flash",
-    "model_slug": "gemini-2.0-flash",
     "model_name": "Gemini 2.0 Flash Latest",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23331,7 +24130,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash-001": {
     "model_id": "gemini-2.0-flash-001",
-    "model_slug": "gemini-2.0-flash-001",
     "model_name": "Gemini 2.0 Flash 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23355,7 +24153,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash-exp": {
     "model_id": "gemini-2.0-flash-exp",
-    "model_slug": "gemini-2.0-flash-exp",
     "model_name": "Gemini 2.0 Flash Exp",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23379,7 +24176,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash-lite": {
     "model_id": "gemini-2.0-flash-lite",
-    "model_slug": "gemini-2.0-flash-lite",
     "model_name": "Gemini 2.0 Flash-Lite",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23403,7 +24199,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash-lite-001": {
     "model_id": "gemini-2.0-flash-lite-001",
-    "model_slug": "gemini-2.0-flash-lite-001",
     "model_name": "Gemini 2.0 Flash Lite 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23427,7 +24222,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash-preview-image-generation": {
     "model_id": "gemini-2.0-flash-preview-image-generation",
-    "model_slug": "gemini-2.0-flash-preview-image-generation",
     "model_name": "Gemini 2.0 Flash Preview Image Generation",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23451,7 +24245,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash-thinking-exp": {
     "model_id": "gemini-2.0-flash-thinking-exp",
-    "model_slug": "gemini-2.0-flash-thinking-exp",
     "model_name": "Gemini 2.0 Flash Thinking Exp",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23475,7 +24268,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-flash-thinking-exp-01-21": {
     "model_id": "gemini-2.0-flash-thinking-exp-01-21",
-    "model_slug": "gemini-2.0-flash-thinking-exp-01-21",
     "model_name": "Gemini 2.0 Flash Thinking Exp 01 21",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23499,7 +24291,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.0-pro-exp-02-05": {
     "model_id": "gemini-2.0-pro-exp-02-05",
-    "model_slug": "gemini-2.0-pro-exp-02-05",
     "model_name": "Gemini 2.0 Pro Exp 02 05",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23523,7 +24314,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-flash": {
     "model_id": "gemini-2.5-flash",
-    "model_slug": "gemini-2.5-flash",
     "model_name": "Gemini 2.5 Flash",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23547,7 +24337,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-flash-lite-preview-06-17": {
     "model_id": "gemini-2.5-flash-lite-preview-06-17",
-    "model_slug": "gemini-2.5-flash-lite-preview-06-17",
     "model_name": "Gemini 2.5 Flash-Lite Preview",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23571,7 +24360,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-flash-preview-04-17": {
     "model_id": "gemini-2.5-flash-preview-04-17",
-    "model_slug": "gemini-2.5-flash-preview-04-17",
     "model_name": "Gemini 2.5 Flash Preview 04 17",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23595,7 +24383,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-flash-preview-05-20": {
     "model_id": "gemini-2.5-flash-preview-05-20",
-    "model_slug": "gemini-2.5-flash-preview-05-20",
     "model_name": "Gemini 2.5 Flash Preview 05 20",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23619,7 +24406,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-pro": {
     "model_id": "gemini-2.5-pro",
-    "model_slug": "gemini-2.5-pro",
     "model_name": "Gemini 2.5 Pro",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23643,7 +24429,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-pro-exp-03-25": {
     "model_id": "gemini-2.5-pro-exp-03-25",
-    "model_slug": "gemini-2.5-pro-exp-03-25",
     "model_name": "Gemini 2.5 Pro Exp 03 25",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23667,7 +24452,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-pro-preview-03-25": {
     "model_id": "gemini-2.5-pro-preview-03-25",
-    "model_slug": "gemini-2.5-pro-preview-03-25",
     "model_name": "Gemini 2.5 Pro Preview 03 25",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23691,7 +24475,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-pro-preview-05-06": {
     "model_id": "gemini-2.5-pro-preview-05-06",
-    "model_slug": "gemini-2.5-pro-preview-05-06",
     "model_name": "Gemini 2.5 Pro Preview 05 06",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23715,7 +24498,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-pro-preview-06-05": {
     "model_id": "gemini-2.5-pro-preview-06-05",
-    "model_slug": "gemini-2.5-pro-preview-06-05",
     "model_name": "Gemini 2.5 Pro Preview 06 05",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23739,7 +24521,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-2.5-pro-preview-tts": {
     "model_id": "gemini-2.5-pro-preview-tts",
-    "model_slug": "gemini-2.5-pro-preview-tts",
     "model_name": "Gemini 2.5 Pro Preview Tts",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23763,7 +24544,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-embedding-001": {
     "model_id": "gemini-embedding-001",
-    "model_slug": "gemini-embedding-001",
     "model_name": "Gemini Embedding 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23787,7 +24567,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-flash-experimental": {
     "model_id": "gemini-flash-experimental",
-    "model_slug": "gemini-flash-experimental",
     "model_name": "Gemini Flash Experimental",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23811,7 +24590,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-pro": {
     "model_id": "gemini-pro",
-    "model_slug": "gemini-pro",
     "model_name": "Gemini Pro",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23835,7 +24613,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-pro-experimental": {
     "model_id": "gemini-pro-experimental",
-    "model_slug": "gemini-pro-experimental",
     "model_name": "Gemini Pro Experimental",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23859,7 +24636,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "gemini-pro-vision": {
     "model_id": "gemini-pro-vision",
-    "model_slug": "gemini-pro-vision",
     "model_name": "Gemini Pro Vision",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23883,7 +24659,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "imagegeneration@006": {
     "model_id": "imagegeneration@006",
-    "model_slug": "vertex_ai/imagegeneration@006",
     "model_name": "Imagegeneration@006",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23907,7 +24682,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "imagen-3.0-fast-generate-001": {
     "model_id": "imagen-3.0-fast-generate-001",
-    "model_slug": "vertex_ai/imagen-3.0-fast-generate-001",
     "model_name": "Imagen 3.0 Fast Generate 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23931,7 +24705,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "imagen-3.0-generate-001": {
     "model_id": "imagen-3.0-generate-001",
-    "model_slug": "vertex_ai/imagen-3.0-generate-001",
     "model_name": "Imagen 3.0 Generate 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23955,7 +24728,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "imagen-3.0-generate-002": {
     "model_id": "imagen-3.0-generate-002",
-    "model_slug": "vertex_ai/imagen-3.0-generate-002",
     "model_name": "Imagen 3.0 Generate 002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -23979,7 +24751,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "imagen-4.0-fast-generate-preview-06-06": {
     "model_id": "imagen-4.0-fast-generate-preview-06-06",
-    "model_slug": "vertex_ai/imagen-4.0-fast-generate-preview-06-06",
     "model_name": "Imagen 4.0 Fast Generate Preview 06 06",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24003,7 +24774,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "imagen-4.0-generate-preview-06-06": {
     "model_id": "imagen-4.0-generate-preview-06-06",
-    "model_slug": "vertex_ai/imagen-4.0-generate-preview-06-06",
     "model_name": "Imagen 4.0 Generate Preview 06 06",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24027,7 +24797,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "imagen-4.0-ultra-generate-preview-06-06": {
     "model_id": "imagen-4.0-ultra-generate-preview-06-06",
-    "model_slug": "vertex_ai/imagen-4.0-ultra-generate-preview-06-06",
     "model_name": "Imagen 4.0 Ultra Generate Preview 06 06",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24051,7 +24820,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "medlm-large": {
     "model_id": "medlm-large",
-    "model_slug": "medlm-large",
     "model_name": "Medlm Large",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24075,7 +24843,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "medlm-medium": {
     "model_id": "medlm-medium",
-    "model_slug": "medlm-medium",
     "model_name": "Medlm Medium",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24099,8 +24866,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-3.2-90b-vision-instruct-maas": {
     "model_id": "meta/llama-3.2-90b-vision-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama-3.2-90b-vision-instruct-maas",
-    "model_name": "Llama 3.2 90b Vision Instruct Maas | meta",
+    "model_name": "Llama 3.2 90b Vision Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 128000,
@@ -24123,8 +24889,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-4-maverick-17b-128e-instruct-maas": {
     "model_id": "meta/llama-4-maverick-17b-128e-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama-4-maverick-17b-128e-instruct-maas",
-    "model_name": "Llama 4 Maverick 17b 128e Instruct Maas | meta",
+    "model_name": "Llama 4 Maverick 17b 128e Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 1000000,
@@ -24147,8 +24912,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-4-maverick-17b-16e-instruct-maas": {
     "model_id": "meta/llama-4-maverick-17b-16e-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama-4-maverick-17b-16e-instruct-maas",
-    "model_name": "Llama 4 Maverick 17b 16e Instruct Maas | meta",
+    "model_name": "Llama 4 Maverick 17b 16e Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 1000000,
@@ -24171,8 +24935,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-4-scout-17b-128e-instruct-maas": {
     "model_id": "meta/llama-4-scout-17b-128e-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama-4-scout-17b-128e-instruct-maas",
-    "model_name": "Llama 4 Scout 17b 128e Instruct Maas | meta",
+    "model_name": "Llama 4 Scout 17b 128e Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 10000000,
@@ -24195,8 +24958,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama-4-scout-17b-16e-instruct-maas": {
     "model_id": "meta/llama-4-scout-17b-16e-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama-4-scout-17b-16e-instruct-maas",
-    "model_name": "Llama 4 Scout 17b 16e Instruct Maas | meta",
+    "model_name": "Llama 4 Scout 17b 16e Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 10000000,
@@ -24219,8 +24981,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama3-405b-instruct-maas": {
     "model_id": "meta/llama3-405b-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama3-405b-instruct-maas",
-    "model_name": "Llama3 405b Instruct Maas | meta",
+    "model_name": "Llama3 405b Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 32000,
@@ -24243,8 +25004,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama3-70b-instruct-maas": {
     "model_id": "meta/llama3-70b-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama3-70b-instruct-maas",
-    "model_name": "Llama3 70b Instruct Maas | meta",
+    "model_name": "Llama3 70b Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 32000,
@@ -24267,8 +25027,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "meta/llama3-8b-instruct-maas": {
     "model_id": "meta/llama3-8b-instruct-maas",
-    "model_slug": "vertex_ai/meta/llama3-8b-instruct-maas",
-    "model_name": "Llama3 8b Instruct Maas | meta",
+    "model_name": "Llama3 8b Instruct Maas",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
     "max_input_tokens": 32000,
@@ -24291,7 +25050,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-large-2411": {
     "model_id": "mistral-large-2411",
-    "model_slug": "vertex_ai/mistral-large-2411",
     "model_name": "Mistral Large 2411",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24315,7 +25073,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-large@2407": {
     "model_id": "mistral-large@2407",
-    "model_slug": "vertex_ai/mistral-large@2407",
     "model_name": "Mistral Large@2407",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24339,7 +25096,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-large@2411-001": {
     "model_id": "mistral-large@2411-001",
-    "model_slug": "vertex_ai/mistral-large@2411-001",
     "model_name": "Mistral Large@2411 001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24363,7 +25119,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-large@latest": {
     "model_id": "mistral-large@latest",
-    "model_slug": "vertex_ai/mistral-large@latest",
     "model_name": "Mistral Large@latest",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24387,7 +25142,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-nemo@2407": {
     "model_id": "mistral-nemo@2407",
-    "model_slug": "vertex_ai/mistral-nemo@2407",
     "model_name": "Mistral Nemo@2407",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24411,7 +25165,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-nemo@latest": {
     "model_id": "mistral-nemo@latest",
-    "model_slug": "vertex_ai/mistral-nemo@latest",
     "model_name": "Mistral Nemo@latest",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24435,7 +25188,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-small-2503": {
     "model_id": "mistral-small-2503",
-    "model_slug": "vertex_ai/mistral-small-2503",
     "model_name": "Mistral Small 2503",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24459,7 +25211,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "mistral-small-2503@001": {
     "model_id": "mistral-small-2503@001",
-    "model_slug": "vertex_ai/mistral-small-2503@001",
     "model_name": "Mistral Small 2503@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24483,7 +25234,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "multimodalembedding": {
     "model_id": "multimodalembedding",
-    "model_slug": "multimodalembedding",
     "model_name": "Multimodalembedding",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24507,7 +25257,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "multimodalembedding@001": {
     "model_id": "multimodalembedding@001",
-    "model_slug": "multimodalembedding@001",
     "model_name": "Multimodalembedding@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24531,7 +25280,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-bison": {
     "model_id": "text-bison",
-    "model_slug": "text-bison",
     "model_name": "Text Bison",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24555,7 +25303,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-bison@001": {
     "model_id": "text-bison@001",
-    "model_slug": "text-bison@001",
     "model_name": "Text Bison@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24579,7 +25326,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-bison@002": {
     "model_id": "text-bison@002",
-    "model_slug": "text-bison@002",
     "model_name": "Text Bison@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24603,7 +25349,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-bison32k": {
     "model_id": "text-bison32k",
-    "model_slug": "text-bison32k",
     "model_name": "Text Bison32k",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24627,7 +25372,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-bison32k@002": {
     "model_id": "text-bison32k@002",
-    "model_slug": "text-bison32k@002",
     "model_name": "Text Bison32k@002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24651,7 +25395,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-embedding-004": {
     "model_id": "text-embedding-004",
-    "model_slug": "text-embedding-004",
     "model_name": "Text Embedding 004",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24675,7 +25418,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-embedding-005": {
     "model_id": "text-embedding-005",
-    "model_slug": "text-embedding-005",
     "model_name": "Text Embedding 005",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24699,7 +25441,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-embedding-large-exp-03-07": {
     "model_id": "text-embedding-large-exp-03-07",
-    "model_slug": "text-embedding-large-exp-03-07",
     "model_name": "Text Embedding Large Exp 03 07",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24723,7 +25464,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-embedding-preview-0409": {
     "model_id": "text-embedding-preview-0409",
-    "model_slug": "text-embedding-preview-0409",
     "model_name": "Text Embedding Preview 0409",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24747,7 +25487,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-multilingual-embedding-002": {
     "model_id": "text-multilingual-embedding-002",
-    "model_slug": "text-multilingual-embedding-002",
     "model_name": "Text Multilingual Embedding 002",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24771,7 +25510,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-multilingual-embedding-preview-0409": {
     "model_id": "text-multilingual-embedding-preview-0409",
-    "model_slug": "text-multilingual-embedding-preview-0409",
     "model_name": "Text Multilingual Embedding Preview 0409",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24795,7 +25533,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-unicorn": {
     "model_id": "text-unicorn",
-    "model_slug": "text-unicorn",
     "model_name": "Text Unicorn",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24819,7 +25556,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "text-unicorn@001": {
     "model_id": "text-unicorn@001",
-    "model_slug": "text-unicorn@001",
     "model_name": "Text Unicorn@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24843,7 +25579,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "textembedding-gecko": {
     "model_id": "textembedding-gecko",
-    "model_slug": "textembedding-gecko",
     "model_name": "Textembedding Gecko",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24867,7 +25602,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "textembedding-gecko-multilingual": {
     "model_id": "textembedding-gecko-multilingual",
-    "model_slug": "textembedding-gecko-multilingual",
     "model_name": "Textembedding Gecko Multilingual",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24891,7 +25625,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "textembedding-gecko-multilingual@001": {
     "model_id": "textembedding-gecko-multilingual@001",
-    "model_slug": "textembedding-gecko-multilingual@001",
     "model_name": "Textembedding Gecko Multilingual@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24915,7 +25648,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "textembedding-gecko@001": {
     "model_id": "textembedding-gecko@001",
-    "model_slug": "textembedding-gecko@001",
     "model_name": "Textembedding Gecko@001",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24939,7 +25671,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "textembedding-gecko@003": {
     "model_id": "textembedding-gecko@003",
-    "model_slug": "textembedding-gecko@003",
     "model_name": "Textembedding Gecko@003",
     "provider_id": "vertex",
     "provider_name": "Google Vertex AI",
@@ -24963,7 +25694,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "rerank-2": {
     "model_id": "rerank-2",
-    "model_slug": "voyage/rerank-2",
     "model_name": "Rerank 2",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -24987,7 +25717,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "rerank-2-lite": {
     "model_id": "rerank-2-lite",
-    "model_slug": "voyage/rerank-2-lite",
     "model_name": "Rerank 2 Lite",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25011,7 +25740,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-01": {
     "model_id": "voyage-01",
-    "model_slug": "voyage/voyage-01",
     "model_name": "Voyage 01",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25035,7 +25763,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-2": {
     "model_id": "voyage-2",
-    "model_slug": "voyage/voyage-2",
     "model_name": "Voyage 2",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25059,7 +25786,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-3": {
     "model_id": "voyage-3",
-    "model_slug": "voyage/voyage-3",
     "model_name": "Voyage 3",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25083,7 +25809,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-3-large": {
     "model_id": "voyage-3-large",
-    "model_slug": "voyage/voyage-3-large",
     "model_name": "Voyage 3 Large",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25107,7 +25832,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-3-lite": {
     "model_id": "voyage-3-lite",
-    "model_slug": "voyage/voyage-3-lite",
     "model_name": "Voyage 3 Lite",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25131,7 +25855,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-code-2": {
     "model_id": "voyage-code-2",
-    "model_slug": "voyage/voyage-code-2",
     "model_name": "Voyage Code 2",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25155,7 +25878,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-code-3": {
     "model_id": "voyage-code-3",
-    "model_slug": "voyage/voyage-code-3",
     "model_name": "Voyage Code 3",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25179,7 +25901,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-finance-2": {
     "model_id": "voyage-finance-2",
-    "model_slug": "voyage/voyage-finance-2",
     "model_name": "Voyage Finance 2",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25203,7 +25924,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-large-2": {
     "model_id": "voyage-large-2",
-    "model_slug": "voyage/voyage-large-2",
     "model_name": "Voyage Large 2",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25227,7 +25947,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-law-2": {
     "model_id": "voyage-law-2",
-    "model_slug": "voyage/voyage-law-2",
     "model_name": "Voyage Law 2",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25251,7 +25970,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-lite-01": {
     "model_id": "voyage-lite-01",
-    "model_slug": "voyage/voyage-lite-01",
     "model_name": "Voyage Lite 01",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25275,7 +25993,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-lite-02-instruct": {
     "model_id": "voyage-lite-02-instruct",
-    "model_slug": "voyage/voyage-lite-02-instruct",
     "model_name": "Voyage Lite 02 Instruct",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25299,7 +26016,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "voyage-multimodal-3": {
     "model_id": "voyage-multimodal-3",
-    "model_slug": "voyage/voyage-multimodal-3",
     "model_name": "Voyage Multimodal 3",
     "provider_id": "voyage",
     "provider_name": "Voyage AI",
@@ -25323,8 +26039,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "watsonx/ibm/granite-3-8b-instruct": {
     "model_id": "watsonx/ibm/granite-3-8b-instruct",
-    "model_slug": "watsonx/ibm/granite-3-8b-instruct",
-    "model_name": "Granite 3 8b Instruct | ibm | watsonx",
+    "model_name": "Granite 3 8b Instruct",
     "provider_id": "watsonx",
     "provider_name": "IBM Watsonx",
     "max_input_tokens": 8192,
@@ -25347,8 +26062,7 @@ export const modelsMap: Record<string, Model> = {
   },
   "watsonx/mistralai/mistral-large": {
     "model_id": "watsonx/mistralai/mistral-large",
-    "model_slug": "watsonx/mistralai/mistral-large",
-    "model_name": "Mistral Large | mistralai | watsonx",
+    "model_name": "Mistral Large",
     "provider_id": "watsonx",
     "provider_name": "IBM Watsonx",
     "max_input_tokens": 131072,
@@ -25371,7 +26085,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-2": {
     "model_id": "grok-2",
-    "model_slug": "xai/grok-2",
     "model_name": "Grok 2",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25395,7 +26108,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-2-1212": {
     "model_id": "grok-2-1212",
-    "model_slug": "xai/grok-2-1212",
     "model_name": "Grok 2 1212",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25419,7 +26131,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-2-latest": {
     "model_id": "grok-2-latest",
-    "model_slug": "xai/grok-2-latest",
     "model_name": "Grok 2 Latest",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25443,7 +26154,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-2-vision": {
     "model_id": "grok-2-vision",
-    "model_slug": "xai/grok-2-vision",
     "model_name": "Grok 2 Vision",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25467,7 +26177,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-2-vision-1212": {
     "model_id": "grok-2-vision-1212",
-    "model_slug": "xai/grok-2-vision-1212",
     "model_name": "Grok 2 Vision 1212",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25491,7 +26200,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-2-vision-latest": {
     "model_id": "grok-2-vision-latest",
-    "model_slug": "xai/grok-2-vision-latest",
     "model_name": "Grok 2 Vision Latest",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25515,7 +26223,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3": {
     "model_id": "grok-3",
-    "model_slug": "xai/grok-3",
     "model_name": "Grok 3",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25539,7 +26246,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-beta": {
     "model_id": "grok-3-beta",
-    "model_slug": "xai/grok-3-beta",
     "model_name": "Grok 3 Beta",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25563,7 +26269,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-fast-beta": {
     "model_id": "grok-3-fast-beta",
-    "model_slug": "xai/grok-3-fast-beta",
     "model_name": "Grok 3 Fast Beta",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25587,7 +26292,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-fast-latest": {
     "model_id": "grok-3-fast-latest",
-    "model_slug": "xai/grok-3-fast-latest",
     "model_name": "Grok 3 Fast Latest",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25611,7 +26315,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-latest": {
     "model_id": "grok-3-latest",
-    "model_slug": "xai/grok-3-latest",
     "model_name": "Grok 3 Latest",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25635,7 +26338,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-mini": {
     "model_id": "grok-3-mini",
-    "model_slug": "xai/grok-3-mini",
     "model_name": "Grok 3 Mini",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25659,7 +26361,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-mini-beta": {
     "model_id": "grok-3-mini-beta",
-    "model_slug": "xai/grok-3-mini-beta",
     "model_name": "Grok 3 Mini Beta",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25683,7 +26384,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-mini-fast": {
     "model_id": "grok-3-mini-fast",
-    "model_slug": "xai/grok-3-mini-fast",
     "model_name": "Grok 3 Mini Fast",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25707,7 +26407,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-mini-fast-beta": {
     "model_id": "grok-3-mini-fast-beta",
-    "model_slug": "xai/grok-3-mini-fast-beta",
     "model_name": "Grok 3 Mini Fast Beta",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25731,7 +26430,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-mini-fast-latest": {
     "model_id": "grok-3-mini-fast-latest",
-    "model_slug": "xai/grok-3-mini-fast-latest",
     "model_name": "Grok 3 Mini Fast Latest",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25755,7 +26453,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-3-mini-latest": {
     "model_id": "grok-3-mini-latest",
-    "model_slug": "xai/grok-3-mini-latest",
     "model_name": "Grok 3 Mini Latest",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25779,7 +26476,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-4": {
     "model_id": "grok-4",
-    "model_slug": "xai/grok-4",
     "model_name": "Grok 4",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25803,7 +26499,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-4-0709": {
     "model_id": "grok-4-0709",
-    "model_slug": "xai/grok-4-0709",
     "model_name": "Grok 4 0709",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25827,7 +26522,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-4-latest": {
     "model_id": "grok-4-latest",
-    "model_slug": "xai/grok-4-latest",
     "model_name": "Grok 4 Latest",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25851,7 +26545,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-beta": {
     "model_id": "grok-beta",
-    "model_slug": "xai/grok-beta",
     "model_name": "Grok Beta",
     "provider_id": "xai",
     "provider_name": "xAI",
@@ -25875,7 +26568,6 @@ export const modelsMap: Record<string, Model> = {
   },
   "grok-vision-beta": {
     "model_id": "grok-vision-beta",
-    "model_slug": "xai/grok-vision-beta",
     "model_name": "Grok Vision Beta",
     "provider_id": "xai",
     "provider_name": "xAI",

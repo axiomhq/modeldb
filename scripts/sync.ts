@@ -63,13 +63,16 @@ const LiteLLMModelSchema = z
 export type LiteLLMModel = z.infer<typeof LiteLLMModelSchema>;
 
 const prefixPattern =
-  /^(openai|anthropic|bedrock|vertex_ai|cohere|replicate|huggingface|together_ai|deepinfra|groq|mistral|perplexity|anyscale|cloudflare|voyage|databricks|ai21|azure)\//;
+  /^(openai|anthropic|bedrock|vertex_ai|cohere|replicate|huggingface|together_ai|deepinfra|groq|mistral|perplexity|anyscale|cloudflare|voyage|databricks|ai21)\//;
 function transformModelId(litellmName: string, provider?: string): string {
   if (provider === 'google') {
     if (litellmName.startsWith('gemini/gemini-')) {
-      return litellmName.substring(14); // Remove 'gemini/gemini-'
+      return litellmName.substring(14);
     }
     if (litellmName.startsWith('gemini/')) {
+      return litellmName.substring(7);
+    }
+    if (litellmName.startsWith('gemini/gemma-')) {
       return litellmName.substring(7);
     }
   }
@@ -148,7 +151,6 @@ export function transformModel(
 
   const model: Model = {
     model_id: modelId,
-    model_slug: litellmName,
     model_name: generateDisplayName(modelId),
 
     provider_id: providerId,

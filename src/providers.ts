@@ -96,6 +96,16 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
           },
         },
       },
+      404: {
+        description: 'Provider not found',
+        content: {
+          'application/json': {
+            schema: z.object({
+              error: z.string(),
+            }),
+          },
+        },
+      },
     },
   });
 
@@ -103,7 +113,12 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
     const { id } = c.req.valid('param');
     const query = c.req.valid('query');
 
-    const models = modelsByProvider[id] || [];
+    const models = modelsByProvider[id];
+
+    if (!models) {
+      return c.json({ error: 'Provider not found' }, 404);
+    }
+
     const projectFields = safeParseQueryCSV(query.project);
 
     // Apply field projection if requested
@@ -118,9 +133,9 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         }
         return projectedModel;
       });
-      return c.json(projectedModels);
+      return c.json(projectedModels, 200);
     }
 
-    return c.json(models);
+    return c.json(models, 200);
   });
 }
