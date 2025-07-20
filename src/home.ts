@@ -48,22 +48,6 @@ function sectionHeader(title: string, width: number = 72): string {
   return `${line}\n${' '.repeat(leftPad)}${title}${' '.repeat(rightPad)}\n${line}`;
 }
 
-function box(content: string, width: number = 72): string {
-  // Handle content that might contain HTML tags
-  const lines = content.split('\n');
-  const paddedLines = lines.map(line => {
-    // For single-line content, we need to ensure proper spacing
-    // The box should have 2 chars for borders and 2 for padding on each side
-    const innerWidth = width - 4;
-    return `${BOX.VERTICAL} ${line}${' '.repeat(Math.max(0, innerWidth - line.length))} ${BOX.VERTICAL}`;
-  });
-
-  const top = BOX.TOP_LEFT + BOX.HORIZONTAL.repeat(width - 2) + BOX.TOP_RIGHT;
-  const bottom = BOX.BOTTOM_LEFT + BOX.HORIZONTAL.repeat(width - 2) + BOX.BOTTOM_RIGHT;
-
-  return [top, ...paddedLines, bottom].join('\n');
-}
-
 interface TableColumn {
   header: string;
   width: number;
@@ -71,8 +55,6 @@ interface TableColumn {
 }
 
 function table(columns: TableColumn[], rows: any[][]): string {
-  const totalWidth = columns.reduce((sum, col) => sum + col.width + 3, 1);
-
   // Build header
   let output = BOX.TOP_LEFT;
   columns.forEach((col, i) => {
@@ -175,7 +157,7 @@ function buildProviderStats(stats: Record<string, number>): string {
   const maxCount = Math.max(...Object.values(stats));
 
   const columns: TableColumn[] = [
-    { header: 'Provider', width: 30 },
+    { header: 'Provider', width: 29 },
     { header: 'Count', width: 5, align: 'right' },
     { header: 'Distribution', width: 28 }
   ];
@@ -194,7 +176,7 @@ function buildTypeStats(stats: Record<string, number>): string {
   const maxCount = Math.max(...Object.values(stats));
 
   const columns: TableColumn[] = [
-    { header: 'Model Type', width: 30 },
+    { header: 'Model Type', width: 29 },
     { header: 'Count', width: 5, align: 'right' },
     { header: 'Distribution', width: 28 }
   ];
@@ -217,7 +199,7 @@ function buildCapabilitiesMatrix(capabilities: any, total: number): string {
   ];
 
   const columns: TableColumn[] = [
-    { header: 'Capability', width: 30 },
+    { header: 'Capability', width: 29 },
     { header: 'Count', width: 5, align: 'right' },
     { header: 'Distribution', width: 28 }
   ];
@@ -244,16 +226,33 @@ export function buildHome(): string {
   <meta name="description" content="ModelDB - Free API for AI model information including provider details, costs, context windows, and capabilities">
   <title>ModelDB - AI Model Information API</title>
   <style>
+	  @font-face {
+	    font-family: "BerkeleyMono";
+	    src: url("https://axiom.co/fonts/BerkeleyMono-Regular.woff2") format("woff2");
+	    font-weight: 400;
+	    font-style: normal;
+	  }
+
+	  /* Bold weight (700) */
+	  @font-face {
+	    font-family: "BerkeleyMono";
+	    src: url("https://axiom.co/fonts/BerkeleyMono-Bold.woff2") format("woff2");
+	    font-weight: 700;
+	    font-style: normal;
+	  }
+
     /* Light mode (default) */
     body {
       margin: 0;
       padding: 0;
       background-color: #fff;
       color: #000;
-      font-family: 'Courier New', monospace;
+      font-family: "BerkeleyMono", "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 14px;
       margin: 20px;
     }
     pre {
+      font-family: "BerkeleyMono", "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
       margin: 0;
       padding: 0;
       overflow-x: auto;
@@ -266,6 +265,9 @@ export function buildHome(): string {
     a:hover {
       text-decoration: underline;
       color: #000;
+    }
+    bold {
+      font-weight: 700;
     }
     .skip-link:focus {
       position: static !important;

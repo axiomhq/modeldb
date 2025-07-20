@@ -2,7 +2,7 @@ import { OpenAPIHono } from '@hono/zod-openapi';
 import { cache } from 'hono/cache';
 import { cors } from 'hono/cors';
 import { etag } from 'hono/etag';
-import { json2csv } from 'json-2-csv';
+import { env } from 'cloudflare:workers';
 import { buildHome } from './home';
 import { registerMetadataRoutes } from './metadata';
 import { registerModelsRoutes } from './models';
@@ -41,14 +41,16 @@ app.use(
   })
 );
 
-app.use('*', etag());
-app.use(
-  '/api/*',
-  cache({
-    cacheName: 'modeldb-api',
-    cacheControl: 'max-age=3600, s-maxage=86400',
-  })
-);
+if (env.ENV === 'production') {
+	app.use('*', etag());
+	app.use(
+		'/api/*',
+		cache({
+			cacheName: 'modeldb-api',
+			cacheControl: 'max-age=3600, s-maxage=86400',
+		})
+	);
+}
 
 registerModelsRoutes(app);
 registerProvidersRoutes(app);

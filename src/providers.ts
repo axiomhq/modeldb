@@ -9,8 +9,10 @@ import {
   type ProvidersPartial,
   FormatSchema,
   HeadersSchema,
+  FillWithZerosSchema,
 } from './schema';
 import { safeParseQueryCSV, objectsToCSV } from './csv';
+import { fillNullsWithZeros, projectModelFields, projectModelsFields } from './model-utils';
 
 export function registerProvidersRoutes(app: OpenAPIHono) {
   const getProviders = createRoute({
@@ -27,6 +29,7 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         project: ProjectSchema,
         format: FormatSchema,
         headers: HeadersSchema,
+        'fill-with-zeros': FillWithZerosSchema,
       }),
     },
     responses: {
@@ -64,16 +67,14 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
 
     if (projectFields.length > 0) {
       for (const [provider, models] of Object.entries(result)) {
-        result[provider] = models.map((model) => {
-          const projectedModel: ModelsPartial = {};
-          for (const field of projectFields) {
-            if (field in model) {
-              // @ts-expect-error
-              projectedModel[field] = model[field as keyof typeof model];
-            }
-          }
-          return projectedModel;
-        });
+        result[provider] = projectModelsFields(models, projectFields);
+      }
+    }
+
+    // Apply fill-with-zeros transformation
+    if (query['fill-with-zeros']) {
+      for (const [provider, models] of Object.entries(result)) {
+        result[provider] = models.map((model) => fillNullsWithZeros(model));
       }
     }
 
@@ -108,6 +109,7 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         project: ProjectSchema.optional(),
         format: FormatSchema,
         headers: HeadersSchema,
+        'fill-with-zeros': FillWithZerosSchema,
       }),
     },
     responses: {
@@ -156,32 +158,34 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
     const projectFields = safeParseQueryCSV(query.project);
 
     if (projectFields.length > 0) {
-      const projectedModels = models.map((model) => {
-        const projectedModel: ModelsPartial = {};
-        for (const field of projectFields) {
-          if (field in model) {
-            // @ts-expect-error
-            projectedModel[field] = model[field as keyof typeof model];
-          }
-        }
-        return projectedModel;
-      });
+      const projectedModels = projectModelsFields(models, projectFields);
+
+      // Apply fill-with-zeros transformation
+      const finalModels = query['fill-with-zeros']
+        ? projectedModels.map(model => fillNullsWithZeros(model))
+        : projectedModels;
+
       if (query.format === 'csv') {
-        const csv = objectsToCSV(projectedModels, projectFields, query.headers);
+        const csv = objectsToCSV(finalModels, projectFields, query.headers);
         return c.text(csv, 200, {
           'Content-Type': 'text/csv',
         });
       }
-      return c.json(projectedModels, 200);
+      return c.json(finalModels, 200);
     }
 
+    // Apply fill-with-zeros transformation to full models list
+    const resultModels = query['fill-with-zeros']
+      ? models.map(model => fillNullsWithZeros(model))
+      : models;
+
     if (query.format === 'csv') {
-      const csv = objectsToCSV(models, undefined, query.headers);
+      const csv = objectsToCSV(resultModels, undefined, query.headers);
       return c.text(csv, 200, {
         'Content-Type': 'text/csv',
       });
     }
 
-    return c.json(models, 200);
+    return c.json(resultModels, 200);
   });
 }

@@ -93,6 +93,13 @@ export const HeadersSchema = z
   })
   .describe('Include headers in CSV output (true/false, defaults to true)');
 
+export const FillWithZerosSchema = z
+  .string()
+  .optional()
+  .default('true')
+  .transform((val) => val !== 'false')
+  .describe('Replace null number values with 0 (default: true)');
+
 export type Model = z.infer<typeof ModelSchema>;
 export type Models = z.infer<typeof ModelsSchema>;
 export type ModelsPartial = z.infer<typeof ModelPartialSchema>;

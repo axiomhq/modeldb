@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
+		"deploy:prod": "wrangler deploy --env production",
 		"dev": "wrangler dev",
 		"gen:types": "wrangler types",
 		"lint": "ultracite --fix",
