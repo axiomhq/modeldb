@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { fillNullsWithZeros, projectModelFields, projectModelsFields } from '../src/model-utils';
+import {
+  fillNullsWithZeros,
+  projectModelFields,
+  projectModelsFields,
+} from '../src/model-utils';
 import type { Model } from '../src/schema';
 
 describe('model-utils', () => {
@@ -157,16 +161,28 @@ describe('model-utils', () => {
     });
 
     it('should project multiple fields', () => {
-      const result = projectModelFields(sampleModel, ['model_id', 'provider_id', 'model_type']);
+      const result = projectModelFields(sampleModel, [
+        'model_id',
+        'provider_id',
+        'model_type',
+      ]);
 
-      expect(Object.keys(result).sort()).toEqual(['model_id', 'model_type', 'provider_id']);
+      expect(Object.keys(result).sort()).toEqual([
+        'model_id',
+        'model_type',
+        'provider_id',
+      ]);
       expect(result.model_id).toBe('gpt-4');
       expect(result.provider_id).toBe('openai');
       expect(result.model_type).toBe('chat');
     });
 
     it('should ignore non-existent fields', () => {
-      const result = projectModelFields(sampleModel, ['model_id', 'non_existent_field', 'provider_id']);
+      const result = projectModelFields(sampleModel, [
+        'model_id',
+        'non_existent_field',
+        'provider_id',
+      ]);
 
       expect(Object.keys(result).sort()).toEqual(['model_id', 'provider_id']);
       expect(result.model_id).toBe('gpt-4');
@@ -181,7 +197,10 @@ describe('model-utils', () => {
     });
 
     it('should preserve field values including nulls', () => {
-      const result = projectModelFields(sampleModel, ['cache_read_cost_per_token', 'deprecation_date']);
+      const result = projectModelFields(sampleModel, [
+        'cache_read_cost_per_token',
+        'deprecation_date',
+      ]);
 
       expect(result.cache_read_cost_per_token).toBeNull();
       expect(result.deprecation_date).toBeNull();
@@ -193,7 +212,11 @@ describe('model-utils', () => {
         provider_id: 'test-provider',
       };
 
-      const result = projectModelFields(partialModel, ['model_id', 'provider_id', 'model_type']);
+      const result = projectModelFields(partialModel, [
+        'model_id',
+        'provider_id',
+        'model_type',
+      ]);
 
       expect(Object.keys(result).sort()).toEqual(['model_id', 'provider_id']);
       expect(result.model_id).toBe('test');
@@ -221,7 +244,10 @@ describe('model-utils', () => {
     ];
 
     it('should project fields from multiple models', () => {
-      const result = projectModelsFields(sampleModels, ['model_id', 'provider_id']);
+      const result = projectModelsFields(sampleModels, [
+        'model_id',
+        'provider_id',
+      ]);
 
       expect(result).toHaveLength(3);
       result.forEach((model, index) => {
@@ -248,7 +274,10 @@ describe('model-utils', () => {
     });
 
     it('should ignore non-existent fields consistently', () => {
-      const result = projectModelsFields(sampleModels, ['model_id', 'non_existent']);
+      const result = projectModelsFields(sampleModels, [
+        'model_id',
+        'non_existent',
+      ]);
 
       expect(result).toHaveLength(3);
       result.forEach((model, index) => {

@@ -1,5 +1,5 @@
 import { vi } from 'vitest';
-import { testModels, testModelMap, testProviders } from './fixtures/models';
+import { testModelMap, testModels, testProviders } from './fixtures/models';
 
 vi.mock('../src/data/list', () => ({
   modelsList: testModels,
@@ -24,5 +24,5 @@ vi.mock('../src/data/metadata', () => ({
 
 // Mock cloudflare:workers env
 vi.mock('cloudflare:workers', () => ({
-  env: { ENV: 'dev' }
+  env: { ENV: 'dev' },
 }));

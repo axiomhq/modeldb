@@ -49,11 +49,11 @@ npm test -- path/to/test.spec.ts
 
 ### API Endpoints
 
-- `GET /models` - List all models with filtering options
-- `GET /models/:id` - Get a specific model by ID
-- `GET /providers` - List all providers
-- `GET /providers/:id` - Get models for a specific provider
-- `GET /metadata` - Get sync metadata
+- `GET /api/v1/models` - List all models with filtering options
+- `GET /api/v1/models/:id` - Get a specific model by ID
+- `GET /api/v1/providers` - List all providers
+- `GET /api/v1/providers/:id` - Get models for a specific provider
+- `GET /api/v1/metadata` - Get sync metadata
 - `GET /openapi.json` - OpenAPI specification
 - `GET /` - ASCII art home page
 
@@ -93,7 +93,7 @@ To update the model database with latest information:
 
 ### Common Tasks
 
-**Adding a new filter to /models endpoint:**
+**Adding a new filter to /api/v1/models endpoint:**
 1. Update the query schema in `src/models.ts`
 2. Add filter logic in the route handler
 3. Update OpenAPI documentation if needed

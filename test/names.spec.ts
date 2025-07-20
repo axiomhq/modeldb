@@ -15,26 +15,42 @@ describe('name generation utilities', () => {
       });
 
       it('should return predefined names for Anthropic models', () => {
-        expect(generateDisplayName('claude-sonnet-4-20250514')).toBe('Claude 4 Sonnet');
-        expect(generateDisplayName('claude-3-opus-latest')).toBe('Claude 3 Opus');
-        expect(generateDisplayName('claude-3-haiku-20240307')).toBe('Claude 3 Haiku');
-        expect(generateDisplayName('claude-instant-1.2')).toBe('Claude Instant 1.2');
+        expect(generateDisplayName('claude-sonnet-4-20250514')).toBe(
+          'Claude 4 Sonnet'
+        );
+        expect(generateDisplayName('claude-3-opus-latest')).toBe(
+          'Claude 3 Opus'
+        );
+        expect(generateDisplayName('claude-3-haiku-20240307')).toBe(
+          'Claude 3 Haiku'
+        );
+        expect(generateDisplayName('claude-instant-1.2')).toBe(
+          'Claude Instant 1.2'
+        );
       });
 
       it('should return predefined names for Google models', () => {
-        expect(generateDisplayName('gemini-2.5-flash')).toBe('Gemini 2.5 Flash');
+        expect(generateDisplayName('gemini-2.5-flash')).toBe(
+          'Gemini 2.5 Flash'
+        );
         expect(generateDisplayName('gemini-1.5-pro')).toBe('Gemini 1.5 Pro');
         expect(generateDisplayName('gemini-pro')).toBe('Gemini Pro');
       });
 
       it('should return predefined names for Meta/Llama models', () => {
-        expect(generateDisplayName('llama-3.3-70b-instruct-turbo')).toBe('Llama 3.3 70B Instruct Turbo');
+        expect(generateDisplayName('llama-3.3-70b-instruct-turbo')).toBe(
+          'Llama 3.3 70B Instruct Turbo'
+        );
         expect(generateDisplayName('llama3-70b')).toBe('Llama 3 70B');
-        expect(generateDisplayName('llama-2-70b-chat')).toBe('LLaMA 2 70b Chat');
+        expect(generateDisplayName('llama-2-70b-chat')).toBe(
+          'LLaMA 2 70b Chat'
+        );
       });
 
       it('should return predefined names for Mistral models', () => {
-        expect(generateDisplayName('mistral-large-latest')).toBe('Mistral Large');
+        expect(generateDisplayName('mistral-large-latest')).toBe(
+          'Mistral Large'
+        );
         expect(generateDisplayName('mistral-7b')).toBe('Mistral 7B');
         expect(generateDisplayName('mixtral-8x7b')).toBe('Mixtral 8x7b');
         expect(generateDisplayName('codestral-latest')).toBe('Codestral');
@@ -44,18 +60,26 @@ describe('name generation utilities', () => {
     describe('slash-separated model IDs', () => {
       it('should handle provider/model format', () => {
         expect(generateDisplayName('openai/gpt-4')).toBe('GPT 4');
-        expect(generateDisplayName('anthropic/claude-3-opus-latest')).toBe('Claude 3 Opus');
+        expect(generateDisplayName('anthropic/claude-3-opus-latest')).toBe(
+          'Claude 3 Opus'
+        );
         expect(generateDisplayName('google/gemini-pro')).toBe('Gemini Pro');
       });
 
       it('should handle unknown models with provider prefix', () => {
-        expect(generateDisplayName('unknown/some-new-model')).toBe('Some New Model');
-        expect(generateDisplayName('provider/test-model-v2')).toBe('Test Model V2');
+        expect(generateDisplayName('unknown/some-new-model')).toBe(
+          'Some New Model'
+        );
+        expect(generateDisplayName('provider/test-model-v2')).toBe(
+          'Test Model V2'
+        );
       });
 
       it('should handle multiple slashes', () => {
         expect(generateDisplayName('org/provider/gpt-4')).toBe('GPT 4');
-        expect(generateDisplayName('a/b/c/unknown-model')).toBe('Unknown Model');
+        expect(generateDisplayName('a/b/c/unknown-model')).toBe(
+          'Unknown Model'
+        );
       });
     });
 
@@ -94,7 +118,9 @@ describe('name generation utilities', () => {
       });
 
       it('should handle special characters', () => {
-        expect(generateDisplayName('model_with_underscores')).toBe('Model_with_underscores');
+        expect(generateDisplayName('model_with_underscores')).toBe(
+          'Model_with_underscores'
+        );
         expect(generateDisplayName('model.with.dots')).toBe('Model.with.dots');
       });
     });
@@ -137,24 +163,32 @@ describe('name generation utilities', () => {
     describe('text-completion prefixed providers', () => {
       it('should extract provider from text-completion prefix', () => {
         expect(getProviderDisplayName('text-completion-openai')).toBe('OpenAI');
-        expect(getProviderDisplayName('text-completion-anthropic')).toBe('Anthropic');
+        expect(getProviderDisplayName('text-completion-anthropic')).toBe(
+          'Anthropic'
+        );
         expect(getProviderDisplayName('text-completion-cohere')).toBe('Cohere');
       });
 
       it('should handle unknown text-completion providers', () => {
-        expect(getProviderDisplayName('text-completion-unknown')).toBe('Text Completion Unknown');
+        expect(getProviderDisplayName('text-completion-unknown')).toBe(
+          'Text Completion Unknown'
+        );
       });
     });
 
     describe('auto-generated provider names', () => {
       it('should capitalize words separated by hyphens', () => {
         expect(getProviderDisplayName('new-provider')).toBe('New Provider');
-        expect(getProviderDisplayName('test-ai-company')).toBe('Test AI Company');
+        expect(getProviderDisplayName('test-ai-company')).toBe(
+          'Test AI Company'
+        );
       });
 
       it('should capitalize words separated by underscores', () => {
         expect(getProviderDisplayName('new_provider')).toBe('New Provider');
-        expect(getProviderDisplayName('test_ai_company')).toBe('Test AI Company');
+        expect(getProviderDisplayName('test_ai_company')).toBe(
+          'Test AI Company'
+        );
       });
 
       it('should handle special abbreviations', () => {
@@ -165,8 +199,12 @@ describe('name generation utilities', () => {
       });
 
       it('should handle mixed separators', () => {
-        expect(getProviderDisplayName('new-ai_provider')).toBe('New AI Provider');
-        expect(getProviderDisplayName('test_provider-ai')).toBe('Test Provider AI');
+        expect(getProviderDisplayName('new-ai_provider')).toBe(
+          'New AI Provider'
+        );
+        expect(getProviderDisplayName('test_provider-ai')).toBe(
+          'Test Provider AI'
+        );
       });
     });
 
@@ -193,7 +231,9 @@ describe('name generation utilities', () => {
       });
 
       it('should preserve correct casing for known abbreviations', () => {
-        expect(getProviderDisplayName('custom-ai-llm-api-ml')).toBe('Custom AI LLM API ML');
+        expect(getProviderDisplayName('custom-ai-llm-api-ml')).toBe(
+          'Custom AI LLM API ML'
+        );
       });
     });
   });

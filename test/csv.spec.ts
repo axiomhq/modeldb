@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { safeParseQueryCSV, objectsToCSV } from '../src/csv';
+import { objectsToCSV, safeParseQueryCSV } from '../src/csv';
 
 describe('csv utilities', () => {
   describe('safeParseQueryCSV', () => {
@@ -121,7 +121,7 @@ describe('csv utilities', () => {
       it('should include headers by default', () => {
         const data = [{ id: '1', name: 'Test' }];
         const result = objectsToCSV(data);
-        
+
         expect(result.startsWith('id,name')).toBe(true);
       });
 
@@ -144,35 +144,35 @@ describe('csv utilities', () => {
       it('should escape fields containing commas', () => {
         const data = [{ id: '1', name: 'Smith, John', value: 100 }];
         const result = objectsToCSV(data);
-        
+
         expect(result).toContain('"Smith, John"');
       });
 
       it('should escape fields containing quotes', () => {
         const data = [{ id: '1', name: 'John "Johnny" Smith' }];
         const result = objectsToCSV(data);
-        
+
         expect(result).toContain('"John ""Johnny"" Smith"');
       });
 
       it('should escape fields containing newlines', () => {
         const data = [{ id: '1', description: 'Line 1\nLine 2' }];
         const result = objectsToCSV(data);
-        
+
         expect(result).toContain('"Line 1\nLine 2"');
       });
 
       it('should handle fields with multiple special characters', () => {
         const data = [{ text: 'Has, commas and "quotes" and\nnewlines' }];
         const result = objectsToCSV(data);
-        
+
         expect(result).toContain('"Has, commas and ""quotes"" and\nnewlines"');
       });
 
       it('should not escape simple fields', () => {
         const data = [{ id: '1', name: 'Simple Text' }];
         const result = objectsToCSV(data);
-        
+
         const lines = result.split('\n');
         expect(lines[1]).toBe('1,Simple Text');
       });
@@ -182,7 +182,7 @@ describe('csv utilities', () => {
       it('should convert null values to empty strings', () => {
         const data = [{ id: '1', name: null, value: 100 }];
         const result = objectsToCSV(data);
-        
+
         const lines = result.split('\n');
         expect(lines[1]).toBe('1,,100');
       });
@@ -190,7 +190,7 @@ describe('csv utilities', () => {
       it('should convert undefined values to empty strings', () => {
         const data = [{ id: '1', name: undefined, value: 100 }];
         const result = objectsToCSV(data);
-        
+
         const lines = result.split('\n');
         expect(lines[1]).toBe('1,,100');
       });
@@ -212,7 +212,7 @@ describe('csv utilities', () => {
       it('should convert numbers to strings', () => {
         const data = [{ id: 1, value: 123.45, count: 0 }];
         const result = objectsToCSV(data);
-        
+
         const lines = result.split('\n');
         expect(lines[1]).toBe('1,123.45,0');
       });
@@ -220,7 +220,7 @@ describe('csv utilities', () => {
       it('should convert booleans to strings', () => {
         const data = [{ id: '1', active: true, deleted: false }];
         const result = objectsToCSV(data);
-        
+
         const lines = result.split('\n');
         expect(lines[1]).toBe('1,true,false');
       });
@@ -228,7 +228,7 @@ describe('csv utilities', () => {
       it('should handle arrays by converting to string', () => {
         const data = [{ id: '1', tags: ['a', 'b', 'c'] }];
         const result = objectsToCSV(data);
-        
+
         const lines = result.split('\n');
         expect(lines[1]).toBe('1,"a,b,c"');
       });
@@ -236,7 +236,7 @@ describe('csv utilities', () => {
       it('should handle objects by converting to string', () => {
         const data = [{ id: '1', meta: { key: 'value' } }];
         const result = objectsToCSV(data);
-        
+
         expect(result).toContain('[object Object]');
       });
     });
@@ -245,7 +245,7 @@ describe('csv utilities', () => {
       it('should handle single object', () => {
         const data = [{ id: '1', name: 'Single' }];
         const result = objectsToCSV(data);
-        
+
         const lines = result.split('\n');
         expect(lines).toHaveLength(2);
       });
@@ -253,7 +253,7 @@ describe('csv utilities', () => {
       it('should handle empty objects', () => {
         const data = [{}, {}];
         const result = objectsToCSV(data);
-        
+
         // Empty objects result in empty header and empty rows
         expect(result).toBe('\n\n');
       });

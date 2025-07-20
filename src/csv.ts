@@ -7,7 +7,11 @@ export function safeParseQueryCSV(str?: string): string[] {
   );
 }
 
-export function objectsToCSV(data: any[], fields?: string[], includeHeaders: boolean = true): string {
+export function objectsToCSV(
+  data: any[],
+  fields?: string[],
+  includeHeaders = true
+): string {
   if (!data || data.length === 0) {
     return '';
   }
@@ -15,14 +19,20 @@ export function objectsToCSV(data: any[], fields?: string[], includeHeaders: boo
   const headers = fields || Object.keys(data[0]);
   const csvHeader = headers.map(escapeCSVField).join(',');
 
-  const csvRows = data.map(item =>
-    headers.map(field => {
-      const value = item[field];
-      return escapeCSVField(value === null || value === undefined ? '' : String(value));
-    }).join(',')
+  const csvRows = data.map((item) =>
+    headers
+      .map((field) => {
+        const value = item[field];
+        return escapeCSVField(
+          value === null || value === undefined ? '' : String(value)
+        );
+      })
+      .join(',')
   );
 
-  return includeHeaders ? [csvHeader, ...csvRows].join('\n') : csvRows.join('\n');
+  return includeHeaders
+    ? [csvHeader, ...csvRows].join('\n')
+    : csvRows.join('\n');
 }
 
 function escapeCSVField(field: string): string {

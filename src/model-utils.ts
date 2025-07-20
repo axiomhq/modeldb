@@ -1,17 +1,13 @@
-import { type Model, type ModelsPartial } from './schema';
+import type { Model, ModelsPartial } from './schema';
 
 /**
  * Check if a field name indicates it should contain numeric values
  */
 function isNumericField(fieldName: string): boolean {
-  const numericPatterns = [
-    'tokens',
-    'cost',
-    'million',
-  ];
+  const numericPatterns = ['tokens', 'cost', 'million'];
 
   const lowerFieldName = fieldName.toLowerCase();
-  return numericPatterns.some(pattern => lowerFieldName.includes(pattern));
+  return numericPatterns.some((pattern) => lowerFieldName.includes(pattern));
 }
 
 /**
@@ -23,7 +19,7 @@ export function fillNullsWithZeros<T>(obj: T): T {
   }
 
   if (Array.isArray(obj)) {
-    return obj.map(item => fillNullsWithZeros(item)) as T;
+    return obj.map((item) => fillNullsWithZeros(item)) as T;
   }
 
   if (typeof obj === 'object') {
@@ -69,5 +65,5 @@ export function projectModelsFields(
   models: (Model | ModelsPartial)[],
   fields: string[]
 ): ModelsPartial[] {
-  return models.map(model => projectModelFields(model, fields));
+  return models.map((model) => projectModelFields(model, fields));
 }

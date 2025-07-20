@@ -1,9 +1,9 @@
 import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
+import { objectsToCSV } from './csv';
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
 import { FormatSchema, HeadersSchema } from './schema';
-import { objectsToCSV } from './csv';
 
 const MetadataSchema = z.object({
   source: z.string().describe('Source URL of the model data'),
@@ -85,7 +85,7 @@ function calculateStatistics() {
 export function registerMetadataRoutes(app: OpenAPIHono) {
   const getMetadata = createRoute({
     method: 'get',
-    path: '/api/metadata',
+    path: '/api/v1/metadata',
     tags: ['Metadata'],
     summary: 'Get models metadata',
     request: {
@@ -128,19 +128,28 @@ export function registerMetadataRoutes(app: OpenAPIHono) {
           total_providers: Object.keys(response.stats.providers).length,
           total_active: response.stats.deprecation.active,
           total_deprecated: response.stats.deprecation.deprecated,
-          ...Object.entries(response.stats.providers).reduce((acc, [key, value]) => ({
-            ...acc,
-            [`provider_${key}`]: value
-          }), {}),
-          ...Object.entries(response.stats.types).reduce((acc, [key, value]) => ({
-            ...acc,
-            [`type_${key}`]: value
-          }), {}),
-          ...Object.entries(response.stats.capabilities).reduce((acc, [key, value]) => ({
-            ...acc,
-            [`capability_${key}`]: value
-          }), {})
-        }
+          ...Object.entries(response.stats.providers).reduce(
+            (acc, [key, value]) => ({
+              ...acc,
+              [`provider_${key}`]: value,
+            }),
+            {}
+          ),
+          ...Object.entries(response.stats.types).reduce(
+            (acc, [key, value]) => ({
+              ...acc,
+              [`type_${key}`]: value,
+            }),
+            {}
+          ),
+          ...Object.entries(response.stats.capabilities).reduce(
+            (acc, [key, value]) => ({
+              ...acc,
+              [`capability_${key}`]: value,
+            }),
+            {}
+          ),
+        },
       ];
       const csv = objectsToCSV(flatData, undefined, query.headers);
       return c.text(csv, 200, {

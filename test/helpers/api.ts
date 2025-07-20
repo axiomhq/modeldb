@@ -55,18 +55,22 @@ export async function expectCSV(response: Response): Promise<string> {
 export function parseCSV(csv: string): Array<Record<string, string>> {
   const lines = csv.trim().split('\n');
   if (lines.length < 2) return [];
-  
-  const headers = lines[0].split(',').map(h => h.trim());
-  return lines.slice(1).map(line => {
+
+  const headers = lines[0].split(',').map((h) => h.trim());
+  return lines.slice(1).map((line) => {
     const values = [];
     let current = '';
     let inQuotes = false;
-    
+
     for (let i = 0; i < line.length; i++) {
       const char = line[i];
-      if (char === '"' && (i === 0 || line[i-1] === ',')) {
+      if (char === '"' && (i === 0 || line[i - 1] === ',')) {
         inQuotes = true;
-      } else if (char === '"' && inQuotes && (i === line.length - 1 || line[i+1] === ',')) {
+      } else if (
+        char === '"' &&
+        inQuotes &&
+        (i === line.length - 1 || line[i + 1] === ',')
+      ) {
         inQuotes = false;
       } else if (char === ',' && !inQuotes) {
         values.push(current.trim());
@@ -76,7 +80,7 @@ export function parseCSV(csv: string): Array<Record<string, string>> {
       }
     }
     values.push(current.trim());
-    
+
     return Object.fromEntries(
       headers.map((header, i) => [header, values[i] || ''])
     );

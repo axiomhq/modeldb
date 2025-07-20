@@ -1,22 +1,26 @@
 import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
+import { objectsToCSV, safeParseQueryCSV } from './csv';
 import { modelsList } from './data/list';
 import { modelsMap } from './data/map';
 import {
+  fillNullsWithZeros,
+  projectModelFields,
+  projectModelsFields,
+} from './model-utils';
+import {
+  FillWithZerosSchema,
+  FormatSchema,
+  HeadersSchema,
   ModelPartialSchema,
   type ModelsPartial,
   ProjectSchema,
-  FormatSchema,
-  HeadersSchema,
-  FillWithZerosSchema,
 } from './schema';
-import { safeParseQueryCSV, objectsToCSV } from './csv';
-import { fillNullsWithZeros, projectModelFields, projectModelsFields } from './model-utils';
 
 export function registerModelsRoutes(app: OpenAPIHono) {
   const getModels = createRoute({
     method: 'get',
-    path: '/api/models',
+    path: '/api/v1/models',
     tags: ['Models'],
     summary: 'List models',
     request: {
@@ -82,13 +86,11 @@ export function registerModelsRoutes(app: OpenAPIHono) {
 
     let result = modelsList;
 
-
     if (prefixFilter.length > 0) {
       result = result.filter((model) =>
         prefixFilter.some((prefix) => model.model_id.startsWith(prefix))
       );
     }
-
 
     if (providerFilter.length > 0) {
       result = result.filter((model) =>
@@ -96,21 +98,19 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       );
     }
 
-
     if (typeFilter.length > 0) {
       result = result.filter((model) => typeFilter.includes(model.model_type));
     }
-
 
     if (capabilityFilter.length > 0) {
       result = result.filter((model) => {
         return capabilityFilter.every((capability) => {
           // Map capability names to model properties
           const capabilityMap: Record<string, keyof typeof model> = {
-            'function_calling': 'supports_function_calling',
-            'vision': 'supports_vision',
-            'json_mode': 'supports_json_mode',
-            'parallel_functions': 'supports_parallel_functions',
+            function_calling: 'supports_function_calling',
+            vision: 'supports_vision',
+            json_mode: 'supports_json_mode',
+            parallel_functions: 'supports_parallel_functions',
           };
 
           const modelProperty = capabilityMap[capability];
@@ -123,7 +123,6 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       });
     }
 
-
     if (query.deprecated !== undefined) {
       result = result.filter((model) =>
         query.deprecated
@@ -132,13 +131,12 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       );
     }
 
-
     if (projectFields.length > 0) {
       const projectedModels = projectModelsFields(result, projectFields);
 
       // Apply fill-with-zeros transformation to projected models
       const finalModels = query['fill-with-zeros']
-        ? projectedModels.map(model => fillNullsWithZeros(model))
+        ? projectedModels.map((model) => fillNullsWithZeros(model))
         : projectedModels;
 
       if (query.format === 'csv') {
@@ -153,7 +151,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
 
     // Apply fill-with-zeros transformation
     if (query['fill-with-zeros']) {
-      result = result.map(model => fillNullsWithZeros(model));
+      result = result.map((model) => fillNullsWithZeros(model));
     }
 
     if (query.format === 'csv') {
@@ -168,7 +166,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
 
   const getModel = createRoute({
     method: 'get',
-    path: '/api/models/:id',
+    path: '/api/v1/models/:id',
     tags: ['Models'],
     summary: 'Get a single model',
     request: {
@@ -246,7 +244,9 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     }
 
     // Apply fill-with-zeros transformation to full model
-    const resultModel = query['fill-with-zeros'] ? fillNullsWithZeros(model) : model;
+    const resultModel = query['fill-with-zeros']
+      ? fillNullsWithZeros(model)
+      : model;
 
     if (query.format === 'csv') {
       const csv = objectsToCSV([resultModel], undefined, query.headers);

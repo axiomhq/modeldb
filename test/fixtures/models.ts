@@ -158,12 +158,12 @@ export const testModels: Model[] = [
 ];
 
 export const testModelMap: Record<string, Model> = Object.fromEntries(
-  testModels.map(model => [model.model_id, model])
+  testModels.map((model) => [model.model_id, model])
 );
 
 export const testProviders = {
-  openai: testModels.filter(m => m.provider_id === 'openai'),
-  anthropic: testModels.filter(m => m.provider_id === 'anthropic'),
-  google: testModels.filter(m => m.provider_id === 'google'),
-  cohere: testModels.filter(m => m.provider_id === 'cohere'),
+  openai: testModels.filter((m) => m.provider_id === 'openai'),
+  anthropic: testModels.filter((m) => m.provider_id === 'anthropic'),
+  google: testModels.filter((m) => m.provider_id === 'google'),
+  cohere: testModels.filter((m) => m.provider_id === 'cohere'),
 };

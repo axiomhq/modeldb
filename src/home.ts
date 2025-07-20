@@ -23,7 +23,11 @@ function stripHtml(html: string): string {
 }
 
 // Pad string considering HTML content
-function padHtml(str: string, len: number, align: 'left' | 'right' = 'left'): string {
+function padHtml(
+  str: string,
+  len: number,
+  align: 'left' | 'right' = 'left'
+): string {
   const visibleLength = stripHtml(str).length;
   if (visibleLength >= len) {
     // If visible content is too long, we need to truncate the actual content
@@ -69,7 +73,7 @@ function sectionHeader(title: string, width = 62): string {
   const padding = Math.max(0, width - title.length - 2);
   const leftPad = Math.floor(padding / 2);
   const rightPad = padding - leftPad;
-  return `\n█ <b>${title}</b> ${'░'.repeat((leftPad+rightPad-1))}`;
+  return `\n█ <b>${title}</b> ${'░'.repeat(leftPad + rightPad - 1)}`;
 }
 
 // ASCII table builder
@@ -87,7 +91,11 @@ interface TableColumn {
   render?: (value: unknown, row: TableData) => string;
 }
 
-function asciiTable(title: string, columns: TableColumn[], data: TableData[]): string {
+function asciiTable(
+  title: string,
+  columns: TableColumn[],
+  data: TableData[]
+): string {
   // Build header
   let output = BOX.TOP_LEFT;
   for (let i = 0; i < columns.length; i++) {
@@ -184,9 +192,7 @@ function calculateStats() {
 // Build home page
 export function buildHome(): string {
   const stats = calculateStats();
-  const lastUpdated = new Date(
-    modelsMetadata.generated_at
-  ).toISOString();
+  const lastUpdated = new Date(modelsMetadata.generated_at).toISOString();
   const maxProviderCount = Math.max(
     ...stats.providerCounts.map((p) => p.count)
   );
@@ -351,9 +357,15 @@ export function buildHome(): string {
 ${sectionHeader('DATABASE STATISTICS')}
 <div role="region" aria-label="Provider statistics table">
 ${asciiTable(
-	`All Providers (${stats.totalProviders} total)`,
+  `All Providers (${stats.totalProviders} total)`,
   [
-    { header: 'Provider', width: 24, key: 'name', render: (v: unknown) => `<a href="/api/providers/${v}" aria-label="View ${v} models">${v}</a>` },
+    {
+      header: 'Provider',
+      width: 24,
+      key: 'name',
+      render: (v: unknown) =>
+        `<a href="/api/v1/providers/${v}" aria-label="View ${v} models">${v}</a>`,
+    },
     {
       header: 'Count',
       width: 5,
@@ -373,9 +385,15 @@ ${asciiTable(
 </div>
 <div role="region" aria-label="Model type distribution table">
 ${asciiTable(
-	"Model Types",
+  'Model Types',
   [
-    { header: 'Model Type', width: 24, key: 'name', render: (v: unknown) => `<a href="/api/models?type=${v}" aria-label="View ${v} models">${v}</a>` },
+    {
+      header: 'Model Type',
+      width: 24,
+      key: 'name',
+      render: (v: unknown) =>
+        `<a href="/api/v1/models?type=${v}" aria-label="View ${v} models">${v}</a>`,
+    },
     {
       header: 'Count',
       width: 5,
@@ -394,9 +412,16 @@ ${asciiTable(
 )}
 </div>
 <div role="region" aria-label="Capability support matrix table">
-${asciiTable("Capability Support",
+${asciiTable(
+  'Capability Support',
   [
-    { header: 'Capability', width: 24, key: 'name', render: (v: unknown) => `<a href="/api/models?capability=${v}" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v}</a>` },
+    {
+      header: 'Capability',
+      width: 24,
+      key: 'name',
+      render: (v: unknown) =>
+        `<a href="/api/v1/models?capability=${v}" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v}</a>`,
+    },
     {
       header: 'Count',
       width: 5,
@@ -427,22 +452,22 @@ ${sectionHeader('QUICK EXAMPLES')}
 
 List all models:
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models" aria-label="API endpoint to list all models">/api/models</a>                                            │
+│ GET <a href="/api/v1/models" aria-label="API endpoint to list all models">/api/v1/models</a>                                        │
 └────────────────────────────────────────────────────────────┘
 
 Filter by provider:
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/models?providers=openai,anthropic</a>                 │
+│ GET <a href="/api/v1/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/v1/models?providers=openai,anthropic</a>             │
 └────────────────────────────────────────────────────────────┘
 
 Get specific fields:
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models?project=model_id,model_name,provider_id" aria-label="API endpoint to get specific model fields">/api/models?project=model_id,model_name,provider_id</a>    │
+│ GET <a href="/api/v1/models?project=model_id,model_name,provider_id" aria-label="API endpoint to get specific model fields">/api/v1/models?project=model_id,model_name,provider_id</a>│
 └────────────────────────────────────────────────────────────┘
 
 Get a specific model:
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models/o3" aria-label="API endpoint to get GPT-4 model details">/api/models/o3</a>                                         │
+│ GET <a href="/api/v1/models/o3" aria-label="API endpoint to get GPT-4 model details">/api/v1/models/o3</a>                                     │
 └────────────────────────────────────────────────────────────┘
 
 </pre>
@@ -453,11 +478,11 @@ Get a specific model:
 <pre>
 ${sectionHeader('API ROUTES')}
 
-  <a href="/api/models" aria-label="API models endpoint">/api/models</a>         List all models with filtering
-  <a href="/api/models/gpt-4" aria-label="API model by ID endpoint example">/api/models/:id</a>     Get a specific model by ID
-  <a href="/api/providers" aria-label="API providers endpoint">/api/providers</a>      List all providers
-  <a href="/api/providers/openai" aria-label="API provider models endpoint example">/api/providers/:id</a>  Get models for a provider
-  <a href="/api/metadata" aria-label="API metadata endpoint">/api/metadata</a>       Get database metadata & stats
+  <a href="/api/v1/models" aria-label="API models endpoint">/api/v1/models</a>         List all models with filtering
+  <a href="/api/v1/models/gpt-4" aria-label="API model by ID endpoint example">/api/v1/models/:id</a>     Get a specific model by ID
+  <a href="/api/v1/providers" aria-label="API providers endpoint">/api/v1/providers</a>      List all providers
+  <a href="/api/v1/providers/openai" aria-label="API provider models endpoint example">/api/v1/providers/:id</a>  Get models for a provider
+  <a href="/api/v1/metadata" aria-label="API metadata endpoint">/api/v1/metadata</a>       Get database metadata & stats
 
 </pre>
 </section>

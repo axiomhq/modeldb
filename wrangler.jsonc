@@ -1,23 +1,23 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "modeldb",
-	"main": "src/index.ts",
-	"compatibility_date": "2025-07-12",
-	"observability": {
-		"enabled": true
-	},
-	"vars": {
-		"ENV": "dev"
-	},
-	"env": {
-		"production": {
-			"vars": {
-				"ENV": "production"
-			},
-			"route": {
-				"pattern": "modeldb.axiom.co",
-				"custom_domain": true
-			}
-		}
-	}
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "modeldb",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-07-12",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "ENV": "dev"
+  },
+  "env": {
+    "production": {
+      "vars": {
+        "ENV": "production"
+      },
+      "route": {
+        "pattern": "modeldb.axiom.co",
+        "custom_domain": true
+      }
+    }
+  }
 }
