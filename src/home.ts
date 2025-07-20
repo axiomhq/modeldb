@@ -69,7 +69,7 @@ function sectionHeader(title: string, width = 62): string {
   const padding = Math.max(0, width - title.length - 2);
   const leftPad = Math.floor(padding / 2);
   const rightPad = padding - leftPad;
-  return `\n█ <b>${title}</b> ${'░'.repeat((leftPad+rightPad))}`;
+  return `\n█ <b>${title}</b> ${'░'.repeat((leftPad+rightPad-1))}`;
 }
 
 // ASCII table builder
@@ -186,7 +186,7 @@ export function buildHome(): string {
   const stats = calculateStats();
   const lastUpdated = new Date(
     modelsMetadata.generated_at
-  ).toLocaleDateString();
+  ).toISOString();
   const maxProviderCount = Math.max(
     ...stats.providerCounts.map((p) => p.count)
   );
@@ -261,8 +261,18 @@ export function buildHome(): string {
 
     @media (max-width: 768px) {
       body {
-        margin: 10px;
+        margin: 0;
         font-size: 12px;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+      pre {
+        max-width: 100%;
+        margin: 0 auto;
       }
       .hide-mobile {
         display: none;
@@ -271,8 +281,18 @@ export function buildHome(): string {
 
     @media (max-width: 480px) {
       body {
-        margin: 5px;
+        margin: 0;
         font-size: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+      pre {
+        max-width: 100%;
+        margin: 0 auto;
       }
     }
   </style>
@@ -298,21 +318,32 @@ export function buildHome(): string {
 
 
 ══════════════════════════════════════════════════════════════
-   Models: <b>${formatNumber(stats.totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Last Updated: <b>${lastUpdated}</b>
+        Models: <b>${formatNumber(stats.totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Deprecated: <b>${formatNumber(stats.deprecatedCount)}</b>
 ══════════════════════════════════════════════════════════════
 
-<b>API for AI model information like providers, cost, context
-types, features, and more.</b>
+<b>NAME</b>
+     <b>modeldb</b> - REST API service for AI model metadata and costs
 
-▸ Built from <b>LiteLLM's</b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a> (synced hourly)
-▸ Optimized for apps & data workloads like lookups
-▸ Filtering and field projection
-▸ <b>JSON</b> and <b>CSV</b> support
-▸ OpenAPI 3.1 specification
-▸ CORS-enabled for browser usage
-▸ Stable API (breaking changes versioned)
-▸ <b>Completely free to use</b>
-▸ <b>No authentication required</b>
+<b>DESCRIPTION</b>
+     The modeldb API provides a comprehensive database of AI
+     language models with their associated metadata including
+     costs, context windows, capabilities, and provider
+     information. Designed for programmatic access by
+     applications or data workloads requiring model selection,
+     cost estimation, or capability comparison.
+
+<b>FEATURES</b>
+    ▸ Built from <b>LiteLLM's</b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a>
+    ▸ Optimized for apps & data workloads like lookups
+    ▸ Filtering and field projection
+    ▸ <b>JSON</b> and <b>CSV</b> support
+    ▸ OpenAPI 3.1 specification
+    ▸ CORS-enabled for browser usage
+    ▸ Stable API (breaking changes versioned)
+    ▸ <b>Completely free to use</b>
+    ▸ <b>No authentication required</b>
+    ▸ Synced hourly
+    ▸ Last Updated: <b>${lastUpdated}</b>
 
 </pre>
 <section aria-label="Database Statistics">
@@ -454,6 +485,17 @@ ${sectionHeader('SUPPORT')}
 - If you have issues with model details, <b>please support the
   LiteLLM</b> community by contributing a pull request to the
   <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json" aria-label="LiteLLM model prices JSON file">model_prices_and_context_window.json</a> on the <a href="https://github.com/BerriAI/litellm" aria-label="LiteLLM GitHub repository"><b>LiteLLM project</b></a>.
+
+</pre>
+</section>
+
+<section aria-label="Acknowledgements">
+<h2 style="position: absolute; left: -9999px;">Acknowledgements</h2>
+<pre>
+${sectionHeader('Acknowledgements')}
+
+Huge thank you to the LiteLLM community for their ongoing
+contributions to keep the model details up-to-date &hearts;.
 
 </pre>
 </section>
