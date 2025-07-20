@@ -1,28 +1,35 @@
-// i started this then i went to far to come back so we will live with this forever - njpatel
+// i started this and went too far, so we have to deal with it - njpatel
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
 
-function pad(str: string, len: number, align: 'left' | 'right' = 'left'): string {
-  if (str.length >= len) return str.substring(0, len);
-  if (align === 'left') return str + ' '.repeat(len - str.length);
+// Helper functions
+function pad(
+  str: string,
+  len: number,
+  align: 'left' | 'right' = 'left'
+): string {
+  if (str.length >= len) {
+    return str.substring(0, len);
+  }
+  if (align === 'left') {
+    return str + ' '.repeat(len - str.length);
+  }
   return ' '.repeat(len - str.length) + str;
 }
 
-// Strip HTML tags to get visible text length
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>/g, '');
+function formatNumber(num: number): string {
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-// Pad string considering HTML content
-function padHtml(str: string, len: number, align: 'left' | 'right' = 'left'): string {
-  const visibleLength = stripHtml(str).length;
-  if (visibleLength >= len) {
-    // If visible content is too long, we need to truncate the actual content
-    return str;
-  }
-  const paddingNeeded = len - visibleLength;
-  if (align === 'left') return str + ' '.repeat(paddingNeeded);
-  return ' '.repeat(paddingNeeded) + str;
+function _formatCurrency(num: number): string {
+  return num === 0 ? 'Free' : `$${num.toFixed(num < 0.01 ? 4 : 2)}`;
+}
+
+function progressBar(value: number, max: number, width = 20): string {
+  const percentage = Math.min(value / max, 1);
+  const filled = Math.max(1, Math.floor(percentage * width));
+  const empty = width - filled;
+  return '█'.repeat(filled) + '░'.repeat(empty);
 }
 
 // ASCII Box Drawing Characters
@@ -40,7 +47,8 @@ const BOX = {
   CROSS: '┼',
 };
 
-function sectionHeader(title: string, width: number = 72): string {
+// Section header builder
+function sectionHeader(title: string, width = 72): string {
   const padding = Math.max(0, width - title.length - 2);
   const leftPad = Math.floor(padding / 2);
   const rightPad = padding - leftPad;
@@ -48,175 +56,125 @@ function sectionHeader(title: string, width: number = 72): string {
   return `${line}\n${' '.repeat(leftPad)}${title}${' '.repeat(rightPad)}\n${line}`;
 }
 
+// ASCII table builder
+interface TableData {
+  [key: string]: unknown;
+  count?: number;
+  name?: string;
+}
+
 interface TableColumn {
   header: string;
   width: number;
   align?: 'left' | 'right';
+  key?: string;
+  render?: (value: unknown, row: TableData) => string;
 }
 
-function table(columns: TableColumn[], rows: any[][]): string {
+function asciiTable(columns: TableColumn[], data: TableData[]): string {
   // Build header
   let output = BOX.TOP_LEFT;
-  columns.forEach((col, i) => {
+  for (let i = 0; i < columns.length; i++) {
+    const col = columns[i];
     output += BOX.HORIZONTAL.repeat(col.width + 2);
     output += i < columns.length - 1 ? BOX.T_DOWN : '';
-  });
-  output += BOX.TOP_RIGHT + '\n';
+  }
+  output += `${BOX.TOP_RIGHT}\n`;
 
   // Header row
   output += BOX.VERTICAL;
-  columns.forEach(col => {
+  for (const col of columns) {
     output += ` ${pad(col.header, col.width)} ${BOX.VERTICAL}`;
-  });
+  }
   output += '\n';
 
   // Separator
   output += BOX.T_RIGHT;
-  columns.forEach((col, i) => {
+  for (let i = 0; i < columns.length; i++) {
+    const col = columns[i];
     output += BOX.HORIZONTAL.repeat(col.width + 2);
     output += i < columns.length - 1 ? BOX.CROSS : '';
-  });
-  output += BOX.T_LEFT + '\n';
+  }
+  output += `${BOX.T_LEFT}\n`;
 
   // Data rows
-  rows.forEach(row => {
+  for (const row of data) {
     output += BOX.VERTICAL;
-    row.forEach((cell, i) => {
+    for (let i = 0; i < columns.length; i++) {
       const col = columns[i];
-      output += ` ${padHtml(String(cell), col.width, col.align)} ${BOX.VERTICAL}`;
-    });
+      const value = col.key ? row[col.key] : row[i];
+      const rendered = col.render ? col.render(value, row) : String(value);
+      output += ` ${pad(rendered, col.width, col.align)} ${BOX.VERTICAL}`;
+    }
     output += '\n';
-  });
+  }
 
   // Bottom border
   output += BOX.BOTTOM_LEFT;
-  columns.forEach((col, i) => {
+  for (let i = 0; i < columns.length; i++) {
+    const col = columns[i];
     output += BOX.HORIZONTAL.repeat(col.width + 2);
     output += i < columns.length - 1 ? BOX.T_UP : '';
-  });
-  output += BOX.BOTTOM_RIGHT + '\n';
+  }
+  output += BOX.BOTTOM_RIGHT;
 
   return output;
 }
 
-function formatNumber(num: number): string {
-  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-}
-
-function progressBar(value: number, max: number, width: number = 20): string {
-  const percentage = Math.min(value / max, 1);
-  const filled = Math.max(1, Math.floor(percentage * width));
-  const empty = width - filled;
-  return '█'.repeat(filled) + '░'.repeat(empty);
-}
-
+// Calculate statistics
 function calculateStats() {
-  const providerStats: Record<string, number> = {};
-  const typeStats: Record<string, number> = {};
+  const totalModels = modelsList.length;
+  const providers = new Set(modelsList.map((m) => m.provider_id));
+  const types = new Set(modelsList.map((m) => m.model_type));
+
+  const providerCounts = Array.from(providers)
+    .map((provider) => ({
+      name: provider,
+      count: modelsList.filter((m) => m.provider_id === provider).length,
+    }))
+    .sort((a, b) => b.count - a.count);
+
+  const typeCounts = Array.from(types)
+    .map((type) => ({
+      name: type,
+      count: modelsList.filter((m) => m.model_type === type).length,
+    }))
+    .sort((a, b) => b.count - a.count);
+
   const capabilities = {
-    function_calling: 0,
-    vision: 0,
-    json_mode: 0,
-    parallel_functions: 0,
+    function_calling: modelsList.filter((m) => m.supports_function_calling)
+      .length,
+    vision: modelsList.filter((m) => m.supports_vision).length,
+    json_mode: modelsList.filter((m) => m.supports_json_mode).length,
+    parallel_functions: modelsList.filter((m) => m.supports_parallel_functions)
+      .length,
   };
-  let deprecatedCount = 0;
 
-  for (const model of modelsList) {
-    providerStats[model.provider_id] = (providerStats[model.provider_id] || 0) + 1;
-    typeStats[model.model_type] = (typeStats[model.model_type] || 0) + 1;
-
-    if (model.supports_function_calling) {
-      capabilities.function_calling++;
-    }
-    if (model.supports_vision) {
-      capabilities.vision++;
-    }
-    if (model.supports_json_mode) {
-      capabilities.json_mode++;
-    }
-    if (model.supports_parallel_functions) {
-      capabilities.parallel_functions++;
-    }
-
-    if (model.deprecation_date) {
-      deprecatedCount++;
-    }
-  }
+  const deprecatedCount = modelsList.filter((m) => m.deprecation_date).length;
+  const activeCount = totalModels - deprecatedCount;
 
   return {
-    providers: providerStats,
-    types: typeStats,
-    capabilities,
-    activeCount: modelsList.length - deprecatedCount,
+    totalModels,
+    activeCount,
     deprecatedCount,
+    totalProviders: providers.size,
+    totalTypes: types.size,
+    providerCounts,
+    typeCounts,
+    capabilities,
   };
 }
 
-function buildProviderStats(stats: Record<string, number>): string {
-  const sorted = Object.entries(stats).sort((a, b) => b[1] - a[1]);
-  const maxCount = Math.max(...Object.values(stats));
-
-  const columns: TableColumn[] = [
-    { header: 'Provider', width: 29 },
-    { header: 'Count', width: 5, align: 'right' },
-    { header: 'Distribution', width: 28 }
-  ];
-
-  const rows = sorted.map(([provider, count]) => [
-    `<a href="/api/providers/${provider}" aria-label="View ${provider} models">${provider}</a>`,
-    count.toString(),
-    progressBar(count, maxCount, 28)
-  ]);
-
-  return table(columns, rows);
-}
-
-function buildTypeStats(stats: Record<string, number>): string {
-  const sorted = Object.entries(stats).sort((a, b) => b[1] - a[1]);
-  const maxCount = Math.max(...Object.values(stats));
-
-  const columns: TableColumn[] = [
-    { header: 'Model Type', width: 29 },
-    { header: 'Count', width: 5, align: 'right' },
-    { header: 'Distribution', width: 28 }
-  ];
-
-  const rows = sorted.map(([type, count]) => [
-    `<a href="/api/models?model_types=${type}" aria-label="View ${type} models">${type}</a>`,
-    count.toString(),
-    progressBar(count, maxCount, 28)
-  ]);
-
-  return table(columns, rows);
-}
-
-function buildCapabilitiesMatrix(capabilities: any, total: number): string {
-  const caps = [
-    { name: 'function_calling', key: 'function_calling' },
-    { name: 'vision', key: 'vision' },
-    { name: 'json_mode', key: 'json_mode' },
-    { name: 'parallel_functions', key: 'parallel_functions' },
-  ];
-
-  const columns: TableColumn[] = [
-    { header: 'Capability', width: 29 },
-    { header: 'Count', width: 5, align: 'right' },
-    { header: 'Distribution', width: 28 }
-  ];
-
-  const rows = caps.map(cap => [
-    `<a href="/api/models?supports_${cap.key}=true" aria-label="View models with ${cap.name.replace(/_/g, ' ')} support">${cap.name}</a>`,
-    capabilities[cap.key].toString(),
-    progressBar(capabilities[cap.key], total, 28)
-  ]);
-
-  return table(columns, rows);
-}
-
+// Build home page
 export function buildHome(): string {
   const stats = calculateStats();
-  const totalModels = modelsList.length;
-  const lastUpdated = new Date(modelsMetadata.generated_at).toLocaleDateString();
+  const lastUpdated = new Date(
+    modelsMetadata.generated_at
+  ).toLocaleDateString();
+  const maxProviderCount = Math.max(
+    ...stats.providerCounts.map((p) => p.count)
+  );
+  const maxTypeCount = Math.max(...stats.typeCounts.map((t) => t.count));
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -226,55 +184,54 @@ export function buildHome(): string {
   <meta name="description" content="ModelDB - Free API for AI model information including provider details, costs, context windows, and capabilities">
   <title>ModelDB - AI Model Information API</title>
   <style>
-	  @font-face {
-	    font-family: "BerkeleyMono";
-	    src: url("https://axiom.co/fonts/BerkeleyMono-Regular.woff2") format("woff2");
-	    font-weight: 400;
-	    font-style: normal;
-	  }
+    @font-face {
+      font-family: "Berkeley Mono";
+      src: url("https://axiom.co/fonts/BerkeleyMono-Regular.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
 
-	  /* Bold weight (700) */
-	  @font-face {
-	    font-family: "BerkeleyMono";
-	    src: url("https://axiom.co/fonts/BerkeleyMono-Bold.woff2") format("woff2");
-	    font-weight: 700;
-	    font-style: normal;
-	  }
+    @font-face {
+      font-family: "Berkeley Mono";
+      src: url("https://axiom.co/fonts/BerkeleyMono-Bold.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
 
-    /* Light mode (default) */
     body {
       margin: 0;
       padding: 0;
       background-color: #fff;
       color: #000;
-      font-family: "BerkeleyMono", "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-      font-size: 14px;
+      font-family: "Berkeley Mono", "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
       margin: 20px;
+      font-size: 14px;
     }
+
     pre {
-      font-family: "BerkeleyMono", "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-family: inherit;
       margin: 0;
       padding: 0;
-      overflow-x: auto;
       line-height: 1.4;
+      overflow-x: auto;
     }
+
     a {
       color: #000;
       text-decoration: underline;
     }
-    a:hover {
-      text-decoration: underline;
-      color: #000;
-    }
-    bold {
+
+    b {
       font-weight: 700;
     }
+
     .skip-link:focus {
       position: static !important;
       left: auto !important;
     }
 
-    /* Dark mode */
     @media (prefers-color-scheme: dark) {
       body {
         background-color: #0a0a0a;
@@ -282,11 +239,23 @@ export function buildHome(): string {
       }
       a {
         color: #fafafa;
-        text-decoration: underline;
       }
-      a:hover {
-        color: #fafafa;
-        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        margin: 10px;
+        font-size: 12px;
+      }
+      .hide-mobile {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        margin: 5px;
+        font-size: 10px;
       }
     }
   </style>
@@ -295,13 +264,13 @@ export function buildHome(): string {
 <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px; z-index: 999; background: inherit; color: inherit; padding: 8px; text-decoration: underline;">Skip to main content</a>
 <header role="banner">
 <pre>
-<a href="https://modeldb.info" aria-label="Axiom, Inc. homepage">Axiom, Inc.</a>                                                       <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>
+<a href="https://modeldb.info" aria-label="ModelDB homepage">ModelDB</a>                                                         <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>
 </pre>
 </header>
 <main id="main-content" role="main">
 <pre aria-label="ModelDB ASCII logo">
-════════════════════════════════════════════════════════════════════════
 
+════════════════════════════════════════════════════════════════════════
 
       ███╗   ███╗ ██████╗ ██████╗ ███████╗██╗     ██████╗ ██████╗
       ████╗ ████║██╔═══██╗██╔══██╗██╔════╝██║     ██╔══██╗██╔══██╗
@@ -310,9 +279,8 @@ export function buildHome(): string {
       ██║ ╚═╝ ██║╚██████╔╝██████╔╝███████╗███████╗██████╔╝██████╔╝
       ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═════╝ ╚═════╝
 
-
 ════════════════════════════════════════════════════════════════════════
-Models: <b>${formatNumber(totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Deprecated: <b>${formatNumber(stats.deprecatedCount)}</b> | Last Updated: <b>${lastUpdated}</b>
+Models: <b>${formatNumber(stats.totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Deprecated: <b>${formatNumber(stats.deprecatedCount)}</b> | Last Updated: <b>${lastUpdated}</b>
 ════════════════════════════════════════════════════════════════════════
 
 <b>API for AI model information { provider, cost, context, features, ... }</b>
@@ -327,29 +295,92 @@ Models: <b>${formatNumber(totalModels)}</b> | Active: <b>${formatNumber(stats.ac
 ▸ <b>Completely free to use</b>
 ▸ <b>No authentication required</b>
 
+
 </pre>
 <section aria-label="Database Statistics">
 <h2 style="position: absolute; left: -9999px;">Database Statistics</h2>
 <pre>
 ${sectionHeader('DATABASE STATISTICS')}
 
-All Providers (${Object.keys(stats.providers).length} total)
+All Providers (${stats.totalProviders} total)
 <div role="region" aria-label="Provider statistics table">
-${buildProviderStats(stats.providers)}
+${asciiTable(
+  [
+    { header: 'Provider', width: 29, key: 'name' },
+    {
+      header: 'Count',
+      width: 5,
+      align: 'right',
+      key: 'count',
+      render: (v: unknown) => (v as number).toString(),
+    },
+    {
+      header: 'Distribution',
+      width: 28,
+      render: (_: unknown, row: TableData) =>
+        progressBar(row.count || 0, maxProviderCount, 28),
+    },
+  ],
+  stats.providerCounts.map((p) => ({ ...p, _: null }))
+)}
 </div>
+
 Model Type Distribution
 <div role="region" aria-label="Model type distribution table">
-${buildTypeStats(stats.types)}
+${asciiTable(
+  [
+    { header: 'Model Type', width: 29, key: 'name' },
+    {
+      header: 'Count',
+      width: 5,
+      align: 'right',
+      key: 'count',
+      render: (v: unknown) => (v as number).toString(),
+    },
+    {
+      header: 'Distribution',
+      width: 28,
+      render: (_: unknown, row: TableData) =>
+        progressBar(row.count || 0, maxTypeCount, 28),
+    },
+  ],
+  stats.typeCounts.map((t) => ({ ...t, _: null }))
+)}
 </div>
+
 Capability Support Matrix
 <div role="region" aria-label="Capability support matrix table">
-${buildCapabilitiesMatrix(stats.capabilities, totalModels)}
+${asciiTable(
+  [
+    { header: 'Capability', width: 29, key: 'name' },
+    {
+      header: 'Count',
+      width: 5,
+      align: 'right',
+      key: 'count',
+      render: (v: unknown) => (v as number).toString(),
+    },
+    {
+      header: 'Coverage',
+      width: 28,
+      render: (_: unknown, row: TableData) =>
+        progressBar(row.count || 0, stats.totalModels, 28),
+    },
+  ],
+  [
+    { name: 'function_calling', count: stats.capabilities.function_calling },
+    { name: 'vision', count: stats.capabilities.vision },
+    { name: 'json_mode', count: stats.capabilities.json_mode },
+    {
+      name: 'parallel_functions',
+      count: stats.capabilities.parallel_functions,
+    },
+  ]
+)}
 </div>
-</pre>
-</section>
-<section aria-label="Quick Examples">
-<h2 style="position: absolute; left: -9999px;">Quick Examples</h2>
-<pre>
+
+
+
 ${sectionHeader('QUICK EXAMPLES')}
 
 List all models:
@@ -374,6 +405,7 @@ Get a specific model:
 
 </pre>
 </section>
+
 <section aria-label="API Routes">
 <h2 style="position: absolute; left: -9999px;">API Routes</h2>
 <pre>
@@ -387,6 +419,7 @@ ${sectionHeader('API ROUTES')}
 
 </pre>
 </section>
+
 <section aria-label="OpenAPI Documentation">
 <h2 style="position: absolute; left: -9999px;">OpenAPI Documentation</h2>
 <pre>
@@ -397,22 +430,24 @@ ${sectionHeader('OPENAPI')}
 
 </pre>
 </section>
-<section aria-label="OpenAPI Documentation">
-<h2 style="position: absolute; left: -9999px;">OpenAPI Documentation</h2>
+
+<section aria-label="Support Information">
+<h2 style="position: absolute; left: -9999px;">Support Information</h2>
 <pre>
 ${sectionHeader('SUPPORT')}
 
 - If you have issues or feature requests for the API service, please
-  create an issue on the <a href="https://github.com/axiomhq/modeldb/issues"><b>ModelDB project</b></a>.
+  create an issue on the <a href="https://github.com/axiomhq/modeldb/issues" aria-label="ModelDB GitHub issues page"><b>ModelDB project</b></a>.
 
 - If you have issues with model details, please support the LiteLLM
   community by contributing a pull request to the
-  <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json"  >model_prices_and_context_window.json</a> on the <a href="https://github.com/BerriAI/litellm"><b>LiteLLM project</b></a>.
+  <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json" aria-label="LiteLLM model prices JSON file">model_prices_and_context_window.json</a> on the <a href="https://github.com/BerriAI/litellm" aria-label="LiteLLM GitHub repository"><b>LiteLLM project</b></a>.
 
 </pre>
 </section>
-<section aria-label="OpenAPI Documentation">
-<h2 style="position: absolute; left: -9999px;">OpenAPI Documentation</h2>
+
+<section aria-label="Footer">
+<h2 style="position: absolute; left: -9999px;">Footer</h2>
 <pre>
 ${'═'.repeat(72)}
 
