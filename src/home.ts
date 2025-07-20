@@ -65,12 +65,11 @@ const BOX = {
 };
 
 // Section header builder
-function sectionHeader(title: string, width = 72): string {
+function sectionHeader(title: string, width = 62): string {
   const padding = Math.max(0, width - title.length - 2);
   const leftPad = Math.floor(padding / 2);
   const rightPad = padding - leftPad;
-  const line = '═'.repeat(width);
-  return `${line}\n${' '.repeat(leftPad)}${title}${' '.repeat(rightPad)}\n${line}`;
+  return `\n█ <b>${title}</b> ${'░'.repeat((leftPad+rightPad))}`;
 }
 
 // ASCII table builder
@@ -88,7 +87,7 @@ interface TableColumn {
   render?: (value: unknown, row: TableData) => string;
 }
 
-function asciiTable(columns: TableColumn[], data: TableData[]): string {
+function asciiTable(title: string, columns: TableColumn[], data: TableData[]): string {
   // Build header
   let output = BOX.TOP_LEFT;
   for (let i = 0; i < columns.length; i++) {
@@ -135,7 +134,7 @@ function asciiTable(columns: TableColumn[], data: TableData[]): string {
   }
   output += BOX.BOTTOM_RIGHT;
 
-  return output;
+  return ` <b>${title}</b>\n${output}`;
 }
 
 // Calculate statistics
@@ -200,6 +199,7 @@ export function buildHome(): string {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ModelDB - Free API for AI model information including provider details, costs, context windows, and capabilities">
   <title>ModelDB - AI Model Information API</title>
+  <link rel="icon" href="/favicon.ico">
   <style>
     @font-face {
       font-family: "Berkeley Mono";
@@ -281,29 +281,31 @@ export function buildHome(): string {
 <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px; z-index: 999; background: inherit; color: inherit; padding: 8px; text-decoration: underline;">Skip to main content</a>
 <header role="banner">
 <pre>
-<a href="https://modeldb.info" aria-label="ModelDB homepage">ModelDB</a>                                                         <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>
+<a href="https://axiom.co" aria-label="Axiom homepage">Axiom, Inc.</a>                                             <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>
 </pre>
 </header>
 <main id="main-content" role="main">
 <pre aria-label="ModelDB ASCII logo">
+══════════════════════════════════════════════════════════════
 
-════════════════════════════════════════════════════════════════════════
 
-      ███╗   ███╗ ██████╗ ██████╗ ███████╗██╗     ██████╗ ██████╗
-      ████╗ ████║██╔═══██╗██╔══██╗██╔════╝██║     ██╔══██╗██╔══██╗
-      ██╔████╔██║██║   ██║██║  ██║█████╗  ██║     ██║  ██║██████╔╝
-      ██║╚██╔╝██║██║   ██║██║  ██║██╔══╝  ██║     ██║  ██║██╔══██╗
-      ██║ ╚═╝ ██║╚██████╔╝██████╔╝███████╗███████╗██████╔╝██████╔╝
-      ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═════╝ ╚═════╝
+ ███╗   ███╗ ██████╗ ██████╗ ███████╗██╗     ██████╗ ██████╗
+ ████╗ ████║██╔═══██╗██╔══██╗██╔════╝██║     ██╔══██╗██╔══██╗
+ ██╔████╔██║██║   ██║██║  ██║█████╗  ██║     ██║  ██║██████╔╝
+ ██║╚██╔╝██║██║   ██║██║  ██║██╔══╝  ██║     ██║  ██║██╔══██╗
+ ██║ ╚═╝ ██║╚██████╔╝██████╔╝███████╗███████╗██████╔╝██████╔╝
+ ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═════╝ ╚═════╝
 
-════════════════════════════════════════════════════════════════════════
-Models: <b>${formatNumber(stats.totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Deprecated: <b>${formatNumber(stats.deprecatedCount)}</b> | Last Updated: <b>${lastUpdated}</b>
-════════════════════════════════════════════════════════════════════════
 
-<b>API for AI model information { provider, cost, context, features, ... }</b>
+══════════════════════════════════════════════════════════════
+   Models: <b>${formatNumber(stats.totalModels)}</b> | Active: <b>${formatNumber(stats.activeCount)}</b> | Last Updated: <b>${lastUpdated}</b>
+══════════════════════════════════════════════════════════════
+
+<b>API for AI model information like providers, cost, context
+types, features, and more.</b>
 
 ▸ Built from <b>LiteLLM's</b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a> (synced hourly)
-▸ Optimized for apps & data workloads like for loading for lookups
+▸ Optimized for apps & data workloads like lookups
 ▸ Filtering and field projection
 ▸ <b>JSON</b> and <b>CSV</b> support
 ▸ OpenAPI 3.1 specification
@@ -312,18 +314,16 @@ Models: <b>${formatNumber(stats.totalModels)}</b> | Active: <b>${formatNumber(st
 ▸ <b>Completely free to use</b>
 ▸ <b>No authentication required</b>
 
-
 </pre>
 <section aria-label="Database Statistics">
 <h2 style="position: absolute; left: -9999px;">Database Statistics</h2>
 <pre>
 ${sectionHeader('DATABASE STATISTICS')}
-
-All Providers (${stats.totalProviders} total)
 <div role="region" aria-label="Provider statistics table">
 ${asciiTable(
+	`All Providers (${stats.totalProviders} total)`,
   [
-    { header: 'Provider', width: 29, key: 'name', render: (v: unknown) => `<a href="/api/providers/${v}" aria-label="View ${v} models">${v}</a>` },
+    { header: 'Provider', width: 24, key: 'name', render: (v: unknown) => `<a href="/api/providers/${v}" aria-label="View ${v} models">${v}</a>` },
     {
       header: 'Count',
       width: 5,
@@ -333,20 +333,19 @@ ${asciiTable(
     },
     {
       header: 'Distribution',
-      width: 28,
+      width: 23,
       render: (_: unknown, row: TableData) =>
-        progressBar(row.count || 0, maxProviderCount, 28),
+        progressBar(row.count || 0, maxProviderCount, 23),
     },
   ],
   stats.providerCounts.map((p) => ({ ...p, _: null }))
 )}
 </div>
-
-Model Type Distribution
 <div role="region" aria-label="Model type distribution table">
 ${asciiTable(
+	"Model Types",
   [
-    { header: 'Model Type', width: 29, key: 'name', render: (v: unknown) => `<a href="/api/models?model_types=${v}" aria-label="View ${v} models">${v}</a>` },
+    { header: 'Model Type', width: 24, key: 'name', render: (v: unknown) => `<a href="/api/models?type=${v}" aria-label="View ${v} models">${v}</a>` },
     {
       header: 'Count',
       width: 5,
@@ -356,20 +355,18 @@ ${asciiTable(
     },
     {
       header: 'Distribution',
-      width: 28,
+      width: 23,
       render: (_: unknown, row: TableData) =>
-        progressBar(row.count || 0, maxTypeCount, 28),
+        progressBar(row.count || 0, maxTypeCount, 23),
     },
   ],
   stats.typeCounts.map((t) => ({ ...t, _: null }))
 )}
 </div>
-
-Capability Support Matrix
 <div role="region" aria-label="Capability support matrix table">
-${asciiTable(
+${asciiTable("Capability Support",
   [
-    { header: 'Capability', width: 29, key: 'name', render: (v: unknown) => `<a href="/api/models?supports_${v}=true" aria-label="View models with ${(v as string).replace(/_/g, ' ')} support">${v}</a>` },
+    { header: 'Capability', width: 24, key: 'name', render: (v: unknown) => `<a href="/api/models?capability=${v}" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v}</a>` },
     {
       header: 'Count',
       width: 5,
@@ -379,9 +376,9 @@ ${asciiTable(
     },
     {
       header: 'Coverage',
-      width: 28,
+      width: 23,
       render: (_: unknown, row: TableData) =>
-        progressBar(row.count || 0, stats.totalModels, 28),
+        progressBar(row.count || 0, stats.totalModels, 23),
     },
   ],
   [
@@ -396,29 +393,27 @@ ${asciiTable(
 )}
 </div>
 
-
-
 ${sectionHeader('QUICK EXAMPLES')}
 
 List all models:
-┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models" aria-label="API endpoint to list all models">/api/models</a>                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/models" aria-label="API endpoint to list all models">/api/models</a>                                            │
+└────────────────────────────────────────────────────────────┘
 
 Filter by provider:
-┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/models?providers=openai,anthropic</a>                           │
-└──────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/models?providers=openai,anthropic</a>                 │
+└────────────────────────────────────────────────────────────┘
 
 Get specific fields:
-┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models?project=model_id,model_name,input_cost_per_million" aria-label="API endpoint to get specific model fields">/api/models?project=model_id,model_name,input_cost_per_million</a>   │
-└──────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/models?project=model_id,model_name,provider_id" aria-label="API endpoint to get specific model fields">/api/models?project=model_id,model_name,provider_id</a>    │
+└────────────────────────────────────────────────────────────┘
 
 Get a specific model:
-┌──────────────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/models/gpt-4" aria-label="API endpoint to get GPT-4 model details">/api/models/gpt-4</a>                                                │
-└──────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/models/o3" aria-label="API endpoint to get GPT-4 model details">/api/models/o3</a>                                         │
+└────────────────────────────────────────────────────────────┘
 
 </pre>
 </section>
@@ -453,11 +448,11 @@ ${sectionHeader('OPENAPI')}
 <pre>
 ${sectionHeader('SUPPORT')}
 
-- If you have issues or feature requests for the API service, please
-  create an issue on the <a href="https://github.com/axiomhq/modeldb/issues" aria-label="ModelDB GitHub issues page"><b>ModelDB project</b></a>.
+- If you have issues or feature requests for the API service,
+  please create an issue on the <a href="https://github.com/axiomhq/modeldb/issues" aria-label="ModelDB GitHub issues page"><b>ModelDB project</b></a>.
 
-- If you have issues with model details, please support the LiteLLM
-  community by contributing a pull request to the
+- If you have issues with model details, <b>please support the
+  LiteLLM</b> community by contributing a pull request to the
   <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json" aria-label="LiteLLM model prices JSON file">model_prices_and_context_window.json</a> on the <a href="https://github.com/BerriAI/litellm" aria-label="LiteLLM GitHub repository"><b>LiteLLM project</b></a>.
 
 </pre>
@@ -466,9 +461,9 @@ ${sectionHeader('SUPPORT')}
 <section aria-label="Footer">
 <h2 style="position: absolute; left: -9999px;">Footer</h2>
 <pre>
-${'═'.repeat(72)}
+${'═'.repeat(62)}
 
-(C) Axiom, Inc 2025                               axiomhq/modeldb@v1.0.0
+(C) Axiom, Inc. 2025                    axiomhq/modeldb@v1.0.0
 </pre>
 </section>
 </main>

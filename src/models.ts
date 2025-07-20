@@ -33,6 +33,10 @@ export function registerModelsRoutes(app: OpenAPIHono) {
           .string()
           .optional()
           .describe('Comma-separated list of model types to filter'),
+        capability: z
+          .string()
+          .optional()
+          .describe('Comma-separated list of capabilities to filter'),
         deprecated: z
           .string()
           .optional()
@@ -73,6 +77,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     const prefixFilter = safeParseQueryCSV(query.prefixes);
     const providerFilter = safeParseQueryCSV(query.providers);
     const typeFilter = safeParseQueryCSV(query.type);
+    const capabilityFilter = safeParseQueryCSV(query.capability);
     const projectFields = safeParseQueryCSV(query.project);
 
     let result = modelsList;
@@ -94,6 +99,28 @@ export function registerModelsRoutes(app: OpenAPIHono) {
 
     if (typeFilter.length > 0) {
       result = result.filter((model) => typeFilter.includes(model.model_type));
+    }
+
+
+    if (capabilityFilter.length > 0) {
+      result = result.filter((model) => {
+        return capabilityFilter.every((capability) => {
+          // Map capability names to model properties
+          const capabilityMap: Record<string, keyof typeof model> = {
+            'function_calling': 'supports_function_calling',
+            'vision': 'supports_vision',
+            'json_mode': 'supports_json_mode',
+            'parallel_functions': 'supports_parallel_functions',
+          };
+
+          const modelProperty = capabilityMap[capability];
+          if (!modelProperty) {
+            return false; // Unknown capability
+          }
+
+          return model[modelProperty] === true;
+        });
+      });
     }
 
 
