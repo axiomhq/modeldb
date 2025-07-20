@@ -27,6 +27,32 @@ export function registerOpenAPIRoutes(app: OpenAPIHono) {
       operationsSorter: 'alpha',
       tagsSorter: 'alpha',
       darkMode: true,
+      withDefaultFonts: true,
+      customCss: `
+	     	@font-face {
+	        font-family: "Berkeley Mono";
+	        src: url("https://axiom.co/fonts/BerkeleyMono-Regular.woff2") format("woff2");
+	        font-weight: 400;
+	        font-style: normal;
+	        font-display: swap;
+	      }
+
+	      @font-face {
+	        font-family: "Berkeley Mono";
+	        src: url("https://axiom.co/fonts/BerkeleyMono-Bold.woff2") format("woff2");
+	        font-weight: 700;
+	        font-style: normal;
+	        font-display: swap;
+	      }
+
+			  * {
+					font-family: "Berkeley Mono", "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+			  }
+
+				.language-select {
+					font-size: 13px;
+				}
+      `,
       servers: [
         {
           url: 'http://localhost:8787',

@@ -1,73 +1,81 @@
 # ModelDB
 
-> A blazing-fast REST API for AI/LLM model metadata and pricing information, powered by Cloudflare Workers
+REST API service for AI model metadata and costs.
 
-**No hosting required! Use our free hosted API at [modeldb.axiom.co](https://modeldb.axiom.co)**
+**Free hosted API: [modeldb.axiom.co](https://modeldb.axiom.co)**
 
-**Built on [LiteLLM](https://github.com/BerriAI/litellm)'s community-maintained model database**
+**Data source: [LiteLLM's model database](https://github.com/BerriAI/litellm)**
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/axiomhq/modeldb)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+## Description
 
-## What is ModelDB?
+ModelDB provides a comprehensive database of AI language models with their associated metadata including costs, context windows, capabilities, and provider information. Designed for programmatic access by applications or data workloads requiring model selection, cost estimation, or capability comparison.
 
-ModelDB is your one-stop shop for comprehensive AI model information. Whether you're building an AI application, comparing model costs, or need to check model capabilities, ModelDB provides instant access to:
+## Features
 
-- **Real-time pricing data** for 1000+ AI models
-- **Detailed model specifications** including context windows and capabilities
-- **Lightning-fast responses** from Cloudflare's global edge network
-- **Developer-friendly API** with OpenAPI specification
-- **Cost optimization tools** with dual pricing formats (per-token and per-million)
+- Built from LiteLLM's community-maintained model pricing data
+- 1000+ models from 40+ providers
+- Real-time pricing in both per-token and per-million formats
+- Model capabilities (vision, function calling, JSON mode)
+- Context window specifications
+- CSV export support
+- Field projection for bandwidth optimization
+- OpenAPI 3.1 specification
+- CORS-enabled for browser usage
+- No authentication required
 
 ## Quick Start
 
 ```bash
-# Get all OpenAI models
-curl https://modeldb.axiom.co/api/v1/providers/openai
+# List all models
+curl https://modeldb.axiom.co/api/v1/models
 
-# Get specific model details
+# Get specific model
 curl https://modeldb.axiom.co/api/v1/models/gpt-4o
 
-# Filter models by capabilities
-curl "https://modeldb.axiom.co/api/v1/models?capabilities=vision,function_calling"
+# Filter by provider
+curl "https://modeldb.axiom.co/api/v1/models?providers=openai,anthropic"
 
-# Export to CSV for analysis
-curl "https://modeldb.axiom.co/api/v1/models?providers=anthropic,openai&format=csv" > models.csv
+# Filter by capabilities
+curl "https://modeldb.axiom.co/api/v1/models?capability=vision,function_calling"
+
+# Export as CSV
+curl "https://modeldb.axiom.co/api/v1/models?format=csv" > models.csv
+
+# Project specific fields
+curl "https://modeldb.axiom.co/api/v1/models?project=model_id,input_cost_per_million"
 ```
 
-## Features
+## API Routes
 
-### Smart Filtering
-Filter models by provider, capabilities, context window size, and more:
-```bash
-# Find vision models under $0.001 per 1K tokens
-curl "https://modeldb.axiom.co/api/v1/models?capabilities=vision&max_input_cost_per_million=1"
-```
-
-### Multiple Data Formats
-- **JSON** - Default, perfect for applications
-- **CSV** - Great for spreadsheets and data analysis
-- **Field Projection** - Get only the data you need
-
-### Always Up-to-Date
-Automatically syncs with [LiteLLM's](https://github.com/BerriAI/litellm) comprehensive model database, ensuring you always have the latest pricing and capabilities. The LiteLLM community actively maintains and updates this data, making it the most reliable source for AI model information.
-
-## API Endpoints
-
-| Endpoint | Description |
-|----------|-------------|
+| Route | Description |
+|-------|-------------|
 | `GET /api/v1/models` | List all models with filtering |
-| `GET /api/v1/models/:id` | Get specific model details |
+| `GET /api/v1/models/:id` | Get specific model by ID |
 | `GET /api/v1/providers` | List all providers |
 | `GET /api/v1/providers/:id` | Get models for a provider |
-| `GET /api/v1/metadata` | Sync status and metadata |
+| `GET /api/v1/metadata` | Get sync metadata |
 | `GET /openapi.json` | OpenAPI specification |
+| `GET /ui` | Interactive API documentation |
 
-## Local Development
+## Query Parameters
+
+### Models Endpoint
+
+- `prefixes` - Comma-separated list of prefixes to filter models
+- `providers` - Comma-separated list of providers to filter models
+- `type` - Comma-separated list of model types to filter
+- `capability` - Comma-separated list of capabilities to filter (function_calling, vision, json_mode, parallel_functions)
+- `deprecated` - Filter models by deprecation status (true/false)
+- `project` - Comma-separated fields to return
+- `format` - Output format (json or csv)
+- `headers` - Include headers in CSV output (true/false)
+- `fill-with-zeros` - Replace null values with 0
+
+## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/modeldb.git
+# Clone repository
+git clone https://github.com/axiomhq/modeldb.git
 cd modeldb
 
 # Install dependencies
@@ -76,80 +84,46 @@ npm install
 # Start development server
 npm run dev
 
-# Update model data
-npm run sync
-
 # Run tests
 npm test
+
+# Update model data from LiteLLM
+npm run sync
 ```
 
 ## Deployment
 
-ModelDB runs on Cloudflare Workers for global low-latency access:
-
 ```bash
-# Deploy to development
+# Deploy to Cloudflare Workers
 npm run deploy
 
 # Deploy to production
 npm run deploy:prod
 ```
 
-## Use Cases
-
-### AI Application Development
-Dynamically select the most cost-effective model for your use case:
-```javascript
-const response = await fetch('https://modeldb.axiom.co/api/v1/models?capabilities=function_calling&max_input_cost_per_million=5');
-const models = await response.json();
-// Choose the best model for your budget and requirements
-```
-
-### Cost Analysis
-Export model pricing to CSV for detailed cost analysis:
-```bash
-curl "https://modeldb.axiom.co/api/v1/models?format=csv&project=model_id,provider_name,input_cost_per_million,output_cost_per_million" > pricing.csv
-```
-
-### Model Capability Discovery
-Find models with specific features:
-```bash
-# Models supporting parallel function calling
-curl "https://modeldb.axiom.co/api/v1/models?capabilities=parallel_function_calling"
-```
-
 ## Architecture
 
-ModelDB uses a unique approach for maximum performance:
+ModelDB uses build-time data generation for optimal performance:
 
-1. **Build-time Data Generation** - Model data is pre-compiled into TypeScript
-2. **Edge Deployment** - Runs on Cloudflare's global network
-3. **No Database Required** - All data served from memory
-4. **Automatic Syncing** - GitHub Actions keep data fresh
+1. `scripts/sync.ts` fetches data from LiteLLM
+2. Transforms and generates TypeScript files in `src/data/`
+3. Deploys to Cloudflare Workers edge network
+4. Serves all requests from memory with no external dependencies
 
 ## Contributing
 
-We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Data Contributions
+### Model Data Updates
 
-The model data itself is maintained by the amazing [LiteLLM community](https://github.com/BerriAI/litellm). If you want to:
-- Add a new model or provider
-- Update pricing information
-- Fix model specifications
-
-Please contribute directly to [LiteLLM's model database](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json).
+Model information is maintained by the LiteLLM community. To update model data:
+- Submit PRs to [LiteLLM's model database](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json)
+- ModelDB automatically syncs hourly
 
 ## Acknowledgments
 
-ModelDB wouldn't exist without:
-- **[LiteLLM](https://github.com/BerriAI/litellm)** - For maintaining the comprehensive model database
-- **The LiteLLM Community** - For keeping model data accurate and up-to-date
+- [LiteLLM](https://github.com/BerriAI/litellm) and community for maintaining model data
 
 ## License
 
 MIT © Axiom, Inc.
-
----
-
-<p align="center">Made with love by the open source community</p>
