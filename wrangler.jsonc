@@ -2,7 +2,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "modeldb",
 	"main": "src/index.ts",
-	"compatibility_date": "2025-07-15",
+	"compatibility_date": "2025-07-12",
 	"observability": {
 		"enabled": true
 	},

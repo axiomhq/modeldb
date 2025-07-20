@@ -339,7 +339,6 @@ export function buildHome(): string {
     ▸ <b>JSON</b> and <b>CSV</b> support
     ▸ OpenAPI 3.1 specification
     ▸ CORS-enabled for browser usage
-    ▸ Stable API (breaking changes versioned)
     ▸ <b>Completely free to use</b>
     ▸ <b>No authentication required</b>
     ▸ Synced hourly
@@ -490,7 +489,7 @@ ${sectionHeader('SUPPORT')}
 </section>
 
 <section aria-label="Acknowledgements">
-<h2 style="position: absolute; left: -9999px;">Acknowledgements</h2>
+<h2 style="position: absolute; left: -9999px;">ACKNOWLEDGEMENTS</h2>
 <pre>
 ${sectionHeader('Acknowledgements')}
 
