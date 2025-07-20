@@ -17,6 +17,23 @@ function pad(
   return ' '.repeat(len - str.length) + str;
 }
 
+// Strip HTML tags to get visible text length
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, '');
+}
+
+// Pad string considering HTML content
+function padHtml(str: string, len: number, align: 'left' | 'right' = 'left'): string {
+  const visibleLength = stripHtml(str).length;
+  if (visibleLength >= len) {
+    // If visible content is too long, we need to truncate the actual content
+    return str;
+  }
+  const paddingNeeded = len - visibleLength;
+  if (align === 'left') return str + ' '.repeat(paddingNeeded);
+  return ' '.repeat(paddingNeeded) + str;
+}
+
 function formatNumber(num: number): string {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
@@ -104,7 +121,7 @@ function asciiTable(columns: TableColumn[], data: TableData[]): string {
       const col = columns[i];
       const value = col.key ? row[col.key] : row[i];
       const rendered = col.render ? col.render(value, row) : String(value);
-      output += ` ${pad(rendered, col.width, col.align)} ${BOX.VERTICAL}`;
+      output += ` ${padHtml(rendered, col.width, col.align)} ${BOX.VERTICAL}`;
     }
     output += '\n';
   }
@@ -306,7 +323,7 @@ All Providers (${stats.totalProviders} total)
 <div role="region" aria-label="Provider statistics table">
 ${asciiTable(
   [
-    { header: 'Provider', width: 29, key: 'name' },
+    { header: 'Provider', width: 29, key: 'name', render: (v: unknown) => `<a href="/api/providers/${v}" aria-label="View ${v} models">${v}</a>` },
     {
       header: 'Count',
       width: 5,
@@ -329,7 +346,7 @@ Model Type Distribution
 <div role="region" aria-label="Model type distribution table">
 ${asciiTable(
   [
-    { header: 'Model Type', width: 29, key: 'name' },
+    { header: 'Model Type', width: 29, key: 'name', render: (v: unknown) => `<a href="/api/models?model_types=${v}" aria-label="View ${v} models">${v}</a>` },
     {
       header: 'Count',
       width: 5,
@@ -352,7 +369,7 @@ Capability Support Matrix
 <div role="region" aria-label="Capability support matrix table">
 ${asciiTable(
   [
-    { header: 'Capability', width: 29, key: 'name' },
+    { header: 'Capability', width: 29, key: 'name', render: (v: unknown) => `<a href="/api/models?supports_${v}=true" aria-label="View models with ${(v as string).replace(/_/g, ' ')} support">${v}</a>` },
     {
       header: 'Count',
       width: 5,
