@@ -521,6 +521,7 @@ ${sectionHeader('Acknowledgements')}
 Huge thank you to the LiteLLM community for their ongoing
 contributions to keep the model details up-to-date &hearts;.
 
+
 </pre>
 </section>
 
@@ -528,7 +529,6 @@ contributions to keep the model details up-to-date &hearts;.
 <h2 style="position: absolute; left: -9999px;">Footer</h2>
 <pre>
 ${'═'.repeat(62)}
-
 (C) Axiom, Inc. 2025                    axiomhq/modeldb@v1.0.0
 </pre>
 </section>
