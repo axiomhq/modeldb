@@ -43,6 +43,9 @@ curl "https://modeldb.axiom.co/api/v1/models?format=csv" > models.csv
 
 # Project specific fields
 curl "https://modeldb.axiom.co/api/v1/models?project=model_id,input_cost_per_million"
+
+# Pretty print JSON output
+curl "https://modeldb.axiom.co/api/v1/models/gpt-4o?pretty"
 ```
 
 ## API Routes
@@ -68,8 +71,9 @@ curl "https://modeldb.axiom.co/api/v1/models?project=model_id,input_cost_per_mil
 - `deprecated` - Filter models by deprecation status (true/false)
 - `project` - Comma-separated fields to return
 - `format` - Output format (json or csv)
-- `headers` - Include headers in CSV output (true/false)
+- `headers` - Include headers in CSV output (defaults to true, use headers=false to exclude)
 - `fill-with-zeros` - Replace null values with 0
+- `pretty` - Pretty print JSON output with indentation (presence of parameter enables it)
 
 ## Installation
 
