@@ -223,11 +223,38 @@ async function fetchModels(url: string): Promise<Record<string, LiteLLMModel>> {
   });
 }
 
+function generateFileContent(
+  type: 'map' | 'list' | 'metadata' | 'providers',
+  data: any
+): string {
+  switch (type) {
+    case 'map':
+      return `import type { Model } from '../schema';
+
+export const modelsMap: Record<string, Model> = ${JSON.stringify(data, null, 2)} as const;
+`;
+    case 'list':
+      return `import type { Models } from '../schema';
+
+export const modelsList: Models = ${JSON.stringify(data, null, 2)} as const;
+`;
+    case 'metadata':
+      return `export const modelsMetadata = ${JSON.stringify(data, null, 2)} as const;
+`;
+    case 'providers':
+      return `import type { Providers } from '../schema';
+
+export const modelsByProvider: Providers = ${JSON.stringify(data, null, 2)} as const;
+`;
+  }
+}
+
 async function syncCommand(options: {
   source?: string;
   output?: string;
   dryRun?: boolean;
   summary?: boolean;
+  diff?: boolean;
 }) {
   const sourceUrl = options.source || LITELLM_MODEL_URL;
   const outputDir = options.output || path.join(__dirname, '../src');
@@ -304,7 +331,72 @@ async function syncCommand(options: {
         ])
     );
 
-    if (options.dryRun) {
+    if (options.diff) {
+      // Generate file contents
+      const mapContent = generateFileContent('map', sortedModels);
+      const listContent = generateFileContent('list', Object.values(sortedModels));
+      const metadataContent = generateFileContent('metadata', metadata);
+      const providersContent = generateFileContent('providers', sortedProviderModels);
+
+      // Compare with existing files
+      const dataDir = path.join(outputDir, 'data');
+      let hasDiff = false;
+      const diffs: Array<{ file: string; status: 'added' | 'modified' | 'same' }> = [];
+
+      // Check map.ts
+      const mapPath = path.join(dataDir, 'map.ts');
+      const mapExists = fs.existsSync(mapPath);
+      if (!mapExists) {
+        diffs.push({ file: 'map.ts', status: 'added' });
+        hasDiff = true;
+      } else {
+        const isSame = fs.readFileSync(mapPath, 'utf-8') === mapContent;
+        diffs.push({ file: 'map.ts', status: isSame ? 'same' : 'modified' });
+        if (!isSame) hasDiff = true;
+      }
+
+      // Check list.ts
+      const listPath = path.join(dataDir, 'list.ts');
+      const listExists = fs.existsSync(listPath);
+      if (!listExists) {
+        diffs.push({ file: 'list.ts', status: 'added' });
+        hasDiff = true;
+      } else {
+        const isSame = fs.readFileSync(listPath, 'utf-8') === listContent;
+        diffs.push({ file: 'list.ts', status: isSame ? 'same' : 'modified' });
+        if (!isSame) hasDiff = true;
+      }
+
+      // Skip metadata.ts check since it always changes due to timestamp
+
+      // Check providers.ts
+      const providersPath = path.join(dataDir, 'providers.ts');
+      const providersExists = fs.existsSync(providersPath);
+      if (!providersExists) {
+        diffs.push({ file: 'providers.ts', status: 'added' });
+        hasDiff = true;
+      } else {
+        const isSame = fs.readFileSync(providersPath, 'utf-8') === providersContent;
+        diffs.push({ file: 'providers.ts', status: isSame ? 'same' : 'modified' });
+        if (!isSame) hasDiff = true;
+      }
+
+      // Print diff summary
+      console.log(chalk.bold('\nDiff Summary:'));
+      for (const diff of diffs) {
+        const icon = diff.status === 'same' ? '✓' : diff.status === 'added' ? '+' : '~';
+        const color = diff.status === 'same' ? chalk.green : diff.status === 'added' ? chalk.blue : chalk.yellow;
+        console.log(`  ${color(icon)} ${diff.file} (${diff.status})`);
+      }
+
+      if (hasDiff) {
+        console.log(chalk.yellow('\n⚠ Differences detected. Run sync without --diff to update files.'));
+        process.exit(1);
+      } else {
+        console.log(chalk.green('\n✓ No differences detected. Files are up to date.'));
+        process.exit(0);
+      }
+    } else if (options.dryRun) {
       console.log(chalk.blue('Dry run mode - no files written'));
       console.log(chalk.gray(`Would write to: ${outputDir}/`));
       console.log(chalk.gray('  - map.json'));
@@ -312,42 +404,33 @@ async function syncCommand(options: {
       console.log(chalk.gray('  - metadata.json'));
       console.log(chalk.gray('  - providers.ts'));
     } else {
-      if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, { recursive: true });
+      const dataDir = path.join(outputDir, 'data');
+      if (!fs.existsSync(dataDir)) {
+        fs.mkdirSync(dataDir, { recursive: true });
       }
 
       // Write models-map.ts (object format)
-      const mapPath = path.join(outputDir, 'map.ts');
-      const mapContent = `import type { Model } from '../schema';
-
-export const modelsMap: Record<string, Model> = ${JSON.stringify(sortedModels, null, 2)} as const;
-`;
+      const mapPath = path.join(dataDir, 'map.ts');
+      const mapContent = generateFileContent('map', sortedModels);
       fs.writeFileSync(mapPath, mapContent);
       console.log(chalk.green(`✓ Written to ${mapPath}`));
 
       // Write models-list.ts (array format)
       const modelsList = Object.values(sortedModels);
-      const listPath = path.join(outputDir, 'list.ts');
-      const listContent = `import type { Models } from '../schema';
-
-export const modelsList: Models = ${JSON.stringify(modelsList, null, 2)} as const;
-`;
+      const listPath = path.join(dataDir, 'list.ts');
+      const listContent = generateFileContent('list', modelsList);
       fs.writeFileSync(listPath, listContent);
       console.log(chalk.green(`✓ Written to ${listPath}`));
 
       // Write models-metadata.ts
-      const metadataPath = path.join(outputDir, 'metadata.ts');
-      const metadataContent = `export const modelsMetadata = ${JSON.stringify(metadata, null, 2)} as const;
-`;
+      const metadataPath = path.join(dataDir, 'metadata.ts');
+      const metadataContent = generateFileContent('metadata', metadata);
       fs.writeFileSync(metadataPath, metadataContent);
       console.log(chalk.green(`✓ Written to ${metadataPath}`));
 
       // Write models-providers.ts
-      const providersPath = path.join(outputDir, 'providers.ts');
-      const providersContent = `import type { Providers } from '../schema';
-
-export const modelsByProvider: Providers = ${JSON.stringify(sortedProviderModels, null, 2)} as const;
-`;
+      const providersPath = path.join(dataDir, 'providers.ts');
+      const providersContent = generateFileContent('providers', sortedProviderModels);
       fs.writeFileSync(providersPath, providersContent);
       console.log(chalk.green(`✓ Written to ${providersPath}`));
     }
@@ -397,10 +480,11 @@ program
   .option(
     '-o, --output <path>',
     'output directory for transformed data files',
-    './src/data'
+    './src'
   )
   .option('-d, --dry-run', 'show what would be written without writing')
   .option('--summary', 'show provider summary after sync')
+  .option('--diff', 'compare new output with existing files without writing')
   .action(syncCommand);
 
 program.parse(process.argv);
