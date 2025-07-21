@@ -516,7 +516,7 @@ ${sectionHeader('SUPPORT')}
 <section aria-label="Acknowledgements">
 <h2 style="position: absolute; left: -9999px;">ACKNOWLEDGEMENTS</h2>
 <pre>
-${sectionHeader('Acknowledgements')}
+${sectionHeader('ACKNOWLEDGEMENTS')}
 
 Huge thank you to the LiteLLM community for their ongoing
 contributions to keep the model details up-to-date &hearts;.
