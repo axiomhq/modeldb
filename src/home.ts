@@ -357,7 +357,7 @@ export function buildHome(): string {
 ${sectionHeader('DATABASE STATISTICS')}
 <div role="region" aria-label="Provider statistics table">
 ${asciiTable(
-  `All Providers (${stats.totalProviders} total)`,
+  `All providers (${stats.totalProviders} total)`,
   [
     {
       header: 'Provider',
@@ -385,7 +385,7 @@ ${asciiTable(
 </div>
 <div role="region" aria-label="Model type distribution table">
 ${asciiTable(
-  'Model Types',
+  'Model types',
   [
     {
       header: 'Model Type',
@@ -413,7 +413,7 @@ ${asciiTable(
 </div>
 <div role="region" aria-label="Capability support matrix table">
 ${asciiTable(
-  'Capability Support',
+  'Capability support',
   [
     {
       header: 'Capability',
@@ -450,24 +450,24 @@ ${asciiTable(
 
 ${sectionHeader('QUICK EXAMPLES')}
 
-List all models:
+ <b>List all models</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models" aria-label="API endpoint to list all models">/api/v1/models</a>                                        │
+│ GET <a href="/api/v1/models" aria-label="API endpoint to list all models">/api/v1/models</a>                                         │
 └────────────────────────────────────────────────────────────┘
 
-Filter by provider:
+ <b>Filter by provider</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/v1/models?providers=openai,anthropic</a>             │
+│ GET <a href="/api/v1/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/v1/models?providers=openai,anthropic</a>              │
 └────────────────────────────────────────────────────────────┘
 
-Get specific fields:
+ <b>Get specific fields</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models?project=model_id,model_name,provider_id" aria-label="API endpoint to get specific model fields">/api/v1/models?project=model_id,model_name,provider_id</a>│
+│ GET <a href="/api/v1/models?project=model_id,model_name,provider_id" aria-label="API endpoint to get specific model fields">/api/v1/models?project=model_id,model_name,provider_id</a> │
 └────────────────────────────────────────────────────────────┘
 
-Get a specific model:
+ <b>Get a specific model</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models/o3" aria-label="API endpoint to get GPT-4 model details">/api/v1/models/o3</a>                                     │
+│ GET <a href="/api/v1/models/o3" aria-label="API endpoint to get GPT-4 model details">/api/v1/models/o3</a>                                      │
 └────────────────────────────────────────────────────────────┘
 
 </pre>
