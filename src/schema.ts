@@ -85,20 +85,26 @@ export const FormatSchema = z
 export const HeadersSchema = z
   .string()
   .optional()
-  .transform((val) => {
-    if (val === 'true') {
-      return true;
-    }
-    return false;
-  })
-  .describe('Include headers in CSV output (true/false, defaults to true)');
+  .default('true')
+  .transform((val) => val !== 'false')
+  .describe(
+    'Include headers in CSV output (defaults to true, use headers=false to exclude)'
+  );
 
 export const FillWithZerosSchema = z
   .string()
   .optional()
   .default('true')
   .transform((val) => val !== 'false')
-  .describe('Replace null number values with 0 (default: true)');
+  .describe('Replace null values with 0 (true/false, defaults to true)');
+
+export const PrettySchema = z
+  .string()
+  .optional()
+  .transform((val) => val !== undefined)
+  .describe(
+    'Pretty print JSON output with indentation (presence of parameter enables it)'
+  );
 
 export type Model = z.infer<typeof ModelSchema>;
 export type Models = z.infer<typeof ModelsSchema>;

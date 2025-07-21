@@ -3,7 +3,8 @@ import { z } from 'zod';
 import { objectsToCSV } from './csv';
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
-import { FormatSchema, HeadersSchema } from './schema';
+import { jsonResponse } from './response-utils';
+import { FormatSchema, HeadersSchema, PrettySchema } from './schema';
 
 const MetadataSchema = z.object({
   source: z.string().describe('Source URL of the model data'),
@@ -92,6 +93,7 @@ export function registerMetadataRoutes(app: OpenAPIHono) {
       query: z.object({
         format: FormatSchema,
         headers: HeadersSchema,
+        pretty: PrettySchema,
       }),
     },
     responses: {
@@ -157,6 +159,6 @@ export function registerMetadataRoutes(app: OpenAPIHono) {
       });
     }
 
-    return c.json(response, 200);
+    return jsonResponse(c, response, 200, query.pretty);
   });
 }

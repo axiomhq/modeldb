@@ -8,12 +8,13 @@ import {
   projectModelFields,
   projectModelsFields,
 } from './model-utils';
+import { jsonResponse } from './response-utils';
 import {
   FillWithZerosSchema,
   FormatSchema,
   HeadersSchema,
   ModelPartialSchema,
-  type ModelsPartial,
+  PrettySchema,
   ProjectSchema,
 } from './schema';
 
@@ -58,6 +59,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
         format: FormatSchema,
         headers: HeadersSchema,
         'fill-with-zeros': FillWithZerosSchema,
+        pretty: PrettySchema,
       }),
     },
     responses: {
@@ -146,7 +148,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
         });
       }
 
-      return c.json(finalModels, 200);
+      return jsonResponse(c, finalModels, 200, query.pretty);
     }
 
     // Apply fill-with-zeros transformation
@@ -161,7 +163,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       });
     }
 
-    return c.json(result, 200);
+    return jsonResponse(c, result, 200, query.pretty);
   });
 
   const getModel = createRoute({
@@ -178,6 +180,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
         format: FormatSchema,
         headers: HeadersSchema,
         'fill-with-zeros': FillWithZerosSchema,
+        pretty: PrettySchema,
       }),
     },
     responses: {
@@ -220,7 +223,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
           'Content-Type': 'text/csv',
         });
       }
-      return c.json({ error: 'Model not found' }, 404);
+      return jsonResponse(c, { error: 'Model not found' }, 404, query.pretty);
     }
 
     const projectFields = safeParseQueryCSV(query.project);
@@ -240,7 +243,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
         });
       }
 
-      return c.json(finalModel, 200);
+      return jsonResponse(c, finalModel, 200, query.pretty);
     }
 
     // Apply fill-with-zeros transformation to full model
@@ -255,6 +258,6 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       });
     }
 
-    return c.json(resultModel, 200);
+    return jsonResponse(c, resultModel, 200, query.pretty);
   });
 }

@@ -2,18 +2,15 @@ import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
 import { objectsToCSV, safeParseQueryCSV } from './csv';
 import { modelsByProvider } from './data/providers';
-import {
-  fillNullsWithZeros,
-  projectModelFields,
-  projectModelsFields,
-} from './model-utils';
+import { fillNullsWithZeros, projectModelsFields } from './model-utils';
+import { jsonResponse } from './response-utils';
 import {
   FillWithZerosSchema,
   FormatSchema,
   HeadersSchema,
   ModelPartialSchema,
-  type ModelsPartial,
   PartialProvidersSchema,
+  PrettySchema,
   ProjectSchema,
   type ProvidersPartial,
 } from './schema';
@@ -34,6 +31,7 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         format: FormatSchema,
         headers: HeadersSchema,
         'fill-with-zeros': FillWithZerosSchema,
+        pretty: PrettySchema,
       }),
     },
     responses: {
@@ -101,7 +99,7 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
       });
     }
 
-    return c.json(result, 200);
+    return jsonResponse(c, result, 200, query.pretty);
   });
 
   const getProvider = createRoute({
@@ -118,6 +116,7 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
         format: FormatSchema,
         headers: HeadersSchema,
         'fill-with-zeros': FillWithZerosSchema,
+        pretty: PrettySchema,
       }),
     },
     responses: {
@@ -160,7 +159,12 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
           'Content-Type': 'text/csv',
         });
       }
-      return c.json({ error: 'Provider not found' }, 404);
+      return jsonResponse(
+        c,
+        { error: 'Provider not found' },
+        404,
+        query.pretty
+      );
     }
 
     const projectFields = safeParseQueryCSV(query.project);
@@ -179,7 +183,7 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
           'Content-Type': 'text/csv',
         });
       }
-      return c.json(finalModels, 200);
+      return jsonResponse(c, finalModels, 200, query.pretty);
     }
 
     // Apply fill-with-zeros transformation to full models list
@@ -194,6 +198,6 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
       });
     }
 
-    return c.json(resultModels, 200);
+    return jsonResponse(c, resultModels, 200, query.pretty);
   });
 }

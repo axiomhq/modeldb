@@ -34,7 +34,9 @@ function padHtml(
     return str;
   }
   const paddingNeeded = len - visibleLength;
-  if (align === 'left') return str + ' '.repeat(paddingNeeded);
+  if (align === 'left') {
+    return str + ' '.repeat(paddingNeeded);
+  }
   return ' '.repeat(paddingNeeded) + str;
 }
 
@@ -339,16 +341,16 @@ export function buildHome(): string {
      cost estimation, or capability comparison.
 
 <b>FEATURES</b>
-    ▸ Built from <b>LiteLLM's</b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a>
-    ▸ Optimized for apps & data workloads like lookups
-    ▸ Filtering and field projection
-    ▸ <b>JSON</b> and <b>CSV</b> support
-    ▸ OpenAPI 3.1 specification
-    ▸ CORS-enabled for browser usage
-    ▸ <b>Completely free to use</b>
-    ▸ <b>No authentication required</b>
-    ▸ Synced hourly
-    ▸ Last Updated: <b>${lastUpdated}</b>
+     ▸ Built from <b>LiteLLM's</b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a>
+     ▸ Optimized for apps & data workloads like lookups
+     ▸ Filtering and field projection
+     ▸ <b>JSON</b> and <b>CSV</b> support
+     ▸ OpenAPI 3.1 specification
+     ▸ CORS-enabled for browser usage
+     ▸ <b>Completely free to use</b>
+     ▸ <b>No authentication required</b>
+     ▸ Synced hourly
+     ▸ Last Updated: <b>${lastUpdated}</b>
 
 </pre>
 <section aria-label="Database Statistics">
@@ -364,7 +366,7 @@ ${asciiTable(
       width: 24,
       key: 'name',
       render: (v: unknown) =>
-        `<a href="/api/v1/providers/${v}" aria-label="View ${v} models">${v}</a>`,
+        `<a href="/api/v1/providers/${v}?pretty" aria-label="View ${v} models">${v}</a>`,
     },
     {
       header: 'Count',
@@ -392,7 +394,7 @@ ${asciiTable(
       width: 24,
       key: 'name',
       render: (v: unknown) =>
-        `<a href="/api/v1/models?type=${v}" aria-label="View ${v} models">${v}</a>`,
+        `<a href="/api/v1/models?type=${v}&pretty" aria-label="View ${v} models">${v}</a>`,
     },
     {
       header: 'Count',
@@ -420,7 +422,7 @@ ${asciiTable(
       width: 24,
       key: 'name',
       render: (v: unknown) =>
-        `<a href="/api/v1/models?capability=${v}" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v}</a>`,
+        `<a href="/api/v1/models?capability=${v}&pretty" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v}</a>`,
     },
     {
       header: 'Count',
@@ -452,22 +454,22 @@ ${sectionHeader('QUICK EXAMPLES')}
 
  <b>List all models</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models" aria-label="API endpoint to list all models">/api/v1/models</a>                                         │
+│ GET <a href="/api/v1/models?pretty" aria-label="API endpoint to list all models">/api/v1/models</a>                                         │
 └────────────────────────────────────────────────────────────┘
 
  <b>Filter by provider</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models?providers=openai,anthropic" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/v1/models?providers=openai,anthropic</a>              │
+│ GET <a href="/api/v1/models?providers=openai,anthropic&pretty" aria-label="API endpoint to filter models by OpenAI and Anthropic providers">/api/v1/models?providers=openai,anthropic</a>              │
 └────────────────────────────────────────────────────────────┘
 
  <b>Get specific fields</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models?project=model_id,model_name,provider_id" aria-label="API endpoint to get specific model fields">/api/v1/models?project=model_id,model_name,provider_id</a> │
+│ GET <a href="/api/v1/models?project=model_id,model_name,provider_id&pretty" aria-label="API endpoint to get specific model fields">/api/v1/models?project=model_id,model_name,provider_id</a> │
 └────────────────────────────────────────────────────────────┘
 
  <b>Get a specific model</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models/o3" aria-label="API endpoint to get GPT-4 model details">/api/v1/models/o3</a>                                      │
+│ GET <a href="/api/v1/models/o3?pretty" aria-label="API endpoint to get o3 model details">/api/v1/models/o3</a>                                      │
 └────────────────────────────────────────────────────────────┘
 
 </pre>
@@ -478,11 +480,11 @@ ${sectionHeader('QUICK EXAMPLES')}
 <pre>
 ${sectionHeader('API ROUTES')}
 
-  <a href="/api/v1/models" aria-label="API models endpoint">/api/v1/models</a>         List all models with filtering
-  <a href="/api/v1/models/gpt-4" aria-label="API model by ID endpoint example">/api/v1/models/:id</a>     Get a specific model by ID
-  <a href="/api/v1/providers" aria-label="API providers endpoint">/api/v1/providers</a>      List all providers
-  <a href="/api/v1/providers/openai" aria-label="API provider models endpoint example">/api/v1/providers/:id</a>  Get models for a provider
-  <a href="/api/v1/metadata" aria-label="API metadata endpoint">/api/v1/metadata</a>       Get database metadata & stats
+  <a href="/api/v1/models?pretty" aria-label="API models endpoint">/api/v1/models</a>         List all models with filtering
+  <a href="/api/v1/models/gpt-4?pretty" aria-label="API model by ID endpoint example">/api/v1/models/:id</a>     Get a specific model by ID
+  <a href="/api/v1/providers?pretty" aria-label="API providers endpoint">/api/v1/providers</a>      List all providers
+  <a href="/api/v1/providers/openai?pretty" aria-label="API provider models endpoint example">/api/v1/providers/:id</a>  Get models for a provider
+  <a href="/api/v1/metadata?pretty" aria-label="API metadata endpoint">/api/v1/metadata</a>       Get database metadata & stats
 
 </pre>
 </section>
