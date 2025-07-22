@@ -85,10 +85,9 @@ export const FormatSchema = z
 export const HeadersSchema = z
   .string()
   .optional()
-  .default('true')
-  .transform((val) => val !== 'false')
+  .transform((val) => val === 'true')
   .describe(
-    'Include headers in CSV output (defaults to true, use headers=false to exclude)'
+    'Include headers in CSV output (defaults to false, use headers=true to include)'
   );
 
 export const FillWithZerosSchema = z

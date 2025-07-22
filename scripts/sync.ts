@@ -334,37 +334,46 @@ async function syncCommand(options: {
     if (options.diff) {
       // Generate file contents
       const mapContent = generateFileContent('map', sortedModels);
-      const listContent = generateFileContent('list', Object.values(sortedModels));
+      const listContent = generateFileContent(
+        'list',
+        Object.values(sortedModels)
+      );
       const metadataContent = generateFileContent('metadata', metadata);
-      const providersContent = generateFileContent('providers', sortedProviderModels);
+      const providersContent = generateFileContent(
+        'providers',
+        sortedProviderModels
+      );
 
       // Compare with existing files
       const dataDir = path.join(outputDir, 'data');
       let hasDiff = false;
-      const diffs: Array<{ file: string; status: 'added' | 'modified' | 'same' }> = [];
+      const diffs: Array<{
+        file: string;
+        status: 'added' | 'modified' | 'same';
+      }> = [];
 
       // Check map.ts
       const mapPath = path.join(dataDir, 'map.ts');
       const mapExists = fs.existsSync(mapPath);
-      if (!mapExists) {
-        diffs.push({ file: 'map.ts', status: 'added' });
-        hasDiff = true;
-      } else {
+      if (mapExists) {
         const isSame = fs.readFileSync(mapPath, 'utf-8') === mapContent;
         diffs.push({ file: 'map.ts', status: isSame ? 'same' : 'modified' });
         if (!isSame) hasDiff = true;
+      } else {
+        diffs.push({ file: 'map.ts', status: 'added' });
+        hasDiff = true;
       }
 
       // Check list.ts
       const listPath = path.join(dataDir, 'list.ts');
       const listExists = fs.existsSync(listPath);
-      if (!listExists) {
-        diffs.push({ file: 'list.ts', status: 'added' });
-        hasDiff = true;
-      } else {
+      if (listExists) {
         const isSame = fs.readFileSync(listPath, 'utf-8') === listContent;
         diffs.push({ file: 'list.ts', status: isSame ? 'same' : 'modified' });
         if (!isSame) hasDiff = true;
+      } else {
+        diffs.push({ file: 'list.ts', status: 'added' });
+        hasDiff = true;
       }
 
       // Skip metadata.ts check since it always changes due to timestamp
@@ -372,28 +381,44 @@ async function syncCommand(options: {
       // Check providers.ts
       const providersPath = path.join(dataDir, 'providers.ts');
       const providersExists = fs.existsSync(providersPath);
-      if (!providersExists) {
+      if (providersExists) {
+        const isSame =
+          fs.readFileSync(providersPath, 'utf-8') === providersContent;
+        diffs.push({
+          file: 'providers.ts',
+          status: isSame ? 'same' : 'modified',
+        });
+        if (!isSame) hasDiff = true;
+      } else {
         diffs.push({ file: 'providers.ts', status: 'added' });
         hasDiff = true;
-      } else {
-        const isSame = fs.readFileSync(providersPath, 'utf-8') === providersContent;
-        diffs.push({ file: 'providers.ts', status: isSame ? 'same' : 'modified' });
-        if (!isSame) hasDiff = true;
       }
 
       // Print diff summary
       console.log(chalk.bold('\nDiff Summary:'));
       for (const diff of diffs) {
-        const icon = diff.status === 'same' ? '✓' : diff.status === 'added' ? '+' : '~';
-        const color = diff.status === 'same' ? chalk.green : diff.status === 'added' ? chalk.blue : chalk.yellow;
+        const icon =
+          diff.status === 'same' ? '✓' : diff.status === 'added' ? '+' : '~';
+        const color =
+          diff.status === 'same'
+            ? chalk.green
+            : diff.status === 'added'
+              ? chalk.blue
+              : chalk.yellow;
         console.log(`  ${color(icon)} ${diff.file} (${diff.status})`);
       }
 
       if (hasDiff) {
-        console.log(chalk.yellow('\n⚠ Differences detected. Run sync without --diff to update files.'));
+        console.log(
+          chalk.yellow(
+            '\n⚠ Differences detected. Run sync without --diff to update files.'
+          )
+        );
         process.exit(1);
       } else {
-        console.log(chalk.green('\n✓ No differences detected. Files are up to date.'));
+        console.log(
+          chalk.green('\n✓ No differences detected. Files are up to date.')
+        );
         process.exit(0);
       }
     } else if (options.dryRun) {
@@ -430,7 +455,10 @@ async function syncCommand(options: {
 
       // Write models-providers.ts
       const providersPath = path.join(dataDir, 'providers.ts');
-      const providersContent = generateFileContent('providers', sortedProviderModels);
+      const providersContent = generateFileContent(
+        'providers',
+        sortedProviderModels
+      );
       fs.writeFileSync(providersPath, providersContent);
       console.log(chalk.green(`✓ Written to ${providersPath}`));
     }
