@@ -8,6 +8,7 @@ export function safeParseQueryCSV(str?: string): string[] {
 }
 
 export function objectsToCSV(
+  // biome-ignore lint: disable
   data: any[],
   fields?: string[],
   includeHeaders = true

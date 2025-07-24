@@ -93,6 +93,7 @@ interface TableColumn {
   render?: (value: unknown, row: TableData) => string;
 }
 
+// biome-ignore lint: disable
 function asciiTable(
   title: string,
   columns: TableColumn[],

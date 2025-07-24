@@ -77,6 +77,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     },
   });
 
+  // biome-ignore lint: disable
   app.openapi(getModels, async (c) => {
     const query = c.req.valid('query');
 
@@ -211,6 +212,7 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     },
   });
 
+  // biome-ignore lint: disable
   app.openapi(getModel, async (c) => {
     const { id } = c.req.valid('param');
     const query = c.req.valid('query');

@@ -244,8 +244,12 @@ export const modelsList: Models = ${JSON.stringify(data, null, 2)} as const;
     case 'providers':
       return `import type { Providers } from '../schema';
 
+
 export const modelsByProvider: Providers = ${JSON.stringify(data, null, 2)} as const;
 `;
+    default:
+      console.error(`Unsupported type: ${type}`);
+      return '';
   }
 }
 
@@ -338,7 +342,7 @@ async function syncCommand(options: {
         'list',
         Object.values(sortedModels)
       );
-      const metadataContent = generateFileContent('metadata', metadata);
+
       const providersContent = generateFileContent(
         'providers',
         sortedProviderModels
@@ -358,7 +362,9 @@ async function syncCommand(options: {
       if (mapExists) {
         const isSame = fs.readFileSync(mapPath, 'utf-8') === mapContent;
         diffs.push({ file: 'map.ts', status: isSame ? 'same' : 'modified' });
-        if (!isSame) hasDiff = true;
+        if (!isSame) {
+          hasDiff = true;
+        }
       } else {
         diffs.push({ file: 'map.ts', status: 'added' });
         hasDiff = true;
@@ -370,7 +376,9 @@ async function syncCommand(options: {
       if (listExists) {
         const isSame = fs.readFileSync(listPath, 'utf-8') === listContent;
         diffs.push({ file: 'list.ts', status: isSame ? 'same' : 'modified' });
-        if (!isSame) hasDiff = true;
+        if (!isSame) {
+          hasDiff = true;
+        }
       } else {
         diffs.push({ file: 'list.ts', status: 'added' });
         hasDiff = true;
@@ -388,7 +396,9 @@ async function syncCommand(options: {
           file: 'providers.ts',
           status: isSame ? 'same' : 'modified',
         });
-        if (!isSame) hasDiff = true;
+        if (!isSame) {
+          hasDiff = true;
+        }
       } else {
         diffs.push({ file: 'providers.ts', status: 'added' });
         hasDiff = true;
