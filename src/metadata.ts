@@ -1,6 +1,7 @@
 import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
 import { objectsToCSV } from './csv';
+import { ALL_CAPABILITIES } from './data/capabilities';
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
 import { jsonResponse } from './response-utils';
@@ -18,17 +19,9 @@ const MetadataSchema = z.object({
       .record(z.string(), z.number())
       .describe('Model count by provider'),
     types: z.record(z.string(), z.number()).describe('Model count by type'),
-    capabilities: z.object({
-      supports_function_calling: z
-        .number()
-        .describe('Models supporting function calling'),
-      supports_vision: z.number().describe('Models supporting vision'),
-      supports_json_mode: z.number().describe('Models supporting JSON mode'),
-      supports_parallel_functions: z
-        .number()
-        .describe('Models supporting parallel functions'),
-      supports_streaming: z.number().describe('Models supporting streaming'),
-    }),
+    capabilities: z
+      .record(z.string(), z.number())
+      .describe('Model count by capability'),
     deprecation: z.object({
       active: z.number().describe('Number of active models'),
       deprecated: z.number().describe('Number of deprecated models'),
@@ -36,17 +29,28 @@ const MetadataSchema = z.object({
   }),
 });
 
+function countModelCapabilities(
+  model: (typeof modelsList)[0],
+  capabilityStats: Record<string, number>
+): void {
+  // Count all capability fields directly from the model
+  for (const capability of ALL_CAPABILITIES) {
+    if (model[capability as keyof typeof model] === true) {
+      capabilityStats[capability]++;
+    }
+  }
+}
+
 function calculateStatistics() {
   const providerStats: Record<string, number> = {};
   const typeStats: Record<string, number> = {};
-  const capabilityStats = {
-    supports_function_calling: 0,
-    supports_vision: 0,
-    supports_json_mode: 0,
-    supports_parallel_functions: 0,
-    supports_streaming: 0,
-  };
+  const capabilityStats: Record<string, number> = {};
   let deprecatedCount = 0;
+
+  // Initialize capability stats for all discovered capabilities
+  for (const capability of ALL_CAPABILITIES) {
+    capabilityStats[capability] = 0;
+  }
 
   for (const model of modelsList) {
     providerStats[model.provider_id] =
@@ -54,18 +58,7 @@ function calculateStatistics() {
 
     typeStats[model.model_type] = (typeStats[model.model_type] || 0) + 1;
 
-    if (model.supports_function_calling) {
-      capabilityStats.supports_function_calling++;
-    }
-    if (model.supports_vision) {
-      capabilityStats.supports_vision++;
-    }
-    if (model.supports_json_mode) {
-      capabilityStats.supports_json_mode++;
-    }
-    if (model.supports_parallel_functions) {
-      capabilityStats.supports_parallel_functions++;
-    }
+    countModelCapabilities(model, capabilityStats);
 
     if (model.deprecation_date) {
       deprecatedCount++;

@@ -17,12 +17,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "j2-mid": {
     "max_tokens": 8192,
@@ -40,12 +40,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "j2-ultra": {
     "max_tokens": 8192,
@@ -63,12 +63,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-1.5": {
     "max_tokens": 256000,
@@ -87,12 +87,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-1.5-large": {
     "max_tokens": 256000,
@@ -111,12 +111,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-1.5-large@001": {
     "max_tokens": 256000,
@@ -135,12 +135,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-1.5-mini": {
     "max_tokens": 256000,
@@ -159,12 +159,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-1.5-mini@001": {
     "max_tokens": 256000,
@@ -183,12 +183,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-large-1.6": {
     "max_tokens": 256000,
@@ -207,12 +207,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-large-1.7": {
     "max_tokens": 256000,
@@ -231,12 +231,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-mini-1.6": {
     "max_tokens": 256000,
@@ -255,12 +255,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jamba-mini-1.7": {
     "max_tokens": 256000,
@@ -279,12 +279,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "luminous-base": {
     "max_tokens": 2048,
@@ -302,12 +302,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "luminous-base-control": {
     "max_tokens": 2048,
@@ -325,12 +325,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "luminous-extended": {
     "max_tokens": 2048,
@@ -348,12 +348,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "luminous-extended-control": {
     "max_tokens": 2048,
@@ -371,12 +371,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "luminous-supreme": {
     "max_tokens": 2048,
@@ -394,12 +394,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "luminous-supreme-control": {
     "max_tokens": 2048,
@@ -417,12 +417,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "claude-3-5-haiku-20241022": {
     "max_tokens": 8192,
@@ -441,6 +441,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-10-01",
     "supports_tool_choice": true,
     "supports_web_search": true,
@@ -454,9 +455,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.08,
     "cache_write_cost_per_token": 0.000001,
     "cache_write_cost_per_million": 1,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-5-haiku-latest": {
     "max_tokens": 8192,
@@ -475,6 +476,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-10-01",
     "supports_tool_choice": true,
     "supports_web_search": true,
@@ -488,9 +490,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.09999999999999999,
     "cache_write_cost_per_token": 0.00000125,
     "cache_write_cost_per_million": 1.25,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-5-sonnet-20240620": {
     "max_tokens": 8192,
@@ -504,6 +506,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-06-01",
     "supports_tool_choice": true,
     "model_id": "claude-3-5-sonnet-20240620",
@@ -516,9 +519,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-5-sonnet-20241022": {
     "supports_computer_use": true,
@@ -538,6 +541,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-10-01",
     "supports_tool_choice": true,
     "supports_web_search": true,
@@ -551,9 +555,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-5-sonnet-latest": {
     "supports_computer_use": true,
@@ -573,6 +577,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-06-01",
     "supports_tool_choice": true,
     "supports_web_search": true,
@@ -586,9 +591,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-7-sonnet-20250219": {
     "supports_computer_use": true,
@@ -608,6 +613,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2026-02-01",
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -622,9 +628,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-7-sonnet-latest": {
     "supports_computer_use": true,
@@ -644,6 +650,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-06-01",
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -657,9 +664,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-haiku-20240307": {
     "max_tokens": 4096,
@@ -672,6 +679,7 @@ export const modelsMap: Record<string, Model> = {
     "tool_use_system_prompt_tokens": 264,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-03-01",
     "supports_tool_choice": true,
     "model_id": "claude-3-haiku-20240307",
@@ -684,9 +692,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.03,
     "cache_write_cost_per_token": 3e-7,
     "cache_write_cost_per_million": 0.3,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-opus-20240229": {
     "max_tokens": 4096,
@@ -699,6 +707,7 @@ export const modelsMap: Record<string, Model> = {
     "tool_use_system_prompt_tokens": 395,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-03-01",
     "supports_tool_choice": true,
     "model_id": "claude-3-opus-20240229",
@@ -711,9 +720,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-opus-latest": {
     "max_tokens": 4096,
@@ -726,6 +735,7 @@ export const modelsMap: Record<string, Model> = {
     "tool_use_system_prompt_tokens": 395,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-03-01",
     "supports_tool_choice": true,
     "model_id": "claude-3-opus-latest",
@@ -738,9 +748,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-4-opus-20250514": {
     "max_tokens": 32000,
@@ -759,6 +769,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -772,10 +783,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "claude-4-sonnet-20250514": {
     "max_tokens": 64000,
@@ -794,6 +805,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -807,10 +819,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "claude-opus-4-20250514": {
     "max_tokens": 32000,
@@ -829,6 +841,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -842,10 +855,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "claude-sonnet-4-20250514": {
     "max_tokens": 64000,
@@ -864,6 +877,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -877,10 +891,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "codellama/CodeLlama-34b-Instruct-hf": {
     "max_tokens": 4096,
@@ -898,12 +912,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codellama/CodeLlama-70b-Instruct-hf": {
     "max_tokens": 4096,
@@ -922,12 +936,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "google/gemma-7b-it": {
     "max_tokens": 8192,
@@ -946,12 +960,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "HuggingFaceH4/zephyr-7b-beta": {
     "max_tokens": 16384,
@@ -969,12 +983,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta-llama/Llama-2-13b-chat-hf": {
     "max_tokens": 4096,
@@ -992,12 +1006,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta-llama/Llama-2-70b-chat-hf": {
     "max_tokens": 4096,
@@ -1015,12 +1029,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta-llama/Llama-2-7b-chat-hf": {
     "max_tokens": 4096,
@@ -1038,12 +1052,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta-llama/Meta-Llama-3-70B-Instruct": {
     "max_tokens": 8192,
@@ -1062,12 +1076,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta-llama/Meta-Llama-3-8B-Instruct": {
     "max_tokens": 8192,
@@ -1086,12 +1100,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistralai/Mistral-7B-Instruct-v0.1": {
     "max_tokens": 16384,
@@ -1111,11 +1125,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistralai/Mixtral-8x22B-Instruct-v0.1": {
     "max_tokens": 65536,
@@ -1135,11 +1149,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistralai/Mixtral-8x7B-Instruct-v0.1": {
     "max_tokens": 16384,
@@ -1159,11 +1173,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "assemblyai/best": {
     "input_cost_per_second": 0.00003333,
@@ -1182,12 +1196,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "assemblyai/nano": {
     "input_cost_per_second": 0.00010278,
@@ -1206,12 +1220,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Cohere-embed-v3-english": {
     "max_tokens": 512,
@@ -1232,12 +1246,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Cohere-embed-v3-multilingual": {
     "max_tokens": 512,
@@ -1258,12 +1272,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/cohere-rerank-v3-english": {
     "max_tokens": 4096,
@@ -1283,12 +1297,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/cohere-rerank-v3-multilingual": {
     "max_tokens": 4096,
@@ -1308,12 +1322,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/cohere-rerank-v3.5": {
     "max_tokens": 4096,
@@ -1333,12 +1347,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/deepseek-r1": {
     "max_tokens": 8192,
@@ -1359,12 +1373,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/deepseek-v3": {
     "max_tokens": 8192,
@@ -1384,12 +1398,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/deepseek-v3-0324": {
     "max_tokens": 8192,
@@ -1410,11 +1424,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/embed-v-4-0": {
     "max_tokens": 128000,
@@ -1442,12 +1456,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/global/grok-3": {
     "max_tokens": 131072,
@@ -1457,6 +1471,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
     "supports_web_search": true,
     "model_id": "azure_ai/global/grok-3",
@@ -1469,11 +1484,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/global/grok-3-mini": {
     "max_tokens": 131072,
@@ -1484,6 +1499,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": false,
     "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
     "supports_web_search": true,
     "model_id": "azure_ai/global/grok-3-mini",
@@ -1496,11 +1512,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/grok-3": {
     "max_tokens": 131072,
@@ -1510,6 +1526,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000165,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
     "supports_web_search": true,
     "model_id": "azure_ai/grok-3",
@@ -1522,11 +1539,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/grok-3-mini": {
     "max_tokens": 131072,
@@ -1537,6 +1554,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": false,
     "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
     "supports_web_search": true,
     "model_id": "azure_ai/grok-3-mini",
@@ -1549,11 +1567,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/jais-30b-chat": {
     "max_tokens": 8192,
@@ -1572,12 +1590,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/jamba-instruct": {
     "max_tokens": 4096,
@@ -1596,12 +1614,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Llama-3.2-11B-Vision-Instruct": {
     "max_tokens": 2048,
@@ -1623,10 +1641,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/Llama-3.2-90B-Vision-Instruct": {
     "max_tokens": 2048,
@@ -1648,10 +1666,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/Llama-3.3-70B-Instruct": {
     "max_tokens": 2048,
@@ -1672,11 +1690,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Llama-4-Maverick-17B-128E-Instruct-FP8": {
     "max_tokens": 16384,
@@ -1698,10 +1716,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/Llama-4-Scout-17B-16E-Instruct": {
     "max_tokens": 16384,
@@ -1723,10 +1741,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/Meta-Llama-3-70B-Instruct": {
     "max_tokens": 2048,
@@ -1745,12 +1763,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Meta-Llama-3.1-405B-Instruct": {
     "max_tokens": 2048,
@@ -1770,12 +1788,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Meta-Llama-3.1-70B-Instruct": {
     "max_tokens": 2048,
@@ -1795,12 +1813,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Meta-Llama-3.1-8B-Instruct": {
     "max_tokens": 2048,
@@ -1820,12 +1838,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/ministral-3b": {
     "max_tokens": 4096,
@@ -1846,11 +1864,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/mistral-large": {
     "max_tokens": 8191,
@@ -1870,11 +1888,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/mistral-large-2407": {
     "max_tokens": 4096,
@@ -1895,11 +1913,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/mistral-large-latest": {
     "max_tokens": 4096,
@@ -1920,11 +1938,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/mistral-medium-2505": {
     "max_tokens": 8191,
@@ -1945,11 +1963,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/mistral-nemo": {
     "max_tokens": 4096,
@@ -1969,11 +1987,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/mistral-small": {
     "max_tokens": 8191,
@@ -1993,11 +2011,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/mistral-small-2503": {
     "max_tokens": 128000,
@@ -2018,10 +2036,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3-medium-128k-instruct": {
     "max_tokens": 4096,
@@ -2042,11 +2060,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3-medium-4k-instruct": {
     "max_tokens": 4096,
@@ -2067,11 +2085,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3-mini-128k-instruct": {
     "max_tokens": 4096,
@@ -2092,11 +2110,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3-mini-4k-instruct": {
     "max_tokens": 4096,
@@ -2117,11 +2135,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3-small-128k-instruct": {
     "max_tokens": 4096,
@@ -2142,11 +2160,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3-small-8k-instruct": {
     "max_tokens": 4096,
@@ -2167,11 +2185,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3.5-mini-instruct": {
     "max_tokens": 4096,
@@ -2192,11 +2210,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3.5-MoE-instruct": {
     "max_tokens": 4096,
@@ -2217,11 +2235,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-3.5-vision-instruct": {
     "max_tokens": 4096,
@@ -2242,11 +2260,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-4": {
     "max_tokens": 16384,
@@ -2268,10 +2286,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-4-mini-instruct": {
     "max_tokens": 4096,
@@ -2291,11 +2309,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure_ai/Phi-4-multimodal-instruct": {
     "max_tokens": 4096,
@@ -2318,10 +2336,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "azure/ada": {
     "max_tokens": 8191,
@@ -2339,12 +2357,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/codex-mini": {
     "max_tokens": 100000,
@@ -2354,9 +2372,11 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000006,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supported_modalities": [
@@ -2379,10 +2399,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/command-r-plus": {
     "max_tokens": 4096,
@@ -2401,11 +2421,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/computer-use-preview": {
     "max_tokens": 1024,
@@ -2424,6 +2444,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": false,
     "supports_system_messages": true,
@@ -2439,10 +2461,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/eu/gpt-4o-2024-08-06": {
     "max_tokens": 16384,
@@ -2451,6 +2473,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00000275,
     "output_cost_per_token": 0.000011,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -2464,10 +2488,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/eu/gpt-4o-2024-11-20": {
     "max_tokens": 16384,
@@ -2476,6 +2500,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00000275,
     "output_cost_per_token": 0.000011,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "azure/eu/gpt-4o-2024-11-20",
@@ -2488,10 +2514,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": 0.00000138,
     "cache_write_cost_per_million": 1.38,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/eu/gpt-4o-mini-2024-07-18": {
     "max_tokens": 16384,
@@ -2500,6 +2526,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.65e-7,
     "output_cost_per_token": 6.6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -2513,10 +2541,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.083,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/eu/gpt-4o-mini-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -2528,6 +2556,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00000264,
     "output_cost_per_audio_token": 0.000022,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -2542,11 +2571,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.33,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/eu/gpt-4o-realtime-preview-2024-10-01": {
     "max_tokens": 4096,
@@ -2558,6 +2587,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000022,
     "output_cost_per_audio_token": 0.00022,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -2572,11 +2602,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.75,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/eu/gpt-4o-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -2596,6 +2626,7 @@ export const modelsMap: Record<string, Model> = {
       "audio"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -2610,11 +2641,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.75,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/eu/o1-2024-12-17": {
     "max_tokens": 100000,
@@ -2623,6 +2654,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000165,
     "output_cost_per_token": 0.000066,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -2636,10 +2668,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 8.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/eu/o1-mini-2024-09-12": {
     "max_tokens": 65536,
@@ -2650,6 +2682,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00000484,
     "output_cost_per_token_batches": 0.00000242,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_prompt_caching": true,
     "model_id": "azure/eu/o1-mini-2024-09-12",
@@ -2662,10 +2695,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.605,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/eu/o1-preview-2024-09-12": {
     "max_tokens": 32768,
@@ -2674,6 +2707,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000165,
     "output_cost_per_token": 0.000066,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_prompt_caching": true,
     "model_id": "azure/eu/o1-preview-2024-09-12",
@@ -2686,10 +2720,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 8.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/eu/o3-mini-2025-01-31": {
     "max_tokens": 100000,
@@ -2713,11 +2747,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.605,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/global-standard/gpt-4o-2024-08-06": {
     "max_tokens": 16384,
@@ -2726,6 +2760,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000025,
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -2740,9 +2776,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "azure/global-standard/gpt-4o-2024-11-20": {
     "max_tokens": 16384,
@@ -2751,6 +2787,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000025,
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-12-20",
@@ -2764,9 +2802,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "azure/global-standard/gpt-4o-mini": {
     "max_tokens": 16384,
@@ -2775,6 +2813,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.5e-7,
     "output_cost_per_token": 6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "azure/global-standard/gpt-4o-mini",
@@ -2787,10 +2827,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/global/gpt-4o-2024-08-06": {
     "max_tokens": 16384,
@@ -2799,6 +2839,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000025,
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -2812,10 +2854,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/global/gpt-4o-2024-11-20": {
     "max_tokens": 16384,
@@ -2824,6 +2866,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000025,
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -2837,10 +2881,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-3.5-turbo": {
     "max_tokens": 4096,
@@ -2860,11 +2904,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-3.5-turbo-0125": {
     "max_tokens": 4096,
@@ -2873,6 +2917,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-7,
     "output_cost_per_token": 0.0000015,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "deprecation_date": "2025-03-31",
     "supports_tool_choice": true,
     "model_id": "azure/gpt-3.5-turbo-0125",
@@ -2885,10 +2930,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-3.5-turbo-instruct-0914": {
     "max_tokens": 4097,
@@ -2906,12 +2951,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-35-turbo": {
     "max_tokens": 4096,
@@ -2931,11 +2976,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-35-turbo-0125": {
     "max_tokens": 4096,
@@ -2944,6 +2989,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-7,
     "output_cost_per_token": 0.0000015,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "deprecation_date": "2025-05-31",
     "supports_tool_choice": true,
     "model_id": "azure/gpt-35-turbo-0125",
@@ -2956,10 +3002,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-35-turbo-0301": {
     "max_tokens": 4097,
@@ -2968,6 +3014,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 0.000002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "deprecation_date": "2025-02-13",
     "supports_tool_choice": true,
     "model_id": "azure/gpt-35-turbo-0301",
@@ -2980,10 +3027,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-35-turbo-0613": {
     "max_tokens": 4097,
@@ -2992,6 +3039,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000015,
     "output_cost_per_token": 0.000002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "deprecation_date": "2025-02-13",
     "supports_tool_choice": true,
     "model_id": "azure/gpt-35-turbo-0613",
@@ -3004,10 +3052,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-35-turbo-1106": {
     "max_tokens": 4096,
@@ -3016,6 +3064,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000001,
     "output_cost_per_token": 0.000002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "deprecation_date": "2025-03-31",
     "supports_tool_choice": true,
     "model_id": "azure/gpt-35-turbo-1106",
@@ -3028,10 +3077,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-35-turbo-16k": {
     "max_tokens": 4096,
@@ -3050,12 +3099,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-35-turbo-16k-0613": {
     "max_tokens": 4096,
@@ -3075,11 +3124,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-35-turbo-instruct": {
     "max_tokens": 4097,
@@ -3097,12 +3146,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-35-turbo-instruct-0914": {
     "max_tokens": 4097,
@@ -3120,12 +3169,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4": {
     "max_tokens": 4096,
@@ -3145,11 +3194,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4-0125-preview": {
     "max_tokens": 4096,
@@ -3158,6 +3207,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00001,
     "output_cost_per_token": 0.00003,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "azure/gpt-4-0125-preview",
     "model_name": "GPT 4 0125 Preview",
@@ -3169,11 +3219,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-4-0613": {
     "max_tokens": 4096,
@@ -3193,11 +3243,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4-1106-preview": {
     "max_tokens": 4096,
@@ -3206,6 +3256,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00001,
     "output_cost_per_token": 0.00003,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "azure/gpt-4-1106-preview",
     "model_name": "GPT 4 1106 Preview",
@@ -3217,11 +3268,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-4-32k": {
     "max_tokens": 4096,
@@ -3240,12 +3291,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4-32k-0613": {
     "max_tokens": 4096,
@@ -3264,12 +3315,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4-turbo": {
     "max_tokens": 4096,
@@ -3278,6 +3329,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00001,
     "output_cost_per_token": 0.00003,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "azure/gpt-4-turbo",
     "model_name": "GPT 4 Turbo",
@@ -3289,11 +3341,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-4-turbo-2024-04-09": {
     "max_tokens": 4096,
@@ -3302,6 +3354,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00001,
     "output_cost_per_token": 0.00003,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "azure/gpt-4-turbo-2024-04-09",
@@ -3314,10 +3367,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/gpt-4-turbo-vision-preview": {
     "max_tokens": 4096,
@@ -3337,11 +3390,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4.1": {
     "max_tokens": 32768,
@@ -3364,6 +3417,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -3385,10 +3440,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4.1-2025-04-14": {
     "max_tokens": 32768,
@@ -3411,6 +3466,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -3432,10 +3489,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4.1-mini": {
     "max_tokens": 32768,
@@ -3458,6 +3515,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -3479,10 +3538,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.09999999999999999,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4.1-mini-2025-04-14": {
     "max_tokens": 32768,
@@ -3505,6 +3564,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -3526,10 +3587,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.09999999999999999,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4.1-nano": {
     "max_tokens": 32768,
@@ -3552,6 +3613,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -3567,10 +3630,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4.1-nano-2025-04-14": {
     "max_tokens": 32768,
@@ -3593,6 +3656,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -3608,10 +3673,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4.5-preview": {
     "max_tokens": 16384,
@@ -3622,6 +3687,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token_batches": 0.0000375,
     "output_cost_per_token_batches": 0.000075,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -3636,10 +3703,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 37.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o": {
     "max_tokens": 16384,
@@ -3648,6 +3715,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000025,
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -3661,10 +3730,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o-2024-05-13": {
     "max_tokens": 4096,
@@ -3673,6 +3742,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000005,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -3686,10 +3756,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/gpt-4o-2024-08-06": {
     "max_tokens": 16384,
@@ -3698,6 +3768,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000025,
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -3711,10 +3783,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o-2024-11-20": {
     "max_tokens": 16384,
@@ -3723,6 +3795,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00000275,
     "output_cost_per_token": 0.000011,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -3736,10 +3810,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o-audio-preview-2024-12-17": {
     "max_tokens": 16384,
@@ -3761,6 +3835,8 @@ export const modelsMap: Record<string, Model> = {
       "audio"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": false,
     "supports_vision": false,
     "supports_prompt_caching": false,
     "supports_system_messages": true,
@@ -3777,10 +3853,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o-mini": {
     "max_tokens": 16384,
@@ -3789,6 +3865,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.65e-7,
     "output_cost_per_token": 6.6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -3802,10 +3880,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o-mini-2024-07-18": {
     "max_tokens": 16384,
@@ -3814,6 +3892,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.65e-7,
     "output_cost_per_token": 6.6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -3827,10 +3907,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o-mini-audio-preview-2024-12-17": {
     "max_tokens": 16384,
@@ -3852,6 +3932,8 @@ export const modelsMap: Record<string, Model> = {
       "audio"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": false,
     "supports_vision": false,
     "supports_prompt_caching": false,
     "supports_system_messages": true,
@@ -3868,10 +3950,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true
   },
   "azure/gpt-4o-mini-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -3883,6 +3965,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000024,
     "output_cost_per_audio_token": 0.00002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -3897,11 +3980,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-4o-mini-transcribe": {
     "max_input_tokens": 16000,
@@ -3922,12 +4005,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4o-mini-tts": {
     "input_cost_per_token": 0.0000025,
@@ -3956,12 +4039,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-4o-realtime-preview-2024-10-01": {
     "max_tokens": 4096,
@@ -3973,6 +4056,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00002,
     "output_cost_per_audio_token": 0.0002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -3987,11 +4071,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-4o-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -4010,6 +4094,7 @@ export const modelsMap: Record<string, Model> = {
       "audio"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -4024,11 +4109,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/gpt-4o-transcribe": {
     "max_input_tokens": 16000,
@@ -4049,12 +4134,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -4076,12 +4161,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/hd/1024-x-1024/dall-e-3": {
     "input_cost_per_pixel": 7.629e-8,
@@ -4099,12 +4184,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/hd/1024-x-1792/dall-e-3": {
     "input_cost_per_pixel": 6.539e-8,
@@ -4122,12 +4207,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/hd/1792-x-1024/dall-e-3": {
     "input_cost_per_pixel": 6.539e-8,
@@ -4145,12 +4230,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/high/1024-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.59263611e-7,
@@ -4172,12 +4257,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/high/1024-x-1536/gpt-image-1": {
     "input_cost_per_pixel": 1.58945719e-7,
@@ -4199,12 +4284,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/high/1536-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.58945719e-7,
@@ -4226,12 +4311,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/low/1024-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.0490417e-8,
@@ -4253,12 +4338,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/low/1024-x-1536/gpt-image-1": {
     "input_cost_per_pixel": 1.0172526e-8,
@@ -4280,12 +4365,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/low/1536-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.0172526e-8,
@@ -4307,12 +4392,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/medium/1024-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -4334,12 +4419,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/medium/1024-x-1536/gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -4361,12 +4446,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/medium/1536-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -4388,12 +4473,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/mistral-large-2402": {
     "max_tokens": 32000,
@@ -4412,11 +4497,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/mistral-large-latest": {
     "max_tokens": 32000,
@@ -4435,11 +4520,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/o1": {
     "max_tokens": 100000,
@@ -4448,6 +4533,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.00006,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_reasoning": true,
     "supports_prompt_caching": true,
@@ -4462,10 +4548,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/o1-2024-12-17": {
     "max_tokens": 100000,
@@ -4474,6 +4560,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.00006,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_reasoning": true,
     "supports_prompt_caching": true,
@@ -4488,10 +4575,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/o1-mini": {
     "max_tokens": 65536,
@@ -4500,6 +4587,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00000121,
     "output_cost_per_token": 0.00000484,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_reasoning": true,
     "supports_prompt_caching": true,
@@ -4513,10 +4601,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.605,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/o1-mini-2024-09-12": {
     "max_tokens": 65536,
@@ -4525,6 +4613,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000011,
     "output_cost_per_token": 0.0000044,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_reasoning": true,
     "supports_prompt_caching": true,
@@ -4538,10 +4627,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.55,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/o1-preview": {
     "max_tokens": 32768,
@@ -4550,6 +4639,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.00006,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_reasoning": true,
     "supports_prompt_caching": true,
@@ -4563,10 +4653,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/o1-preview-2024-09-12": {
     "max_tokens": 32768,
@@ -4576,6 +4666,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00006,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_reasoning": true,
     "supports_prompt_caching": true,
@@ -4589,10 +4680,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/o3": {
     "max_tokens": 100000,
@@ -4613,8 +4704,10 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "azure/o3",
@@ -4627,10 +4720,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "azure/o3-2025-04-16": {
     "max_tokens": 100000,
@@ -4651,8 +4744,10 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "azure/o3-2025-04-16",
@@ -4665,10 +4760,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "azure/o3-deep-research": {
     "max_tokens": 100000,
@@ -4690,6 +4785,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -4706,10 +4803,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/o3-mini": {
     "max_tokens": 100000,
@@ -4720,6 +4817,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": false,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "azure/o3-mini",
     "model_name": "O3 mini",
@@ -4731,11 +4829,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.55,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_function_calling": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_function_calling": false,
+    "supports_parallel_functions": false
   },
   "azure/o3-mini-2025-01-31": {
     "max_tokens": 100000,
@@ -4757,11 +4855,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.55,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/o3-pro": {
     "max_tokens": 100000,
@@ -4784,8 +4882,10 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": false,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "azure/o3-pro",
@@ -4798,10 +4898,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "azure/o3-pro-2025-06-10": {
     "max_tokens": 100000,
@@ -4824,8 +4924,10 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": false,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "azure/o3-pro-2025-06-10",
@@ -4838,10 +4940,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "azure/o4-mini": {
     "max_tokens": 100000,
@@ -4862,8 +4964,10 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "azure/o4-mini",
@@ -4876,10 +4980,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.275,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "azure/o4-mini-2025-04-16": {
     "max_tokens": 100000,
@@ -4888,8 +4992,10 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000011,
     "output_cost_per_token": 0.0000044,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "azure/o4-mini-2025-04-16",
@@ -4902,10 +5008,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.275,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "azure/standard/1024-x-1024/dall-e-2": {
     "input_cost_per_pixel": 0,
@@ -4923,12 +5029,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/standard/1024-x-1024/dall-e-3": {
     "input_cost_per_pixel": 3.81469e-8,
@@ -4946,12 +5052,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/standard/1024-x-1792/dall-e-3": {
     "input_cost_per_pixel": 4.359e-8,
@@ -4969,12 +5075,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/standard/1792-x-1024/dall-e-3": {
     "input_cost_per_pixel": 4.359e-8,
@@ -4992,12 +5098,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/text-embedding-3-large": {
     "max_tokens": 8191,
@@ -5015,12 +5121,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/text-embedding-3-small": {
     "max_tokens": 8191,
@@ -5038,12 +5144,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/text-embedding-ada-002": {
     "max_tokens": 8191,
@@ -5061,12 +5167,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/tts-1": {
     "input_cost_per_character": 0.000015,
@@ -5084,12 +5190,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/tts-1-hd": {
     "input_cost_per_character": 0.00003,
@@ -5107,12 +5213,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/us/gpt-4o-2024-08-06": {
     "max_tokens": 16384,
@@ -5121,6 +5227,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00000275,
     "output_cost_per_token": 0.000011,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -5134,10 +5242,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/us/gpt-4o-2024-11-20": {
     "max_tokens": 16384,
@@ -5146,6 +5254,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00000275,
     "output_cost_per_token": 0.000011,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "azure/us/gpt-4o-2024-11-20",
@@ -5158,10 +5268,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": 0.00000138,
     "cache_write_cost_per_million": 1.38,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/us/gpt-4o-mini-2024-07-18": {
     "max_tokens": 16384,
@@ -5170,6 +5280,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.65e-7,
     "output_cost_per_token": 6.6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -5183,10 +5295,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.083,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "azure/us/gpt-4o-mini-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -5198,6 +5310,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00000264,
     "output_cost_per_audio_token": 0.000022,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -5212,11 +5325,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.33,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/us/gpt-4o-realtime-preview-2024-10-01": {
     "max_tokens": 4096,
@@ -5228,6 +5341,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000022,
     "output_cost_per_audio_token": 0.00022,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -5242,11 +5356,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.75,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/us/gpt-4o-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -5266,6 +5380,7 @@ export const modelsMap: Record<string, Model> = {
       "audio"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -5280,11 +5395,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.75,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "azure/us/o1-2024-12-17": {
     "max_tokens": 100000,
@@ -5293,6 +5408,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000165,
     "output_cost_per_token": 0.000066,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
@@ -5306,10 +5422,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 8.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/us/o1-mini-2024-09-12": {
     "max_tokens": 65536,
@@ -5320,6 +5436,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00000484,
     "output_cost_per_token_batches": 0.00000242,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_prompt_caching": true,
     "model_id": "azure/us/o1-mini-2024-09-12",
@@ -5332,10 +5449,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.605,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/us/o1-preview-2024-09-12": {
     "max_tokens": 32768,
@@ -5344,6 +5461,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000165,
     "output_cost_per_token": 0.000066,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_prompt_caching": true,
     "model_id": "azure/us/o1-preview-2024-09-12",
@@ -5356,10 +5474,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 8.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "azure/us/o3-mini-2025-01-31": {
     "max_tokens": 100000,
@@ -5383,11 +5501,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.605,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "azure/whisper-1": {
     "input_cost_per_second": 0.0001,
@@ -5406,12 +5524,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "computer-use-preview": {
     "max_tokens": 1024,
@@ -5430,6 +5548,8 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": false,
     "supports_system_messages": true,
@@ -5445,10 +5565,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "*/1-month-commitment/cohere.command-light-text-v14": {
     "max_tokens": 4096,
@@ -5469,12 +5589,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "*/1-month-commitment/cohere.command-text-v14": {
     "max_tokens": 4096,
@@ -5495,12 +5615,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "*/6-month-commitment/cohere.command-light-text-v14": {
     "max_tokens": 4096,
@@ -5521,12 +5641,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "*/6-month-commitment/cohere.command-text-v14": {
     "max_tokens": 4096,
@@ -5547,12 +5667,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0": {
     "max_input_tokens": 2600,
@@ -5570,12 +5690,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "1024-x-1024/50-steps/stability.stable-diffusion-xl-v1": {
     "max_tokens": 77,
@@ -5594,12 +5714,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "1024-x-1024/max-steps/stability.stable-diffusion-xl-v1": {
     "max_tokens": 77,
@@ -5618,12 +5738,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "512-x-512/50-steps/stability.stable-diffusion-xl-v0": {
     "max_tokens": 77,
@@ -5642,12 +5762,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "512-x-512/max-steps/stability.stable-diffusion-xl-v0": {
     "max_tokens": 77,
@@ -5666,12 +5786,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ai21.j2-mid-v1": {
     "max_tokens": 8191,
@@ -5689,12 +5809,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ai21.j2-ultra-v1": {
     "max_tokens": 8191,
@@ -5712,12 +5832,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ai21.jamba-1-5-large-v1:0": {
     "max_tokens": 256000,
@@ -5735,12 +5855,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ai21.jamba-1-5-mini-v1:0": {
     "max_tokens": 256000,
@@ -5758,12 +5878,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ai21.jamba-instruct-v1:0": {
     "max_tokens": 4096,
@@ -5782,12 +5902,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon.nova-lite-v1:0": {
     "max_tokens": 10000,
@@ -5799,6 +5919,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "amazon.nova-lite-v1:0",
     "model_name": "Amazon.nova Lite V1:0",
     "provider_id": "bedrock",
@@ -5809,10 +5930,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "amazon.nova-micro-v1:0": {
     "max_tokens": 10000,
@@ -5822,6 +5943,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 1.4e-7,
     "supports_function_calling": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "amazon.nova-micro-v1:0",
     "model_name": "Amazon.nova Micro V1:0",
     "provider_id": "bedrock",
@@ -5832,11 +5954,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "amazon.nova-pro-v1:0": {
     "max_tokens": 10000,
@@ -5848,6 +5970,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "amazon.nova-pro-v1:0",
     "model_name": "Amazon.nova Pro V1:0",
     "provider_id": "bedrock",
@@ -5858,10 +5981,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "amazon.rerank-v1:0": {
     "max_tokens": 32000,
@@ -5883,12 +6006,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon.titan-embed-image-v1": {
     "max_tokens": 128,
@@ -5914,12 +6037,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon.titan-embed-text-v1": {
     "max_tokens": 8192,
@@ -5938,12 +6061,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon.titan-embed-text-v2:0": {
     "max_tokens": 8192,
@@ -5962,12 +6085,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon.titan-text-express-v1": {
     "max_tokens": 8000,
@@ -5985,12 +6108,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon.titan-text-lite-v1": {
     "max_tokens": 4000,
@@ -6008,12 +6131,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon.titan-text-premier-v1:0": {
     "max_tokens": 32000,
@@ -6031,12 +6154,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "anthropic.claude-3-5-haiku-20241022-v1:0": {
     "max_tokens": 8192,
@@ -6047,6 +6170,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "supports_tool_choice": true,
     "model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
@@ -6059,11 +6183,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.08,
     "cache_write_cost_per_token": 0.000001,
     "cache_write_cost_per_million": 1,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "max_tokens": 4096,
@@ -6072,6 +6196,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -6085,10 +6210,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "supports_computer_use": true,
@@ -6102,6 +6227,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_pdf_input": true,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -6113,10 +6239,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-3-7-sonnet-20250219-v1:0": {
     "supports_computer_use": true,
@@ -6129,6 +6255,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_pdf_input": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
@@ -6142,10 +6269,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-3-haiku-20240307-v1:0": {
     "max_tokens": 4096,
@@ -6154,6 +6281,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-7,
     "output_cost_per_token": 0.00000125,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -6167,10 +6295,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-3-opus-20240229-v1:0": {
     "max_tokens": 4096,
@@ -6179,6 +6307,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.000075,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "anthropic.claude-3-opus-20240229-v1:0",
@@ -6191,10 +6320,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-3-sonnet-20240229-v1:0": {
     "max_tokens": 4096,
@@ -6203,6 +6332,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -6216,10 +6346,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -6238,12 +6368,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "anthropic.claude-opus-4-20250514-v1:0": {
     "max_tokens": 32000,
@@ -6262,6 +6392,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -6275,10 +6406,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-sonnet-4-20250514-v1:0": {
     "max_tokens": 64000,
@@ -6297,6 +6428,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -6310,10 +6442,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -6331,12 +6463,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -6355,12 +6487,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -6379,12 +6511,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -6405,12 +6537,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -6430,12 +6562,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -6456,12 +6588,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/1-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -6482,12 +6614,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -6508,12 +6640,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -6533,12 +6665,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -6559,12 +6691,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/6-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -6585,12 +6717,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -6609,12 +6741,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -6633,12 +6765,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -6657,12 +6789,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-northeast-1/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -6681,12 +6813,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-south-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -6704,12 +6836,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ap-south-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -6727,12 +6859,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "apac.amazon.nova-lite-v1:0": {
     "max_tokens": 10000,
@@ -6744,6 +6876,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "apac.amazon.nova-lite-v1:0",
     "model_name": "Apac.amazon.nova Lite V1:0",
     "provider_id": "bedrock",
@@ -6754,10 +6887,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "apac.amazon.nova-micro-v1:0": {
     "max_tokens": 10000,
@@ -6767,6 +6900,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 1.48e-7,
     "supports_function_calling": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "apac.amazon.nova-micro-v1:0",
     "model_name": "Apac.amazon.nova Micro V1:0",
     "provider_id": "bedrock",
@@ -6777,11 +6911,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "apac.amazon.nova-pro-v1:0": {
     "max_tokens": 10000,
@@ -6793,6 +6927,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "apac.amazon.nova-pro-v1:0",
     "model_name": "Apac.amazon.nova Pro V1:0",
     "provider_id": "bedrock",
@@ -6803,10 +6938,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "apac.anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "max_tokens": 4096,
@@ -6815,6 +6950,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -6828,10 +6964,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "apac.anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "max_tokens": 8192,
@@ -6845,6 +6981,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_computer_use": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "apac.anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Apac.anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -6856,10 +6993,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "apac.anthropic.claude-3-haiku-20240307-v1:0": {
     "max_tokens": 4096,
@@ -6868,6 +7005,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-7,
     "output_cost_per_token": 0.00000125,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -6881,10 +7019,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "apac.anthropic.claude-3-sonnet-20240229-v1:0": {
     "max_tokens": 4096,
@@ -6893,6 +7031,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -6906,10 +7045,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "apac.anthropic.claude-sonnet-4-20250514-v1:0": {
     "max_tokens": 64000,
@@ -6928,6 +7067,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -6941,10 +7081,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "ca-central-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -6962,12 +7102,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ca-central-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -6985,12 +7125,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cohere.command-light-text-v14": {
     "max_tokens": 4096,
@@ -7009,12 +7149,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cohere.command-r-plus-v1:0": {
     "max_tokens": 4096,
@@ -7033,12 +7173,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cohere.command-r-v1:0": {
     "max_tokens": 4096,
@@ -7057,12 +7197,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cohere.command-text-v14": {
     "max_tokens": 4096,
@@ -7081,12 +7221,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cohere.embed-english-v3": {
     "max_tokens": 512,
@@ -7105,12 +7245,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cohere.embed-multilingual-v3": {
     "max_tokens": 512,
@@ -7129,12 +7269,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cohere.rerank-v3-5:0": {
     "max_tokens": 32000,
@@ -7156,12 +7296,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/1-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -7182,12 +7322,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/1-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -7207,12 +7347,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/1-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -7233,12 +7373,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/1-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -7259,12 +7399,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/6-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -7285,12 +7425,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/6-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -7310,12 +7450,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/6-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -7336,12 +7476,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/6-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -7362,12 +7502,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -7386,12 +7526,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -7409,12 +7549,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -7433,12 +7573,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-central-1/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -7457,12 +7597,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-west-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -7480,12 +7620,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-west-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -7503,12 +7643,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-west-2/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -7526,12 +7666,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-west-2/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -7549,12 +7689,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-west-3/mistral.mistral-7b-instruct-v0:2": {
     "max_tokens": 8191,
@@ -7573,12 +7713,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-west-3/mistral.mistral-large-2402-v1:0": {
     "max_tokens": 8191,
@@ -7597,11 +7737,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu-west-3/mistral.mixtral-8x7b-instruct-v0:1": {
     "max_tokens": 8191,
@@ -7620,12 +7760,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu.amazon.nova-lite-v1:0": {
     "max_tokens": 10000,
@@ -7637,6 +7777,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "eu.amazon.nova-lite-v1:0",
     "model_name": "Eu.amazon.nova Lite V1:0",
     "provider_id": "bedrock",
@@ -7647,10 +7788,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.amazon.nova-micro-v1:0": {
     "max_tokens": 10000,
@@ -7660,6 +7801,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 1.84e-7,
     "supports_function_calling": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "eu.amazon.nova-micro-v1:0",
     "model_name": "Eu.amazon.nova Micro V1:0",
     "provider_id": "bedrock",
@@ -7670,11 +7812,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "eu.amazon.nova-pro-v1:0": {
     "max_tokens": 10000,
@@ -7686,6 +7828,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "source": "https://aws.amazon.com/bedrock/pricing/",
     "model_id": "eu.amazon.nova-pro-v1:0",
     "model_name": "Eu.amazon.nova Pro V1:0",
@@ -7697,10 +7840,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-3-5-haiku-20241022-v1:0": {
     "max_tokens": 8192,
@@ -7712,6 +7855,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "eu.anthropic.claude-3-5-haiku-20241022-v1:0",
     "model_name": "Eu.anthropic.claude 3 5 Haiku 20241022 V1:0",
@@ -7723,11 +7867,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "max_tokens": 4096,
@@ -7736,6 +7880,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -7749,10 +7894,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "supports_computer_use": true,
@@ -7766,6 +7911,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_pdf_input": true,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "eu.anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Eu.anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -7777,10 +7923,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-3-7-sonnet-20250219-v1:0": {
     "supports_computer_use": true,
@@ -7793,6 +7939,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -7806,10 +7953,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-3-haiku-20240307-v1:0": {
     "max_tokens": 4096,
@@ -7818,6 +7965,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-7,
     "output_cost_per_token": 0.00000125,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -7831,10 +7979,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-3-opus-20240229-v1:0": {
     "max_tokens": 4096,
@@ -7843,6 +7991,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.000075,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "eu.anthropic.claude-3-opus-20240229-v1:0",
@@ -7855,10 +8004,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-3-sonnet-20240229-v1:0": {
     "max_tokens": 4096,
@@ -7867,6 +8016,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -7880,10 +8030,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-opus-4-20250514-v1:0": {
     "max_tokens": 32000,
@@ -7902,6 +8052,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -7915,10 +8066,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.anthropic.claude-sonnet-4-20250514-v1:0": {
     "max_tokens": 64000,
@@ -7937,6 +8088,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -7950,10 +8102,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "eu.meta.llama3-2-1b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -7973,11 +8125,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu.meta.llama3-2-3b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -7997,11 +8149,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "eu.mistral.pixtral-large-2502-v1:0": {
     "max_tokens": 128000,
@@ -8021,11 +8173,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "invoke/anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "max_tokens": 4096,
@@ -8034,6 +8186,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "metadata": {
@@ -8049,10 +8202,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "max-x-max/50-steps/stability.stable-diffusion-xl-v0": {
     "max_tokens": 77,
@@ -8071,12 +8224,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "max-x-max/max-steps/stability.stable-diffusion-xl-v0": {
     "max_tokens": 77,
@@ -8095,12 +8248,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama2-13b-chat-v1": {
     "max_tokens": 4096,
@@ -8118,12 +8271,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama2-70b-chat-v1": {
     "max_tokens": 4096,
@@ -8141,12 +8294,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-1-405b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -8166,11 +8319,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-1-70b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -8190,11 +8343,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-1-8b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -8214,11 +8367,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-2-11b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -8239,10 +8392,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "meta.llama3-2-1b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -8262,11 +8415,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-2-3b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -8286,11 +8439,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-2-90b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -8311,10 +8464,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "meta.llama3-3-70b-instruct-v1:0": {
     "max_tokens": 4096,
@@ -8334,11 +8487,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -8356,12 +8509,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -8379,12 +8532,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama4-maverick-17b-instruct-v1:0": {
     "max_tokens": 4096,
@@ -8414,11 +8567,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta.llama4-scout-17b-instruct-v1:0": {
     "max_tokens": 4096,
@@ -8448,11 +8601,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral.mistral-7b-instruct-v0:2": {
     "max_tokens": 8191,
@@ -8471,12 +8624,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral.mistral-large-2402-v1:0": {
     "max_tokens": 8191,
@@ -8495,11 +8648,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral.mistral-large-2407-v1:0": {
     "max_tokens": 8191,
@@ -8519,11 +8672,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral.mistral-small-2402-v1:0": {
     "max_tokens": 8191,
@@ -8542,11 +8695,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral.mixtral-8x7b-instruct-v0:1": {
     "max_tokens": 8191,
@@ -8565,12 +8718,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sa-east-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -8588,12 +8741,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sa-east-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -8611,12 +8764,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "stability.sd3-5-large-v1:0": {
     "max_tokens": 77,
@@ -8635,12 +8788,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "stability.sd3-large-v1:0": {
     "max_tokens": 77,
@@ -8659,12 +8812,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "stability.stable-image-core-v1:0": {
     "max_tokens": 77,
@@ -8683,12 +8836,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "stability.stable-image-core-v1:1": {
     "max_tokens": 77,
@@ -8707,12 +8860,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "stability.stable-image-ultra-v1:0": {
     "max_tokens": 77,
@@ -8731,12 +8884,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "stability.stable-image-ultra-v1:1": {
     "max_tokens": 77,
@@ -8755,12 +8908,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/1-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -8781,12 +8934,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/1-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -8806,12 +8959,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/1-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -8832,12 +8985,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/1-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -8858,12 +9011,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/6-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -8884,12 +9037,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/6-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -8909,12 +9062,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/6-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -8935,12 +9088,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/6-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -8961,12 +9114,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -8985,12 +9138,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -9009,12 +9162,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -9033,12 +9186,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -9057,12 +9210,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -9080,12 +9233,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -9103,12 +9256,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/mistral.mistral-7b-instruct-v0:2": {
     "max_tokens": 8191,
@@ -9127,12 +9280,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/mistral.mistral-large-2402-v1:0": {
     "max_tokens": 8191,
@@ -9151,11 +9304,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-east-1/mistral.mixtral-8x7b-instruct-v0:1": {
     "max_tokens": 8191,
@@ -9174,12 +9327,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/amazon.nova-pro-v1:0": {
     "max_tokens": 10000,
@@ -9191,6 +9344,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "us-gov-east-1/amazon.nova-pro-v1:0",
     "model_name": "Amazon.nova Pro V1:0",
     "provider_id": "bedrock",
@@ -9201,10 +9355,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/amazon.titan-embed-text-v1": {
     "max_tokens": 8192,
@@ -9223,12 +9377,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/amazon.titan-embed-text-v2:0": {
     "max_tokens": 8192,
@@ -9247,12 +9401,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/amazon.titan-text-express-v1": {
     "max_tokens": 8000,
@@ -9270,12 +9424,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/amazon.titan-text-lite-v1": {
     "max_tokens": 4000,
@@ -9293,12 +9447,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/amazon.titan-text-premier-v1:0": {
     "max_tokens": 32000,
@@ -9316,12 +9470,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "max_tokens": 8192,
@@ -9330,6 +9484,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000036,
     "output_cost_per_token": 0.000018,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -9343,10 +9498,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/anthropic.claude-3-haiku-20240307-v1:0": {
     "max_tokens": 4096,
@@ -9355,6 +9510,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 3e-7,
     "output_cost_per_token": 0.0000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -9368,10 +9524,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 2048,
@@ -9390,12 +9546,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-east-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 2048,
@@ -9414,12 +9570,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/amazon.nova-pro-v1:0": {
     "max_tokens": 10000,
@@ -9431,6 +9587,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "us-gov-west-1/amazon.nova-pro-v1:0",
     "model_name": "Amazon.nova Pro V1:0",
     "provider_id": "bedrock",
@@ -9441,10 +9598,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/amazon.titan-embed-text-v1": {
     "max_tokens": 8192,
@@ -9463,12 +9620,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/amazon.titan-embed-text-v2:0": {
     "max_tokens": 8192,
@@ -9487,12 +9644,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/amazon.titan-text-express-v1": {
     "max_tokens": 8000,
@@ -9510,12 +9667,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/amazon.titan-text-lite-v1": {
     "max_tokens": 4000,
@@ -9533,12 +9690,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/amazon.titan-text-premier-v1:0": {
     "max_tokens": 32000,
@@ -9556,12 +9713,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "max_tokens": 8192,
@@ -9570,6 +9727,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000036,
     "output_cost_per_token": 0.000018,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -9583,10 +9741,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/anthropic.claude-3-haiku-20240307-v1:0": {
     "max_tokens": 4096,
@@ -9595,6 +9753,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 3e-7,
     "output_cost_per_token": 0.0000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -9608,10 +9767,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 2048,
@@ -9630,12 +9789,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-gov-west-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 2048,
@@ -9654,12 +9813,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-1/meta.llama3-70b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -9677,12 +9836,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-1/meta.llama3-8b-instruct-v1:0": {
     "max_tokens": 8192,
@@ -9700,12 +9859,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/1-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -9726,12 +9885,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/1-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -9751,12 +9910,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/1-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -9777,12 +9936,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/1-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -9803,12 +9962,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/6-month-commitment/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -9829,12 +9988,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/6-month-commitment/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -9854,12 +10013,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/6-month-commitment/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -9880,12 +10039,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/6-month-commitment/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -9906,12 +10065,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/anthropic.claude-instant-v1": {
     "max_tokens": 8191,
@@ -9930,12 +10089,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/anthropic.claude-v1": {
     "max_tokens": 8191,
@@ -9954,12 +10113,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/anthropic.claude-v2": {
     "max_tokens": 8191,
@@ -9978,12 +10137,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/anthropic.claude-v2:1": {
     "max_tokens": 8191,
@@ -10002,12 +10161,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/mistral.mistral-7b-instruct-v0:2": {
     "max_tokens": 8191,
@@ -10026,12 +10185,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/mistral.mistral-large-2402-v1:0": {
     "max_tokens": 8191,
@@ -10050,11 +10209,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us-west-2/mistral.mixtral-8x7b-instruct-v0:1": {
     "max_tokens": 8191,
@@ -10073,12 +10232,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.amazon.nova-lite-v1:0": {
     "max_tokens": 10000,
@@ -10090,6 +10249,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "us.amazon.nova-lite-v1:0",
     "model_name": "Us.amazon.nova Lite V1:0",
     "provider_id": "bedrock",
@@ -10100,10 +10260,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.amazon.nova-micro-v1:0": {
     "max_tokens": 10000,
@@ -10113,6 +10273,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 1.4e-7,
     "supports_function_calling": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "us.amazon.nova-micro-v1:0",
     "model_name": "Us.amazon.nova Micro V1:0",
     "provider_id": "bedrock",
@@ -10123,11 +10284,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "us.amazon.nova-premier-v1:0": {
     "max_tokens": 10000,
@@ -10139,6 +10300,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": false,
+    "supports_response_schema": true,
     "model_id": "us.amazon.nova-premier-v1:0",
     "model_name": "Us.amazon.nova Premier V1:0",
     "provider_id": "bedrock",
@@ -10149,10 +10311,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.amazon.nova-pro-v1:0": {
     "max_tokens": 10000,
@@ -10164,6 +10326,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "model_id": "us.amazon.nova-pro-v1:0",
     "model_name": "Us.amazon.nova Pro V1:0",
     "provider_id": "bedrock",
@@ -10174,10 +10337,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-3-5-haiku-20241022-v1:0": {
     "max_tokens": 8192,
@@ -10189,6 +10352,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_pdf_input": true,
     "supports_function_calling": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "us.anthropic.claude-3-5-haiku-20241022-v1:0",
     "model_name": "Us.anthropic.claude 3 5 Haiku 20241022 V1:0",
@@ -10200,11 +10364,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.08,
     "cache_write_cost_per_token": 0.000001,
     "cache_write_cost_per_million": 1,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-3-5-sonnet-20240620-v1:0": {
     "max_tokens": 4096,
@@ -10213,6 +10377,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -10226,10 +10391,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-3-5-sonnet-20241022-v2:0": {
     "supports_computer_use": true,
@@ -10243,6 +10408,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_pdf_input": true,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
     "model_name": "Us.anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -10254,10 +10420,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-3-7-sonnet-20250219-v1:0": {
     "supports_computer_use": true,
@@ -10270,6 +10436,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -10283,10 +10450,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-3-haiku-20240307-v1:0": {
     "max_tokens": 4096,
@@ -10295,6 +10462,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-7,
     "output_cost_per_token": 0.00000125,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -10308,10 +10476,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-3-opus-20240229-v1:0": {
     "max_tokens": 4096,
@@ -10320,6 +10488,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.000075,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "us.anthropic.claude-3-opus-20240229-v1:0",
@@ -10332,10 +10501,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-3-sonnet-20240229-v1:0": {
     "max_tokens": 4096,
@@ -10344,6 +10513,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_tool_choice": true,
@@ -10357,10 +10527,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-opus-4-20250514-v1:0": {
     "max_tokens": 32000,
@@ -10379,6 +10549,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -10392,10 +10563,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.anthropic.claude-sonnet-4-20250514-v1:0": {
     "max_tokens": 64000,
@@ -10414,6 +10585,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -10427,10 +10599,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "us.deepseek.r1-v1:0": {
     "max_tokens": 4096,
@@ -10451,11 +10623,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-1-405b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -10475,11 +10647,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-1-70b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -10499,11 +10671,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-1-8b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -10523,11 +10695,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-2-11b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -10548,10 +10720,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-2-1b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -10571,11 +10743,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-2-3b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -10595,11 +10767,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-2-90b-instruct-v1:0": {
     "max_tokens": 128000,
@@ -10620,10 +10792,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "us.meta.llama3-3-70b-instruct-v1:0": {
     "max_tokens": 4096,
@@ -10643,11 +10815,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama4-maverick-17b-instruct-v1:0": {
     "max_tokens": 4096,
@@ -10677,11 +10849,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.meta.llama4-scout-17b-instruct-v1:0": {
     "max_tokens": 4096,
@@ -10711,11 +10883,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "us.mistral.pixtral-large-2502-v1:0": {
     "max_tokens": 128000,
@@ -10735,11 +10907,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cerebras/llama-3.3-70b": {
     "max_tokens": 128000,
@@ -10759,11 +10931,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cerebras/llama3.1-70b": {
     "max_tokens": 128000,
@@ -10783,11 +10955,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cerebras/llama3.1-8b": {
     "max_tokens": 128000,
@@ -10807,11 +10979,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cerebras/qwen-3-32b": {
     "max_tokens": 128000,
@@ -10832,11 +11004,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "@cf/meta/llama-2-7b-chat-fp16": {
     "max_tokens": 3072,
@@ -10854,12 +11026,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "@cf/meta/llama-2-7b-chat-int8": {
     "max_tokens": 2048,
@@ -10877,12 +11049,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "@cf/mistral/mistral-7b-instruct-v0.1": {
     "max_tokens": 8192,
@@ -10900,12 +11072,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "@hf/thebloke/codellama-7b-instruct-awq": {
     "max_tokens": 4096,
@@ -10923,12 +11095,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command": {
     "max_tokens": 4096,
@@ -10946,12 +11118,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-a-03-2025": {
     "max_tokens": 8000,
@@ -10971,11 +11143,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-light": {
     "max_tokens": 4096,
@@ -10994,12 +11166,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-nightly": {
     "max_tokens": 4096,
@@ -11017,12 +11189,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-r": {
     "max_tokens": 4096,
@@ -11042,11 +11214,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-r-08-2024": {
     "max_tokens": 4096,
@@ -11066,11 +11238,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-r-plus": {
     "max_tokens": 4096,
@@ -11090,11 +11262,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-r-plus-08-2024": {
     "max_tokens": 4096,
@@ -11114,11 +11286,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "command-r7b-12-2024": {
     "max_tokens": 4096,
@@ -11139,11 +11311,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "embed-english-light-v2.0": {
     "max_tokens": 1024,
@@ -11161,12 +11333,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "embed-english-light-v3.0": {
     "max_tokens": 1024,
@@ -11184,12 +11356,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "embed-english-v2.0": {
     "max_tokens": 4096,
@@ -11207,12 +11379,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "embed-english-v3.0": {
     "max_tokens": 1024,
@@ -11236,12 +11408,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "embed-multilingual-v2.0": {
     "max_tokens": 768,
@@ -11259,12 +11431,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "embed-multilingual-v3.0": {
     "max_tokens": 1024,
@@ -11283,12 +11455,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "rerank-english-v2.0": {
     "max_tokens": 4096,
@@ -11308,12 +11480,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "rerank-english-v3.0": {
     "max_tokens": 4096,
@@ -11333,12 +11505,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "rerank-multilingual-v2.0": {
     "max_tokens": 4096,
@@ -11358,12 +11530,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "rerank-multilingual-v3.0": {
     "max_tokens": 4096,
@@ -11383,12 +11555,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "rerank-v3.5": {
     "max_tokens": 4096,
@@ -11408,12 +11580,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "dashscope/qwen-max": {
     "max_tokens": 32768,
@@ -11435,11 +11607,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "dashscope/qwen-plus-latest": {
     "max_tokens": 131072,
@@ -11461,11 +11633,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "dashscope/qwen-turbo-latest": {
     "max_tokens": 131072,
@@ -11487,11 +11659,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "dashscope/qwen3-30b-a3b": {
     "max_tokens": 131072,
@@ -11513,11 +11685,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-bge-large-en": {
     "max_tokens": 512,
@@ -11542,12 +11714,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-claude-3-7-sonnet": {
     "max_tokens": 200000,
@@ -11575,11 +11747,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-dbrx-instruct": {
     "max_tokens": 32768,
@@ -11604,12 +11776,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-gte-large-en": {
     "max_tokens": 8192,
@@ -11634,12 +11806,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-llama-2-70b-chat": {
     "max_tokens": 4096,
@@ -11664,12 +11836,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-llama-4-maverick": {
     "max_tokens": 128000,
@@ -11694,12 +11866,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-meta-llama-3-1-405b-instruct": {
     "max_tokens": 128000,
@@ -11724,12 +11896,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-meta-llama-3-1-70b-instruct": {
     "max_tokens": 128000,
@@ -11754,12 +11926,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-meta-llama-3-3-70b-instruct": {
     "max_tokens": 128000,
@@ -11784,12 +11956,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-meta-llama-3-70b-instruct": {
     "max_tokens": 128000,
@@ -11814,12 +11986,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-mixtral-8x7b-instruct": {
     "max_tokens": 4096,
@@ -11844,12 +12016,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-mpt-30b-instruct": {
     "max_tokens": 8192,
@@ -11874,12 +12046,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "databricks-mpt-7b-instruct": {
     "max_tokens": 8192,
@@ -11904,12 +12076,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base": {
     "input_cost_per_second": 0.00020833,
@@ -11936,12 +12108,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base-conversationalai": {
     "input_cost_per_second": 0.00020833,
@@ -11968,12 +12140,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base-finance": {
     "input_cost_per_second": 0.00020833,
@@ -12000,12 +12172,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base-general": {
     "input_cost_per_second": 0.00020833,
@@ -12032,12 +12204,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base-meeting": {
     "input_cost_per_second": 0.00020833,
@@ -12064,12 +12236,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base-phonecall": {
     "input_cost_per_second": 0.00020833,
@@ -12096,12 +12268,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base-video": {
     "input_cost_per_second": 0.00020833,
@@ -12128,12 +12300,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/base-voicemail": {
     "input_cost_per_second": 0.00020833,
@@ -12160,12 +12332,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/enhanced": {
     "input_cost_per_second": 0.00024167,
@@ -12192,12 +12364,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/enhanced-finance": {
     "input_cost_per_second": 0.00024167,
@@ -12224,12 +12396,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/enhanced-general": {
     "input_cost_per_second": 0.00024167,
@@ -12256,12 +12428,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/enhanced-meeting": {
     "input_cost_per_second": 0.00024167,
@@ -12288,12 +12460,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/enhanced-phonecall": {
     "input_cost_per_second": 0.00024167,
@@ -12320,12 +12492,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova": {
     "input_cost_per_second": 0.00007167,
@@ -12352,12 +12524,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2": {
     "input_cost_per_second": 0.00007167,
@@ -12384,12 +12556,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-atc": {
     "input_cost_per_second": 0.00007167,
@@ -12416,12 +12588,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-automotive": {
     "input_cost_per_second": 0.00007167,
@@ -12448,12 +12620,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-conversationalai": {
     "input_cost_per_second": 0.00007167,
@@ -12480,12 +12652,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-drivethru": {
     "input_cost_per_second": 0.00007167,
@@ -12512,12 +12684,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-finance": {
     "input_cost_per_second": 0.00007167,
@@ -12544,12 +12716,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-general": {
     "input_cost_per_second": 0.00007167,
@@ -12576,12 +12748,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-meeting": {
     "input_cost_per_second": 0.00007167,
@@ -12608,12 +12780,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-phonecall": {
     "input_cost_per_second": 0.00007167,
@@ -12640,12 +12812,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-video": {
     "input_cost_per_second": 0.00007167,
@@ -12672,12 +12844,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-2-voicemail": {
     "input_cost_per_second": 0.00007167,
@@ -12704,12 +12876,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-3": {
     "input_cost_per_second": 0.00007167,
@@ -12736,12 +12908,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-3-general": {
     "input_cost_per_second": 0.00007167,
@@ -12768,12 +12940,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-3-medical": {
     "input_cost_per_second": 0.00008667,
@@ -12800,12 +12972,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-general": {
     "input_cost_per_second": 0.00007167,
@@ -12832,12 +13004,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/nova-phonecall": {
     "input_cost_per_second": 0.00007167,
@@ -12864,12 +13036,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/whisper": {
     "input_cost_per_second": 0.0001,
@@ -12895,12 +13067,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/whisper-base": {
     "input_cost_per_second": 0.0001,
@@ -12926,12 +13098,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/whisper-large": {
     "input_cost_per_second": 0.0001,
@@ -12957,12 +13129,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/whisper-medium": {
     "input_cost_per_second": 0.0001,
@@ -12988,12 +13160,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/whisper-small": {
     "input_cost_per_second": 0.0001,
@@ -13019,12 +13191,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepgram/whisper-tiny": {
     "input_cost_per_second": 0.0001,
@@ -13050,12 +13222,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "01-ai/Yi-34B-200K": {
     "max_tokens": 4096,
@@ -13073,12 +13245,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "01-ai/Yi-34B-Chat": {
     "max_tokens": 4096,
@@ -13097,12 +13269,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "01-ai/Yi-6B-200K": {
     "max_tokens": 4096,
@@ -13120,12 +13292,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "amazon/MistralLite": {
     "max_tokens": 8191,
@@ -13144,12 +13316,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "cognitivecomputations/dolphin-2.6-mixtral-8x7b": {
     "max_tokens": 8191,
@@ -13168,12 +13340,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepinfra/airoboros-70b": {
     "max_tokens": 4096,
@@ -13192,12 +13364,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepinfra/mixtral": {
     "max_tokens": 4096,
@@ -13215,12 +13387,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "Gryphe/MythoMax-L2-13b": {
     "max_tokens": 4096,
@@ -13239,12 +13411,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "jondurbin/airoboros-l2-70b-gpt4-1.4.1": {
     "max_tokens": 4096,
@@ -13263,12 +13435,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "lizpreciatior/lzlv_70b_fp16_hf": {
     "max_tokens": 4096,
@@ -13287,12 +13459,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta-llama/Meta-Llama-3.1-405B-Instruct": {
     "max_tokens": 32768,
@@ -13301,6 +13473,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 9e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
     "model_name": "Meta Llama 3.1 405B Instruct",
@@ -13312,11 +13485,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "openchat/openchat_3.5": {
     "max_tokens": 4096,
@@ -13335,12 +13508,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "Phind/Phind-CodeLlama-34B-v2": {
     "max_tokens": 4096,
@@ -13359,12 +13532,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepseek/deepseek-chat": {
     "max_tokens": 8192,
@@ -13387,11 +13560,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.07,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepseek/deepseek-coder": {
     "max_tokens": 4096,
@@ -13414,11 +13587,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepseek/deepseek-r1": {
     "max_tokens": 8192,
@@ -13442,11 +13615,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepseek/deepseek-reasoner": {
     "max_tokens": 8192,
@@ -13470,11 +13643,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepseek/deepseek-v3": {
     "max_tokens": 8192,
@@ -13497,11 +13670,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.07,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "elevenlabs/scribe_v1": {
     "input_cost_per_second": 0.0000611,
@@ -13529,12 +13702,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "elevenlabs/scribe_v1_experimental": {
     "input_cost_per_second": 0.0000611,
@@ -13562,12 +13735,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "featherless_ai/featherless-ai/Qwerky-72B": {
     "max_tokens": 32768,
@@ -13585,12 +13758,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "featherless_ai/featherless-ai/Qwerky-QwQ-32B": {
     "max_tokens": 32768,
@@ -13608,12 +13781,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-instruct": {
     "max_tokens": 65536,
@@ -13622,6 +13795,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000012,
     "output_cost_per_token": 0.0000012,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-instruct",
@@ -13634,11 +13808,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-r1": {
     "max_tokens": 20480,
@@ -13646,6 +13820,7 @@ export const modelsMap: Record<string, Model> = {
     "max_output_tokens": 20480,
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000008,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1",
@@ -13658,12 +13833,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528": {
     "max_tokens": 160000,
@@ -13673,6 +13848,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000008,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
+    "supports_response_schema": true,
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528",
     "model_name": "Deepseek R1 0528",
     "provider_id": "fireworks",
@@ -13683,12 +13859,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-r1-basic": {
     "max_tokens": 20480,
@@ -13696,6 +13872,7 @@ export const modelsMap: Record<string, Model> = {
     "max_output_tokens": 20480,
     "input_cost_per_token": 5.5e-7,
     "output_cost_per_token": 0.00000219,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1-basic",
@@ -13708,12 +13885,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/deepseek-v3": {
     "max_tokens": 8192,
@@ -13721,6 +13898,7 @@ export const modelsMap: Record<string, Model> = {
     "max_output_tokens": 8192,
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 9e-7,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-v3",
@@ -13733,12 +13911,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/firefunction-v2": {
     "max_tokens": 8192,
@@ -13747,6 +13925,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": true,
     "model_id": "fireworks_ai/accounts/fireworks/models/firefunction-v2",
@@ -13759,11 +13938,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/kimi-k2-instruct": {
     "max_tokens": 131072,
@@ -13772,6 +13951,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 6e-7,
     "output_cost_per_token": 0.0000025,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "source": "https://fireworks.ai/models/fireworks/kimi-k2-instruct",
     "model_id": "fireworks_ai/accounts/fireworks/models/kimi-k2-instruct",
@@ -13784,11 +13964,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct": {
     "max_tokens": 16384,
@@ -13796,6 +13976,7 @@ export const modelsMap: Record<string, Model> = {
     "max_output_tokens": 16384,
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000003,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": true,
     "supports_function_calling": true,
@@ -13809,11 +13990,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct": {
     "max_tokens": 16384,
@@ -13822,6 +14003,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1e-7,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct",
@@ -13834,11 +14016,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-11b-vision-instruct": {
     "max_tokens": 16384,
@@ -13848,6 +14030,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 2e-7,
     "supports_function_calling": false,
     "supports_vision": true,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-11b-vision-instruct",
@@ -13860,10 +14043,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-1b-instruct": {
     "max_tokens": 16384,
@@ -13872,6 +14055,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1e-7,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-1b-instruct",
@@ -13884,11 +14068,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-3b-instruct": {
     "max_tokens": 16384,
@@ -13897,6 +14081,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1e-7,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-3b-instruct",
@@ -13909,11 +14094,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct": {
     "max_tokens": 16384,
@@ -13923,6 +14108,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 9e-7,
     "supports_tool_choice": false,
     "supports_vision": true,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct",
     "model_name": "Llama V3p2 90b Vision Instruct",
@@ -13934,11 +14120,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_function_calling": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_function_calling": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic": {
     "max_tokens": 131072,
@@ -13946,6 +14132,7 @@ export const modelsMap: Record<string, Model> = {
     "max_output_tokens": 131072,
     "input_cost_per_token": 2.2e-7,
     "output_cost_per_token": 8.8e-7,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic",
@@ -13958,12 +14145,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/llama4-scout-instruct-basic": {
     "max_tokens": 131072,
@@ -13971,6 +14158,7 @@ export const modelsMap: Record<string, Model> = {
     "max_output_tokens": 131072,
     "input_cost_per_token": 1.5e-7,
     "output_cost_per_token": 6e-7,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/llama4-scout-instruct-basic",
@@ -13983,12 +14171,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/mixtral-8x22b-instruct-hf": {
     "max_tokens": 65536,
@@ -13997,6 +14185,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000012,
     "output_cost_per_token": 0.0000012,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": true,
     "model_id": "fireworks_ai/accounts/fireworks/models/mixtral-8x22b-instruct-hf",
@@ -14009,11 +14198,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/qwen2-72b-instruct": {
     "max_tokens": 32768,
@@ -14022,6 +14211,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 9e-7,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/qwen2-72b-instruct",
@@ -14034,11 +14224,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct": {
     "max_tokens": 4096,
@@ -14047,6 +14237,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 9e-7,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct",
@@ -14059,11 +14250,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/accounts/fireworks/models/yi-large": {
     "max_tokens": 32768,
@@ -14072,6 +14263,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000003,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "source": "https://fireworks.ai/pricing",
     "supports_tool_choice": false,
     "model_id": "fireworks_ai/accounts/fireworks/models/yi-large",
@@ -14084,11 +14276,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "fireworks_ai/nomic-ai/nomic-embed-text-v1": {
     "max_tokens": 8192,
@@ -14107,12 +14299,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/nomic-ai/nomic-embed-text-v1.5": {
     "max_tokens": 8192,
@@ -14131,12 +14323,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/thenlper/gte-base": {
     "max_tokens": 512,
@@ -14155,12 +14347,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/thenlper/gte-large": {
     "max_tokens": 512,
@@ -14179,12 +14371,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks_ai/WhereIsAI/UAE-Large-V1": {
     "max_tokens": 512,
@@ -14203,12 +14395,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-4.1b-to-16b": {
     "input_cost_per_token": 2e-7,
@@ -14225,12 +14417,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-56b-to-176b": {
     "input_cost_per_token": 0.0000012,
@@ -14247,12 +14439,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-above-16b": {
     "input_cost_per_token": 9e-7,
@@ -14269,12 +14461,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-default": {
     "input_cost_per_token": 0,
@@ -14291,12 +14483,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-embedding-150m-to-350m": {
     "input_cost_per_token": 1.6e-8,
@@ -14313,12 +14505,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-embedding-up-to-150m": {
     "input_cost_per_token": 8e-9,
@@ -14335,12 +14527,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-moe-up-to-56b": {
     "input_cost_per_token": 5e-7,
@@ -14357,12 +14549,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "fireworks-ai-up-to-4b": {
     "input_cost_per_token": 2e-7,
@@ -14379,12 +14571,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "friendliai/meta-llama-3.1-70b-instruct": {
     "max_tokens": 8192,
@@ -14393,7 +14585,9 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 6e-7,
     "output_cost_per_token": 6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "friendliai/meta-llama-3.1-70b-instruct",
     "model_name": "Meta Llama 3.1 70b Instruct",
@@ -14405,11 +14599,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "friendliai/meta-llama-3.1-8b-instruct": {
     "max_tokens": 8192,
@@ -14418,7 +14612,9 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1e-7,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "friendliai/meta-llama-3.1-8b-instruct",
     "model_name": "Meta Llama 3.1 8b Instruct",
@@ -14430,11 +14626,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "1.5-flash": {
     "max_tokens": 8192,
@@ -14453,6 +14649,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 2000,
     "source": "https://ai.google.dev/pricing",
@@ -14467,10 +14664,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-flash-001": {
     "max_tokens": 8192,
@@ -14489,6 +14686,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "tpm": 4000000,
     "rpm": 2000,
@@ -14505,9 +14703,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.01875,
     "cache_write_cost_per_token": 0.000001,
     "cache_write_cost_per_million": 1,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "1.5-flash-002": {
     "max_tokens": 8192,
@@ -14526,6 +14724,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "tpm": 4000000,
     "rpm": 2000,
@@ -14542,9 +14741,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.01875,
     "cache_write_cost_per_token": 0.000001,
     "cache_write_cost_per_million": 1,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "1.5-flash-8b": {
     "max_tokens": 8192,
@@ -14563,6 +14762,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "tpm": 4000000,
     "rpm": 4000,
@@ -14578,10 +14778,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-flash-8b-exp-0827": {
     "max_tokens": 8192,
@@ -14600,6 +14800,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 4000,
     "source": "https://ai.google.dev/pricing",
@@ -14614,10 +14815,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-flash-8b-exp-0924": {
     "max_tokens": 8192,
@@ -14636,6 +14837,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "tpm": 4000000,
     "rpm": 4000,
@@ -14651,10 +14853,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-flash-exp-0827": {
     "max_tokens": 8192,
@@ -14673,6 +14875,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 2000,
     "source": "https://ai.google.dev/pricing",
@@ -14687,10 +14890,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-flash-latest": {
     "max_tokens": 8192,
@@ -14709,6 +14912,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "tpm": 4000000,
     "rpm": 2000,
@@ -14724,10 +14928,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-pro": {
     "max_tokens": 8192,
@@ -14741,6 +14945,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 1000,
     "source": "https://ai.google.dev/pricing",
@@ -14754,10 +14959,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-pro-001": {
     "max_tokens": 8192,
@@ -14771,6 +14976,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "tpm": 4000000,
     "rpm": 1000,
@@ -14786,9 +14992,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "1.5-pro-002": {
     "max_tokens": 8192,
@@ -14802,6 +15008,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "supports_prompt_caching": true,
     "tpm": 4000000,
     "rpm": 1000,
@@ -14817,9 +15024,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "1.5-pro-exp-0801": {
     "max_tokens": 8192,
@@ -14833,6 +15040,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 1000,
     "source": "https://ai.google.dev/pricing",
@@ -14846,10 +15054,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-pro-exp-0827": {
     "max_tokens": 8192,
@@ -14863,6 +15071,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 1000,
     "source": "https://ai.google.dev/pricing",
@@ -14876,10 +15085,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "1.5-pro-latest": {
     "max_tokens": 8192,
@@ -14893,6 +15102,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 1000,
     "source": "https://ai.google.dev/pricing",
@@ -14906,10 +15116,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash": {
     "max_tokens": 8192,
@@ -14929,6 +15139,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_audio_input": true,
     "supported_modalities": [
@@ -14956,10 +15167,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-001": {
     "max_tokens": 8192,
@@ -14979,6 +15190,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -15004,10 +15216,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-exp": {
     "max_tokens": 8192,
@@ -15036,6 +15248,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "tpm": 4000000,
     "rpm": 10,
@@ -15063,10 +15276,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-lite": {
     "max_input_tokens": 1048576,
@@ -15085,6 +15298,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -15109,10 +15323,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.01875,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-lite-preview-02-05": {
     "max_tokens": 8192,
@@ -15132,6 +15346,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -15156,10 +15371,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.01875,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-live-001": {
     "max_tokens": 65535,
@@ -15183,6 +15398,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -15214,10 +15430,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-preview-image-generation": {
     "max_tokens": 8192,
@@ -15237,6 +15453,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_audio_input": true,
     "supported_modalities": [
@@ -15263,10 +15480,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-thinking-exp": {
     "max_tokens": 8192,
@@ -15295,6 +15512,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "tpm": 4000000,
     "rpm": 10,
@@ -15322,10 +15540,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-flash-thinking-exp-01-21": {
     "max_tokens": 8192,
@@ -15354,6 +15572,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "tpm": 4000000,
     "rpm": 10,
@@ -15381,10 +15600,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.0-pro-exp-02-05": {
     "max_tokens": 8192,
@@ -15418,6 +15637,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_audio_input": true,
     "supports_video_input": true,
     "supports_pdf_input": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
     "supports_web_search": true,
@@ -15432,10 +15652,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-flash": {
     "max_tokens": 65535,
@@ -15455,6 +15675,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -15472,6 +15693,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "tpm": 8000000,
@@ -15488,10 +15710,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "2.5-flash-lite": {
     "max_tokens": 65535,
@@ -15513,6 +15735,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -15530,6 +15753,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "supports_pdf_input": true,
@@ -15544,10 +15768,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "2.5-flash-lite-preview-06-17": {
     "max_tokens": 65535,
@@ -15569,6 +15793,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -15586,6 +15811,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "supports_pdf_input": true,
@@ -15600,10 +15826,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "2.5-flash-preview-04-17": {
     "max_tokens": 65535,
@@ -15625,6 +15851,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -15654,10 +15881,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.0375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-flash-preview-05-20": {
     "max_tokens": 65535,
@@ -15679,6 +15906,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -15709,10 +15937,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-flash-preview-tts": {
     "max_tokens": 65535,
@@ -15734,6 +15962,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -15759,10 +15988,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.0375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-pro": {
     "max_tokens": 65535,
@@ -15786,6 +16015,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_audio_input": true,
     "supports_video_input": true,
     "supports_pdf_input": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supported_endpoints": [
@@ -15814,10 +16044,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-pro-exp-03-25": {
     "max_tokens": 65535,
@@ -15841,6 +16071,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_audio_input": true,
     "supports_video_input": true,
     "supports_pdf_input": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -15868,10 +16099,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-pro-preview-03-25": {
     "max_tokens": 65535,
@@ -15893,6 +16124,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -15918,10 +16150,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-pro-preview-05-06": {
     "max_tokens": 65535,
@@ -15943,6 +16175,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -15969,10 +16202,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-pro-preview-06-05": {
     "max_tokens": 65535,
@@ -15994,6 +16227,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -16020,10 +16254,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "2.5-pro-preview-tts": {
     "max_tokens": 65535,
@@ -16045,6 +16279,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -16066,10 +16301,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "exp-1114": {
     "max_tokens": 8192,
@@ -16089,6 +16324,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_tool_choice": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 1000,
     "source": "https://ai.google.dev/pricing",
@@ -16106,10 +16342,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "exp-1206": {
     "max_tokens": 8192,
@@ -16129,6 +16365,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "tpm": 4000000,
     "rpm": 1000,
     "source": "https://ai.google.dev/pricing",
@@ -16146,10 +16383,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "gemma-2-27b-it": {
     "max_tokens": 8192,
@@ -16171,10 +16408,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "gemma-2-9b-it": {
     "max_tokens": 8192,
@@ -16196,10 +16433,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "gemma-3-27b-it": {
     "max_tokens": 8192,
@@ -16222,6 +16459,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "source": "https://aistudio.google.com",
     "supports_tool_choice": true,
@@ -16235,10 +16473,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "imagen-3.0-fast-generate-001": {
     "output_cost_per_image": 0.02,
@@ -16257,12 +16495,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "imagen-3.0-generate-001": {
     "output_cost_per_image": 0.04,
@@ -16281,12 +16519,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "imagen-3.0-generate-002": {
     "output_cost_per_image": 0.04,
@@ -16305,12 +16543,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "imagen-4.0-fast-generate-preview-06-06": {
     "output_cost_per_image": 0.02,
@@ -16329,12 +16567,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "imagen-4.0-generate-preview-06-06": {
     "output_cost_per_image": 0.04,
@@ -16353,12 +16591,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "imagen-4.0-ultra-generate-preview-06-06": {
     "output_cost_per_image": 0.06,
@@ -16377,12 +16615,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "learnlm-1.5-pro-experimental": {
     "max_tokens": 8192,
@@ -16405,6 +16643,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "source": "https://aistudio.google.com",
     "supports_tool_choice": true,
@@ -16418,10 +16657,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "pro": {
     "max_tokens": 8192,
@@ -16447,11 +16686,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "pro-vision": {
     "max_tokens": 2048,
@@ -16478,10 +16717,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "deepseek-r1-distill-llama-70b": {
     "max_tokens": 128000,
@@ -16490,6 +16729,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 7.5e-7,
     "output_cost_per_token": 9.9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "deepseek-r1-distill-llama-70b",
@@ -16502,11 +16742,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "distil-whisper-large-v3-en": {
     "input_cost_per_second": 0.00000556,
@@ -16525,12 +16765,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gemma-7b-it": {
     "max_tokens": 8192,
@@ -16539,6 +16779,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 7e-8,
     "output_cost_per_token": 7e-8,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2024-12-18",
     "model_id": "gemma-7b-it",
@@ -16551,10 +16792,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "gemma2-9b-it": {
     "max_tokens": 8192,
@@ -16563,6 +16804,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 2e-7,
     "supports_function_calling": false,
+    "supports_response_schema": true,
     "supports_tool_choice": false,
     "model_id": "gemma2-9b-it",
     "model_name": "Gemma 2 9B",
@@ -16574,11 +16816,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.1-405b-reasoning": {
     "max_tokens": 8192,
@@ -16587,6 +16829,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5.9e-7,
     "output_cost_per_token": 7.9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "llama-3.1-405b-reasoning",
     "model_name": "Llama 3.1 405b Reasoning",
@@ -16598,11 +16841,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.1-70b-versatile": {
     "max_tokens": 8192,
@@ -16611,6 +16854,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5.9e-7,
     "output_cost_per_token": 7.9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-01-24",
     "model_id": "llama-3.1-70b-versatile",
@@ -16623,10 +16867,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.1-8b-instant": {
     "max_tokens": 8192,
@@ -16635,6 +16879,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-8,
     "output_cost_per_token": 8e-8,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "llama-3.1-8b-instant",
     "model_name": "Llama 3.1 8b Instant",
@@ -16646,11 +16891,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.2-11b-text-preview": {
     "max_tokens": 8192,
@@ -16659,6 +16904,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.8e-7,
     "output_cost_per_token": 1.8e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2024-10-28",
     "model_id": "llama-3.2-11b-text-preview",
@@ -16671,10 +16917,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.2-11b-vision-preview": {
     "max_tokens": 8192,
@@ -16683,6 +16929,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.8e-7,
     "output_cost_per_token": 1.8e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-04-14",
@@ -16696,9 +16943,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "llama-3.2-1b-preview": {
     "max_tokens": 8192,
@@ -16707,6 +16954,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 4e-8,
     "output_cost_per_token": 4e-8,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-04-14",
     "model_id": "llama-3.2-1b-preview",
@@ -16719,10 +16967,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.2-3b-preview": {
     "max_tokens": 8192,
@@ -16731,6 +16979,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 6e-8,
     "output_cost_per_token": 6e-8,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-04-14",
     "model_id": "llama-3.2-3b-preview",
@@ -16743,10 +16992,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.2-90b-text-preview": {
     "max_tokens": 8192,
@@ -16755,6 +17004,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2024-11-25",
     "model_id": "llama-3.2-90b-text-preview",
@@ -16767,10 +17017,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-3.2-90b-vision-preview": {
     "max_tokens": 8192,
@@ -16779,6 +17029,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-04-14",
@@ -16792,9 +17043,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "llama-3.3-70b-specdec": {
     "max_tokens": 8192,
@@ -16814,11 +17065,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "llama-3.3-70b-versatile": {
     "max_tokens": 32768,
@@ -16827,6 +17078,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5.9e-7,
     "output_cost_per_token": 7.9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "llama-3.3-70b-versatile",
     "model_name": "Llama 3.3 70b Versatile",
@@ -16838,11 +17090,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama-guard-3-8b": {
     "max_tokens": 8192,
@@ -16860,12 +17112,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "llama2-70b-4096": {
     "max_tokens": 4096,
@@ -16874,6 +17126,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 7e-7,
     "output_cost_per_token": 8e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "llama2-70b-4096",
     "model_name": "Llama2 70b 4096",
@@ -16885,11 +17138,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama3-70b-8192": {
     "max_tokens": 8192,
@@ -16897,6 +17150,7 @@ export const modelsMap: Record<string, Model> = {
     "max_output_tokens": 8192,
     "input_cost_per_token": 5.9e-7,
     "output_cost_per_token": 7.9e-7,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "llama3-70b-8192",
     "model_name": "Llama3 70b 8192",
@@ -16908,12 +17162,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "llama3-8b-8192": {
     "max_tokens": 8192,
@@ -16932,12 +17186,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "llama3-groq-70b-8192-tool-use-preview": {
     "max_tokens": 8192,
@@ -16946,6 +17200,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 8.9e-7,
     "output_cost_per_token": 8.9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-01-06",
     "model_id": "llama3-groq-70b-8192-tool-use-preview",
@@ -16958,10 +17213,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "llama3-groq-8b-8192-tool-use-preview": {
     "max_tokens": 8192,
@@ -16970,6 +17225,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.9e-7,
     "output_cost_per_token": 1.9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-01-06",
     "model_id": "llama3-groq-8b-8192-tool-use-preview",
@@ -16982,10 +17238,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "meta-llama/llama-4-maverick-17b-128e-instruct": {
     "max_tokens": 8192,
@@ -16994,6 +17250,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 6e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/llama-4-maverick-17b-128e-instruct",
     "model_name": "Llama 4 Maverick Instruct (17Bx128E)",
@@ -17005,11 +17262,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "meta-llama/llama-4-scout-17b-16e-instruct": {
     "max_tokens": 8192,
@@ -17018,6 +17275,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.1e-7,
     "output_cost_per_token": 3.4e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
     "model_name": "Llama 4 Scout Instruct (17Bx16E)",
@@ -17029,11 +17287,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-saba-24b": {
     "max_tokens": 32000,
@@ -17051,12 +17309,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mixtral-8x7b-32768": {
     "max_tokens": 32768,
@@ -17065,6 +17323,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.4e-7,
     "output_cost_per_token": 2.4e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "deprecation_date": "2025-03-20",
     "model_id": "mixtral-8x7b-32768",
@@ -17077,10 +17336,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "moonshotai/kimi-k2-instruct": {
     "max_tokens": 131072,
@@ -17089,6 +17348,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000001,
     "output_cost_per_token": 0.000003,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "moonshotai/kimi-k2-instruct",
     "model_name": "Kimi K2 Instruct",
@@ -17100,11 +17360,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "playai-tts": {
     "max_tokens": 10000,
@@ -17123,12 +17383,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "qwen/qwen3-32b": {
     "max_tokens": 131000,
@@ -17137,6 +17397,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.9e-7,
     "output_cost_per_token": 5.9e-7,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "qwen/qwen3-32b",
@@ -17149,11 +17410,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "whisper-large-v3": {
     "input_cost_per_second": 0.00003083,
@@ -17172,12 +17433,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "whisper-large-v3-turbo": {
     "input_cost_per_second": 0.00001111,
@@ -17196,12 +17457,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "hyperbolic/deepseek-ai/DeepSeek-R1": {
     "max_tokens": 32768,
@@ -17210,6 +17471,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 4e-7,
     "output_cost_per_token": 4e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/deepseek-ai/DeepSeek-R1",
@@ -17222,11 +17484,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/deepseek-ai/DeepSeek-R1-0528": {
     "max_tokens": 131072,
@@ -17235,6 +17497,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-7,
     "output_cost_per_token": 2.5e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/deepseek-ai/DeepSeek-R1-0528",
@@ -17247,11 +17510,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/deepseek-ai/DeepSeek-V3": {
     "max_tokens": 32768,
@@ -17260,6 +17523,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 2e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/deepseek-ai/DeepSeek-V3",
@@ -17272,11 +17536,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/deepseek-ai/DeepSeek-V3-0324": {
     "max_tokens": 32768,
@@ -17285,6 +17549,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 4e-7,
     "output_cost_per_token": 4e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/deepseek-ai/DeepSeek-V3-0324",
@@ -17297,11 +17562,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/meta-llama/Llama-3.2-3B-Instruct": {
     "max_tokens": 32768,
@@ -17310,6 +17575,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/meta-llama/Llama-3.2-3B-Instruct",
@@ -17322,11 +17588,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/meta-llama/Llama-3.3-70B-Instruct": {
     "max_tokens": 131072,
@@ -17335,6 +17601,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/meta-llama/Llama-3.3-70B-Instruct",
@@ -17347,11 +17614,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/meta-llama/Meta-Llama-3-70B-Instruct": {
     "max_tokens": 131072,
@@ -17360,6 +17627,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/meta-llama/Meta-Llama-3-70B-Instruct",
@@ -17372,11 +17640,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct": {
     "max_tokens": 32768,
@@ -17385,6 +17653,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct",
@@ -17397,11 +17666,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/meta-llama/Meta-Llama-3.1-70B-Instruct": {
     "max_tokens": 32768,
@@ -17410,6 +17679,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -17422,11 +17692,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/meta-llama/Meta-Llama-3.1-8B-Instruct": {
     "max_tokens": 32768,
@@ -17435,6 +17705,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -17447,11 +17718,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/moonshotai/Kimi-K2-Instruct": {
     "max_tokens": 131072,
@@ -17460,6 +17731,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000002,
     "output_cost_per_token": 0.000002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/moonshotai/Kimi-K2-Instruct",
@@ -17472,11 +17744,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/NousResearch/Hermes-3-Llama-3.1-70B": {
     "max_tokens": 32768,
@@ -17485,6 +17757,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/NousResearch/Hermes-3-Llama-3.1-70B",
@@ -17497,11 +17770,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/Qwen/Qwen2.5-72B-Instruct": {
     "max_tokens": 131072,
@@ -17510,6 +17783,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/Qwen/Qwen2.5-72B-Instruct",
@@ -17522,11 +17796,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/Qwen/Qwen2.5-Coder-32B-Instruct": {
     "max_tokens": 32768,
@@ -17535,6 +17809,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/Qwen/Qwen2.5-Coder-32B-Instruct",
@@ -17547,11 +17822,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/Qwen/Qwen3-235B-A22B": {
     "max_tokens": 131072,
@@ -17560,6 +17835,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000002,
     "output_cost_per_token": 0.000002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/Qwen/Qwen3-235B-A22B",
@@ -17572,11 +17848,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "hyperbolic/Qwen/QwQ-32B": {
     "max_tokens": 131072,
@@ -17585,6 +17861,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 2e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "hyperbolic/Qwen/QwQ-32B",
@@ -17597,11 +17874,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "jina-reranker-v2-base-multilingual": {
     "max_tokens": 1024,
@@ -17620,12 +17897,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "lambda_ai/deepseek-llama3.3-70b": {
     "max_tokens": 131072,
@@ -17634,6 +17911,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -17647,11 +17925,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/deepseek-r1-0528": {
     "max_tokens": 131072,
@@ -17660,6 +17938,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -17673,11 +17952,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/deepseek-r1-671b": {
     "max_tokens": 131072,
@@ -17686,6 +17965,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 8e-7,
     "output_cost_per_token": 8e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -17699,11 +17979,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/deepseek-v3-0324": {
     "max_tokens": 131072,
@@ -17712,6 +17992,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2e-7,
     "output_cost_per_token": 6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/deepseek-v3-0324",
@@ -17724,11 +18005,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/hermes3-405b": {
     "max_tokens": 131072,
@@ -17737,6 +18018,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 8e-7,
     "output_cost_per_token": 8e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/hermes3-405b",
@@ -17749,11 +18031,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/hermes3-70b": {
     "max_tokens": 131072,
@@ -17762,6 +18044,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/hermes3-70b",
@@ -17774,11 +18057,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/hermes3-8b": {
     "max_tokens": 131072,
@@ -17787,6 +18070,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-8,
     "output_cost_per_token": 4e-8,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/hermes3-8b",
@@ -17799,11 +18083,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/lfm-40b": {
     "max_tokens": 131072,
@@ -17812,6 +18096,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1e-7,
     "output_cost_per_token": 2e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/lfm-40b",
@@ -17824,11 +18109,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/lfm-7b": {
     "max_tokens": 131072,
@@ -17837,6 +18122,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-8,
     "output_cost_per_token": 4e-8,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/lfm-7b",
@@ -17849,11 +18135,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama-4-maverick-17b-128e-instruct-fp8": {
     "max_tokens": 131072,
@@ -17862,6 +18148,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-8,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama-4-maverick-17b-128e-instruct-fp8",
@@ -17874,11 +18161,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama-4-scout-17b-16e-instruct": {
     "max_tokens": 16384,
@@ -17887,6 +18174,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-8,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama-4-scout-17b-16e-instruct",
@@ -17899,11 +18187,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama3.1-405b-instruct-fp8": {
     "max_tokens": 131072,
@@ -17912,6 +18200,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 8e-7,
     "output_cost_per_token": 8e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama3.1-405b-instruct-fp8",
@@ -17924,11 +18213,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama3.1-70b-instruct-fp8": {
     "max_tokens": 131072,
@@ -17937,6 +18226,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama3.1-70b-instruct-fp8",
@@ -17949,11 +18239,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama3.1-8b-instruct": {
     "max_tokens": 131072,
@@ -17962,6 +18252,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 2.5e-8,
     "output_cost_per_token": 4e-8,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama3.1-8b-instruct",
@@ -17974,11 +18265,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama3.1-nemotron-70b-instruct-fp8": {
     "max_tokens": 131072,
@@ -17987,6 +18278,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama3.1-nemotron-70b-instruct-fp8",
@@ -17999,11 +18291,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama3.2-11b-vision-instruct": {
     "max_tokens": 131072,
@@ -18012,6 +18304,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.5e-8,
     "output_cost_per_token": 2.5e-8,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -18025,10 +18318,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "lambda_ai/llama3.2-3b-instruct": {
     "max_tokens": 131072,
@@ -18037,6 +18330,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.5e-8,
     "output_cost_per_token": 2.5e-8,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama3.2-3b-instruct",
@@ -18049,11 +18343,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/llama3.3-70b-instruct-fp8": {
     "max_tokens": 131072,
@@ -18062,6 +18356,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 1.2e-7,
     "output_cost_per_token": 3e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/llama3.3-70b-instruct-fp8",
@@ -18074,11 +18369,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/qwen25-coder-32b-instruct": {
     "max_tokens": 131072,
@@ -18087,6 +18382,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-8,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "model_id": "lambda_ai/qwen25-coder-32b-instruct",
@@ -18099,11 +18395,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "lambda_ai/qwen3-32b-fp8": {
     "max_tokens": 131072,
@@ -18112,6 +18408,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-8,
     "output_cost_per_token": 1e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
@@ -18125,11 +18422,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "meta_llama/Llama-3.3-70B-Instruct": {
     "max_tokens": 128000,
@@ -18156,11 +18453,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta_llama/Llama-3.3-8B-Instruct": {
     "max_tokens": 128000,
@@ -18187,11 +18484,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta_llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
     "max_tokens": 128000,
@@ -18219,11 +18516,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta_llama/Llama-4-Scout-17B-16E-Instruct-FP8": {
     "max_tokens": 128000,
@@ -18251,11 +18548,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral-2405": {
     "max_tokens": 8191,
@@ -18265,6 +18562,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000003,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "codestral-2405",
     "model_name": "Codestral 2405",
     "provider_id": "mistral",
@@ -18275,12 +18573,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral-latest": {
     "max_tokens": 8191,
@@ -18290,6 +18588,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000003,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "codestral-latest",
     "model_name": "Codestral",
     "provider_id": "mistral",
@@ -18300,12 +18599,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral-mamba-latest": {
     "max_tokens": 256000,
@@ -18326,12 +18625,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral/codestral-2405": {
     "max_tokens": 8191,
@@ -18352,12 +18651,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral/codestral-latest": {
     "max_tokens": 8191,
@@ -18378,12 +18677,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "devstral-medium-2507": {
     "max_tokens": 128000,
@@ -18395,6 +18694,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "devstral-medium-2507",
     "model_name": "Devstral Medium 2507",
     "provider_id": "mistral",
@@ -18405,11 +18705,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "devstral-small-2505": {
     "max_tokens": 128000,
@@ -18421,6 +18721,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "devstral-small-2505",
     "model_name": "Devstral Small 2505",
     "provider_id": "mistral",
@@ -18431,11 +18732,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "devstral-small-2507": {
     "max_tokens": 128000,
@@ -18447,6 +18748,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "devstral-small-2507",
     "model_name": "Devstral Small 2507",
     "provider_id": "mistral",
@@ -18457,11 +18759,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "magistral-medium-2506": {
     "max_tokens": 40000,
@@ -18474,6 +18776,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "model_id": "magistral-medium-2506",
     "model_name": "Magistral Medium 2506",
     "provider_id": "mistral",
@@ -18484,11 +18787,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "magistral-medium-latest": {
     "max_tokens": 40000,
@@ -18501,6 +18804,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "model_id": "magistral-medium-latest",
     "model_name": "Magistral Medium Latest",
     "provider_id": "mistral",
@@ -18511,11 +18815,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "magistral-small-2506": {
     "max_tokens": 40000,
@@ -18528,6 +18832,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "model_id": "magistral-small-2506",
     "model_name": "Magistral Small 2506",
     "provider_id": "mistral",
@@ -18538,11 +18843,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "magistral-small-latest": {
     "max_tokens": 40000,
@@ -18555,6 +18860,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "model_id": "magistral-small-latest",
     "model_name": "Magistral Small Latest",
     "provider_id": "mistral",
@@ -18565,11 +18871,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-embed": {
     "max_tokens": 8192,
@@ -18587,12 +18893,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-large-2402": {
     "max_tokens": 8191,
@@ -18603,6 +18909,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-large-2402",
     "model_name": "Mistral Large 2402",
     "provider_id": "mistral",
@@ -18613,11 +18920,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-large-2407": {
     "max_tokens": 128000,
@@ -18628,6 +18935,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-large-2407",
     "model_name": "Mistral Large 2407",
     "provider_id": "mistral",
@@ -18638,11 +18946,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-large-latest": {
     "max_tokens": 128000,
@@ -18653,6 +18961,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-large-latest",
     "model_name": "Mistral Large",
     "provider_id": "mistral",
@@ -18663,11 +18972,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-medium": {
     "max_tokens": 8191,
@@ -18677,6 +18986,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000081,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-medium",
     "model_name": "Mistral Medium",
     "provider_id": "mistral",
@@ -18687,12 +18997,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-medium-2312": {
     "max_tokens": 8191,
@@ -18702,6 +19012,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000081,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-medium-2312",
     "model_name": "Mistral Medium 2312",
     "provider_id": "mistral",
@@ -18712,12 +19023,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-medium-2505": {
     "max_tokens": 8191,
@@ -18728,6 +19039,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-medium-2505",
     "model_name": "Mistral Medium 2505",
     "provider_id": "mistral",
@@ -18738,11 +19050,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-medium-latest": {
     "max_tokens": 8191,
@@ -18753,6 +19065,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-medium-latest",
     "model_name": "Mistral Medium 3",
     "provider_id": "mistral",
@@ -18763,11 +19076,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-small": {
     "max_tokens": 8191,
@@ -18778,6 +19091,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-small",
     "model_name": "Mistral Small",
     "provider_id": "mistral",
@@ -18788,11 +19102,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-small-latest": {
     "max_tokens": 8191,
@@ -18803,6 +19117,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-small-latest",
     "model_name": "Mistral Small",
     "provider_id": "mistral",
@@ -18813,11 +19128,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "mistral-tiny": {
     "max_tokens": 8191,
@@ -18827,6 +19142,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 2.5e-7,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "mistral-tiny",
     "model_name": "Mistral Tiny",
     "provider_id": "mistral",
@@ -18837,12 +19153,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "open-codestral-mamba": {
     "max_tokens": 256000,
@@ -18863,12 +19179,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "open-mistral-7b": {
     "max_tokens": 8191,
@@ -18878,6 +19194,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 2.5e-7,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "open-mistral-7b",
     "model_name": "Open Mistral 7b",
     "provider_id": "mistral",
@@ -18888,12 +19205,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "open-mistral-nemo": {
     "max_tokens": 128000,
@@ -18904,6 +19221,7 @@ export const modelsMap: Record<string, Model> = {
     "source": "https://mistral.ai/technology/",
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "open-mistral-nemo",
     "model_name": "Mistral NeMo",
     "provider_id": "mistral",
@@ -18914,12 +19232,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "open-mistral-nemo-2407": {
     "max_tokens": 128000,
@@ -18930,6 +19248,7 @@ export const modelsMap: Record<string, Model> = {
     "source": "https://mistral.ai/technology/",
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "open-mistral-nemo-2407",
     "model_name": "Open Mistral Nemo 2407",
     "provider_id": "mistral",
@@ -18940,12 +19259,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
+    "supports_json_mode": true,
     "supports_function_calling": false,
     "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "open-mixtral-8x22b": {
     "max_tokens": 8191,
@@ -18956,6 +19275,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "open-mixtral-8x22b",
     "model_name": "Mixtral 8x22B",
     "provider_id": "mistral",
@@ -18966,11 +19286,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "open-mixtral-8x7b": {
     "max_tokens": 8191,
@@ -18981,6 +19301,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_assistant_prefill": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "open-mixtral-8x7b",
     "model_name": "Open Mixtral 8x7b",
     "provider_id": "mistral",
@@ -18991,11 +19312,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "pixtral-12b-2409": {
     "max_tokens": 128000,
@@ -19007,6 +19328,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "pixtral-12b-2409",
     "model_name": "Pixtral 12B",
     "provider_id": "mistral",
@@ -19017,10 +19339,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "pixtral-large-2411": {
     "max_tokens": 128000,
@@ -19032,6 +19354,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "pixtral-large-2411",
     "model_name": "Pixtral Large 2411",
     "provider_id": "mistral",
@@ -19042,10 +19365,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "pixtral-large-latest": {
     "max_tokens": 128000,
@@ -19057,6 +19380,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_vision": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "model_id": "pixtral-large-latest",
     "model_name": "Pixtral Large",
     "provider_id": "mistral",
@@ -19067,10 +19391,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "text-completion-codestral/codestral-2405": {
     "max_tokens": 8191,
@@ -19089,12 +19413,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-completion-codestral/codestral-latest": {
     "max_tokens": 8191,
@@ -19113,12 +19437,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/kimi-k2-0711-preview": {
     "max_tokens": 131072,
@@ -19140,11 +19464,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.15,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/kimi-latest": {
     "max_tokens": 131072,
@@ -19166,10 +19490,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.15,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "moonshot/kimi-latest-128k": {
     "max_tokens": 131072,
@@ -19191,10 +19515,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.15,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "moonshot/kimi-latest-32k": {
     "max_tokens": 32768,
@@ -19216,10 +19540,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.15,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "moonshot/kimi-latest-8k": {
     "max_tokens": 8192,
@@ -19241,10 +19565,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.15,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "moonshot/kimi-thinking-preview": {
     "max_tokens": 131072,
@@ -19264,11 +19588,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-128k": {
     "max_tokens": 131072,
@@ -19289,11 +19613,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-128k-0430": {
     "max_tokens": 131072,
@@ -19314,11 +19638,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-128k-vision-preview": {
     "max_tokens": 131072,
@@ -19340,10 +19664,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-32k": {
     "max_tokens": 32768,
@@ -19364,11 +19688,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-32k-0430": {
     "max_tokens": 32768,
@@ -19389,11 +19713,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-32k-vision-preview": {
     "max_tokens": 32768,
@@ -19415,10 +19739,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-8k": {
     "max_tokens": 8192,
@@ -19439,11 +19763,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-8k-0430": {
     "max_tokens": 8192,
@@ -19464,11 +19788,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-8k-vision-preview": {
     "max_tokens": 8192,
@@ -19490,10 +19814,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "moonshot/moonshot-v1-auto": {
     "max_tokens": 131072,
@@ -19514,11 +19838,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "morph/morph-v3-fast": {
     "max_tokens": 16000,
@@ -19527,6 +19851,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 8e-7,
     "output_cost_per_token": 0.0000012,
     "supports_function_calling": false,
+    "supports_parallel_function_calling": false,
     "supports_vision": false,
     "supports_system_messages": true,
     "supports_tool_choice": false,
@@ -19540,10 +19865,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": false,
+    "supports_json_mode": false
   },
   "morph/morph-v3-large": {
     "max_tokens": 16000,
@@ -19552,6 +19877,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 9e-7,
     "output_cost_per_token": 0.0000019,
     "supports_function_calling": false,
+    "supports_parallel_function_calling": false,
     "supports_vision": false,
     "supports_system_messages": true,
     "supports_tool_choice": false,
@@ -19565,10 +19891,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": false,
+    "supports_json_mode": false
   },
   "chatdolphin": {
     "max_tokens": 16384,
@@ -19586,12 +19912,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "dolphin": {
     "max_tokens": 16384,
@@ -19609,12 +19935,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/black-forest-labs/FLUX.1-schnell": {
     "input_cost_per_pixel": 1.3e-9,
@@ -19637,12 +19963,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-70B": {
     "input_cost_per_token": 3.75e-7,
@@ -19663,12 +19989,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
     "input_cost_per_token": 2.5e-8,
@@ -19689,12 +20015,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
     "input_cost_per_token": 9e-8,
@@ -19715,12 +20041,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
     "input_cost_per_token": 7e-8,
@@ -19741,12 +20067,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
     "input_cost_per_token": 1.5e-7,
@@ -19767,12 +20093,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": {
     "input_cost_per_token": 2e-7,
@@ -19793,12 +20119,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/meta-llama/Llama-3.1-8B-Instruct": {
     "input_cost_per_token": 3e-8,
@@ -19819,12 +20145,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/meta-llama/Llama-3.3-70B-Instruct": {
     "input_cost_per_token": 2e-7,
@@ -19845,12 +20171,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/meta-llama/Llama-4-Scout-17B-16E-Instruct": {
     "input_cost_per_token": 9e-8,
@@ -19868,12 +20194,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/mistralai/mixtral-8x22b-instruct-v0.1": {
     "input_cost_per_token": 6e-7,
@@ -19894,12 +20220,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/Qwen/Qwen2.5-Coder-32B-Instruct": {
     "input_cost_per_token": 6e-8,
@@ -19917,12 +20243,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/Qwen/Qwen2.5-Coder-3B-Instruct": {
     "input_cost_per_token": 1e-8,
@@ -19940,12 +20266,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/Qwen/Qwen2.5-Coder-7B-Instruct": {
     "input_cost_per_token": 1e-8,
@@ -19963,12 +20289,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/Qwen/QwQ-32B": {
     "input_cost_per_token": 1.8e-7,
@@ -19986,12 +20312,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "nscale/stabilityai/stable-diffusion-xl-base-1.0": {
     "input_cost_per_pixel": 3e-9,
@@ -20014,12 +20340,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/codegeex4": {
     "max_tokens": 32768,
@@ -20038,11 +20364,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/codegemma": {
     "max_tokens": 8192,
@@ -20060,12 +20386,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/codellama": {
     "max_tokens": 4096,
@@ -20083,12 +20409,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/deepseek-coder-v2-base": {
     "max_tokens": 8192,
@@ -20107,11 +20433,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/deepseek-coder-v2-instruct": {
     "max_tokens": 32768,
@@ -20130,11 +20456,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/deepseek-coder-v2-lite-base": {
     "max_tokens": 8192,
@@ -20153,11 +20479,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/deepseek-coder-v2-lite-instruct": {
     "max_tokens": 32768,
@@ -20176,11 +20502,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/internlm2_5-20b-chat": {
     "max_tokens": 32768,
@@ -20199,11 +20525,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama2": {
     "max_tokens": 4096,
@@ -20221,12 +20547,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama2-uncensored": {
     "max_tokens": 4096,
@@ -20244,12 +20570,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama2:13b": {
     "max_tokens": 4096,
@@ -20267,12 +20593,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama2:70b": {
     "max_tokens": 4096,
@@ -20290,12 +20616,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama2:7b": {
     "max_tokens": 4096,
@@ -20313,12 +20639,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama3": {
     "max_tokens": 8192,
@@ -20336,12 +20662,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama3:70b": {
     "max_tokens": 8192,
@@ -20359,12 +20685,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama3:8b": {
     "max_tokens": 8192,
@@ -20382,12 +20708,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/llama3.1": {
     "max_tokens": 32768,
@@ -20406,11 +20732,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/mistral": {
     "max_tokens": 8192,
@@ -20429,11 +20755,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/mistral-7B-Instruct-v0.1": {
     "max_tokens": 8192,
@@ -20452,11 +20778,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/mistral-7B-Instruct-v0.2": {
     "max_tokens": 32768,
@@ -20475,11 +20801,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/mistral-large-instruct-2407": {
     "max_tokens": 65536,
@@ -20498,11 +20824,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/mixtral-8x22B-Instruct-v0.1": {
     "max_tokens": 65536,
@@ -20521,11 +20847,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/mixtral-8x7B-Instruct-v0.1": {
     "max_tokens": 32768,
@@ -20544,11 +20870,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/orca-mini": {
     "max_tokens": 4096,
@@ -20566,12 +20892,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ollama/vicuna": {
     "max_tokens": 2048,
@@ -20589,12 +20915,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "1024-x-1024/dall-e-2": {
     "input_cost_per_pixel": 1.9e-8,
@@ -20613,12 +20939,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "256-x-256/dall-e-2": {
     "input_cost_per_pixel": 2.4414e-7,
@@ -20637,12 +20963,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "512-x-512/dall-e-2": {
     "input_cost_per_pixel": 6.86e-8,
@@ -20661,12 +20987,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "chatgpt-4o-latest": {
     "max_tokens": 4096,
@@ -20676,6 +21002,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000015,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -20690,10 +21017,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "codex-mini-latest": {
     "max_tokens": 100000,
@@ -20703,9 +21030,11 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000006,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supported_modalities": [
@@ -20728,10 +21057,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "ft:gpt-3.5-turbo": {
     "max_tokens": 4096,
@@ -20753,12 +21082,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ft:gpt-3.5-turbo-0125": {
     "max_tokens": 4096,
@@ -20778,12 +21107,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ft:gpt-3.5-turbo-0613": {
     "max_tokens": 4096,
@@ -20803,12 +21132,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ft:gpt-3.5-turbo-1106": {
     "max_tokens": 4096,
@@ -20828,12 +21157,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ft:gpt-4-0613": {
     "max_tokens": 4096,
@@ -20855,11 +21184,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ft:gpt-4o-2024-08-06": {
     "max_tokens": 16384,
@@ -20871,6 +21200,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.0000075,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -20884,10 +21215,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "ft:gpt-4o-2024-11-20": {
     "max_tokens": 16384,
@@ -20897,6 +21228,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000015,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -20911,10 +21244,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": 0.000001875,
     "cache_write_cost_per_million": 1.875,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "ft:gpt-4o-mini-2024-07-18": {
     "max_tokens": 16384,
@@ -20925,6 +21258,8 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token_batches": 1.5e-7,
     "output_cost_per_token_batches": 6e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
@@ -20940,10 +21275,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.15,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-3.5-turbo": {
     "max_tokens": 4097,
@@ -20965,11 +21300,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-3.5-turbo-0125": {
     "max_tokens": 16385,
@@ -20978,6 +21313,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 5e-7,
     "output_cost_per_token": 0.0000015,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -20991,11 +21327,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-3.5-turbo-0301": {
     "max_tokens": 4097,
@@ -21016,12 +21352,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-3.5-turbo-0613": {
     "max_tokens": 4097,
@@ -21043,11 +21379,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-3.5-turbo-1106": {
     "max_tokens": 16385,
@@ -21056,6 +21392,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000001,
     "output_cost_per_token": 0.000002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -21069,11 +21406,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-3.5-turbo-16k": {
     "max_tokens": 16385,
@@ -21094,12 +21431,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-3.5-turbo-16k-0613": {
     "max_tokens": 16385,
@@ -21120,12 +21457,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4": {
     "max_tokens": 4096,
@@ -21147,11 +21484,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4-0125-preview": {
     "max_tokens": 4096,
@@ -21160,6 +21497,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00001,
     "output_cost_per_token": 0.00003,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -21173,11 +21511,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4-0314": {
     "max_tokens": 4096,
@@ -21198,12 +21536,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4-0613": {
     "max_tokens": 4096,
@@ -21226,10 +21564,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "gpt-4-1106-preview": {
     "max_tokens": 4096,
@@ -21238,6 +21576,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.00001,
     "output_cost_per_token": 0.00003,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -21251,11 +21590,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4-1106-vision-preview": {
     "max_tokens": 4096,
@@ -21279,10 +21618,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "gpt-4-32k": {
     "max_tokens": 4096,
@@ -21303,12 +21642,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4-32k-0314": {
     "max_tokens": 4096,
@@ -21329,12 +21668,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4-32k-0613": {
     "max_tokens": 4096,
@@ -21355,12 +21694,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4-turbo": {
     "max_tokens": 4096,
@@ -21370,6 +21709,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00003,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21384,10 +21724,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "gpt-4-turbo-2024-04-09": {
     "max_tokens": 4096,
@@ -21397,6 +21737,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00003,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21411,10 +21752,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "gpt-4-turbo-preview": {
     "max_tokens": 4096,
@@ -21424,6 +21765,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00003,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -21437,11 +21779,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4-vision-preview": {
     "max_tokens": 4096,
@@ -21465,10 +21807,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "gpt-4.1": {
     "max_tokens": 32768,
@@ -21492,6 +21834,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21507,10 +21851,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4.1-2025-04-14": {
     "max_tokens": 32768,
@@ -21534,6 +21878,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21549,10 +21895,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4.1-mini": {
     "max_tokens": 32768,
@@ -21576,6 +21922,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21591,10 +21939,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.09999999999999999,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4.1-mini-2025-04-14": {
     "max_tokens": 32768,
@@ -21618,6 +21966,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21633,10 +21983,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.09999999999999999,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4.1-nano": {
     "max_tokens": 32768,
@@ -21660,6 +22010,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21675,10 +22027,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4.1-nano-2025-04-14": {
     "max_tokens": 32768,
@@ -21702,6 +22054,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21717,10 +22071,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4.5-preview": {
     "max_tokens": 16384,
@@ -21732,6 +22086,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.000075,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21746,10 +22102,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 37.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4.5-preview-2025-02-27": {
     "max_tokens": 16384,
@@ -21761,6 +22117,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.000075,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21776,9 +22134,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 37.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "gpt-4o": {
     "max_tokens": 16384,
@@ -21790,6 +22148,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.000005,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21804,10 +22164,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-2024-05-13": {
     "max_tokens": 4096,
@@ -21819,6 +22179,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.0000075,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21833,10 +22194,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "gpt-4o-2024-08-06": {
     "max_tokens": 16384,
@@ -21848,6 +22209,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.000005,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21862,10 +22225,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-2024-11-20": {
     "max_tokens": 16384,
@@ -21877,6 +22240,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.000005,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -21891,10 +22256,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-audio-preview": {
     "max_tokens": 16384,
@@ -21905,6 +22270,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00001,
     "output_cost_per_audio_token": 0.0002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -21919,11 +22285,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-audio-preview-2024-10-01": {
     "max_tokens": 16384,
@@ -21934,6 +22300,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00001,
     "output_cost_per_audio_token": 0.0002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -21948,11 +22315,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-audio-preview-2024-12-17": {
     "max_tokens": 16384,
@@ -21963,6 +22330,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00001,
     "output_cost_per_audio_token": 0.00008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -21977,11 +22345,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-audio-preview-2025-06-03": {
     "max_tokens": 16384,
@@ -21992,6 +22360,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00001,
     "output_cost_per_audio_token": 0.00008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22006,11 +22375,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-mini": {
     "max_tokens": 16384,
@@ -22022,6 +22391,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 3e-7,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -22036,10 +22407,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-mini-2024-07-18": {
     "max_tokens": 16384,
@@ -22051,6 +22422,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 3e-7,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -22070,10 +22443,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-mini-audio-preview": {
     "max_tokens": 16384,
@@ -22084,6 +22457,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 6e-7,
     "output_cost_per_audio_token": 0.00002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22098,11 +22472,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-mini-audio-preview-2024-12-17": {
     "max_tokens": 16384,
@@ -22113,6 +22487,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 6e-7,
     "output_cost_per_audio_token": 0.00002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22127,11 +22502,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-mini-realtime-preview": {
     "max_tokens": 4096,
@@ -22143,6 +22518,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000024,
     "output_cost_per_audio_token": 0.00002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22157,11 +22533,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-mini-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -22173,6 +22549,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000024,
     "output_cost_per_audio_token": 0.00002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22187,11 +22564,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-mini-search-preview": {
     "max_tokens": 16384,
@@ -22203,6 +22580,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 3e-7,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -22223,10 +22602,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-mini-search-preview-2025-03-11": {
     "max_tokens": 16384,
@@ -22238,6 +22617,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 3e-7,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -22252,10 +22633,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-mini-transcribe": {
     "max_input_tokens": 16000,
@@ -22276,12 +22657,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4o-mini-tts": {
     "input_cost_per_token": 0.0000025,
@@ -22310,12 +22691,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-4o-realtime-preview": {
     "max_tokens": 4096,
@@ -22326,6 +22707,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00002,
     "output_cost_per_audio_token": 0.00008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22340,11 +22722,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-realtime-preview-2024-10-01": {
     "max_tokens": 4096,
@@ -22356,6 +22738,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00002,
     "output_cost_per_audio_token": 0.0002,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22370,11 +22753,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-realtime-preview-2024-12-17": {
     "max_tokens": 4096,
@@ -22385,6 +22768,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00002,
     "output_cost_per_audio_token": 0.00008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22399,11 +22783,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-realtime-preview-2025-06-03": {
     "max_tokens": 4096,
@@ -22414,6 +22798,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00002,
     "output_cost_per_audio_token": 0.00008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_system_messages": true,
@@ -22428,11 +22813,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gpt-4o-search-preview": {
     "max_tokens": 16384,
@@ -22444,6 +22829,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.000005,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -22464,10 +22851,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-search-preview-2025-03-11": {
     "max_tokens": 16384,
@@ -22479,6 +22866,8 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.000005,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -22493,10 +22882,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.25,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gpt-4o-transcribe": {
     "max_input_tokens": 16000,
@@ -22517,12 +22906,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -22544,12 +22933,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "hd/1024-x-1024/dall-e-3": {
     "input_cost_per_pixel": 7.629e-8,
@@ -22568,12 +22957,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "hd/1024-x-1792/dall-e-3": {
     "input_cost_per_pixel": 6.539e-8,
@@ -22592,12 +22981,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "hd/1792-x-1024/dall-e-3": {
     "input_cost_per_pixel": 6.539e-8,
@@ -22616,12 +23005,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "high/1024-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.59263611e-7,
@@ -22643,12 +23032,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "high/1024-x-1536/gpt-image-1": {
     "input_cost_per_pixel": 1.58945719e-7,
@@ -22670,12 +23059,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "high/1536-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.58945719e-7,
@@ -22697,12 +23086,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "low/1024-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.0490417e-8,
@@ -22724,12 +23113,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "low/1024-x-1536/gpt-image-1": {
     "input_cost_per_pixel": 1.0172526e-8,
@@ -22751,12 +23140,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "low/1536-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 1.0172526e-8,
@@ -22778,12 +23167,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "medium/1024-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -22805,12 +23194,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "medium/1024-x-1536/gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -22832,12 +23221,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "medium/1536-x-1024/gpt-image-1": {
     "input_cost_per_pixel": 4.0054321e-8,
@@ -22859,12 +23248,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "o1": {
     "max_tokens": 100000,
@@ -22873,10 +23262,12 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.00006,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "o1",
@@ -22889,10 +23280,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "o1-2024-12-17": {
     "max_tokens": 100000,
@@ -22902,9 +23293,11 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00006,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "o1-2024-12-17",
@@ -22917,10 +23310,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "o1-mini": {
     "max_tokens": 65536,
@@ -22941,11 +23334,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.55,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "o1-mini-2024-09-12": {
     "max_tokens": 65536,
@@ -22967,11 +23360,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "o1-preview": {
     "max_tokens": 32768,
@@ -22993,11 +23386,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "o1-preview-2024-09-12": {
     "max_tokens": 32768,
@@ -23019,11 +23412,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "o1-pro": {
     "max_tokens": 100000,
@@ -23035,9 +23428,11 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.0003,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_native_streaming": false,
     "supports_reasoning": true,
@@ -23062,10 +23457,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "o1-pro-2025-03-19": {
     "max_tokens": 100000,
@@ -23077,9 +23472,11 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.0003,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_native_streaming": false,
     "supports_reasoning": true,
@@ -23104,10 +23501,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "o3": {
     "max_tokens": 100000,
@@ -23116,9 +23513,11 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000002,
     "output_cost_per_token": 0.000008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -23144,10 +23543,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o3-2025-04-16": {
     "max_tokens": 100000,
@@ -23156,9 +23555,11 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000002,
     "output_cost_per_token": 0.000008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -23184,10 +23585,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o3-deep-research": {
     "max_tokens": 100000,
@@ -23211,6 +23612,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -23226,10 +23629,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "o3-deep-research-2025-06-26": {
     "max_tokens": 100000,
@@ -23253,6 +23656,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -23268,10 +23673,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "o3-mini": {
     "max_tokens": 100000,
@@ -23280,8 +23685,10 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000011,
     "output_cost_per_token": 0.0000044,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": false,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "o3-mini",
@@ -23294,10 +23701,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.55,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o3-mini-2025-01-31": {
     "max_tokens": 100000,
@@ -23306,8 +23713,10 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000011,
     "output_cost_per_token": 0.0000044,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": false,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "o3-mini-2025-01-31",
@@ -23320,10 +23729,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.55,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o3-pro": {
     "max_tokens": 100000,
@@ -23334,9 +23743,11 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.00004,
     "output_cost_per_token": 0.00008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -23360,10 +23771,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o3-pro-2025-06-10": {
     "max_tokens": 100000,
@@ -23374,9 +23785,11 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token_batches": 0.00004,
     "output_cost_per_token": 0.00008,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -23400,10 +23813,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o4-mini": {
     "max_tokens": 100000,
@@ -23413,8 +23826,10 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000044,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "o4-mini",
@@ -23427,10 +23842,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.275,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o4-mini-2025-04-16": {
     "max_tokens": 100000,
@@ -23440,8 +23855,10 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000044,
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
     "model_id": "o4-mini-2025-04-16",
@@ -23454,10 +23871,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.275,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "o4-mini-deep-research": {
     "max_tokens": 100000,
@@ -23481,6 +23898,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -23496,10 +23915,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "o4-mini-deep-research-2025-06-26": {
     "max_tokens": 100000,
@@ -23523,6 +23942,8 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_pdf_input": true,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -23538,10 +23959,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "omni-moderation-2024-09-26": {
     "max_tokens": 32768,
@@ -23559,12 +23980,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "moderation",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "moderation",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "omni-moderation-latest": {
     "max_tokens": 32768,
@@ -23582,12 +24003,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "moderation",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "moderation",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "omni-moderation-latest-intents": {
     "max_tokens": 32768,
@@ -23605,12 +24026,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "moderation",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "moderation",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "standard/1024-x-1024/dall-e-3": {
     "input_cost_per_pixel": 3.81469e-8,
@@ -23629,12 +24050,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "standard/1024-x-1792/dall-e-3": {
     "input_cost_per_pixel": 4.359e-8,
@@ -23653,12 +24074,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "standard/1792-x-1024/dall-e-3": {
     "input_cost_per_pixel": 4.359e-8,
@@ -23677,12 +24098,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-3-large": {
     "max_tokens": 8191,
@@ -23703,12 +24124,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-3-small": {
     "max_tokens": 8191,
@@ -23729,12 +24150,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-ada-002": {
     "max_tokens": 8191,
@@ -23753,12 +24174,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-ada-002-v2": {
     "max_tokens": 8191,
@@ -23778,12 +24199,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-moderation-007": {
     "max_tokens": 32768,
@@ -23801,12 +24222,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "moderation",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "moderation",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-moderation-latest": {
     "max_tokens": 32768,
@@ -23824,12 +24245,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "moderation",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "moderation",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-moderation-stable": {
     "max_tokens": 32768,
@@ -23847,12 +24268,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "moderation",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "moderation",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "tts-1": {
     "input_cost_per_character": 0.000015,
@@ -23873,12 +24294,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "tts-1-hd": {
     "input_cost_per_character": 0.00003,
@@ -23899,12 +24320,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "whisper-1": {
     "input_cost_per_second": 0.0001,
@@ -23926,12 +24347,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "audio",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "audio",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-2": {
     "max_tokens": 100000,
@@ -23950,12 +24371,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3-5-haiku": {
     "max_tokens": 200000,
@@ -23975,11 +24396,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3-5-haiku-20241022": {
     "max_tokens": 8192,
@@ -24000,11 +24421,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3-haiku": {
     "max_tokens": 200000,
@@ -24026,10 +24447,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3-haiku-20240307": {
     "max_tokens": 4096,
@@ -24051,10 +24472,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3-opus": {
     "max_tokens": 4096,
@@ -24076,10 +24497,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3-sonnet": {
     "max_tokens": 200000,
@@ -24101,10 +24522,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3.5-sonnet": {
     "supports_computer_use": true,
@@ -24128,10 +24549,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3.5-sonnet:beta": {
     "supports_computer_use": true,
@@ -24154,10 +24575,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3.7-sonnet": {
     "supports_computer_use": true,
@@ -24183,10 +24604,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-3.7-sonnet:beta": {
     "supports_computer_use": true,
@@ -24211,10 +24632,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-instant-v1": {
     "max_tokens": 100000,
@@ -24233,12 +24654,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/anthropic/claude-sonnet-4": {
     "supports_computer_use": true,
@@ -24264,10 +24685,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/bytedance/ui-tars-1.5-7b": {
     "max_tokens": 2048,
@@ -24287,12 +24708,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/cognitivecomputations/dolphin-mixtral-8x7b": {
     "max_tokens": 32769,
@@ -24311,12 +24732,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/cohere/command-r-plus": {
     "max_tokens": 128000,
@@ -24335,12 +24756,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/databricks/dbrx-instruct": {
     "max_tokens": 32768,
@@ -24359,12 +24780,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/deepseek/deepseek-chat": {
     "max_tokens": 8192,
@@ -24384,12 +24805,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/deepseek/deepseek-coder": {
     "max_tokens": 8192,
@@ -24409,12 +24830,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/deepseek/deepseek-r1": {
     "max_tokens": 8192,
@@ -24438,11 +24859,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/deepseek/deepseek-r1-0528": {
     "max_tokens": 8192,
@@ -24466,11 +24887,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/fireworks/firellava-13b": {
     "max_tokens": 4096,
@@ -24489,12 +24910,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/google/gemini-2.0-flash-001": {
     "max_tokens": 8192,
@@ -24512,6 +24933,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_tool_choice": true,
     "model_id": "openrouter/google/gemini-2.0-flash-001",
@@ -24524,10 +24946,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "openrouter/google/gemini-2.5-flash": {
     "max_tokens": 8192,
@@ -24545,6 +24967,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_tool_choice": true,
     "model_id": "openrouter/google/gemini-2.5-flash",
@@ -24557,10 +24980,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "openrouter/google/gemini-2.5-pro": {
     "max_tokens": 8192,
@@ -24578,6 +25001,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_tool_choice": true,
     "model_id": "openrouter/google/gemini-2.5-pro",
@@ -24590,10 +25014,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "openrouter/google/gemini-pro-1.5": {
     "max_tokens": 8192,
@@ -24615,10 +25039,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/google/gemini-pro-vision": {
     "max_tokens": 45875,
@@ -24640,10 +25064,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/google/palm-2-chat-bison": {
     "max_tokens": 25804,
@@ -24662,12 +25086,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/google/palm-2-codechat-bison": {
     "max_tokens": 20070,
@@ -24686,12 +25110,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/gryphe/mythomax-l2-13b": {
     "max_tokens": 8192,
@@ -24710,12 +25134,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/jondurbin/airoboros-l2-70b-2.1": {
     "max_tokens": 4096,
@@ -24734,12 +25158,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/mancer/weaver": {
     "max_tokens": 8000,
@@ -24758,12 +25182,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/meta-llama/codellama-34b-instruct": {
     "max_tokens": 8192,
@@ -24782,12 +25206,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/meta-llama/llama-2-13b-chat": {
     "max_tokens": 4096,
@@ -24806,12 +25230,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/meta-llama/llama-2-70b-chat": {
     "max_tokens": 4096,
@@ -24830,12 +25254,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/meta-llama/llama-3-70b-instruct": {
     "max_tokens": 8192,
@@ -24854,12 +25278,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/meta-llama/llama-3-70b-instruct:nitro": {
     "max_tokens": 8192,
@@ -24878,12 +25302,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/meta-llama/llama-3-8b-instruct:extended": {
     "max_tokens": 16384,
@@ -24902,12 +25326,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/meta-llama/llama-3-8b-instruct:free": {
     "max_tokens": 8192,
@@ -24926,12 +25350,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/microsoft/wizardlm-2-8x22b:nitro": {
     "max_tokens": 65536,
@@ -24950,12 +25374,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/mistralai/mistral-7b-instruct": {
     "max_tokens": 8192,
@@ -24974,12 +25398,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/mistralai/mistral-7b-instruct:free": {
     "max_tokens": 8192,
@@ -24998,12 +25422,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/mistralai/mistral-large": {
     "max_tokens": 32000,
@@ -25022,12 +25446,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/mistralai/mistral-small-3.1-24b-instruct": {
     "max_tokens": 32000,
@@ -25046,12 +25470,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/mistralai/mistral-small-3.2-24b-instruct": {
     "max_tokens": 32000,
@@ -25070,12 +25494,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/mistralai/mixtral-8x22b-instruct": {
     "max_tokens": 65536,
@@ -25094,12 +25518,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/nousresearch/nous-hermes-llama2-13b": {
     "max_tokens": 4096,
@@ -25118,12 +25542,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/openai/gpt-3.5-turbo": {
     "max_tokens": 4095,
@@ -25142,12 +25566,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/openai/gpt-3.5-turbo-16k": {
     "max_tokens": 16383,
@@ -25166,12 +25590,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/openai/gpt-4": {
     "max_tokens": 8192,
@@ -25190,12 +25614,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/openai/gpt-4-vision-preview": {
     "max_tokens": 130000,
@@ -25217,10 +25641,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "openrouter/openai/gpt-4o": {
     "max_tokens": 4096,
@@ -25229,6 +25653,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.0000025,
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/gpt-4o",
@@ -25241,10 +25666,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/openai/gpt-4o-2024-05-13": {
     "max_tokens": 4096,
@@ -25253,6 +25678,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000005,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/gpt-4o-2024-05-13",
@@ -25265,10 +25691,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/openai/o1": {
     "max_tokens": 100000,
@@ -25277,9 +25703,11 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.00006,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/o1",
     "model_name": "O1",
@@ -25291,10 +25719,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 7.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "openrouter/openai/o1-mini": {
     "max_tokens": 65536,
@@ -25303,6 +25731,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000012,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/o1-mini",
@@ -25315,10 +25744,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/openai/o1-mini-2024-09-12": {
     "max_tokens": 65536,
@@ -25327,6 +25756,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000012,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/o1-mini-2024-09-12",
@@ -25339,10 +25769,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/openai/o1-preview": {
     "max_tokens": 32768,
@@ -25351,6 +25781,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.00006,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/o1-preview",
@@ -25363,10 +25794,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/openai/o1-preview-2024-09-12": {
     "max_tokens": 32768,
@@ -25375,6 +25806,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.00006,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/o1-preview-2024-09-12",
@@ -25387,10 +25819,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/openai/o3-mini": {
     "max_tokens": 65536,
@@ -25400,6 +25832,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000044,
     "supports_function_calling": true,
     "supports_reasoning": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/o3-mini",
@@ -25412,10 +25845,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/openai/o3-mini-high": {
     "max_tokens": 65536,
@@ -25425,6 +25858,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000044,
     "supports_function_calling": true,
     "supports_reasoning": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": false,
     "supports_tool_choice": true,
     "model_id": "openrouter/openai/o3-mini-high",
@@ -25437,10 +25871,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "openrouter/pygmalionai/mythalion-13b": {
     "max_tokens": 4096,
@@ -25459,12 +25893,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/qwen/qwen-2.5-coder-32b-instruct": {
     "max_tokens": 33792,
@@ -25483,12 +25917,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/qwen/qwen-vl-plus": {
     "max_tokens": 8192,
@@ -25507,12 +25941,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/qwen/qwen3-coder": {
     "max_tokens": 1000000,
@@ -25532,12 +25966,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/switchpoint/router": {
     "max_tokens": 131072,
@@ -25557,12 +25991,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/undi95/remm-slerp-l2-13b": {
     "max_tokens": 6144,
@@ -25581,12 +26015,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "openrouter/x-ai/grok-4": {
     "max_tokens": 256000,
@@ -25609,11 +26043,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "palm/chat-bison": {
     "max_tokens": 4096,
@@ -25632,12 +26066,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "palm/chat-bison-001": {
     "max_tokens": 4096,
@@ -25656,12 +26090,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "palm/text-bison": {
     "max_tokens": 1024,
@@ -25680,12 +26114,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "palm/text-bison-001": {
     "max_tokens": 1024,
@@ -25704,12 +26138,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "palm/text-bison-safety-off": {
     "max_tokens": 1024,
@@ -25728,12 +26162,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "palm/text-bison-safety-recitation-off": {
     "max_tokens": 1024,
@@ -25752,12 +26186,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codellama-34b-instruct": {
     "max_tokens": 16384,
@@ -25775,12 +26209,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codellama-70b-instruct": {
     "max_tokens": 16384,
@@ -25798,12 +26232,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "llama-2-70b-chat": {
     "max_tokens": 4096,
@@ -25821,12 +26255,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "llama-3.1-70b-instruct": {
     "max_tokens": 131072,
@@ -25844,12 +26278,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "llama-3.1-8b-instruct": {
     "max_tokens": 131072,
@@ -25867,12 +26301,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "llama-3.1-sonar-huge-128k-online": {
     "max_tokens": 127072,
@@ -25891,11 +26325,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "llama-3.1-sonar-large-128k-chat": {
     "max_tokens": 131072,
@@ -25914,11 +26348,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "llama-3.1-sonar-large-128k-online": {
     "max_tokens": 127072,
@@ -25937,11 +26371,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "llama-3.1-sonar-small-128k-chat": {
     "max_tokens": 131072,
@@ -25960,11 +26394,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "llama-3.1-sonar-small-128k-online": {
     "max_tokens": 127072,
@@ -25983,11 +26417,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "mistral-7b-instruct": {
     "max_tokens": 4096,
@@ -26005,12 +26439,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mixtral-8x7b-instruct": {
     "max_tokens": 4096,
@@ -26028,12 +26462,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "pplx-70b-chat": {
     "max_tokens": 4096,
@@ -26051,12 +26485,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "pplx-70b-online": {
     "max_tokens": 4096,
@@ -26075,12 +26509,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "pplx-7b-chat": {
     "max_tokens": 8192,
@@ -26098,12 +26532,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "pplx-7b-online": {
     "max_tokens": 4096,
@@ -26122,12 +26556,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar": {
     "max_tokens": 128000,
@@ -26151,12 +26585,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-deep-research": {
     "max_tokens": 128000,
@@ -26183,12 +26617,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-medium-chat": {
     "max_tokens": 16384,
@@ -26206,12 +26640,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-medium-online": {
     "max_tokens": 12000,
@@ -26230,12 +26664,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-pro": {
     "max_tokens": 8000,
@@ -26259,12 +26693,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-reasoning": {
     "max_tokens": 128000,
@@ -26289,12 +26723,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-reasoning-pro": {
     "max_tokens": 128000,
@@ -26319,12 +26753,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-small-chat": {
     "max_tokens": 16384,
@@ -26342,12 +26776,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sonar-small-online": {
     "max_tokens": 12000,
@@ -26366,12 +26800,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "recraft/recraftv2": {
     "output_cost_per_image": 0.022,
@@ -26393,12 +26827,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "recraft/recraftv3": {
     "output_cost_per_image": 0.04,
@@ -26420,12 +26854,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-2-13b": {
     "max_tokens": 4096,
@@ -26444,12 +26878,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-2-13b-chat": {
     "max_tokens": 4096,
@@ -26468,12 +26902,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-2-70b": {
     "max_tokens": 4096,
@@ -26492,12 +26926,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-2-70b-chat": {
     "max_tokens": 4096,
@@ -26516,12 +26950,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-2-7b": {
     "max_tokens": 4096,
@@ -26540,12 +26974,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-2-7b-chat": {
     "max_tokens": 4096,
@@ -26564,12 +26998,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3-70b": {
     "max_tokens": 8192,
@@ -26588,12 +27022,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3-70b-instruct": {
     "max_tokens": 8192,
@@ -26612,12 +27046,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3-8b": {
     "max_tokens": 8086,
@@ -26636,12 +27070,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3-8b-instruct": {
     "max_tokens": 8086,
@@ -26660,12 +27094,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistralai/mistral-7b-instruct-v0.2": {
     "max_tokens": 4096,
@@ -26684,12 +27118,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistralai/mistral-7b-v0.1": {
     "max_tokens": 4096,
@@ -26708,12 +27142,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistralai/mixtral-8x7b-instruct-v0.1": {
     "max_tokens": 4096,
@@ -26732,12 +27166,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sagemaker/meta-textgeneration-llama-2-13b": {
     "max_tokens": 4096,
@@ -26755,12 +27189,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sagemaker/meta-textgeneration-llama-2-13b-f": {
     "max_tokens": 4096,
@@ -26778,12 +27212,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sagemaker/meta-textgeneration-llama-2-70b": {
     "max_tokens": 4096,
@@ -26801,12 +27235,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sagemaker/meta-textgeneration-llama-2-70b-b-f": {
     "max_tokens": 4096,
@@ -26824,12 +27258,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sagemaker/meta-textgeneration-llama-2-7b": {
     "max_tokens": 4096,
@@ -26847,12 +27281,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sagemaker/meta-textgeneration-llama-2-7b-f": {
     "max_tokens": 4096,
@@ -26870,12 +27304,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/DeepSeek-R1": {
     "max_tokens": 32768,
@@ -26894,12 +27328,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/DeepSeek-R1-Distill-Llama-70B": {
     "max_tokens": 131072,
@@ -26918,12 +27352,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/DeepSeek-V3-0324": {
     "max_tokens": 32768,
@@ -26945,11 +27379,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/Llama-4-Maverick-17B-128E-Instruct": {
     "max_tokens": 131072,
@@ -26959,6 +27393,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000018,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "supports_vision": true,
     "source": "https://cloud.sambanova.ai/plans/pricing",
     "metadata": {
@@ -26974,10 +27409,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "sambanova/Llama-4-Scout-17B-16E-Instruct": {
     "max_tokens": 8192,
@@ -26987,6 +27422,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 7e-7,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.sambanova.ai/plans/pricing",
     "metadata": {
       "notes": "For vision models, images are converted to 6432 input tokens and are billed at that amount"
@@ -27001,11 +27437,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "sambanova/Meta-Llama-3.1-405B-Instruct": {
     "max_tokens": 16384,
@@ -27015,6 +27451,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.sambanova.ai/plans/pricing",
     "model_id": "sambanova/Meta-Llama-3.1-405B-Instruct",
     "model_name": "Meta Llama 3.1 405B Instruct",
@@ -27026,11 +27463,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "sambanova/Meta-Llama-3.1-8B-Instruct": {
     "max_tokens": 16384,
@@ -27040,6 +27477,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 2e-7,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.sambanova.ai/plans/pricing",
     "model_id": "sambanova/Meta-Llama-3.1-8B-Instruct",
     "model_name": "Meta Llama 3.1 8B Instruct",
@@ -27051,11 +27489,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "sambanova/Meta-Llama-3.2-1B-Instruct": {
     "max_tokens": 16384,
@@ -27074,12 +27512,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/Meta-Llama-3.2-3B-Instruct": {
     "max_tokens": 4096,
@@ -27098,12 +27536,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/Meta-Llama-3.3-70B-Instruct": {
     "max_tokens": 131072,
@@ -27112,6 +27550,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 6e-7,
     "output_cost_per_token": 0.0000012,
     "supports_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "source": "https://cloud.sambanova.ai/plans/pricing",
     "model_id": "sambanova/Meta-Llama-3.3-70B-Instruct",
@@ -27124,11 +27563,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "sambanova/Meta-Llama-Guard-3-8B": {
     "max_tokens": 16384,
@@ -27147,12 +27586,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/Qwen2-Audio-7B-Instruct": {
     "max_tokens": 4096,
@@ -27172,12 +27611,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/Qwen3-32B": {
     "max_tokens": 8192,
@@ -27199,11 +27638,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "sambanova/QwQ-32B": {
     "max_tokens": 16384,
@@ -27222,12 +27661,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/claude-3-5-sonnet": {
     "supports_computer_use": true,
@@ -27246,12 +27685,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/deepseek-r1": {
     "max_tokens": 32768,
@@ -27270,12 +27709,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/gemma-7b": {
     "max_tokens": 8000,
@@ -27293,12 +27732,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/jamba-1.5-large": {
     "max_tokens": 256000,
@@ -27316,12 +27755,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/jamba-1.5-mini": {
     "max_tokens": 256000,
@@ -27339,12 +27778,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/jamba-instruct": {
     "max_tokens": 256000,
@@ -27362,12 +27801,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama2-70b-chat": {
     "max_tokens": 4096,
@@ -27385,12 +27824,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3-70b": {
     "max_tokens": 8000,
@@ -27408,12 +27847,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3-8b": {
     "max_tokens": 8000,
@@ -27431,12 +27870,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3.1-405b": {
     "max_tokens": 128000,
@@ -27454,12 +27893,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3.1-70b": {
     "max_tokens": 128000,
@@ -27477,12 +27916,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3.1-8b": {
     "max_tokens": 128000,
@@ -27500,12 +27939,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3.2-1b": {
     "max_tokens": 128000,
@@ -27523,12 +27962,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3.2-3b": {
     "max_tokens": 128000,
@@ -27546,12 +27985,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/llama3.3-70b": {
     "max_tokens": 128000,
@@ -27569,12 +28008,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/mistral-7b": {
     "max_tokens": 32000,
@@ -27592,12 +28031,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/mistral-large": {
     "max_tokens": 32000,
@@ -27615,12 +28054,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/mistral-large2": {
     "max_tokens": 128000,
@@ -27638,12 +28077,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/mixtral-8x7b": {
     "max_tokens": 32000,
@@ -27661,12 +28100,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/reka-core": {
     "max_tokens": 32000,
@@ -27684,12 +28123,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/reka-flash": {
     "max_tokens": 100000,
@@ -27707,12 +28146,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/snowflake-arctic": {
     "max_tokens": 4096,
@@ -27730,12 +28169,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/snowflake-llama-3.1-405b": {
     "max_tokens": 8000,
@@ -27753,12 +28192,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "snowflake/snowflake-llama-3.3-70b": {
     "max_tokens": 8000,
@@ -27776,12 +28215,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "babbage-002": {
     "max_tokens": 16384,
@@ -27799,12 +28238,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "davinci-002": {
     "max_tokens": 16384,
@@ -27822,12 +28261,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ft:babbage-002": {
     "max_tokens": 16384,
@@ -27847,12 +28286,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "ft:davinci-002": {
     "max_tokens": 16384,
@@ -27872,12 +28311,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-3.5-turbo-instruct": {
     "max_tokens": 4096,
@@ -27895,12 +28334,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gpt-3.5-turbo-instruct-0914": {
     "max_tokens": 4097,
@@ -27918,12 +28357,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "deepseek-ai/DeepSeek-R1": {
     "input_cost_per_token": 0.000003,
@@ -27932,6 +28371,7 @@ export const modelsMap: Record<string, Model> = {
     "max_input_tokens": 128000,
     "max_output_tokens": 20480,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "deepseek-ai/DeepSeek-R1",
     "model_name": "DeepSeek R1",
@@ -27943,11 +28383,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "deepseek-ai/DeepSeek-V3": {
     "input_cost_per_token": 0.00000125,
@@ -27956,6 +28396,7 @@ export const modelsMap: Record<string, Model> = {
     "max_input_tokens": 65536,
     "max_output_tokens": 8192,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "deepseek-ai/DeepSeek-V3",
     "model_name": "DeepSeek V3",
@@ -27967,14 +28408,15 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
     "model_name": "Llama 3.2 3B Instruct Turbo",
@@ -27990,16 +28432,18 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "meta-llama/Llama-3.3-70B-Instruct-Turbo": {
     "input_cost_per_token": 8.8e-7,
     "output_cost_per_token": 8.8e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
     "model_name": "Llama 3.3 70B Instruct Turbo",
@@ -28013,16 +28457,18 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free": {
     "input_cost_per_token": 0,
     "output_cost_per_token": 0,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
     "model_name": "Llama 3.3 70B Instruct Turbo Free",
@@ -28036,16 +28482,17 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
     "input_cost_per_token": 2.7e-7,
     "output_cost_per_token": 8.5e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
     "model_name": "Llama 4 Maverick 17B 128E Instruct FP8",
@@ -28059,16 +28506,17 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "meta-llama/Llama-4-Scout-17B-16E-Instruct": {
     "input_cost_per_token": 1.8e-7,
     "output_cost_per_token": 5.9e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
     "model_name": "Llama 4 Scout 17B 16E Instruct",
@@ -28082,16 +28530,17 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo": {
     "input_cost_per_token": 0.0000035,
     "output_cost_per_token": 0.0000035,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
     "model_name": "Meta Llama 3.1 405B Instruct Turbo",
@@ -28105,16 +28554,18 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo": {
     "input_cost_per_token": 8.8e-7,
     "output_cost_per_token": 8.8e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
     "model_name": "Meta Llama 3.1 70B Instruct Turbo",
@@ -28128,16 +28579,18 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo": {
     "input_cost_per_token": 1.8e-7,
     "output_cost_per_token": 1.8e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
     "model_name": "Meta Llama 3.1 8B Instruct Turbo",
@@ -28151,14 +28604,15 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "mistralai/Mistral-Small-24B-Instruct-2501": {
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "mistralai/Mistral-Small-24B-Instruct-2501",
     "model_name": "Mistral Small 24B Instruct 2501",
@@ -28174,17 +28628,18 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "moonshotai/Kimi-K2-Instruct": {
     "input_cost_per_token": 0.000001,
     "output_cost_per_token": 0.000003,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "source": "https://www.together.ai/models/kimi-k2-instruct",
     "model_id": "moonshotai/Kimi-K2-Instruct",
     "model_name": "Kimi K2 Instruct",
@@ -28198,14 +28653,15 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "Qwen/Qwen2.5-72B-Instruct-Turbo": {
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
     "model_name": "Qwen2.5 72B Instruct Turbo",
@@ -28221,14 +28677,15 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "Qwen/Qwen2.5-7B-Instruct-Turbo": {
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
     "model_name": "Qwen2.5 7B Instruct Turbo",
@@ -28244,11 +28701,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "together-ai-21.1b-41b": {
     "input_cost_per_token": 8e-7,
@@ -28265,12 +28722,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "together-ai-4.1b-8b": {
     "input_cost_per_token": 2e-7,
@@ -28287,12 +28744,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "together-ai-41.1b-80b": {
     "input_cost_per_token": 9e-7,
@@ -28309,12 +28766,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "together-ai-8.1b-21b": {
     "max_tokens": 1000,
@@ -28332,12 +28789,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "together-ai-81.1b-110b": {
     "input_cost_per_token": 0.0000018,
@@ -28354,12 +28811,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "together-ai-embedding-151m-to-350m": {
     "input_cost_per_token": 1.6e-8,
@@ -28376,12 +28833,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "together-ai-embedding-up-to-150m": {
     "input_cost_per_token": 8e-9,
@@ -28398,12 +28855,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "together-ai-up-to-4b": {
     "input_cost_per_token": 1e-7,
@@ -28420,15 +28877,16 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "togethercomputer/CodeLlama-34b-Instruct": {
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_tool_choice": true,
     "model_id": "togethercomputer/CodeLlama-34b-Instruct",
     "model_name": "CodeLlama 34b Instruct",
@@ -28444,11 +28902,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "v0/v0-1.0-md": {
     "max_tokens": 128000,
@@ -28457,6 +28915,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -28470,10 +28929,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "v0/v0-1.5-lg": {
     "max_tokens": 512000,
@@ -28482,6 +28941,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000015,
     "output_cost_per_token": 0.000075,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -28495,10 +28955,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "v0/v0-1.5-md": {
     "max_tokens": 128000,
@@ -28507,6 +28967,7 @@ export const modelsMap: Record<string, Model> = {
     "input_cost_per_token": 0.000003,
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "supports_vision": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
@@ -28520,10 +28981,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "chat-bison": {
     "max_tokens": 4096,
@@ -28545,12 +29006,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "chat-bison-32k": {
     "max_tokens": 8192,
@@ -28572,12 +29033,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "chat-bison-32k@002": {
     "max_tokens": 8192,
@@ -28599,12 +29060,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "chat-bison@001": {
     "max_tokens": 4096,
@@ -28626,12 +29087,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "chat-bison@002": {
     "max_tokens": 4096,
@@ -28654,11 +29115,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-5-haiku": {
     "max_tokens": 8192,
@@ -28680,11 +29141,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "claude-3-5-haiku@20241022": {
     "max_tokens": 8192,
@@ -28706,11 +29167,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "claude-3-5-sonnet": {
     "supports_computer_use": true,
@@ -28734,10 +29195,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-5-sonnet-v2": {
     "supports_computer_use": true,
@@ -28761,10 +29222,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-5-sonnet-v2@20241022": {
     "supports_computer_use": true,
@@ -28788,10 +29249,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-5-sonnet@20240620": {
     "max_tokens": 8192,
@@ -28814,10 +29275,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-7-sonnet@20250219": {
     "supports_computer_use": true,
@@ -28832,6 +29293,7 @@ export const modelsMap: Record<string, Model> = {
     "tool_use_system_prompt_tokens": 159,
     "supports_assistant_prefill": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "deprecation_date": "2025-06-01",
     "supports_reasoning": true,
     "supports_tool_choice": true,
@@ -28845,9 +29307,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": false,
-    "model_type": "chat"
+    "supports_parallel_functions": false
   },
   "claude-3-haiku": {
     "max_tokens": 4096,
@@ -28869,10 +29331,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-haiku@20240307": {
     "max_tokens": 4096,
@@ -28894,10 +29356,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-opus": {
     "max_tokens": 4096,
@@ -28919,10 +29381,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-opus@20240229": {
     "max_tokens": 4096,
@@ -28944,10 +29406,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-sonnet": {
     "max_tokens": 4096,
@@ -28969,10 +29431,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-3-sonnet@20240229": {
     "max_tokens": 4096,
@@ -28994,10 +29456,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "claude-opus-4": {
     "max_tokens": 32000,
@@ -29016,6 +29478,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -29029,10 +29492,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "claude-opus-4@20250514": {
     "max_tokens": 32000,
@@ -29051,6 +29514,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -29064,10 +29528,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 1.5,
     "cache_write_cost_per_token": 0.00001875,
     "cache_write_cost_per_million": 18.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "claude-sonnet-4": {
     "max_tokens": 64000,
@@ -29086,6 +29550,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -29099,10 +29564,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "claude-sonnet-4@20250514": {
     "max_tokens": 64000,
@@ -29121,6 +29586,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_assistant_prefill": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supports_computer_use": true,
@@ -29134,10 +29600,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3,
     "cache_write_cost_per_token": 0.00000375,
     "cache_write_cost_per_million": 3.75,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "code-bison": {
     "max_tokens": 1024,
@@ -29159,12 +29625,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-bison-32k@002": {
     "max_tokens": 1024,
@@ -29185,12 +29651,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-bison@001": {
     "max_tokens": 1024,
@@ -29211,12 +29677,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-bison@002": {
     "max_tokens": 1024,
@@ -29237,12 +29703,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-bison32k": {
     "max_tokens": 1024,
@@ -29263,12 +29729,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-gecko": {
     "max_tokens": 64,
@@ -29287,12 +29753,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-gecko-latest": {
     "max_tokens": 64,
@@ -29311,12 +29777,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-gecko@001": {
     "max_tokens": 64,
@@ -29335,12 +29801,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "code-gecko@002": {
     "max_tokens": 64,
@@ -29359,12 +29825,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codechat-bison": {
     "max_tokens": 1024,
@@ -29386,12 +29852,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codechat-bison-32k": {
     "max_tokens": 8192,
@@ -29413,12 +29879,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codechat-bison-32k@002": {
     "max_tokens": 8192,
@@ -29440,12 +29906,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codechat-bison@001": {
     "max_tokens": 1024,
@@ -29467,12 +29933,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codechat-bison@002": {
     "max_tokens": 1024,
@@ -29494,12 +29960,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codechat-bison@latest": {
     "max_tokens": 1024,
@@ -29521,12 +29987,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral-2501": {
     "max_tokens": 128000,
@@ -29546,11 +30012,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral@2405": {
     "max_tokens": 128000,
@@ -29570,11 +30036,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "codestral@latest": {
     "max_tokens": 128000,
@@ -29594,11 +30060,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gemini-1.0-pro": {
     "max_tokens": 8192,
@@ -29611,6 +30077,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000015,
     "output_cost_per_character": 3.75e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#google_models",
     "supports_tool_choice": true,
     "model_id": "gemini-1.0-pro",
@@ -29623,11 +30090,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-1.0-pro-001": {
     "max_tokens": 8192,
@@ -29643,6 +30110,7 @@ export const modelsMap: Record<string, Model> = {
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "deprecation_date": "2025-04-09",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.0-pro-001",
     "model_name": "Gemini 1.0 Pro 001",
     "provider_id": "vertex",
@@ -29653,10 +30121,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-1.0-pro-002": {
     "max_tokens": 8192,
@@ -29672,6 +30140,7 @@ export const modelsMap: Record<string, Model> = {
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "deprecation_date": "2025-04-09",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.0-pro-002",
     "model_name": "Gemini 1.0 Pro 002",
     "provider_id": "vertex",
@@ -29682,10 +30151,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-1.0-pro-vision": {
     "max_tokens": 2048,
@@ -29701,6 +30170,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.0-pro-vision",
     "model_name": "Gemini 1.0 Pro Vision",
     "provider_id": "vertex",
@@ -29711,10 +30181,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "gemini-1.0-pro-vision-001": {
     "max_tokens": 2048,
@@ -29731,6 +30201,7 @@ export const modelsMap: Record<string, Model> = {
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "deprecation_date": "2025-04-09",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.0-pro-vision-001",
     "model_name": "Gemini 1.0 Pro Vision 001",
     "provider_id": "vertex",
@@ -29741,9 +30212,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
+    "model_type": "chat",
     "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_json_mode": false
   },
   "gemini-1.0-ultra": {
     "max_tokens": 8192,
@@ -29758,6 +30229,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "source": "As of Jun, 2024. There is no available doc on vertex ai pricing gemini-1.0-ultra-001. Using gemini-1.0-pro pricing. Got max_tokens info here: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.0-ultra",
     "model_name": "Gemini 1.0 Ultra",
     "provider_id": "vertex",
@@ -29768,11 +30240,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-1.0-ultra-001": {
     "max_tokens": 8192,
@@ -29787,6 +30259,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "source": "As of Jun, 2024. There is no available doc on vertex ai pricing gemini-1.0-ultra-001. Using gemini-1.0-pro pricing. Got max_tokens info here: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.0-ultra-001",
     "model_name": "Gemini 1.0 Ultra 001",
     "provider_id": "vertex",
@@ -29797,11 +30270,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-1.5-flash": {
     "max_tokens": 8192,
@@ -29830,8 +30303,10 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-flash",
     "model_name": "Gemini 1.5 Flash",
     "provider_id": "vertex",
@@ -29842,10 +30317,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-1.5-flash-001": {
     "max_tokens": 8192,
@@ -29874,9 +30349,11 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "deprecation_date": "2025-05-24",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-flash-001",
     "model_name": "Gemini 1.5 Flash 001",
     "provider_id": "vertex",
@@ -29887,9 +30364,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "gemini-1.5-flash-002": {
     "max_tokens": 8192,
@@ -29918,9 +30395,11 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-1.5-flash",
     "deprecation_date": "2025-09-24",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-flash-002",
     "model_name": "Gemini 1.5 Flash 002",
     "provider_id": "vertex",
@@ -29931,9 +30410,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "gemini-1.5-flash-exp-0827": {
     "max_tokens": 8192,
@@ -29962,8 +30441,10 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-flash-exp-0827",
     "model_name": "Gemini 1.5 Flash Exp 0827",
     "provider_id": "vertex",
@@ -29974,10 +30455,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-1.5-flash-preview-0514": {
     "max_tokens": 8192,
@@ -30008,6 +30489,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-flash-preview-0514",
     "model_name": "Gemini 1.5 Flash Preview 0514",
     "provider_id": "vertex",
@@ -30018,10 +30500,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "gemini-1.5-pro": {
     "max_tokens": 8192,
@@ -30046,7 +30528,9 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-pro",
     "model_name": "Gemini 1.5 Pro",
     "provider_id": "vertex",
@@ -30057,10 +30541,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-1.5-pro-001": {
     "max_tokens": 8192,
@@ -30084,8 +30568,10 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "deprecation_date": "2025-05-24",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-pro-001",
     "model_name": "Gemini 1.5 Pro 001",
     "provider_id": "vertex",
@@ -30096,9 +30582,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "gemini-1.5-pro-002": {
     "max_tokens": 8192,
@@ -30122,8 +30608,10 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-1.5-pro",
     "deprecation_date": "2025-09-24",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-pro-002",
     "model_name": "Gemini 1.5 Pro 002",
     "provider_id": "vertex",
@@ -30134,9 +30622,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "gemini-1.5-pro-preview-0215": {
     "max_tokens": 8192,
@@ -30159,7 +30647,9 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-pro-preview-0215",
     "model_name": "Gemini 1.5 Pro Preview 0215",
     "provider_id": "vertex",
@@ -30170,11 +30660,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "gemini-1.5-pro-preview-0409": {
     "max_tokens": 8192,
@@ -30196,7 +30686,9 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_character_above_128k_tokens": 0.0000025,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-pro-preview-0409",
     "model_name": "Gemini 1.5 Pro Preview 0409",
     "provider_id": "vertex",
@@ -30207,11 +30699,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "gemini-1.5-pro-preview-0514": {
     "max_tokens": 8192,
@@ -30234,7 +30726,9 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-1.5-pro-preview-0514",
     "model_name": "Gemini 1.5 Pro Preview 0514",
     "provider_id": "vertex",
@@ -30245,11 +30739,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_vision": false
   },
   "gemini-2.0-flash": {
     "max_tokens": 8192,
@@ -30267,6 +30761,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_audio_input": true,
     "supported_modalities": [
@@ -30281,6 +30776,7 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_tool_choice": true,
     "source": "https://ai.google.dev/pricing#2_0flash",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "supports_prompt_caching": true,
@@ -30294,10 +30790,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.0-flash-001": {
     "max_tokens": 8192,
@@ -30315,6 +30811,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -30329,6 +30826,7 @@ export const modelsMap: Record<string, Model> = {
     ],
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
     "deprecation_date": "2026-02-05",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-flash-001",
@@ -30341,9 +30839,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.0375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "gemini-2.0-flash-exp": {
     "max_tokens": 8192,
@@ -30372,6 +30870,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supported_modalities": [
       "text",
@@ -30385,6 +30884,7 @@ export const modelsMap: Record<string, Model> = {
     ],
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-flash-exp",
@@ -30397,10 +30897,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.0375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.0-flash-lite": {
     "max_input_tokens": 1048576,
@@ -30417,6 +30917,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supported_modalities": [
       "text",
@@ -30429,6 +30930,7 @@ export const modelsMap: Record<string, Model> = {
     ],
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-flash-lite",
@@ -30441,10 +30943,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.01875,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.0-flash-lite-001": {
     "max_input_tokens": 1048576,
@@ -30461,6 +30963,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supported_modalities": [
       "text",
@@ -30474,6 +30977,7 @@ export const modelsMap: Record<string, Model> = {
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
     "supports_tool_choice": true,
     "deprecation_date": "2026-02-25",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-flash-lite-001",
@@ -30486,9 +30990,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.01875,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
     "supports_json_mode": true,
-    "supports_parallel_functions": true,
-    "model_type": "chat"
+    "supports_parallel_functions": true
   },
   "gemini-2.0-flash-live-preview-04-09": {
     "max_tokens": 65535,
@@ -30512,6 +31016,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_vision": true,
     "supports_reasoning": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -30543,10 +31048,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "gemini-2.0-flash-preview-image-generation": {
     "max_tokens": 8192,
@@ -30564,6 +31069,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supports_audio_input": true,
     "supported_modalities": [
@@ -30578,6 +31084,7 @@ export const modelsMap: Record<string, Model> = {
     ],
     "supports_tool_choice": true,
     "source": "https://ai.google.dev/pricing#2_0flash",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-flash-preview-image-generation",
@@ -30590,10 +31097,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.0-flash-thinking-exp": {
     "max_tokens": 8192,
@@ -30622,6 +31129,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": true,
     "supported_modalities": [
       "text",
@@ -30635,6 +31143,7 @@ export const modelsMap: Record<string, Model> = {
     ],
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-flash-thinking-exp",
@@ -30647,10 +31156,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.0-flash-thinking-exp-01-21": {
     "max_tokens": 65536,
@@ -30679,6 +31188,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": false,
     "supports_vision": true,
+    "supports_response_schema": false,
     "supports_audio_output": false,
     "supported_modalities": [
       "text",
@@ -30692,6 +31202,7 @@ export const modelsMap: Record<string, Model> = {
     ],
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-flash-thinking-exp-01-21",
@@ -30704,10 +31215,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": true
   },
   "gemini-2.0-pro-exp-02-05": {
     "max_tokens": 8192,
@@ -30729,6 +31240,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_audio_input": true,
     "supports_video_input": true,
     "supports_pdf_input": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -30744,6 +31256,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.0-pro-exp-02-05",
@@ -30756,10 +31269,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-flash": {
     "max_tokens": 65535,
@@ -30779,6 +31292,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -30796,6 +31310,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "supports_pdf_input": true,
@@ -30810,10 +31325,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-flash-lite": {
     "max_tokens": 65535,
@@ -30833,6 +31348,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -30850,6 +31366,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "supports_pdf_input": true,
@@ -30864,10 +31381,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-flash-lite-preview-06-17": {
     "max_tokens": 65535,
@@ -30887,6 +31404,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -30904,6 +31422,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "supports_pdf_input": true,
@@ -30918,10 +31437,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.024999999999999998,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-flash-preview-04-17": {
     "max_tokens": 65535,
@@ -30941,6 +31460,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -30958,6 +31478,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
@@ -30971,10 +31492,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.0375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-flash-preview-05-20": {
     "max_tokens": 65535,
@@ -30994,6 +31515,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -31011,6 +31533,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_url_context": true,
     "supports_pdf_input": true,
@@ -31025,10 +31548,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.075,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-pro": {
     "max_tokens": 65535,
@@ -31050,6 +31573,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_audio_input": true,
     "supports_video_input": true,
     "supports_pdf_input": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
     "supported_endpoints": [
@@ -31078,10 +31602,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "gemini-2.5-pro-exp-03-25": {
     "max_tokens": 65535,
@@ -31103,6 +31627,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_audio_input": true,
     "supports_video_input": true,
     "supports_pdf_input": true,
+    "supports_response_schema": true,
     "supports_tool_choice": true,
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -31118,6 +31643,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.5-pro-exp-03-25",
@@ -31130,10 +31656,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-pro-preview-03-25": {
     "max_tokens": 65535,
@@ -31154,6 +31680,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -31171,6 +31698,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
@@ -31184,10 +31712,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-pro-preview-05-06": {
     "max_tokens": 65535,
@@ -31208,6 +31736,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -31228,6 +31757,7 @@ export const modelsMap: Record<string, Model> = {
       "global"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
@@ -31241,10 +31771,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-pro-preview-06-05": {
     "max_tokens": 65535,
@@ -31265,6 +31795,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_endpoints": [
@@ -31282,6 +31813,7 @@ export const modelsMap: Record<string, Model> = {
       "text"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
@@ -31295,10 +31827,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-2.5-pro-preview-tts": {
     "max_tokens": 65535,
@@ -31318,6 +31850,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_system_messages": true,
     "supports_function_calling": true,
     "supports_vision": true,
+    "supports_response_schema": true,
     "supports_audio_output": false,
     "supports_tool_choice": true,
     "supported_modalities": [
@@ -31327,6 +31860,7 @@ export const modelsMap: Record<string, Model> = {
       "audio"
     ],
     "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview",
+    "supports_parallel_function_calling": true,
     "supports_web_search": true,
     "supports_prompt_caching": true,
     "model_id": "gemini-2.5-pro-preview-tts",
@@ -31339,10 +31873,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": 0.3125,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": true
   },
   "gemini-embedding-001": {
     "max_tokens": 2048,
@@ -31362,12 +31896,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "gemini-flash-experimental": {
     "max_tokens": 8192,
@@ -31380,6 +31914,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": false,
     "supports_tool_choice": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-flash-experimental",
     "model_name": "Gemini Flash Experimental",
     "provider_id": "vertex",
@@ -31390,11 +31925,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-pro": {
     "max_tokens": 8192,
@@ -31407,6 +31942,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0000015,
     "output_cost_per_character": 3.75e-7,
     "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
     "supports_tool_choice": true,
     "model_id": "gemini-pro",
@@ -31419,11 +31955,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-pro-experimental": {
     "max_tokens": 8192,
@@ -31436,6 +31972,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": false,
     "supports_tool_choice": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental",
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-pro-experimental",
     "model_name": "Gemini Pro Experimental",
     "provider_id": "vertex",
@@ -31446,11 +31983,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_vision": false,
+    "supports_json_mode": false
   },
   "gemini-pro-vision": {
     "max_tokens": 2048,
@@ -31466,6 +32003,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_vision": true,
     "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": true,
     "model_id": "gemini-pro-vision",
     "model_name": "Gemini Pro Vision",
     "provider_id": "vertex",
@@ -31476,10 +32014,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": true,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_parallel_functions": true,
+    "supports_json_mode": false
   },
   "imagegeneration@006": {
     "output_cost_per_image": 0.02,
@@ -31498,12 +32036,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "image",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "image",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "medlm-large": {
     "max_tokens": 1024,
@@ -31525,12 +32063,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "medlm-medium": {
     "max_tokens": 8192,
@@ -31552,12 +32090,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3.1-405b-instruct-maas": {
     "max_tokens": 128000,
@@ -31579,11 +32117,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3.1-70b-instruct-maas": {
     "max_tokens": 128000,
@@ -31605,11 +32143,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3.1-8b-instruct-maas": {
     "max_tokens": 128000,
@@ -31634,11 +32172,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-3.2-90b-vision-instruct-maas": {
     "max_tokens": 128000,
@@ -31663,11 +32201,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-4-maverick-17b-128e-instruct-maas": {
     "max_tokens": 1000000,
@@ -31696,11 +32234,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-4-maverick-17b-16e-instruct-maas": {
     "max_tokens": 1000000,
@@ -31729,11 +32267,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-4-scout-17b-128e-instruct-maas": {
     "max_tokens": 10000000,
@@ -31762,11 +32300,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama-4-scout-17b-16e-instruct-maas": {
     "max_tokens": 10000000,
@@ -31795,11 +32333,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama3-405b-instruct-maas": {
     "max_tokens": 32000,
@@ -31819,12 +32357,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama3-70b-instruct-maas": {
     "max_tokens": 32000,
@@ -31844,12 +32382,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "meta/llama3-8b-instruct-maas": {
     "max_tokens": 32000,
@@ -31869,12 +32407,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-large-2411": {
     "max_tokens": 8191,
@@ -31894,11 +32432,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-large@2407": {
     "max_tokens": 8191,
@@ -31918,11 +32456,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-large@2411-001": {
     "max_tokens": 8191,
@@ -31942,11 +32480,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-large@latest": {
     "max_tokens": 8191,
@@ -31966,11 +32504,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-nemo@2407": {
     "max_tokens": 128000,
@@ -31990,11 +32528,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-nemo@latest": {
     "max_tokens": 128000,
@@ -32014,11 +32552,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "mistral-small-2503": {
     "max_tokens": 128000,
@@ -32039,10 +32577,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "mistral-small-2503@001": {
     "max_tokens": 8191,
@@ -32062,11 +32600,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "multimodalembedding": {
     "max_tokens": 2048,
@@ -32099,12 +32637,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "multimodalembedding@001": {
     "max_tokens": 2048,
@@ -32137,12 +32675,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-bison": {
     "max_tokens": 2048,
@@ -32163,12 +32701,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-bison@001": {
     "max_tokens": 1024,
@@ -32189,12 +32727,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-bison@002": {
     "max_tokens": 1024,
@@ -32215,12 +32753,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-bison32k": {
     "max_tokens": 1024,
@@ -32241,12 +32779,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-bison32k@002": {
     "max_tokens": 1024,
@@ -32267,12 +32805,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-004": {
     "max_tokens": 2048,
@@ -32293,12 +32831,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-005": {
     "max_tokens": 2048,
@@ -32319,12 +32857,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-large-exp-03-07": {
     "max_tokens": 8192,
@@ -32345,12 +32883,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-embedding-preview-0409": {
     "max_tokens": 3072,
@@ -32371,12 +32909,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-multilingual-embedding-002": {
     "max_tokens": 2048,
@@ -32397,12 +32935,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-multilingual-embedding-preview-0409": {
     "max_tokens": 3072,
@@ -32422,12 +32960,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-unicorn": {
     "max_tokens": 1024,
@@ -32446,12 +32984,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "text-unicorn@001": {
     "max_tokens": 1024,
@@ -32470,12 +33008,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "completion",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "completion",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "textembedding-gecko": {
     "max_tokens": 3072,
@@ -32496,12 +33034,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "textembedding-gecko-multilingual": {
     "max_tokens": 3072,
@@ -32522,12 +33060,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "textembedding-gecko-multilingual@001": {
     "max_tokens": 3072,
@@ -32548,12 +33086,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "textembedding-gecko@001": {
     "max_tokens": 3072,
@@ -32574,12 +33112,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "textembedding-gecko@003": {
     "max_tokens": 3072,
@@ -32600,12 +33138,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "rerank-2": {
     "max_tokens": 16000,
@@ -32625,12 +33163,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "rerank-2-lite": {
     "max_tokens": 8000,
@@ -32650,12 +33188,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "rerank",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "rerank",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-2": {
     "max_tokens": 4000,
@@ -32673,12 +33211,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-3": {
     "max_tokens": 32000,
@@ -32696,12 +33234,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-3-large": {
     "max_tokens": 32000,
@@ -32719,12 +33257,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-3-lite": {
     "max_tokens": 32000,
@@ -32742,12 +33280,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-code-2": {
     "max_tokens": 16000,
@@ -32765,12 +33303,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-code-3": {
     "max_tokens": 32000,
@@ -32788,12 +33326,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-finance-2": {
     "max_tokens": 32000,
@@ -32811,12 +33349,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-large-2": {
     "max_tokens": 16000,
@@ -32834,12 +33372,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-law-2": {
     "max_tokens": 16000,
@@ -32857,12 +33395,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-lite-01": {
     "max_tokens": 4096,
@@ -32880,12 +33418,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-lite-02-instruct": {
     "max_tokens": 4000,
@@ -32903,12 +33441,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "voyage-multimodal-3": {
     "max_tokens": 32000,
@@ -32926,12 +33464,12 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "embedding",
+    "deprecation_date": null,
     "supports_function_calling": false,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "embedding",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "watsonx/ibm/granite-3-8b-instruct": {
     "max_tokens": 8192,
@@ -32941,10 +33479,12 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.0002,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": false,
     "supports_audio_input": false,
     "supports_audio_output": false,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_system_messages": true,
     "model_id": "watsonx/ibm/granite-3-8b-instruct",
     "model_name": "Granite 3 8b Instruct",
@@ -32956,10 +33496,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "watsonx/mistralai/mistral-large": {
     "max_tokens": 131072,
@@ -32969,10 +33509,12 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.00001,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_parallel_function_calling": false,
     "supports_vision": false,
     "supports_audio_input": false,
     "supports_audio_output": false,
     "supports_prompt_caching": true,
+    "supports_response_schema": true,
     "supports_system_messages": true,
     "model_id": "watsonx/mistralai/mistral-large",
     "model_name": "Mistral Large",
@@ -32984,10 +33526,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": true,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": true,
+    "supports_parallel_functions": false
   },
   "grok-2": {
     "max_tokens": 131072,
@@ -33008,11 +33550,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "grok-2-1212": {
     "max_tokens": 131072,
@@ -33033,11 +33575,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "grok-2-latest": {
     "max_tokens": 131072,
@@ -33058,11 +33600,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "grok-2-vision": {
     "max_tokens": 32768,
@@ -33085,10 +33627,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "grok-2-vision-1212": {
     "max_tokens": 32768,
@@ -33111,10 +33653,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "grok-2-vision-latest": {
     "max_tokens": 32768,
@@ -33137,10 +33679,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "grok-3": {
     "max_tokens": 131072,
@@ -33150,6 +33692,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3",
@@ -33162,11 +33705,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-beta": {
     "max_tokens": 131072,
@@ -33176,6 +33719,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-beta",
@@ -33188,11 +33732,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-fast-beta": {
     "max_tokens": 131072,
@@ -33202,6 +33746,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000025,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-fast-beta",
@@ -33214,11 +33759,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-fast-latest": {
     "max_tokens": 131072,
@@ -33228,6 +33773,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000025,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-fast-latest",
@@ -33240,11 +33786,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-latest": {
     "max_tokens": 131072,
@@ -33254,6 +33800,7 @@ export const modelsMap: Record<string, Model> = {
     "output_cost_per_token": 0.000015,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-latest",
@@ -33266,11 +33813,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-mini": {
     "max_tokens": 131072,
@@ -33281,6 +33828,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-mini",
@@ -33293,11 +33841,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-mini-beta": {
     "max_tokens": 131072,
@@ -33308,6 +33856,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-mini-beta",
@@ -33320,11 +33869,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-mini-fast": {
     "max_tokens": 131072,
@@ -33335,6 +33884,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-mini-fast",
@@ -33347,11 +33897,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-mini-fast-beta": {
     "max_tokens": 131072,
@@ -33362,6 +33912,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-mini-fast-beta",
@@ -33374,11 +33925,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-mini-fast-latest": {
     "max_tokens": 131072,
@@ -33389,6 +33940,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_reasoning": true,
     "supports_function_calling": true,
     "supports_tool_choice": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-mini-fast-latest",
@@ -33401,11 +33953,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-3-mini-latest": {
     "max_tokens": 131072,
@@ -33416,6 +33968,7 @@ export const modelsMap: Record<string, Model> = {
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true,
+    "supports_response_schema": false,
     "source": "https://x.ai/api#pricing",
     "supports_web_search": true,
     "model_id": "grok-3-mini-latest",
@@ -33428,11 +33981,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_vision": false,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_vision": false,
+    "supports_parallel_functions": false
   },
   "grok-4": {
     "max_tokens": 256000,
@@ -33455,11 +34008,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "grok-4-0709": {
     "max_tokens": 256000,
@@ -33482,11 +34035,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "grok-4-latest": {
     "max_tokens": 256000,
@@ -33509,11 +34062,11 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
+    "model_type": "chat",
+    "deprecation_date": null,
     "supports_vision": false,
     "supports_json_mode": false,
-    "supports_parallel_functions": false,
-    "model_type": "chat",
-    "deprecation_date": null
+    "supports_parallel_functions": false
   },
   "grok-beta": {
     "max_tokens": 131072,
@@ -33535,10 +34088,10 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   },
   "grok-vision-beta": {
     "max_tokens": 8192,
@@ -33561,9 +34114,9 @@ export const modelsMap: Record<string, Model> = {
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "supports_json_mode": false,
-    "supports_parallel_functions": false,
     "model_type": "chat",
-    "deprecation_date": null
+    "deprecation_date": null,
+    "supports_json_mode": false,
+    "supports_parallel_functions": false
   }
 } as const;

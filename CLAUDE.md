@@ -65,6 +65,16 @@ npm test -- path/to/test.spec.ts
 4. **Fill Nulls**: Use `?fill_with_zeros=true` to replace null numeric values with 0
 5. **Provider Normalization**: Script normalizes provider IDs (e.g., "gemini" → "google", "vertex_ai" → "vertex")
 
+### Design Principles
+
+**Flat Data Structure**: All model fields MUST remain at the root level - no nested objects. This ensures:
+- Easy CSV export without complex parsing
+- Direct field access for fast consumption
+- Simple filtering and projection
+- Compatibility with spreadsheet tools
+
+Example: Capabilities are stored as `supports_vision`, `supports_reasoning` etc. at the root level, NOT in a nested `capabilities` object.
+
 ### Model Schema Structure
 
 Models include:

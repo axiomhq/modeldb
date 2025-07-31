@@ -1,6 +1,10 @@
 import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
 import { objectsToCSV, safeParseQueryCSV } from './csv';
+import {
+  CAPABILITY_FRIENDLY_NAMES,
+  LEGACY_CAPABILITY_MAP,
+} from './data/capabilities';
 import { modelsList } from './data/list';
 import { modelsMap } from './data/map';
 import {
@@ -13,10 +17,43 @@ import {
   FillWithZerosSchema,
   FormatSchema,
   HeadersSchema,
+  type Model,
   ModelPartialSchema,
   PrettySchema,
   ProjectSchema,
 } from './schema';
+
+// Helper function to check if a model has a capability
+function modelHasCapability(model: Model, capability: string): boolean {
+  // Check legacy mapping first for backwards compatibility
+  const legacyProperty =
+    LEGACY_CAPABILITY_MAP[capability as keyof typeof LEGACY_CAPABILITY_MAP];
+  if (legacyProperty && model[legacyProperty as keyof typeof model] === true) {
+    return true;
+  }
+
+  // Check friendly name mapping (e.g., "reasoning" -> "supports_reasoning")
+  const fullCapabilityName =
+    CAPABILITY_FRIENDLY_NAMES[
+      capability as keyof typeof CAPABILITY_FRIENDLY_NAMES
+    ];
+  if (
+    fullCapabilityName &&
+    model[fullCapabilityName as keyof typeof model] === true
+  ) {
+    return true;
+  }
+
+  // Check direct capability name (e.g., "supports_reasoning")
+  if (
+    capability.startsWith('supports_') &&
+    model[capability as keyof typeof model] === true
+  ) {
+    return true;
+  }
+
+  return false;
+}
 
 export function registerModelsRoutes(app: OpenAPIHono) {
   const getModels = createRoute({
@@ -107,22 +144,9 @@ export function registerModelsRoutes(app: OpenAPIHono) {
 
     if (capabilityFilter.length > 0) {
       result = result.filter((model) => {
-        return capabilityFilter.every((capability) => {
-          // Map capability names to model properties
-          const capabilityMap: Record<string, keyof typeof model> = {
-            function_calling: 'supports_function_calling',
-            vision: 'supports_vision',
-            json_mode: 'supports_json_mode',
-            parallel_functions: 'supports_parallel_functions',
-          };
-
-          const modelProperty = capabilityMap[capability];
-          if (!modelProperty) {
-            return false; // Unknown capability
-          }
-
-          return model[modelProperty] === true;
-        });
+        return capabilityFilter.every((capability) =>
+          modelHasCapability(model, capability)
+        );
       });
     }
 

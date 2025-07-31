@@ -1,4 +1,5 @@
 // i started this and went too far, so we have to deal with it - njpatel
+import { ALL_CAPABILITIES } from './data/capabilities';
 import { modelsList } from './data/list';
 import { modelsMetadata } from './data/metadata';
 
@@ -42,10 +43,6 @@ function padHtml(
 
 function formatNumber(num: number): string {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-}
-
-function _formatCurrency(num: number): string {
-  return num === 0 ? 'Free' : `$${num.toFixed(num < 0.01 ? 4 : 2)}`;
 }
 
 function progressBar(value: number, max: number, width = 20): string {
@@ -168,14 +165,13 @@ function calculateStats() {
     }))
     .sort((a, b) => b.count - a.count);
 
-  const capabilities = {
-    function_calling: modelsList.filter((m) => m.supports_function_calling)
-      .length,
-    vision: modelsList.filter((m) => m.supports_vision).length,
-    json_mode: modelsList.filter((m) => m.supports_json_mode).length,
-    parallel_functions: modelsList.filter((m) => m.supports_parallel_functions)
-      .length,
-  };
+  // Dynamically calculate capabilities from ALL_CAPABILITIES
+  const capabilities: Record<string, number> = {};
+  for (const capability of ALL_CAPABILITIES) {
+    capabilities[capability] = modelsList.filter(
+      (m) => m[capability as keyof typeof m] === true
+    ).length;
+  }
 
   const deprecatedCount = modelsList.filter((m) => m.deprecation_date).length;
   const activeCount = totalModels - deprecatedCount;
@@ -423,7 +419,7 @@ ${asciiTable(
       width: 24,
       key: 'name',
       render: (v: unknown) =>
-        `<a href="/api/v1/models?capability=${v}&pretty" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v}</a>`,
+        `<a href="/api/v1/models?capability=${v}&pretty" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v.slice(0, 22)}</a>`,
     },
     {
       header: 'Count',
@@ -439,15 +435,10 @@ ${asciiTable(
         progressBar(row.count || 0, stats.totalModels, 23),
     },
   ],
-  [
-    { name: 'function_calling', count: stats.capabilities.function_calling },
-    { name: 'vision', count: stats.capabilities.vision },
-    { name: 'json_mode', count: stats.capabilities.json_mode },
-    {
-      name: 'parallel_functions',
-      count: stats.capabilities.parallel_functions,
-    },
-  ]
+  // Sort capabilities by count (descending) and show all
+  Object.entries(stats.capabilities)
+    .map(([name, count]) => ({ name: name.replace('supports_', ''), count }))
+    .sort((a, b) => b.count - a.count)
 )}
 </div>
 

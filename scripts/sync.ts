@@ -139,9 +139,34 @@ function getModelType(mode?: string): Model['model_type'] {
   }
 }
 
+// Discover all capability fields from LiteLLM models
+function discoverCapabilities(
+  litellmModels: Record<string, LiteLLMModel>
+): Set<string> {
+  const capabilities = new Set<string>();
+
+  for (const model of Object.values(litellmModels)) {
+    if (!model || typeof model !== 'object') {
+      continue;
+    }
+
+    for (const key of Object.keys(model)) {
+      if (
+        key.startsWith('supports_') &&
+        typeof model[key as keyof LiteLLMModel] === 'boolean'
+      ) {
+        capabilities.add(key);
+      }
+    }
+  }
+
+  return capabilities;
+}
+
 export function transformModel(
   litellmName: string,
-  litellmModel: LiteLLMModel
+  litellmModel: LiteLLMModel,
+  knownCapabilities?: Set<string>
 ): Model | null {
   const providerId = transformProviderId(litellmModel.litellm_provider);
   const modelId = transformModelId(litellmName, providerId);
@@ -181,13 +206,6 @@ export function transformModel(
       ? litellmModel.cache_creation_input_token_cost * 1_000_000
       : null,
 
-    // Capabilities
-    supports_function_calling: litellmModel.supports_function_calling ?? false,
-    supports_vision: litellmModel.supports_vision ?? false,
-    supports_json_mode: litellmModel.supports_response_schema ?? false,
-    supports_parallel_functions:
-      litellmModel.supports_parallel_function_calling ?? false,
-
     // Model type
     model_type: getModelType(litellmModel.mode),
 
@@ -195,14 +213,41 @@ export function transformModel(
     deprecation_date: litellmModel.deprecation_date || null,
   };
 
+  // Add all discovered capability fields at the root level
+  // These override any existing values from the spread
+  if (knownCapabilities) {
+    for (const capability of knownCapabilities) {
+      const value = litellmModel[capability as keyof LiteLLMModel];
+      if (typeof value === 'boolean') {
+        model[capability] = value;
+      }
+    }
+  }
+
+  // Map special cases for backward compatibility
+  // supports_json_mode maps from supports_response_schema
+  if (litellmModel.supports_response_schema !== undefined) {
+    model.supports_json_mode = litellmModel.supports_response_schema;
+  }
+  // supports_parallel_functions maps from supports_parallel_function_calling
+  if (litellmModel.supports_parallel_function_calling !== undefined) {
+    model.supports_parallel_functions =
+      litellmModel.supports_parallel_function_calling;
+  }
+
+  // Ensure legacy capabilities are present
+  model.supports_function_calling = model.supports_function_calling ?? false;
+  model.supports_vision = model.supports_vision ?? false;
+  model.supports_json_mode = model.supports_json_mode ?? false;
+  model.supports_parallel_functions =
+    model.supports_parallel_functions ?? false;
+
   // Remove the original litellm fields that we've transformed to avoid duplication
   const fieldsToOmit = [
     'litellm_provider',
     'mode',
     'cache_creation_input_token_cost',
     'cache_read_input_token_cost',
-    'supports_response_schema',
-    'supports_parallel_function_calling',
   ] as const;
 
   // Create a new object without the fields we want to omit
@@ -245,8 +290,36 @@ async function fetchModels(url: string): Promise<Record<string, LiteLLMModel>> {
   });
 }
 
+function generateCapabilitiesFile(capabilities: Set<string>): string {
+  const capabilitiesArray = Array.from(capabilities).sort();
+
+  // Generate friendly names by removing 'supports_' prefix
+  const friendlyNames: Record<string, string> = {};
+  for (const cap of capabilitiesArray) {
+    const friendly = cap.replace('supports_', '');
+    friendlyNames[friendly] = cap;
+  }
+
+  return `// Auto-generated file - do not edit manually
+// Generated at: ${new Date().toISOString()}
+
+export const ALL_CAPABILITIES = ${JSON.stringify(capabilitiesArray, null, 2)} as const;
+
+export const CAPABILITY_FRIENDLY_NAMES = ${JSON.stringify(friendlyNames, null, 2)} as const;
+
+export const LEGACY_CAPABILITY_MAP = {
+  function_calling: 'supports_function_calling',
+  vision: 'supports_vision',
+  json_mode: 'supports_json_mode',
+  parallel_functions: 'supports_parallel_functions',
+} as const;
+
+export type DiscoveredCapability = typeof ALL_CAPABILITIES[number];
+`;
+}
+
 function generateFileContent(
-  type: 'map' | 'list' | 'metadata' | 'providers',
+  type: 'map' | 'list' | 'metadata' | 'providers' | 'capabilities',
   data: any
 ): string {
   switch (type) {
@@ -269,6 +342,8 @@ export const modelsList: Models = ${JSON.stringify(data, null, 2)} as const;
 
 export const modelsByProvider: Providers = ${JSON.stringify(data, null, 2)} as const;
 `;
+    case 'capabilities':
+      return generateCapabilitiesFile(data);
     default:
       console.error(`Unsupported type: ${type}`);
       return '';
@@ -287,6 +362,8 @@ async function syncCommand(options: {
 
   const spinner = ora('Fetching models from LiteLLM...').start();
 
+  let allCapabilities: Set<string> = new Set();
+
   try {
     const litellmModels = await fetchModels(sourceUrl);
     spinner.succeed(
@@ -296,6 +373,20 @@ async function syncCommand(options: {
     );
 
     const timestamp = new Date().toISOString();
+
+    // Discover all capabilities from the models
+    const capabilitySpinner = ora('Discovering capabilities...').start();
+    try {
+      allCapabilities = discoverCapabilities(litellmModels);
+      capabilitySpinner.succeed(
+        chalk.green(`Discovered ${allCapabilities.size} capabilities`)
+      );
+    } catch (error) {
+      capabilitySpinner.fail(chalk.red('Failed to discover capabilities'));
+      console.error('Error:', error);
+      throw error;
+    }
+
     const transformedModels: Record<string, Model> = {};
     let successCount = 0;
     let failCount = 0;
@@ -304,7 +395,11 @@ async function syncCommand(options: {
 
     for (const [litellmName, litellmModel] of Object.entries(litellmModels)) {
       try {
-        const transformed = transformModel(litellmName, litellmModel);
+        const transformed = transformModel(
+          litellmName,
+          litellmModel,
+          allCapabilities
+        );
         if (transformed) {
           transformedModels[transformed.model_id] = transformed;
           successCount++;
@@ -493,6 +588,15 @@ async function syncCommand(options: {
       );
       fs.writeFileSync(providersPath, providersContent);
       console.log(chalk.green(`✓ Written to ${providersPath}`));
+
+      // Write capabilities.ts
+      const capabilitiesPath = path.join(dataDir, 'capabilities.ts');
+      const capabilitiesContent = generateFileContent(
+        'capabilities',
+        allCapabilities
+      );
+      fs.writeFileSync(capabilitiesPath, capabilitiesContent);
+      console.log(chalk.green(`✓ Written to ${capabilitiesPath}`));
     }
 
     if (options.summary) {

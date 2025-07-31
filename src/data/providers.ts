@@ -19,12 +19,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -42,12 +42,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -65,12 +65,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -89,12 +89,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -113,12 +113,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -137,12 +137,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -161,12 +161,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -185,12 +185,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -209,12 +209,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -233,12 +233,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -257,12 +257,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -281,12 +281,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "aleph": [
@@ -306,12 +306,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -329,12 +329,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -352,12 +352,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -375,12 +375,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -398,12 +398,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -421,12 +421,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "anthropic": [
@@ -447,6 +447,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-10-01",
       "supports_tool_choice": true,
       "supports_web_search": true,
@@ -460,9 +461,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.08,
       "cache_write_cost_per_token": 0.000001,
       "cache_write_cost_per_million": 1,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -481,6 +482,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-10-01",
       "supports_tool_choice": true,
       "supports_web_search": true,
@@ -494,9 +496,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.09999999999999999,
       "cache_write_cost_per_token": 0.00000125,
       "cache_write_cost_per_million": 1.25,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -510,6 +512,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-06-01",
       "supports_tool_choice": true,
       "model_id": "claude-3-5-sonnet-20240620",
@@ -522,9 +525,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -544,6 +547,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-10-01",
       "supports_tool_choice": true,
       "supports_web_search": true,
@@ -557,9 +561,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -579,6 +583,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-06-01",
       "supports_tool_choice": true,
       "supports_web_search": true,
@@ -592,9 +597,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -614,6 +619,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2026-02-01",
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -628,9 +634,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -650,6 +656,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-06-01",
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -663,9 +670,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -678,6 +685,7 @@ export const modelsByProvider: Providers = {
       "tool_use_system_prompt_tokens": 264,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-03-01",
       "supports_tool_choice": true,
       "model_id": "claude-3-haiku-20240307",
@@ -690,9 +698,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.03,
       "cache_write_cost_per_token": 3e-7,
       "cache_write_cost_per_million": 0.3,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -705,6 +713,7 @@ export const modelsByProvider: Providers = {
       "tool_use_system_prompt_tokens": 395,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-03-01",
       "supports_tool_choice": true,
       "model_id": "claude-3-opus-20240229",
@@ -717,9 +726,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -732,6 +741,7 @@ export const modelsByProvider: Providers = {
       "tool_use_system_prompt_tokens": 395,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-03-01",
       "supports_tool_choice": true,
       "model_id": "claude-3-opus-latest",
@@ -744,9 +754,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -765,6 +775,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -778,10 +789,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -800,6 +811,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -813,10 +825,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -835,6 +847,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -848,10 +861,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -870,6 +883,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -883,10 +897,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     }
   ],
   "anyscale": [
@@ -906,12 +920,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -930,12 +944,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -954,12 +968,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -977,12 +991,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1000,12 +1014,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1023,12 +1037,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1046,12 +1060,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -1070,12 +1084,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -1094,12 +1108,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -1119,11 +1133,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65536,
@@ -1143,11 +1157,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -1167,11 +1181,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "assemblyai": [
@@ -1192,12 +1206,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00010278,
@@ -1216,12 +1230,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "azure": [
@@ -1244,12 +1258,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 512,
@@ -1270,12 +1284,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1295,12 +1309,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1320,12 +1334,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1345,12 +1359,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -1371,12 +1385,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -1396,12 +1410,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -1422,11 +1436,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -1454,12 +1468,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -1469,6 +1483,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
       "supports_web_search": true,
       "model_id": "azure_ai/global/grok-3",
@@ -1481,11 +1496,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -1496,6 +1511,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": false,
       "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
       "supports_web_search": true,
       "model_id": "azure_ai/global/grok-3-mini",
@@ -1508,11 +1524,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -1522,6 +1538,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000165,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
       "supports_web_search": true,
       "model_id": "azure_ai/grok-3",
@@ -1534,11 +1551,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -1549,6 +1566,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": false,
       "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/",
       "supports_web_search": true,
       "model_id": "azure_ai/grok-3-mini",
@@ -1561,11 +1579,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -1584,12 +1602,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1608,12 +1626,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -1635,10 +1653,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -1660,10 +1678,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -1684,11 +1702,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -1710,10 +1728,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -1735,10 +1753,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -1757,12 +1775,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -1782,12 +1800,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -1807,12 +1825,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -1832,12 +1850,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1858,11 +1876,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -1882,11 +1900,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1907,11 +1925,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1932,11 +1950,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -1957,11 +1975,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -1981,11 +1999,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -2005,11 +2023,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -2030,10 +2048,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2054,11 +2072,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2079,11 +2097,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2104,11 +2122,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2129,11 +2147,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2154,11 +2172,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2179,11 +2197,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2204,11 +2222,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2229,11 +2247,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2254,11 +2272,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -2280,10 +2298,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2303,11 +2321,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2330,10 +2348,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -2351,12 +2369,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -2366,9 +2384,11 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000006,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supported_modalities": [
@@ -2391,10 +2411,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -2413,11 +2433,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -2436,6 +2456,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": false,
       "supports_system_messages": true,
@@ -2451,10 +2473,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -2463,6 +2485,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00000275,
       "output_cost_per_token": 0.000011,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -2476,10 +2500,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -2488,6 +2512,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00000275,
       "output_cost_per_token": 0.000011,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "azure/eu/gpt-4o-2024-11-20",
@@ -2500,10 +2526,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": 0.00000138,
       "cache_write_cost_per_million": 1.38,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -2512,6 +2538,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.65e-7,
       "output_cost_per_token": 6.6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -2525,10 +2553,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.083,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -2540,6 +2568,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00000264,
       "output_cost_per_audio_token": 0.000022,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -2554,11 +2583,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.33,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -2570,6 +2599,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000022,
       "output_cost_per_audio_token": 0.00022,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -2584,11 +2614,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.75,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -2608,6 +2638,7 @@ export const modelsByProvider: Providers = {
         "audio"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -2622,11 +2653,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.75,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -2635,6 +2666,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000165,
       "output_cost_per_token": 0.000066,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -2648,10 +2680,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 8.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 65536,
@@ -2662,6 +2694,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00000484,
       "output_cost_per_token_batches": 0.00000242,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_prompt_caching": true,
       "model_id": "azure/eu/o1-mini-2024-09-12",
@@ -2674,10 +2707,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.605,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -2686,6 +2719,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000165,
       "output_cost_per_token": 0.000066,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_prompt_caching": true,
       "model_id": "azure/eu/o1-preview-2024-09-12",
@@ -2698,10 +2732,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 8.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -2725,11 +2759,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.605,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -2738,6 +2772,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000025,
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -2752,9 +2788,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -2763,6 +2799,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000025,
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-12-20",
@@ -2776,9 +2814,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -2787,6 +2825,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.5e-7,
       "output_cost_per_token": 6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "azure/global-standard/gpt-4o-mini",
@@ -2799,10 +2839,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -2811,6 +2851,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000025,
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -2824,10 +2866,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -2836,6 +2878,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000025,
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -2849,10 +2893,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -2872,11 +2916,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2885,6 +2929,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-7,
       "output_cost_per_token": 0.0000015,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "deprecation_date": "2025-03-31",
       "supports_tool_choice": true,
       "model_id": "azure/gpt-3.5-turbo-0125",
@@ -2897,10 +2942,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4097,
@@ -2918,12 +2963,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2943,11 +2988,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -2956,6 +3001,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-7,
       "output_cost_per_token": 0.0000015,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "deprecation_date": "2025-05-31",
       "supports_tool_choice": true,
       "model_id": "azure/gpt-35-turbo-0125",
@@ -2968,10 +3014,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4097,
@@ -2980,6 +3026,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 0.000002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "deprecation_date": "2025-02-13",
       "supports_tool_choice": true,
       "model_id": "azure/gpt-35-turbo-0301",
@@ -2992,10 +3039,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4097,
@@ -3004,6 +3051,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000015,
       "output_cost_per_token": 0.000002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "deprecation_date": "2025-02-13",
       "supports_tool_choice": true,
       "model_id": "azure/gpt-35-turbo-0613",
@@ -3016,10 +3064,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -3028,6 +3076,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000001,
       "output_cost_per_token": 0.000002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "deprecation_date": "2025-03-31",
       "supports_tool_choice": true,
       "model_id": "azure/gpt-35-turbo-1106",
@@ -3040,10 +3089,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -3062,12 +3111,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -3087,11 +3136,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4097,
@@ -3109,12 +3158,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4097,
@@ -3132,12 +3181,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -3157,11 +3206,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -3170,6 +3219,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00001,
       "output_cost_per_token": 0.00003,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "azure/gpt-4-0125-preview",
       "model_name": "GPT 4 0125 Preview",
@@ -3181,11 +3231,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -3205,11 +3255,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -3218,6 +3268,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00001,
       "output_cost_per_token": 0.00003,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "azure/gpt-4-1106-preview",
       "model_name": "GPT 4 1106 Preview",
@@ -3229,11 +3280,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -3252,12 +3303,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -3276,12 +3327,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -3290,6 +3341,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00001,
       "output_cost_per_token": 0.00003,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "azure/gpt-4-turbo",
       "model_name": "GPT 4 Turbo",
@@ -3301,11 +3353,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -3314,6 +3366,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00001,
       "output_cost_per_token": 0.00003,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "azure/gpt-4-turbo-2024-04-09",
@@ -3326,10 +3379,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -3349,11 +3402,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -3376,6 +3429,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -3397,10 +3452,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -3423,6 +3478,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -3444,10 +3501,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -3470,6 +3527,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -3491,10 +3550,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.09999999999999999,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -3517,6 +3576,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -3538,10 +3599,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.09999999999999999,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -3564,6 +3625,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -3579,10 +3642,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -3605,6 +3668,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -3620,10 +3685,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -3634,6 +3699,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token_batches": 0.0000375,
       "output_cost_per_token_batches": 0.000075,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -3648,10 +3715,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 37.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -3660,6 +3727,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000025,
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -3673,10 +3742,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -3685,6 +3754,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000005,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -3698,10 +3768,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -3710,6 +3780,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000025,
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -3723,10 +3795,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -3735,6 +3807,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00000275,
       "output_cost_per_token": 0.000011,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -3748,10 +3822,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -3773,6 +3847,8 @@ export const modelsByProvider: Providers = {
         "audio"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": false,
       "supports_vision": false,
       "supports_prompt_caching": false,
       "supports_system_messages": true,
@@ -3789,10 +3865,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -3801,6 +3877,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.65e-7,
       "output_cost_per_token": 6.6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -3814,10 +3892,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -3826,6 +3904,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.65e-7,
       "output_cost_per_token": 6.6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -3839,10 +3919,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -3864,6 +3944,8 @@ export const modelsByProvider: Providers = {
         "audio"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": false,
       "supports_vision": false,
       "supports_prompt_caching": false,
       "supports_system_messages": true,
@@ -3880,10 +3962,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -3895,6 +3977,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000024,
       "output_cost_per_audio_token": 0.00002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -3909,11 +3992,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_input_tokens": 16000,
@@ -3934,12 +4017,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 0.0000025,
@@ -3968,12 +4051,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -3985,6 +4068,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00002,
       "output_cost_per_audio_token": 0.0002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -3999,11 +4083,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -4022,6 +4106,7 @@ export const modelsByProvider: Providers = {
         "audio"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -4036,11 +4121,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_input_tokens": 16000,
@@ -4061,12 +4146,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -4088,12 +4173,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 7.629e-8,
@@ -4111,12 +4196,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 6.539e-8,
@@ -4134,12 +4219,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 6.539e-8,
@@ -4157,12 +4242,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.59263611e-7,
@@ -4184,12 +4269,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.58945719e-7,
@@ -4211,12 +4296,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.58945719e-7,
@@ -4238,12 +4323,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.0490417e-8,
@@ -4265,12 +4350,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.0172526e-8,
@@ -4292,12 +4377,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.0172526e-8,
@@ -4319,12 +4404,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -4346,12 +4431,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -4373,12 +4458,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -4400,12 +4485,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -4424,11 +4509,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -4447,11 +4532,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4460,6 +4545,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.00006,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_reasoning": true,
       "supports_prompt_caching": true,
@@ -4474,10 +4560,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -4486,6 +4572,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.00006,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_reasoning": true,
       "supports_prompt_caching": true,
@@ -4500,10 +4587,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 65536,
@@ -4512,6 +4599,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00000121,
       "output_cost_per_token": 0.00000484,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_reasoning": true,
       "supports_prompt_caching": true,
@@ -4525,10 +4613,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.605,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 65536,
@@ -4537,6 +4625,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000011,
       "output_cost_per_token": 0.0000044,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_reasoning": true,
       "supports_prompt_caching": true,
@@ -4550,10 +4639,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.55,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -4562,6 +4651,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.00006,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_reasoning": true,
       "supports_prompt_caching": true,
@@ -4575,10 +4665,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -4588,6 +4678,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00006,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_reasoning": true,
       "supports_prompt_caching": true,
@@ -4601,10 +4692,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -4625,8 +4716,10 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "azure/o3",
@@ -4639,10 +4732,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4663,8 +4756,10 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "azure/o3-2025-04-16",
@@ -4677,10 +4772,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4702,6 +4797,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -4718,10 +4815,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 100000,
@@ -4732,6 +4829,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": false,
       "supports_prompt_caching": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "azure/o3-mini",
       "model_name": "O3 mini",
@@ -4743,11 +4841,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.55,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_function_calling": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_function_calling": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4769,11 +4867,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.55,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4796,8 +4894,10 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": false,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "azure/o3-pro",
@@ -4810,10 +4910,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4836,8 +4936,10 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": false,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "azure/o3-pro-2025-06-10",
@@ -4850,10 +4952,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4874,8 +4976,10 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "azure/o4-mini",
@@ -4888,10 +4992,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.275,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -4900,8 +5004,10 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000011,
       "output_cost_per_token": 0.0000044,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "azure/o4-mini-2025-04-16",
@@ -4914,10 +5020,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.275,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 0,
@@ -4935,12 +5041,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 3.81469e-8,
@@ -4958,12 +5064,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.359e-8,
@@ -4981,12 +5087,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.359e-8,
@@ -5004,12 +5110,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -5027,12 +5133,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -5050,12 +5156,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -5073,12 +5179,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_character": 0.000015,
@@ -5096,12 +5202,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_character": 0.00003,
@@ -5119,12 +5225,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -5133,6 +5239,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00000275,
       "output_cost_per_token": 0.000011,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -5146,10 +5254,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -5158,6 +5266,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00000275,
       "output_cost_per_token": 0.000011,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "azure/us/gpt-4o-2024-11-20",
@@ -5170,10 +5280,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": 0.00000138,
       "cache_write_cost_per_million": 1.38,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -5182,6 +5292,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.65e-7,
       "output_cost_per_token": 6.6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -5195,10 +5307,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.083,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -5210,6 +5322,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00000264,
       "output_cost_per_audio_token": 0.000022,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -5224,11 +5337,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.33,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -5240,6 +5353,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000022,
       "output_cost_per_audio_token": 0.00022,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -5254,11 +5368,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.75,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -5278,6 +5392,7 @@ export const modelsByProvider: Providers = {
         "audio"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -5292,11 +5407,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.75,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -5305,6 +5420,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000165,
       "output_cost_per_token": 0.000066,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
@@ -5318,10 +5434,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 8.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 65536,
@@ -5332,6 +5448,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00000484,
       "output_cost_per_token_batches": 0.00000242,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_prompt_caching": true,
       "model_id": "azure/us/o1-mini-2024-09-12",
@@ -5344,10 +5461,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.605,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -5356,6 +5473,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000165,
       "output_cost_per_token": 0.000066,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_prompt_caching": true,
       "model_id": "azure/us/o1-preview-2024-09-12",
@@ -5368,10 +5486,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 8.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -5395,11 +5513,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.605,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -5418,12 +5536,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -5442,6 +5560,8 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": false,
       "supports_system_messages": true,
@@ -5457,10 +5577,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     }
   ],
   "bedrock": [
@@ -5483,12 +5603,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -5509,12 +5629,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -5535,12 +5655,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -5561,12 +5681,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_input_tokens": 2600,
@@ -5584,12 +5704,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -5608,12 +5728,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -5632,12 +5752,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -5656,12 +5776,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -5680,12 +5800,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -5703,12 +5823,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -5726,12 +5846,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -5749,12 +5869,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -5772,12 +5892,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -5796,12 +5916,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -5813,6 +5933,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "amazon.nova-lite-v1:0",
       "model_name": "Amazon.nova Lite V1:0",
       "provider_id": "bedrock",
@@ -5823,10 +5944,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -5836,6 +5957,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 1.4e-7,
       "supports_function_calling": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "amazon.nova-micro-v1:0",
       "model_name": "Amazon.nova Micro V1:0",
       "provider_id": "bedrock",
@@ -5846,11 +5968,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -5862,6 +5984,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "amazon.nova-pro-v1:0",
       "model_name": "Amazon.nova Pro V1:0",
       "provider_id": "bedrock",
@@ -5872,10 +5995,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -5897,12 +6020,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128,
@@ -5928,12 +6051,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -5952,12 +6075,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -5976,12 +6099,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -5999,12 +6122,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4000,
@@ -6022,12 +6145,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -6045,12 +6168,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -6061,6 +6184,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "supports_tool_choice": true,
       "model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
@@ -6073,11 +6197,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.08,
       "cache_write_cost_per_token": 0.000001,
       "cache_write_cost_per_million": 1,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -6086,6 +6210,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -6099,10 +6224,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -6116,6 +6241,7 @@ export const modelsByProvider: Providers = {
       "supports_pdf_input": true,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
       "model_name": "Anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -6127,10 +6253,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -6143,6 +6269,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_pdf_input": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
@@ -6156,10 +6283,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -6168,6 +6295,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-7,
       "output_cost_per_token": 0.00000125,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -6181,10 +6309,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -6193,6 +6321,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.000075,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "anthropic.claude-3-opus-20240229-v1:0",
@@ -6205,10 +6334,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -6217,6 +6346,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -6230,10 +6360,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6252,12 +6382,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -6276,6 +6406,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -6289,10 +6420,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -6311,6 +6442,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -6324,10 +6456,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6345,12 +6477,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6369,12 +6501,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6393,12 +6525,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6419,12 +6551,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6444,12 +6576,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6470,12 +6602,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6496,12 +6628,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6522,12 +6654,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6547,12 +6679,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6573,12 +6705,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6599,12 +6731,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6623,12 +6755,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6647,12 +6779,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6671,12 +6803,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -6695,12 +6827,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -6718,12 +6850,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -6741,12 +6873,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -6758,6 +6890,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "apac.amazon.nova-lite-v1:0",
       "model_name": "Apac.amazon.nova Lite V1:0",
       "provider_id": "bedrock",
@@ -6768,10 +6901,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -6781,6 +6914,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 1.48e-7,
       "supports_function_calling": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "apac.amazon.nova-micro-v1:0",
       "model_name": "Apac.amazon.nova Micro V1:0",
       "provider_id": "bedrock",
@@ -6791,11 +6925,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -6807,6 +6941,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "apac.amazon.nova-pro-v1:0",
       "model_name": "Apac.amazon.nova Pro V1:0",
       "provider_id": "bedrock",
@@ -6817,10 +6952,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -6829,6 +6964,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -6842,10 +6978,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -6859,6 +6995,7 @@ export const modelsByProvider: Providers = {
       "supports_computer_use": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "apac.anthropic.claude-3-5-sonnet-20241022-v2:0",
       "model_name": "Apac.anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -6870,10 +7007,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -6882,6 +7019,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-7,
       "output_cost_per_token": 0.00000125,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -6895,10 +7033,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -6907,6 +7045,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -6920,10 +7059,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -6942,6 +7081,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -6955,10 +7095,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -6976,12 +7116,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -6999,12 +7139,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7023,12 +7163,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7047,12 +7187,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7071,12 +7211,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7095,12 +7235,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 512,
@@ -7119,12 +7259,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 512,
@@ -7143,12 +7283,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -7170,12 +7310,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7196,12 +7336,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7221,12 +7361,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7247,12 +7387,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7273,12 +7413,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7299,12 +7439,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7324,12 +7464,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7350,12 +7490,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7376,12 +7516,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7400,12 +7540,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7423,12 +7563,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7447,12 +7587,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7471,12 +7611,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -7494,12 +7634,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -7517,12 +7657,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -7540,12 +7680,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -7563,12 +7703,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7587,12 +7727,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7611,11 +7751,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -7634,12 +7774,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -7651,6 +7791,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "eu.amazon.nova-lite-v1:0",
       "model_name": "Eu.amazon.nova Lite V1:0",
       "provider_id": "bedrock",
@@ -7661,10 +7802,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -7674,6 +7815,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 1.84e-7,
       "supports_function_calling": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "eu.amazon.nova-micro-v1:0",
       "model_name": "Eu.amazon.nova Micro V1:0",
       "provider_id": "bedrock",
@@ -7684,11 +7826,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -7700,6 +7842,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "source": "https://aws.amazon.com/bedrock/pricing/",
       "model_id": "eu.amazon.nova-pro-v1:0",
       "model_name": "Eu.amazon.nova Pro V1:0",
@@ -7711,10 +7854,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -7726,6 +7869,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "eu.anthropic.claude-3-5-haiku-20241022-v1:0",
       "model_name": "Eu.anthropic.claude 3 5 Haiku 20241022 V1:0",
@@ -7737,11 +7881,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7750,6 +7894,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -7763,10 +7908,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -7780,6 +7925,7 @@ export const modelsByProvider: Providers = {
       "supports_pdf_input": true,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "eu.anthropic.claude-3-5-sonnet-20241022-v2:0",
       "model_name": "Eu.anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -7791,10 +7937,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -7807,6 +7953,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -7820,10 +7967,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7832,6 +7979,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-7,
       "output_cost_per_token": 0.00000125,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -7845,10 +7993,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7857,6 +8005,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.000075,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "eu.anthropic.claude-3-opus-20240229-v1:0",
@@ -7869,10 +8018,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -7881,6 +8030,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -7894,10 +8044,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -7916,6 +8066,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -7929,10 +8080,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -7951,6 +8102,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -7964,10 +8116,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -7987,11 +8139,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8011,11 +8163,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8035,11 +8187,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -8048,6 +8200,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "metadata": {
@@ -8063,10 +8216,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8085,12 +8238,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8109,12 +8262,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -8132,12 +8285,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -8155,12 +8308,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8180,11 +8333,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8204,11 +8357,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8228,11 +8381,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8253,10 +8406,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8276,11 +8429,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8300,11 +8453,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -8325,10 +8478,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -8348,11 +8501,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -8370,12 +8523,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -8393,12 +8546,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -8428,11 +8581,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -8462,11 +8615,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8485,12 +8638,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8509,11 +8662,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8533,11 +8686,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8556,11 +8709,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8579,12 +8732,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -8602,12 +8755,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -8625,12 +8778,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8649,12 +8802,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8673,12 +8826,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8697,12 +8850,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8721,12 +8874,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8745,12 +8898,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 77,
@@ -8769,12 +8922,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8795,12 +8948,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8820,12 +8973,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8846,12 +8999,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8872,12 +9025,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8898,12 +9051,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8923,12 +9076,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8949,12 +9102,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8975,12 +9128,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -8999,12 +9152,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9023,12 +9176,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9047,12 +9200,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9071,12 +9224,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9094,12 +9247,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9117,12 +9270,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9141,12 +9294,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9165,11 +9318,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9188,12 +9341,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -9205,6 +9358,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "us-gov-east-1/amazon.nova-pro-v1:0",
       "model_name": "Amazon.nova Pro V1:0",
       "provider_id": "bedrock",
@@ -9215,10 +9369,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9237,12 +9391,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9261,12 +9415,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -9284,12 +9438,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4000,
@@ -9307,12 +9461,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -9330,12 +9484,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9344,6 +9498,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000036,
       "output_cost_per_token": 0.000018,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -9357,10 +9512,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -9369,6 +9524,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 3e-7,
       "output_cost_per_token": 0.0000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -9382,10 +9538,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -9404,12 +9560,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -9428,12 +9584,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -9445,6 +9601,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "us-gov-west-1/amazon.nova-pro-v1:0",
       "model_name": "Amazon.nova Pro V1:0",
       "provider_id": "bedrock",
@@ -9455,10 +9612,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9477,12 +9634,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9501,12 +9658,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -9524,12 +9681,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4000,
@@ -9547,12 +9704,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -9570,12 +9727,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9584,6 +9741,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000036,
       "output_cost_per_token": 0.000018,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -9597,10 +9755,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -9609,6 +9767,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 3e-7,
       "output_cost_per_token": 0.0000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -9622,10 +9781,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -9644,12 +9803,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -9668,12 +9827,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9691,12 +9850,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -9714,12 +9873,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9740,12 +9899,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9765,12 +9924,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9791,12 +9950,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9817,12 +9976,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9843,12 +10002,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9868,12 +10027,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9894,12 +10053,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9920,12 +10079,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9944,12 +10103,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9968,12 +10127,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -9992,12 +10151,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -10016,12 +10175,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -10040,12 +10199,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -10064,11 +10223,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -10087,12 +10246,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -10104,6 +10263,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "us.amazon.nova-lite-v1:0",
       "model_name": "Us.amazon.nova Lite V1:0",
       "provider_id": "bedrock",
@@ -10114,10 +10274,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -10127,6 +10287,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 1.4e-7,
       "supports_function_calling": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "us.amazon.nova-micro-v1:0",
       "model_name": "Us.amazon.nova Micro V1:0",
       "provider_id": "bedrock",
@@ -10137,11 +10298,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -10153,6 +10314,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": false,
+      "supports_response_schema": true,
       "model_id": "us.amazon.nova-premier-v1:0",
       "model_name": "Us.amazon.nova Premier V1:0",
       "provider_id": "bedrock",
@@ -10163,10 +10325,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -10178,6 +10340,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "model_id": "us.amazon.nova-pro-v1:0",
       "model_name": "Us.amazon.nova Pro V1:0",
       "provider_id": "bedrock",
@@ -10188,10 +10351,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -10203,6 +10366,7 @@ export const modelsByProvider: Providers = {
       "supports_pdf_input": true,
       "supports_function_calling": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "us.anthropic.claude-3-5-haiku-20241022-v1:0",
       "model_name": "Us.anthropic.claude 3 5 Haiku 20241022 V1:0",
@@ -10214,11 +10378,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.08,
       "cache_write_cost_per_token": 0.000001,
       "cache_write_cost_per_million": 1,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10227,6 +10391,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -10240,10 +10405,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -10257,6 +10422,7 @@ export const modelsByProvider: Providers = {
       "supports_pdf_input": true,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
       "model_name": "Us.anthropic.claude 3 5 Sonnet 20241022 V2:0",
@@ -10268,10 +10434,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -10284,6 +10450,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -10297,10 +10464,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10309,6 +10476,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-7,
       "output_cost_per_token": 0.00000125,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -10322,10 +10490,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10334,6 +10502,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.000075,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "us.anthropic.claude-3-opus-20240229-v1:0",
@@ -10346,10 +10515,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10358,6 +10527,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_tool_choice": true,
@@ -10371,10 +10541,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -10393,6 +10563,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -10406,10 +10577,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -10428,6 +10599,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -10441,10 +10613,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10465,11 +10637,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10489,11 +10661,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10513,11 +10685,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10537,11 +10709,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10562,10 +10734,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10585,11 +10757,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10609,11 +10781,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10634,10 +10806,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10657,11 +10829,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10691,11 +10863,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10725,11 +10897,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10749,11 +10921,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "cerebras": [
@@ -10775,11 +10947,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10799,11 +10971,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10823,11 +10995,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -10848,11 +11020,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "cloudflare": [
@@ -10872,12 +11044,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -10895,12 +11067,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -10918,12 +11090,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -10941,12 +11113,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "cohere": [
@@ -10966,12 +11138,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -10991,11 +11163,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11014,12 +11186,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11037,12 +11209,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11062,11 +11234,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11086,11 +11258,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11110,11 +11282,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11134,11 +11306,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11159,11 +11331,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -11181,12 +11353,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -11204,12 +11376,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11227,12 +11399,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -11256,12 +11428,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 768,
@@ -11279,12 +11451,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -11303,12 +11475,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11328,12 +11500,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11353,12 +11525,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11378,12 +11550,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11403,12 +11575,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11428,12 +11600,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "dashscope": [
@@ -11457,11 +11629,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -11483,11 +11655,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -11509,11 +11681,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -11535,11 +11707,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "databricks": [
@@ -11566,12 +11738,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 200000,
@@ -11599,11 +11771,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -11628,12 +11800,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -11658,12 +11830,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11688,12 +11860,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -11718,12 +11890,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -11748,12 +11920,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -11778,12 +11950,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -11808,12 +11980,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -11838,12 +12010,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -11868,12 +12040,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -11898,12 +12070,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -11928,12 +12100,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "deepgram": [
@@ -11962,12 +12134,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00020833,
@@ -11994,12 +12166,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00020833,
@@ -12026,12 +12198,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00020833,
@@ -12058,12 +12230,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00020833,
@@ -12090,12 +12262,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00020833,
@@ -12122,12 +12294,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00020833,
@@ -12154,12 +12326,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00020833,
@@ -12186,12 +12358,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00024167,
@@ -12218,12 +12390,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00024167,
@@ -12250,12 +12422,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00024167,
@@ -12282,12 +12454,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00024167,
@@ -12314,12 +12486,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00024167,
@@ -12346,12 +12518,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12378,12 +12550,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12410,12 +12582,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12442,12 +12614,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12474,12 +12646,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12506,12 +12678,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12538,12 +12710,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12570,12 +12742,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12602,12 +12774,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12634,12 +12806,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12666,12 +12838,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12698,12 +12870,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12730,12 +12902,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12762,12 +12934,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12794,12 +12966,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00008667,
@@ -12826,12 +12998,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12858,12 +13030,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00007167,
@@ -12890,12 +13062,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -12921,12 +13093,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -12952,12 +13124,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -12983,12 +13155,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -13014,12 +13186,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -13045,12 +13217,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -13076,12 +13248,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "deepinfra": [
@@ -13101,12 +13273,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13125,12 +13297,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13148,12 +13320,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -13172,12 +13344,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -13196,12 +13368,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13220,12 +13392,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13243,12 +13415,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13267,12 +13439,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13291,12 +13463,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13315,12 +13487,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -13329,6 +13501,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 9e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
       "model_name": "Meta Llama 3.1 405B Instruct",
@@ -13340,11 +13513,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -13363,12 +13536,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13387,12 +13560,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "deepseek": [
@@ -13417,11 +13590,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.07,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -13444,11 +13617,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -13472,11 +13645,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -13500,11 +13673,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -13527,11 +13700,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.07,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "elevenlabs": [
@@ -13561,12 +13734,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0000611,
@@ -13594,12 +13767,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "featherless": [
@@ -13619,12 +13792,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -13642,12 +13815,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "fireworks": [
@@ -13658,6 +13831,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000012,
       "output_cost_per_token": 0.0000012,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-instruct",
@@ -13670,11 +13844,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 20480,
@@ -13682,6 +13856,7 @@ export const modelsByProvider: Providers = {
       "max_output_tokens": 20480,
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000008,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1",
@@ -13694,12 +13869,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 160000,
@@ -13709,6 +13884,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000008,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
+      "supports_response_schema": true,
       "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528",
       "model_name": "Deepseek R1 0528",
       "provider_id": "fireworks",
@@ -13719,12 +13895,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 20480,
@@ -13732,6 +13908,7 @@ export const modelsByProvider: Providers = {
       "max_output_tokens": 20480,
       "input_cost_per_token": 5.5e-7,
       "output_cost_per_token": 0.00000219,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-r1-basic",
@@ -13744,12 +13921,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -13757,6 +13934,7 @@ export const modelsByProvider: Providers = {
       "max_output_tokens": 8192,
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 9e-7,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-v3",
@@ -13769,12 +13947,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -13783,6 +13961,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": true,
       "model_id": "fireworks_ai/accounts/fireworks/models/firefunction-v2",
@@ -13795,11 +13974,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -13808,6 +13987,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 6e-7,
       "output_cost_per_token": 0.0000025,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "source": "https://fireworks.ai/models/fireworks/kimi-k2-instruct",
       "model_id": "fireworks_ai/accounts/fireworks/models/kimi-k2-instruct",
@@ -13820,11 +14000,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -13832,6 +14012,7 @@ export const modelsByProvider: Providers = {
       "max_output_tokens": 16384,
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000003,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": true,
       "supports_function_calling": true,
@@ -13845,11 +14026,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -13858,6 +14039,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1e-7,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct",
@@ -13870,11 +14052,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -13884,6 +14066,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 2e-7,
       "supports_function_calling": false,
       "supports_vision": true,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-11b-vision-instruct",
@@ -13896,10 +14079,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -13908,6 +14091,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1e-7,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-1b-instruct",
@@ -13920,11 +14104,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -13933,6 +14117,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1e-7,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-3b-instruct",
@@ -13945,11 +14130,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -13959,6 +14144,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 9e-7,
       "supports_tool_choice": false,
       "supports_vision": true,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "model_id": "fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct",
       "model_name": "Llama V3p2 90b Vision Instruct",
@@ -13970,11 +14156,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_function_calling": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_function_calling": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -13982,6 +14168,7 @@ export const modelsByProvider: Providers = {
       "max_output_tokens": 131072,
       "input_cost_per_token": 2.2e-7,
       "output_cost_per_token": 8.8e-7,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic",
@@ -13994,12 +14181,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -14007,6 +14194,7 @@ export const modelsByProvider: Providers = {
       "max_output_tokens": 131072,
       "input_cost_per_token": 1.5e-7,
       "output_cost_per_token": 6e-7,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/llama4-scout-instruct-basic",
@@ -14019,12 +14207,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65536,
@@ -14033,6 +14221,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000012,
       "output_cost_per_token": 0.0000012,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": true,
       "model_id": "fireworks_ai/accounts/fireworks/models/mixtral-8x22b-instruct-hf",
@@ -14045,11 +14234,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -14058,6 +14247,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 9e-7,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/qwen2-72b-instruct",
@@ -14070,11 +14260,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -14083,6 +14273,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 9e-7,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct",
@@ -14095,11 +14286,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -14108,6 +14299,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000003,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "source": "https://fireworks.ai/pricing",
       "supports_tool_choice": false,
       "model_id": "fireworks_ai/accounts/fireworks/models/yi-large",
@@ -14120,11 +14312,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14143,12 +14335,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14167,12 +14359,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 512,
@@ -14191,12 +14383,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 512,
@@ -14215,12 +14407,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 512,
@@ -14239,12 +14431,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 2e-7,
@@ -14261,12 +14453,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 0.0000012,
@@ -14283,12 +14475,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 9e-7,
@@ -14305,12 +14497,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 0,
@@ -14327,12 +14519,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 1.6e-8,
@@ -14349,12 +14541,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 8e-9,
@@ -14371,12 +14563,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 5e-7,
@@ -14393,12 +14585,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 2e-7,
@@ -14415,12 +14607,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "friendliai": [
@@ -14431,7 +14623,9 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 6e-7,
       "output_cost_per_token": 6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "friendliai/meta-llama-3.1-70b-instruct",
       "model_name": "Meta Llama 3.1 70b Instruct",
@@ -14443,11 +14637,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "max_tokens": 8192,
@@ -14456,7 +14650,9 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1e-7,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "friendliai/meta-llama-3.1-8b-instruct",
       "model_name": "Meta Llama 3.1 8b Instruct",
@@ -14468,11 +14664,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     }
   ],
   "google": [
@@ -14493,6 +14689,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 2000,
       "source": "https://ai.google.dev/pricing",
@@ -14507,10 +14704,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14529,6 +14726,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "tpm": 4000000,
       "rpm": 2000,
@@ -14545,9 +14743,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.01875,
       "cache_write_cost_per_token": 0.000001,
       "cache_write_cost_per_million": 1,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14566,6 +14764,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "tpm": 4000000,
       "rpm": 2000,
@@ -14582,9 +14781,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.01875,
       "cache_write_cost_per_token": 0.000001,
       "cache_write_cost_per_million": 1,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14603,6 +14802,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "tpm": 4000000,
       "rpm": 4000,
@@ -14618,10 +14818,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14640,6 +14840,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 4000,
       "source": "https://ai.google.dev/pricing",
@@ -14654,10 +14855,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14676,6 +14877,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "tpm": 4000000,
       "rpm": 4000,
@@ -14691,10 +14893,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14713,6 +14915,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 2000,
       "source": "https://ai.google.dev/pricing",
@@ -14727,10 +14930,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14749,6 +14952,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "tpm": 4000000,
       "rpm": 2000,
@@ -14764,10 +14968,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14781,6 +14985,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 1000,
       "source": "https://ai.google.dev/pricing",
@@ -14794,10 +14999,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14811,6 +15016,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "tpm": 4000000,
       "rpm": 1000,
@@ -14826,9 +15032,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14842,6 +15048,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "supports_prompt_caching": true,
       "tpm": 4000000,
       "rpm": 1000,
@@ -14857,9 +15064,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14873,6 +15080,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 1000,
       "source": "https://ai.google.dev/pricing",
@@ -14886,10 +15094,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14903,6 +15111,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 1000,
       "source": "https://ai.google.dev/pricing",
@@ -14916,10 +15125,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14933,6 +15142,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 1000,
       "source": "https://ai.google.dev/pricing",
@@ -14946,10 +15156,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -14969,6 +15179,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_audio_input": true,
       "supported_modalities": [
@@ -14996,10 +15207,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -15019,6 +15230,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -15044,10 +15256,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -15076,6 +15288,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "tpm": 4000000,
       "rpm": 10,
@@ -15103,10 +15316,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_input_tokens": 1048576,
@@ -15125,6 +15338,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -15149,10 +15363,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.01875,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -15172,6 +15386,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -15196,10 +15411,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.01875,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15223,6 +15438,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -15254,10 +15470,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -15277,6 +15493,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_audio_input": true,
       "supported_modalities": [
@@ -15303,10 +15520,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -15335,6 +15552,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "tpm": 4000000,
       "rpm": 10,
@@ -15362,10 +15580,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -15394,6 +15612,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "tpm": 4000000,
       "rpm": 10,
@@ -15421,10 +15640,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -15458,6 +15677,7 @@ export const modelsByProvider: Providers = {
       "supports_audio_input": true,
       "supports_video_input": true,
       "supports_pdf_input": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
       "supports_web_search": true,
@@ -15472,10 +15692,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15495,6 +15715,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -15512,6 +15733,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "tpm": 8000000,
@@ -15528,10 +15750,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -15553,6 +15775,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -15570,6 +15793,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "supports_pdf_input": true,
@@ -15584,10 +15808,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -15609,6 +15833,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -15626,6 +15851,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "supports_pdf_input": true,
@@ -15640,10 +15866,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -15665,6 +15891,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -15694,10 +15921,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.0375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15719,6 +15946,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -15749,10 +15977,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15774,6 +16002,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -15799,10 +16028,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.0375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15826,6 +16055,7 @@ export const modelsByProvider: Providers = {
       "supports_audio_input": true,
       "supports_video_input": true,
       "supports_pdf_input": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supported_endpoints": [
@@ -15854,10 +16084,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15881,6 +16111,7 @@ export const modelsByProvider: Providers = {
       "supports_audio_input": true,
       "supports_video_input": true,
       "supports_pdf_input": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
         "/v1/chat/completions",
@@ -15908,10 +16139,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15933,6 +16164,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -15958,10 +16190,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -15983,6 +16215,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -16009,10 +16242,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -16034,6 +16267,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -16060,10 +16294,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -16085,6 +16319,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -16106,10 +16341,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16129,6 +16364,7 @@ export const modelsByProvider: Providers = {
       "supports_tool_choice": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 1000,
       "source": "https://ai.google.dev/pricing",
@@ -16146,10 +16382,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16169,6 +16405,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "tpm": 4000000,
       "rpm": 1000,
       "source": "https://ai.google.dev/pricing",
@@ -16186,10 +16423,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16211,10 +16448,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16236,10 +16473,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16262,6 +16499,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "source": "https://aistudio.google.com",
       "supports_tool_choice": true,
@@ -16275,10 +16513,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "output_cost_per_image": 0.02,
@@ -16297,12 +16535,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "output_cost_per_image": 0.04,
@@ -16321,12 +16559,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "output_cost_per_image": 0.04,
@@ -16345,12 +16583,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "output_cost_per_image": 0.02,
@@ -16369,12 +16607,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "output_cost_per_image": 0.04,
@@ -16393,12 +16631,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "output_cost_per_image": 0.06,
@@ -16417,12 +16655,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16445,6 +16683,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "source": "https://aistudio.google.com",
       "supports_tool_choice": true,
@@ -16458,10 +16697,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16487,11 +16726,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -16518,10 +16757,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     }
   ],
   "groq": [
@@ -16532,6 +16771,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 7.5e-7,
       "output_cost_per_token": 9.9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "deepseek-r1-distill-llama-70b",
@@ -16544,11 +16784,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00000556,
@@ -16567,12 +16807,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16581,6 +16821,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 7e-8,
       "output_cost_per_token": 7e-8,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2024-12-18",
       "model_id": "gemma-7b-it",
@@ -16593,10 +16834,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16605,6 +16846,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 2e-7,
       "supports_function_calling": false,
+      "supports_response_schema": true,
       "supports_tool_choice": false,
       "model_id": "gemma2-9b-it",
       "model_name": "Gemma 2 9B",
@@ -16616,11 +16858,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16629,6 +16871,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5.9e-7,
       "output_cost_per_token": 7.9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "llama-3.1-405b-reasoning",
       "model_name": "Llama 3.1 405b Reasoning",
@@ -16640,11 +16883,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16653,6 +16896,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5.9e-7,
       "output_cost_per_token": 7.9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-01-24",
       "model_id": "llama-3.1-70b-versatile",
@@ -16665,10 +16909,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16677,6 +16921,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-8,
       "output_cost_per_token": 8e-8,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "llama-3.1-8b-instant",
       "model_name": "Llama 3.1 8b Instant",
@@ -16688,11 +16933,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16701,6 +16946,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.8e-7,
       "output_cost_per_token": 1.8e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2024-10-28",
       "model_id": "llama-3.2-11b-text-preview",
@@ -16713,10 +16959,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16725,6 +16971,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.8e-7,
       "output_cost_per_token": 1.8e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-04-14",
@@ -16738,9 +16985,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16749,6 +16996,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 4e-8,
       "output_cost_per_token": 4e-8,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-04-14",
       "model_id": "llama-3.2-1b-preview",
@@ -16761,10 +17009,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16773,6 +17021,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 6e-8,
       "output_cost_per_token": 6e-8,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-04-14",
       "model_id": "llama-3.2-3b-preview",
@@ -16785,10 +17034,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16797,6 +17046,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2024-11-25",
       "model_id": "llama-3.2-90b-text-preview",
@@ -16809,10 +17059,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16821,6 +17071,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-04-14",
@@ -16834,9 +17085,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16856,11 +17107,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -16869,6 +17120,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5.9e-7,
       "output_cost_per_token": 7.9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "llama-3.3-70b-versatile",
       "model_name": "Llama 3.3 70b Versatile",
@@ -16880,11 +17132,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16902,12 +17154,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -16916,6 +17168,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 7e-7,
       "output_cost_per_token": 8e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "llama2-70b-4096",
       "model_name": "Llama2 70b 4096",
@@ -16927,11 +17180,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16939,6 +17192,7 @@ export const modelsByProvider: Providers = {
       "max_output_tokens": 8192,
       "input_cost_per_token": 5.9e-7,
       "output_cost_per_token": 7.9e-7,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "llama3-70b-8192",
       "model_name": "Llama3 70b 8192",
@@ -16950,12 +17204,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16974,12 +17228,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -16988,6 +17242,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 8.9e-7,
       "output_cost_per_token": 8.9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-01-06",
       "model_id": "llama3-groq-70b-8192-tool-use-preview",
@@ -17000,10 +17255,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -17012,6 +17267,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.9e-7,
       "output_cost_per_token": 1.9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-01-06",
       "model_id": "llama3-groq-8b-8192-tool-use-preview",
@@ -17024,10 +17280,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -17036,6 +17292,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 6e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/llama-4-maverick-17b-128e-instruct",
       "model_name": "Llama 4 Maverick Instruct (17Bx128E)",
@@ -17047,11 +17304,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -17060,6 +17317,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.1e-7,
       "output_cost_per_token": 3.4e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
       "model_name": "Llama 4 Scout Instruct (17Bx16E)",
@@ -17071,11 +17329,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -17093,12 +17351,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -17107,6 +17365,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.4e-7,
       "output_cost_per_token": 2.4e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "deprecation_date": "2025-03-20",
       "model_id": "mixtral-8x7b-32768",
@@ -17119,10 +17378,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -17131,6 +17390,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000001,
       "output_cost_per_token": 0.000003,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "moonshotai/kimi-k2-instruct",
       "model_name": "Kimi K2 Instruct",
@@ -17142,11 +17402,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000,
@@ -17165,12 +17425,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131000,
@@ -17179,6 +17439,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.9e-7,
       "output_cost_per_token": 5.9e-7,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "qwen/qwen3-32b",
@@ -17191,11 +17452,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00003083,
@@ -17214,12 +17475,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.00001111,
@@ -17238,12 +17499,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "hyperbolic": [
@@ -17254,6 +17515,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 4e-7,
       "output_cost_per_token": 4e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/deepseek-ai/DeepSeek-R1",
@@ -17266,11 +17528,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17279,6 +17541,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-7,
       "output_cost_per_token": 2.5e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/deepseek-ai/DeepSeek-R1-0528",
@@ -17291,11 +17554,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17304,6 +17567,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 2e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/deepseek-ai/DeepSeek-V3",
@@ -17316,11 +17580,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17329,6 +17593,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 4e-7,
       "output_cost_per_token": 4e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/deepseek-ai/DeepSeek-V3-0324",
@@ -17341,11 +17606,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17354,6 +17619,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/meta-llama/Llama-3.2-3B-Instruct",
@@ -17366,11 +17632,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17379,6 +17645,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/meta-llama/Llama-3.3-70B-Instruct",
@@ -17391,11 +17658,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17404,6 +17671,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/meta-llama/Meta-Llama-3-70B-Instruct",
@@ -17416,11 +17684,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17429,6 +17697,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/meta-llama/Meta-Llama-3.1-405B-Instruct",
@@ -17441,11 +17710,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17454,6 +17723,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -17466,11 +17736,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17479,6 +17749,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -17491,11 +17762,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17504,6 +17775,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000002,
       "output_cost_per_token": 0.000002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/moonshotai/Kimi-K2-Instruct",
@@ -17516,11 +17788,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17529,6 +17801,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/NousResearch/Hermes-3-Llama-3.1-70B",
@@ -17541,11 +17814,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17554,6 +17827,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/Qwen/Qwen2.5-72B-Instruct",
@@ -17566,11 +17840,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -17579,6 +17853,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/Qwen/Qwen2.5-Coder-32B-Instruct",
@@ -17591,11 +17866,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17604,6 +17879,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000002,
       "output_cost_per_token": 0.000002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/Qwen/Qwen3-235B-A22B",
@@ -17616,11 +17892,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17629,6 +17905,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 2e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "hyperbolic/Qwen/QwQ-32B",
@@ -17641,11 +17918,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     }
   ],
   "jina": [
@@ -17666,12 +17943,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "lambda": [
@@ -17682,6 +17959,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -17695,11 +17973,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17708,6 +17986,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -17721,11 +18000,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17734,6 +18013,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 8e-7,
       "output_cost_per_token": 8e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -17747,11 +18027,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17760,6 +18040,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2e-7,
       "output_cost_per_token": 6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/deepseek-v3-0324",
@@ -17772,11 +18053,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17785,6 +18066,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 8e-7,
       "output_cost_per_token": 8e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/hermes3-405b",
@@ -17797,11 +18079,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17810,6 +18092,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/hermes3-70b",
@@ -17822,11 +18105,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17835,6 +18118,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-8,
       "output_cost_per_token": 4e-8,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/hermes3-8b",
@@ -17847,11 +18131,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17860,6 +18144,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1e-7,
       "output_cost_per_token": 2e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/lfm-40b",
@@ -17872,11 +18157,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17885,6 +18170,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-8,
       "output_cost_per_token": 4e-8,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/lfm-7b",
@@ -17897,11 +18183,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17910,6 +18196,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-8,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama-4-maverick-17b-128e-instruct-fp8",
@@ -17922,11 +18209,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -17935,6 +18222,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-8,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama-4-scout-17b-16e-instruct",
@@ -17947,11 +18235,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17960,6 +18248,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 8e-7,
       "output_cost_per_token": 8e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama3.1-405b-instruct-fp8",
@@ -17972,11 +18261,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -17985,6 +18274,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama3.1-70b-instruct-fp8",
@@ -17997,11 +18287,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -18010,6 +18300,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 2.5e-8,
       "output_cost_per_token": 4e-8,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama3.1-8b-instruct",
@@ -18022,11 +18313,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -18035,6 +18326,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama3.1-nemotron-70b-instruct-fp8",
@@ -18047,11 +18339,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -18060,6 +18352,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.5e-8,
       "output_cost_per_token": 2.5e-8,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -18073,10 +18366,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -18085,6 +18378,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.5e-8,
       "output_cost_per_token": 2.5e-8,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama3.2-3b-instruct",
@@ -18097,11 +18391,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -18110,6 +18404,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 1.2e-7,
       "output_cost_per_token": 3e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/llama3.3-70b-instruct-fp8",
@@ -18122,11 +18417,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -18135,6 +18430,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-8,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "model_id": "lambda_ai/qwen25-coder-32b-instruct",
@@ -18147,11 +18443,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 131072,
@@ -18160,6 +18456,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-8,
       "output_cost_per_token": 1e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
@@ -18173,11 +18470,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     }
   ],
   "meta": [
@@ -18206,11 +18503,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18237,11 +18534,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18269,11 +18566,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18301,11 +18598,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "mistral": [
@@ -18317,6 +18614,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000003,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "codestral-2405",
       "model_name": "Codestral 2405",
       "provider_id": "mistral",
@@ -18327,12 +18625,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18342,6 +18640,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000003,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "codestral-latest",
       "model_name": "Codestral",
       "provider_id": "mistral",
@@ -18352,12 +18651,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -18378,12 +18677,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18404,12 +18703,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18430,12 +18729,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18447,6 +18746,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "devstral-medium-2507",
       "model_name": "Devstral Medium 2507",
       "provider_id": "mistral",
@@ -18457,11 +18757,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18473,6 +18773,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "devstral-small-2505",
       "model_name": "Devstral Small 2505",
       "provider_id": "mistral",
@@ -18483,11 +18784,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18499,6 +18800,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "devstral-small-2507",
       "model_name": "Devstral Small 2507",
       "provider_id": "mistral",
@@ -18509,11 +18811,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 40000,
@@ -18526,6 +18828,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "model_id": "magistral-medium-2506",
       "model_name": "Magistral Medium 2506",
       "provider_id": "mistral",
@@ -18536,11 +18839,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 40000,
@@ -18553,6 +18856,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "model_id": "magistral-medium-latest",
       "model_name": "Magistral Medium Latest",
       "provider_id": "mistral",
@@ -18563,11 +18867,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 40000,
@@ -18580,6 +18884,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "model_id": "magistral-small-2506",
       "model_name": "Magistral Small 2506",
       "provider_id": "mistral",
@@ -18590,11 +18895,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 40000,
@@ -18607,6 +18912,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "model_id": "magistral-small-latest",
       "model_name": "Magistral Small Latest",
       "provider_id": "mistral",
@@ -18617,11 +18923,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -18639,12 +18945,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18655,6 +18961,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-large-2402",
       "model_name": "Mistral Large 2402",
       "provider_id": "mistral",
@@ -18665,11 +18972,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18680,6 +18987,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-large-2407",
       "model_name": "Mistral Large 2407",
       "provider_id": "mistral",
@@ -18690,11 +18998,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18705,6 +19013,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-large-latest",
       "model_name": "Mistral Large",
       "provider_id": "mistral",
@@ -18715,11 +19024,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18729,6 +19038,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000081,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-medium",
       "model_name": "Mistral Medium",
       "provider_id": "mistral",
@@ -18739,12 +19049,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18754,6 +19064,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000081,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-medium-2312",
       "model_name": "Mistral Medium 2312",
       "provider_id": "mistral",
@@ -18764,12 +19075,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18780,6 +19091,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-medium-2505",
       "model_name": "Mistral Medium 2505",
       "provider_id": "mistral",
@@ -18790,11 +19102,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18805,6 +19117,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-medium-latest",
       "model_name": "Mistral Medium 3",
       "provider_id": "mistral",
@@ -18815,11 +19128,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18830,6 +19143,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-small",
       "model_name": "Mistral Small",
       "provider_id": "mistral",
@@ -18840,11 +19154,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18855,6 +19169,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-small-latest",
       "model_name": "Mistral Small",
       "provider_id": "mistral",
@@ -18865,11 +19180,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18879,6 +19194,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 2.5e-7,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "mistral-tiny",
       "model_name": "Mistral Tiny",
       "provider_id": "mistral",
@@ -18889,12 +19205,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -18915,12 +19231,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -18930,6 +19246,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 2.5e-7,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "open-mistral-7b",
       "model_name": "Open Mistral 7b",
       "provider_id": "mistral",
@@ -18940,12 +19257,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18956,6 +19273,7 @@ export const modelsByProvider: Providers = {
       "source": "https://mistral.ai/technology/",
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "open-mistral-nemo",
       "model_name": "Mistral NeMo",
       "provider_id": "mistral",
@@ -18966,12 +19284,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -18982,6 +19300,7 @@ export const modelsByProvider: Providers = {
       "source": "https://mistral.ai/technology/",
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "open-mistral-nemo-2407",
       "model_name": "Open Mistral Nemo 2407",
       "provider_id": "mistral",
@@ -18992,12 +19311,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
+      "supports_json_mode": true,
       "supports_function_calling": false,
       "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -19008,6 +19327,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "open-mixtral-8x22b",
       "model_name": "Mixtral 8x22B",
       "provider_id": "mistral",
@@ -19018,11 +19338,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -19033,6 +19353,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_assistant_prefill": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "open-mixtral-8x7b",
       "model_name": "Open Mixtral 8x7b",
       "provider_id": "mistral",
@@ -19043,11 +19364,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -19059,6 +19380,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "pixtral-12b-2409",
       "model_name": "Pixtral 12B",
       "provider_id": "mistral",
@@ -19069,10 +19391,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -19084,6 +19406,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "pixtral-large-2411",
       "model_name": "Pixtral Large 2411",
       "provider_id": "mistral",
@@ -19094,10 +19417,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -19109,6 +19432,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_vision": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "model_id": "pixtral-large-latest",
       "model_name": "Pixtral Large",
       "provider_id": "mistral",
@@ -19119,10 +19443,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -19141,12 +19465,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -19165,12 +19489,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "moonshot": [
@@ -19194,11 +19518,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.15,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -19220,10 +19544,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.15,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -19245,10 +19569,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.15,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -19270,10 +19594,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.15,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -19295,10 +19619,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.15,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -19318,11 +19642,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -19343,11 +19667,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -19368,11 +19692,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -19394,10 +19718,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -19418,11 +19742,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -19443,11 +19767,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -19469,10 +19793,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -19493,11 +19817,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -19518,11 +19842,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -19544,10 +19868,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -19568,11 +19892,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "morph": [
@@ -19583,6 +19907,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 8e-7,
       "output_cost_per_token": 0.0000012,
       "supports_function_calling": false,
+      "supports_parallel_function_calling": false,
       "supports_vision": false,
       "supports_system_messages": true,
       "supports_tool_choice": false,
@@ -19596,10 +19921,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16000,
@@ -19608,6 +19933,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 9e-7,
       "output_cost_per_token": 0.0000019,
       "supports_function_calling": false,
+      "supports_parallel_function_calling": false,
       "supports_vision": false,
       "supports_system_messages": true,
       "supports_tool_choice": false,
@@ -19621,10 +19947,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": false,
+      "supports_json_mode": false
     }
   ],
   "nlp": [
@@ -19644,12 +19970,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -19667,12 +19993,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "nscale": [
@@ -19697,12 +20023,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 3.75e-7,
@@ -19723,12 +20049,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 2.5e-8,
@@ -19749,12 +20075,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 9e-8,
@@ -19775,12 +20101,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 7e-8,
@@ -19801,12 +20127,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 1.5e-7,
@@ -19827,12 +20153,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 2e-7,
@@ -19853,12 +20179,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 3e-8,
@@ -19879,12 +20205,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 2e-7,
@@ -19905,12 +20231,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 9e-8,
@@ -19928,12 +20254,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 6e-7,
@@ -19954,12 +20280,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 6e-8,
@@ -19977,12 +20303,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 1e-8,
@@ -20000,12 +20326,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 1e-8,
@@ -20023,12 +20349,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 1.8e-7,
@@ -20046,12 +20372,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 3e-9,
@@ -20074,12 +20400,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "ollama": [
@@ -20100,11 +20426,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20122,12 +20448,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20145,12 +20471,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20169,11 +20495,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -20192,11 +20518,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20215,11 +20541,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -20238,11 +20564,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -20261,11 +20587,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20283,12 +20609,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20306,12 +20632,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20329,12 +20655,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20352,12 +20678,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20375,12 +20701,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20398,12 +20724,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20421,12 +20747,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20444,12 +20770,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -20468,11 +20794,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20491,11 +20817,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -20514,11 +20840,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -20537,11 +20863,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65536,
@@ -20560,11 +20886,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65536,
@@ -20583,11 +20909,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -20606,11 +20932,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20628,12 +20954,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -20651,12 +20977,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "openai": [
@@ -20677,12 +21003,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 2.4414e-7,
@@ -20701,12 +21027,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 6.86e-8,
@@ -20725,12 +21051,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20740,6 +21066,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000015,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -20754,10 +21081,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -20767,9 +21094,11 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000006,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supported_modalities": [
@@ -20792,10 +21121,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -20817,12 +21146,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20842,12 +21171,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20867,12 +21196,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20892,12 +21221,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -20919,11 +21248,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -20935,6 +21264,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.0000075,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -20948,10 +21279,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -20961,6 +21292,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000015,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -20975,10 +21308,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": 0.000001875,
       "cache_write_cost_per_million": 1.875,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -20989,6 +21322,8 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token_batches": 1.5e-7,
       "output_cost_per_token_batches": 6e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -21004,10 +21339,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.15,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4097,
@@ -21029,11 +21364,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16385,
@@ -21042,6 +21377,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 5e-7,
       "output_cost_per_token": 0.0000015,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -21055,11 +21391,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4097,
@@ -21080,12 +21416,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4097,
@@ -21107,11 +21443,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16385,
@@ -21120,6 +21456,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000001,
       "output_cost_per_token": 0.000002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -21133,11 +21470,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16385,
@@ -21158,12 +21495,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16385,
@@ -21184,12 +21521,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21211,11 +21548,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21224,6 +21561,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00001,
       "output_cost_per_token": 0.00003,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -21237,11 +21575,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -21262,12 +21600,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21290,10 +21628,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21302,6 +21640,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.00001,
       "output_cost_per_token": 0.00003,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -21315,11 +21654,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -21343,10 +21682,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21367,12 +21706,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21393,12 +21732,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21419,12 +21758,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -21434,6 +21773,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00003,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21448,10 +21788,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -21461,6 +21801,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00003,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21475,10 +21816,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -21488,6 +21829,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00003,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -21501,11 +21843,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -21529,10 +21871,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -21556,6 +21898,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21571,10 +21915,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -21598,6 +21942,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21613,10 +21959,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -21640,6 +21986,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21655,10 +22003,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.09999999999999999,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -21682,6 +22030,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21697,10 +22047,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.09999999999999999,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -21724,6 +22074,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21739,10 +22091,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -21766,6 +22118,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21781,10 +22135,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -21796,6 +22150,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.000075,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21810,10 +22166,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 37.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -21825,6 +22181,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.000075,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21840,9 +22198,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 37.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -21854,6 +22212,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.000005,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21868,10 +22228,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 4096,
@@ -21883,6 +22243,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.0000075,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21897,10 +22258,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -21912,6 +22273,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.000005,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21926,10 +22289,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -21941,6 +22304,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.000005,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -21955,10 +22320,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -21969,6 +22334,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00001,
       "output_cost_per_audio_token": 0.0002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -21983,11 +22349,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -21998,6 +22364,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00001,
       "output_cost_per_audio_token": 0.0002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22012,11 +22379,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -22027,6 +22394,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00001,
       "output_cost_per_audio_token": 0.00008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22041,11 +22409,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -22056,6 +22424,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00001,
       "output_cost_per_audio_token": 0.00008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22070,11 +22439,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -22086,6 +22455,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 3e-7,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -22100,10 +22471,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -22115,6 +22486,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 3e-7,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -22134,10 +22507,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -22148,6 +22521,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 6e-7,
       "output_cost_per_audio_token": 0.00002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22162,11 +22536,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -22177,6 +22551,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 6e-7,
       "output_cost_per_audio_token": 0.00002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22191,11 +22566,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -22207,6 +22582,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000024,
       "output_cost_per_audio_token": 0.00002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22221,11 +22597,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -22237,6 +22613,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000024,
       "output_cost_per_audio_token": 0.00002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22251,11 +22628,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -22267,6 +22644,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 3e-7,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -22287,10 +22666,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -22302,6 +22681,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 3e-7,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -22316,10 +22697,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_input_tokens": 16000,
@@ -22340,12 +22721,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 0.0000025,
@@ -22374,12 +22755,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -22390,6 +22771,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00002,
       "output_cost_per_audio_token": 0.00008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22404,11 +22786,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -22420,6 +22802,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00002,
       "output_cost_per_audio_token": 0.0002,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22434,11 +22817,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -22449,6 +22832,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00002,
       "output_cost_per_audio_token": 0.00008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22463,11 +22847,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -22478,6 +22862,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00002,
       "output_cost_per_audio_token": 0.00008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_audio_input": true,
       "supports_audio_output": true,
       "supports_system_messages": true,
@@ -22492,11 +22877,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 16384,
@@ -22508,6 +22893,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.000005,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -22528,10 +22915,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 16384,
@@ -22543,6 +22930,8 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.000005,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -22557,10 +22946,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.25,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_input_tokens": 16000,
@@ -22581,12 +22970,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -22608,12 +22997,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 7.629e-8,
@@ -22632,12 +23021,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 6.539e-8,
@@ -22656,12 +23045,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 6.539e-8,
@@ -22680,12 +23069,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.59263611e-7,
@@ -22707,12 +23096,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.58945719e-7,
@@ -22734,12 +23123,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.58945719e-7,
@@ -22761,12 +23150,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.0490417e-8,
@@ -22788,12 +23177,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.0172526e-8,
@@ -22815,12 +23204,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 1.0172526e-8,
@@ -22842,12 +23231,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -22869,12 +23258,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -22896,12 +23285,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.0054321e-8,
@@ -22923,12 +23312,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -22937,10 +23326,12 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.00006,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "o1",
@@ -22953,10 +23344,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 100000,
@@ -22966,9 +23357,11 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00006,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "o1-2024-12-17",
@@ -22981,10 +23374,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65536,
@@ -23005,11 +23398,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.55,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65536,
@@ -23031,11 +23424,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -23057,11 +23450,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -23083,11 +23476,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23099,9 +23492,11 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.0003,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_native_streaming": false,
       "supports_reasoning": true,
@@ -23126,10 +23521,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 100000,
@@ -23141,9 +23536,11 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.0003,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_native_streaming": false,
       "supports_reasoning": true,
@@ -23168,10 +23565,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 100000,
@@ -23180,9 +23577,11 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000002,
       "output_cost_per_token": 0.000008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -23208,10 +23607,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23220,9 +23619,11 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000002,
       "output_cost_per_token": 0.000008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -23248,10 +23649,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23275,6 +23676,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -23290,10 +23693,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 100000,
@@ -23317,6 +23720,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -23332,10 +23737,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 2.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 100000,
@@ -23344,8 +23749,10 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000011,
       "output_cost_per_token": 0.0000044,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": false,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "o3-mini",
@@ -23358,10 +23765,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.55,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23370,8 +23777,10 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000011,
       "output_cost_per_token": 0.0000044,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": false,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "o3-mini-2025-01-31",
@@ -23384,10 +23793,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.55,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23398,9 +23807,11 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.00004,
       "output_cost_per_token": 0.00008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -23424,10 +23835,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23438,9 +23849,11 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token_batches": 0.00004,
       "output_cost_per_token": 0.00008,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -23464,10 +23877,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23477,8 +23890,10 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000044,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "o4-mini",
@@ -23491,10 +23906,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.275,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23504,8 +23919,10 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000044,
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_reasoning": true,
       "supports_tool_choice": true,
       "model_id": "o4-mini-2025-04-16",
@@ -23518,10 +23935,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.275,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -23545,6 +23962,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -23560,10 +23979,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 100000,
@@ -23587,6 +24006,8 @@ export const modelsByProvider: Providers = {
       ],
       "supports_pdf_input": true,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
@@ -23602,10 +24023,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 32768,
@@ -23623,12 +24044,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "moderation",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "moderation",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -23646,12 +24067,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "moderation",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "moderation",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -23669,12 +24090,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "moderation",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "moderation",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 3.81469e-8,
@@ -23693,12 +24114,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.359e-8,
@@ -23717,12 +24138,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_pixel": 4.359e-8,
@@ -23741,12 +24162,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -23767,12 +24188,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -23793,12 +24214,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -23817,12 +24238,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -23842,12 +24263,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -23865,12 +24286,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "moderation",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "moderation",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -23888,12 +24309,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "moderation",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "moderation",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -23911,12 +24332,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "moderation",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "moderation",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_character": 0.000015,
@@ -23937,12 +24358,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_character": 0.00003,
@@ -23963,12 +24384,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_second": 0.0001,
@@ -23990,12 +24411,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "audio",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "audio",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "openrouter": [
@@ -24016,12 +24437,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 200000,
@@ -24041,11 +24462,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24066,11 +24487,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 200000,
@@ -24092,10 +24513,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -24117,10 +24538,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -24142,10 +24563,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 200000,
@@ -24167,10 +24588,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -24194,10 +24615,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -24220,10 +24641,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -24249,10 +24670,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -24277,10 +24698,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -24299,12 +24720,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -24330,10 +24751,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -24353,12 +24774,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32769,
@@ -24377,12 +24798,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -24401,12 +24822,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -24425,12 +24846,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24450,12 +24871,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24475,12 +24896,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24504,11 +24925,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24532,11 +24953,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -24555,12 +24976,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24578,6 +24999,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_tool_choice": true,
       "model_id": "openrouter/google/gemini-2.0-flash-001",
@@ -24590,10 +25012,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24611,6 +25033,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_tool_choice": true,
       "model_id": "openrouter/google/gemini-2.5-flash",
@@ -24623,10 +25046,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24644,6 +25067,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_tool_choice": true,
       "model_id": "openrouter/google/gemini-2.5-pro",
@@ -24656,10 +25080,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24681,10 +25105,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 45875,
@@ -24706,10 +25130,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 25804,
@@ -24728,12 +25152,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 20070,
@@ -24752,12 +25176,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24776,12 +25200,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -24800,12 +25224,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -24824,12 +25248,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24848,12 +25272,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -24872,12 +25296,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -24896,12 +25320,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24920,12 +25344,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24944,12 +25368,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -24968,12 +25392,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -24992,12 +25416,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65536,
@@ -25016,12 +25440,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -25040,12 +25464,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -25064,12 +25488,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -25088,12 +25512,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -25112,12 +25536,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -25136,12 +25560,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65536,
@@ -25160,12 +25584,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -25184,12 +25608,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4095,
@@ -25208,12 +25632,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16383,
@@ -25232,12 +25656,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -25256,12 +25680,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 130000,
@@ -25283,10 +25707,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -25295,6 +25719,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.0000025,
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/gpt-4o",
@@ -25307,10 +25732,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -25319,6 +25744,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000005,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/gpt-4o-2024-05-13",
@@ -25331,10 +25757,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 100000,
@@ -25343,9 +25769,11 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.00006,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_prompt_caching": true,
       "supports_system_messages": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/o1",
       "model_name": "O1",
@@ -25357,10 +25785,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 7.5,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65536,
@@ -25369,6 +25797,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000012,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/o1-mini",
@@ -25381,10 +25810,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 65536,
@@ -25393,6 +25822,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000012,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/o1-mini-2024-09-12",
@@ -25405,10 +25835,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -25417,6 +25847,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.00006,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/o1-preview",
@@ -25429,10 +25860,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 32768,
@@ -25441,6 +25872,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.00006,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/o1-preview-2024-09-12",
@@ -25453,10 +25885,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 65536,
@@ -25466,6 +25898,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000044,
       "supports_function_calling": true,
       "supports_reasoning": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/o3-mini",
@@ -25478,10 +25911,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 65536,
@@ -25491,6 +25924,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000044,
       "supports_function_calling": true,
       "supports_reasoning": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": false,
       "supports_tool_choice": true,
       "model_id": "openrouter/openai/o3-mini-high",
@@ -25503,10 +25937,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 4096,
@@ -25525,12 +25959,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 33792,
@@ -25549,12 +25983,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -25573,12 +26007,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1000000,
@@ -25598,12 +26032,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -25623,12 +26057,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 6144,
@@ -25647,12 +26081,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -25675,11 +26109,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "palm": [
@@ -25700,12 +26134,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -25724,12 +26158,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -25748,12 +26182,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -25772,12 +26206,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -25796,12 +26230,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -25820,12 +26254,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "perplexity": [
@@ -25845,12 +26279,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -25868,12 +26302,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -25891,12 +26325,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -25914,12 +26348,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -25937,12 +26371,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 127072,
@@ -25961,11 +26395,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -25984,11 +26418,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 127072,
@@ -26007,11 +26441,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -26030,11 +26464,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 127072,
@@ -26053,11 +26487,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26075,12 +26509,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26098,12 +26532,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26121,12 +26555,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26145,12 +26579,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -26168,12 +26602,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26192,12 +26626,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -26221,12 +26655,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -26253,12 +26687,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -26276,12 +26710,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 12000,
@@ -26300,12 +26734,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -26329,12 +26763,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -26359,12 +26793,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -26389,12 +26823,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -26412,12 +26846,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 12000,
@@ -26436,12 +26870,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "recraft": [
@@ -26465,12 +26899,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "output_cost_per_image": 0.04,
@@ -26492,12 +26926,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "replicate": [
@@ -26518,12 +26952,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26542,12 +26976,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26566,12 +27000,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26590,12 +27024,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26614,12 +27048,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26638,12 +27072,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -26662,12 +27096,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -26686,12 +27120,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8086,
@@ -26710,12 +27144,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8086,
@@ -26734,12 +27168,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26758,12 +27192,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26782,12 +27216,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26806,12 +27240,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "sagemaker": [
@@ -26831,12 +27265,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26854,12 +27288,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26877,12 +27311,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26900,12 +27334,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26923,12 +27357,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -26946,12 +27380,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "sambanova": [
@@ -26972,12 +27406,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -26996,12 +27430,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -27023,11 +27457,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -27037,6 +27471,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000018,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "supports_vision": true,
       "source": "https://cloud.sambanova.ai/plans/pricing",
       "metadata": {
@@ -27052,10 +27487,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -27065,6 +27500,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 7e-7,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.sambanova.ai/plans/pricing",
       "metadata": {
         "notes": "For vision models, images are converted to 6432 input tokens and are billed at that amount"
@@ -27079,11 +27515,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27093,6 +27529,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.sambanova.ai/plans/pricing",
       "model_id": "sambanova/Meta-Llama-3.1-405B-Instruct",
       "model_name": "Meta Llama 3.1 405B Instruct",
@@ -27104,11 +27541,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27118,6 +27555,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 2e-7,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.sambanova.ai/plans/pricing",
       "model_id": "sambanova/Meta-Llama-3.1-8B-Instruct",
       "model_name": "Meta Llama 3.1 8B Instruct",
@@ -27129,11 +27567,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27152,12 +27590,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -27176,12 +27614,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -27190,6 +27628,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 6e-7,
       "output_cost_per_token": 0.0000012,
       "supports_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "source": "https://cloud.sambanova.ai/plans/pricing",
       "model_id": "sambanova/Meta-Llama-3.3-70B-Instruct",
@@ -27202,11 +27641,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27225,12 +27664,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -27250,12 +27689,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -27277,11 +27716,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27300,12 +27739,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "snowflake": [
@@ -27326,12 +27765,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -27350,12 +27789,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -27373,12 +27812,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -27396,12 +27835,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -27419,12 +27858,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -27442,12 +27881,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -27465,12 +27904,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -27488,12 +27927,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -27511,12 +27950,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -27534,12 +27973,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -27557,12 +27996,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -27580,12 +28019,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -27603,12 +28042,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -27626,12 +28065,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -27649,12 +28088,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -27672,12 +28111,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -27695,12 +28134,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -27718,12 +28157,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -27741,12 +28180,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -27764,12 +28203,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 100000,
@@ -27787,12 +28226,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -27810,12 +28249,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -27833,12 +28272,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -27856,12 +28295,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "text-completion-openai": [
@@ -27881,12 +28320,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27904,12 +28343,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27929,12 +28368,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16384,
@@ -27954,12 +28393,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -27977,12 +28416,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4097,
@@ -28000,12 +28439,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "together": [
@@ -28016,6 +28455,7 @@ export const modelsByProvider: Providers = {
       "max_input_tokens": 128000,
       "max_output_tokens": 20480,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "deepseek-ai/DeepSeek-R1",
       "model_name": "DeepSeek R1",
@@ -28027,11 +28467,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "input_cost_per_token": 0.00000125,
@@ -28040,6 +28480,7 @@ export const modelsByProvider: Providers = {
       "max_input_tokens": 65536,
       "max_output_tokens": 8192,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "deepseek-ai/DeepSeek-V3",
       "model_name": "DeepSeek V3",
@@ -28051,14 +28492,15 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
       "model_name": "Llama 3.2 3B Instruct Turbo",
@@ -28074,16 +28516,18 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "input_cost_per_token": 8.8e-7,
       "output_cost_per_token": 8.8e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
       "model_name": "Llama 3.3 70B Instruct Turbo",
@@ -28097,16 +28541,18 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "input_cost_per_token": 0,
       "output_cost_per_token": 0,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
       "model_name": "Llama 3.3 70B Instruct Turbo Free",
@@ -28120,16 +28566,17 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "input_cost_per_token": 2.7e-7,
       "output_cost_per_token": 8.5e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
       "model_name": "Llama 4 Maverick 17B 128E Instruct FP8",
@@ -28143,16 +28590,17 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "input_cost_per_token": 1.8e-7,
       "output_cost_per_token": 5.9e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
       "model_name": "Llama 4 Scout 17B 16E Instruct",
@@ -28166,16 +28614,17 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "input_cost_per_token": 0.0000035,
       "output_cost_per_token": 0.0000035,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
       "model_name": "Meta Llama 3.1 405B Instruct Turbo",
@@ -28189,16 +28638,18 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "input_cost_per_token": 8.8e-7,
       "output_cost_per_token": 8.8e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
       "model_name": "Meta Llama 3.1 70B Instruct Turbo",
@@ -28212,16 +28663,18 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "input_cost_per_token": 1.8e-7,
       "output_cost_per_token": 1.8e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
       "model_name": "Meta Llama 3.1 8B Instruct Turbo",
@@ -28235,14 +28688,15 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "mistralai/Mistral-Small-24B-Instruct-2501",
       "model_name": "Mistral Small 24B Instruct 2501",
@@ -28258,17 +28712,18 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "input_cost_per_token": 0.000001,
       "output_cost_per_token": 0.000003,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "source": "https://www.together.ai/models/kimi-k2-instruct",
       "model_id": "moonshotai/Kimi-K2-Instruct",
       "model_name": "Kimi K2 Instruct",
@@ -28282,14 +28737,15 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
       "model_name": "Qwen2.5 72B Instruct Turbo",
@@ -28305,14 +28761,15 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
       "model_name": "Qwen2.5 7B Instruct Turbo",
@@ -28328,11 +28785,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "input_cost_per_token": 8e-7,
@@ -28349,12 +28806,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 2e-7,
@@ -28371,12 +28828,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 9e-7,
@@ -28393,12 +28850,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1000,
@@ -28416,12 +28873,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 0.0000018,
@@ -28438,12 +28895,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 1.6e-8,
@@ -28460,12 +28917,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 8e-9,
@@ -28482,12 +28939,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "input_cost_per_token": 1e-7,
@@ -28504,15 +28961,16 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_tool_choice": true,
       "model_id": "togethercomputer/CodeLlama-34b-Instruct",
       "model_name": "CodeLlama 34b Instruct",
@@ -28528,11 +28986,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     }
   ],
   "v0": [
@@ -28543,6 +29001,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -28556,10 +29015,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 512000,
@@ -28568,6 +29027,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000015,
       "output_cost_per_token": 0.000075,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -28581,10 +29041,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 128000,
@@ -28593,6 +29053,7 @@ export const modelsByProvider: Providers = {
       "input_cost_per_token": 0.000003,
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "supports_vision": true,
       "supports_system_messages": true,
       "supports_tool_choice": true,
@@ -28606,10 +29067,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     }
   ],
   "vertex": [
@@ -28633,12 +29094,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -28660,12 +29121,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -28687,12 +29148,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -28714,12 +29175,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -28742,11 +29203,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -28768,11 +29229,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -28794,11 +29255,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -28822,10 +29283,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -28849,10 +29310,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -28876,10 +29337,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -28902,10 +29363,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "supports_computer_use": true,
@@ -28920,6 +29381,7 @@ export const modelsByProvider: Providers = {
       "tool_use_system_prompt_tokens": 159,
       "supports_assistant_prefill": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "deprecation_date": "2025-06-01",
       "supports_reasoning": true,
       "supports_tool_choice": true,
@@ -28933,9 +29395,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": false,
-      "model_type": "chat"
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -28957,10 +29419,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -28982,10 +29444,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -29007,10 +29469,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -29032,10 +29494,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -29057,10 +29519,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -29082,10 +29544,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -29104,6 +29566,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -29117,10 +29580,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -29139,6 +29602,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -29152,10 +29616,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 1.5,
       "cache_write_cost_per_token": 0.00001875,
       "cache_write_cost_per_million": 18.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -29174,6 +29638,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -29187,10 +29652,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64000,
@@ -29209,6 +29674,7 @@ export const modelsByProvider: Providers = {
       "supports_assistant_prefill": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supports_computer_use": true,
@@ -29222,10 +29688,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3,
       "cache_write_cost_per_token": 0.00000375,
       "cache_write_cost_per_million": 3.75,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29247,12 +29713,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29273,12 +29739,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29299,12 +29765,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29325,12 +29791,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29351,12 +29817,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64,
@@ -29375,12 +29841,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64,
@@ -29399,12 +29865,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64,
@@ -29423,12 +29889,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 64,
@@ -29447,12 +29913,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29474,12 +29940,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -29501,12 +29967,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -29528,12 +29994,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29555,12 +30021,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29582,12 +30048,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -29609,12 +30075,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -29634,11 +30100,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -29658,11 +30124,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -29682,11 +30148,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -29699,6 +30165,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000015,
       "output_cost_per_character": 3.75e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#google_models",
       "supports_tool_choice": true,
       "model_id": "gemini-1.0-pro",
@@ -29711,11 +30178,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -29731,6 +30198,7 @@ export const modelsByProvider: Providers = {
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "deprecation_date": "2025-04-09",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.0-pro-001",
       "model_name": "Gemini 1.0 Pro 001",
       "provider_id": "vertex",
@@ -29741,10 +30209,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -29760,6 +30228,7 @@ export const modelsByProvider: Providers = {
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "deprecation_date": "2025-04-09",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.0-pro-002",
       "model_name": "Gemini 1.0 Pro 002",
       "provider_id": "vertex",
@@ -29770,10 +30239,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 2048,
@@ -29789,6 +30258,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.0-pro-vision",
       "model_name": "Gemini 1.0 Pro Vision",
       "provider_id": "vertex",
@@ -29799,10 +30269,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 2048,
@@ -29819,6 +30289,7 @@ export const modelsByProvider: Providers = {
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "deprecation_date": "2025-04-09",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.0-pro-vision-001",
       "model_name": "Gemini 1.0 Pro Vision 001",
       "provider_id": "vertex",
@@ -29829,9 +30300,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
+      "model_type": "chat",
       "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -29846,6 +30317,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "source": "As of Jun, 2024. There is no available doc on vertex ai pricing gemini-1.0-ultra-001. Using gemini-1.0-pro pricing. Got max_tokens info here: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.0-ultra",
       "model_name": "Gemini 1.0 Ultra",
       "provider_id": "vertex",
@@ -29856,11 +30328,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -29875,6 +30347,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "source": "As of Jun, 2024. There is no available doc on vertex ai pricing gemini-1.0-ultra-001. Using gemini-1.0-pro pricing. Got max_tokens info here: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.0-ultra-001",
       "model_name": "Gemini 1.0 Ultra 001",
       "provider_id": "vertex",
@@ -29885,11 +30358,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -29918,8 +30391,10 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-flash",
       "model_name": "Gemini 1.5 Flash",
       "provider_id": "vertex",
@@ -29930,10 +30405,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -29962,9 +30437,11 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "deprecation_date": "2025-05-24",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-flash-001",
       "model_name": "Gemini 1.5 Flash 001",
       "provider_id": "vertex",
@@ -29975,9 +30452,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30006,9 +30483,11 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-1.5-flash",
       "deprecation_date": "2025-09-24",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-flash-002",
       "model_name": "Gemini 1.5 Flash 002",
       "provider_id": "vertex",
@@ -30019,9 +30498,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30050,8 +30529,10 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-flash-exp-0827",
       "model_name": "Gemini 1.5 Flash Exp 0827",
       "provider_id": "vertex",
@@ -30062,10 +30543,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30096,6 +30577,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-flash-preview-0514",
       "model_name": "Gemini 1.5 Flash Preview 0514",
       "provider_id": "vertex",
@@ -30106,10 +30588,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -30134,7 +30616,9 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-pro",
       "model_name": "Gemini 1.5 Pro",
       "provider_id": "vertex",
@@ -30145,10 +30629,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30172,8 +30656,10 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "deprecation_date": "2025-05-24",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-pro-001",
       "model_name": "Gemini 1.5 Pro 001",
       "provider_id": "vertex",
@@ -30184,9 +30670,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30210,8 +30696,10 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-1.5-pro",
       "deprecation_date": "2025-09-24",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-pro-002",
       "model_name": "Gemini 1.5 Pro 002",
       "provider_id": "vertex",
@@ -30222,9 +30710,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30247,7 +30735,9 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-pro-preview-0215",
       "model_name": "Gemini 1.5 Pro Preview 0215",
       "provider_id": "vertex",
@@ -30258,11 +30748,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "max_tokens": 8192,
@@ -30284,7 +30774,9 @@ export const modelsByProvider: Providers = {
       "output_cost_per_character_above_128k_tokens": 0.0000025,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-pro-preview-0409",
       "model_name": "Gemini 1.5 Pro Preview 0409",
       "provider_id": "vertex",
@@ -30295,11 +30787,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "max_tokens": 8192,
@@ -30322,7 +30814,9 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-1.5-pro-preview-0514",
       "model_name": "Gemini 1.5 Pro Preview 0514",
       "provider_id": "vertex",
@@ -30333,11 +30827,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_json_mode": true,
       "supports_parallel_functions": true,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_vision": false
     },
     {
       "max_tokens": 8192,
@@ -30355,6 +30849,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_audio_input": true,
       "supported_modalities": [
@@ -30369,6 +30864,7 @@ export const modelsByProvider: Providers = {
       ],
       "supports_tool_choice": true,
       "source": "https://ai.google.dev/pricing#2_0flash",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "supports_prompt_caching": true,
@@ -30382,10 +30878,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30403,6 +30899,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -30417,6 +30914,7 @@ export const modelsByProvider: Providers = {
       ],
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
       "deprecation_date": "2026-02-05",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-flash-001",
@@ -30429,9 +30927,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.0375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30460,6 +30958,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supported_modalities": [
         "text",
@@ -30473,6 +30972,7 @@ export const modelsByProvider: Providers = {
       ],
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-flash-exp",
@@ -30485,10 +30985,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.0375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_input_tokens": 1048576,
@@ -30505,6 +31005,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supported_modalities": [
         "text",
@@ -30517,6 +31018,7 @@ export const modelsByProvider: Providers = {
       ],
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-flash-lite",
@@ -30529,10 +31031,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.01875,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_input_tokens": 1048576,
@@ -30549,6 +31051,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supported_modalities": [
         "text",
@@ -30562,6 +31065,7 @@ export const modelsByProvider: Providers = {
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
       "supports_tool_choice": true,
       "deprecation_date": "2026-02-25",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-flash-lite-001",
@@ -30574,9 +31078,9 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.01875,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
       "supports_json_mode": true,
-      "supports_parallel_functions": true,
-      "model_type": "chat"
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -30600,6 +31104,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_vision": true,
       "supports_reasoning": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -30631,10 +31136,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -30652,6 +31157,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supports_audio_input": true,
       "supported_modalities": [
@@ -30666,6 +31172,7 @@ export const modelsByProvider: Providers = {
       ],
       "supports_tool_choice": true,
       "source": "https://ai.google.dev/pricing#2_0flash",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-flash-preview-image-generation",
@@ -30678,10 +31185,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30710,6 +31217,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": true,
       "supported_modalities": [
         "text",
@@ -30723,6 +31231,7 @@ export const modelsByProvider: Providers = {
       ],
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-flash-thinking-exp",
@@ -30735,10 +31244,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65536,
@@ -30767,6 +31276,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": false,
       "supports_vision": true,
+      "supports_response_schema": false,
       "supports_audio_output": false,
       "supported_modalities": [
         "text",
@@ -30780,6 +31290,7 @@ export const modelsByProvider: Providers = {
       ],
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-flash-thinking-exp-01-21",
@@ -30792,10 +31303,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 8192,
@@ -30817,6 +31328,7 @@ export const modelsByProvider: Providers = {
       "supports_audio_input": true,
       "supports_video_input": true,
       "supports_pdf_input": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
         "/v1/chat/completions",
@@ -30832,6 +31344,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.0-pro-exp-02-05",
@@ -30844,10 +31357,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -30867,6 +31380,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -30884,6 +31398,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "supports_pdf_input": true,
@@ -30898,10 +31413,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -30921,6 +31436,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -30938,6 +31454,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "supports_pdf_input": true,
@@ -30952,10 +31469,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -30975,6 +31492,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -30992,6 +31510,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "supports_pdf_input": true,
@@ -31006,10 +31525,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.024999999999999998,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -31029,6 +31548,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -31046,6 +31566,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -31059,10 +31580,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.0375,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -31082,6 +31603,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -31099,6 +31621,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_url_context": true,
       "supports_pdf_input": true,
@@ -31113,10 +31636,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.075,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -31138,6 +31661,7 @@ export const modelsByProvider: Providers = {
       "supports_audio_input": true,
       "supports_video_input": true,
       "supports_pdf_input": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
       "supported_endpoints": [
@@ -31166,10 +31690,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 65535,
@@ -31191,6 +31715,7 @@ export const modelsByProvider: Providers = {
       "supports_audio_input": true,
       "supports_video_input": true,
       "supports_pdf_input": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supported_endpoints": [
         "/v1/chat/completions",
@@ -31206,6 +31731,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.5-pro-exp-03-25",
@@ -31218,10 +31744,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -31242,6 +31768,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -31259,6 +31786,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -31272,10 +31800,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -31296,6 +31824,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -31316,6 +31845,7 @@ export const modelsByProvider: Providers = {
         "global"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -31329,10 +31859,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -31353,6 +31883,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_endpoints": [
@@ -31370,6 +31901,7 @@ export const modelsByProvider: Providers = {
         "text"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -31383,10 +31915,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 65535,
@@ -31406,6 +31938,7 @@ export const modelsByProvider: Providers = {
       "supports_system_messages": true,
       "supports_function_calling": true,
       "supports_vision": true,
+      "supports_response_schema": true,
       "supports_audio_output": false,
       "supports_tool_choice": true,
       "supported_modalities": [
@@ -31415,6 +31948,7 @@ export const modelsByProvider: Providers = {
         "audio"
       ],
       "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview",
+      "supports_parallel_function_calling": true,
       "supports_web_search": true,
       "supports_prompt_caching": true,
       "model_id": "gemini-2.5-pro-preview-tts",
@@ -31427,10 +31961,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": 0.3125,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": true
     },
     {
       "max_tokens": 2048,
@@ -31450,12 +31984,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -31468,6 +32002,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": false,
       "supports_tool_choice": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-flash-experimental",
       "model_name": "Gemini Flash Experimental",
       "provider_id": "vertex",
@@ -31478,11 +32013,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -31495,6 +32030,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0000015,
       "output_cost_per_character": 3.75e-7,
       "supports_function_calling": true,
+      "supports_parallel_function_calling": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
       "supports_tool_choice": true,
       "model_id": "gemini-pro",
@@ -31507,11 +32043,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 8192,
@@ -31524,6 +32060,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": false,
       "supports_tool_choice": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental",
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-pro-experimental",
       "model_name": "Gemini Pro Experimental",
       "provider_id": "vertex",
@@ -31534,11 +32071,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_vision": false,
+      "supports_json_mode": false
     },
     {
       "max_tokens": 2048,
@@ -31554,6 +32091,7 @@ export const modelsByProvider: Providers = {
       "supports_vision": true,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": true,
       "model_id": "gemini-pro-vision",
       "model_name": "Gemini Pro Vision",
       "provider_id": "vertex",
@@ -31564,10 +32102,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": true,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_parallel_functions": true,
+      "supports_json_mode": false
     },
     {
       "output_cost_per_image": 0.02,
@@ -31586,12 +32124,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "image",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "image",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -31613,12 +32151,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -31640,12 +32178,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -31667,11 +32205,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -31693,11 +32231,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -31722,11 +32260,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -31751,11 +32289,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1000000,
@@ -31784,11 +32322,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1000000,
@@ -31817,11 +32355,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000000,
@@ -31850,11 +32388,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 10000000,
@@ -31883,11 +32421,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -31907,12 +32445,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -31932,12 +32470,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -31957,12 +32495,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -31982,11 +32520,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -32006,11 +32544,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -32030,11 +32568,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -32054,11 +32592,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -32078,11 +32616,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -32102,11 +32640,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 128000,
@@ -32127,10 +32665,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8191,
@@ -32150,11 +32688,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -32187,12 +32725,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -32225,12 +32763,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -32251,12 +32789,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -32277,12 +32815,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -32303,12 +32841,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -32329,12 +32867,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -32355,12 +32893,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -32381,12 +32919,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -32407,12 +32945,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -32433,12 +32971,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 3072,
@@ -32459,12 +32997,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 2048,
@@ -32485,12 +33023,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 3072,
@@ -32510,12 +33048,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -32534,12 +33072,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 1024,
@@ -32558,12 +33096,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "completion",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "completion",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 3072,
@@ -32584,12 +33122,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 3072,
@@ -32610,12 +33148,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 3072,
@@ -32636,12 +33174,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 3072,
@@ -32662,12 +33200,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 3072,
@@ -32688,12 +33226,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "voyage": [
@@ -32715,12 +33253,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8000,
@@ -32740,12 +33278,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "rerank",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "rerank",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4000,
@@ -32763,12 +33301,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -32786,12 +33324,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -32809,12 +33347,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -32832,12 +33370,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16000,
@@ -32855,12 +33393,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -32878,12 +33416,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -32901,12 +33439,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16000,
@@ -32924,12 +33462,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 16000,
@@ -32947,12 +33485,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4096,
@@ -32970,12 +33508,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 4000,
@@ -32993,12 +33531,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32000,
@@ -33016,12 +33554,12 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "embedding",
+      "deprecation_date": null,
       "supports_function_calling": false,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "embedding",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     }
   ],
   "watsonx": [
@@ -33033,10 +33571,12 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.0002,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": false,
       "supports_audio_input": false,
       "supports_audio_output": false,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_system_messages": true,
       "model_id": "watsonx/ibm/granite-3-8b-instruct",
       "model_name": "Granite 3 8b Instruct",
@@ -33048,10 +33588,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33061,10 +33601,12 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.00001,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_parallel_function_calling": false,
       "supports_vision": false,
       "supports_audio_input": false,
       "supports_audio_output": false,
       "supports_prompt_caching": true,
+      "supports_response_schema": true,
       "supports_system_messages": true,
       "model_id": "watsonx/mistralai/mistral-large",
       "model_name": "Mistral Large",
@@ -33076,10 +33618,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": true,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": true,
+      "supports_parallel_functions": false
     }
   ],
   "xai": [
@@ -33102,11 +33644,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33127,11 +33669,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33152,11 +33694,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -33179,10 +33721,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -33205,10 +33747,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 32768,
@@ -33231,10 +33773,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33244,6 +33786,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3",
@@ -33256,11 +33799,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33270,6 +33813,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-beta",
@@ -33282,11 +33826,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33296,6 +33840,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000025,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-fast-beta",
@@ -33308,11 +33853,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33322,6 +33867,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000025,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-fast-latest",
@@ -33334,11 +33880,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33348,6 +33894,7 @@ export const modelsByProvider: Providers = {
       "output_cost_per_token": 0.000015,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-latest",
@@ -33360,11 +33907,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33375,6 +33922,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-mini",
@@ -33387,11 +33935,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33402,6 +33950,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-mini-beta",
@@ -33414,11 +33963,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33429,6 +33978,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-mini-fast",
@@ -33441,11 +33991,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33456,6 +34006,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-mini-fast-beta",
@@ -33468,11 +34019,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33483,6 +34034,7 @@ export const modelsByProvider: Providers = {
       "supports_reasoning": true,
       "supports_function_calling": true,
       "supports_tool_choice": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-mini-fast-latest",
@@ -33495,11 +34047,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33510,6 +34062,7 @@ export const modelsByProvider: Providers = {
       "supports_function_calling": true,
       "supports_tool_choice": true,
       "supports_reasoning": true,
+      "supports_response_schema": false,
       "source": "https://x.ai/api#pricing",
       "supports_web_search": true,
       "model_id": "grok-3-mini-latest",
@@ -33522,11 +34075,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_vision": false,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_vision": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -33549,11 +34102,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -33576,11 +34129,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 256000,
@@ -33603,11 +34156,11 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
+      "model_type": "chat",
+      "deprecation_date": null,
       "supports_vision": false,
       "supports_json_mode": false,
-      "supports_parallel_functions": false,
-      "model_type": "chat",
-      "deprecation_date": null
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 131072,
@@ -33629,10 +34182,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     },
     {
       "max_tokens": 8192,
@@ -33655,10 +34208,10 @@ export const modelsByProvider: Providers = {
       "cache_read_cost_per_million": null,
       "cache_write_cost_per_token": null,
       "cache_write_cost_per_million": null,
-      "supports_json_mode": false,
-      "supports_parallel_functions": false,
       "model_type": "chat",
-      "deprecation_date": null
+      "deprecation_date": null,
+      "supports_json_mode": false,
+      "supports_parallel_functions": false
     }
   ]
 } as const;
