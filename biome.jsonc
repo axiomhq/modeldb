@@ -1,62 +1,53 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
-	"extends": [
-		"ultracite"
-	],
-	"files": {
-		"includes": [
-			"**",
-			"!src/data/*",
-			"!worker-configuration.d.ts"
-		]
-	},
-	"json": {
-		"parser": {
-			"allowComments": true
-		}
-	},
-	"linter": {
-		"rules": {
-			"performance": {
-				"noNamespaceImport": "off"
-			},
-			"suspicious": {
-				"useAwait": "off"
-			},
-			"nursery": {
-				"noAwaitInLoop": "off",
-				"useIterableCallbackReturn": "off",
-				"noBitwiseOperators": "off",
-				"useNumericSeparators": "off"
-			},
-			"style": {
-				"noParameterProperties": "off",
-				"noNestedTernary": "off"
-			}
-		}
-	},
-	"overrides": [
-		{
-			"includes": [
-				"**/*.spec.*",
-				"./scripts/**"
-			],
-			"linter": {
-				"rules": {
-					"suspicious": {
-						"noExplicitAny": "off",
-						"noEvolvingTypes": "off",
-						"noConsole": "off"
-					},
-					"performance": {
-						"useTopLevelRegex": "off"
-					},
-					"complexity": {
-						"noForEach": "off",
-						"noExcessiveCognitiveComplexity": "off"
-					}
-				}
-			}
-		}
-	]
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+  "extends": ["ultracite"],
+  "files": {
+    "includes": ["**", "!src/data/*", "!worker-configuration.d.ts"]
+  },
+  "json": {
+    "parser": {
+      "allowComments": true
+    }
+  },
+  "linter": {
+    "rules": {
+      "performance": {
+        "noNamespaceImport": "off"
+      },
+      "suspicious": {
+        "useAwait": "off"
+      },
+      "nursery": {
+        "noAwaitInLoop": "off",
+        "useIterableCallbackReturn": "off",
+        "noBitwiseOperators": "off",
+        "useNumericSeparators": "off"
+      },
+      "style": {
+        "noParameterProperties": "off",
+        "noNestedTernary": "off"
+      }
+    }
+  },
+  "overrides": [
+    {
+      "includes": ["**/*.spec.*", "./scripts/**"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noExplicitAny": "off",
+            "noEvolvingTypes": "off",
+            "noConsole": "off"
+          },
+          "performance": {
+            "useTopLevelRegex": "off"
+          },
+          "complexity": {
+            "noForEach": "off",
+            "noExcessiveCognitiveComplexity": "off"
+          }
+        }
+      }
+    }
+  ]
 }

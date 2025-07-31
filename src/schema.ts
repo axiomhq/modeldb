@@ -1,66 +1,70 @@
 import { z } from 'zod';
 
-export const ModelSchema = z.object({
-  provider_id: z.string().describe('Provider identifier (e.g., "openai")'),
-  provider_name: z.string().describe('Human-friendly display name'),
+export const ModelSchema = z
+  .object({
+    provider_id: z.string().describe('Provider identifier (e.g., "openai")'),
+    provider_name: z.string().describe('Human-friendly display name'),
 
-  model_id: z.string().describe('Clean model identifier (e.g., "gpt-4-turbo")'),
-  model_name: z.string().describe('Human-friendly display name'),
+    model_id: z
+      .string()
+      .describe('Clean model identifier (e.g., "gpt-4-turbo")'),
+    model_name: z.string().describe('Human-friendly display name'),
 
-  max_input_tokens: z
-    .number()
-    .nullable()
-    .optional()
-    .describe('Maximum input tokens'),
-  max_output_tokens: z
-    .number()
-    .nullable()
-    .optional()
-    .describe('Maximum output tokens per request'),
+    max_input_tokens: z
+      .number()
+      .nullable()
+      .optional()
+      .describe('Maximum input tokens'),
+    max_output_tokens: z
+      .number()
+      .nullable()
+      .optional()
+      .describe('Maximum output tokens per request'),
 
-  input_cost_per_token: z
-    .number()
-    .nullable()
-    .optional()
-    .describe('Input cost per token in USD'),
-  input_cost_per_million: z
-    .number()
-    .nullable()
-    .optional()
-    .describe('Input cost per million tokens in USD'),
-  output_cost_per_token: z.number().describe('Output cost per token in USD'),
-  output_cost_per_million: z
-    .number()
-    .describe('Output cost per million tokens in USD'),
+    input_cost_per_token: z
+      .number()
+      .nullable()
+      .optional()
+      .describe('Input cost per token in USD'),
+    input_cost_per_million: z
+      .number()
+      .nullable()
+      .optional()
+      .describe('Input cost per million tokens in USD'),
+    output_cost_per_token: z.number().describe('Output cost per token in USD'),
+    output_cost_per_million: z
+      .number()
+      .describe('Output cost per million tokens in USD'),
 
-  cache_read_cost_per_token: z.number().nullable().optional(),
-  cache_read_cost_per_million: z.number().nullable().optional(),
-  cache_write_cost_per_token: z.number().nullable().optional(),
-  cache_write_cost_per_million: z.number().nullable().optional(),
+    cache_read_cost_per_token: z.number().nullable().optional(),
+    cache_read_cost_per_million: z.number().nullable().optional(),
+    cache_write_cost_per_token: z.number().nullable().optional(),
+    cache_write_cost_per_million: z.number().nullable().optional(),
 
-  supports_function_calling: z.boolean().default(false),
-  supports_vision: z.boolean().default(false),
-  supports_json_mode: z.boolean().default(false),
-  supports_parallel_functions: z.boolean().default(false),
+    supports_function_calling: z.boolean().default(false),
+    supports_vision: z.boolean().default(false),
+    supports_json_mode: z.boolean().default(false),
+    supports_parallel_functions: z.boolean().default(false),
 
-  model_type: z
-    .enum([
-      'chat',
-      'completion',
-      'embedding',
-      'image',
-      'audio',
-      'rerank',
-      'moderation',
-    ])
-    .default('chat'),
+    model_type: z
+      .enum([
+        'chat',
+        'completion',
+        'embedding',
+        'image',
+        'audio',
+        'rerank',
+        'moderation',
+      ])
+      .default('chat'),
 
-  deprecation_date: z
-    .string()
-    .nullable()
-    .optional()
-    .describe('Date when the model becomes deprecated (YYYY-MM-DD format)'),
-});
+    deprecation_date: z
+      .string()
+      .nullable()
+      .optional()
+      .describe('Date when the model becomes deprecated (YYYY-MM-DD format)'),
+  })
+  .passthrough();
 
 export const ModelPartialSchema = ModelSchema.partial();
 export const ModelsSchema = z.array(ModelSchema);
@@ -105,8 +109,9 @@ export const PrettySchema = z
     'Pretty print JSON output with indentation (presence of parameter enables it)'
   );
 
-export type Model = z.infer<typeof ModelSchema>;
-export type Models = z.infer<typeof ModelsSchema>;
-export type ModelsPartial = z.infer<typeof ModelPartialSchema>;
-export type Providers = z.infer<typeof ProvidersSchema>;
-export type ProvidersPartial = z.infer<typeof PartialProvidersSchema>;
+export type BaseModel = z.infer<typeof ModelSchema>;
+export type Model = BaseModel & { [key: string]: unknown };
+export type Models = Model[];
+export type ModelsPartial = Partial<Model>;
+export type Providers = Record<string, Models>;
+export type ProvidersPartial = Record<string, Partial<Model>[]>;

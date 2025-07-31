@@ -149,7 +149,11 @@ export function transformModel(
   const inputCost = litellmModel.input_cost_per_token || 0;
   const outputCost = litellmModel.output_cost_per_token || 0;
 
+  // First, spread all fields from litellm
   const model: Model = {
+    ...litellmModel,
+
+    // Then override with our transformed fields
     model_id: modelId,
     model_name: generateDisplayName(modelId),
 
@@ -190,6 +194,14 @@ export function transformModel(
     // Deprecation
     deprecation_date: litellmModel.deprecation_date || null,
   };
+
+  // Remove the original litellm fields that we've transformed to avoid duplication
+  delete model.litellm_provider;
+  delete model.mode;
+  delete model.cache_creation_input_token_cost;
+  delete model.cache_read_input_token_cost;
+  delete model.supports_response_schema;
+  delete model.supports_parallel_function_calling;
 
   return model;
 }
