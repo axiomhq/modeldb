@@ -1,4 +1,5 @@
 import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
+import type { Context } from 'hono';
 import { z } from 'zod';
 import { objectsToCSV, safeParseQueryCSV } from './csv';
 import { modelsByProvider } from './data/providers';
@@ -14,6 +15,92 @@ import {
   ProjectSchema,
   type ProvidersPartial,
 } from './schema';
+
+// Helper functions to reduce complexity
+function filterProviders(providerFilter: string[]): ProvidersPartial {
+  if (providerFilter.length === 0) {
+    return modelsByProvider;
+  }
+
+  const result: ProvidersPartial = {};
+  for (const provider of providerFilter) {
+    if (provider in modelsByProvider) {
+      result[provider] = modelsByProvider[provider];
+    }
+  }
+  return result;
+}
+
+function applyProjection(
+  providers: ProvidersPartial,
+  projectFields: string[]
+): ProvidersPartial {
+  if (projectFields.length === 0) {
+    return providers;
+  }
+
+  const result: ProvidersPartial = {};
+  for (const [provider, models] of Object.entries(providers)) {
+    result[provider] = projectModelsFields(models, projectFields);
+  }
+  return result;
+}
+
+function applyFillZeros(providers: ProvidersPartial): ProvidersPartial {
+  const result: ProvidersPartial = {};
+  for (const [provider, models] of Object.entries(providers)) {
+    result[provider] = models.map((model) => fillNullsWithZeros(model));
+  }
+  return result;
+}
+
+function flattenProvidersForCSV(
+  providers: ProvidersPartial
+): Record<string, unknown>[] {
+  const flattened: Record<string, unknown>[] = [];
+  for (const [provider, models] of Object.entries(providers)) {
+    if (Array.isArray(models)) {
+      for (const model of models) {
+        flattened.push({ provider, ...model });
+      }
+    }
+  }
+  return flattened;
+}
+
+function processModelsWithOptions(
+  models: ProvidersPartial[string],
+  projectFields: string[],
+  fillWithZeros: boolean,
+  format: string,
+  headers: boolean,
+  pretty: boolean,
+  c: Context
+) {
+  // Apply projection if needed
+  let processedModels =
+    projectFields.length > 0
+      ? projectModelsFields(models, projectFields)
+      : models;
+
+  // Apply fill-with-zeros if needed
+  if (fillWithZeros) {
+    processedModels = processedModels.map((model) => fillNullsWithZeros(model));
+  }
+
+  // Return CSV if requested
+  if (format === 'csv') {
+    const csv = objectsToCSV(
+      processedModels,
+      projectFields.length > 0 ? projectFields : undefined,
+      headers
+    );
+    return c.text(csv, 200, { 'Content-Type': 'text/csv' });
+  }
+
+  // Return JSON
+  return jsonResponse(c, processedModels, 200, pretty);
+}
 
 export function registerProvidersRoutes(app: OpenAPIHono) {
   const getProviders = createRoute({
@@ -51,44 +138,23 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
 
   app.openapi(getProviders, async (c) => {
     const query = c.req.valid('query');
-
     const providerFilter = safeParseQueryCSV(query.filter);
     const projectFields = safeParseQueryCSV(query.project);
 
-    let result: ProvidersPartial = {};
+    // Filter providers
+    let result = filterProviders(providerFilter);
 
-    if (providerFilter.length > 0) {
-      for (const provider of providerFilter) {
-        if (provider in modelsByProvider) {
-          result[provider] = modelsByProvider[provider];
-        }
-      }
-    } else {
-      result = modelsByProvider;
-    }
-
-    if (projectFields.length > 0) {
-      for (const [provider, models] of Object.entries(result)) {
-        result[provider] = projectModelsFields(models, projectFields);
-      }
-    }
+    // Apply projection
+    result = applyProjection(result, projectFields);
 
     // Apply fill-with-zeros transformation
     if (query['fill-with-zeros']) {
-      for (const [provider, models] of Object.entries(result)) {
-        result[provider] = models.map((model) => fillNullsWithZeros(model));
-      }
+      result = applyFillZeros(result);
     }
 
+    // Handle CSV format
     if (query.format === 'csv') {
-      const flattened: any[] = [];
-      for (const [provider, models] of Object.entries(result)) {
-        if (Array.isArray(models)) {
-          models.forEach((model) => {
-            flattened.push({ provider, ...model });
-          });
-        }
-      }
+      const flattened = flattenProvidersForCSV(result);
       const csv = objectsToCSV(
         flattened,
         projectFields.length > 0 ? ['provider', ...projectFields] : undefined,
@@ -169,35 +235,14 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
 
     const projectFields = safeParseQueryCSV(query.project);
 
-    if (projectFields.length > 0) {
-      const projectedModels = projectModelsFields(models, projectFields);
-
-      // Apply fill-with-zeros transformation
-      const finalModels = query['fill-with-zeros']
-        ? projectedModels.map((model) => fillNullsWithZeros(model))
-        : projectedModels;
-
-      if (query.format === 'csv') {
-        const csv = objectsToCSV(finalModels, projectFields, query.headers);
-        return c.text(csv, 200, {
-          'Content-Type': 'text/csv',
-        });
-      }
-      return jsonResponse(c, finalModels, 200, query.pretty);
-    }
-
-    // Apply fill-with-zeros transformation to full models list
-    const resultModels = query['fill-with-zeros']
-      ? models.map((model) => fillNullsWithZeros(model))
-      : models;
-
-    if (query.format === 'csv') {
-      const csv = objectsToCSV(resultModels, undefined, query.headers);
-      return c.text(csv, 200, {
-        'Content-Type': 'text/csv',
-      });
-    }
-
-    return jsonResponse(c, resultModels, 200, query.pretty);
+    return processModelsWithOptions(
+      models,
+      projectFields,
+      query['fill-with-zeros'],
+      query.format,
+      query.headers,
+      query.pretty,
+      c
+    );
   });
 }

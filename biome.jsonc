@@ -12,7 +12,8 @@
   "linter": {
     "rules": {
       "performance": {
-        "noNamespaceImport": "off"
+        "noNamespaceImport": "off",
+        "noAccumulatingSpread": "off"
       },
       "suspicious": {
         "useAwait": "off"

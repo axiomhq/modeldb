@@ -1,6 +1,6 @@
 import type { OpenAPIHono } from '@hono/zod-openapi';
 import { beforeAll, describe, expect, it } from 'vitest';
-import { expectCSV, expectJSON, makeRequest, parseCSV } from './helpers/api';
+import { expectCSV, expectJSON, makeRequest } from './helpers/api';
 import { createTestApp } from './helpers/test-app';
 
 describe('/api/v1/models/:id endpoint', () => {

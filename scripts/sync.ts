@@ -196,14 +196,24 @@ export function transformModel(
   };
 
   // Remove the original litellm fields that we've transformed to avoid duplication
-  delete model.litellm_provider;
-  delete model.mode;
-  delete model.cache_creation_input_token_cost;
-  delete model.cache_read_input_token_cost;
-  delete model.supports_response_schema;
-  delete model.supports_parallel_function_calling;
+  const fieldsToOmit = [
+    'litellm_provider',
+    'mode',
+    'cache_creation_input_token_cost',
+    'cache_read_input_token_cost',
+    'supports_response_schema',
+    'supports_parallel_function_calling',
+  ] as const;
 
-  return model;
+  // Create a new object without the fields we want to omit
+  const cleanModel = Object.keys(model).reduce((acc, key) => {
+    if (!fieldsToOmit.includes(key as any)) {
+      acc[key] = model[key];
+    }
+    return acc;
+  }, {} as Model);
+
+  return cleanModel;
 }
 
 async function fetchModels(url: string): Promise<Record<string, LiteLLMModel>> {

@@ -20,7 +20,7 @@ describe('/api/v1/providers endpoints', () => {
         expect(typeof providers).toBe('object');
         expect(Object.keys(providers).length).toBeGreaterThan(0);
 
-        Object.entries(providers).forEach(([providerId, models]) => {
+        Object.entries(providers).forEach(([_providerId, models]) => {
           expect(Array.isArray(models)).toBe(true);
           expect(models.length).toBeGreaterThan(0);
         });

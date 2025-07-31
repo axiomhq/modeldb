@@ -87,7 +87,7 @@ describe('/api/openapi.json endpoint', () => {
     const spec = await expectJSON(response);
 
     expect(spec.components).toHaveProperty('schemas');
-    const schemas = spec.components.schemas || {};
+    // const schemas = spec.components.schemas || {};
 
     // Check that components exist (schemas might be inline)
     expect(spec.components).toBeDefined();
