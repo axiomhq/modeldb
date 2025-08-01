@@ -15,16 +15,7 @@ const LITELLM_MODEL_URL =
 const LiteLLMModelSchema = z
   .object({
     litellm_provider: z.string(),
-    mode: z.enum([
-      'chat',
-      'embedding',
-      'completion',
-      'image_generation',
-      'audio_transcription',
-      'audio_speech',
-      'moderation',
-      'rerank',
-    ]),
+    mode: z.string().optional(),
     supports_function_calling: z.boolean().optional(),
     supports_parallel_function_calling: z.boolean().optional(),
     supports_vision: z.boolean().optional(),
@@ -117,26 +108,14 @@ function transformProviderId(provider: string): string {
   return lowerProvider;
 }
 
-function getModelType(mode?: string): Model['model_type'] {
-  switch (mode) {
-    case 'chat':
-      return 'chat';
-    case 'completion':
-      return 'completion';
-    case 'embedding':
-      return 'embedding';
-    case 'image_generation':
-      return 'image';
-    case 'audio_transcription':
-    case 'audio_speech':
-      return 'audio';
-    case 'moderation':
-      return 'moderation';
-    case 'rerank':
-      return 'rerank';
-    default:
-      return 'chat';
+function getModelType(
+  mode: string | undefined,
+  modelTypeMap: Map<string, string>
+): string {
+  if (!mode) {
+    return 'chat';
   }
+  return modelTypeMap.get(mode) || mode;
 }
 
 // Discover all capability fields from LiteLLM models
@@ -163,10 +142,42 @@ function discoverCapabilities(
   return capabilities;
 }
 
+// Discover all model types from LiteLLM models
+function discoverModelTypes(
+  litellmModels: Record<string, LiteLLMModel>
+): Map<string, string> {
+  const modelTypeMap = new Map<string, string>();
+
+  // Add known mappings
+  modelTypeMap.set('chat', 'chat');
+  modelTypeMap.set('completion', 'completion');
+  modelTypeMap.set('embedding', 'embedding');
+  modelTypeMap.set('image_generation', 'image');
+  modelTypeMap.set('audio_transcription', 'audio');
+  modelTypeMap.set('audio_speech', 'audio');
+  modelTypeMap.set('moderation', 'moderation');
+  modelTypeMap.set('rerank', 'rerank');
+
+  // Discover any new types
+  for (const model of Object.values(litellmModels)) {
+    if (!model || typeof model !== 'object' || !model.mode) {
+      continue;
+    }
+
+    if (!modelTypeMap.has(model.mode)) {
+      // For unknown types, use the mode as-is
+      modelTypeMap.set(model.mode, model.mode);
+    }
+  }
+
+  return modelTypeMap;
+}
+
 export function transformModel(
   litellmName: string,
   litellmModel: LiteLLMModel,
-  knownCapabilities?: Set<string>
+  knownCapabilities?: Set<string>,
+  modelTypeMap?: Map<string, string>
 ): Model | null {
   const providerId = transformProviderId(litellmModel.litellm_provider);
   const modelId = transformModelId(litellmName, providerId);
@@ -207,7 +218,7 @@ export function transformModel(
       : null,
 
     // Model type
-    model_type: getModelType(litellmModel.mode),
+    model_type: getModelType(litellmModel.mode, modelTypeMap || new Map()),
 
     // Deprecation
     deprecation_date: litellmModel.deprecation_date || null,
@@ -318,8 +329,35 @@ export type DiscoveredCapability = typeof ALL_CAPABILITIES[number];
 `;
 }
 
+function generateModelTypesFile(modelTypeMap: Map<string, string>): string {
+  // Get unique model types (the values)
+  const uniqueTypes = Array.from(new Set(modelTypeMap.values())).sort();
+
+  // Create the mapping object
+  const mapping: Record<string, string> = {};
+  for (const [key, value] of modelTypeMap) {
+    mapping[key] = value;
+  }
+
+  return `// Auto-generated file - do not edit manually
+// Generated at: ${new Date().toISOString()}
+
+export const ALL_MODEL_TYPES = ${JSON.stringify(uniqueTypes, null, 2)} as const;
+
+export const MODEL_TYPE_MAPPING = ${JSON.stringify(mapping, null, 2)} as const;
+
+export type DiscoveredModelType = typeof ALL_MODEL_TYPES[number];
+`;
+}
+
 function generateFileContent(
-  type: 'map' | 'list' | 'metadata' | 'providers' | 'capabilities',
+  type:
+    | 'map'
+    | 'list'
+    | 'metadata'
+    | 'providers'
+    | 'capabilities'
+    | 'modelTypes',
   data: any
 ): string {
   switch (type) {
@@ -344,6 +382,8 @@ export const modelsByProvider: Providers = ${JSON.stringify(data, null, 2)} as c
 `;
     case 'capabilities':
       return generateCapabilitiesFile(data);
+    case 'modelTypes':
+      return generateModelTypesFile(data);
     default:
       console.error(`Unsupported type: ${type}`);
       return '';
@@ -387,6 +427,20 @@ async function syncCommand(options: {
       throw error;
     }
 
+    // Discover all model types from the models
+    const modelTypeSpinner = ora('Discovering model types...').start();
+    let modelTypeMap: Map<string, string>;
+    try {
+      modelTypeMap = discoverModelTypes(litellmModels);
+      modelTypeSpinner.succeed(
+        chalk.green(`Discovered ${modelTypeMap.size} model types`)
+      );
+    } catch (error) {
+      modelTypeSpinner.fail(chalk.red('Failed to discover model types'));
+      console.error('Error:', error);
+      throw error;
+    }
+
     const transformedModels: Record<string, Model> = {};
     let successCount = 0;
     let failCount = 0;
@@ -398,7 +452,8 @@ async function syncCommand(options: {
         const transformed = transformModel(
           litellmName,
           litellmModel,
-          allCapabilities
+          allCapabilities,
+          modelTypeMap
         );
         if (transformed) {
           transformedModels[transformed.model_id] = transformed;
@@ -597,6 +652,12 @@ async function syncCommand(options: {
       );
       fs.writeFileSync(capabilitiesPath, capabilitiesContent);
       console.log(chalk.green(`✓ Written to ${capabilitiesPath}`));
+
+      // Write modelTypes.ts
+      const modelTypesPath = path.join(dataDir, 'modelTypes.ts');
+      const modelTypesContent = generateFileContent('modelTypes', modelTypeMap);
+      fs.writeFileSync(modelTypesPath, modelTypesContent);
+      console.log(chalk.green(`✓ Written to ${modelTypesPath}`));
     }
 
     if (options.summary) {

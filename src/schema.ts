@@ -47,16 +47,9 @@ export const ModelSchema = z
     supports_parallel_functions: z.boolean().default(false),
 
     model_type: z
-      .enum([
-        'chat',
-        'completion',
-        'embedding',
-        'image',
-        'audio',
-        'rerank',
-        'moderation',
-      ])
-      .default('chat'),
+      .string()
+      .default('chat')
+      .describe('Model type (e.g., chat, completion, embedding)'),
 
     deprecation_date: z
       .string()

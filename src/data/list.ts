@@ -2399,7 +2399,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": 0.375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -4803,7 +4803,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -4898,7 +4898,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": false
@@ -4940,7 +4940,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": false
@@ -21057,7 +21057,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": 0.375,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -23457,7 +23457,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -23501,7 +23501,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -23629,7 +23629,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -23673,7 +23673,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": 2.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -23771,7 +23771,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": false
@@ -23813,7 +23813,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": null,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": false
@@ -23915,7 +23915,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
@@ -23959,7 +23959,7 @@ export const modelsList: Models = [
     "cache_read_cost_per_million": 0.5,
     "cache_write_cost_per_token": null,
     "cache_write_cost_per_million": null,
-    "model_type": "chat",
+    "model_type": "responses",
     "deprecation_date": null,
     "supports_json_mode": true,
     "supports_parallel_functions": true
