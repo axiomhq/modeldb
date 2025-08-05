@@ -32,11 +32,9 @@ describe('Environment-specific behavior', () => {
       expect(response.status).toBe(204);
       expect(response.headers.get('access-control-allow-origin')).toBe('*');
       expect(response.headers.get('access-control-allow-methods')).toBe(
-        'GET,OPTIONS'
+        'GET,POST,PUT,DELETE,PATCH,OPTIONS,HEAD'
       );
-      expect(response.headers.get('access-control-allow-headers')).toBe(
-        'Content-Type'
-      );
+      expect(response.headers.get('access-control-allow-headers')).toBe('*');
     });
 
     it('should return detailed error messages', async () => {
