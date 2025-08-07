@@ -1,5 +1,5 @@
 // Auto-generated file - do not edit manually
-// Generated at: 2025-08-01T09:00:44.772Z
+// Generated at: 2025-08-07T18:46:02.586Z
 
 export const ALL_MODEL_TYPES = [
   "audio",
