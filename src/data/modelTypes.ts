@@ -1,5 +1,5 @@
 // Auto-generated file - do not edit manually
-// Generated at: 2025-08-14T14:15:31.179Z
+// Generated at: 2025-09-16T12:16:03.113Z
 
 export const ALL_MODEL_TYPES = [
   "audio",
@@ -9,7 +9,8 @@ export const ALL_MODEL_TYPES = [
   "image",
   "moderation",
   "rerank",
-  "responses"
+  "responses",
+  "video_generation"
 ] as const;
 
 export const MODEL_TYPE_MAPPING = {
@@ -21,7 +22,8 @@ export const MODEL_TYPE_MAPPING = {
   "audio_speech": "audio",
   "moderation": "moderation",
   "rerank": "rerank",
-  "responses": "responses"
+  "responses": "responses",
+  "video_generation": "video_generation"
 } as const;
 
 export type DiscoveredModelType = typeof ALL_MODEL_TYPES[number];
