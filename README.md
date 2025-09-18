@@ -105,14 +105,38 @@ npm run deploy
 npm run deploy:prod
 ```
 
+## Data Refresh (Cron + KV)
+
+Model data now refreshes hourly via a Cloudflare Cron and is stored in KV (and warmed into Workers Cache). To force a refresh (e.g., first deploy), call the admin endpoint:
+
+```bash
+curl -X POST \
+  -H "Authorization: Bearer $ADMIN_TOKEN" \
+  https://modeldb.axiom.co/admin/refresh?force=true
+```
+
+Configure KV binding `MODELS_KV` and set `ADMIN_TOKEN` using Wrangler secrets. The service reads all responses from the warmed cache/KV; no runtime fetches are performed for public requests.
+
+Admin endpoints (token required):
+
+```bash
+# Force refresh now (skip ETag with force=true)
+curl -X POST -H "Authorization: Bearer $ADMIN_TOKEN" \
+  https://modeldb.axiom.co/admin/refresh?force=true
+
+# Health/manifest and cache status
+curl -H "Authorization: Bearer $ADMIN_TOKEN" \
+  https://modeldb.axiom.co/admin/health
+```
+
 ## Architecture
 
-ModelDB uses build-time data generation for optimal performance:
+ModelDB uses scheduled refresh + cache-first serving:
 
-1. `scripts/sync.ts` fetches data from LiteLLM
-2. Transforms and generates TypeScript files in `src/data/`
-3. Deploys to Cloudflare Workers edge network
-4. Serves all requests from memory with no external dependencies
+1. Hourly cron fetches LiteLLM JSON and transforms it to prebuilt artifacts (list, map, providers, metadata).
+2. Artifacts are written to Cloudflare KV and warmed into Workers Cache under `/cache/v1/latest/*.json`.
+3. API routes read from Workers Cache, falling back to KV, then to bundled `src/data/*` as a last resort.
+4. Admin refresh can force regeneration; a health endpoint reports manifest and cache status.
 
 ## Contributing
 
@@ -120,9 +144,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Model Data Updates
 
-Model information is maintained by the LiteLLM community. To update model data:
+Model information is maintained by the LiteLLM community and synced hourly. To propose data changes:
 - Submit PRs to [LiteLLM's model database](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json)
-- ModelDB automatically syncs hourly
+- This service ingests updates automatically via cron
 
 ## Acknowledgments
 

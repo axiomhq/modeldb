@@ -5,8 +5,7 @@ import {
   CAPABILITY_FRIENDLY_NAMES,
   LEGACY_CAPABILITY_MAP,
 } from './data/capabilities';
-import { modelsList } from './data/list';
-import { modelsMap } from './data/map';
+import { getDataStore } from './data-store';
 import {
   fillNullsWithZeros,
   projectModelFields,
@@ -123,6 +122,9 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     const typeFilter = safeParseQueryCSV(query.type);
     const capabilityFilter = safeParseQueryCSV(query.capability);
     const projectFields = safeParseQueryCSV(query.project);
+
+    const store = getDataStore(c);
+    const modelsList = (await store.getList()) ?? [];
 
     let result = modelsList;
 
@@ -241,7 +243,9 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     const { id } = c.req.valid('param');
     const query = c.req.valid('query');
 
-    const model = modelsMap[id];
+    const store = getDataStore(c);
+    const map = (await store.getMap()) ?? {};
+    const model = map?.[id];
 
     if (!model) {
       if (query.format === 'csv') {

@@ -2,9 +2,9 @@ import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
 import { objectsToCSV } from './csv';
 import { ALL_CAPABILITIES } from './data/capabilities';
-import { modelsList } from './data/list';
-import { modelsMetadata } from './data/metadata';
+import { getDataStore } from './data-store';
 import { jsonResponse } from './response-utils';
+import type { Model } from './schema';
 import { FormatSchema, HeadersSchema, PrettySchema } from './schema';
 
 const MetadataSchema = z.object({
@@ -30,7 +30,7 @@ const MetadataSchema = z.object({
 });
 
 function countModelCapabilities(
-  model: (typeof modelsList)[0],
+  model: Model,
   capabilityStats: Record<string, number>
 ): void {
   // Count all capability fields directly from the model
@@ -41,7 +41,7 @@ function countModelCapabilities(
   }
 }
 
-function calculateStatistics() {
+function calculateStatistics(modelsList: Model[]) {
   const providerStats: Record<string, number> = {};
   const typeStats: Record<string, number> = {};
   const capabilityStats: Record<string, number> = {};
@@ -106,7 +106,16 @@ export function registerMetadataRoutes(app: OpenAPIHono) {
 
   app.openapi(getMetadata, async (c) => {
     const query = c.req.valid('query');
-    const stats = calculateStatistics();
+    const store = getDataStore(c);
+    const modelsList = (await store.getList()) ?? [];
+    const modelsMetadata = (await store.getMetadata()) ?? {
+      source: 'unknown',
+      generated_at: new Date().toISOString(),
+      model_count: modelsList.length,
+      schema_version: '1.0.0',
+    };
+
+    const stats = calculateStatistics(modelsList);
 
     const response = {
       ...modelsMetadata,

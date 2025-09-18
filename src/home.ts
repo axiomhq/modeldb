@@ -1,7 +1,6 @@
 // i started this and went too far, so we have to deal with it - njpatel
 import { ALL_CAPABILITIES } from './data/capabilities';
-import { modelsList } from './data/list';
-import { modelsMetadata } from './data/metadata';
+import type { Model } from './schema';
 
 // Helper functions
 function pad(
@@ -146,7 +145,7 @@ function asciiTable(
 }
 
 // Calculate statistics
-function calculateStats() {
+function calculateStats(modelsList: Model[]) {
   const totalModels = modelsList.length;
   const providers = new Set(modelsList.map((m) => m.provider_id));
   const types = new Set(modelsList.map((m) => m.model_type));
@@ -189,8 +188,11 @@ function calculateStats() {
 }
 
 // Build home page
-export function buildHome(): string {
-  const stats = calculateStats();
+export function buildHome(
+  modelsList: Model[],
+  modelsMetadata: { generated_at: string }
+): string {
+  const stats = calculateStats(modelsList);
   const lastUpdated = new Date(modelsMetadata.generated_at).toISOString();
   const maxProviderCount = Math.max(
     ...stats.providerCounts.map((p) => p.count)
@@ -462,6 +464,29 @@ ${sectionHeader('QUICK EXAMPLES')}
  <b>Get a specific model</b>
 ┌────────────────────────────────────────────────────────────┐
 │ GET <a href="/api/v1/models/o3?pretty" aria-label="API endpoint to get o3 model details">/api/v1/models/o3</a>                                      │
+└────────────────────────────────────────────────────────────┘
+
+</pre>
+</section>
+
+<section aria-label="Output Options">
+<h2 style="position: absolute; left: -9999px;">Output Options</h2>
+<pre>
+${sectionHeader('OUTPUT OPTIONS')}
+
+ <b>Pretty JSON</b>
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/v1/models?pretty" aria-label="Pretty print JSON output">/api/v1/models?pretty</a>                             │
+└────────────────────────────────────────────────────────────┘
+
+ <b>CSV output</b>
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/v1/models?format=csv" aria-label="Return CSV output">/api/v1/models?format=csv</a>                           │
+└────────────────────────────────────────────────────────────┘
+
+ <b>CSV with headers</b>
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/v1/models?format=csv&headers=true" aria-label="Return CSV with headers">/api/v1/models?format=csv&headers=true</a>         │
 └────────────────────────────────────────────────────────────┘
 
 </pre>

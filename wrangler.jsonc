@@ -6,11 +6,30 @@
   "observability": {
     "enabled": true
   },
+  "triggers": {
+    "crons": ["0 * * * *"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "MODELS_KV",
+      "id": "00000000000000000000000000000000",
+      "preview_id": "11111111111111111111111111111111"
+    }
+  ],
   "vars": {
     "ENV": "dev"
   },
   "env": {
     "production": {
+      "triggers": {
+        "crons": ["0 * * * *"]
+      },
+      "kv_namespaces": [
+        {
+          "binding": "MODELS_KV",
+          "id": "REPLACE_WITH_PROD_KV_ID"
+        }
+      ],
       "vars": {
         "ENV": "production"
       },

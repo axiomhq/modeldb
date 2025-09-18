@@ -2,7 +2,7 @@ import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import type { Context } from 'hono';
 import { z } from 'zod';
 import { objectsToCSV, safeParseQueryCSV } from './csv';
-import { modelsByProvider } from './data/providers';
+import { getDataStore } from './data-store';
 import { fillNullsWithZeros, projectModelsFields } from './model-utils';
 import { jsonResponse } from './response-utils';
 import {
@@ -17,19 +17,6 @@ import {
 } from './schema';
 
 // Helper functions to reduce complexity
-function filterProviders(providerFilter: string[]): ProvidersPartial {
-  if (providerFilter.length === 0) {
-    return modelsByProvider;
-  }
-
-  const result: ProvidersPartial = {};
-  for (const provider of providerFilter) {
-    if (provider in modelsByProvider) {
-      result[provider] = modelsByProvider[provider];
-    }
-  }
-  return result;
-}
 
 function applyProjection(
   providers: ProvidersPartial,
@@ -140,9 +127,20 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
     const query = c.req.valid('query');
     const providerFilter = safeParseQueryCSV(query.filter);
     const projectFields = safeParseQueryCSV(query.project);
+    const store = getDataStore(c);
+    const providersData = (await store.getProviders()) ?? {};
 
     // Filter providers
-    let result = filterProviders(providerFilter);
+    let result: ProvidersPartial = {};
+    if (providerFilter.length === 0) {
+      result = providersData;
+    } else {
+      for (const provider of providerFilter) {
+        if (provider in providersData) {
+          result[provider] = providersData[provider];
+        }
+      }
+    }
 
     // Apply projection
     result = applyProjection(result, projectFields);
@@ -217,7 +215,9 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
     const { id } = c.req.valid('param');
     const query = c.req.valid('query');
 
-    const models = modelsByProvider[id];
+    const store = getDataStore(c);
+    const providers = (await store.getProviders()) ?? {};
+    const models = providers?.[id];
 
     if (!models) {
       if (query.format === 'csv') {
