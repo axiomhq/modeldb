@@ -5,6 +5,7 @@ import { cors } from 'hono/cors';
 import { etag } from 'hono/etag';
 import { getDataStore } from './data-store';
 import { buildHome } from './home';
+import { getCronLogger } from './logger';
 import { registerMetadataRoutes } from './metadata';
 import { registerModelsRoutes } from './models';
 import { registerOpenAPIRoutes } from './openapi';
@@ -77,8 +78,6 @@ app.get('/', async (c) => {
     buildHome(list ?? [], meta ?? { generated_at: new Date().toISOString() })
   );
 });
-
-export default app;
 
 // Admin refresh endpoint (token-protected). POST to trigger refresh.
 app.post('/admin/refresh', async (c) => {
@@ -160,8 +159,10 @@ export async function scheduled(
   runtimeEnv: { MODELS_KV?: KVNamespace },
   _ctx: ExecutionContext
 ) {
+  const logger = getCronLogger();
   const kv = runtimeEnv?.MODELS_KV;
   if (!kv) {
+    logger.error('KV namespace not bound');
     return;
   }
   try {
@@ -170,16 +171,25 @@ export async function scheduled(
     const remoteEtag = head.headers.get('etag');
     const manifest = await readManifest(kv);
     if (remoteEtag && manifest?.etag && remoteEtag === manifest.etag) {
+      logger.info('Manifest unchanged; skipping build');
       return;
     }
-  } catch {
+  } catch (e) {
+    logger.error('HEAD request failed, proceeding with build', e);
     // On HEAD failure, proceed with full fetch to be safe
   }
   try {
     const artifacts = await buildArtifacts();
     await writeArtifactsToKV(kv, artifacts);
     await warmLatestCache(artifacts);
-  } catch {
+    logger.info(`Artifacts built and cached (version=${artifacts.version})`);
+  } catch (e) {
+    logger.error('Failed to build artifacts', e);
     // swallow to avoid failing the cron
   }
 }
+
+export default {
+  fetch: app.fetch,
+  scheduled,
+};

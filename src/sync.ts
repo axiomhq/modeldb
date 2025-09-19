@@ -249,7 +249,11 @@ async function fetchLiteLLM(sourceUrl: string): Promise<{
   }
   const parsed: Record<string, LiteLLMModel> = {};
   for (const [k, v] of Object.entries(json)) {
-    parsed[k] = LiteLLMModelSchema.parse(v);
+    // Only keep entries that conform to the expected shape
+    const result = LiteLLMModelSchema.safeParse(v);
+    if (result.success) {
+      parsed[k] = result.data;
+    }
   }
   return { etag, models: parsed };
 }
