@@ -194,6 +194,7 @@ export function buildHome(
 ): string {
   const stats = calculateStats(modelsList);
   const lastUpdated = new Date(modelsMetadata.generated_at).toISOString();
+  const lastChecked = new Date().toISOString();
   const maxProviderCount = Math.max(
     ...stats.providerCounts.map((p) => p.count)
   );
@@ -350,6 +351,7 @@ export function buildHome(
      ▸ <b>No authentication required</b>
      ▸ Synced hourly
      ▸ Last Updated: <b>${lastUpdated}</b>
+     ▸ Last Checked: <b>${lastChecked}</b>
 
 </pre>
 <section aria-label="Database Statistics">
@@ -443,7 +445,6 @@ ${asciiTable(
     .sort((a, b) => b.count - a.count)
 )}
 </div>
-
 ${sectionHeader('QUICK EXAMPLES')}
 
  <b>List all models</b>
@@ -476,17 +477,17 @@ ${sectionHeader('OUTPUT OPTIONS')}
 
  <b>Pretty JSON</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models?pretty" aria-label="Pretty print JSON output">/api/v1/models?pretty</a>                             │
+│ GET <a href="/api/v1/models?pretty" aria-label="Pretty print JSON output">/api/v1/models?pretty</a>                                  │
 └────────────────────────────────────────────────────────────┘
 
  <b>CSV output</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models?format=csv" aria-label="Return CSV output">/api/v1/models?format=csv</a>                           │
+│ GET <a href="/api/v1/models?format=csv" aria-label="Return CSV output">/api/v1/models?format=csv</a>                              │
 └────────────────────────────────────────────────────────────┘
 
  <b>CSV with headers</b>
 ┌────────────────────────────────────────────────────────────┐
-│ GET <a href="/api/v1/models?format=csv&headers=true" aria-label="Return CSV with headers">/api/v1/models?format=csv&headers=true</a>         │
+│ GET <a href="/api/v1/models?format=csv&headers=true" aria-label="Return CSV with headers">/api/v1/models?format=csv&headers=true</a>                 │
 └────────────────────────────────────────────────────────────┘
 
 </pre>
