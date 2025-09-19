@@ -55,6 +55,31 @@ function flattenProvidersForCSV(
   return flattened;
 }
 
+function respondProviders(
+  c: Context,
+  result: ProvidersPartial,
+  projectFields: string[],
+  format: string,
+  headers: boolean,
+  pretty: boolean
+) {
+  if (format === 'csv') {
+    const flattened = flattenProvidersForCSV(result);
+    const csv = objectsToCSV(
+      flattened,
+      projectFields.length > 0 ? ['provider', ...projectFields] : undefined,
+      headers
+    );
+    return c.text(csv, 200, { 'Content-Type': 'text/csv' });
+  }
+  if (format === 'jsonl') {
+    const flattened = flattenProvidersForCSV(result);
+    const body = flattened.map((m) => JSON.stringify(m)).join('\n');
+    return c.text(body, 200, { 'Content-Type': 'application/x-ndjson' });
+  }
+  return jsonResponse(c, result, 200, pretty);
+}
+
 function processModelsWithOptions(
   models: ProvidersPartial[string],
   projectFields: string[],
@@ -150,20 +175,14 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
       result = applyFillZeros(result);
     }
 
-    // Handle CSV format
-    if (query.format === 'csv') {
-      const flattened = flattenProvidersForCSV(result);
-      const csv = objectsToCSV(
-        flattened,
-        projectFields.length > 0 ? ['provider', ...projectFields] : undefined,
-        query.headers
-      );
-      return c.text(csv, 200, {
-        'Content-Type': 'text/csv',
-      });
-    }
-
-    return jsonResponse(c, result, 200, query.pretty);
+    return respondProviders(
+      c,
+      result,
+      projectFields,
+      query.format,
+      query.headers,
+      query.pretty
+    );
   });
 
   const getProvider = createRoute({
@@ -234,6 +253,19 @@ export function registerProvidersRoutes(app: OpenAPIHono) {
     }
 
     const projectFields = safeParseQueryCSV(query.project);
+
+    // JSONL for provider models (one object per line)
+    if (query.format === 'jsonl') {
+      const processed =
+        projectFields.length > 0
+          ? projectModelsFields(models, projectFields)
+          : models;
+      const finalModels = query['fill-with-zeros']
+        ? processed.map((m) => fillNullsWithZeros(m))
+        : processed;
+      const body = finalModels.map((m) => JSON.stringify(m)).join('\n');
+      return c.text(body, 200, { 'Content-Type': 'application/x-ndjson' });
+    }
 
     return processModelsWithOptions(
       models,

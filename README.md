@@ -1,4 +1,19 @@
-# ModelDB
+```
+══════════════════════════════════════════════════════════════
+Axiom, Inc. ══════════════════════════════════════════════════
+
+
+ ███╗   ███╗ ██████╗ ██████╗ ███████╗██╗     ██████╗ ██████╗
+ ████╗ ████║██╔═══██╗██╔══██╗██╔════╝██║     ██╔══██╗██╔══██╗
+ ██╔████╔██║██║   ██║██║  ██║█████╗  ██║     ██║  ██║██████╔╝
+ ██║╚██╔╝██║██║   ██║██║  ██║██╔══╝  ██║     ██║  ██║██╔══██╗
+ ██║ ╚═╝ ██║╚██████╔╝██████╔╝███████╗███████╗██████╔╝██████╔╝
+ ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═════╝ ╚═════╝
+
+
+═══════════════════════════════════════════ Powered by LiteLLM
+══════════════════════════════════════════════════════════════
+```
 
 REST API service for AI model metadata and costs.
 
@@ -41,6 +56,9 @@ curl "https://modeldb.axiom.co/api/v1/models?capability=vision,function_calling"
 # Export as CSV
 curl "https://modeldb.axiom.co/api/v1/models?format=csv" > models.csv
 
+# Export as JSON Lines (JSONL)
+curl "https://modeldb.axiom.co/api/v1/models?format=jsonl" > models.jsonl
+
 # Project specific fields
 curl "https://modeldb.axiom.co/api/v1/models?project=model_id,input_cost_per_million"
 
@@ -70,8 +88,8 @@ curl "https://modeldb.axiom.co/api/v1/models/gpt-4o?pretty"
 - `capability` - Comma-separated list of capabilities to filter (function_calling, vision, json_mode, parallel_functions)
 - `deprecated` - Filter models by deprecation status (true/false)
 - `project` - Comma-separated fields to return
-- `format` - Output format (json or csv)
-- `headers` - Include headers in CSV output (defaults to false, use headers=true to include)
+- `format` - Output format (`json`, `csv`, or `jsonl`)
+- `headers` - Include headers in CSV output (defaults to false, use `headers=true`)
 - `fill-with-zeros` - Replace null values with 0
 - `pretty` - Pretty print JSON output with indentation (presence of parameter enables it)
 

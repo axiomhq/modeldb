@@ -75,7 +75,7 @@ export const LimitSchema = z.number().min(1).max(2000).default(2000).optional();
 export const OffsetSchema = z.number().min(0).default(0).optional();
 
 export const FormatSchema = z
-  .enum(['json', 'csv'])
+  .enum(['json', 'csv', 'jsonl'])
   .default('json')
   .describe('Response format (json or csv)');
 

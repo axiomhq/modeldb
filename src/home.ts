@@ -341,7 +341,7 @@ export function buildHome(
      cost estimation, or capability comparison.
 
 <b>FEATURES</b>
-     ▸ Built from <b>LiteLLM's</b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a>
+     ▸ Built from <b><a href="https://github.com/BerriAI/litellm" aria-label="LiteLLM GitHub">LiteLLM's</a></b> <a href="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json">models, cost & pricing</a>
      ▸ Optimized for apps & data workloads like lookups
      ▸ Filtering and field projection
      ▸ <b>JSON</b> and <b>CSV</b> support
@@ -488,6 +488,11 @@ ${sectionHeader('OUTPUT OPTIONS')}
  <b>CSV with headers</b>
 ┌────────────────────────────────────────────────────────────┐
 │ GET <a href="/api/v1/models?format=csv&headers=true" aria-label="Return CSV with headers">/api/v1/models?format=csv&headers=true</a>                 │
+└────────────────────────────────────────────────────────────┘
+
+ <b>JSON Lines (JSONL)</b>
+┌────────────────────────────────────────────────────────────┐
+│ GET <a href="/api/v1/models?format=jsonl" aria-label="Return JSON Lines output">/api/v1/models?format=jsonl</a>                            │
 └────────────────────────────────────────────────────────────┘
 
 </pre>

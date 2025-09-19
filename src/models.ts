@@ -174,6 +174,10 @@ export function registerModelsRoutes(app: OpenAPIHono) {
           'Content-Type': 'text/csv',
         });
       }
+      if (query.format === 'jsonl') {
+        const body = finalModels.map((m) => JSON.stringify(m)).join('\n');
+        return c.text(body, 200, { 'Content-Type': 'application/x-ndjson' });
+      }
 
       return jsonResponse(c, finalModels, 200, query.pretty);
     }
@@ -188,6 +192,10 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       return c.text(csv, 200, {
         'Content-Type': 'text/csv',
       });
+    }
+    if (query.format === 'jsonl') {
+      const body = result.map((m) => JSON.stringify(m)).join('\n');
+      return c.text(body, 200, { 'Content-Type': 'application/x-ndjson' });
     }
 
     return jsonResponse(c, result, 200, query.pretty);
@@ -272,6 +280,10 @@ export function registerModelsRoutes(app: OpenAPIHono) {
           'Content-Type': 'text/csv',
         });
       }
+      if (query.format === 'jsonl') {
+        const body = JSON.stringify(finalModel);
+        return c.text(body, 200, { 'Content-Type': 'application/x-ndjson' });
+      }
 
       return jsonResponse(c, finalModel, 200, query.pretty);
     }
@@ -286,6 +298,10 @@ export function registerModelsRoutes(app: OpenAPIHono) {
       return c.text(csv, 200, {
         'Content-Type': 'text/csv',
       });
+    }
+    if (query.format === 'jsonl') {
+      const body = JSON.stringify(resultModel);
+      return c.text(body, 200, { 'Content-Type': 'application/x-ndjson' });
     }
 
     return jsonResponse(c, resultModel, 200, query.pretty);
