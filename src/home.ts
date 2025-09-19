@@ -423,7 +423,7 @@ ${asciiTable(
       width: 24,
       key: 'name',
       render: (v: unknown) =>
-        `<a href="/api/v1/models?capability=${v}&pretty" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${v.slice(0, 22)}</a>`,
+        `<a href="/api/v1/models?capability=${v}&pretty" aria-label="View models with ${(v as string).replace(/_/g, ' ')} capability">${(v as string).slice(0, 22)}</a>`,
     },
     {
       header: 'Count',
