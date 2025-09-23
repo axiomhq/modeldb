@@ -10,6 +10,7 @@ import { registerMetadataRoutes } from './metadata';
 import { registerModelsRoutes } from './models';
 import { registerOpenAPIRoutes } from './openapi';
 import { registerProvidersRoutes } from './providers';
+import type { Manifest } from './sync';
 import {
   buildArtifacts,
   LITELLM_MODEL_URL,
@@ -74,8 +75,27 @@ app.get('/', async (c) => {
     store.getList(),
     store.getMetadata(),
   ]);
+
+  // Load last checked from manifest if available
+  let lastChecked: string | undefined;
+  const kv = (c.env as { MODELS_KV?: KVNamespace })?.MODELS_KV;
+  if (kv) {
+    const m = await kv.get('v1:manifest');
+    if (m) {
+      try {
+        const parsed = JSON.parse(m) as { checked_at?: string };
+        lastChecked = parsed.checked_at ?? undefined;
+      } catch (_e) {
+        // ignore parse errors
+      }
+    }
+  }
   return c.html(
-    buildHome(list ?? [], meta ?? { generated_at: new Date().toISOString() })
+    buildHome(
+      list ?? [],
+      meta ?? { generated_at: new Date().toISOString() },
+      lastChecked
+    )
   );
 });
 
@@ -171,6 +191,12 @@ export async function scheduled(
     const remoteEtag = head.headers.get('etag');
     const manifest = await readManifest(kv);
     if (remoteEtag && manifest?.etag && remoteEtag === manifest.etag) {
+      // Update checked_at to mark a successful check
+      const next: Manifest = {
+        ...(manifest as Manifest),
+        checked_at: new Date().toISOString(),
+      };
+      await kv.put('v1:manifest', JSON.stringify(next));
       logger.info('Manifest unchanged; skipping build');
       return;
     }
@@ -180,9 +206,20 @@ export async function scheduled(
   }
   try {
     const artifacts = await buildArtifacts();
-    await writeArtifactsToKV(kv, artifacts);
-    await warmLatestCache(artifacts);
-    logger.info(`Artifacts built and cached (version=${artifacts.version})`);
+    const manifest = await readManifest(kv);
+    if (manifest?.etag && manifest.etag === (artifacts.etag || '')) {
+      // Content unchanged; only mark checked_at
+      const next: Manifest = {
+        ...(manifest as Manifest),
+        checked_at: new Date().toISOString(),
+      };
+      await kv.put('v1:manifest', JSON.stringify(next));
+      logger.info('Artifacts unchanged after build; updated checked_at');
+    } else {
+      await writeArtifactsToKV(kv, artifacts);
+      await warmLatestCache(artifacts);
+      logger.info(`Artifacts built and cached (version=${artifacts.version})`);
+    }
   } catch (e) {
     logger.error('Failed to build artifacts', e);
     // swallow to avoid failing the cron

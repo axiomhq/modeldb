@@ -190,11 +190,12 @@ function calculateStats(modelsList: Model[]) {
 // Build home page
 export function buildHome(
   modelsList: Model[],
-  modelsMetadata: { generated_at: string }
+  modelsMetadata: { generated_at: string },
+  lastChecked?: string
 ): string {
   const stats = calculateStats(modelsList);
   const lastUpdated = new Date(modelsMetadata.generated_at).toISOString();
-  const lastChecked = new Date().toISOString();
+  const lastCheckedVal = lastChecked ?? new Date().toISOString();
   const maxProviderCount = Math.max(
     ...stats.providerCounts.map((p) => p.count)
   );
@@ -208,6 +209,27 @@ export function buildHome(
   <meta name="description" content="ModelDB - Free API for AI model information including provider details, costs, context windows, and capabilities">
   <title>ModelDB - AI Model Information API</title>
   <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:image" content="/ogimage.png">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/ogimage.png">
+  <link rel="image_src" href="/ogimage.png">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        } else if (saved === 'auto') {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <style>
     @font-face {
       font-family: "Berkeley Mono";
@@ -267,6 +289,12 @@ export function buildHome(
       }
     }
 
+    /* Explicit theme override takes precedence over media query */
+    :root[data-theme='dark'] body { background-color: #0a0a0a; color: #fafafa; }
+    :root[data-theme='dark'] a { color: #fafafa; }
+    :root[data-theme='light'] body { background-color: #ffffff; color: #000000; }
+    :root[data-theme='light'] a { color: #000000; }
+
     @media (max-width: 768px) {
       body {
         margin: 0;
@@ -309,7 +337,7 @@ export function buildHome(
 <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px; z-index: 999; background: inherit; color: inherit; padding: 8px; text-decoration: underline;">Skip to main content</a>
 <header role="banner">
 <pre>
-<a href="https://axiom.co" aria-label="Axiom homepage">Axiom, Inc.</a>                                             <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>
+<a href="https://axiom.co" aria-label="Axiom homepage">Axiom, Inc.</a>                                     <a href="#" id="theme-switch" aria-label="Theme: automatic" title="Theme: automatic">◌</a>  <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>  <a href="https://api.axiom.co" aria-label="ModelDB API documentation">API</a>
 </pre>
 </header>
 <main id="main-content" role="main">
@@ -351,7 +379,7 @@ export function buildHome(
      ▸ <b>No authentication required</b>
      ▸ Synced hourly
      ▸ Last Updated: <b>${lastUpdated}</b>
-     ▸ Last Checked: <b>${lastChecked}</b>
+     ▸ Last Checked: <b>${lastCheckedVal}</b>
 
 </pre>
 <section aria-label="Database Statistics">
@@ -558,6 +586,49 @@ ${'═'.repeat(62)}
 </pre>
 </section>
 </main>
+<script>
+  (function () {
+    var anchor = document.getElementById('theme-switch');
+    if (!anchor) return;
+    function storedMode() {
+      try { return localStorage.getItem('theme') || 'auto'; } catch (e) { return 'auto'; }
+    }
+    function apply(mode) {
+      if (mode === 'light' || mode === 'dark') {
+        document.documentElement.setAttribute('data-theme', mode);
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+      }
+      try { localStorage.setItem('theme', mode); } catch (e) {}
+    }
+    function iconFor(mode) {
+      if (mode === 'light') return '○';
+      if (mode === 'dark') return '●';
+      return 'A'; // auto
+    }
+    function labelFor(mode) {
+      if (mode === 'light') return 'Theme: light';
+      if (mode === 'dark') return 'Theme: dark';
+      return 'Theme: automatic';
+    }
+    function update(mode) {
+      anchor.textContent = iconFor(mode);
+      anchor.setAttribute('aria-label', labelFor(mode));
+      anchor.title = labelFor(mode);
+    }
+    function nextMode(mode) {
+      return mode === 'auto' ? 'light' : mode === 'light' ? 'dark' : 'auto';
+    }
+    var mode = storedMode();
+    update(mode);
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      mode = nextMode(mode);
+      apply(mode);
+      update(mode);
+    });
+  })();
+</script>
 </body>
 </html>`;
 }

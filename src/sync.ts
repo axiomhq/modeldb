@@ -237,12 +237,34 @@ export function transformModel(
   return base as Model;
 }
 
+function stableStringify(obj: unknown): string {
+  if (obj === null || typeof obj !== 'object') {
+    return JSON.stringify(obj);
+  }
+  if (Array.isArray(obj)) {
+    return `[${obj.map((v) => stableStringify(v)).join(',')}]`;
+  }
+  const rec = obj as Record<string, unknown>;
+  const entries = Object.keys(rec)
+    .sort()
+    .map((k) => `${JSON.stringify(k)}:${stableStringify(rec[k])}`);
+  return `{${entries.join(',')}}`;
+}
+
+function djb2Hash(str: string): string {
+  let hash = 5381;
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash * 33) ^ str.charCodeAt(i);
+  }
+  return (hash >>> 0).toString(16);
+}
+
 async function fetchLiteLLM(sourceUrl: string): Promise<{
   etag: string | null;
   models: Record<string, LiteLLMModel>;
 }> {
   const res = await fetch(sourceUrl, { cf: { cacheTtl: 0 } });
-  const etag = res.headers.get('etag');
+  const serverEtag = res.headers.get('etag');
   const json = (await res.json()) as Record<string, unknown>;
   if ('sample_spec' in json) {
     (json as Record<string, unknown>).sample_spec = undefined;
@@ -255,6 +277,8 @@ async function fetchLiteLLM(sourceUrl: string): Promise<{
       parsed[k] = result.data;
     }
   }
+  const signature = djb2Hash(stableStringify(json));
+  const etag = serverEtag || signature;
   return { etag, models: parsed };
 }
 
@@ -330,6 +354,7 @@ export async function buildArtifacts(
 export type Manifest = {
   latest: string | null;
   etag: string | null;
+  checked_at: string | null;
   versions: Array<{
     id: string;
     generated_at: string;
@@ -357,11 +382,13 @@ export async function writeArtifactsToKV(
   const current = (await readManifest(kv)) || {
     latest: null,
     etag: null,
+    checked_at: null,
     versions: [],
   };
   const next: Manifest = {
     latest: version,
     etag: etag || null,
+    checked_at: new Date().toISOString(),
     versions: [
       ...current.versions,
       {

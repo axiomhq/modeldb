@@ -19,6 +19,9 @@
   "vars": {
     "ENV": "dev"
   },
+  "assets": {
+    "directory": "public"
+  },
   "env": {
     "production": {
       "triggers": {
