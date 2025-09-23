@@ -337,7 +337,7 @@ export function buildHome(
 <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px; z-index: 999; background: inherit; color: inherit; padding: 8px; text-decoration: underline;">Skip to main content</a>
 <header role="banner">
 <pre>
-<a href="https://axiom.co" aria-label="Axiom homepage">Axiom, Inc.</a>                                     <a href="#" id="theme-switch" aria-label="Theme: automatic" title="Theme: automatic">◌</a>  <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>  <a href="https://api.axiom.co" aria-label="ModelDB API documentation">API</a>
+<a href="https://axiom.co" aria-label="Axiom homepage">Axiom, Inc.</a>                                     <a href="#" id="theme-switch" aria-label="Theme: automatic" title="Theme: automatic">◌</a>  <a href="https://github.com/axiomhq/modeldb" aria-label="ModelDB GitHub repository">GitHub</a>  <a href="https://modeldb.axiom.co/ui" aria-label="ModelDB API documentation">API</a>
 </pre>
 </header>
 <main id="main-content" role="main">
