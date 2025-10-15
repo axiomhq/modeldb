@@ -189,16 +189,39 @@ export function generateDisplayName(modelId: string): string {
     return DISPLAY_NAMES[modelId];
   }
 
-  let name = modelId;
-  if (modelId.indexOf('/') > -1) {
-    const parts = modelId.split('/');
-    const last = parts.at(-1) || modelId;
-    name = DISPLAY_NAMES[last] || last;
+  // Handle fine-tuned models (e.g., "ft:gpt-4o-mini-2024-07-18")
+  let isFineTuned = false;
+  let baseModelId = modelId;
+  if (modelId.startsWith('ft:')) {
+    isFineTuned = true;
+    baseModelId = modelId.substring(3); // Remove "ft:" prefix
   }
 
-  return name
-    .split('-')
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ')
-    .replace(/Gpt/gi, 'GPT');
+  let name = baseModelId;
+
+  // Check if base model has a display name
+  if (DISPLAY_NAMES[baseModelId]) {
+    name = DISPLAY_NAMES[baseModelId];
+  } else if (baseModelId.indexOf('/') > -1) {
+    // Handle slash-separated IDs
+    const parts = baseModelId.split('/');
+    const last = parts.at(-1) || baseModelId;
+    name = DISPLAY_NAMES[last] || last;
+    // Apply title-case transformation to slash-separated IDs
+    name = name
+      .split('-')
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+      .replace(/Gpt/gi, 'GPT');
+  } else {
+    // Auto-generate name from ID
+    name = baseModelId
+      .split('-')
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+      .replace(/Gpt/gi, 'GPT');
+  }
+
+  // Add fine-tuned suffix if applicable
+  return isFineTuned ? `${name} [Fine-tuned]` : name;
 }
