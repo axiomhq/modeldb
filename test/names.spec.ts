@@ -83,6 +83,41 @@ describe('name generation utilities', () => {
       });
     });
 
+    describe('fine-tuned models', () => {
+      it('should handle base model without ft: prefix', () => {
+        expect(generateDisplayName('gpt-4o-mini-2024-07-18')).toBe(
+          'GPT-4o mini (Jul 2024)'
+        );
+        expect(generateDisplayName('gpt-3.5-turbo')).toBe('GPT 3.5T');
+        expect(generateDisplayName('gpt-4')).toBe('GPT-4');
+      });
+
+      it('should add [Fine-tuned] suffix to models with ft: prefix', () => {
+        expect(generateDisplayName('ft:gpt-4o-mini-2024-07-18')).toBe(
+          'GPT-4o mini (Jul 2024) [Fine-tuned]'
+        );
+        expect(generateDisplayName('ft:gpt-3.5-turbo')).toBe(
+          'GPT 3.5T [Fine-tuned]'
+        );
+        expect(generateDisplayName('ft:gpt-4')).toBe('GPT-4 [Fine-tuned]');
+      });
+
+      it('should handle fine-tuned models with auto-generated names', () => {
+        expect(generateDisplayName('ft:unknown-model-v2')).toBe(
+          'Unknown Model V2 [Fine-tuned]'
+        );
+        expect(generateDisplayName('ft:new-test-model')).toBe(
+          'New Test Model [Fine-tuned]'
+        );
+      });
+
+      it('should handle fine-tuned Anthropic models', () => {
+        expect(generateDisplayName('ft:claude-3-opus-20240229')).toBe(
+          'Claude 3 Opus (Feb 2024) [Fine-tuned]'
+        );
+      });
+    });
+
     describe('auto-generated names', () => {
       it('should capitalize words separated by hyphens', () => {
         expect(generateDisplayName('new-model-name')).toBe('New Model Name');
