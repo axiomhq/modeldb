@@ -28,7 +28,7 @@
   "dependencies": {
     "@hono/zod-openapi": "^1.0.0",
     "@scalar/hono-api-reference": "^0.9.11",
-    "hono": "^4.9.7",
+    "hono": "^4.10.3",
     "zod": "^4.0.5"
   }
 }
