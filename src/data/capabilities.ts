@@ -1,5 +1,5 @@
 // Auto-generated file - do not edit manually
-// Generated at: 2025-09-18T17:31:20.623Z
+// Generated at: 2025-10-15T12:44:43.477Z
 
 export const ALL_CAPABILITIES = [
   "supports_assistant_prefill",
@@ -15,6 +15,7 @@ export const ALL_CAPABILITIES = [
   "supports_prompt_caching",
   "supports_reasoning",
   "supports_response_schema",
+  "supports_service_tier",
   "supports_system_messages",
   "supports_tool_choice",
   "supports_url_context",
@@ -37,6 +38,7 @@ export const CAPABILITY_FRIENDLY_NAMES = {
   "prompt_caching": "supports_prompt_caching",
   "reasoning": "supports_reasoning",
   "response_schema": "supports_response_schema",
+  "service_tier": "supports_service_tier",
   "system_messages": "supports_system_messages",
   "tool_choice": "supports_tool_choice",
   "url_context": "supports_url_context",
