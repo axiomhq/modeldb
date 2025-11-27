@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { generateDisplayName } from '../scripts/names';
-import { getProviderDisplayName } from '../scripts/providers';
+import { generateDisplayName, getProviderDisplayName } from '../scripts/names';
 
 describe('name generation utilities', () => {
   describe('generateDisplayName', () => {

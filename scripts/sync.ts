@@ -6,8 +6,7 @@ import { Command } from 'commander';
 import ora from 'ora';
 import { z } from 'zod';
 import type { Model } from '../src/schema';
-import { generateDisplayName } from './names';
-import { getProviderDisplayName } from './providers';
+import { generateDisplayName, getProviderDisplayName } from './names';
 
 const LITELLM_MODEL_URL =
   'https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/model_prices_and_context_window.json';
