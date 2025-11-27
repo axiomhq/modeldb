@@ -52,7 +52,7 @@ describe('name generation utilities', () => {
           'Mistral Large'
         );
         expect(generateDisplayName('mistral-7b')).toBe('Mistral 7B');
-        expect(generateDisplayName('mixtral-8x7b')).toBe('Mixtral 8x7b');
+        expect(generateDisplayName('mixtral-8x7b')).toBe('Mixtral 8x7B');
         expect(generateDisplayName('codestral-latest')).toBe('Codestral');
       });
     });
