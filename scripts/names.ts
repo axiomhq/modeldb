@@ -184,6 +184,80 @@ const DISPLAY_NAMES: Record<string, string> = {
   'command-light-text-v14': 'Command Light',
 };
 
+const MONTH_NAMES = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
+
+// Matches date patterns like "2024-07-18" or "20240718" at the end of a string
+const DATE_PATTERN = /[-_]?(\d{4})[-_]?(\d{2})[-_]?(\d{2})$/;
+
+// Matches YYMM patterns like "2501" (Jan 2025) at the end, but only after a separator
+const SHORT_DATE_PATTERN = /[-_](\d{2})(\d{2})$/;
+
+/**
+ * Extracts and formats a date suffix from a model ID.
+ * Returns [idWithoutDate, formattedDateSuffix] or [originalId, ''] if no date found.
+ */
+function extractDateSuffix(modelId: string): [string, string] {
+  // Try full date pattern first (YYYY-MM-DD or YYYYMMDD)
+  const fullMatch = modelId.match(DATE_PATTERN);
+  if (fullMatch) {
+    const [fullPattern, year, month] = fullMatch;
+    const monthIndex = Number.parseInt(month, 10) - 1;
+    if (monthIndex >= 0 && monthIndex < 12) {
+      const idWithoutDate = modelId.slice(0, -fullPattern.length);
+      return [idWithoutDate, `(${MONTH_NAMES[monthIndex]} ${year})`];
+    }
+  }
+
+  // Try short date pattern (YYMM like "2501" for Jan 2025)
+  const shortMatch = modelId.match(SHORT_DATE_PATTERN);
+  if (shortMatch) {
+    const [fullPattern, yy, mm] = shortMatch;
+    const monthIndex = Number.parseInt(mm, 10) - 1;
+    if (monthIndex >= 0 && monthIndex < 12) {
+      const year = `20${yy}`;
+      const idWithoutDate = modelId.slice(0, -fullPattern.length);
+      return [idWithoutDate, `(${MONTH_NAMES[monthIndex]} ${year})`];
+    }
+  }
+
+  return [modelId, ''];
+}
+
+/**
+ * Applies smart title-casing to a model name, preserving known acronyms
+ * and handling special cases like version numbers.
+ */
+function smartTitleCase(name: string): string {
+  return (
+    name
+      .split('-')
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+      // Fix common acronyms and brand names
+      .replace(/\bGpt\b/gi, 'GPT')
+      .replace(/\bGPT (\d[\d.]*)/g, 'GPT-$1') // GPT 5 -> GPT-5, GPT 5.1 -> GPT-5.1
+      .replace(/\bLlama\b/gi, 'Llama')
+      .replace(/\bAi\b/g, 'AI')
+      .replace(/\bApi\b/g, 'API')
+      .replace(/\bHd\b/g, 'HD')
+      .replace(/\bTts\b/g, 'TTS')
+      .replace(/\bStt\b/g, 'STT')
+  );
+}
+
 export function generateDisplayName(modelId: string): string {
   if (DISPLAY_NAMES[modelId]) {
     return DISPLAY_NAMES[modelId];
@@ -203,23 +277,41 @@ export function generateDisplayName(modelId: string): string {
   if (DISPLAY_NAMES[baseModelId]) {
     name = DISPLAY_NAMES[baseModelId];
   } else if (baseModelId.indexOf('/') > -1) {
-    // Handle slash-separated IDs
+    // Handle slash-separated IDs (e.g., "azure/gpt-5-2025-08-07")
     const parts = baseModelId.split('/');
     const last = parts.at(-1) || baseModelId;
-    name = DISPLAY_NAMES[last] || last;
-    // Apply title-case transformation to slash-separated IDs
-    name = name
-      .split('-')
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ')
-      .replace(/Gpt/gi, 'GPT');
+
+    // Check dictionary for the last part
+    if (DISPLAY_NAMES[last]) {
+      name = DISPLAY_NAMES[last];
+    } else {
+      // Extract date and apply smart formatting
+      const [idWithoutDate, dateSuffix] = extractDateSuffix(last);
+      if (DISPLAY_NAMES[idWithoutDate]) {
+        name = dateSuffix
+          ? `${DISPLAY_NAMES[idWithoutDate]} ${dateSuffix}`
+          : DISPLAY_NAMES[idWithoutDate];
+      } else {
+        name = smartTitleCase(idWithoutDate);
+        if (dateSuffix) {
+          name = `${name} ${dateSuffix}`;
+        }
+      }
+    }
   } else {
-    // Auto-generate name from ID
-    name = baseModelId
-      .split('-')
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ')
-      .replace(/Gpt/gi, 'GPT');
+    // Extract date suffix and check dictionary for base name
+    const [idWithoutDate, dateSuffix] = extractDateSuffix(baseModelId);
+    if (DISPLAY_NAMES[idWithoutDate]) {
+      name = dateSuffix
+        ? `${DISPLAY_NAMES[idWithoutDate]} ${dateSuffix}`
+        : DISPLAY_NAMES[idWithoutDate];
+    } else {
+      // Auto-generate name from ID with smart title-casing
+      name = smartTitleCase(idWithoutDate);
+      if (dateSuffix) {
+        name = `${name} ${dateSuffix}`;
+      }
+    }
   }
 
   // Add fine-tuned suffix if applicable
