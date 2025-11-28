@@ -3,6 +3,7 @@
   This module is worker-safe (no Node APIs) and can run in scheduled jobs.
 */
 import { z } from 'zod';
+import { generateDisplayName, getProviderDisplayName } from './names';
 import type { Model, Providers } from './schema';
 
 export const LITELLM_MODEL_URL =
@@ -130,10 +131,6 @@ function getModelType(
   return modelTypeMap.get(mode) || mode;
 }
 
-function toTitleCase(s: string): string {
-  return s.replaceAll('-', ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
 function applyCapabilities(
   target: Record<string, unknown>,
   source: Record<string, unknown>,
@@ -204,9 +201,9 @@ export function transformModel(
   const base: Record<string, unknown> & Partial<Model> = {
     ...litellmModel,
     model_id: modelId,
-    model_name: toTitleCase(modelId),
+    model_name: generateDisplayName(modelId),
     provider_id: providerId,
-    provider_name: toTitleCase(providerId),
+    provider_name: getProviderDisplayName(providerId),
     max_input_tokens: litellmModel.max_input_tokens || null,
     max_output_tokens: litellmModel.max_output_tokens || null,
     input_cost_per_token: inputCost,

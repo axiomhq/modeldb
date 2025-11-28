@@ -1,5 +1,5 @@
 // Auto-generated file - do not edit manually
-// Generated at: 2025-10-15T12:44:43.477Z
+// Generated at: 2025-11-27T23:44:46.280Z
 
 export const ALL_CAPABILITIES = [
   "supports_assistant_prefill",

@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { generateDisplayName } from '../scripts/names';
-import { getProviderDisplayName } from '../scripts/providers';
+import { generateDisplayName, getProviderDisplayName } from '../scripts/names';
 
 describe('name generation utilities', () => {
   describe('generateDisplayName', () => {
@@ -52,14 +51,14 @@ describe('name generation utilities', () => {
           'Mistral Large'
         );
         expect(generateDisplayName('mistral-7b')).toBe('Mistral 7B');
-        expect(generateDisplayName('mixtral-8x7b')).toBe('Mixtral 8x7b');
+        expect(generateDisplayName('mixtral-8x7b')).toBe('Mixtral 8x7B');
         expect(generateDisplayName('codestral-latest')).toBe('Codestral');
       });
     });
 
     describe('slash-separated model IDs', () => {
       it('should handle provider/model format', () => {
-        expect(generateDisplayName('openai/gpt-4')).toBe('GPT 4');
+        expect(generateDisplayName('openai/gpt-4')).toBe('GPT-4');
         expect(generateDisplayName('anthropic/claude-3-opus-latest')).toBe(
           'Claude 3 Opus'
         );
@@ -76,7 +75,7 @@ describe('name generation utilities', () => {
       });
 
       it('should handle multiple slashes', () => {
-        expect(generateDisplayName('org/provider/gpt-4')).toBe('GPT 4');
+        expect(generateDisplayName('org/provider/gpt-4')).toBe('GPT-4');
         expect(generateDisplayName('a/b/c/unknown-model')).toBe(
           'Unknown Model'
         );
@@ -124,10 +123,21 @@ describe('name generation utilities', () => {
         expect(generateDisplayName('test-v1-beta')).toBe('Test V1 Beta');
       });
 
-      it('should handle GPT capitalization', () => {
+      it('should handle GPT capitalization with hyphen', () => {
         expect(generateDisplayName('gpt-unknown')).toBe('GPT Unknown');
         expect(generateDisplayName('new-gpt-model')).toBe('New GPT Model');
-        expect(generateDisplayName('gptmodel')).toBe('GPTmodel');
+        // Single word without hyphens - title-cased but GPT regex uses word boundaries
+        expect(generateDisplayName('gptmodel')).toBe('Gptmodel');
+      });
+
+      it('should format GPT-N with hyphen (GPT-5, GPT-6, etc.)', () => {
+        expect(generateDisplayName('gpt-5')).toBe('GPT-5');
+        expect(generateDisplayName('gpt-5-mini')).toBe('GPT-5 Mini');
+        expect(generateDisplayName('gpt-5-nano')).toBe('GPT-5 Nano');
+        expect(generateDisplayName('gpt-6')).toBe('GPT-6');
+        // Decimal versions should also have hyphen
+        expect(generateDisplayName('gpt-5.1')).toBe('GPT-5.1');
+        expect(generateDisplayName('gpt-5.1-codex')).toBe('GPT-5.1 Codex');
       });
 
       it('should handle single word models', () => {
@@ -139,6 +149,50 @@ describe('name generation utilities', () => {
         expect(generateDisplayName('model--name')).toBe('Model  Name');
         expect(generateDisplayName('-start')).toBe(' Start');
         expect(generateDisplayName('end-')).toBe('End ');
+      });
+    });
+
+    describe('date pattern detection', () => {
+      it('should detect and format YYYY-MM-DD date patterns', () => {
+        expect(generateDisplayName('gpt-5-2025-08-07')).toBe('GPT-5 (Aug 2025)');
+        expect(generateDisplayName('gpt-5-mini-2025-08-07')).toBe(
+          'GPT-5 Mini (Aug 2025)'
+        );
+        expect(generateDisplayName('model-2024-01-15')).toBe(
+          'Model (Jan 2024)'
+        );
+        expect(generateDisplayName('test-2023-12-31')).toBe(
+          'Test (Dec 2023)'
+        );
+      });
+
+      it('should detect and format YYMM short date patterns', () => {
+        expect(generateDisplayName('mistral-small-2501')).toBe(
+          'Mistral Small (Jan 2025)'
+        );
+        expect(generateDisplayName('model-2412')).toBe('Model (Dec 2024)');
+      });
+
+      it('should handle date patterns in slash-separated IDs', () => {
+        expect(generateDisplayName('azure/gpt-5-2025-08-07')).toBe(
+          'GPT-5 (Aug 2025)'
+        );
+        expect(generateDisplayName('openrouter/openai/gpt-5-mini-2025-08-07')).toBe(
+          'GPT-5 Mini (Aug 2025)'
+        );
+      });
+
+      it('should use dictionary name with date suffix when base is in dictionary', () => {
+        // gpt-4o is in dictionary as "GPT-4o"
+        expect(generateDisplayName('gpt-4o-2024-11-20')).toBe(
+          'GPT-4o (Nov 2024)'
+        );
+      });
+
+      it('should handle fine-tuned models with dates', () => {
+        expect(generateDisplayName('ft:gpt-5-2025-08-07')).toBe(
+          'GPT-5 (Aug 2025) [Fine-tuned]'
+        );
       });
     });
 
