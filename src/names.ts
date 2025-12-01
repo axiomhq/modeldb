@@ -32,9 +32,14 @@ const DISPLAY_NAMES: Record<string, string> = {
   'claude-3-7-sonnet-latest': 'Claude 3.7 Sonnet', // dot version, drop -latest
   'claude-3-5-haiku-latest': 'Claude 3.5 Haiku',
   'claude-3-5-sonnet-latest': 'Claude 3.5 Sonnet',
+  'claude-3-5-haiku': 'Claude 3.5 Haiku', // base name for Bedrock IDs
+  'claude-3-5-sonnet': 'Claude 3.5 Sonnet', // base name for Bedrock IDs
   'claude-3-opus-latest': 'Claude 3 Opus',
   'claude-3-sonnet-20240229': 'Claude 3 Sonnet', // drop date
   'claude-3-haiku-20240307': 'Claude 3 Haiku',
+  'claude-3-haiku': 'Claude 3 Haiku', // base name for Bedrock IDs
+  'claude-3-sonnet': 'Claude 3 Sonnet', // base name for Bedrock IDs
+  'claude-3-opus': 'Claude 3 Opus', // base name for Bedrock IDs
   'claude-instant-1.2': 'Claude Instant 1.2',
   'claude-instant-1': 'Claude Instant 1',
 
@@ -94,12 +99,17 @@ const DISPLAY_NAMES: Record<string, string> = {
   'nous-hermes-llama2-13b': 'Nous: Hermes 13B',
   'mythomax-l2-13b': 'MythoMax-L2 (13B)',
 
-  // AWS Bedrock - version suffixes
+  // AWS Bedrock - version suffixes and base names
   'nova-pro-v1:0': 'Nova Pro',
   'nova-micro-v1:0': 'Nova Micro',
   'nova-lite-v1:0': 'Nova Lite',
+  'nova-pro': 'Nova Pro',
+  'nova-micro': 'Nova Micro',
+  'nova-lite': 'Nova Lite',
   'command-r-plus-v1:0': 'Command R+',
   'command-r-v1:0': 'Command R',
+  'command-r-plus': 'Command R+', // base name for Bedrock IDs
+  'command-r': 'Command R', // base name for Bedrock IDs
 };
 
 const PROVIDER_NAMES: Record<string, string> = {
@@ -175,6 +185,49 @@ const DATE_PATTERN = /[-_]?(\d{4})[-_]?(\d{2})[-_]?(\d{2})$/;
 // Matches YYMM patterns like "2501" (Jan 2025) at the end, but only after a separator
 const SHORT_DATE_PATTERN = /[-_](\d{2})(\d{2})$/;
 
+// Matches Bedrock-style date in middle: "20241022" followed by version like "-v1:0"
+const BEDROCK_DATE_VERSION_PATTERN = /[-_](\d{4})(\d{2})(\d{2})[-_]v\d+:\d+$/;
+
+// Bedrock region/provider prefixes to strip (e.g., "us.anthropic.", "eu.meta.")
+const BEDROCK_PREFIX_PATTERN = /^(us|eu|apac|ap|sa)\.([a-z]+)\./i;
+
+// Provider-only prefix (e.g., "anthropic.claude" -> "claude")
+const PROVIDER_PREFIX_PATTERN = /^(anthropic|meta|cohere|mistral|ai21|amazon|stability)\./i;
+
+/**
+ * Cleans up Bedrock-style model IDs by stripping region/provider prefixes
+ * and version suffixes, extracting embedded dates.
+ * Returns [cleanedId, dateSuffix] where dateSuffix may be empty.
+ */
+function cleanBedrockId(modelId: string): [string, string] {
+  let cleaned = modelId;
+  let dateSuffix = '';
+
+  // Strip region.provider prefix (e.g., "us.anthropic." or "eu.meta.")
+  cleaned = cleaned.replace(BEDROCK_PREFIX_PATTERN, '');
+
+  // Strip provider-only prefix (e.g., "anthropic." when no region)
+  cleaned = cleaned.replace(PROVIDER_PREFIX_PATTERN, '');
+
+  // Handle Bedrock date+version pattern (e.g., "-20241022-v1:0")
+  const bedrockMatch = cleaned.match(BEDROCK_DATE_VERSION_PATTERN);
+  if (bedrockMatch) {
+    const [fullMatch, year, month, _day] = bedrockMatch;
+    const monthIndex = Number.parseInt(month, 10) - 1;
+    if (monthIndex >= 0 && monthIndex < 12) {
+      dateSuffix = `(${MONTH_NAMES[monthIndex]} ${year})`;
+      cleaned = cleaned.slice(0, -fullMatch.length);
+    }
+  }
+
+  // Strip trailing version suffix if no date was extracted (e.g., "-v1:0")
+  if (!dateSuffix) {
+    cleaned = cleaned.replace(/[-_]v\d+:\d+$/, '');
+  }
+
+  return [cleaned, dateSuffix];
+}
+
 /**
  * Extracts and formats a date suffix from a model ID.
  * Returns [idWithoutDate, formattedDateSuffix] or [originalId, ''] if no date found.
@@ -242,11 +295,22 @@ export function generateDisplayName(modelId: string): string {
     baseModelId = modelId.substring(3); // Remove "ft:" prefix
   }
 
+  // Clean Bedrock-style IDs (e.g., "us.anthropic.claude-3-5-haiku-20241022-v1:0")
+  const [cleanedId, bedrockDateSuffix] = cleanBedrockId(baseModelId);
+  if (cleanedId !== baseModelId) {
+    baseModelId = cleanedId;
+  }
+
   let name = baseModelId;
+
+  // Helper to append date suffix to name
+  const appendDateSuffix = (baseName: string, dateSuffix: string): string => {
+    return dateSuffix ? `${baseName} ${dateSuffix}` : baseName;
+  };
 
   // Check if base model has a display name
   if (DISPLAY_NAMES[baseModelId]) {
-    name = DISPLAY_NAMES[baseModelId];
+    name = appendDateSuffix(DISPLAY_NAMES[baseModelId], bedrockDateSuffix);
   } else if (baseModelId.indexOf('/') > -1) {
     // Handle slash-separated IDs (e.g., "azure/gpt-5-2025-08-07")
     const parts = baseModelId.split('/');
@@ -254,34 +318,28 @@ export function generateDisplayName(modelId: string): string {
 
     // Check dictionary for the last part
     if (DISPLAY_NAMES[last]) {
-      name = DISPLAY_NAMES[last];
+      name = appendDateSuffix(DISPLAY_NAMES[last], bedrockDateSuffix);
     } else {
       // Extract date and apply smart formatting
       const [idWithoutDate, dateSuffix] = extractDateSuffix(last);
+      const effectiveDateSuffix = bedrockDateSuffix || dateSuffix;
       if (DISPLAY_NAMES[idWithoutDate]) {
-        name = dateSuffix
-          ? `${DISPLAY_NAMES[idWithoutDate]} ${dateSuffix}`
-          : DISPLAY_NAMES[idWithoutDate];
+        name = appendDateSuffix(DISPLAY_NAMES[idWithoutDate], effectiveDateSuffix);
       } else {
         name = smartTitleCase(idWithoutDate);
-        if (dateSuffix) {
-          name = `${name} ${dateSuffix}`;
-        }
+        name = appendDateSuffix(name, effectiveDateSuffix);
       }
     }
   } else {
     // Extract date suffix and check dictionary for base name
     const [idWithoutDate, dateSuffix] = extractDateSuffix(baseModelId);
+    const effectiveDateSuffix = bedrockDateSuffix || dateSuffix;
     if (DISPLAY_NAMES[idWithoutDate]) {
-      name = dateSuffix
-        ? `${DISPLAY_NAMES[idWithoutDate]} ${dateSuffix}`
-        : DISPLAY_NAMES[idWithoutDate];
+      name = appendDateSuffix(DISPLAY_NAMES[idWithoutDate], effectiveDateSuffix);
     } else {
       // Auto-generate name from ID with smart title-casing
       name = smartTitleCase(idWithoutDate);
-      if (dateSuffix) {
-        name = `${name} ${dateSuffix}`;
-      }
+      name = appendDateSuffix(name, effectiveDateSuffix);
     }
   }
 

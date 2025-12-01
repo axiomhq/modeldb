@@ -213,6 +213,43 @@ describe('name generation utilities', () => {
         expect(generateDisplayName('model.with.dots')).toBe('Model.with.dots');
       });
     });
+
+    describe('Bedrock-style model IDs', () => {
+      it('should strip region.provider prefix', () => {
+        expect(generateDisplayName('us.anthropic.claude-3-5-haiku-20241022-v1:0')).toBe(
+          'Claude 3.5 Haiku (Oct 2024)'
+        );
+        // Note: llama3 (no hyphen) produces Llama3 - dictionary entries handle common variants
+        expect(generateDisplayName('eu.meta.llama3-70b-instruct-v1:0')).toBe(
+          'Llama3 70B Instruct'
+        );
+      });
+
+      it('should strip provider-only prefix', () => {
+        expect(generateDisplayName('anthropic.claude-3-5-sonnet-20241022-v2:0')).toBe(
+          'Claude 3.5 Sonnet (Oct 2024)'
+        );
+      });
+
+      it('should handle Bedrock version suffixes without embedded date', () => {
+        expect(generateDisplayName('amazon.nova-pro-v1:0')).toBe('Nova Pro');
+        expect(generateDisplayName('amazon.nova-micro-v1:0')).toBe('Nova Micro');
+      });
+
+      it('should handle APAC and SA regions', () => {
+        expect(generateDisplayName('apac.anthropic.claude-3-haiku-20240307-v1:0')).toBe(
+          'Claude 3 Haiku (Mar 2024)'
+        );
+        expect(generateDisplayName('ap.cohere.command-r-plus-v1:0')).toBe(
+          'Command R+'
+        );
+      });
+
+      it('should use dictionary lookup after cleaning Bedrock prefix', () => {
+        // nova-pro-v1:0 is in dictionary as 'Nova Pro'
+        expect(generateDisplayName('amazon.nova-pro-v1:0')).toBe('Nova Pro');
+      });
+    });
   });
 
   describe('getProviderDisplayName', () => {
