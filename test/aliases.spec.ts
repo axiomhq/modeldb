@@ -248,4 +248,13 @@ describe('resolveModelId preserves vendor-specific entries', () => {
     );
     expect(result).toBe('claude-opus-4-5-20251101');
   });
+
+  it('nonexistent date falls back to latest via base_latest', () => {
+    const result = resolveModelId(
+      'claude-opus-4-5-20240101',
+      modelsMap,
+      aliases
+    );
+    expect(result).toBe('claude-opus-4-5-20251101');
+  });
 });
