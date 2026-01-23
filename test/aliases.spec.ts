@@ -197,3 +197,55 @@ describe('resolveModelId', () => {
     expect(result).toBe('gpt-4');
   });
 });
+
+describe('resolveModelId preserves vendor-specific entries', () => {
+  const modelsMap: Record<string, Model> = {
+    'claude-opus-4-5-20251101': mockModel('claude-opus-4-5-20251101'),
+    'openrouter/anthropic/claude-opus-4.5': mockModel(
+      'openrouter/anthropic/claude-opus-4.5'
+    ),
+    'anthropic.claude-opus-4-5-20251101-v1:0': mockModel(
+      'anthropic.claude-opus-4-5-20251101-v1:0'
+    ),
+    'azure/claude-opus-4-5': mockModel('azure/claude-opus-4-5'),
+  };
+
+  const aliases: AliasesArtifact = {
+    aliases: {},
+    base_latest: {
+      'claude-opus-4-5': 'claude-opus-4-5-20251101',
+    },
+  };
+
+  it('openrouter entry matches exactly, not stripped to base', () => {
+    const result = resolveModelId(
+      'openrouter/anthropic/claude-opus-4.5',
+      modelsMap,
+      aliases
+    );
+    expect(result).toBe('openrouter/anthropic/claude-opus-4.5');
+  });
+
+  it('bedrock entry matches exactly', () => {
+    const result = resolveModelId(
+      'anthropic.claude-opus-4-5-20251101-v1:0',
+      modelsMap,
+      aliases
+    );
+    expect(result).toBe('anthropic.claude-opus-4-5-20251101-v1:0');
+  });
+
+  it('azure entry matches exactly', () => {
+    const result = resolveModelId('azure/claude-opus-4-5', modelsMap, aliases);
+    expect(result).toBe('azure/claude-opus-4-5');
+  });
+
+  it('unknown gateway falls back to base via stripping', () => {
+    const result = resolveModelId(
+      'vercel/anthropic/claude-opus-4.5',
+      modelsMap,
+      aliases
+    );
+    expect(result).toBe('claude-opus-4-5-20251101');
+  });
+});
