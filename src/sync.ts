@@ -3,6 +3,7 @@
   This module is worker-safe (no Node APIs) and can run in scheduled jobs.
 */
 import { z } from 'zod';
+import { type AliasesArtifact, buildAliasesArtifact } from './aliases';
 import { generateDisplayName, getProviderDisplayName } from './names';
 import type { Model, Providers } from './schema';
 
@@ -285,6 +286,7 @@ export type BuiltArtifacts = {
   modelsMap: Record<string, Model>;
   modelsList: Model[];
   modelsByProvider: Providers;
+  aliases: AliasesArtifact;
   metadata: {
     source: string;
     generated_at: string;
@@ -330,6 +332,8 @@ export async function buildArtifacts(
     );
   }
 
+  const aliases = buildAliasesArtifact(sortedMap);
+
   const version = `${generated_at.replace(/[-:TZ.]/g, '').slice(0, 14)}Z`;
   return {
     version,
@@ -339,6 +343,7 @@ export async function buildArtifacts(
     modelsByProvider: Object.fromEntries(
       Object.entries(providers).sort(([a], [b]) => a.localeCompare(b))
     ),
+    aliases,
     metadata: {
       source: sourceUrl,
       generated_at,
@@ -369,11 +374,19 @@ export async function writeArtifactsToKV(
   kv: KVNamespace,
   artifacts: BuiltArtifacts
 ): Promise<Manifest> {
-  const { version, modelsMap, modelsList, modelsByProvider, metadata, etag } =
-    artifacts;
+  const {
+    version,
+    modelsMap,
+    modelsList,
+    modelsByProvider,
+    aliases,
+    metadata,
+    etag,
+  } = artifacts;
   await kv.put(`v1:${version}:map`, JSON.stringify(modelsMap));
   await kv.put(`v1:${version}:list`, JSON.stringify(modelsList));
   await kv.put(`v1:${version}:providers`, JSON.stringify(modelsByProvider));
+  await kv.put(`v1:${version}:aliases`, JSON.stringify(aliases));
   await kv.put(`v1:${version}:metadata`, JSON.stringify(metadata));
 
   const current = (await readManifest(kv)) || {
@@ -417,6 +430,7 @@ export async function warmLatestCache(
     ['/cache/v1/latest/list.json', artifacts.modelsList],
     ['/cache/v1/latest/map.json', artifacts.modelsMap],
     ['/cache/v1/latest/providers.json', artifacts.modelsByProvider],
+    ['/cache/v1/latest/aliases.json', artifacts.aliases],
     ['/cache/v1/latest/metadata.json', artifacts.metadata],
   ];
   for (const [p, data] of entries) {

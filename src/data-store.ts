@@ -1,4 +1,5 @@
 import type { Context } from 'hono';
+import { type AliasesArtifact, EMPTY_ALIASES } from './aliases';
 import { modelsList as staticList } from './data/list';
 import { modelsMap as staticMap } from './data/map';
 import { modelsMetadata as staticMetadata } from './data/metadata';
@@ -66,7 +67,7 @@ async function getLatestVersion(c: Context): Promise<string | null> {
 
 async function getFromCacheOrKV<T>(
   c: Context,
-  name: 'list' | 'map' | 'providers' | 'metadata'
+  name: 'list' | 'map' | 'providers' | 'metadata' | 'aliases'
 ): Promise<T | null> {
   const cachePath = `/cache/v1/latest/${name}.json`;
   const cached = await cacheGetJSON<T>(cachePath);
@@ -86,6 +87,8 @@ async function getFromCacheOrKV<T>(
         return staticProviders as unknown as T;
       case 'metadata':
         return staticMetadata as unknown as T;
+      case 'aliases':
+        return EMPTY_ALIASES as unknown as T;
       default:
         return null;
     }
@@ -110,6 +113,8 @@ async function getFromCacheOrKV<T>(
       return staticProviders as unknown as T;
     case 'metadata':
       return staticMetadata as unknown as T;
+    case 'aliases':
+      return EMPTY_ALIASES as unknown as T;
     default:
       return null;
   }
@@ -121,5 +126,6 @@ export function getDataStore(c: Context) {
     getMap: async () => getFromCacheOrKV<Record<string, Model>>(c, 'map'),
     getProviders: async () => getFromCacheOrKV<Providers>(c, 'providers'),
     getMetadata: async () => getFromCacheOrKV<Metadata>(c, 'metadata'),
+    getAliases: async () => getFromCacheOrKV<AliasesArtifact>(c, 'aliases'),
   };
 }

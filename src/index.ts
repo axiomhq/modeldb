@@ -151,6 +151,7 @@ app.get('/admin/health', async (c) => {
     '/cache/v1/latest/list.json',
     '/cache/v1/latest/map.json',
     '/cache/v1/latest/providers.json',
+    '/cache/v1/latest/aliases.json',
     '/cache/v1/latest/metadata.json',
   ];
   const cacheChecks = await Promise.all(
@@ -168,7 +169,8 @@ app.get('/admin/health', async (c) => {
       list: Boolean(cacheChecks[0]),
       map: Boolean(cacheChecks[1]),
       providers: Boolean(cacheChecks[2]),
-      metadata: Boolean(cacheChecks[3]),
+      aliases: Boolean(cacheChecks[3]),
+      metadata: Boolean(cacheChecks[4]),
     },
   });
 });

@@ -1,5 +1,6 @@
 import { createRoute, type OpenAPIHono } from '@hono/zod-openapi';
 import { z } from 'zod';
+import { EMPTY_ALIASES, resolveModelId } from './aliases';
 import { objectsToCSV, safeParseQueryCSV } from './csv';
 import {
   CAPABILITY_FRIENDLY_NAMES,
@@ -252,8 +253,16 @@ export function registerModelsRoutes(app: OpenAPIHono) {
     const query = c.req.valid('query');
 
     const store = getDataStore(c);
-    const map = (await store.getMap()) ?? {};
-    const model = map?.[id];
+    const [map, aliases] = await Promise.all([
+      store.getMap(),
+      store.getAliases(),
+    ]);
+    const modelsMap = map ?? {};
+    const aliasesArtifact = aliases ?? EMPTY_ALIASES;
+
+    // Try exact match first, then alias resolution
+    const resolvedId = resolveModelId(id, modelsMap, aliasesArtifact);
+    const model = resolvedId ? modelsMap[resolvedId] : null;
 
     if (!model) {
       if (query.format === 'csv') {
