@@ -1,17 +1,28 @@
 // Auto-generated file - do not edit manually
-// Generated at: 2025-11-27T23:44:46.280Z
+// Generated at: 2026-05-07T04:24:17.225Z
 
 export const ALL_CAPABILITIES = [
+  "supports_adaptive_thinking",
   "supports_assistant_prefill",
   "supports_audio_input",
   "supports_audio_output",
+  "supports_code_execution",
   "supports_computer_use",
   "supports_embedding_image_input",
+  "supports_file_search",
   "supports_function_calling",
   "supports_image_input",
+  "supports_low_reasoning_effort",
+  "supports_max_reasoning_effort",
+  "supports_minimal_reasoning_effort",
+  "supports_multimodal",
   "supports_native_streaming",
+  "supports_native_structured_output",
+  "supports_none_reasoning_effort",
+  "supports_nova_canvas_image_edit",
   "supports_parallel_function_calling",
   "supports_pdf_input",
+  "supports_preset",
   "supports_prompt_caching",
   "supports_reasoning",
   "supports_response_schema",
@@ -21,20 +32,32 @@ export const ALL_CAPABILITIES = [
   "supports_url_context",
   "supports_video_input",
   "supports_vision",
-  "supports_web_search"
+  "supports_web_search",
+  "supports_xhigh_reasoning_effort"
 ] as const;
 
 export const CAPABILITY_FRIENDLY_NAMES = {
+  "adaptive_thinking": "supports_adaptive_thinking",
   "assistant_prefill": "supports_assistant_prefill",
   "audio_input": "supports_audio_input",
   "audio_output": "supports_audio_output",
+  "code_execution": "supports_code_execution",
   "computer_use": "supports_computer_use",
   "embedding_image_input": "supports_embedding_image_input",
+  "file_search": "supports_file_search",
   "function_calling": "supports_function_calling",
   "image_input": "supports_image_input",
+  "low_reasoning_effort": "supports_low_reasoning_effort",
+  "max_reasoning_effort": "supports_max_reasoning_effort",
+  "minimal_reasoning_effort": "supports_minimal_reasoning_effort",
+  "multimodal": "supports_multimodal",
   "native_streaming": "supports_native_streaming",
+  "native_structured_output": "supports_native_structured_output",
+  "none_reasoning_effort": "supports_none_reasoning_effort",
+  "nova_canvas_image_edit": "supports_nova_canvas_image_edit",
   "parallel_function_calling": "supports_parallel_function_calling",
   "pdf_input": "supports_pdf_input",
+  "preset": "supports_preset",
   "prompt_caching": "supports_prompt_caching",
   "reasoning": "supports_reasoning",
   "response_schema": "supports_response_schema",
@@ -44,7 +67,8 @@ export const CAPABILITY_FRIENDLY_NAMES = {
   "url_context": "supports_url_context",
   "video_input": "supports_video_input",
   "vision": "supports_vision",
-  "web_search": "supports_web_search"
+  "web_search": "supports_web_search",
+  "xhigh_reasoning_effort": "supports_xhigh_reasoning_effort"
 } as const;
 
 export const LEGACY_CAPABILITY_MAP = {
