@@ -1,5 +1,5 @@
 // Auto-generated file - do not edit manually
-// Generated at: 2025-11-27T23:44:46.281Z
+// Generated at: 2026-05-07T04:24:17.234Z
 
 export const ALL_MODEL_TYPES = [
   "audio",
@@ -7,8 +7,10 @@ export const ALL_MODEL_TYPES = [
   "completion",
   "embedding",
   "image",
+  "image_edit",
   "moderation",
   "ocr",
+  "realtime",
   "rerank",
   "responses",
   "search",
@@ -27,7 +29,9 @@ export const MODEL_TYPE_MAPPING = {
   "rerank": "rerank",
   "responses": "responses",
   "ocr": "ocr",
+  "image_edit": "image_edit",
   "search": "search",
+  "realtime": "realtime",
   "video_generation": "video_generation",
   "vector_store": "vector_store"
 } as const;
