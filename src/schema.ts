@@ -41,6 +41,35 @@ export const ModelSchema = z
     cache_write_cost_per_token: z.number().nullable().optional(),
     cache_write_cost_per_million: z.number().nullable().optional(),
 
+    input_cost_per_token_above_200k_tokens: z
+      .number()
+      .nullable()
+      .optional()
+      .describe(
+        'Input cost per token in USD when the prompt exceeds 200k tokens; null if the model has no long-context price (0 with fill-with-zeros, the default)'
+      ),
+    output_cost_per_token_above_200k_tokens: z
+      .number()
+      .nullable()
+      .optional()
+      .describe(
+        'Output cost per token in USD when the prompt exceeds 200k tokens; null if the model has no long-context price (0 with fill-with-zeros, the default)'
+      ),
+    cache_read_input_token_cost_above_200k_tokens: z
+      .number()
+      .nullable()
+      .optional()
+      .describe(
+        'Cache read cost per token in USD when the prompt exceeds 200k tokens; null if the model has no long-context price (0 with fill-with-zeros, the default)'
+      ),
+    cache_creation_input_token_cost_above_200k_tokens: z
+      .number()
+      .nullable()
+      .optional()
+      .describe(
+        'Cache write cost per token in USD when the prompt exceeds 200k tokens; null if the model has no long-context price (0 with fill-with-zeros, the default)'
+      ),
+
     supports_function_calling: z.boolean().default(false),
     supports_vision: z.boolean().default(false),
     supports_json_mode: z.boolean().default(false),

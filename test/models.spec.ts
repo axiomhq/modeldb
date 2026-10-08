@@ -256,6 +256,66 @@ describe('/api/v1/models endpoint', () => {
     });
   });
 
+  describe('Long-context (above 200k) price fields', () => {
+    const tierFields = [
+      'input_cost_per_token_above_200k_tokens',
+      'output_cost_per_token_above_200k_tokens',
+      'cache_read_input_token_cost_above_200k_tokens',
+      'cache_creation_input_token_cost_above_200k_tokens',
+    ];
+    const project = `model_id,${tierFields.join(',')}`;
+
+    it('should fill missing tier prices with zeros so CSV cells are never empty', async () => {
+      const response = await makeRequest(
+        app,
+        `/api/v1/models?format=csv&headers=true&fill-with-zeros&project=${project}`
+      );
+      const rows = parseCSV(await expectCSV(response));
+
+      expect(rows.length).toBeGreaterThan(0);
+      for (const row of rows) {
+        for (const field of tierFields) {
+          expect(row[field]).not.toBe('');
+          expect(Number.isNaN(Number(row[field]))).toBe(false);
+        }
+      }
+    });
+
+    it('should return null for missing tier prices when fill-with-zeros=false', async () => {
+      const response = await makeRequest(
+        app,
+        `/api/v1/models?providers=openai&fill-with-zeros=false&project=${project}`
+      );
+      const models = await expectJSON(response);
+
+      const gpt4 = models.find((m) => m.model_id === 'gpt-4');
+      expect(gpt4).toEqual({
+        model_id: 'gpt-4',
+        input_cost_per_token_above_200k_tokens: null,
+        output_cost_per_token_above_200k_tokens: null,
+        cache_read_input_token_cost_above_200k_tokens: null,
+        cache_creation_input_token_cost_above_200k_tokens: null,
+      });
+    });
+
+    it('should return tier prices for models that have them', async () => {
+      const response = await makeRequest(
+        app,
+        `/api/v1/models?providers=anthropic&project=${project}`
+      );
+      const models = await expectJSON(response);
+
+      const sonnet = models.find((m) => m.model_id === 'claude-sonnet-4-5');
+      expect(sonnet).toEqual({
+        model_id: 'claude-sonnet-4-5',
+        input_cost_per_token_above_200k_tokens: 0.000_006,
+        output_cost_per_token_above_200k_tokens: 0.000_022_5,
+        cache_read_input_token_cost_above_200k_tokens: 6e-7,
+        cache_creation_input_token_cost_above_200k_tokens: 0.000_007_5,
+      });
+    });
+  });
+
   describe('CSV format', () => {
     it('should return CSV format when requested', async () => {
       const response = await makeRequest(

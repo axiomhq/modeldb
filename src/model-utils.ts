@@ -11,6 +11,14 @@ function isNumericField(fieldName: string): boolean {
 }
 
 /**
+ * Keep a numeric price as-is (including a genuine 0) and map anything else to
+ * null. Used for optional LiteLLM fields that are not validated by its schema.
+ */
+export function toNullableNumber(value: unknown): number | null {
+  return typeof value === 'number' && Number.isFinite(value) ? value : null;
+}
+
+/**
  * Replace null values with 0 for numeric fields in the model
  */
 export function fillNullsWithZeros<T>(obj: T): T {
