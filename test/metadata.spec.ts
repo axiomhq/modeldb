@@ -93,6 +93,26 @@ describe('/api/openapi.json endpoint', () => {
     expect(spec.components).toBeDefined();
   });
 
+  it('should document the long-context (above 200k) price fields as nullable numbers', async () => {
+    const response = await makeRequest(app, '/openapi.json');
+    const spec = await expectJSON(response);
+
+    const properties =
+      spec.paths['/api/v1/models'].get.responses['200'].content[
+        'application/json'
+      ].schema.items.properties;
+
+    for (const field of [
+      'input_cost_per_token_above_200k_tokens',
+      'output_cost_per_token_above_200k_tokens',
+      'cache_read_input_token_cost_above_200k_tokens',
+      'cache_creation_input_token_cost_above_200k_tokens',
+    ]) {
+      expect(properties[field].type).toEqual(['number', 'null']);
+      expect(properties[field].description).toContain('200k');
+    }
+  });
+
   it('should document query parameters', async () => {
     const response = await makeRequest(app, '/openapi.json');
     const spec = await expectJSON(response);

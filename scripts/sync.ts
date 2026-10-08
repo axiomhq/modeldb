@@ -5,6 +5,7 @@ import chalk from 'chalk';
 import { Command } from 'commander';
 import ora from 'ora';
 import { z } from 'zod';
+import { toNullableNumber } from '../src/model-utils';
 import type { Model } from '../src/schema';
 import { generateDisplayName, getProviderDisplayName } from './names';
 
@@ -183,6 +184,9 @@ export function transformModel(
 
   const inputCost = litellmModel.input_cost_per_token || 0;
   const outputCost = litellmModel.output_cost_per_token || 0;
+  // `??` rather than `||` so that a genuine cache price of 0 stays 0
+  const cacheReadCost = litellmModel.cache_read_input_token_cost ?? null;
+  const cacheWriteCost = litellmModel.cache_creation_input_token_cost ?? null;
 
   // First, spread all fields from litellm
   const model: Model = {
@@ -206,15 +210,26 @@ export function transformModel(
     output_cost_per_million: outputCost * 1_000_000,
 
     // Cache pricing (optional)
-    cache_read_cost_per_token: litellmModel.cache_read_input_token_cost || null,
-    cache_read_cost_per_million: litellmModel.cache_read_input_token_cost
-      ? litellmModel.cache_read_input_token_cost * 1_000_000
-      : null,
-    cache_write_cost_per_token:
-      litellmModel.cache_creation_input_token_cost || null,
-    cache_write_cost_per_million: litellmModel.cache_creation_input_token_cost
-      ? litellmModel.cache_creation_input_token_cost * 1_000_000
-      : null,
+    cache_read_cost_per_token: cacheReadCost,
+    cache_read_cost_per_million:
+      cacheReadCost === null ? null : cacheReadCost * 1_000_000,
+    cache_write_cost_per_token: cacheWriteCost,
+    cache_write_cost_per_million:
+      cacheWriteCost === null ? null : cacheWriteCost * 1_000_000,
+
+    // Long-context (prompt above 200k tokens) pricing tiers
+    input_cost_per_token_above_200k_tokens: toNullableNumber(
+      litellmModel.input_cost_per_token_above_200k_tokens
+    ),
+    output_cost_per_token_above_200k_tokens: toNullableNumber(
+      litellmModel.output_cost_per_token_above_200k_tokens
+    ),
+    cache_read_input_token_cost_above_200k_tokens: toNullableNumber(
+      litellmModel.cache_read_input_token_cost_above_200k_tokens
+    ),
+    cache_creation_input_token_cost_above_200k_tokens: toNullableNumber(
+      litellmModel.cache_creation_input_token_cost_above_200k_tokens
+    ),
 
     // Model type
     model_type: getModelType(litellmModel.mode, modelTypeMap || new Map()),
